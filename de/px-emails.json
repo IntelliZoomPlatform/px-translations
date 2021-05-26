@@ -9,14 +9,14 @@
             "doubleOptIn": {
                 "subject": "Willkommen zu IntelliZoom Panel",
                 "title": "Hallo {{user.name}}, Willkommen zu IntelliZoom Panel!",
-                "bodyCopy": "<strong>Klicke hier um Dein Konto zu aktivieren.</strong>\n\nAus Sicherheitsgründen wird dieser Link nach 24 Stunden oder einmaliger Benützung ungültig.",
+                "bodyCopy": "<strong>Klicke hier um Dein Konto zu aktivieren.</strong><br>Aus Sicherheitsgründen wird dieser Link nach 24 Stunden oder einmaliger Benützung ungültig.",
                 "cta": "Konto aktivieren",
-                "closing": "Tschüss!\n\nIntelliZoom Panel Team"
+                "closing": "Tschüss!<br>IntelliZoom Panel Team"
             },
             "reset": {
                 "subject": "Passwort zurücksetzen",
                 "title": "Hast Du Dein Passwort vergessen?",
-                "bodyCopy": "Das ist in Ordnung und passiert uns allen. Klicke einfach auf die Schaltfläche unten um Dein Passwort zurückzusetzen und fertig. Solltest Du diese Anfrage nicht getätigt haben, bitte ignoriere dieses E-Mail.\n\nAus Sicherheitsgründen wird dieser Link nach 24 Stunden oder einmaliger Benützung ungültig.",
+                "bodyCopy": "Das ist in Ordnung und passiert uns allen. Klicke einfach auf die Schaltfläche unten um Dein Passwort zurückzusetzen und fertig. Solltest Du diese Anfrage nicht getätigt haben, bitte ignoriere dieses E-Mail.<br>Aus Sicherheitsgründen wird dieser Link nach 24 Stunden oder einmaliger Benützung ungültig.",
                 "cta": "Passwort zurücksetzen"
             },
             "studyInvitation": {
@@ -25,7 +25,7 @@
                 "bodyCopy": "Bist Du bereit uns Dein Feedback zu geben und {{studyFee}} zu verdienen?",
                 "cta": "Nimm teil!",
                 "studyID": "Studien ID zur Referenz: {{projectId}}",
-                "closing": "Tschüss!\n\nIntelliZoom Panel Team"
+                "closing": "Tschüss!<br>IntelliZoom Panel Team"
             },
             "studyComplete": {
                 "subject": "Danke, dass Du uns Deine Meinung mitteilst",
@@ -89,7 +89,7 @@
             "excludedParticipation": {
                 "subject": "Deine Teilnahme wurde nicht genehmigt",
                 "title": "Hallo {{user.name}}, einer Deiner Einträge wurde nicht genehmigt.",
-                "bodyCopy": "Es tut uns leid, dir mitzuteilen, dass deine Teilnahme an der Studie {{projectId}} nicht genehmigt wurde und du den Anreiz der Studie nicht erhalten wirst. <br /><br /> Dies kann ein Ergebnis eines oder mehrerer der folgenden Szenarien sein: <ul> <li>Du hast vielleicht nicht laut gedacht wie gefordert.</li> <li>Du hast vielleicht nicht genug Zeit für die Durchführung der geforderten Aufgaben oder Fragebögen verwendet.</li> <li> Die technische Qualität deiner Teilnahme kann aus einem oder mehreren der folgenden Gründe schlecht oder unvollständig gewesen sein: <ul> <li>Schlechte Internetverbindung.</li> <li>Schlechte Mikrofon- oder Kameraqualität.</li> <li>Schlechte Gesamtqualität als Folge von zu vielen Fenstern, Tabs oder Apps, die gleichzeitig auf deinem Gerät laufen.</li> </ul> </li> </ul> Um zu vermeiden, dass dies in Zukunft noch einmal passiert, schau dir bitte diese <a class='text-link' href='https://help.intellizoom.com/hc/{{user.locale}}/categories/360000100658'>Best-Practice-Empfehlungen</a> in unserem Hilfe-Center an. <br /><br /> Lass dich nicht entmutigen! Beim nächsten Mal stelle sicher, dass dein Gerät für die Studie bereit ist und du ein qualitativ hochwertiges Feedback gibst."
+                "bodyCopy": "Es tut uns leid, dir mitzuteilen, dass deine Teilnahme an der Studie {{projectId}} nicht genehmigt wurde und du den Anreiz der Studie nicht erhalten wirst.\n\nDies kann ein Ergebnis eines oder mehrerer der folgenden Szenarien sein:\n\n* Du hast vielleicht nicht laut gedacht wie gefordert.\n* Du hast vielleicht nicht genug Zeit für die Durchführung der geforderten Aufgaben oder Fragebögen verwendet.\n* Die technische Qualität deiner Teilnahme kann aus einem oder mehreren der folgenden Gründe schlecht oder unvollständig gewesen sein:\n  * Schlechte Internetverbindung.\n  * Schlechte Mikrofon- oder Kameraqualität.\n  * Schlechte Gesamtqualität als Folge von zu vielen Fenstern, Tabs oder Apps, die gleichzeitig auf deinem Gerät laufen.\n\nUm zu vermeiden, dass dies in Zukunft noch einmal passiert, schau dir bitte diese [Best-Practice-Empfehlungen](https://help.intellizoom.com/hc/de/categories/360000100658) in unserem Hilfe-Center an.\n\nLass dich nicht entmutigen! Beim nächsten Mal stelle sicher, dass dein Gerät für die Studie bereit ist und du ein qualitativ hochwertiges Feedback gibst."
             }
         }
     }
