@@ -4,7 +4,12 @@
             "footer": {
                 "support": "Hilfe!",
                 "copyright": "IntelliZoom Panel wird betrieben von UserZoom Technologies, Inc. © 2019\n10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A.",
-                "unsubscribe": "Von unseren E-Mails abmelden"
+                "unsubscribe": "Von unseren E-Mails abmelden",
+                "termsOfService": "<a href= ‘https://www.userzoom.com/terms-of-use/{{user.locale}}/requests/new’ class='text-link'>Nutzungsbedingungen</a>\n",
+                "privacyPolicy": "<a href= 'https://www.userzoom.com/privacy-policy/{{user.locale}}/requests/new' class='text-link'>Datenschutzerklärung</a>",
+                "address": "10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A. <br> © 2021 UserZoom",
+                "thankYou": "Vielen Dank, <br> UserZoom Team",
+                "help": ""
             },
             "doubleOptIn": {
                 "subject": "Willkommen zu IntelliZoom Panel",
@@ -90,6 +95,129 @@
                 "subject": "Deine Teilnahme wurde nicht genehmigt",
                 "title": "Hallo {{user.name}}, einer Deiner Einträge wurde nicht genehmigt.",
                 "bodyCopy": "Es tut uns leid, dir mitzuteilen, dass deine Teilnahme an der Studie {{projectId}} nicht genehmigt wurde und du den Anreiz der Studie nicht erhalten wirst.\n\nDies kann ein Ergebnis eines oder mehrerer der folgenden Szenarien sein:\n\n* Du hast vielleicht nicht laut gedacht wie gefordert.\n* Du hast vielleicht nicht genug Zeit für die Durchführung der geforderten Aufgaben oder Fragebögen verwendet.\n* Die technische Qualität deiner Teilnahme kann aus einem oder mehreren der folgenden Gründe schlecht oder unvollständig gewesen sein:\n  * Schlechte Internetverbindung.\n  * Schlechte Mikrofon- oder Kameraqualität.\n  * Schlechte Gesamtqualität als Folge von zu vielen Fenstern, Tabs oder Apps, die gleichzeitig auf deinem Gerät laufen.\n\nUm zu vermeiden, dass dies in Zukunft noch einmal passiert, schau dir bitte diese [Best-Practice-Empfehlungen](https://help.intellizoom.com/hc/de/categories/360000100658) in unserem Hilfe-Center an.\n\nLass dich nicht entmutigen! Beim nächsten Mal stelle sicher, dass dein Gerät für die Studie bereit ist und du ein qualitativ hochwertiges Feedback gibst."
+            },
+            "finishConfirmation": {
+                "subject": "AKTIVITÄT ERFORDERLICH: Bitte bestätige deine Session",
+                "generic": {
+                    "hi": "Hallo {{name}}!",
+                    "oneMoreStep": "Ein letzter Schritt! Bestätige deine Session",
+                    "selectedDay": "Vielen Dank für dein Interesse an dieser {{sessionDuration}}-minütigen Session! Du hast den folgenden Tag und Uhrzeit zur Teilnahme gewählt:",
+                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+                    "recommendations": "Bitte vergewissere dich, dasselbe Gerät und dieselbe WIFI-Verbindung auch während der Session zu verwenden. Wir empfehlen die Verwendung eines Headsets.",
+                    "confirm": "Session bestätigen",
+                    "alternativeLink": "Nur für den Fall, dass der Button oben nicht funktioniert ... hier ist der Link: {{confirmLink}}",
+                    "timezone": "{{timeZone}}"
+                },
+                "desktop": {
+                    "hi": "Hallo {{name}}!",
+                    "oneMoreStep": "Ein letzter Schritt! Bestätige deine Session",
+                    "thankYouForInterest": "Vielen Dank für dein Interesse an dieser {{sessionDuration}}-minütigen Session! Du hast den folgenden Tag und Uhrzeit zur Teilnahme gewählt:",
+                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+                    "youWillNeed": "Für diese Studie benötigst du: \n<ul>\n<li>Einen Computer</li>\n<li>Die neuste Version von <strong>Chrome</strong></li>\n<li>Headset</li>\n<li>Webcam</li>\n</ul>",
+                    "recommendations": "Bitte vergewissere dich, dasselbe Gerät und dieselbe WIFI-Verbindung auch während der Session zu verwenden.",
+                    "confirm": "Session bestätigen",
+                    "alternativeLink": "Nur für den Fall, dass der Button oben nicht funktioniert ... hier ist der Link: {{confirmLink}}"
+                },
+                "mobile": {
+                    "hi": "Hallo {{name}}!",
+                    "oneMoreStep": "Ein letzter Schritt! Bestätige deine Session",
+                    "thankYouForInterest": "Vielen Dank für dein Interesse an dieser {{sessionDuration}}-minütigen Session! Du hast den folgenden Tag und Uhrzeit zur Teilnahme gewählt:",
+                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+                    "youWillNeed": "For this study you will need:\n<ul>\n<li>Handy oder Tablet</li>\n<li>Genügend Akku oder das Gerät angeschlossen</li>\n<li>Headset</li>\n</ul>",
+                    "recommendations": "Bitte vergewissere dich, dasselbe Gerät und dieselbe WIFI-Verbindung auch während der Session zu verwenden.",
+                    "confirm": "Session bestätigen"
+                }
+            },
+            "participationConfirmed": {
+                "subject": "Teilnahme bestätigt! Dein Platz ist reserviert",
+                "generic": {
+                    "hi": "Hallo {{name}}!",
+                    "participationConfirmed": "Deine Teilnahme is bestätigt!",
+                    "scheduled": "Du bist an folgendem Tag und Uhrzeit eingeplant:",
+                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+                    "recommendations": {
+                        "youWillNeed": "Du benötigst die aktuelle Version von Chrome wenn Du von einem Desktop-Computer aus teilnimmst oder ein mobiles Endgerät mit genügend Batterie für eine mobile Session.",
+                        "environment": "Bitte stelle auch sicher, an einem gut beleuchteten, ruhigen Ort mit guter Internetverbindung zu sein. ",
+                        "ics": "Wir haben diesem Email auch eine ICS-Datei angehängt, damit du diesen Termin deinem Kalender hinzufügen kannst.",
+                        "thatsIt": "Das war's. Klicke einfach 3 Minuten bevor deine Session beginnt…"
+                    },
+                    "join": "Session beitreten",
+                    "alternativeLink": "Nur für den Fall, dass der Button oben nicht funktioniert ... hier ist der Link: {{sessionLink}}",
+                    "note": "Beachte: Solltest du nicht mehr verfügbar sein zu dieser Zeit, <a href='{{entranceLink}}'>sag' ab</a> oder <a href='{{entranceLink}}'>verschiebe</a> deine Teilnahme umgehend. "
+                },
+                "desktop": {
+                    "hi": "Hallo {{name}}!",
+                    "participationConfirmed": "Deine Teilnahme is bestätigt!",
+                    "scheduled": "Du bist an folgendem Tag und Uhrzeit eingeplant:"
+                },
+                "mobile": {
+                    "hi": "Hallo {{name}}!",
+                    "participationConfirmed": "Deine Teilnahme is bestätigt!",
+                    "scheduled": "Du bist an folgendem Tag und Uhrzeit eingeplant:"
+                }
+            },
+            "sessionCancelled": {
+                "subject": "Deine Forschungs-Session wurde abgesagt",
+                "generic": {
+                    "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt",
+                    "sorry": "Wir entschuldigen uns für eventuelle  Unannehmlichkeiten für dich.",
+                    "seeYouAgain": "Wir hoffen dich bald wieder zu sehen."
+                }
+            },
+            "sessionCancelledByModerator": {
+                "subject": "Deine Forschungs-Session wurde abgesagt",
+                "generic": {
+                    "hi": "Hallo {{name}}!",
+                    "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt",
+                    "requestedCancellation": "Der Moderator der deine Forschungs-Session leiten sollte hat deine session abgesagt.",
+                    "sorry": "Wir entschuldigen uns für eventuelle  Unannehmlichkeiten für dich.",
+                    "hope": "Wir hoffen dich bald wieder zu sehen."
+                }
+            },
+            "sessionCancelledByParticipant": {
+                "subject": "Deine Forschungs-Session wurde abgesagt",
+                "generic": {
+                    "hi": "Hallo {{name}}!",
+                    "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt",
+                    "asRequested": "Wie gewünscht haben wir deine Teilnahme an der {{sessionDuration}}-minütigen Forschungs-Session abgesagt.",
+                    "hope": "Wir hoffen dich bald wieder zu sehen."
+                }
+            },
+            "reminders": {
+                "generic": {
+                    "hi": "Hallo {{name}}!",
+                    "almostTime": "Es ist schon fast Zeit für deine Session!",
+                    "reminder": "Das ist eine Erinnerung an deine bevorstehende Forschungs-Session:"
+                },
+                "subject": {
+                    "24hbefore": "Erinnerung: Du hast eine Forschungs-Session morgen",
+                    "30mbefore": "Erinnerung: Deine Forschungs-Session startet in 30 Minuten!"
+                }
+            },
+            "reschedule": {
+                "subject": "AKTIVITÄT ERFORDERLICH: Bitte verschiebe deine Forschungs-Session",
+                "generic": {
+                    "hi": "Hallo {{name}}!",
+                    "pleaseChoose": "Bitte wähle eine neue Zeit für deine Forschungs-Session",
+                    "explanation": "Der Moderator, der deine Forschungs-Session leiten wird, bittet dich eine neue Zeit auszuwählen. <br> Bisher warst du eingeplant für:",
+                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+                    "chooseNewTime": "Wähle eine neue Zeit",
+                    "selectNoneOfDates": "Solltest du zu keiner der verfügbaren Zeiten  teilnehmen können, wähle bitte “Keine dieser Termine passt für mich” um die Session abzusagen. ",
+                    "sorry": "Wir entschuldigen uns für eventuelle  Unannehmlichkeiten für dich."
+                }
+            },
+            "confirmationReschedule": {
+                "subject": "Deine Session wurde verschoben!",
+                "generic": {
+                    "hi": "Hallo {{name}}!",
+                    "participationHasBeenrescheduled": "Deine Teilnahme wurde verschoben",
+                    "newDetails": "Das sind die neuen Daten:"
+                }
+            },
+            "icsParticipant": {
+                "summary": "Moderierte Forschungs-Session",
+                "description": "Trete der Session bei: \n{{sessionLink}} \nFalls du an dieser Session nicht mehr zur geplanten Zeit teilnehmen kannst, kannst du sie mit dem folgendem Link verschieben order absagen: \n{{rescheduleLink}}",
+                "fileName": "Moderierte Forschungs-Session"
             }
         }
     }
