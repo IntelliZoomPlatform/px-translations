@@ -4,7 +4,12 @@
             "footer": {
                 "support": "¡Ayuda!",
                 "copyright": "IntelliZoom Panel es gestionado por UserZoom Technologies, Inc. © 2019<br>10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A",
-                "unsubscribe": "Darme de baja"
+                "unsubscribe": "Darme de baja",
+                "termsOfService": "<a href= ‘https://www.userzoom.com/terms-of-use/{{user.locale}}/requests/new’ class='text-link'>Condiciones del Servicio</a>",
+                "privacyPolicy": "<a href= 'https://www.userzoom.com/privacy-policy/{{user.locale}}/requests/new' class='text-link'>Política de Privacidad</a>",
+                "address": "10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A. <br> © 2021 UserZoom",
+                "thankYou": "Muchas gracias, <br> Equipo UserZoom",
+                "help": ""
             },
             "doubleOptIn": {
                 "subject": "Bienvenido a IntelliZoom Panel",
@@ -89,7 +94,130 @@
             "excludedParticipation": {
                 "subject": "Tu participación no ha sido aprobada",
                 "title": "Hola {{user.name}}, una de tus participaciones no ha sido aprobada",
-                "bodyCopy": "Sentimos informarte que tu participación en el estudio {{projectId}} no ha sido aprobada y por lo tanto no recibirás el incentivo del estudio. <br /><br /> Esto puede ser debido a una o más de las siguientes razones: <ul> <li>Puede que no hayas pensado en voz alta como requiere un estudio TOL.</li> <li>Puede que no hayas invertido el tiempo suficiente en las tareas y cuestionarios del estudio.</li> <li> Puede que la calidad técnica de tu participación haya sido pobre o incompleta debido a uno o más de estos casos: <ul> <li>Mala conexión a internet.</li> <li>Mala calidad de micrófono o cámara.</li> <li>Mala calidad en general de la participación debido a demasiadas ventanas, pestañas o aplicaciones abiertas al mismo tiempo en tu dispositivo.</li> </ul> </li> </ul> Para evitar que esto vuelva a pasar en el futuro, te recomendamos que eches un vistazo a estos consejos de <a class='text-link' href='https://help.intellizoom.com/hc/{{user.locale}}/categories/360000100658'>buenas prácticas</a> en nuestra página de Ayuda. <br /><br /> ¡No te desanimes! La próxima vez asegúrate de que tu dispositivo está listo para realizar el estudio y de dar tu opinión de la manera más clara posible."
+                "bodyCopy": "Sentimos informarte que tu participación en el estudio {{projectId}} no ha sido aprobada y por lo tanto no recibirás el incentivo del estudio.\n\nEsto puede ser debido a una o más de las siguientes razones:\n\n* Puede que no hayas pensado en voz alta como requiere un estudio TOL.\n* Puede que no hayas invertido el tiempo suficiente en las tareas y cuestionarios del estudio.\n* Puede que la calidad técnica de tu participación haya sido pobre o incompleta debido a uno o más de estos casos:\n  * Mala conexión a internet.\n  * Mala calidad de micrófono o cámara.\n  * Mala calidad en general de la participación debido a demasiadas ventanas, pestañas o aplicaciones abiertas al mismo tiempo en tu dispositivo.\n\nPara evitar que esto vuelva a pasar en el futuro, te recomendamos que eches un vistazo a estos consejos de [buenas prácticas](https://help.intellizoom.com/hc/es/categories/360000100658) en nuestra página de Ayuda.\n\n¡No te desanimes! La próxima vez asegúrate de que tu dispositivo está listo para realizar el estudio y de dar tu opinión de la manera más clara posible."
+            },
+            "finishConfirmation": {
+                "subject": "ACCIÓN NECESARIA: Por favor, confirma tu asistencia a la sesión",
+                "generic": {
+                    "hi": "Hola, {{name}}:",
+                    "oneMoreStep": "¡Estás a un paso! Confirma tu sesión aquí ",
+                    "selectedDay": "¡Muchas gracias por tu interés en esta sesión de {{sessionDuration}}-minutos! Has elegido participar en la siguiente hora y fecha:",
+                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+                    "recommendations": "Por favor, asegúrese de usar el mismo dispositivo y la misma conexión WIFI para participar en la sesión. También recomendamos el uso de auriculares. ",
+                    "confirm": "Confirmar sesión",
+                    "alternativeLink": "Y por si acaso el botón no sirve, podrás también confirmar con el siguiente enlace: {{confirmLink}}",
+                    "timezone": "{{timeZone}}"
+                },
+                "desktop": {
+                    "hi": "Hola, {{name}}:",
+                    "oneMoreStep": "¡Estás a un paso! Confirma tu sesión aquí ",
+                    "thankYouForInterest": "¡Muchas gracias por tu interés en esta sesión de {{sessionDuration}}-minutos! Has elegido participar en la siguiente hora y fecha:",
+                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+                    "youWillNeed": "Para este estudio te hará falta: \n<ul>\n<li>Un ordenador</li>\n<li>Última versión de <strong>Chrome</strong></li>\n<li>Auriculares</li>\n<li>Videocámara</li>\n</ul>",
+                    "recommendations": "Por favor, asegúrese de usar el mismo dispositivo y la misma conexión WIFI para participar en la sesión.",
+                    "confirm": "Confirmar sesión",
+                    "alternativeLink": "Y por si acaso el botón no sirve, podrás también confirmar con el siguiente enlace: {{confirmLink}}"
+                },
+                "mobile": {
+                    "hi": "Hola, {{name}}:",
+                    "oneMoreStep": "¡Estás a un paso! Confirma tu sesión aquí",
+                    "thankYouForInterest": "¡Muchas gracias por tu interés en esta sesión de {{sessionDuration}}-minutos! Has elegido participar en la siguiente hora y fecha:",
+                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+                    "youWillNeed": "Para este estudio te hará falta: \n<ul>\n<li>Dispositivo móvil</li>\n<li>Suficiente batería o estar enchufado</li> \n<li>Auriculares</li>\n</ul>",
+                    "recommendations": "Por favor, asegúrese de usar el mismo dispositivo y la misma conexión WIFI para participar en la sesión.",
+                    "confirm": "Confirmar sesión"
+                }
+            },
+            "participationConfirmed": {
+                "subject": "¡Participación confirmada! Tu lugar esta reservado",
+                "generic": {
+                    "hi": "Hola, {{name}}:",
+                    "participationConfirmed": "¡Tu participación ha sido confirmada!",
+                    "scheduled": "Estas citado para la siguiente hora y fecha:",
+                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+                    "recommendations": {
+                        "youWillNeed": "Necesitarás la última versión de Chrome si estarás participando desde un ordenador o un dispositivo móvil con suficiente carga para una sesión móvil.",
+                        "environment": "Por favor, asegúrese de buscar un lugar tranquilo y bien iluminado con una conexión sólida.",
+                        "ics": "También en este correo hemos adjuntado un ICS para que puedas agregar este evento a su calendario si lo desea. ",
+                        "thatsIt": "Eso es todo. 3 minutos antes de tu sesión, solo tienes que hacer clic en ..."
+                    },
+                    "join": "Entrar en la sesión",
+                    "alternativeLink": "Y por si acaso el botón no sirve, podrás también confirmar con el siguiente enlace: {{sessionLink}}",
+                    "note": "Nota: Si por algún motivo no puedes llegar a la sesión, pedimos que <a href='{{entranceLink}}'>canceles</a> o <a href='{{entranceLink}}'>modifiques</a> la hora de tu sesión lo más pronto posible. "
+                },
+                "desktop": {
+                    "hi": "Hola, {{name}}:",
+                    "participationConfirmed": "¡Tu participación ha sido confirmada!",
+                    "scheduled": "Estas citado para la siguiente hora y fecha:"
+                },
+                "mobile": {
+                    "hi": "Hola, {{name}}:",
+                    "participationConfirmed": "¡Tu participación ha sido confirmada!",
+                    "scheduled": "Estas citado para la siguiente hora y fecha:"
+                }
+            },
+            "sessionCancelled": {
+                "subject": "Tu sesión de investigación ha sido cancelada",
+                "generic": {
+                    "sessionHasBeenCancelled": "Tu sesión de investigación ha sido cancelada",
+                    "sorry": "Lamentamos cualquier inconveniencia que esto pueda haberte causado.",
+                    "seeYouAgain": "Esperamos verlo muy pronto."
+                }
+            },
+            "sessionCancelledByModerator": {
+                "subject": "Tu sesión de investigación ha sido cancelada",
+                "generic": {
+                    "hi": "Hola, {{name}}:",
+                    "sessionHasBeenCancelled": "Tu sesión de investigación ha sido cancelada",
+                    "requestedCancellation": "El moderador que iba a realizar la sesión de investigación ha cancelado tu sesión.",
+                    "sorry": "Lamentamos cualquier inconveniencia que esto pueda haberte causado. ",
+                    "hope": "Esperamos verlo muy pronto."
+                }
+            },
+            "sessionCancelledByParticipant": {
+                "subject": "Tu sesión de investigación ha sido cancelada",
+                "generic": {
+                    "hi": "Hola, {{name}}:",
+                    "sessionHasBeenCancelled": "Tu sesión de investigación ha sido cancelada",
+                    "asRequested": "Conforme a lo solicitado, hemos cancelado tu participación en la sesión de investigación de {{sessionDuration}}-minutos.",
+                    "hope": "Esperamos verlo muy pronto."
+                }
+            },
+            "reminders": {
+                "generic": {
+                    "hi": "Hola, {{name}}:",
+                    "almostTime": "¡Ya es casi la hora para tu sesión de investigación!",
+                    "reminder": "Esto es sólo un recordatorio para tu próxima sesión de investigación:"
+                },
+                "subject": {
+                    "24hbefore": "Recordatorio: Mañana tienes una sesión de investigación",
+                    "30mbefore": "Recordatorio: ¡Tu sesión de investigación comienza en 30 minutos!"
+                }
+            },
+            "reschedule": {
+                "subject": "ACCIÓN NECESARIA: Favor de reprogramar la hora de tu sesión",
+                "generic": {
+                    "hi": "Hola, {{name}}:",
+                    "pleaseChoose": "Por favor elige una nueva hora para tu sesión de investigación",
+                    "explanation": "El moderador que realizará tu sesión de investigación ha solicitado si puede elegir una nueva hora para el estudio. <br> Estabas citado previamente para el:",
+                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+                    "chooseNewTime": "Elige una nueva hora",
+                    "selectNoneOfDates": "Si no puedes asistir a ninguna de estas horas, favor seleccione “Ninguna de las fechas me funciona” para cancelar tu sesión. ",
+                    "sorry": "Lamentamos cualquier inconveniencia que esto pueda haberte causado. "
+                }
+            },
+            "confirmationReschedule": {
+                "subject": "¡Tu sesión ha sido reprogramada!",
+                "generic": {
+                    "hi": "Hola, {{name}}:",
+                    "participationHasBeenrescheduled": "Tu sesión ha sido reprogramada",
+                    "newDetails": "Aquí compartimos los nuevos detalles de tu sesión: "
+                }
+            },
+            "icsParticipant": {
+                "summary": "Sesión de investigación moderada",
+                "description": "Entrar en la sesión:\n{{sessionLink}}\nEn caso que no pueda asistir a la sesión, puede reprogramarla o cancelarla con el siguiente enlace: \n{{rescheduleLink}}",
+                "fileName": "Sesión de Investigación Moderada"
             }
         }
     }
