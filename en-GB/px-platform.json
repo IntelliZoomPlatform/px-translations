@@ -441,6 +441,84 @@
                 "title": "And... nope. The server does not respond.",
                 "description": "Sorry for the trouble. Please <1>try again</1> in a few minutes."
             }
+        },
+        "paypalToken": {
+            "dashboard": {
+                "status": {
+                    "noIntegration": {
+                        "title": "",
+                        "description": "",
+                        "cta": ""
+                    },
+                    "noTolUnverified": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "connectionLost": {
+                        "title": "",
+                        "description": "",
+                        "cta": ""
+                    }
+                },
+                "outcome": {
+                    "success": {
+                        "verified": {
+                            "title": "",
+                            "description": ""
+                        },
+                        "notVerifiedTol": {
+                            "title": "",
+                            "description": ""
+                        },
+                        "notVerifiedNoTol": {
+                            "title": "",
+                            "description": ""
+                        }
+                    },
+                    "error": {
+                        "location": {
+                            "title": "",
+                            "description": ""
+                        },
+                        "severalAccounts": {
+                            "title": "",
+                            "description": ""
+                        },
+                        "accessDenied": {
+                            "title": "",
+                            "cta": ""
+                        },
+                        "noLongerVerified": {
+                            "title": "",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "studyEntrance": {
+                "notVerified": {
+                    "title": "",
+                    "description": "",
+                    "cta": ""
+                }
+            },
+            "settings": {
+                "connect": {
+                    "title": "",
+                    "description": "",
+                    "cta": ""
+                },
+                "disconnect": {
+                    "title": "",
+                    "description": "",
+                    "cta": "",
+                    "doubleConfirmation": {
+                        "title": "",
+                        "description": "",
+                        "cta": ""
+                    }
+                }
+            }
         }
     }
 }

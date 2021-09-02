@@ -752,5 +752,12 @@
                 "shortName": "Origen étnico"
             }
         }
+    },
+    "izPanel": {
+        "common": {
+            "demographics": {
+                "billion": "millón"
+            }
+        }
     }
 }
