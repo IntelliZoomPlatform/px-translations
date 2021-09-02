@@ -220,5 +220,6 @@
                 "fileName": "Moderierte Forschungs-Session"
             }
         }
-    }
+    },
+    "unsubscribeSession": "Falls du keine Benachrichtigungen über diese Forschungs-Session mehr erhalten möchtest, klicke  <a href='{{unsubscribeLink}}'>abmelden</a>."
 }
