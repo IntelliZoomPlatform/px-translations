@@ -220,5 +220,6 @@
                 "fileName": "Moderated Research Session"
             }
         }
-    }
+    },
+    "unsubscribeSession": "If you want to stop receiving notifications about this research session, you can  <a href='{{unsubscribeLink}}'>unsubscribe</a>."
 }
