@@ -752,5 +752,12 @@
                 "shortName": "Racial or ethnic heritage"
             }
         }
+    },
+    "izPanel": {
+        "common": {
+            "demographics": {
+                "billion": "billion"
+            }
+        }
     }
 }
