@@ -220,5 +220,6 @@
                 "fileName": "Sesión de Investigación Moderada"
             }
         }
-    }
+    },
+    "unsubscribeSession": "Puedes  <a href='{{unsubscribeLink}}'>darte de baja</a> si quieres dejar de recibir notificaciones sobre esta sesión de investigación."
 }
