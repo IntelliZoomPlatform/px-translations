@@ -10,7 +10,7 @@
                 "address": "10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A. <br> © 2021 UserZoom",
                 "thankYou": "Vielen Dank, <br> UserZoom Team",
                 "help": "",
-                "unsubscribeLink": "Falls du keine Benachrichtigungen über diese Forschungs-Session mehr erhalten möchtest, klicke  <a href='{{unsubscribeLink}}'>abmelden</a>."
+                "unsubscribeStudy": "Falls du keine Benachrichtigungen über diese Forschungs-Session mehr erhalten möchtest, klicke  <a href='{{unsubscribeLink}}'>abmelden</a>."
             },
             "doubleOptIn": {
                 "subject": "Willkommen zu IntelliZoom Panel",
