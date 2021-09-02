@@ -9,7 +9,8 @@
                 "privacyPolicy": "<a href= 'https://www.userzoom.com/privacy-policy/{{user.locale}}/requests/new' class='text-link'>Datenschutzerklärung</a>",
                 "address": "10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A. <br> © 2021 UserZoom",
                 "thankYou": "Vielen Dank, <br> UserZoom Team",
-                "help": ""
+                "help": "",
+                "unsubscribeLink": "Falls du keine Benachrichtigungen über diese Forschungs-Session mehr erhalten möchtest, klicke  <a href='{{unsubscribeLink}}'>abmelden</a>."
             },
             "doubleOptIn": {
                 "subject": "Willkommen zu IntelliZoom Panel",
@@ -220,6 +221,5 @@
                 "fileName": "Moderierte Forschungs-Session"
             }
         }
-    },
-    "unsubscribeSession": "Falls du keine Benachrichtigungen über diese Forschungs-Session mehr erhalten möchtest, klicke  <a href='{{unsubscribeLink}}'>abmelden</a>."
+    }
 }
