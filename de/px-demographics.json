@@ -752,5 +752,12 @@
                 "shortName": "Rasse"
             }
         }
+    },
+    "izPanel": {
+        "common": {
+            "demographics": {
+                "billion": "milliarde"
+            }
+        }
     }
 }
