@@ -153,6 +153,16 @@
                 },
                 "recaptchaCheck": {
                     "title": "Eine Sekunde! Nur Menschen erlaubt!"
+                },
+                "moderated": {
+                    "title": "Online Interview",
+                    "description": "Du kannst Zeitfenster ansehen und jenes auswählen, das für dich am günstigsten ist.",
+                    "book": "Eine Session reservieren",
+                    "modalDescription": "In dieser Studie befindest du dich in einem Live-Videoanruf mit einem UX Forscher,  welcher dich um deine Gedanken und Meinung zu einer digitalen Erfahrung bitten wird. \nDiese Session wird ungefähr {{sessionDuration}} Minuten dauern. Du wirst auch wählen können, wann du teilnimmst, basierend auf den verfügbaren Zeitfenstern. "
+                },
+                "sessionDuration": {
+                    "title": "Sessionsdauer:",
+                    "min": "{{sessionDuration}} Minuten"
                 }
             },
             "and": "und",
