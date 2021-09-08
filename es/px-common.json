@@ -153,6 +153,16 @@
                 },
                 "recaptchaCheck": {
                     "title": "Un momento... solo se aceptan humanos."
+                },
+                "moderated": {
+                    "title": "Entrevista online",
+                    "description": "Podrás elegir la franja horaria que más te convenga. ",
+                    "book": "Reserva la sesión ",
+                    "modalDescription": "En este estudio, participarás en una videollamada en vivo con un investigador de UX que te pedirá que des tu opinión y brinde comentarios sobre una experiencia digital. \nEstá sesión durará alrededor de {{sessionDuration}} minutos. También podrás elegir cuando participar en base de las franjas horarias disponibles.  "
+                },
+                "sessionDuration": {
+                    "title": "Duración de la sesión:",
+                    "min": "{{sessionLength}} minutos"
                 }
             },
             "and": "y",
