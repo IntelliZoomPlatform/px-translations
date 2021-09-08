@@ -100,7 +100,7 @@
             "finishConfirmation": {
                 "subject": "ACCIÓN NECESARIA: Por favor, confirma tu asistencia a la sesión",
                 "generic": {
-                    "hi": "Hola, {{name}}:",
+                    "hi": "Hola, {{user.name}}:",
                     "oneMoreStep": "¡Estás a un paso! Confirma tu sesión aquí ",
                     "selectedDay": "¡Muchas gracias por tu interés en esta sesión de {{sessionDuration}}-minutos! Has elegido participar en la siguiente hora y fecha:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -110,7 +110,7 @@
                     "timezone": "{{timeZone}}"
                 },
                 "desktop": {
-                    "hi": "Hola, {{name}}:",
+                    "hi": "Hola, {{user.name}}:",
                     "oneMoreStep": "¡Estás a un paso! Confirma tu sesión aquí ",
                     "thankYouForInterest": "¡Muchas gracias por tu interés en esta sesión de {{sessionDuration}}-minutos! Has elegido participar en la siguiente hora y fecha:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -120,7 +120,7 @@
                     "alternativeLink": "Y por si acaso el botón no sirve, podrás también confirmar con el siguiente enlace: {{confirmLink}}"
                 },
                 "mobile": {
-                    "hi": "Hola, {{name}}:",
+                    "hi": "Hola, {{user.name}}:",
                     "oneMoreStep": "¡Estás a un paso! Confirma tu sesión aquí",
                     "thankYouForInterest": "¡Muchas gracias por tu interés en esta sesión de {{sessionDuration}}-minutos! Has elegido participar en la siguiente hora y fecha:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -132,7 +132,7 @@
             "participationConfirmed": {
                 "subject": "¡Participación confirmada! Tu lugar esta reservado",
                 "generic": {
-                    "hi": "Hola, {{name}}:",
+                    "hi": "Hola, {{user.name}}:",
                     "participationConfirmed": "¡Tu participación ha sido confirmada!",
                     "scheduled": "Estas citado para la siguiente hora y fecha:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -147,12 +147,12 @@
                     "note": "Nota: Si por algún motivo no puedes llegar a la sesión, pedimos que <a href='{{entranceLink}}'>canceles</a> o <a href='{{entranceLink}}'>modifiques</a> la hora de tu sesión lo más pronto posible. "
                 },
                 "desktop": {
-                    "hi": "Hola, {{name}}:",
+                    "hi": "Hola, {{user.name}}:",
                     "participationConfirmed": "¡Tu participación ha sido confirmada!",
                     "scheduled": "Estas citado para la siguiente hora y fecha:"
                 },
                 "mobile": {
-                    "hi": "Hola, {{name}}:",
+                    "hi": "Hola, {{user.name}}:",
                     "participationConfirmed": "¡Tu participación ha sido confirmada!",
                     "scheduled": "Estas citado para la siguiente hora y fecha:"
                 }
@@ -168,7 +168,7 @@
             "sessionCancelledByModerator": {
                 "subject": "Tu sesión de investigación ha sido cancelada",
                 "generic": {
-                    "hi": "Hola, {{name}}:",
+                    "hi": "Hola, {{user.name}}:",
                     "sessionHasBeenCancelled": "Tu sesión de investigación ha sido cancelada",
                     "requestedCancellation": "El moderador que iba a realizar la sesión de investigación ha cancelado tu sesión.",
                     "sorry": "Lamentamos cualquier inconveniencia que esto pueda haberte causado. ",
@@ -178,7 +178,7 @@
             "sessionCancelledByParticipant": {
                 "subject": "Tu sesión de investigación ha sido cancelada",
                 "generic": {
-                    "hi": "Hola, {{name}}:",
+                    "hi": "Hola, {{user.name}}:",
                     "sessionHasBeenCancelled": "Tu sesión de investigación ha sido cancelada",
                     "asRequested": "Conforme a lo solicitado, hemos cancelado tu participación en la sesión de investigación de {{sessionDuration}}-minutos.",
                     "hope": "Esperamos verlo muy pronto."
@@ -186,7 +186,7 @@
             },
             "reminders": {
                 "generic": {
-                    "hi": "Hola, {{name}}:",
+                    "hi": "Hola, {{user.name}}:",
                     "almostTime": "¡Ya es casi la hora para tu sesión de investigación!",
                     "reminder": "Esto es sólo un recordatorio para tu próxima sesión de investigación:"
                 },
@@ -198,7 +198,7 @@
             "reschedule": {
                 "subject": "ACCIÓN NECESARIA: Favor de reprogramar la hora de tu sesión",
                 "generic": {
-                    "hi": "Hola, {{name}}:",
+                    "hi": "Hola, {{user.name}}:",
                     "pleaseChoose": "Por favor elige una nueva hora para tu sesión de investigación",
                     "explanation": "El moderador que realizará tu sesión de investigación ha solicitado si puede elegir una nueva hora para el estudio. <br> Estabas citado previamente para el:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -210,7 +210,7 @@
             "confirmationReschedule": {
                 "subject": "¡Tu sesión ha sido reprogramada!",
                 "generic": {
-                    "hi": "Hola, {{name}}:",
+                    "hi": "Hola, {{user.name}}:",
                     "participationHasBeenrescheduled": "Tu sesión ha sido reprogramada",
                     "newDetails": "Aquí compartimos los nuevos detalles de tu sesión: "
                 }
