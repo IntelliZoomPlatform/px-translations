@@ -100,7 +100,7 @@
             "finishConfirmation": {
                 "subject": "AKTIVITÄT ERFORDERLICH: Bitte bestätige deine Session",
                 "generic": {
-                    "hi": "Hallo {{name}}!",
+                    "hi": "Hallo {{user.name}}!",
                     "oneMoreStep": "Ein letzter Schritt! Bestätige deine Session",
                     "selectedDay": "Vielen Dank für dein Interesse an dieser {{sessionDuration}}-minütigen Session! Du hast den folgenden Tag und Uhrzeit zur Teilnahme gewählt:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -110,7 +110,7 @@
                     "timezone": "{{timeZone}}"
                 },
                 "desktop": {
-                    "hi": "Hallo {{name}}!",
+                    "hi": "Hallo {{user.name}}!",
                     "oneMoreStep": "Ein letzter Schritt! Bestätige deine Session",
                     "thankYouForInterest": "Vielen Dank für dein Interesse an dieser {{sessionDuration}}-minütigen Session! Du hast den folgenden Tag und Uhrzeit zur Teilnahme gewählt:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -120,7 +120,7 @@
                     "alternativeLink": "Nur für den Fall, dass der Button oben nicht funktioniert ... hier ist der Link: {{confirmLink}}"
                 },
                 "mobile": {
-                    "hi": "Hallo {{name}}!",
+                    "hi": "Hallo {{user.name}}!",
                     "oneMoreStep": "Ein letzter Schritt! Bestätige deine Session",
                     "thankYouForInterest": "Vielen Dank für dein Interesse an dieser {{sessionDuration}}-minütigen Session! Du hast den folgenden Tag und Uhrzeit zur Teilnahme gewählt:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -132,7 +132,7 @@
             "participationConfirmed": {
                 "subject": "Teilnahme bestätigt! Dein Platz ist reserviert",
                 "generic": {
-                    "hi": "Hallo {{name}}!",
+                    "hi": "Hallo {{user.name}}!",
                     "participationConfirmed": "Deine Teilnahme is bestätigt!",
                     "scheduled": "Du bist an folgendem Tag und Uhrzeit eingeplant:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -147,12 +147,12 @@
                     "note": "Beachte: Solltest du nicht mehr verfügbar sein zu dieser Zeit, <a href='{{entranceLink}}'>sag' ab</a> oder <a href='{{entranceLink}}'>verschiebe</a> deine Teilnahme umgehend. "
                 },
                 "desktop": {
-                    "hi": "Hallo {{name}}!",
+                    "hi": "Hallo {{user.name}}!",
                     "participationConfirmed": "Deine Teilnahme is bestätigt!",
                     "scheduled": "Du bist an folgendem Tag und Uhrzeit eingeplant:"
                 },
                 "mobile": {
-                    "hi": "Hallo {{name}}!",
+                    "hi": "Hallo {{user.name}}!",
                     "participationConfirmed": "Deine Teilnahme is bestätigt!",
                     "scheduled": "Du bist an folgendem Tag und Uhrzeit eingeplant:"
                 }
@@ -168,7 +168,7 @@
             "sessionCancelledByModerator": {
                 "subject": "Deine Forschungs-Session wurde abgesagt",
                 "generic": {
-                    "hi": "Hallo {{name}}!",
+                    "hi": "Hallo {{user.name}}!",
                     "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt",
                     "requestedCancellation": "Der Moderator der deine Forschungs-Session leiten sollte hat deine session abgesagt.",
                     "sorry": "Wir entschuldigen uns für eventuelle  Unannehmlichkeiten für dich.",
@@ -178,7 +178,7 @@
             "sessionCancelledByParticipant": {
                 "subject": "Deine Forschungs-Session wurde abgesagt",
                 "generic": {
-                    "hi": "Hallo {{name}}!",
+                    "hi": "Hallo {{user.name}}!",
                     "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt",
                     "asRequested": "Wie gewünscht haben wir deine Teilnahme an der {{sessionDuration}}-minütigen Forschungs-Session abgesagt.",
                     "hope": "Wir hoffen dich bald wieder zu sehen."
@@ -186,7 +186,7 @@
             },
             "reminders": {
                 "generic": {
-                    "hi": "Hallo {{name}}!",
+                    "hi": "Hallo {{user.name}}!",
                     "almostTime": "Es ist schon fast Zeit für deine Session!",
                     "reminder": "Das ist eine Erinnerung an deine bevorstehende Forschungs-Session:"
                 },
@@ -198,7 +198,7 @@
             "reschedule": {
                 "subject": "AKTIVITÄT ERFORDERLICH: Bitte verschiebe deine Forschungs-Session",
                 "generic": {
-                    "hi": "Hallo {{name}}!",
+                    "hi": "Hallo {{user.name}}!",
                     "pleaseChoose": "Bitte wähle eine neue Zeit für deine Forschungs-Session",
                     "explanation": "Der Moderator, der deine Forschungs-Session leiten wird, bittet dich eine neue Zeit auszuwählen. <br> Bisher warst du eingeplant für:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -210,7 +210,7 @@
             "confirmationReschedule": {
                 "subject": "Deine Session wurde verschoben!",
                 "generic": {
-                    "hi": "Hallo {{name}}!",
+                    "hi": "Hallo {{user.name}}!",
                     "participationHasBeenrescheduled": "Deine Teilnahme wurde verschoben",
                     "newDetails": "Das sind die neuen Daten:"
                 }

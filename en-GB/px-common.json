@@ -153,6 +153,16 @@
                 },
                 "recaptchaCheck": {
                     "title": ""
+                },
+                "moderated": {
+                    "title": "Online interview",
+                    "description": "",
+                    "book": "Book a session",
+                    "modalDescription": ""
+                },
+                "sessionDuration": {
+                    "title": "Session duration:",
+                    "min": "{{sessionLength}} minutes"
                 }
             },
             "and": "and",
