@@ -156,9 +156,9 @@
                 },
                 "moderated": {
                     "title": "Online interview",
-                    "description": "",
+                    "description": "You will be able to view and choose a time slot that best suits you.",
                     "book": "Book a session",
-                    "modalDescription": ""
+                    "modalDescription": "In this study, you’ll be in a live video call with a UX researcher who will ask you to give your thoughts and provide feedback on a digital experience.\n\nThis session will take around {{sessionDuration}} minutes. You will also choose when to participate based on the available time slots."
                 },
                 "sessionDuration": {
                     "title": "Session duration:",
