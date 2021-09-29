@@ -3,11 +3,11 @@
         "emails": {
             "footer": {
                 "support": "Help!",
-                "copyright": "IntelliZoom Panel is operated by UserZoom Technologies, Inc. © 2019<br>10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A.",
+                "copyright": "IntelliZoom Panel is operated by UserZoom Technologies, Inc. © 2021<br>1801 Broadway, Suite 720, Denver, CO 80202 U.S.A.",
                 "unsubscribe": "Unsubscribe from our emails",
                 "termsOfService": "<a href= ‘https://www.userzoom.com/terms-of-use/{{user.locale}}/requests/new’ class='text-link'>Terms of Service</a>",
                 "privacyPolicy": "<a href= 'https://www.userzoom.com/privacy-policy/{{user.locale}}/requests/new' class='text-link'>Privacy Policy</a>",
-                "address": "10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A. <br> © 2021 UserZoom",
+                "address": "1801 Broadway, Suite 720, Denver, CO 80202 U.S.A. <br> © 2021 UserZoom",
                 "thankYou": "Thank you, <br> UserZoom Team",
                 "help": "<a href='https://participants-help.userzoom.com/hc/{{user.locale}}/requests/new'class='text-link'>Help!</a>",
                 "unsubscribeSession": "If you want to stop receiving notifications about this research session, you can  <a href='{{unsubscribeLink}}'>unsubscribe</a>."
