@@ -3,7 +3,7 @@
         "emails": {
             "footer": {
                 "support": "Hilfe!",
-                "copyright": "IntelliZoom Panel wird betrieben von UserZoom Technologies, Inc. © 2021<br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
+                "copyright": "IntelliZoom Panel wird betrieben von UserZoom Technologies, Inc. © 2019-2022 Alle Rechte vorbehalten<br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
                 "unsubscribe": "Von unseren E-Mails abmelden",
                 "termsOfService": "Nutzungsbedingungen",
                 "privacyPolicy": "Datenschutzerklärung",
@@ -220,6 +220,19 @@
                 "description": "Trete der Session bei: \n{{sessionLink}} \nFalls du an dieser Session nicht mehr zur geplanten Zeit teilnehmen kannst, kannst du sie mit dem folgendem Link verschieben order absagen: \n{{rescheduleLink}}",
                 "fileName": "Moderierte Forschungs-Session"
             }
+        }
+    },
+    "sessionCancelledByParticipant": {
+        "moderator": {
+            "scheduledFor": ""
+        }
+    },
+    "sessionCancelledByModerator": {
+        "moderator": {
+            "scheduledFor": ""
+        },
+        "participant": {
+            "scheduledFor": ""
         }
     }
 }
