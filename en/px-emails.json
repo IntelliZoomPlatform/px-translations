@@ -3,7 +3,7 @@
         "emails": {
             "footer": {
                 "support": "Help!",
-                "copyright": "IntelliZoom Panel is operated by UserZoom Technologies, Inc. © 2021<br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
+                "copyright": "IntelliZoom Panel is operated by UserZoom Technologies, Inc. © 2019-2022 All rights reserved. <br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
                 "unsubscribe": "Unsubscribe from our emails",
                 "termsOfService": "Terms of Service",
                 "privacyPolicy": "Privacy Policy",
@@ -137,7 +137,7 @@
                     "scheduled": "You’re scheduled for the following day and time:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
                     "recommendations": {
-                        "youWillNeed": "You will need the latest version of Chrome if you’re participating from a desktop computer, or a mobile device with enough battery for a mobile session.",
+                        "youWillNeed": "You'll need the latest version of Chrome, Firefox or Edge if you’re participating from a desktop computer, or a mobile device with enough battery for a mobile session.",
                         "environment": "Please make sure to be in a well-lit, quiet environment with a strong connection. ",
                         "ics": "We’ve also sent attached in this email an ICS so you can add this event to your calendar if you want.",
                         "thatsIt": "That’s it. 3 minutes before your session, you just have to click on…"
@@ -220,6 +220,19 @@
                 "description": "Enter the session:\n{{sessionLink}}\nIf you can no longer attend the session at the scheduled time you can reschedule or cancel it by following this link:\n{{rescheduleLink}}",
                 "fileName": "Moderated Research Session"
             }
+        }
+    },
+    "sessionCancelledByParticipant": {
+        "moderator": {
+            "scheduledFor": "This session was scheduled for the study {{projectName}} at the following time and date:"
+        }
+    },
+    "sessionCancelledByModerator": {
+        "moderator": {
+            "scheduledFor": "As requested, we have cancelled the session for study {{projectName}} that you were going to conduct on:"
+        },
+        "participant": {
+            "scheduledFor": "The moderator who was going to conduct your research session for study {{projectName}} has cancelled it. This session was scheduled at the following time and date:"
         }
     }
 }
