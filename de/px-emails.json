@@ -224,15 +224,15 @@
     },
     "sessionCancelledByParticipant": {
         "moderator": {
-            "scheduledFor": ""
+            "scheduledFor": "Diese Sitzung war für die Studie {{projectName}} zum folgenden Zeitpunkt und Datum geplant:"
         }
     },
     "sessionCancelledByModerator": {
         "moderator": {
-            "scheduledFor": ""
+            "scheduledFor": "Wie gewünscht, haben wir die Sitzung für das Projekt {{projectName}}, die Sie durchführen wollten, abgesagt:"
         },
         "participant": {
-            "scheduledFor": ""
+            "scheduledFor": "Der Moderator, der Ihre Recherchesitzung für das Projekt {{projectName}} durchführen sollte, hat die Sitzung abgesagt. Diese Sitzung war zum folgenden Zeitpunkt und Datum geplant:"
         }
     }
 }
