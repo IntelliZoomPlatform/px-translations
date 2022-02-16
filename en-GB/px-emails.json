@@ -3,7 +3,7 @@
         "emails": {
             "footer": {
                 "support": "Help!",
-                "copyright": "IntelliZoom Panel is operated by UserZoom Technologies, Inc. © 2021<br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
+                "copyright": "IntelliZoom Panel is operated by UserZoom Technologies, Inc. © 2019-2022 All rights reserved. <br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
                 "unsubscribe": "Unsubscribe from our emails",
                 "termsOfService": "Terms of Service",
                 "privacyPolicy": "Privacy Policy",
@@ -220,6 +220,19 @@
                 "description": "Enter the session:\n{{sessionLink}}\nIf you can no longer attend the session at the scheduled time you can reschedule or cancel it by following this link:\n{{rescheduleLink}}",
                 "fileName": "Moderated Research Session"
             }
+        }
+    },
+    "sessionCancelledByParticipant": {
+        "moderator": {
+            "scheduledFor": "This session was scheduled for the study {{projectName}} at the following time and date:"
+        }
+    },
+    "sessionCancelledByModerator": {
+        "moderator": {
+            "scheduledFor": "As requested, we have cancelled the session for project {{projectName}} that you were going to conduct on:"
+        },
+        "participant": {
+            "scheduledFor": "The moderator who was going to conduct your research session for project {{projectName}} has cancelled it. This session was scheduled at the following time and date:"
         }
     }
 }

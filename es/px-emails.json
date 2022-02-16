@@ -3,7 +3,7 @@
         "emails": {
             "footer": {
                 "support": "¡Ayuda!",
-                "copyright": "IntelliZoom Panel es gestionado por UserZoom Technologies, Inc. © 2021<br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
+                "copyright": "IntelliZoom Panel es gestionado por UserZoom Technologies, Inc. © 2019-2022 Todos los derechos reservados.<br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
                 "unsubscribe": "Darme de baja",
                 "termsOfService": "Condiciones del Servicio",
                 "privacyPolicy": "Política de Privacidad",
@@ -220,6 +220,19 @@
                 "description": "Entrar en la sesión:\n{{sessionLink}}\nEn caso que no pueda asistir a la sesión, puede reprogramarla o cancelarla con el siguiente enlace: \n{{rescheduleLink}}",
                 "fileName": "Sesión de Investigación Moderada"
             }
+        }
+    },
+    "sessionCancelledByParticipant": {
+        "moderator": {
+            "scheduledFor": "Esta sesión estaba programada para el estudio {{projectName}} en la siguiente hora y fecha: "
+        }
+    },
+    "sessionCancelledByModerator": {
+        "moderator": {
+            "scheduledFor": "Conforme a tu solicitud, hemos cancelado la sesión del estudio {{project_name}} en la que iba a participar en:"
+        },
+        "participant": {
+            "scheduledFor": "El moderador ha cancelado tu sesión de investigación del estudio {{project_name}}. Esta sesión estaba programada para la siguiente fecha y hora: "
         }
     }
 }
