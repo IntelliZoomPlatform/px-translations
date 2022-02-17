@@ -232,7 +232,7 @@
             "scheduledFor": "Wie gewünscht, haben wir die Sitzung für das Projekt {{projectName}}, die Sie durchführen wollten, abgesagt:"
         },
         "participant": {
-            "scheduledFor": "Der Moderator, der Ihre Recherchesitzung für das Projekt {{projectName}} durchführen sollte, hat die Sitzung abgesagt. Diese Sitzung war zum folgenden Zeitpunkt und Datum geplant:"
+            "scheduledFor": "Der Moderator, der Ihre Recherchesitzung mit der Studien-ID {{projectId}} durchführen sollte, hat die Sitzung abgesagt. Diese Sitzung war zum folgenden Zeitpunkt und Datum geplant:"
         }
     }
 }
