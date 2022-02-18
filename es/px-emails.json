@@ -232,7 +232,7 @@
             "scheduledFor": "Conforme a tu solicitud, hemos cancelado la sesión del estudio {{project_name}} en la que iba a participar en:"
         },
         "participant": {
-            "scheduledFor": "El moderador ha cancelado tu sesión de investigación del estudio {{project_name}}. Esta sesión estaba programada para la siguiente fecha y hora: "
+            "scheduledFor": "El moderador que iba realizar tu sesión de investigación con el ID del estudio {{projectId}} la ha cancelado. Esta sesión estaba programada a la siguiente fecha y hora: "
         }
     }
 }

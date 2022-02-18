@@ -232,7 +232,7 @@
             "scheduledFor": "As requested, we have cancelled the session for study {{projectName}} that you were going to conduct on:"
         },
         "participant": {
-            "scheduledFor": "The moderator who was going to conduct your research session for study {{projectName}} has cancelled it. This session was scheduled at the following time and date:"
+            "scheduledFor": "The moderator who was going to conduct your research session with the study ID {{projectId}} has cancelled it. This session was scheduled at the following time and date:"
         }
     }
 }
