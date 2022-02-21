@@ -162,7 +162,8 @@
                 "generic": {
                     "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt",
                     "sorry": "Wir entschuldigen uns für eventuelle  Unannehmlichkeiten für dich.",
-                    "seeYouAgain": "Wir hoffen dich bald wieder zu sehen."
+                    "seeYouAgain": "Wir hoffen dich bald wieder zu sehen.",
+                    "hi": "Hallo {{user.name}}!"
                 }
             },
             "sessionCancelledByModerator": {
@@ -219,11 +220,6 @@
                 "summary": "Moderierte Forschungs-Session",
                 "description": "Trete der Session bei: \n{{sessionLink}} \nFalls du an dieser Session nicht mehr zur geplanten Zeit teilnehmen kannst, kannst du sie mit dem folgendem Link verschieben order absagen: \n{{rescheduleLink}}",
                 "fileName": "Moderierte Forschungs-Session"
-            }
-        },
-        "emails.sessionCancelled": {
-            "generic": {
-                "hi": "Hallo {{user.name}}!"
             }
         }
     },
