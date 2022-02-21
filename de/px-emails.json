@@ -220,6 +220,11 @@
                 "description": "Trete der Session bei: \n{{sessionLink}} \nFalls du an dieser Session nicht mehr zur geplanten Zeit teilnehmen kannst, kannst du sie mit dem folgendem Link verschieben order absagen: \n{{rescheduleLink}}",
                 "fileName": "Moderierte Forschungs-Session"
             }
+        },
+        "emails.sessionCancelled": {
+            "generic": {
+                "hi": "Hallo {{user.name}}!"
+            }
         }
     },
     "sessionCancelledByParticipant": {
