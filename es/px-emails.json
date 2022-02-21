@@ -220,6 +220,11 @@
                 "description": "Entrar en la sesión:\n{{sessionLink}}\nEn caso que no pueda asistir a la sesión, puede reprogramarla o cancelarla con el siguiente enlace: \n{{rescheduleLink}}",
                 "fileName": "Sesión de Investigación Moderada"
             }
+        },
+        "emails.sessionCancelled": {
+            "generic": {
+                "hi": "Hola, {{user.name}}:"
+            }
         }
     },
     "sessionCancelledByParticipant": {
