@@ -230,12 +230,14 @@
         "participant": {
             "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt",
             "scheduledFor": "Wie gewünscht, haben wir die Sitzung mit der Studien-ID {{projectId}}, an der Sie teilnehmen wollten, abgesagt:"
-        }
+        },
+        "subject": "Deine Forschungs-Session wurde abgesagt"
     },
     "sessionCancelledByModerator": {
         "moderator": {
             "scheduledFor": "Wie gewünscht, haben wir die Sitzung für das Projekt {{projectName}}, die Sie durchführen wollten, abgesagt:",
-            "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt"
+            "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt",
+            "subject": "Deine Forschungs-Session wurde abgesagt"
         },
         "participant": {
             "scheduledFor": "Der Moderator, der Ihre Recherchesitzung mit der Studien-ID {{projectId}} durchführen sollte, hat die Sitzung abgesagt. Diese Sitzung war zum folgenden Zeitpunkt und Datum geplant:",
