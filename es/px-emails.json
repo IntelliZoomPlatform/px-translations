@@ -163,7 +163,8 @@
                     "sessionHasBeenCancelled": "Tu sesión de investigación ha sido cancelada",
                     "sorry": "Lamentamos cualquier inconveniencia que esto pueda haberte causado.",
                     "seeYouAgain": "Esperamos verlo muy pronto.",
-                    "hi": "Hola, {{user.name}}:"
+                    "hi": "Hola, {{user.name}}:",
+                    "hope": "Esperamos verlo muy pronto."
                 }
             },
             "sessionCancelledByModerator": {

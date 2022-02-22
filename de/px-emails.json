@@ -163,7 +163,8 @@
                     "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt",
                     "sorry": "Wir entschuldigen uns für eventuelle  Unannehmlichkeiten für dich.",
                     "seeYouAgain": "Wir hoffen dich bald wieder zu sehen.",
-                    "hi": "Hallo {{user.name}}!"
+                    "hi": "Hallo {{user.name}}!",
+                    "hope": "Wir hoffen dich bald wieder zu sehen."
                 }
             },
             "sessionCancelledByModerator": {
