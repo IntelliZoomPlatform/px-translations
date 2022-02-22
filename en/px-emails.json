@@ -226,6 +226,10 @@
     "sessionCancelledByParticipant": {
         "moderator": {
             "scheduledFor": "This session was scheduled for the study {{projectName}} at the following time and date:"
+        },
+        "participant": {
+            "sessionHasBeenCancelled": "Your research session has been cancelled",
+            "scheduledFor": "As requested, we have cancelled the session with study ID {{projectId}} that you were going to participate on:"
         }
     },
     "sessionCancelledByModerator": {
