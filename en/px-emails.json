@@ -163,7 +163,8 @@
                     "sessionHasBeenCancelled": "Your research session has been cancelled",
                     "sorry": "We’re sorry for the inconvenience and trouble this may cause you.",
                     "seeYouAgain": "We hope to see you again soon.",
-                    "hi": "Hi {{user.name}},"
+                    "hi": "Hi {{user.name}},",
+                    "hope": "We hope to see you again soon."
                 }
             },
             "sessionCancelledByModerator": {
