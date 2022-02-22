@@ -174,6 +174,14 @@
                     "requestedCancellation": "El moderador que iba a realizar la sesión de investigación ha cancelado tu sesión.",
                     "sorry": "Lamentamos cualquier inconveniencia que esto pueda haberte causado. ",
                     "hope": "Esperamos verlo muy pronto."
+                },
+                "moderator": {
+                    "scheduledFor": "Conforme a tu solicitud, hemos cancelado la sesión del estudio {{project_name}} en la que iba a participar en:",
+                    "sessionHasBeenCancelled": "Tu sesión de investigación ha sido cancelada"
+                },
+                "participant": {
+                    "scheduledFor": "El moderador que iba realizar tu sesión de investigación con el ID del estudio {{projectId}} la ha cancelado. Esta sesión estaba programada a la siguiente fecha y hora: ",
+                    "sessionHasBeenCancelled": "El moderador que iba a realizar tu sesión de investigación con el ID del estudio {{projectId}} la ha cancelado. Esta sesión estaba programada a la siguiente fecha y hora: "
                 }
             },
             "sessionCancelledByParticipant": {
@@ -183,6 +191,13 @@
                     "sessionHasBeenCancelled": "Tu sesión de investigación ha sido cancelada",
                     "asRequested": "Conforme a lo solicitado, hemos cancelado tu participación en la sesión de investigación de {{sessionDuration}}-minutos.",
                     "hope": "Esperamos verlo muy pronto."
+                },
+                "moderator": {
+                    "scheduledFor": "Esta sesión estaba programada para el estudio {{projectName}} en la siguiente hora y fecha: "
+                },
+                "participant": {
+                    "sessionHasBeenCancelled": "Tu sesión de investigación ha sido cancelada",
+                    "scheduledFor": "Tal y como has solicitado, hemos cancelado la sesión con ID de estudio {{projectId}} en la que ibas a participar:"
                 }
             },
             "reminders": {
@@ -223,17 +238,10 @@
             }
         }
     },
-    "sessionCancelledByParticipant": {
-        "moderator": {
-            "scheduledFor": "Esta sesión estaba programada para el estudio {{projectName}} en la siguiente hora y fecha: "
-        }
-    },
     "sessionCancelledByModerator": {
-        "moderator": {
-            "scheduledFor": "Conforme a tu solicitud, hemos cancelado la sesión del estudio {{project_name}} en la que iba a participar en:"
-        },
-        "participant": {
-            "scheduledFor": "El moderador que iba realizar tu sesión de investigación con el ID del estudio {{projectId}} la ha cancelado. Esta sesión estaba programada a la siguiente fecha y hora: "
-        }
+        "subject": "Tu sesión de investigación ha sido cancelada"
+    },
+    "sessionCancelledByParticipant": {
+        "subject": "Tu sesión de investigación ha sido cancelada"
     }
 }
