@@ -230,10 +230,12 @@
     },
     "sessionCancelledByModerator": {
         "moderator": {
-            "scheduledFor": "As requested, we have cancelled the session for study {{projectName}} that you were going to conduct on:"
+            "scheduledFor": "As requested, we have cancelled the session for study {{projectName}} that you were going to conduct on:",
+            "sessionHasBeenCancelled": "Your research session has been cancelled"
         },
         "participant": {
-            "scheduledFor": "The moderator who was going to conduct your research session with the study ID {{projectId}} has cancelled it. This session was scheduled at the following time and date:"
+            "scheduledFor": "The moderator who was going to conduct your research session with the study ID {{projectId}} has cancelled it. This session was scheduled at the following time and date:",
+            "sessionHasBeenCancelled": "The moderator who was going to conduct your research session with the study ID {{projectId}} has cancelled it. This session was scheduled at the following time and date: "
         }
     }
 }
