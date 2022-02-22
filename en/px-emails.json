@@ -10,7 +10,8 @@
                 "address": "1801 Broadway, Suite 720, Denver, CO 80202, USA <br> © 2021 UserZoom",
                 "thankYou": "Thank you, <br> UserZoom Team",
                 "help": "Help!",
-                "unsubscribeSession": "If you want to stop receiving notifications about this research session, you can  <a href='{{unsubscribeLink}}'>unsubscribe</a>."
+                "unsubscribeSession": "If you want to stop receiving notifications about this research session, you can  <a href='{{unsubscribeLink}}'>unsubscribe</a>.",
+                "regards": "Kind regards, <br> UserZoom Team"
             },
             "doubleOptIn": {
                 "subject": "Welcome to IntelliZoom Panel",
