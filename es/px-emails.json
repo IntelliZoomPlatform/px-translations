@@ -163,9 +163,9 @@
                 "generic": {
                     "sessionHasBeenCancelled": "Tu sesión de investigación ha sido cancelada",
                     "sorry": "Lamentamos cualquier inconveniencia que esto pueda haberte causado.",
-                    "seeYouAgain": "Esperamos verlo muy pronto.",
+                    "seeYouAgain": "Esperamos volver a verte pronto.",
                     "hi": "Hola, {{user.name}}:",
-                    "hope": "Esperamos verlo muy pronto."
+                    "hope": "Esperamos volver a verte pronto."
                 }
             },
             "sessionCancelledByModerator": {
@@ -175,7 +175,7 @@
                     "sessionHasBeenCancelled": "Tu sesión de investigación ha sido cancelada",
                     "requestedCancellation": "El moderador que iba a realizar la sesión de investigación ha cancelado tu sesión.",
                     "sorry": "Lamentamos cualquier inconveniencia que esto pueda haberte causado. ",
-                    "hope": "Esperamos verlo muy pronto."
+                    "hope": "Esperamos volver a verte pronto."
                 },
                 "moderator": {
                     "scheduledFor": "Conforme a tu solicitud, hemos cancelado la sesión del estudio {{project_name}} en la que iba a participar en:",
@@ -192,7 +192,7 @@
                     "hi": "Hola, {{user.name}}:",
                     "sessionHasBeenCancelled": "Tu sesión de investigación ha sido cancelada",
                     "asRequested": "Conforme a lo solicitado, hemos cancelado tu participación en la sesión de investigación de {{sessionDuration}}-minutos.",
-                    "hope": "Esperamos verlo muy pronto."
+                    "hope": "Esperamos volver a verte pronto."
                 },
                 "moderator": {
                     "scheduledFor": "Esta sesión estaba programada para el estudio {{projectName}} en la siguiente hora y fecha: "
