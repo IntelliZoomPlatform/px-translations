@@ -183,7 +183,7 @@
                 },
                 "participant": {
                     "scheduledFor": "The moderator who was going to conduct your research session with the study ID {{projectId}} has cancelled it. This session was scheduled at the following time and date:",
-                    "sessionHasBeenCancelled": "The moderator who was going to conduct your research session with the study ID {{projectId}} has cancelled it. This session was scheduled at the following time and date: "
+                    "sessionHasBeenCancelled": "Your research session has been cancelled"
                 }
             },
             "sessionCancelledByParticipant": {
