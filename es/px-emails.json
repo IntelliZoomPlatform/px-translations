@@ -183,7 +183,7 @@
                 },
                 "participant": {
                     "scheduledFor": "El moderador que iba realizar tu sesión de investigación con el ID del estudio {{projectId}} la ha cancelado. Esta sesión estaba programada a la siguiente fecha y hora: ",
-                    "sessionHasBeenCancelled": "El moderador que iba a realizar tu sesión de investigación con el ID del estudio {{projectId}} la ha cancelado. Esta sesión estaba programada a la siguiente fecha y hora: "
+                    "sessionHasBeenCancelled": "Tu sesión de investigación ha sido cancelada"
                 }
             },
             "sessionCancelledByParticipant": {
