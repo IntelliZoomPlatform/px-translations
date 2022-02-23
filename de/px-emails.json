@@ -183,7 +183,7 @@
                 },
                 "participant": {
                     "scheduledFor": "Der Moderator, der Ihre Recherchesitzung mit der Studien-ID {{projectId}} durchführen sollte, hat die Sitzung abgesagt. Diese Sitzung war zum folgenden Zeitpunkt und Datum geplant:",
-                    "sessionHasBeenCancelled": "Der Moderator, der Ihre Recherchesitzung mit der Studien-ID {{projectId}} durchführen sollte, hat die Sitzung abgesagt. Diese Sitzung war zum folgenden Zeitpunkt und Datum geplant:"
+                    "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt"
                 }
             },
             "sessionCancelledByParticipant": {
