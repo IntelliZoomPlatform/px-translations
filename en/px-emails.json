@@ -115,7 +115,7 @@
                     "oneMoreStep": "One more step! Confirm your session",
                     "thankYouForInterest": "Thank you for your interest in this {{sessionDuration}}-minute session! You’ve selected the following day and time to participate:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
-                    "youWillNeed": "For this study you will need:\n<ul>\n<li>Desktop computer</li>\n<li>Latest version of <strong>Chrome</strong></li>\n<li>Headphones</li>\n<li>Webcam</li>\n</ul>",
+                    "youWillNeed": "For this study you will need:\n<ul>\n<li>Desktop computer</li>\n<li>Latest version of <strong>Chrome</strong>, <strong>Firefox</strong> or <strong>Edge</strong></li>\n<li>Headphones</li>\n<li>Webcam</li>\n</ul>",
                     "recommendations": "Please make sure to be in the same device and WIFI connection that you will use to participate in the session.",
                     "confirm": "Confirm session ",
                     "alternativeLink": "And just in case the button above doesn’t work... here’s the link: {{confirmLink}}"
@@ -138,7 +138,7 @@
                     "scheduled": "You’re scheduled for the following day and time:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
                     "recommendations": {
-                        "youWillNeed": "You'll need the latest version of Chrome, Firefox or Edge if you’re participating from a desktop computer, or a mobile device with enough battery for a mobile session.",
+                        "youWillNeed": "You will need the latest version of Chrome, Firefox or Edge if you’re participating from a desktop computer, or a mobile device with enough battery for a mobile session.",
                         "environment": "Please make sure to be in a well-lit, quiet environment with a strong connection. ",
                         "ics": "We’ve also sent attached in this email an ICS so you can add this event to your calendar if you want.",
                         "thatsIt": "That’s it. 3 minutes before your session, you just have to click on…"
