@@ -115,7 +115,7 @@
                     "oneMoreStep": "Ein letzter Schritt! Bestätige deine Session",
                     "thankYouForInterest": "Vielen Dank für dein Interesse an dieser {{sessionDuration}}-minütigen Session! Du hast den folgenden Tag und Uhrzeit zur Teilnahme gewählt:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
-                    "youWillNeed": "Für diese Studie benötigst du: \n<ul>\n<li>Einen Computer</li>\n<li>Die neuste Version von <strong>Chrome</strong></li>\n<li>Headset</li>\n<li>Webcam</li>\n</ul>",
+                    "youWillNeed": "Für diese Studie benötigst du: \n<ul>\n<li>Einen Computer</li>\n<li>Die neuste Version von <strong>Chrome</strong> , <strong>Firefox</strong> oder <strong>Edge</strong</li>\n<li>Headset</li>\n<li>Webcam</li>\n</ul>",
                     "recommendations": "Bitte vergewissere dich, dasselbe Gerät und dieselbe WIFI-Verbindung auch während der Session zu verwenden.",
                     "confirm": "Session bestätigen",
                     "alternativeLink": "Nur für den Fall, dass der Button oben nicht funktioniert ... hier ist der Link: {{confirmLink}}"
@@ -138,7 +138,7 @@
                     "scheduled": "Du bist an folgendem Tag und Uhrzeit eingeplant:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
                     "recommendations": {
-                        "youWillNeed": "Du benötigst die aktuelle Version von Chrome wenn Du von einem Desktop-Computer aus teilnimmst oder ein mobiles Endgerät mit genügend Batterie für eine mobile Session.",
+                        "youWillNeed": "Du benötigst die aktuelle Version von Chrome, Firefox oder Edge wenn Du von einem Desktop-Computer aus teilnimmst oder ein mobiles Endgerät mit genügend Batterie für eine mobile Session.",
                         "environment": "Bitte stelle auch sicher, an einem gut beleuchteten, ruhigen Ort mit guter Internetverbindung zu sein. ",
                         "ics": "Wir haben diesem Email auch eine ICS-Datei angehängt, damit du diesen Termin deinem Kalender hinzufügen kannst.",
                         "thatsIt": "Das war's. Klicke einfach 3 Minuten bevor deine Session beginnt…"
