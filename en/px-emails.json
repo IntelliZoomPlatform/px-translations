@@ -150,12 +150,14 @@
                 "desktop": {
                     "hi": "Hi {{user.name}},",
                     "participationConfirmed": "Your participation is confirmed!",
-                    "scheduled": "You’re scheduled for the following day and time:"
+                    "scheduled": "You’re scheduled for the following day and time:",
+                    "youWillNeed": "For this study you will need:\n<ul>\n<li>Desktop computer</li>\n<li>Latest version of <strong>Chrome</strong>, <strong>Firefox</strong> or <strong>Edge</strong></li>\n<li>Headphones</li>\n<li>Webcam</li>\n</ul>"
                 },
                 "mobile": {
                     "hi": "Hi {{user.name}},",
                     "participationConfirmed": "Your participation is confirmed!",
-                    "scheduled": "You’re scheduled for the following day and time:"
+                    "scheduled": "You’re scheduled for the following day and time:",
+                    "youWillNeed": "For this study you will need:\n<ul>\n<li>Mobile device</li>\n<li>Enough battery or be plugged in</li>\n<li>Headphones</li>\n</ul>"
                 }
             },
             "sessionCancelled": {
@@ -192,7 +194,8 @@
                     "hi": "Hi {{user.name}},",
                     "sessionHasBeenCancelled": "Your research session has been cancelled",
                     "asRequested": "As requested, we have cancelled your participation in the {{sessionDuration}}-minute research session. ",
-                    "hope": "We hope to see you again soon."
+                    "hope": "We hope to see you again soon.",
+                    "sorry": "We’re sorry for the inconvenience and trouble this may cause you."
                 },
                 "moderator": {
                     "scheduledFor": "This session was scheduled for the study {{projectName}} at the following time and date:"
@@ -206,11 +209,26 @@
                 "generic": {
                     "hi": "Hi {{user.name}},",
                     "almostTime": "It’s almost time for your research session!",
-                    "reminder": "This is just a friendly reminder of your upcoming research session:"
+                    "reminder": "This is just a friendly reminder of your upcoming research session:",
+                    "recommendations": {
+                        "youWillNeed": "You will need the latest version of Chrome, Firefox or Edge if you’re participating from a desktop computer, or a mobile device with enough battery for a mobile session.",
+                        "environment": "Please make sure to be in a well-lit, quiet environment with a strong connection. ",
+                        "ics": "We’ve also sent attached in this email an ICS so you can add this event to your calendar if you want.",
+                        "thatsIt": "That’s it. 3 minutes before your session, you just have to click on…"
+                    },
+                    "join": "Join session",
+                    "alternativeLink": "And just in case the button above doesn’t work... here’s the link: {{confirmLink}}",
+                    "note": "Note: if you can no longer make this time, please <a href='{{entranceLink}}'>cancel</a> or <a href='{{entranceLink}}'>reschedule</a> your participation as soon as possible."
                 },
                 "subject": {
                     "24hbefore": "Reminder: You have a research session tomorrow",
                     "30mbefore": "Reminder: Your research session starts in 30 minutes!"
+                },
+                "desktop": {
+                    "youWillNeed": "For this study you will need:\n<ul>\n<li>Desktop computer</li>\n<li>Latest version of <strong>Chrome</strong>, <strong>Firefox</strong> or <strong>Edge</strong></li>\n<li>Headphones</li>\n<li>Webcam</li>\n</ul>"
+                },
+                "mobile": {
+                    "youWillNeed": "For this study you will need:\n<ul>\n<li>Mobile device</li>\n<li>Enough battery or be plugged in</li>\n<li>Headphones</li>\n</ul>"
                 }
             },
             "reschedule": {
