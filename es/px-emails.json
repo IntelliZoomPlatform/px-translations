@@ -150,12 +150,14 @@
                 "desktop": {
                     "hi": "Hola, {{user.name}}:",
                     "participationConfirmed": "¡Tu participación ha sido confirmada!",
-                    "scheduled": "Estas citado para la siguiente hora y fecha:"
+                    "scheduled": "Estas citado para la siguiente hora y fecha:",
+                    "youWillNeed": "Para este estudio te hará falta: \n<ul>\n<li>Un ordenador</li>\n<li>Última versión de <strong>Chrome</strong>, <strong>Firefox</strong> o <strong>Edge</strong></li>\n<li>Auriculares</li>\n<li>Videocámara</li>\n</ul>"
                 },
                 "mobile": {
                     "hi": "Hola, {{user.name}}:",
                     "participationConfirmed": "¡Tu participación ha sido confirmada!",
-                    "scheduled": "Estas citado para la siguiente hora y fecha:"
+                    "scheduled": "Estas citado para la siguiente hora y fecha:",
+                    "youWillNeed": "Para este estudio te hará falta: \n<ul>\n<li>Dispositivo móvil</li>\n<li>Suficiente batería o estar enchufado</li> \n<li>Auriculares</li>\n</ul>"
                 }
             },
             "sessionCancelled": {
@@ -192,7 +194,8 @@
                     "hi": "Hola, {{user.name}}:",
                     "sessionHasBeenCancelled": "Tu sesión de investigación ha sido cancelada",
                     "asRequested": "Conforme a lo solicitado, hemos cancelado tu participación en la sesión de investigación de {{sessionDuration}}-minutos.",
-                    "hope": "Esperamos volver a verte pronto."
+                    "hope": "Esperamos volver a verte pronto.",
+                    "sorry": "Lamentamos cualquier inconveniencia que esto pueda haberte causado. "
                 },
                 "moderator": {
                     "scheduledFor": "Esta sesión estaba programada para el estudio {{projectName}} en la siguiente hora y fecha: "
@@ -206,11 +209,26 @@
                 "generic": {
                     "hi": "Hola, {{user.name}}:",
                     "almostTime": "¡Ya es casi la hora para tu sesión de investigación!",
-                    "reminder": "Esto es sólo un recordatorio para tu próxima sesión de investigación:"
+                    "reminder": "Esto es sólo un recordatorio para tu próxima sesión de investigación:",
+                    "recommendations": {
+                        "youWillNeed": "Necesitarás la última versión de Chrome, Firefox o Edge si estarás participando desde un ordenador o un dispositivo móvil con suficiente carga para una sesión móvil.",
+                        "environment": "Por favor, asegúrese de buscar un lugar tranquilo y bien iluminado con una conexión sólida.",
+                        "ics": "También en este correo hemos adjuntado un ICS para que puedas agregar este evento a su calendario si lo desea. ",
+                        "thatsIt": "Eso es todo. 3 minutos antes de tu sesión, solo tienes que hacer clic en ..."
+                    },
+                    "join": "Entrar en la sesión",
+                    "alternativeLink": "Y por si acaso el botón no sirve, podrás también confirmar con el siguiente enlace: {{confirmLink}}",
+                    "note": "Nota: Si por algún motivo no puedes llegar a la sesión, pedimos que <a href='{{entranceLink}}'>canceles</a> o <a href='{{entranceLink}}'>modifiques</a> la hora de tu sesión lo más pronto posible. "
                 },
                 "subject": {
                     "24hbefore": "Recordatorio: Mañana tienes una sesión de investigación",
                     "30mbefore": "Recordatorio: ¡Tu sesión de investigación comienza en 30 minutos!"
+                },
+                "desktop": {
+                    "youWillNeed": "Para este estudio te hará falta: \n<ul>\n<li>Un ordenador</li>\n<li>Última versión de <strong>Chrome</strong>, <strong>Firefox</strong> o <strong>Edge</strong></li>\n<li>Auriculares</li>\n<li>Videocámara</li>\n</ul>"
+                },
+                "mobile": {
+                    "youWillNeed": "Para este estudio te hará falta: \n<ul>\n<li>Dispositivo móvil</li>\n<li>Suficiente batería o estar enchufado</li> \n<li>Auriculares</li>\n</ul>"
                 }
             },
             "reschedule": {
