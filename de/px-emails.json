@@ -150,12 +150,14 @@
                 "desktop": {
                     "hi": "Hallo {{user.name}}!",
                     "participationConfirmed": "Deine Teilnahme is bestätigt!",
-                    "scheduled": "Du bist an folgendem Tag und Uhrzeit eingeplant:"
+                    "scheduled": "Du bist an folgendem Tag und Uhrzeit eingeplant:",
+                    "youWillNeed": "Für diese Studie benötigst du: \n<ul>\n<li>Einen Computer</li>\n<li>Die neuste Version von <strong>Chrome</strong> , <strong>Firefox</strong> oder <strong>Edge</strong</li>\n<li>Headset</li>\n<li>Webcam</li>\n</ul>"
                 },
                 "mobile": {
                     "hi": "Hallo {{user.name}}!",
                     "participationConfirmed": "Deine Teilnahme is bestätigt!",
-                    "scheduled": "Du bist an folgendem Tag und Uhrzeit eingeplant:"
+                    "scheduled": "Du bist an folgendem Tag und Uhrzeit eingeplant:",
+                    "youWillNeed": "For this study you will need:\n<ul>\n<li>Handy oder Tablet</li>\n<li>Genügend Akku oder das Gerät angeschlossen</li>\n<li>Headset</li>\n</ul>"
                 }
             },
             "sessionCancelled": {
@@ -192,7 +194,8 @@
                     "hi": "Hallo {{user.name}}!",
                     "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt",
                     "asRequested": "Wie gewünscht haben wir deine Teilnahme an der {{sessionDuration}}-minütigen Forschungs-Session abgesagt.",
-                    "hope": "Wir hoffen dich bald wieder zu sehen."
+                    "hope": "Wir hoffen dich bald wieder zu sehen.",
+                    "sorry": "Wir entschuldigen uns für eventuelle Unannehmlichkeiten für dich."
                 },
                 "moderator": {
                     "scheduledFor": "Diese Sitzung war für die Studie {{projectName}} zum folgenden Zeitpunkt und Datum geplant:"
@@ -206,11 +209,26 @@
                 "generic": {
                     "hi": "Hallo {{user.name}}!",
                     "almostTime": "Es ist schon fast Zeit für deine Session!",
-                    "reminder": "Das ist eine Erinnerung an deine bevorstehende Forschungs-Session:"
+                    "reminder": "Das ist eine Erinnerung an deine bevorstehende Forschungs-Session:",
+                    "recommendations": {
+                        "youWillNeed": "Du benötigst die aktuelle Version von Chrome, Firefox oder Edge wenn Du von einem Desktop-Computer aus teilnimmst oder ein mobiles Endgerät mit genügend Batterie für eine mobile Session.",
+                        "environment": "Bitte stelle auch sicher, an einem gut beleuchteten, ruhigen Ort mit guter Internetverbindung zu sein. ",
+                        "ics": "Wir haben diesem Email auch eine ICS-Datei angehängt, damit du diesen Termin deinem Kalender hinzufügen kannst.",
+                        "thatsIt": "Das war's. Klicke einfach 3 Minuten bevor deine Session beginnt…"
+                    },
+                    "join": "Session beitreten",
+                    "alternativeLink": "Nur für den Fall, dass der Button oben nicht funktioniert ... hier ist der Link: {{confirmLink}}",
+                    "note": "Beachte: Solltest du nicht mehr verfügbar sein zu dieser Zeit, <a href='{{entranceLink}}'>sag' ab</a> oder <a href='{{entranceLink}}'>verschiebe</a> deine Teilnahme umgehend. "
                 },
                 "subject": {
                     "24hbefore": "Erinnerung: Du hast eine Forschungs-Session morgen",
                     "30mbefore": "Erinnerung: Deine Forschungs-Session startet in 30 Minuten!"
+                },
+                "desktop": {
+                    "youWillNeed": "Für diese Studie benötigst du: \n<ul>\n<li>Einen Computer</li>\n<li>Die neuste Version von <strong>Chrome</strong> , <strong>Firefox</strong> oder <strong>Edge</strong</li>\n<li>Headset</li>\n<li>Webcam</li>\n</ul>"
+                },
+                "mobile": {
+                    "youWillNeed": "For this study you will need:\n<ul>\n<li>Handy oder Tablet</li>\n<li>Genügend Akku oder das Gerät angeschlossen</li>\n<li>Headset</li>\n</ul>"
                 }
             },
             "reschedule": {
