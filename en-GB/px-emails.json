@@ -211,7 +211,7 @@
                     "almostTime": "It’s almost time for your research session!",
                     "reminder": "This is just a friendly reminder of your upcoming research session:",
                     "recommendations": {
-                        "youWillNeed": "You will need the latest version of Chrome if you’re participating from a desktop computer, or a mobile device with enough battery for a mobile session.",
+                        "youWillNeed": "You will need the latest version of Chrome, Firefox or Edge if you’re participating from a desktop computer, or a mobile device with enough battery for a mobile session.",
                         "environment": "Please make sure to be in a well-lit, quiet environment with a strong connection. ",
                         "ics": "We’ve also sent attached in this email an ICS so you can add this event to your calendar if you want.",
                         "thatsIt": "That’s it. 3 minutes before your session, you just have to click on…"
