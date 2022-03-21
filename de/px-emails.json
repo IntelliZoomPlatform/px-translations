@@ -144,7 +144,7 @@
                         "thatsIt": "Das war's. Klicke einfach 3 Minuten bevor deine Session beginnt…"
                     },
                     "join": "Session beitreten",
-                    "alternativeLink": "Nur für den Fall, dass der Button oben nicht funktioniert ... hier ist der Link: {{confirmLink}}",
+                    "alternativeLink": "Nur für den Fall, dass der Button oben nicht funktioniert ... hier ist der Link: {{sessionLink}}",
                     "note": "Beachte: Solltest du nicht mehr verfügbar sein zu dieser Zeit, <a href='{{entranceLink}}'>sag' ab</a> oder <a href='{{entranceLink}}'>verschiebe</a> deine Teilnahme umgehend. "
                 },
                 "desktop": {
