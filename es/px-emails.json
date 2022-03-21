@@ -144,7 +144,7 @@
                         "thatsIt": "Eso es todo. 3 minutos antes de tu sesión, solo tienes que hacer clic en ..."
                     },
                     "join": "Entrar en la sesión",
-                    "alternativeLink": "Y por si acaso el botón no sirve, podrás también confirmar con el siguiente enlace: {{confirmLink}}",
+                    "alternativeLink": "Y por si acaso el botón no sirve, podrás también confirmar con el siguiente enlace: {{sessionLink}}",
                     "note": "Nota: Si por algún motivo no puedes llegar a la sesión, pedimos que <a href='{{entranceLink}}'>canceles</a> o <a href='{{entranceLink}}'>modifiques</a> la hora de tu sesión lo más pronto posible. "
                 },
                 "desktop": {
