@@ -1,0 +1,27 @@
+name: Panel Portal Sync
+
+on:
+  push:
+    paths-ignore:
+      - '.github/**'
+      - '*.md'
+    branches:
+      - main
+      - master
+
+jobs:
+  sync-sourcing-engine:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.SOURCING_GITHUB_TOKEN }}
+    steps:
+      - uses: actions/github-script@v5
+        with:
+          github-token: ${{ secrets.SOURCING_GITHUB_TOKEN }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'IntelliZoomPlatform',
+              repo: 'panel-portal',
+              workflow_id: 'sync-repos.yml',
+              ref: 'master'
+            });

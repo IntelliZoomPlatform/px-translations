@@ -1,0 +1,69 @@
+name: Build and sync to s3 translations
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  static_checks:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: npm install jsonlint-cli -g
+      run: npm install jsonlint-cli -g
+
+
+    - name: jsonlint-cli
+      run: jsonlint-cli ./**/*.json
+
+  deploy:
+    needs: [ static_checks ]
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.GA_AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.GA_AWS_SECRET_ACCESS_KEY }}
+        aws-region: eu-west-1
+        role-to-assume: ${{ secrets.GA_AWS_ROLE_TO_ASSUME }}
+        role-duration-seconds: 1200
+        role-skip-session-tagging: true
+
+    - name: Deleting unnecessary files
+      run: rm -rf .git README.md .github .gitignore
+
+    - name: Copy files to the CDN
+      run: aws s3 sync . s3://net.panelportal.eu-west.public/translations/
+
+  SlackNotification:
+    name: Report CI status
+    runs-on: ubuntu-latest
+    needs: [ deploy, static_checks ]
+    if: failure()
+
+    steps:
+    - id: build_vars
+      run: |
+        echo "::set-output name=message::Action ${{ github.run_id }} failed on ${GITHUB_REF#refs/heads/}"
+    - uses: actions/checkout@v2
+    - name: Slack Notification
+      uses: IntelliZoomPlatform/action-slack-notify@master
+      env:
+        SLACK_CHANNEL: sourcing_github
+        SLACK_COLOR: '#FF0000' # red, since this is triggered only when the CI fails
+        SLACK_USERNAME: Github CI status
+        SLACK_WEBHOOK: ${{ secrets.SOURCING_SLACK_WEBHOOK }}
+        SLACK_FOOTER: ${{ steps.build_vars.outputs.message }}
+        SLACK_ICON_EMOJI: ':git:'
