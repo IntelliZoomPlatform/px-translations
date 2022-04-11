@@ -23,7 +23,7 @@ jobs:
 
   deploy:
     needs: [ static_checks ]
-    if: ${{ github.ref == 'refs/heads/main' }}
+    if: ${{ github.ref == 'refs/heads/master' }}
     runs-on: ubuntu-latest
 
     steps:
