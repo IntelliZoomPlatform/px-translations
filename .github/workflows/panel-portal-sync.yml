@@ -10,7 +10,7 @@ on:
       - master
 
 jobs:
-  sync-sourcing-engine:
+  sync-panel-portal:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.SOURCING_GITHUB_TOKEN }}
