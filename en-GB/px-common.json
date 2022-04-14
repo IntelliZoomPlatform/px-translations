@@ -152,7 +152,7 @@
                     "title": "Entering the study..."
                 },
                 "recaptchaCheck": {
-                    "title": ""
+                    "title": "One sec! Only humans allowed."
                 },
                 "moderated": {
                     "title": "Online interview",
@@ -182,6 +182,15 @@
                 "greetingName_evening": "Good evening {{userName}}!"
             },
             "noThanks": "No, thanks"
+        },
+        "studiesDashboard": {
+            "upcomingScheduledStudies": {
+                "header": "Don’t forget! Your next session is in",
+                "days": "{{count}} days",
+                "seeDetails": "See details",
+                "show": "Show upcoming sessions",
+                "hide": "Hide upcoming sessions"
+            }
         }
     }
 }
