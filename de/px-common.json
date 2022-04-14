@@ -182,6 +182,15 @@
                 "greetingName_evening": "Guten Abend {{userName}}!"
             },
             "noThanks": "Nein, danke"
+        },
+        "studiesDashboard": {
+            "upcomingScheduledStudies": {
+                "header": "Vergiss es nicht! Deine nächste Sitzung ist in",
+                "days": "{{count}} Tage",
+                "seeDetails": "Details anzeigen",
+                "show": "Kommende Sitzungen ausblenden",
+                "hide": "Kommende Sitzungen ausblenden"
+            }
         }
     }
 }
