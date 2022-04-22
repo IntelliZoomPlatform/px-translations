@@ -163,6 +163,10 @@
                 "sessionDuration": {
                     "title": "Session duration:",
                     "min": "{{sessionLength}} minutes"
+                },
+                "scheduled": {
+                    "notice": "",
+                    "warning": ""
                 }
             },
             "and": "and",
@@ -189,7 +193,13 @@
                 "days": "{{count}} days",
                 "seeDetails": "See details",
                 "show": "Show upcoming sessions",
-                "hide": "Hide upcoming sessions"
+                "hide": "Hide upcoming sessions",
+                "studiesHeader": "Upcoming"
+            }
+        },
+        "studies": {
+            "sessionDetails": {
+                "title": "Let’s begin! You can now enter the session"
             }
         }
     }
