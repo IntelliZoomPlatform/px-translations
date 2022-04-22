@@ -107,7 +107,7 @@
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
                     "recommendations": "Bitte vergewissere dich, dasselbe Gerät und dieselbe WIFI-Verbindung auch während der Session zu verwenden. Wir empfehlen die Verwendung eines Headsets.",
                     "confirm": "Session bestätigen",
-                    "alternativeLink": "Nur für den Fall, dass der Button oben nicht funktioniert ... hier ist der Link: {{confirmLink}}",
+                    "alternativeLink": "Nur für den Fall, dass der Button oben nicht funktioniert ... hier ist der Link: {{sessionLink}}",
                     "timezone": "{{timeZone}}"
                 },
                 "desktop": {
@@ -118,7 +118,7 @@
                     "youWillNeed": "Für diese Studie benötigst du: \n<ul>\n<li>Einen Computer</li>\n<li>Die neuste Version von <strong>Chrome</strong> , <strong>Firefox</strong> oder <strong>Edge</strong</li>\n<li>Headset</li>\n<li>Webcam</li>\n</ul>",
                     "recommendations": "Bitte vergewissere dich, dasselbe Gerät und dieselbe WIFI-Verbindung auch während der Session zu verwenden.",
                     "confirm": "Session bestätigen",
-                    "alternativeLink": "Nur für den Fall, dass der Button oben nicht funktioniert ... hier ist der Link: {{confirmLink}}"
+                    "alternativeLink": "Nur für den Fall, dass der Button oben nicht funktioniert ... hier ist der Link: {{sessionLink}}"
                 },
                 "mobile": {
                     "hi": "Hallo {{user.name}}!",
