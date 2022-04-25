@@ -163,6 +163,10 @@
                 "sessionDuration": {
                     "title": "Sessionsdauer:",
                     "min": "{{sessionDuration}} Minuten"
+                },
+                "scheduled": {
+                    "notice": "",
+                    "warning": ""
                 }
             },
             "and": "und",
@@ -182,6 +186,21 @@
                 "greetingName_evening": "Guten Abend {{userName}}!"
             },
             "noThanks": "Nein, danke"
+        },
+        "studiesDashboard": {
+            "upcomingScheduledStudies": {
+                "header": "Vergiss es nicht! Deine nächste Sitzung ist in",
+                "days": "{{count}} Tage",
+                "seeDetails": "Details anzeigen",
+                "show": "Kommende Sitzungen ausblenden",
+                "hide": "Kommende Sitzungen ausblenden",
+                "studiesHeader": "Kommende"
+            }
+        },
+        "studies": {
+            "sessionDetails": {
+                "title": ""
+            }
         }
     }
 }

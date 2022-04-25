@@ -163,13 +163,17 @@
                 "sessionDuration": {
                     "title": "Duración de la sesión:",
                     "min": "{{sessionLength}} minutos"
+                },
+                "scheduled": {
+                    "notice": "",
+                    "warning": ""
                 }
             },
             "and": "y",
             "aUppercase": "Un",
             "desktop": "Ordenador",
             "phone": "Teléfono móvil",
-            "tablet": "Tablet",
+            "tablet": "Tableta",
             "selectAnOption": "Selecciona una opción",
             "comingSoon": "Próximamente",
             "saved": "Cambios guardados",
@@ -182,6 +186,21 @@
                 "greetingName_evening": "¡Buenas noches {{userName}}!"
             },
             "noThanks": "No, gracias"
+        },
+        "studiesDashboard": {
+            "upcomingScheduledStudies": {
+                "header": "¡No lo olvides! Tu próxima sesión es en",
+                "days": "{{count}} días",
+                "seeDetails": "Mostrar detalles",
+                "show": "Mostrar próximas sesiones",
+                "hide": "Ocultar próximas sesiones",
+                "studiesHeader": "Próximamente"
+            }
+        },
+        "studies": {
+            "sessionDetails": {
+                "title": "¡Comencemos! Ahora puedes entrar en la sesión"
+            }
         }
     }
 }

@@ -217,7 +217,7 @@
                         "thatsIt": "That’s it. 3 minutes before your session, you just have to click on…"
                     },
                     "join": "Join session",
-                    "alternativeLink": "And just in case the button above doesn’t work... here’s the link: {{confirmLink}}",
+                    "alternativeLink": "And just in case the button above doesn’t work... here’s the link: {{sessionLink}}",
                     "note": "Note: if you can no longer make this time, please <a href='{{entranceLink}}'>cancel</a> or <a href='{{entranceLink}}'>reschedule</a> your participation as soon as possible."
                 },
                 "subject": {
