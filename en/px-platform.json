@@ -520,5 +520,8 @@
                 }
             }
         }
+    },
+    "“izPanel”.”studiesDashboard”": {
+        "scheduledStudyTitle": "You have {{studiesAvailable}} studies available and {[scheduled}} scheduled"
     }
 }
