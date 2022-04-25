@@ -165,8 +165,7 @@
                     "min": "{{sessionLength}} minutos"
                 },
                 "scheduled": {
-                    "notice": "",
-                    "warning": ""
+                    "warning": "Nota: Si por algún motivo no puedes llegar a la sesión, pedimos que <a href='{{entranceLink}}'>canceles</a> o <a href='{{entranceLink}}'>modifiques</a> la hora de tu sesión lo más pronto posible. "
                 }
             },
             "and": "y",
@@ -190,11 +189,17 @@
         "studiesDashboard": {
             "upcomingScheduledStudies": {
                 "header": "¡No lo olvides! Tu próxima sesión es en",
-                "days": "{{count}} días",
+                "days_plural": "{{count}} días",
                 "seeDetails": "Mostrar detalles",
                 "show": "Mostrar próximas sesiones",
                 "hide": "Ocultar próximas sesiones",
-                "studiesHeader": "Próximamente"
+                "studiesHeader": "Próximamente",
+                "headerDateOn": "¡No lo olvides! Tu próxima sesión es el",
+                "minutesNoHours": "{{count}} minutos",
+                "hours": "{{count}} horas",
+                "minutes": "y {{count}} minutos",
+                "days": "{{count}} día",
+                "cardsHeader": "Estás programado para:"
             }
         },
         "studies": {
