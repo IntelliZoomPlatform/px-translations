@@ -165,8 +165,7 @@
                     "min": "{{sessionLength}} minutes"
                 },
                 "scheduled": {
-                    "notice": "",
-                    "warning": ""
+                    "warning": "Note: if you can no longer make this time, please <a href='{{entranceLink}}'>cancel</a> or <a href='{{entranceLink}}'>reschedule</a> your participation as soon as possible."
                 }
             },
             "and": "and",
@@ -190,11 +189,17 @@
         "studiesDashboard": {
             "upcomingScheduledStudies": {
                 "header": "Don’t forget! Your next session is in",
-                "days": "{{count}} days",
+                "days_plural": "{{count}} days",
                 "seeDetails": "See details",
                 "show": "Show upcoming sessions",
                 "hide": "Hide upcoming sessions",
-                "studiesHeader": "Upcoming"
+                "studiesHeader": "Upcoming",
+                "headerDateOn": "Don’t forget! Your next session is on",
+                "minutesNoHours": "{{count}} minutes",
+                "hours": "{{count}} hours",
+                "minutes": "and {{count}} minutes",
+                "days": "{{count}} day",
+                "cardsHeader": "You’re scheduled for: "
             }
         },
         "studies": {
