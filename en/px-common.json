@@ -202,7 +202,8 @@
                 "cardsHeader": "You’re scheduled for: ",
                 "minutesNoHours": "{{count}} minute",
                 "minutes": "and {{count}} minute",
-                "hours": "{{count}} hour"
+                "hours": "{{count}} hour",
+                "sessionDetails": "Session details"
             }
         },
         "studies": {
