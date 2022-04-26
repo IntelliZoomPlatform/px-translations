@@ -195,11 +195,14 @@
                 "hide": "Kommende Sitzungen ausblenden",
                 "studiesHeader": "Kommende",
                 "headerDateOn": "",
-                "minutesNoHours": "{{count}} Minuten",
-                "hours": "{{count}} Stunden",
-                "minutes": "und {{count}} Minuten",
+                "minutesNoHours_plural": "{{count}} Minuten",
+                "hours_plural": "{{count}} Stunden",
+                "minutes_plural": "und {{count}} Minuten",
                 "days": "{{count}} Tag",
-                "cardsHeader": "Du bist eingeplant für:"
+                "cardsHeader": "Du bist eingeplant für:",
+                "minutesNoHours": "{{count}} Minute",
+                "minutes": "und {{count}} Minute",
+                "hours": "{{count}} Stunde"
             }
         },
         "studies": {
