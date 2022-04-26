@@ -202,7 +202,8 @@
                 "cardsHeader": "Estás programado para:",
                 "minutesNoHours": "{{count}} minuto",
                 "minutes": "y {{count}} minuto",
-                "hours": "{{count}} hora"
+                "hours": "{{count}} hora",
+                "sessionDetails": "Detalles de la sesión"
             }
         },
         "studies": {
