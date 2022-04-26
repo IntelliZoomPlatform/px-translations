@@ -278,7 +278,14 @@
                 "title": "¡Hola {{userName}}!",
                 "descriptionFTU": "En esta sección encontrarás todos los estudios que estén disponibles para ti. \n\n¡Pero no tardes mucho en participar! No están disponibles por mucho tiempo...",
                 "oneStudyAvailable": "Tienes 1 estudio disponible",
-                "severalStudiesAvailable": "Tienes {{studiesAvailable}} estudios disponibles"
+                "severalStudiesAvailable": "Tienes {{studiesAvailable}} estudios disponibles",
+                "verb": "Tienes",
+                "availableStudies": "{{count}} estudio disponible",
+                "availableStudies_plural": "{{count}} estudios disponibles",
+                "scheduledStudies_plural": "y {{count}} programados",
+                "scheduledStudies": "y {{count}} programado",
+                "scheduledStudiesNoAvailableStudies": "{{count}} estudio programado",
+                "scheduledStudiesNoAvailableStudies_plural": "{{count}} estudios programados"
             },
             "practiceStudy": {
                 "cta": "Realizar estudio de práctica"
@@ -523,5 +530,17 @@
     },
     "“izPanel”.”studiesDashboard”": {
         "scheduledStudyTitle": "Tienes {{studiesAvailable}} estudios disponibles y {{scheduled}} programados"
+    },
+    "izPanel.demographicsUpdate.complete.title": {
+        "title": "🎉 Gracias por actualizar tu perfil"
+    },
+    "izPanel.demographicsUpdate.complete.description": {
+        "description": "Tu participación garantiza que proporcionemos el mejor servicio posible"
+    },
+    "izPanel.demographicsUpdate.complete.cta": {
+        "cta": "Consulta los estudios disponibles"
+    },
+    "izPanel.demographicsUpdate.infoMessage": {
+        "infoMessage": "Los datos que nos facilitas nos permiten relacionar tu perfil con los estudios más relevantes. "
     }
 }
