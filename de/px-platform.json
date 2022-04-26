@@ -278,7 +278,14 @@
                 "title": "Willkommen {{userName}}!",
                 "descriptionFTU": "Das ist Deine Studien-Übersicht. Hier kannst Du die Studien die Dir zur Verfügung stehen sowie praktische Tipps einsehen. \n\nNimm Dir nicht zu viel Zeit um daran teilzunehmen. Üblicherweise sind sie nur für kurze Zeit verfügbar.",
                 "oneStudyAvailable": "Du hast eine Verfügbare Studie",
-                "severalStudiesAvailable": "Du hast {{studiesAvailable}} verfügbare Studien"
+                "severalStudiesAvailable": "Du hast {{studiesAvailable}} verfügbare Studien",
+                "verb": "Du hast",
+                "availableStudies": "{{count}} verfügbare Studie",
+                "availableStudies_plural": "{{count}} verfügbare Studien",
+                "scheduledStudies_plural": "und {{count}} geplante",
+                "scheduledStudies": "und {{count}} geplante",
+                "scheduledStudiesNoAvailableStudies": "{{count}} geplante Studie",
+                "scheduledStudiesNoAvailableStudies_plural": "{{count}} geplante Studien"
             },
             "practiceStudy": {
                 "cta": "An Übungsstudie teilnehmen"
@@ -523,5 +530,17 @@
     },
     "“izPanel”.”studiesDashboard”": {
         "scheduledStudyTitle": "Du hast {{studiesAvailable}} verfügbare Studien und {{scheduled}} geplante"
+    },
+    "izPanel.demographicsUpdate.complete.title": {
+        "title": ""
+    },
+    "izPanel.demographicsUpdate.complete.description": {
+        "description": ""
+    },
+    "izPanel.demographicsUpdate.complete.cta": {
+        "cta": ""
+    },
+    "izPanel.demographicsUpdate.infoMessage": {
+        "infoMessage": ""
     }
 }
