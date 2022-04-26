@@ -195,11 +195,14 @@
                 "hide": "Ocultar próximas sesiones",
                 "studiesHeader": "Próximamente",
                 "headerDateOn": "¡No lo olvides! Tu próxima sesión es el",
-                "minutesNoHours": "{{count}} minutos",
-                "hours": "{{count}} horas",
-                "minutes": "y {{count}} minutos",
+                "minutesNoHours_plural": "{{count}} minutos",
+                "hours_plural": "{{count}} horas",
+                "minutes_plural": "y {{count}} minutos",
                 "days": "{{count}} día",
-                "cardsHeader": "Estás programado para:"
+                "cardsHeader": "Estás programado para:",
+                "minutesNoHours": "{{count}} minuto",
+                "minutes": "y {{count}} minuto",
+                "hours": "{{count}} hora"
             }
         },
         "studies": {
