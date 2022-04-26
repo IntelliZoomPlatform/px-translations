@@ -195,11 +195,14 @@
                 "hide": "Hide upcoming sessions",
                 "studiesHeader": "Upcoming",
                 "headerDateOn": "Don’t forget! Your next session is on",
-                "minutesNoHours": "{{count}} minutes",
-                "hours": "{{count}} hours",
-                "minutes": "and {{count}} minutes",
+                "minutesNoHours_plural": "{{count}} minutes",
+                "hours_plural": "{{count}} hours",
+                "minutes_plural": "and {{count}} minutes",
                 "days": "{{count}} day",
-                "cardsHeader": "You’re scheduled for: "
+                "cardsHeader": "You’re scheduled for: ",
+                "minutesNoHours": "{{count}} minute",
+                "minutes": "and {{count}} minute",
+                "hours": "{{count}} hour"
             }
         },
         "studies": {
