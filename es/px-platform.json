@@ -528,9 +528,6 @@
             }
         }
     },
-    "“izPanel”.”studiesDashboard”": {
-        "scheduledStudyTitle": "Tienes {{studiesAvailable}} estudios disponibles y {{scheduled}} programados"
-    },
     "izPanel.demographicsUpdate.complete.title": {
         "title": "🎉 Gracias por actualizar tu perfil"
     },
