@@ -1,0 +1,105 @@
+name: Sonarqube Scan
+on:
+  push:
+  # pull_request:
+  #   types: [opened, edited, reopened, synchronize]
+  #   branches: [main, master]
+
+jobs:
+  sonar-scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+
+      - name: Set Sonar Project Name
+        run: |
+          org="$(cut -d/ -f1 <<< "$GITHUB_REPOSITORY")"
+          repo="$(cut -d/ -f2 <<< "$GITHUB_REPOSITORY")"
+          echo "SONAR_ORGANIZATION=$org" >> "$GITHUB_ENV"
+          echo "SONAR_PROJECT_KEY=${org}_${repo}" >> "$GITHUB_ENV"
+          echo "SONAR_REPO=${repo}" >> "$GITHUB_ENV"
+          # When running in the sonar container the workspace is remapped
+          # echo "WORKSPACE=/github/workspace" >> "$GITHUB_ENV"
+
+      - name: Retrieve entire repository history
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      # - name: Retrieve entire repository history
+      #   if: ${{ github.event_name == 'pull_request' }}
+      #   run: |
+      #     git fetch --prune 
+
+      - name: Get node version
+        id: node
+        run: |
+          node_version=$(cat Dockerfile* 2> /dev/null | sed -En "s/.*FROM node:([0-9][0-9]).*/\1/p")
+          node_version=${node_version:-16}
+          echo "::set-output name=version::$node_version.x"
+          echo "We will use Node version number $node_version"
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ steps.node.outputs.version }}
+
+      - name: Setup npmrc
+        run: |
+          npm set "@intellizoomplatform:registry=https://npm.pkg.github.com/"
+          npm set "@userzoomlibraries:registry=https://npm.pkg.github.com/"
+          npm set "//npm.pkg.github.com/:_authToken=${{ env.SOURCING_GITHUB_TOKEN }}"
+        env:
+          SOURCING_GITHUB_TOKEN: ${{ secrets.SOURCING_GITHUB_TOKEN }}
+
+      - name: Place packages in proper folder
+        run: |
+          find . -type f \( -name "package*.json" -o -name "pom.xml" \) -exec cp "{}" . \;
+          yarn --frozen-lockfile --no-color 2> /dev/null || npm ci 2> /dev/null || npm install
+
+      - name: SonarQube Scan
+        if: ${{ github.event_name == 'push' }}
+        uses: sonarsource/sonarqube-scan-action@master
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}          
+        with:
+          projectBaseDir: .
+          args: >
+            -Dsonar.projectKey=${{ env.SONAR_PROJECT_KEY }}
+            -Dsonar.sources=.
+            -Dsonar.branch.name=${{ github.REF_NAME }}
+            -Dsonar.scm.provider=git
+
+      # - name: SonarQube Scan PR
+      #   if: ${{ github.event_name == 'pull_request' }}
+      #   uses: sonarsource/sonarqube-scan-action@master
+      #   env:
+      #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      #     SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}          
+      #   with:
+      #     projectBaseDir: .
+      #     args: >
+      #       -Dsonar.projectKey=${{ env.SONAR_PROJECT_KEY }}
+      #       -Dsonar.sources=.
+      #       -Dsonar.pullrequest.key=${{ github.event.number }}
+      #       -Dsonar.pullrequest.branch=${{ github.HEAD_REF }}
+      #       -Dsonar.pullrequest.base=${{ github.BASE_REF }}
+      #       -Dsonar.pullrequest.github.repository=${{ github.repository }}
+      #       -Dsonar.pullrequest.provider=github
+      #       -Dsonar.scm.provider=git
+      #       -Dsonar.scm.revision=${{ github.event.pull_request.head.sha }}
+
+      - name: SonarQube Quality Gate check
+        uses: sonarsource/sonarqube-quality-gate-action@master
+        timeout-minutes: 5
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
+      # - name: Check vars
+      #   run: |
+      #     echo ${{ github.event.number }}
+      #     echo ${{ github.HEAD_REF }}
+      #     echo ${{ github.BASE_REF }}
+      #     echo ${{ github.repository }}
+      #     echo ${{ github.event.pull_request.head.sha }}
