@@ -529,19 +529,11 @@
         },
         "demographicsUpdate": {
             "complete": {
-                "title": {
-                    "title": "🎉 Thanks for updating your profile"
-                },
-                "description": {
-                    "description": "Your participation ensures we provide the best possible service"
-                },
-                "cta": {
-                    "cta": "Check available studies"
-                }
+                "title": "🎉 Thanks for updating your profile",
+                "description": "Your participation ensures we provide the best possible service",
+                "cta": "Check available studies"
             },
-            "infoMessage": {
-                "infoMessage": "The data you provide lets us match your profile with the most relevant studies."
-            }
+            "infoMessage": "The data you provide lets us match your profile with the most relevant studies."
         }
     }
 }
