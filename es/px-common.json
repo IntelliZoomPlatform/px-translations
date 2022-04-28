@@ -7,7 +7,7 @@
             "claim": "Tu opinión cuenta. \nGana dinero por compartir tus experiencias y ayuda a mejorar los productos que más te gustan e interesan.",
             "comma": ",",
             "contactUsLowercaseImperative": "contáctanos",
-            "copyright": "IntelliZoom Panel © 2019. Todos los derechos reservados.",
+            "copyright": "IntelliZoom Panel © 2022. Todos los derechos reservados.",
             "edge": "Edge",
             "email": "Email",
             "firefox": "Firefox",
@@ -165,8 +165,7 @@
                     "min": "{{sessionLength}} minutos"
                 },
                 "scheduled": {
-                    "notice": "",
-                    "warning": ""
+                    "warning": "Nota: Si por algún motivo no puedes llegar a la sesión, pedimos que <a href='{{entranceLink}}'>canceles</a> o <a href='{{entranceLink}}'>modifiques</a> la hora de tu sesión lo más pronto posible. "
                 }
             },
             "and": "y",
@@ -189,12 +188,22 @@
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
-                "header": "¡No lo olvides! Tu próxima sesión es en",
-                "days": "{{count}} días",
+                "header": "¡No lo olvides! Tu próxima sesión es en ",
+                "days_plural": "{{count}} días ",
                 "seeDetails": "Mostrar detalles",
                 "show": "Mostrar próximas sesiones",
                 "hide": "Ocultar próximas sesiones",
-                "studiesHeader": "Próximamente"
+                "studiesHeader": "Próximamente",
+                "headerDateOn": "¡No lo olvides! Tu próxima sesión es el ",
+                "minutesNoHours_plural": "{{count}} minutos ",
+                "hours_plural": "{{count}} horas ",
+                "minutes_plural": "y {{count}} minutos ",
+                "days": "{{count}} día ",
+                "cardsHeader": "Estás programado para: ",
+                "minutesNoHours": "{{count}} minuto ",
+                "minutes": "y {{count}} minuto ",
+                "hours": "{{count}} hora ",
+                "sessionDetails": "Detalles de la sesión"
             }
         },
         "studies": {

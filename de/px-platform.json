@@ -277,8 +277,15 @@
             "intro": {
                 "title": "Willkommen {{userName}}!",
                 "descriptionFTU": "Das ist Deine Studien-Übersicht. Hier kannst Du die Studien die Dir zur Verfügung stehen sowie praktische Tipps einsehen. \n\nNimm Dir nicht zu viel Zeit um daran teilzunehmen. Üblicherweise sind sie nur für kurze Zeit verfügbar.",
-                "oneStudyAvailable": "Du hast eine Verfügbare Studie",
-                "severalStudiesAvailable": "Du hast {{studiesAvailable}} verfügbare Studien"
+                "oneStudyAvailable": "Du hast eine Verfügbare Studie ",
+                "severalStudiesAvailable": "Du hast {{studiesAvailable}} verfügbare Studien",
+                "verb": "Du hast ",
+                "availableStudies": "{{count}} verfügbare Studie ",
+                "availableStudies_plural": "{{count}} verfügbare Studien ",
+                "scheduledStudies_plural": "und {{count}} geplante ",
+                "scheduledStudies": "und {{count}} geplante ",
+                "scheduledStudiesNoAvailableStudies": "{{count}} geplante Studie ",
+                "scheduledStudiesNoAvailableStudies_plural": "{{count}} geplante Studien "
             },
             "practiceStudy": {
                 "cta": "An Übungsstudie teilnehmen"
@@ -519,6 +526,14 @@
                     }
                 }
             }
+        },
+        "demographicsUpdate": {
+            "complete": {
+                "title": "🎉 Danke, dass du dein Profil auf den neuesten Stand gebracht hast",
+                "description": "Durch deine Teilnahme können wir den bestmöglichen Service bieten",
+                "cta": "Verfügbare Studien ansehen"
+            },
+            "infoMessage": "Die von dir bereitgestellten Daten ermöglichen es uns, die für dein Profil relevantesten Studien zu finden."
         }
     }
 }

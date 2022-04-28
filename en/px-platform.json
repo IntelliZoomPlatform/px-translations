@@ -277,8 +277,15 @@
             "intro": {
                 "title": "Welcome {{userName}}!",
                 "descriptionFTU": "This is your studies dashboard. In here you'll see the studies that are available for you and some useful tips.\n\nDon't take too long to participate on them! They’re usually available only for a short period of time.",
-                "oneStudyAvailable": "You have 1 study available",
-                "severalStudiesAvailable": "You have {{studiesAvailable}} studies available"
+                "oneStudyAvailable": "You have 1 study available ",
+                "severalStudiesAvailable": "You have {{studiesAvailable}} studies available",
+                "verb": "You have ",
+                "availableStudies": "{{count}} study available ",
+                "availableStudies_plural": "{{count}} studies available ",
+                "scheduledStudies_plural": "and {{count}} scheduled ",
+                "scheduledStudies": "and {{count}} scheduled ",
+                "scheduledStudiesNoAvailableStudies": "{{count}} scheduled study ",
+                "scheduledStudiesNoAvailableStudies_plural": "{{count}} scheduled studies "
             },
             "practiceStudy": {
                 "cta": "Take practice study"
@@ -519,6 +526,14 @@
                     }
                 }
             }
+        },
+        "demographicsUpdate": {
+            "complete": {
+                "title": "🎉 Thanks for updating your profile",
+                "description": "Your participation ensures we provide the best possible service",
+                "cta": "Check available studies"
+            },
+            "infoMessage": "The data you provide lets us match your profile with the most relevant studies."
         }
     }
 }

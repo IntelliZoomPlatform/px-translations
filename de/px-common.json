@@ -7,7 +7,7 @@
             "claim": "Deine Meinung zählt. Teile Deine Meinung zu Deinen Lieblings-Produkten mit uns und lasse Dich dafür bezahlen.",
             "comma": ",",
             "contactUsLowercaseImperative": "kontaktiere uns",
-            "copyright": "IntelliZoom Panel © 2019. Alle Rechte vorbehalten.",
+            "copyright": "IntelliZoom Panel © 2022. Alle Rechte vorbehalten.",
             "edge": "Edge",
             "email": "E-Mail",
             "firefox": "Firefox",
@@ -165,8 +165,7 @@
                     "min": "{{sessionDuration}} Minuten"
                 },
                 "scheduled": {
-                    "notice": "",
-                    "warning": ""
+                    "warning": "Beachte: Solltest du nicht mehr verfügbar sein zu dieser Zeit, <a href='{{entranceLink}}'>sag' ab</a> oder <a href='{{entranceLink}}'>verschiebe</a> deine Teilnahme umgehend. "
                 }
             },
             "and": "und",
@@ -189,12 +188,22 @@
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
-                "header": "Vergiss es nicht! Deine nächste Sitzung ist in",
-                "days": "{{count}} Tage",
+                "header": "Vergiss es nicht! Deine nächste Sitzung ist in ",
+                "days_plural": "{{count}} Tage ",
                 "seeDetails": "Details anzeigen",
                 "show": "Kommende Sitzungen ausblenden",
                 "hide": "Kommende Sitzungen ausblenden",
-                "studiesHeader": "Kommende"
+                "studiesHeader": "Kommende",
+                "headerDateOn": "",
+                "minutesNoHours_plural": "{{count}} Minuten ",
+                "hours_plural": "{{count}} Stunden ",
+                "minutes_plural": "und {{count}} Minuten ",
+                "days": "{{count}} Tag ",
+                "cardsHeader": "Du bist eingeplant für: ",
+                "minutesNoHours": "{{count}} Minute ",
+                "minutes": "und {{count}} Minute ",
+                "hours": "{{count}} Stunde ",
+                "sessionDetails": "Details zur Sitzung"
             }
         },
         "studies": {

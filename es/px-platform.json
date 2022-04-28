@@ -277,8 +277,15 @@
             "intro": {
                 "title": "¡Hola {{userName}}!",
                 "descriptionFTU": "En esta sección encontrarás todos los estudios que estén disponibles para ti. \n\n¡Pero no tardes mucho en participar! No están disponibles por mucho tiempo...",
-                "oneStudyAvailable": "Tienes 1 estudio disponible",
-                "severalStudiesAvailable": "Tienes {{studiesAvailable}} estudios disponibles"
+                "oneStudyAvailable": "Tienes 1 estudio disponible ",
+                "severalStudiesAvailable": "Tienes {{studiesAvailable}} estudios disponibles",
+                "verb": "Tienes ",
+                "availableStudies": "{{count}} estudio disponible ",
+                "availableStudies_plural": "{{count}} estudios disponibles ",
+                "scheduledStudies_plural": "y {{count}} programados ",
+                "scheduledStudies": "y {{count}} programado ",
+                "scheduledStudiesNoAvailableStudies": "{{count}} estudio programado ",
+                "scheduledStudiesNoAvailableStudies_plural": "{{count}} estudios programados "
             },
             "practiceStudy": {
                 "cta": "Realizar estudio de práctica"
@@ -519,6 +526,14 @@
                     }
                 }
             }
+        },
+        "demographicsUpdate": {
+            "complete": {
+                "title": "🎉 Gracias por actualizar tu perfil",
+                "description": "Tu participación garantiza que proporcionemos el mejor servicio posible",
+                "cta": "Consulta los estudios disponibles"
+            },
+            "infoMessage": "Los datos que nos facilitas nos permiten relacionar tu perfil con los estudios más relevantes. "
         }
     }
 }

@@ -7,7 +7,7 @@
             "claim": "Your opinion matters. Get paid to share your experiences and make an impact on products you love and care about.",
             "comma": ",",
             "contactUsLowercaseImperative": "contact us",
-            "copyright": "IntelliZoom Panel © 2019. All rights reserved.",
+            "copyright": "IntelliZoom Panel © 2022. All rights reserved.",
             "edge": "Edge",
             "email": "Email",
             "firefox": "Firefox",
@@ -165,8 +165,7 @@
                     "min": "{{sessionLength}} minutes"
                 },
                 "scheduled": {
-                    "notice": "",
-                    "warning": ""
+                    "warning": "Note: if you can no longer make this time, please <a href='{{entranceLink}}'>cancel</a> or <a href='{{entranceLink}}'>reschedule</a> your participation as soon as possible."
                 }
             },
             "and": "and",
@@ -189,12 +188,22 @@
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
-                "header": "Don’t forget! Your next session is in",
-                "days": "{{count}} days",
+                "header": "Don’t forget! Your next session is in ",
+                "days_plural": "{{count}} days ",
                 "seeDetails": "See details",
                 "show": "Show upcoming sessions",
                 "hide": "Hide upcoming sessions",
-                "studiesHeader": "Upcoming"
+                "studiesHeader": "Upcoming",
+                "headerDateOn": "Don’t forget! Your next session is on ",
+                "minutesNoHours_plural": "{{count}} minutes ",
+                "hours_plural": "{{count}} hours ",
+                "minutes_plural": "and {{count}} minutes ",
+                "days": "{{count}} day ",
+                "cardsHeader": "You’re scheduled for: ",
+                "minutesNoHours": "{{count}} minute ",
+                "minutes": "and {{count}} minute ",
+                "hours": "{{count}} hour ",
+                "sessionDetails": "Session details"
             }
         },
         "studies": {
