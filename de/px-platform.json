@@ -529,15 +529,15 @@
         }
     },
     "izPanel.demographicsUpdate.complete.title": {
-        "title": ""
+        "title": "🎉 Danke, dass du dein Profil auf den neuesten Stand gebracht hast"
     },
     "izPanel.demographicsUpdate.complete.description": {
-        "description": ""
+        "description": "Durch deine Teilnahme können wir den bestmöglichen Service bieten"
     },
     "izPanel.demographicsUpdate.complete.cta": {
-        "cta": ""
+        "cta": "Verfügbare Studien ansehen"
     },
     "izPanel.demographicsUpdate.infoMessage": {
-        "infoMessage": ""
+        "infoMessage": "Die von dir bereitgestellten Daten ermöglichen es uns, die für dein Profil relevantesten Studien zu finden."
     }
 }
