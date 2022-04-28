@@ -529,19 +529,11 @@
         },
         "demographicsUpdate": {
             "complete": {
-                "title": {
-                    "title": "🎉 Danke, dass du dein Profil auf den neuesten Stand gebracht hast"
-                },
-                "description": {
-                    "description": "Durch deine Teilnahme können wir den bestmöglichen Service bieten"
-                },
-                "cta": {
-                    "cta": "Verfügbare Studien ansehen"
-                }
+                "title": "🎉 Danke, dass du dein Profil auf den neuesten Stand gebracht hast",
+                "description": "Durch deine Teilnahme können wir den bestmöglichen Service bieten",
+                "cta": "Verfügbare Studien ansehen"
             },
-            "infoMessage": {
-                "infoMessage": "Die von dir bereitgestellten Daten ermöglichen es uns, die für dein Profil relevantesten Studien zu finden."
-            }
+            "infoMessage": "Die von dir bereitgestellten Daten ermöglichen es uns, die für dein Profil relevantesten Studien zu finden."
         }
     }
 }
