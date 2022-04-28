@@ -526,18 +526,22 @@
                     }
                 }
             }
+        },
+        "demographicsUpdate": {
+            "complete": {
+                "title": {
+                    "title": "🎉 Gracias por actualizar tu perfil"
+                },
+                "description": {
+                    "description": "Tu participación garantiza que proporcionemos el mejor servicio posible"
+                },
+                "cta": {
+                    "cta": "Consulta los estudios disponibles"
+                }
+            },
+            "infoMessage": {
+                "infoMessage": "Los datos que nos facilitas nos permiten relacionar tu perfil con los estudios más relevantes. "
+            }
         }
-    },
-    "izPanel.demographicsUpdate.complete.title": {
-        "title": "🎉 Gracias por actualizar tu perfil"
-    },
-    "izPanel.demographicsUpdate.complete.description": {
-        "description": "Tu participación garantiza que proporcionemos el mejor servicio posible"
-    },
-    "izPanel.demographicsUpdate.complete.cta": {
-        "cta": "Consulta los estudios disponibles"
-    },
-    "izPanel.demographicsUpdate.infoMessage": {
-        "infoMessage": "Los datos que nos facilitas nos permiten relacionar tu perfil con los estudios más relevantes. "
     }
 }
