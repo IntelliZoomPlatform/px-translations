@@ -165,7 +165,11 @@
                     "min": "{{sessionDuration}} Minuten"
                 },
                 "scheduled": {
-                    "warning": "Beachte: Solltest du nicht mehr verfügbar sein zu dieser Zeit, <a href='{{entranceLink}}'>sag' ab</a> oder <a href='{{entranceLink}}'>verschiebe</a> deine Teilnahme umgehend. "
+                    "warning": "Beachte: Solltest du nicht mehr verfügbar sein zu dieser Zeit, <a href='{{entranceLink}}'>sag' ab</a> oder <a href='{{entranceLink}}'>verschiebe</a> deine Teilnahme umgehend. ",
+                    "join": "In der Sitzung einloggen",
+                    "notice": "Du kannst 10 Minuten vor Beginn der Sitzung einsteigen.",
+                    "title": "Hier sind die Details für deine nächste Sitzung",
+                    "nowTitle": "Fangen wir an! Du kannst jetzt die Sitzung betreten"
                 }
             },
             "and": "und",
@@ -194,7 +198,7 @@
                 "show": "Kommende Sitzungen ausblenden",
                 "hide": "Kommende Sitzungen ausblenden",
                 "studiesHeader": "Kommende",
-                "headerDateOn": "",
+                "headerDateOn": "Vergiss es nicht! Deine nächste Sitzung ist am",
                 "minutesNoHours_plural": "{{count}} Minuten ",
                 "hours_plural": "{{count}} Stunden ",
                 "minutes_plural": "und {{count}} Minuten ",
@@ -208,7 +212,7 @@
         },
         "studies": {
             "sessionDetails": {
-                "title": ""
+                "title": "Fangen wir an! Du kannst jetzt die Sitzung betreten"
             }
         }
     }
