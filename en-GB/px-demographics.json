@@ -756,7 +756,7 @@
     "izPanel": {
         "common": {
             "demographics": {
-                "billion": ""
+                "billion": "billion"
             }
         }
     }

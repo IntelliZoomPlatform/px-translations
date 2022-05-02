@@ -263,13 +263,13 @@
             },
             "technology": {
                 "mobilePlan": {
-                    "question": "What type of cell phone plan do you have?",
+                    "question": "What type of mobile phone plan do you have?",
                     "list": {
                         "prepaid": "Pre-paid",
                         "contract": "Contract",
-                        "noPhone": "I don't have a cell phone"
+                        "noPhone": "I don't have a mobile phone"
                     },
-                    "shortName": "Type of cell phone plan"
+                    "shortName": "Type of mobile phone plan"
                 },
                 "electronicDevices": {
                     "question": "Which of the following electronic products do you own?",
@@ -281,7 +281,7 @@
                         "digitalCamera": "Digital Camera",
                         "desktopPc": "PC/Mac desktop",
                         "laptopPc": "PC/Mac laptop",
-                        "cellPhone": "Cell Phone",
+                        "cellPhone": "Mobile Phone",
                         "cordlessPhone": "Cordless Phone",
                         "projector": "Projector",
                         "documentScanner": "Document Scanner",
@@ -710,15 +710,15 @@
                 "shortName": "Total annual income that all members of your household earn combined (before taxes)"
             },
             "mobileCarrier": {
-                "question": "Which of these is the carrier for the cell phone you use most often?",
-                "shortName": "Carrier for the cell phone you use most often"
+                "question": "Which of these is the carrier for the mobile phone you use most often?",
+                "shortName": "Carrier for the mobile phone you use most often"
             },
             "noPhone": {
-                "noPhone": "I don't have a cell phone"
+                "noPhone": "I don't have a mobile phone"
             },
             "companyRevenue": {
-                "question": "Approximately what is the annual revenue for your organization?",
-                "shortName": "Approximate annual revenue of your organization"
+                "question": "Approximately what is the annual revenue for your company?",
+                "shortName": "Approximate annual revenue of your company"
             },
             "subscriptions": {
                 "question": "Which of the following services are you subscribed to?",
