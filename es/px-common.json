@@ -158,7 +158,11 @@
                     "title": "Entrevista online",
                     "description": "Podrás elegir la franja horaria que más te convenga. ",
                     "book": "Reserva la sesión ",
-                    "modalDescription": "En este estudio, participarás en una videollamada en vivo con un investigador de UX que te pedirá que des tu opinión y brinde comentarios sobre una experiencia digital. \n\nEstá sesión durará alrededor de {{sessionDuration}} minutos. También podrás elegir cuando participar en base de las franjas horarias disponibles.  "
+                    "modalDescription": "En este estudio, participarás en una videollamada en vivo con un investigador de UX que te pedirá que des tu opinión y brinde comentarios sobre una experiencia digital. \n\nEstá sesión durará alrededor de {{sessionDuration}} minutos. También podrás elegir cuando participar en base de las franjas horarias disponibles.  ",
+                    "mobileRequired": "Se requiere un número de teléfono móvil para programar una sesión",
+                    "smsReminder": "Para recibir un mensaje de recordatorio",
+                    "contactUser": "Para contactar contigo si algo va mal",
+                    "why": "¿Por qué?"
                 },
                 "sessionDuration": {
                     "title": "Duración de la sesión:",
