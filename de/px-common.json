@@ -169,7 +169,7 @@
                     "min": "{{sessionDuration}} Minuten"
                 },
                 "scheduled": {
-                    "warning": "Beachte: Solltest du nicht mehr verfügbar sein zu dieser Zeit, <a href='{{entranceLink}}'>sag' ab</a> oder <a href='{{entranceLink}}'>verschiebe</a> deine Teilnahme umgehend. ",
+                    "warning": "**Beachte:** Solltest du nicht mehr verfügbar sein zu dieser Zeit, <a href='{{entranceLink}}'>sag' ab</a> oder <a href='{{entranceLink}}'>verschiebe</a> deine Teilnahme umgehend. ",
                     "join": "In der Sitzung einloggen",
                     "notice": "Du kannst 10 Minuten vor Beginn der Sitzung einsteigen.",
                     "title": "Hier sind die Details für deine nächste Sitzung",
