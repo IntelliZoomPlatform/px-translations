@@ -169,7 +169,7 @@
                     "min": "{{sessionLength}} minutos"
                 },
                 "scheduled": {
-                    "warning": "Nota: Si por algún motivo no puedes llegar a la sesión, pedimos que <a href='{{entranceLink}}'>canceles</a> o <a href='{{entranceLink}}'>modifiques</a> la hora de tu sesión lo más pronto posible. ",
+                    "warning": "**Nota:** Si por algún motivo no puedes llegar a la sesión, pedimos que [canceles]({{entranceLink}}) o [modifiques]({{entranceLink}}) la hora de tu sesión lo más pronto posible.",
                     "join": "Entrar en la sesión",
                     "notice": "Podrás unirte a la sesión 10 minutos antes de la hora de inicio.",
                     "title": "Aquí están los detalles para tu próxima sesión",

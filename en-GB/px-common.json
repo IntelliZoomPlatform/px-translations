@@ -169,7 +169,7 @@
                     "min": "{{sessionLength}} minutes"
                 },
                 "scheduled": {
-                    "warning": "Note: if you can no longer make this time, please <a href='{{entranceLink}}'>cancel</a> or <a href='{{entranceLink}}'>reschedule</a> your participation as soon as possible.",
+                    "warning": "**Note:** if you can no longer make this time, please [cancel]({{entranceLink}}) or [reschedule]({{entranceLink}}) your participation as soon as possible.",
                     "join": "Join now",
                     "notice": "You'll be able to join the session 10mins before the starting time.",
                     "title": "Here are the details for your upcoming session",
