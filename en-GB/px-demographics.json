@@ -713,12 +713,9 @@
                 "question": "Which of these is the carrier for the mobile phone you use most often?",
                 "shortName": "Carrier for the mobile phone you use most often"
             },
-            "noPhone": {
-                "noPhone": "I don't have a mobile phone"
-            },
             "companyRevenue": {
-                "question": "Approximately what is the annual revenue for your organization?",
-                "shortName": "Approximate annual revenue of your organization"
+                "question": "Approximately what is the annual revenue for your company?",
+                "shortName": "Approximate annual revenue of your organisation"
             },
             "subscriptions": {
                 "question": "Which of the following services are you subscribed to?",
@@ -750,6 +747,9 @@
             "ethnicity": {
                 "question": "Which of the following best represents your racial or ethnic heritage?",
                 "shortName": "Racial or ethnic heritage"
+            },
+            "noPhone": {
+                "noPhone": "I don't have a mobile phone"
             }
         }
     },
