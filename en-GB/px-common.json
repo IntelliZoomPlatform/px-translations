@@ -165,7 +165,7 @@
                     "why": "Why?"
                 },
                 "sessionDuration": {
-                    "title": "Session duration:",
+                    "title": "Session duration",
                     "min": "{{sessionLength}} minutes"
                 },
                 "scheduled": {
