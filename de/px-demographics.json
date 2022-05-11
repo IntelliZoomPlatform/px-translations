@@ -713,9 +713,6 @@
                 "question": "Welcher der folgenden Anbieter ist jener für das Mobiltelefon das Du am häufigsten benützt?",
                 "shortName": "Mobilfunkanbieter für Dein meistgenütztes Mobiltelefon"
             },
-            "noPhone": {
-                "noPhone": "Ich habe kein Mobiltelefon"
-            },
             "companyRevenue": {
                 "question": "Was ist der geschätzte Jahresumsatz Deines Unternehmens?",
                 "shortName": "Geschätzer Jahresumsatz Deines Unternehmens"
@@ -750,6 +747,9 @@
             "ethnicity": {
                 "question": "Welcher Rasse gehört Du an?",
                 "shortName": "Rasse"
+            },
+            "noPhone": {
+                "noPhone": "Ich habe kein Mobiltelefon"
             }
         }
     },
