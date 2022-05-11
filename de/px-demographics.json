@@ -747,9 +747,6 @@
             "ethnicity": {
                 "question": "Welcher Rasse gehört Du an?",
                 "shortName": "Rasse"
-            },
-            "noPhone": {
-                "noPhone": "Ich habe kein Mobiltelefon"
             }
         }
     },
