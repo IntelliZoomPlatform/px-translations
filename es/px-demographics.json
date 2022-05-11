@@ -713,9 +713,6 @@
                 "question": "De las siguientes operadoras de telefonía móvil, ¿cuál es la que más utilizas?",
                 "shortName": "Operadora móvil del teléfono que más utilizas"
             },
-            "noPhone": {
-                "noPhone": "No tengo teléfono móvil"
-            },
             "companyRevenue": {
                 "question": "Aproximadamente, ¿cuáles son los ingresos anuales de tu compañía / organización?",
                 "shortName": "Ingresos anuales aproximados de tu compañía / organización"
@@ -750,6 +747,9 @@
             "ethnicity": {
                 "question": "De las siguientes opciones, ¿cuál representa mejor tu origen étnico?",
                 "shortName": "Origen étnico"
+            },
+            "noPhone": {
+                "noPhone": "No tengo teléfono móvil"
             }
         }
     },
