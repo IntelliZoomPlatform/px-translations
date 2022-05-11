@@ -379,7 +379,7 @@
                     "shortName": "Work industry"
                 },
                 "jobDepartment": {
-                    "question": "Which department do you primarily work within at your organization?",
+                    "question": "Which department do you primarily work within at your company?",
                     "list": {
                         "admin": "Administration / General Staff",
                         "customer_service": "Customer Service / Client Service",
@@ -441,7 +441,7 @@
                     "shortName": "Departments/products you have influence or decision making authority over regarding spending/purchasing."
                 },
                 "companySize": {
-                    "question": "Approximately how many employees work at your organization (all locations)?",
+                    "question": "Approximately how many employees work at your company (all locations)?",
                     "shortName": "Employees at your organization"
                 }
             },
@@ -715,7 +715,7 @@
             },
             "companyRevenue": {
                 "question": "Approximately what is the annual revenue for your company?",
-                "shortName": "Approximate annual revenue of your organisation"
+                "shortName": "Approximate annual revenue of your company"
             },
             "subscriptions": {
                 "question": "Which of the following services are you subscribed to?",
