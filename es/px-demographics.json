@@ -747,9 +747,6 @@
             "ethnicity": {
                 "question": "De las siguientes opciones, ¿cuál representa mejor tu origen étnico?",
                 "shortName": "Origen étnico"
-            },
-            "noPhone": {
-                "noPhone": "No tengo teléfono móvil"
             }
         }
     },
