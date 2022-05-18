@@ -2,523 +2,538 @@
     "izPanel": {
         "registration": {
             "name": {
-                "title": "Wie heißt Du?",
+                "title": "Comment vous appelez-vous ?",
                 "field": {
-                    "firstName": "Name",
-                    "lastName": "Nachname"
+                    "firstName": "Prénom",
+                    "lastName": "Nom de famille"
                 },
-                "alreadyRegistered": "Bereits registriert? <1>$t(px-common:izPanel.common.logInImperative)</1>"
+                "alreadyRegistered": "Vous êtes déjà inscrit ? <1>$t(px-common:izPanel.common.logInImperative)</1>"
             },
             "country": {
-                "title": "Willkommen {{firstName}}!",
-                "otherCountry": "Zeige mehr Länder",
-                "description": "**Du trittst unserem Panel in {{country}} bei.**\n\nFalls Du auf Reisen bist und das nicht das Land ist, indem Du lebst, registriere Dich bitte sobald Du zurück bist. Bist Du jetzt zu Hause und das ist nicht, wo Du lebst, [kontaktiere uns](https://help.intellizoom.com/hc/de/requests/new) uns bitte.",
+                "title": "Bienvenue {{firstName}} !",
+                "otherCountry": "Afficher d'autres pays",
+                "description": "**Vous entrez dans notre panel en {{country}}.**\n\nSi vous êtes en voyage et que ce n'est pas le pays où vous vivez, nous vous recommandons de vous inscrire au Panel d'IntelliZoom une fois de retour chez vous. Si vous êtes chez vous et que ce n'est pas votre pays, veuillez [nous contacter](https://help.intellizoom.com/hc/en-us/requests/new).",
                 "inSpanish": "¿Prefieres ver esta página en Español?",
                 "inGerman": "Möchtest Du diese Seite in Deutsch ansehen?"
             },
             "email": {
-                "title": "Was ist Deine E-Mail?",
-                "description": "Hierhin wirst Du Deine Studieneinladungen erhalten."
+                "title": "Quelle est votre adresse e-mail ?",
+                "description": "C'est ici que vous recevrez nos invitations aux études."
             },
             "password": {
-                "title": "Wähle ein Passwort",
-                "description": "Stelle sicher, dass es stark ist!\n\nVerwende: ",
+                "title": "Choisissez un mot de passe",
+                "description": "Assurez-vous qu'il soit fort !\n\nIncluez :",
                 "requirements": {
-                    "capitalLetter": "einen Großbuchstaben",
-                    "numberOrSymbol": "eine Zahl",
-                    "minChars": "mindestens 8 Zeichen",
-                    "lowercaseLetter": "einen Kleinbuchstaben",
-                    "passwordsShouldMatch": "selbstverständlich sollten Deine Passworte übereinstimmen"
+                    "capitalLetter": "une lettre majuscule",
+                    "numberOrSymbol": "un chiffre",
+                    "minChars": "au moins huit caractères",
+                    "lowercaseLetter": "une lettre minuscule",
+                    "passwordsShouldMatch": "et bien sûr, vos mots de passe doivent correspondre"
                 },
-                "passwordConfirmation": "Passwort bestätigen"
+                "passwordConfirmation": "Confirmez le mot de passe"
             },
             "terms": {
-                "title": "Bevor es weiter geht...",
-                "description": "Nimm Dir bitte einen Moment Zeit unsere <1>{{termsLink}}</1> und <3>{{privacyLink}}</3> zu lesen.\n\nSolltest Du unsicher über die Nutzung Deiner Daten sein, <5>{{contactUsLowercaseImperative}}</5> bitte.",
+                "title": "Avant de continuer...",
+                "description": "Veuillez prendre un moment pour lire nos <1>{{termsLink}}</1> et notre <3>{{privacyLink}}</3>.\n\nSi vous avez des doutes sur la manière dont vos données sont gérées, veuillez <5>{{contactUsLowercaseImperative}}</5>.",
                 "checkbox": {
-                    "gdpr": "Ich möchte Einladungen per E-Mail zu Forschungsstudien zur Benutzererfahrung die meinem Profil entsprechen erhalten. $t(px-common:izPanel.common.requiredField)",
-                    "terms": "Ich stimme den Nutzungsbedingungen und der Datenschutzerklärung zu. $t(px-common:izPanel.common.requiredField)",
-                    "mkt": "Ich möchte Benachrichtigungen und Newsletter von IntelliZoom Panel erhalten."
+                    "gdpr": "Je veux recevoir une invitation par e-mail à des études de recherche d'expérience utilisateur qui correspondent à mon profil. $t(px-common:izPanel.common.requiredField)",
+                    "terms": "J'accepte les conditions d'utilisation et la politique de confidentialité. $t(px-common:izPanel.common.requiredField)",
+                    "mkt": "Je veux recevoir des communications et des bulletins d'information d'IntelliZoom."
                 }
             },
             "doubleOptIn": {
-                "title": "Wir haben Dir eine E-Mail-Bestätigung zur Aktivierung Deines Kontos geschickt.",
-                "description": "Bitte klicke den Link in der E-Mail, um Dein Konto zu aktivieren. \n\nAus Sicherheitsgründen ist dieser Link nur 24 Stunden gültig. \n\nWenn Du keine Nachricht siehst, überprüfe bitte den Spam-Ordner. Wir können Dir das E-Mail auch <1>nochmals senden</1>.",
-                "resendSuccess": "E-Mail gesendet!"
+                "title": "Nous vous avons envoyé un e-mail de confirmation pour activer votre compte",
+                "description": "Veuillez cliquer sur le lien contenu dans l'e-mail pour activer votre compte.\n\nPour des raisons de sécurité, le lien expirera dans un délai de 24 heures.\n\nSi vous ne le voyez pas, vérifiez votre dossier de courrier indésirable. Nous pouvons également vous <1>renvoyer</1> l'e-mail.",
+                "resendSuccess": "E-mail envoyé !"
             }
         },
         "comingSoon": {
-            "title": "Bald Verfügbar!",
-            "description": "Wir haben derzeit kein Panel in {{selectedCountry}}, aber Du kannst uns Deine E-Mail hinterlassen und wir informieren Dich wenn wir eines öffnen. ",
+            "title": "Bientôt disponible !",
+            "description": "Nous n'avons actuellement pas de panneau actif dans {{selectedCountry}}, mais laissez-nous votre e-mail et nous vous informerons lorsque nous en ouvrirons un.",
             "success": {
-                "title": "Danke!",
-                "description": "Wir kontaktieren Dich, wenn wir unser Panel in {{selectedCountry}} öffnen. \n\nAuf ein baldiges Wiedersehen!"
+                "title": "Merci !",
+                "description": "Nous vous contacterons lorsque nous ouvrirons notre panel à {{selectedCountry}}.\n\nÀ bientôt !"
             },
-            "gdpr": "Ich möchte informiert werden, wenn Intellizoom Panel in meinem Land öffnet. $t(px-common:izPanel.common.requiredField)",
-            "yourLocation": "Ihr Standort"
+            "gdpr": "Je veux recevoir une information lorsque IntelliZoom Panel ouvrira dans mon pays. $t(px-common:izPanel.common.requiredField)",
+            "yourLocation": "votre emplacement"
         },
         "error": {
             "required": {
-                "field": "Diese Eingabe ist erforderlich.",
-                "gdpr": "Deine Zustimmung ist erforderlich.",
-                "terms": "Bitte akzeptiere die Allgemeinen Geschäftsbedigungen und die Datenschutzbestimmungen."
+                "field": "Ce champ est obligatoire.",
+                "gdpr": "Ce consentement est requis.",
+                "terms": "Vous devez accepter les conditions de service et la politique de confidentialité."
             },
             "format": {
-                "email": "Bitte trage eine gültige E-Mail-Adresse ein. Bsp: name@email.com",
-                "genericFormat": "Dieses Format ist ungültig"
+                "email": "Veuillez utiliser un format d'e-mail valide. P. ex., name@email.com",
+                "genericFormat": "Le format n'est pas valide."
             },
             "registration": {
-                "existingEmail": "Diese E-Mail-Adresse ist bereits registriert. Bitte\n<1>$t(px-common:izPanel.common.logInLowercase)</1>?",
-                "sendEmailFail": "Ojeh, irgendetwas ist schief gelaufen. Wir konnten Dir die Bestätigungs-E-Mail nicht senden. Bitte versuche es später erneut.",
-                "passwordRequirements": "Dieses Passwort erfüllt die Sicherheitsanforderungen nicht",
-                "emailLength": "Wow! Deine Email-Adresse kann nicht länger als 150 Zeichen sein...",
-                "passwordIncludesSpaces": "Das Passwort kann nicht mit einem Leerschritt beginnen oder enden."
+                "existingEmail": "Il semble que vous soyez déjà inscrit ! Veuillez, <1>$t(px-common:izPanel.common.logInLowercase)</1>.",
+                "sendEmailFail": "Oups, quelque chose s'est mal passé et nous n'avons pas pu vous envoyer l'e-mail de confirmation. Veuillez réessayer plus tard.",
+                "passwordRequirements": "Le mot de passe ne répond pas aux exigences",
+                "emailLength": "Ouah ! Votre e-mail ne peut pas contenir 150 caractères...",
+                "passwordIncludesSpaces": "Le mot de passe ne peut pas commencer ou se terminer par un espace."
             },
             "minTwoChars": {
-                "firstName": "Dein Name muss mindestens 2 Buchstaben haben.",
-                "lastName": "Dein Nachname muss mindestens 2 Buchstaben haben."
+                "firstName": "Votre nom doit contenir au moins deux caractères.",
+                "lastName": "Votre nom de famille doit contenir au moins deux caractères."
             },
-            "generic": "Ojeh, da ist etwas schiefgelaufen. Bitte versuche es später erneut.",
+            "generic": "Oups, quelque chose s'est mal passé. Veuillez réessayer plus tard.",
             "birthday": {
-                "future": "Zeitreisender, was? Dein Geburtsdatum kann nicht in der Zukunft liegen. ",
-                "past": "Keine Vampire erlaubt. Dein Geburtsdatum muss innhalb eines Jahrhunderts sein."
+                "future": "Vous avez voyagé dans le temps ? La date de naissance ne peut pas être dans le futur.",
+                "past": "Les vampires ne sont pas autorisés ! La date de naissance doit correspondre à ce siècle."
             },
             "login": {
-                "accountBlocked": "Dein Konto wurde nach mehreren aufeinanderfolgenden Anmeldungsversuchen blockiert.",
-                "accountInactive": "Dein Konto wurde noch nicht aktiviert. Sollen wir Dir die E-Mail-Bestätigung <1>nochmals zuschicken</1>?",
-                "expiredLink": "Der Aktivierungslink den Du geklickt hast is abgelaufen. Bitte <1>erneut senden</1> und wieder versuchen.",
-                "invalidCredentials": "Es tut uns leid. Wir konnten diese E-Mail/Passwort-Kombination nicht finden.",
-                "userNotFound": "Der Aktivierungslink den Du geklickt hast ist abgelaufen und Deine Daten wurden gelöscht. Bitte versuche erneut Dich zu registrieren.",
-                "wrongActivation": "Etwas ist schiefgelaufen während Deiner Kontoaktivierung. Bitte versuche es später erneut über die selbe Bestätigungs-E-Mail die wir Dir geschickt haben.",
-                "wrongActivationWithLink": "Etwas ist schiefgelaufen während Deiner Kontoaktivierung. Bitte <1>erneut senden</1> und wieder versuchen.",
-                "accountDeactivated": "Dein Konto ist zur Zeit nicht aktiv. Um wieder an IntelliZoom Studien teilzunehmen, kannst Du Deinen [Zugang anfordern](https://help.intellizoom.com/hc/de/requests/new)."
+                "accountBlocked": "Votre compte a été bloqué après plusieurs tentatives de connexion consécutives.",
+                "accountInactive": "Votre compte n'a pas encore été activé. Souhaitez-vous que nous vous <1>renvoyions</1> l'e-mail de confirmation ?",
+                "expiredLink": "Le lien d'activation que vous avez suivi a expiré. Veuillez le <1>renvoyer</1> et réessayer.",
+                "invalidCredentials": "Nous sommes désolés, cette combinaison e-mail/mot de passe n'a pas pu être trouvée.",
+                "userNotFound": "Le lien d'activation que vous avez suivi a expiré et vos données ont été supprimées. Veuillez essayer de vous réinscrire.",
+                "wrongActivation": "Un problème est survenu lors de l'activation de votre compte. Veuillez réessayer plus tard via le même e-mail de confirmation que nous vous avons envoyé auparavant.",
+                "wrongActivationWithLink": "Un problème est survenu lors de l'activation de votre compte. Veuillez <1>renvoyer</1> l'e-mail de confirmation et réessayer.",
+                "accountDeactivated": "Votre compte a été désactivé. Si vous souhaitez le réactiver, veuillez [nous contacter] (https://help.intellizoom.com/hc/en-us/requests/new)."
             },
             "forgotPassword": {
-                "sendEmailFail": "Ojeh, irgendetwas is schief gelaufen. Wir konnten Dir die Bestätigungs-E-Mail nicht senden. Bitte versuche es später erneut."
+                "sendEmailFail": "Oups, quelque chose a mal tourné et nous n'avons pas pu vous envoyer l'e-mail de réinitialisation du mot de passe. Veuillez réessayer plus tard."
             },
             "resetPassword": {
-                "incorrectPassword": "Aktuelles Passwort ungültig",
-                "expiredLink": "Der link den Du benützt hast ist abgelaufen. Bitte fordere einen neuen Link auf der [Passwort vergessen](/forgot-password) Seite an."
+                "incorrectPassword": "Mot de passe actuel incorrect",
+                "expiredLink": "Le lien que vous avez suivi a expiré. Veuillez demander un nouveau lien à partir de la page [Mot de passe oublié](/forgot-password)."
             },
-            "limitExceeded": "Du hast die maximale Anzahl an Versuchen erreicht. Bitte versuche es später erneut.",
+            "limitExceeded": "Vous avez atteint le nombre maximal de tentatives. Veuillez réessayer plus tard.",
             "demographics": {
-                "notUnderAge": "Ein Minderjähriger kann nicht älter als 18 Jahre sein."
+                "notUnderAge": "Votre enfant ne peut pas être âgé de plus de 18 ans."
             }
         },
         "footer": {
             "item": {
-                "faqPayments": "[Wie lange dauert es bis ich bezahlt werde?](https://help.intellizoom.com/hc/de/articles/360000650458)",
-                "faqInvitations": "[Wie funktionieren Studieneinladungen?](https://help.intellizoom.com/hc/de/articles/360000658537)",
-                "faqChangeEmail": "[Wie kann ich meine E-Mail-Adresse ändern?](https://help.intellizoom.com/hc/de/articles/360001190318)",
-                "faqBrowseAll": "[Mehr anzeigen](https://help.intellizoom.com/hc/de)",
-                "sendEmail": "[Sende uns ein E-Mail](https://help.intellizoom.com/hc/de/requests/new)",
-                "whatIsIZP": "Was ist IntelliZoom Panel"
+                "faqPayments": "[Combien de temps prennent généralement les paiements ?](https://help.intellizoom.com/hc/en-us/articles/360000650458--When-and-how-much-will-I-get-paid-)",
+                "faqInvitations": "[Comment fonctionnent les invitations ?](https://help.intellizoom.com/hc/en-us/articles/360000658537-How-will-I-be-notified-of-new-studies-)",
+                "faqChangeEmail": "[Comment puis-je modifier mon adresse e-mail ?](https://help.intellizoom.com/hc/en-us/articles/360001190318-How-can-I-change-my-email-)",
+                "faqBrowseAll": "[Voir plus](https://help.intellizoom.com/hc/en-us)",
+                "sendEmail": "[Envoyez-nous un e-mail](https://help.intellizoom.com/hc/en-us/requests/new)",
+                "whatIsIZP": "Qu'est-ce que le panneau IntelliZoom"
             },
             "title": {
-                "about": "Über uns",
-                "contact": "Kontakt",
-                "faq": "Häufige Fragen",
-                "social": "Folge uns!"
+                "about": "À propos de nous",
+                "contact": "Contacter",
+                "faq": "FAQ",
+                "social": "Suivez-nous !"
             }
         },
         "header": {
             "email": "{{userEmail}}",
-            "logOut": "Abmelden",
-            "mainDashboard": "Studien",
+            "logOut": "Déconnexion",
+            "mainDashboard": "Études",
             "name": "{{userFullName}}",
-            "profile": "Mein Profil",
-            "settings": "Einstellungen"
+            "profile": "Mon profil",
+            "settings": "Paramètres"
         },
         "basicDemographics": {
-            "flowTitle": "Okay!\n\nLos geht's",
-            "flowDescription": "Um Dich zu Studien einladen zu können, beantworte bitte die folgenden **3 Fragen:**",
-            "flowLastQuestion": "Und zu guter letzt...",
-            "progress": "Frage {{currentQuestion}} von {{totalQuestions}}",
+            "flowTitle": "Très bien !\n\nCommençons",
+            "flowDescription": "Pour vous inviter aux études, nous devons vous poser **juste trois questions basiques** de profilage.",
+            "flowLastQuestion": "Enfin et surtout...",
+            "progress": "Question {{currentQuestion}} de {{totalQuestions}}",
             "success": {
-                "title": "Fertig!",
-                "description": "Du bist nun bereit an unseren Studien teilzunehmen. \n\nVervollständige Dein Profil, sodass wir Dich zu spezifischeren (und besser bezahlten) Studien einladen können. ",
-                "cta": "Packen wir's an!"
+                "title": "Voilà !",
+                "description": "Vous êtes maintenant prêt à commencer à participer à nos études.\n\nContinuez à compléter votre profil afin que nous puissions vous inviter à des études plus spécifiques (et mieux rémunérées).",
+                "cta": "Allons-y !"
             },
             "underage": {
-                "title": "Du musst zumindest {{minimumLegalAge}} Jahre alt sein, um an unseren Studien teilzunehmen",
-                "description": "Es tut uns leid, aber wir können Dich nicht zu Studien einladen oder Dir erlauben fortzufahren. Wir werden Dein IntelliZoom Panel Konto und alle Deine persönlichen Daten nun löschen. \n\nDanke für Dein Interesse."
+                "title": "Vous devez avoir au moins {{minimumLegalAge}} ans pour participer à nos études",
+                "description": "Nous sommes désolés, mais nous ne pouvons pas vous inviter à nos études ou vous permettre de continuer. Nous allons maintenant procéder à la suppression de votre compte IntelliZoom Panel et de toutes vos informations personnelles.\n\nNous vous remercions de votre intérêt."
             }
         },
         "login": {
-            "title": "Anmelden",
-            "forgotPassword": "Passwort vergessen?",
-            "orSocialAccess": "oder weiter mit",
-            "newHere": "Noch kein Konto?",
-            "signUp": "Registriere Dich!",
+            "title": "Se connecter",
+            "forgotPassword": "Mot de passe oublié ?",
+            "orSocialAccess": "ou continuez avec",
+            "newHere": "Vous n'avez pas de compte ?",
+            "signUp": "Inscrivez-vous !",
             "success": {
-                "accountActivated": "Dein Konto wurde erfolgreich aktiviert!",
-                "emailResent": "Wir haben Dir den Aktivierungslink erneut zugeschickt."
+                "accountActivated": "Votre compte a été activé avec succès !",
+                "emailResent": "Nous vous avons renvoyé l'e-mail d'activation."
             }
         },
         "forgotPassword": {
-            "title": "Hast Du Dein Passwort vergessen?",
-            "description": "Bitte trage Deine E-Mail ein und wir senden Dir einen Link, um Dein Passwort zurückzusetzen.",
+            "title": "Vous avez oublié votre mot de passe ?",
+            "description": "Veuillez saisir votre e-mail et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
             "success": {
-                "title": "Wir haben Dir ein E-Mail geschickt, um Dein Passwort zurückzusetzen",
-                "description": "Aus Sicherheitsgründen ist dieser Link nur 24 Stunden gültig. \n\nWenn Du keine Nachricht siehst, überprüfe bitte den Spam-Ordner. Wir können Dir das E-Mail auch <1>nochmals senden</1>."
+                "title": "Nous vous avons envoyé un e-mail pour réinitialiser votre mot de passe.",
+                "description": "Pour des raisons de sécurité, le lien expirera dans un délai de 24 heures.\n\nSi vous ne le voyez pas, vérifiez votre dossier de courrier indésirable. Nous pouvons également <1>renvoyer</1> l'e-mail."
             }
         },
         "resetPassword": {
-            "title": "Neues Passwort setzen",
+            "title": "Définir un nouveau mot de passe",
             "currentPassword": {
-                "description": "Und schreibe Dein aktuelles Passwort bitte:",
-                "field": "Aktuelles Passwort"
+                "description": "Et tapez votre mot de passe actuel :",
+                "field": "Mot de passe actuel"
             },
             "success": {
-                "title": "Passwort aktualisiert!",
-                "description": "Dein neues Passwort wurde erfolgreich gespeichert.",
-                "cta": "Zur Anmeldung",
-                "backToSettings": "Zurück zu Einstellungen"
+                "title": "Mot de passe mis à jour !",
+                "description": "Votre nouveau mot de passe a été enregistré avec succès.",
+                "cta": "Aller à la page de connexion",
+                "backToSettings": "Retourner aux paramètres"
             }
         },
         "landing": {
             "heroSection": {
-                "title": "Deine Meinung zählt.",
-                "description": "Lass Dich bezahlen für das Teilen Deiner Erfahrungen mit Deinen Lieblingsprodukten.",
-                "cta": "Los geht's!"
+                "title": "Votre opinion compte.",
+                "description": "Recevez une rémunération pour partager vos expériences et avoir une influence sur les produits que vous aimez et auxquels vous tenez.",
+                "cta": "Faisons-le !"
             },
             "featureBoxes": {
                 "first": {
-                    "title": "Werde schnell und einfach bezahlt",
-                    "description": "Sparst Du auf etwas oder suchst Du nach extra Taschengeld? Mache es wie andere auf der ganzen Welt und hole Dir einen Zusatzverdienst indem Du Deine Erfahrungen mit uns teilst."
+                    "title": "Faites-vous payer rapidement et facilement",
+                    "description": "Vous économisez pour quelque chose ou vous cherchez un peu d'argent de poche supplémentaire ? Rejoignez les personnes du monde entier qui gagnent un revenu supplémentaire en partageant leurs expériences."
                 },
                 "second": {
-                    "title": "Beeinflusse das Produkterlebnis",
-                    "description": "Beeinflusse Deine Lieblingsprodukte indem Du Deine Meinung mit den Produktentwicklern teilst."
+                    "title": "Influencez les expériences des produits",
+                    "description": "Ayez une influence immédiate sur les produits que vous aimez et utilisez aujourd'hui en partageant votre opinion avec les personnes qui fabriquent et améliorent ces produits."
                 },
                 "third": {
-                    "title": "Mache es in Deiner Freizeit",
-                    "description": "Du hast 15-20 Minuten Zeit? Feedback geben ist einfach. Nimm an Studien aus der Ferne teil, wann Du Zeit hast, von zu Hause aus oder unterwegs, mit Deinem eigenen Gerät."
+                    "title": "Faites-le pendant votre temps libre",
+                    "description": "Vous avez 15 à 20 minutes disponibles ? Donner votre avis est facile. Participez aux études à distance, selon votre emploi du temps, depuis votre domicile ou lors de vos déplacements, en utilisant votre propre appareil."
                 }
             },
             "reinforcingBanner": {
-                "phrase1": "Gebe Feedback",
-                "phrase2": "Werde bezahlt"
+                "phrase1": "Donnez votre avis",
+                "phrase2": "Recevez une rémunération"
             },
             "faqs": {
-                "title": "Fragen? Wir haben die Antworten",
+                "title": "Vous avez des questions ? Nous avons les réponses",
                 "faq1": {
-                    "title": "Wie schnell kann ich mit dem Testen loslegen?",
-                    "description": "Alsbald Du die Registrierung abgeschlossen hast und die 3 elementaren Profilierungs-Fragen beantwortet hast."
+                    "title": "En combien de temps puis-je commencer à suivre des études ?",
+                    "description": "Dès que vous aurez terminé le processus d'inscription et répondu à trois questions de base sur le profilage."
                 },
                 "faq2": {
-                    "title": "Wieviel Zeit wird die Teilnahme an einer Studie beanspruchen?",
-                    "description": "Die meisten Studien beanspruchen 10-20 Minuten im Schnitt."
+                    "title": "Quelle est la durée des études ?",
+                    "description": "La plupart des études durent en moyenne 10 à 20 minutes."
                 },
                 "faq3": {
-                    "title": "Wie alt muss ich sein?",
-                    "description": "Alle Studienteilnehmer müssen 18 Jahre oder älter sein."
+                    "title": "Quel âge dois-je avoir ?",
+                    "description": "Tous les participants doivent être âgés de 18 ans ou plus."
                 },
                 "faq4": {
-                    "title": "Wie viele Studieneinladungen werde ich erhalten?",
-                    "description": "Die Anzahl an Gelegenheiten die Du erhältst hängt von einigen Faktoren ab, wie etwa Deine demografischen Daten und Qualitätsbewertung ab."
+                    "title": "Combien d'invitations à l'étude vais-je recevoir ?",
+                    "description": "Le nombre d'opportunités que vous recevrez dépendra de plusieurs facteurs, tels que vos données démographiques et votre note de qualité."
                 },
                 "faq5": {
-                    "title": "Wie viel Geld werde ich verdienen?",
-                    "description": "Die Bezahlung hängt von der Komplexität der Studie ab. Für Studien die Deine Stimme oder ein Video aufnehmen, erhältst Du durchschnittlich $10. Für Standard-Umfragen beträgt die Bezahlung $2 im Schnitt."
+                    "title": "Combien d'argent pourrais-je gagner ?",
+                    "description": "La rémunération dépend de la complexité de l'étude. Pour les études qui enregistrent du son et de la vidéo de think out loud, vous pouvez vous attendre à gagner 10 $ en moyenne. Pour les enquêtes standard, le paiement est de 2 $ en moyenne."
                 },
                 "faq6": {
-                    "title": "Was benötige ich um an Studien teilnehmen zu können?",
-                    "description": "Alles was Du brauchst ist ein Computer, Tablet oder Smartphone, eine zuverlässige Internetverbindung, ein rugher Ort und die Möglichkeit, die zertifizierte (eCertified) Software von UserZoom herunterzuladen."
+                    "title": "De quoi ai-je besoin pour participer à des études ?",
+                    "description": "Tout ce dont vous avez besoin, c'est d'un ordinateur, d'une tablette ou d'un smartphone, d'une connexion fiable à un réseau Wi-Fi, d'un endroit calme et de la possibilité de télécharger le logiciel de test certifié eCertified de UserZoom."
                 },
                 "faq7": {
-                    "title": "Wann werde ich bezahlt?",
-                    "description": "Die Prämie wird via PayPal innerhalb 21 Werktagen nach Abschluss der Studie ausbezahlt, wenn Dein Ergebnis gesichtet und bestätigt wurde. Die meisten Ergebnisse werden innerhalb von 3-5 Tagen bestätigt. \n\nDie Auszahlung wird an die selbe E-Mail-Adresse getätigt mit der Du Dich zu IntelliZoom Panel registriert hast."
+                    "title": "Quand recevrai-je mon argent ?",
+                    "description": "Les paiements sont envoyés via PayPal dans un délai de 21 jours ouvrables après la fin de l'étude, une fois que vos résultats ont été examinés et approuvés. La plupart des résultats sont approuvés dans un délai de trois à cinq jours.\n\nVous recevrez le paiement dans le même e-mail que celui utilisé pour vous inscrire."
                 }
             },
             "uzBanner": {
-                "title": "Ist das die Eule die Du suchst?",
-                "description": "Wenn Du mehr über IntelliZoom, den Motor für Sourcing im Einsatz für UserZoom, wissen möchtest, klicke hier. Wir finden die besten Teilnehmer für Deine UX Research Studien."
+                "title": "Est-ce la chouette que vous cherchez ?",
+                "description": "Si vous voulez en savoir plus sur IntelliZoom, le moteur d'approvisionnement utilisé par UserZoom, [cliquez ici](https://www.userzoom.com/participant-sourcing/). Nous trouverons les meilleurs participants pour vos études de recherche d'expérience utilisateur."
             }
         },
         "settings": {
-            "title": "Einstellungen",
+            "title": "Paramètres",
             "account": {
-                "title": "Konto",
+                "title": "Compte",
                 "credentials": {
-                    "title": "E-Mail-Zugang",
-                    "passwordLastUpdate": "Aktualisiert am",
-                    "changePassword": "Passwort ändern"
+                    "title": "Accès aux e-mails",
+                    "passwordLastUpdate": "Mis à jour le",
+                    "changePassword": "Modifier le mot de passe"
                 },
                 "phone": {
-                    "title": "Telefonnummer",
-                    "description": "Wenn du Deine Telefonnummer zu Deinem Konto hinzufügst, können wir Dich zu Moderierten Studien einladen. Eine moderierte Studie bedeutet, dass Dich ein Usability Forscher durch die Studie begleitet, um Dein Feedback einzuholen.",
-                    "addPhone": "Telefonnummer hinzufügen"
+                    "title": "Numéro de téléphone",
+                    "description": "Si vous ajoutez votre numéro de téléphone à votre compte, nous pourrons vous inviter à des sessions modérées. Une session modérée signifie essentiellement qu'un chercheur d'expérience utilisateur vous guide à travers l'une de ses études et recueille vos commentaires.",
+                    "addPhone": "Ajouter un numéro de téléphone"
                 },
                 "deactivateAccount": {
-                    "title": "Konto deaktivieren",
-                    "description": "Wenn Du Dein Konto deaktivierst, verlierst Du Deinen Profilfortschritt und Du kannst nicht mehr an bezahlten Studien teilnehmen.",
-                    "cta": "Konto deaktivieren",
+                    "title": "Désactiver votre compte",
+                    "description": "Si vous désactivez votre compte, vous perdrez toute la progression de votre profil et vous ne pourrez plus suivre d'études payantes.",
+                    "cta": "Désactiver le compte",
                     "confirmationModal": {
-                        "title": "Bist Du sicher?",
-                        "description": "Du verlierst Deinen Profilfortschritt und Du kannst nicht mehr an bezahlten Studien teilnehmen.",
-                        "cta": "Ja, deaktivieren"
+                        "title": "Êtes-vous sûr ?",
+                        "description": "Vous perdrez toute la progression de votre profil et vous ne pourrez plus suivre d'études payantes.",
+                        "cta": "Oui, désactiver"
                     }
                 }
             },
-            "successfulUpdate": "Deine Einstellungen wurden erfolgreich aktualisiert!"
+            "successfulUpdate": "Vos paramètres ont été mis à jour avec succès !"
         },
         "studiesDashboard": {
             "completed": {
-                "sectionTitle": "Absolvierte Studien",
-                "completitionDate": "Absolviert am {{date}}.",
-                "paymentsDescription": "Erinnere Dich, dass bei Annahme Deiner Teilnahme die Bezahlung bis zu 21 Werktage beanspruchen kann, um in Deinem PayPal Konto aufzuscheinen."
+                "sectionTitle": "Études terminées",
+                "completitionDate": "Terminé le {{date}}.",
+                "paymentsDescription": "N'oubliez pas que si votre participation est acceptée, le paiement peut prendre jusqu'à 21 jours ouvrables pour apparaître sur votre compte PayPal."
             },
             "incompleteProfile": {
-                "title": "Werde zu mehr Studien eingeladen!",
-                "description": "Vervollständige Deine persönliche Information in Mein Profil, sodass wir Dich zu Studien mit spezifischeren Teilnahmekriterien einladen können.",
-                "cta": "Profil vervollständigen"
+                "title": "Recevez des invitations pour d'autres études !",
+                "description": "Complétez vos informations personnelles dans « Mon profil » et nous pourrons vous inviter à des études avec des critères plus spécifiques.",
+                "cta": "Compléter mon profil"
             },
             "intro": {
-                "title": "Willkommen {{userName}}!",
-                "descriptionFTU": "Das ist Deine Studien-Übersicht. Hier kannst Du die Studien die Dir zur Verfügung stehen sowie praktische Tipps einsehen. \n\nNimm Dir nicht zu viel Zeit um daran teilzunehmen. Üblicherweise sind sie nur für kurze Zeit verfügbar.",
-                "oneStudyAvailable": "Du hast eine Verfügbare Studie",
-                "severalStudiesAvailable": "Du hast {{studiesAvailable}} verfügbare Studien"
+                "title": "Bienvenue {{userName}} !",
+                "descriptionFTU": "Voici le tableau de bord de vos études. Vous y verrez les études qui sont disponibles pour vous et quelques conseils utiles.\n\nNe tardez pas trop à y participer ! Elles ne sont généralement disponibles que pour une courte période de temps.",
+                "oneStudyAvailable": "Vous avez une étude disponible",
+                "severalStudiesAvailable": "Vous avez {{studiesAvailable}} études disponibles",
+                "verb": "Vous avez",
+                "availableStudies": "{{count} étude disponible",
+                "availableStudies_plural": "{{count} études disponibles",
+                "scheduledStudies_plural": "et {{count}} programmée",
+                "scheduledStudies": "et {{count}} programmée",
+                "scheduledStudiesNoAvailableStudies": "{{count}} étude programmée",
+                "scheduledStudiesNoAvailableStudies_plural": "{{count}} études programmées"
             },
             "practiceStudy": {
-                "cta": "An Übungsstudie teilnehmen"
+                "cta": "Prendre une étude pratique"
             },
             "reactiveMessage": {
                 "certification": {
                     "underRevision": {
-                        "title": "Übungsstudie",
-                        "description": "User Team überprüft Deine Teilnahme und wird Dich bald mit seinem Feedback anschreiben."
+                        "title": "Étude pratique",
+                        "description": "Notre équipe est en train d'examiner votre étude pratique et vous fera part de ses commentaires sous peu !"
                     },
                     "rejected": {
-                        "title": "Übungsstudie",
-                        "description": "Die Übungsstudie die Du uns gesendet hast , hat unseren Qualitätsansprüchen zur Teilnahme an dieser Art von Studien nicht entsprochen. \n\nWenn Du denkst, dass hier ein Fehler vorliegt oder Du einen zweiten Versuch möchtest, <1>{{contactUsLowercaseImperative}}</1>."
+                        "title": "Étude pratique",
+                        "description": "L'étude pratique que vous nous avez envoyée ne répondait pas aux exigences de qualité que nous demandons pour ce type d'études.\n\nSi vous pensez qu'il s'agit d'une erreur ou si vous souhaitez une seconde chance, <1>{{contactUsLowercaseImperative}}</1>."
                     },
                     "accepted": {
-                        "title": "Glückwunsch!",
-                        "description": "Deine Teilnahme an unserer Übungsstudie wurde überprüft und bestätigt. \n\nJetzt können wir Dich zu Think-Out-Loud-Studien und Card-Sort-Studien einladen.",
-                        "cta": "Super!"
+                        "title": "Félicitations !",
+                        "description": "Votre étude pratique a été examinée et approuvée !\n\nNous allons maintenant pouvoir commencer à vous envoyer des invitations pour les études Think Out Loud et Card Sort.",
+                        "cta": "Génial !"
                     }
                 },
                 "unsubscribe": {
-                    "title": "Versäume keine Einladung!",
-                    "description": "Aktiviere die UX Research Studien-Einladungen und versäume nie wieder eine unserer Studien.",
-                    "cta": "Studieneinladungen aktiviere"
+                    "title": "Vous avez peur de rater quelque chose ? Ne manquez aucune invitation !",
+                    "description": "Activez les invitations aux études de recherche d'expérience utilisateur et ne manquez plus jamais aucune de nos études.",
+                    "cta": "Activer les invitations à l'étude"
                 }
             },
             "tip": {
                 "phone": {
-                    "title": "Hallo {{username}},",
-                    "description": "Bist Du daran interessiert an moderierten Studien teilzunehmen? Das bedeutet, dass Dich ein Usability-Forscher durch eine Studie begleitet, um Dein Feedback einzuholen.",
-                    "mainCTA": "Spannend",
-                    "secondaryCTA": "Nein danke"
+                    "title": "Bonjour {{userName}},",
+                    "description": "Seriez-vous intéressé par des études modérées ? Dans ce cas, un chercheur en expérience utilisateur vous guidera à travers l'une de ses études et recueillera vos commentaires.",
+                    "mainCTA": "Bien sûr",
+                    "secondaryCTA": "Non, merci"
                 }
             },
-            "availableStudiesTitle": "{{availableStudies}} Verfügbare Studien",
-            "availableStudyTitle": "1 verfügbare Studie",
-            "emptyDescription": "Derzeit gibt es keine verfügbaren Studien. Bleib dran!",
-            "noLongerAvailable": "Diese Studie ist nicht mehr verfügbar",
-            "studyCTA": "Teilnehmen"
+            "availableStudiesTitle": "{{availableStudies}} études disponibles",
+            "availableStudyTitle": "Une étude disponible",
+            "emptyDescription": "Il n'y a pas d'études disponibles pour le moment. Restez à l'écoute !",
+            "noLongerAvailable": "Cette étude n'est plus disponible",
+            "studyCTA": "Prenez cette étude"
         },
         "myProfile": {
             "panelistName": "{{user.firstName}} {{user.lastName}}",
             "profileCompletion": {
-                "title": "Dein Profil ist zu {{completionPercentage}} vollständig.",
-                "description": "Beantworte die Fragen in den folgenden Kategorien, sodass wir Dich zu mehr Studien einladen können."
+                "title": "Votre profil est complet à {{completionPercentage}} !",
+                "description": "Répondez aux questions dans les catégories ci-dessous et soyez invité à d'autres études."
             },
             "availableStudyTypes": {
-                "title": "Verfügbare Studientypen",
-                "description": "Komplettiere die <1>Übungsstudie</1> um an Think-Out-Loud- und Card Sort-Studien teilnehmen zu können."
+                "title": "Types d'études disponibles",
+                "description": "Complétez l'<1>étude pratique</1> pour participer aux études Think Out Loud et Card Sort."
             },
             "categories": {
-                "title": "Persönliche Daten",
-                "description": "Beantworte alle Fragen und komplettiere Dein Profil. Manche Studien erfordern sehr spezifische Kriterien zur Teilnahme. Je vollständiger und aktueller Dein Profil ist, desto mehr Studien stehen zu Deiner Teilnahme zur Verfügung.",
-                "complete": "Vollständig",
-                "questionsPending": "{{numberQuestionsPending}} Unbeantwortete Fragen",
-                "editCTA": "Prüfen / Bearbeiten",
-                "answerCTA": "Details hinzufügen"
+                "title": "Informations personnelles",
+                "description": "Répondez à toutes les questions et complétez votre profil. Certaines études exigent des critères très spécifiques, donc plus votre profil est complet et mis à jour, plus vous avez de chances d'y être invité.",
+                "complete": "Terminer",
+                "questionsPending": "{{numberQuestionsPending}} questions restantes",
+                "editCTA": "Examiner/Modifier",
+                "answerCTA": "Ajouter des détails"
             }
         },
         "demographics": {
             "categories": {
-                "aboutMe": "Über mich",
-                "healthAndFitness": "Gesundheit und Fitness",
-                "hobbiesAndInterests": "Hobbies und Interessen",
-                "household": "Haushalt",
-                "financial": "Finanzen",
-                "occupation": "Beruf",
+                "aboutMe": "À propos de moi",
+                "healthAndFitness": "Santé et forme physique",
+                "hobbiesAndInterests": "Passe-temps et intérêts",
+                "household": "Ménage",
+                "financial": "Finances",
+                "occupation": "Profession",
                 "technology": "Technologie",
-                "travel": "Reisen"
+                "travel": "Voyages"
             },
             "success": {
-                "title": "Spitze!",
-                "description": "Du kannst jetzt zu Studien die Deinem {{categoryFilled}} Profil entsprechen eingeladen werden. \n\nDenke daran, dass Du Dein {{categoryFilled}} jederzeit  in Deinem Profil <0>einsehen oder bearbeiten</0> kannst.",
-                "backToMyProfile": "Zurück zu meinem Profil",
+                "title": "Génial !",
+                "description": "Vous pouvez maintenant être invité à des études qui correspondent à votre profil {{categoryFilled}}.\n\nN'oubliez pas que vous pouvez toujours <0>examiner ou modifier</0> vos informations de {{categoryFilled}} depuis la section « Mon profil ».",
+                "backToMyProfile": "Retour à « Mon profil »",
                 "moreCategories": {
-                    "title": "Weiter mit Schwung!",
-                    "description": "Beantworte **nun {{numberQuestionsMissing}} Fragen** über {{categoryMissing}} um zu mehr Studien eingeladen zu werden.",
-                    "letsDoThis": "Packen wir's an!"
+                    "title": "Ne brisez pas votre élan !",
+                    "description": "Répondez à **seulement {{numberQuestionsMissing}} questions** sur {{categoryMissing}} pour pouvoir recevoir des invitations à d'autres études.",
+                    "letsDoThis": "Faisons ça"
                 }
             },
             "aboutMe": {
-                "nonEditableFields": "Wenn Du Dein Geburtsdatum, Dein Geschlecht oder das Land in dem Du wohnst ändern möchtest, [kontaktiere](https://help.intellizoom.com/hc/de/requests/new) unser Service Team."
+                "nonEditableFields": "Si vous souhaitez modifier les informations relatives à votre date de naissance, votre sexe ou votre pays, veuillez [nous contacter](https://help.intellizoom.com/hc/en-us/requests/new) avec notre équipe d'assistance."
             }
         },
         "reEngagement": {
-            "title": "Hallo {{userName}}!",
-            "description": "Da das eine brandneue Plattform ist, lass uns mit einem brandneuen Passwort starten.\n\nKlicke Neues Passwort beantragen und wir senden Dir eine E-Mail mit einem Link zum zurücksetzen.",
-            "cta": "Neues Passwort beantragen",
+            "title": "Bienvenue {{userName}} !",
+            "description": "Comme il s'agit d'un tout nouveau site Web, nous allons commencer par définir un tout nouveau mot de passe pour votre compte.\n\nCliquez sur « Demander un nouveau mot de passe » et nous vous enverrons un e-mail avec un lien pour le réinitialiser.",
+            "cta": "Demander un nouveau mot de passe",
             "success": {
-                "title": "Wir haben Dir ein E-Mail geschickt, um Dein Passwort zurückzusetzen",
-                "description": "Aus Sicherheitsgründen ist dieser Link nur 24 Stunden gültig. \n\nWenn Du keine Nachricht siehst, überprüfe bitte den Spam-Ordner. Wir können Dir das E-Mail auch <1>nochmals senden</1>."
+                "title": "Nous vous avons envoyé un e-mail pour demander un nouveau mot de passe.",
+                "description": "Pour des raisons de sécurité, le lien expirera dans 24 heures.\n\nSi vous ne le voyez pas, vérifiez votre dossier de courrier indésirable. Nous pouvons également <1>renvoyer</1> l'e-mail."
             },
             "wud": {
-                "titleName": "Willkommen bei IntelliZoom Panel {{userName}}!",
-                "title": "Willkommen bei IntelliZoom Panel!",
-                "description": "Wir werden alle Ihre Profilinformationen von WhatUsersDo auf unsere Plattform verschieben. Da es sich jedoch um eine brandneue Website handelt, lass' uns mit einem brandneuen Passwort starten.\n\nKlicke ’Neues Passwort beantragen' und wir senden Dir eine E-Mail mit einem Link zur Bestätigung.",
-                "cta": "Neues Passwort beantragen",
+                "titleName": "Bienvenue au Panel d'IntelliZoom {{userName}} !",
+                "title": "Bienvenue au Panel d'IntelliZoom !",
+                "description": "Nous allons transférer toutes les informations de votre profil de WhatUsersDo vers notre plate-forme, mais comme il s'agit d'un tout nouveau site Web, commençons par demander un tout nouveau mot de passe pour votre compte.\n\nCliquez sur « Demander un nouveau mot de passe » et nous vous enverrons un e-mail avec un lien pour le faire.",
+                "cta": "Demander un nouveau mot de passe",
                 "modal": {
-                    "title": "Jetzt Einladungsstatus aktivieren, damit Du gleich an neuen Studien teilnehmen kannst:",
-                    "bodycopy": "Erst, wenn Du den Einladungsstatus aktivierst, kannst Du Deine neuen Studien auf Deinem Dashboard sehen bzw. E-Mail-Einladungen zu neuen Studien erhalten.",
-                    "cta": "Studieneinladungen aktivieren"
+                    "title": "Activez les invitations aux études pour pouvoir y participer",
+                    "bodycopy": "Si vous ne les activez pas, vous ne verrez aucune étude sur votre tableau de bord des études et ne recevrez aucune invitation par e-mail.",
+                    "cta": "Activer les invitations aux études"
                 }
             }
         },
         "success": {
             "resend": {
-                "email": "E-Mail gesendet!"
+                "email": "E-mail envoyé !"
             }
         },
         "finalPages": {
             "complete": {
-                "title": "Du hast die Studie abgeschlossen. Danke für’s teilen Deiner Eindrücke!",
-                "description": "Sobald Deine Ergebnisse von uns gesichtet und bestätigt wurden, beauftragen wir die Zahlung mittels PayPal an die selbe E-Mail-Adresse die Du zur Registrierung bei IntelliZoom Panel benützt hast.\n\nDieser Prozess kann bis zu 21 Werktage benötigen. In der Zwischenzeit kannst Du an weiteren Studien teilnehmen.",
-                "cta": "Verfügbare Studien ansehen"
+                "title": "Vous avez terminé l'étude. Merci d'avoir partagé vos réflexions !",
+                "description": "Une fois que vos résultats auront été examinés et approuvés, nous traiterons votre paiement via PayPal sur le même compte de messagerie que vous avez utilisé lors de votre inscription au Panel IntelliZoom.\n\nCe processus peut prendre jusqu'à 21 jours ouvrables. Dans l'intervalle, vous pouvez continuer à participer à d'autres études !",
+                "cta": "Vérifiez les études disponibles"
             },
             "alreadyTaken": {
-                "title": "Du hast diese Studie bereits abgeschlossen. Danke für Deine Teilnahme!",
-                "description": "Sobald Deine Ergebnisse von uns gesichtet und bestätigt wurden, beauftragen wir die Zahlung mittels PayPal an die selbe E-Mail-Adresse die Du zur Registrierung bei IntelliZoom Panel benützt hast.\n\nDieser Prozess kann bis zu 21 Werktage benötigen. In der Zwischenzeit kannst Du an weiteren Studien teilnehmen.",
-                "cta": "Verfügbare Studien ansehen"
+                "title": "Vous avez déjà terminé cette étude. Merci d'y avoir participé !",
+                "description": "Une fois que vos résultats auront été examinés et approuvés, nous traiterons votre paiement via PayPal sur le même compte de messagerie que vous avez utilisé lors de votre inscription au Panel d'IntelliZoom.\n\nCe processus peut prendre jusqu'à 21 jours ouvrables. Dans l'intervalle, vous pouvez continuer à participer à d'autres études !",
+                "cta": "Vérifiez les études disponibles"
             },
             "screenout": {
-                "title": "Verdammt! Du bist nicht qualifiziert um an dieser Studie teilzunehmen. Aber vielleicht bist Du der perfekte Kandidat für die nächste!",
-                "description": "Danke für Deine Zeit, {{user.name}}.\n\nStelle sicher, dass [Dein Profil](/profile) vollständig und aktuell ist um so viele passende Einladungen wie möglich zu erhalten.",
-                "cta": "Verfügbare Studien ansehen"
+                "title": "Oups ! Vous n'étiez pas qualifié pour cette étude, mais vous pourriez être parfait pour la prochaine !",
+                "description": "Merci {{user.name}} d'avoir pris le temps de répondre quand même.\n\nAssurez-vous que [votre profil est complet](/profile) et à jour pour recevoir le plus d'invitations précises possible.",
+                "cta": "Vérifier les études disponibles"
             },
             "cheater": {
-                "title": "Es tut uns leid, aber Dein Ergebnis entspricht unseren Qualitätskriterien nicht.",
-                "description": "Wir nehmen es sehr ernst mit der Beantwortung unserer Studien.\n\nDeshalb setzen wir voraus dass:\n\n-  Die Studie komplett abgeschlossen wurde.\n\n-  Die Kommentare des Teilnehmers in Qualität und Quantität stimmen.\n\n-  Der / Die Teilnehmer/In eine angemessene Zeitspanne mit Betrachtung und Interaktion mit der zu beurteilenden Seite verbringt.\n\nLeider entsprechen Deine Ergebnisse nicht diesen Standards, weshalb wir Dir diesmal keine Prämie anbieten können. Wir tun das nicht gerne, aber diese Gründe sind uns wichtig und wir empfehlen Dir, mehr Zeit und Einsatz in zukünftige Studien zu investieren.",
-                "cta": "Zurück zu den verfügbaren Studien"
+                "title": "Désolé, mais vos résultats ne répondent pas à nos normes de qualité.",
+                "description": "Nous prenons la qualité des réponses de nos études extrêmement au sérieux.\n\nC'est pourquoi nous exigeons :\n\n- Que l'étude soit complètement terminée.\n\n- Que les commentaires des participants soient nombreux et de qualité.\n\n- Que le participant passe un temps raisonnable à regarder et à interagir avec les sites évalués.\n\nMalheureusement, vos résultats ne répondent pas à ces normes et nous ne sommes pas en mesure de vous offrir une récompense cette fois-ci. Nous détestons le faire, mais les raisons sont importantes pour nous, c'est pourquoi nous vous recommandons vivement d'investir plus de temps et d'efforts dans les études futures.",
+                "cta": "Retour aux études disponibles"
             },
             "speeder": {
-                "title": "Du hast diese Studie viel zu schnell abgeschlossen.",
-                "description": "Du warst schneller als erwartet für jemanden der die Studie in bestem Wissen beantwortet. Wir verstehen zwar die Eile und den Wunsch mehr Studien abschließen zu können, nehmen es aber mit der Qualität der Antworten sehr genau.\n\nLeider müssen wir daher Deine Ergebnisse ausschließen und können Dir diesmal keine Prämie anbieten. Wir tun das nicht gerne, aber die Gründe sind uns sehr wichtig, weshalb wir Dir empfehlen in zukünftigen Studien mehr Zeit zu verbringen.",
-                "cta": "Zurück zu den verfügbaren Studien"
+                "title": "Vous avez terminé cette étude trop vite.",
+                "description": "C'est-à-dire plus vite qu'on ne peut raisonnablement s'attendre à ce qu'il faille à quelqu'un pour la terminer de bonne foi. Bien que nous comprenions le besoin de rapidité et le désir de compléter plus d'études, nous prenons la qualité des réponses extrêmement au sérieux.\n\nMalheureusement, nous devons rejeter vos résultats et ne pourrons pas vous offrir de récompense cette fois-ci. Nous détestons le faire, mais les raisons sont importantes pour nous, c'est pourquoi nous vous recommandons vivement d'investir plus de temps et d'efforts dans les études futures.",
+                "cta": "Retour aux études disponibles"
             },
             "closed": {
-                "title": "Die Studie an der Du teilnehmen möchtest wurde geschlossen.",
-                "description": "Schnell! Schau' ob es noch eine weitere Studie für Dich gibt.",
-                "cta": "Verfügbare Studien ansehen"
+                "title": "L'étude que vous avez essayé d'entrer a été fermée.",
+                "description": "Vite ! Voyons s'il en existe une autre à laquelle vous pourriez participer.",
+                "cta": "Vérifier les études disponibles"
             },
             "quotafull": {
-                "title": "Die Studie an der Du teilnehmen möchtest hat bereits die notwendige Zahl an Antworten erreicht.",
-                "description": "Schnell! Schau' ob es noch eine weitere Studie für Dich gibt.",
-                "cta": "Verfügbare Studien ansehen"
+                "title": "L'étude à laquelle vous avez essayé de participer vient d'atteindre le nombre de réponses requis.",
+                "description": "Vite ! Voyons s'il y a une autre étude à laquelle vous pouvez participer.",
+                "cta": "Vérifier les études disponibles"
             },
-            "practiceStudy": "Wenn Du an einer unserer Übungsstudien teilnimmst, kontaktieren wir Dich, sobald wir Dein Ergebnis bewertet haben. Bitte behalte in Erinnerung, dass für Übungsstudien keine Prämien ausgezahlt werden."
+            "practiceStudy": "Si l'étude que vous avez suivie est une étude pratique, nous vous contacterons dès que nous aurons examiné vos résultats. N'oubliez pas que les études pratiques ne donnent pas droit à une rémunération."
         },
         "errorPages": {
             "generic": {
-                "title": "Ohjeh! Diese Seite funktioniert nicht.",
-                "description": "Wir behalten das im Auge.\n\nMöchtest Du Dir in der Zwischenzeit ansehen welche [Studien](/studies) verfügbar sind?"
+                "title": "Oh là là, cette page ne fonctionne pas.",
+                "description": "Nous en prenons note.\n\nEn attendant, vous souhaitez vérifier quelles [études](/studies) sont disponibles ?"
             },
             "uz": {
                 "generic": {
-                    "title": "Oops, etwas ist schiefgelaufen",
-                    "description": "Wir konnten die Seite nicht laden. Bitte versuche es in einigen Minuten nochmal."
+                    "title": "Oups, quelque chose a mal tourné",
+                    "description": "Nous n'arrivons pas à charger cette page. Veuillez réessayer dans quelques minutes."
                 }
             },
             "500": {
-                "title": "Und, nein… der Server antwortet nicht.",
-                "description": "Bitte entschuldige die Umstände. Bitte versuche es <1>in einigen Minuten</1> erneut."
+                "title": "Et... non. Le serveur ne répond pas.",
+                "description": "Désolé pour le dérangement. Veuillez <1>essayer à nouveau</1> dans quelques minutes."
             }
         },
         "paypalToken": {
             "dashboard": {
                 "status": {
                     "noIntegration": {
-                        "title": "Verknüpfe Dein PayPal-Konto mit IntelliZoom!",
-                        "description": "Mit unserer neuen PayPal-Integration wirst Du nach jeder absolvierten Forschungsstudie sicher und pünktlich bezahlt.",
-                        "cta": "Mit PayPal verknüpfen"
+                        "title": "Connectez votre compte PayPal avec IntelliZoom !",
+                        "description": "Grâce à notre nouvelle intégration avec PayPal, vous serez payé en toute sécurité et à temps après chaque session de recherche rémunérée.",
+                        "cta": "Connectez-vous avec PayPal"
                     },
                     "noTolUnverified": {
-                        "title": "Nur noch ein Schritt!",
-                        "description": "Um mit der Teilnahme an bezahlten Forschungsstudien zu beginnen, kannst Du entweder die Übungsstudie durchführen oder [Dein PayPal-Konto verifizieren.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                        "title": "Une étape de plus !",
+                        "description": "Pour commencer à participer à des études de recherche rémunérées, vous pouvez soit suivre l'étude pratique, soit [vérifier votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
                     },
                     "connectionLost": {
-                        "title": "Leider könnn wir Dich nicht bezahlen …",
-                        "description": "Dein PayPal-Konto wurde von IntelliZoom getrennt. Um bezahlt zu werden und an zukünftigen Studien teilnehmen zu können, muss Dein PayPal-Konto verknüpft sein.",
-                        "cta": "Mit PayPal verknüpfen"
+                        "title": "Désolé, nous ne pouvons pas vous payer...",
+                        "description": "Votre compte PayPal a été déconnecté d'IntelliZoom. Pour recevoir un paiement et participer à de futures études, votre compte PayPal doit être connecté.",
+                        "cta": "Connectez-vous avec PayPal"
                     }
                 },
                 "outcome": {
                     "success": {
                         "verified": {
-                            "title": "Herzlichen Glückwunsch! Dein PayPal-Konto wurde erfolgreich verknüpft.",
-                            "description": "Nehme zur Feier an einigen bezahlten Forschungsstudien teil."
+                            "title": "Félicitations ! Votre compte PayPal a été connecté avec succès",
+                            "description": "Prenons quelques études payées pour fêter ça."
                         },
                         "notVerifiedTol": {
-                            "title": "Herzlichen Glückwunsch! Dein PayPal-Konto wurde erfolgreich verknüpft.",
-                            "description": "Wenn Du an weiteren bezahlten Forschungsstudien teilnehmen möchtest, [verifiziere Dein PayPal-Konto.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                            "title": "Félicitations ! Votre compte PayPal a été connecté avec succès",
+                            "description": "Si vous voulez être éligible pour participer à d'autres études de recherche rémunérées, [vérifiez votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
                         },
                         "notVerifiedNoTol": {
-                            "title": "Herzlichen Glückwunsch! Dein PayPal-Konto wurde erfolgreich verknüpft.",
-                            "description": "Um mit der Teilnahme an bezahlten Forschungsstudien zu beginnen, kannst Du entweder die Übungsstudie durchführen oder [Dein PayPal-Konto verifizieren.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                            "title": "Félicitations ! Votre compte PayPal a été connecté avec succès.",
+                            "description": "Pour commencer à participer à des études de recherche rémunérées, vous pouvez soit suivre l'étude pratique, soit [vérifier votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
                         }
                     },
                     "error": {
                         "location": {
-                            "title": "Leider könnn wir Dich nicht bezahlen …",
-                            "description": "Dein PayPal- und Dein IntelliZoom-Konto müssen die gleichen Standortinformationen haben. Aktualisiere bitte die Seite, falls Du es erneut versuchen möchtest."
+                            "title": "Désolé, nous ne pouvons pas vous payer...",
+                            "description": "Vos deux comptes PayPal et IntelliZoom doivent avoir les mêmes informations de localisation. Actualisez la page si vous voulez réessayer."
                         },
                         "severalAccounts": {
-                            "title": "Leider könnn wir Dich nicht bezahlen …",
-                            "description": "Dein PayPal-Konto wird bereits für ein anderes IntelliZoom-Konto verwendet. Aktualisiere bitte die Seite, falls Du es erneut versuchen möchtest."
+                            "title": "Désolé, nous ne pouvons pas vous payer...",
+                            "description": "Votre compte PayPal est déjà utilisé pour un autre compte IntelliZoom. Actualisez la page si vous voulez réessayer."
                         },
                         "accessDenied": {
-                            "title": "Dein PayPal-Konto wurde nicht verknüpft, da Du IntelliZoom keinen Zugriff gewährt hast.",
-                            "cta": "Erneut versuchen"
+                            "title": "Votre PayPal n'a pas été connecté parce que vous n'avez pas autorisé l'accès à IntelliZoom",
+                            "cta": "Essayez à nouveau"
                         },
                         "noLongerVerified": {
-                            "title": "Dein PayPal ist nicht mehr verifiziert",
-                            "description": "Bitte folge diesen [Anweisungen](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444), um Dein PayPal-Konto zu verifizieren, und versuche es erneut."
+                            "title": "Votre PayPal n'est plus vérifié",
+                            "description": "Veuillez suivre ces [instructions](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) pour vérifier votre compte PayPal et réessayer."
                         }
                     }
                 }
             },
             "studyEntrance": {
                 "notVerified": {
-                    "title": "Um teilzunehmen, musst Du Dein verifiziertes PayPal-Konto mit IntelliZoom verknüpfen.",
-                    "description": "Wenn Du Dein Konto bereits verknüpft hast, denke daran, dass Du zur Teilnahme an Studien entweder die Übungsstudie durchführen oder bei PayPal [Dein Konto verifizieren](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) musst.",
-                    "cta": "Zur Übersichtsseite"
+                    "title": "Pour participer, vous devez connecter votre compte PayPal vérifié à IntelliZoom.",
+                    "description": "Si vous avez déjà connecté vos comptes, rappelez-vous que pour participer aux études, vous devez soit passer l'étude pratique, soit [vérifier votre compte](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) dans PayPal.",
+                    "cta": "Aller au tableau de bord"
                 }
             },
             "settings": {
                 "connect": {
-                    "title": "Mit Deinem PayPal verknüpfen",
-                    "description": "Stelle sicher, dass Du Deine Zahlungen pünktlich erhaltest, indem Du Dein Konto mit PayPal synchronisierst.",
-                    "cta": "Mein PayPal verknüpfen"
+                    "title": "Connectez votre PayPal",
+                    "description": "Assurez-vous de recevoir vos paiements à temps en synchronisant votre compte avec PayPal.",
+                    "cta": "Connecter mon PayPal"
                 },
                 "disconnect": {
-                    "title": "PayPal – verknüpft",
-                    "description": "Dein Konto ist erfolgreich mit PayPal verknüpft.",
-                    "cta": "Von PayPal trennen",
+                    "title": "PayPal : connecté",
+                    "description": "Votre compte est connecté avec succès à PayPal.",
+                    "cta": "Se déconnecter de PayPal",
                     "doubleConfirmation": {
-                        "title": "Bist Du sicher, dass Du Dein PayPal trennen möchtest?",
-                        "description": "Wenn Du mit dieser Option fortfährst, erhaltest Du keine Einladungen zu bezahlten Studien mehr. Außerdem verlierst Du alle ausstehenden Zahlungen für Studien, die Du kürzlich abgeschlossen hast.",
-                        "cta": "Mein PayPal trennen"
+                        "title": "Êtes-vous sûr de vouloir déconnecter votre PayPal ?",
+                        "description": "Si vous le faites, vous ne recevrez plus d'invitations à des études payantes. Vous renoncerez également à tout paiement en attente pour des études que vous avez pu terminer récemment.",
+                        "cta": "Déconnecter mon PayPal"
                     }
                 }
             }
+        },
+        "demographicsUpdate": {
+            "complete": {
+                "title": "🎉 Merci d'avoir actualisé votre profil",
+                "description": "C'est grâce à votre participation que nous pouvons offrir un service impeccable",
+                "cta": "Voir les études disponibles"
+            },
+            "infoMessage": "Les données que vous nous fournissez nous permettent de trouver les études les plus adaptées à votre profil."
         }
     }
 }
