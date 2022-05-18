@@ -535,5 +535,9 @@
             },
             "infoMessage": "Die von dir bereitgestellten Daten ermöglichen es uns, die für dein Profil relevantesten Studien zu finden."
         }
+    },
+    "“izPanel”.“finalPages”.“moderatedSessionAboutToStart”": {
+        "title": "Um diese Uhrzeit ist eine Sitzung für dich eingeplant. \u2028\nUm fortzufahren, logge dich bitte in dein Konto ein.",
+        "cta": "Anmelden"
     }
 }
