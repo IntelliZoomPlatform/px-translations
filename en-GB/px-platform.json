@@ -535,5 +535,9 @@
             },
             "infoMessage": "The data you provide lets us match your profile with the most relevant studies."
         }
+    },
+    "“izPanel”.“finalPages”.“moderatedSessionAboutToStart”": {
+        "title": "You’re scheduled for a session at this time. \n\u2028To continue, please log in to your account.",
+        "cta": "Log in"
     }
 }
