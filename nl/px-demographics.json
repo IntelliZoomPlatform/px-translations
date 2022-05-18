@@ -3,760 +3,760 @@
         "category": {
             "aboutMe": {
                 "birthday": {
-                    "question": "Was ist Dein Gegurtsdatum?",
-                    "shortName": "Geburtsdatum"
+                    "question": "Wat is je geboortedatum?",
+                    "shortName": "Geboortedatum"
                 },
                 "country": {
-                    "question": "In welchem Land lebst Du?",
+                    "question": "In welk land woon je?",
                     "shortName": "Land"
                 },
                 "gender": {
-                    "question": "Bist Du...",
-                    "shortName": "Geschlecht"
+                    "question": "Wat is je geslacht?",
+                    "shortName": "Geslacht"
                 },
                 "postalCode": {
-                    "question": "Was ist Deine Postleitzahl",
-                    "shortName": "Postleitzahl"
+                    "question": "Wat is je postcode?",
+                    "shortName": "Postcode"
                 },
                 "hispanic": {
-                    "question": "Bist Du lateinamerikianischer, hispanischer oder spanischer Herkunft?",
-                    "shortName": "Lateinamerikanische, hispanische oder spanische Herkunft"
+                    "question": "Ben je Spaans, Latino of van Spaanse afkomst?",
+                    "shortName": "Hispanic, Latino of Spaanse afkomst"
                 },
                 "ethnicity_us": {
                     "list": {
-                        "white": "Weiss",
-                        "black": "Schwarz oder Afroamerikanisch",
-                        "indian": "Indianer oder nativer Amerikaner",
-                        "asian": "Asiatisch",
-                        "islander": "Pazifik oder nativer Hawaiianer",
-                        "other": "Andere"
+                        "white": "Blank",
+                        "black": "Zwart of Afro-Amerikaans",
+                        "indian": "Amerikaanse Indiaan of Alaska Native",
+                        "asian": "Aziatisch",
+                        "islander": "Pacifische Eilandbewoner of Inheemse Hawaiiaan",
+                        "other": "Een ander ras"
                     }
                 },
                 "ethnicity_gb": {
                     "list": {
-                        "white": "Weiss",
-                        "traveller": "Nomadisch / Irish Traveller",
-                        "asian_indian": "Asiatisch oder Britisch-Asiatisch: Indisch",
-                        "asian_pakistani": "Asiatisch oder Britisch-Asiatisch: Pakistanisch",
-                        "asian_bangladeshi": "Asiatisch oder Britisch-Asiatisch: Bangladesch",
-                        "asian_chinese": "Asiatisch oder Britisch-Asiatisch: Chinesisch",
-                        "asian_other": "Asiatisch oder Britisch-Asiatisch: Andere",
-                        "black": "Schwarz oder schwarzer Brite",
-                        "mixed": "Gemischt oder mehrere"
+                        "white": "Blank",
+                        "traveller": "Traveller/Irish Traveller",
+                        "asian_indian": "Aziatisch of Brits-Aziatisch: Indiaas",
+                        "asian_pakistani": "Aziatisch of Brits-Aziatisch: Pakistaans",
+                        "asian_bangladeshi": "Aziatisch of Brits-Aziatisch: Bengaals",
+                        "asian_chinese": "Aziatisch of Brits-Aziatisch: Chinees",
+                        "asian_other": "Aziatisch of Brits-Aziatisch: Ander Aziatisch",
+                        "black": "Zwart of Brits-Zwart",
+                        "mixed": "Gemengd of Meerdere"
                     }
                 },
                 "householdDescription": {
                     "list": {
-                        "cohabiting": "Verpartnert / Gemeinsam lebend",
-                        "single": "Single, unverheiratet",
-                        "married": "Verheiratet",
-                        "divorced": "Geschieden",
-                        "separated": "Getrennt",
-                        "widowed": "Verwittwet"
+                        "cohabiting": "Geregistreerd partnerschap / Samenwonend",
+                        "single": "Alleenstaand, nooit getrouwd",
+                        "married": "Getrouwd",
+                        "divorced": "Gescheiden",
+                        "separated": "Uit elkaar",
+                        "widowed": "Weduwnaar"
                     },
-                    "question": "Was ist Dein Familienstand?",
-                    "shortName": "Familienstand"
+                    "question": "Wat is je relatiestatus?",
+                    "shortName": "Relatiestatus"
                 },
                 "education_us": {
                     "list": {
-                        "no_hs_diploma": "Einige Zeit in der Sekundärschule oder weniger",
-                        "hs_or_ged": "Sekundärschule oder gleichwertige Ausbildung",
-                        "some_college": "Einige Zeit an der Universität aber ohne Titel",
-                        "two_year_degree": "Universitätstitel - Accociate (2 Jahre)",
-                        "four_year_degree": "Universitätstitel - Bachelor (4 Jahre)",
-                        "post_grad_degree": "Post Graduate - MS, MA, MBA, PhD, etc.",
-                        "professional_degree": "Professional degree - MD, DVM, DDS, etc."
+                        "no_hs_diploma": "Een beetje middelbare school of lager",
+                        "hs_or_ged": "Middelbare school afgemaakt of gelijkwaardig",
+                        "some_college": "Een opleiding afgerond, maar geen diploma",
+                        "two_year_degree": "HBO afgestudeerd - Associate's Degree (2 jaar)",
+                        "four_year_degree": "HBO afgestudeerd - Bachelor (4 jaar)",
+                        "post_grad_degree": "Postgraduaat - MS, MA, MBA, PhD, etc.",
+                        "professional_degree": "Professionele graad - MD, DVM, DDS, enz."
                     }
                 },
                 "languages": {
-                    "question": "Welche Sprachen sprichst Du, sodass Du Dich behaglich fühlst, Feedback zu geben?",
+                    "question": "Welke talen spreek je? En voel je je op je gemak om feedback te geven?",
                     "list": {
                         "arabic": "Arabisch",
                         "basque": "Baskisch",
-                        "berber": "Berberisch",
-                        "bulgarian": "Bulgarisch",
-                        "catalan": "Katalanisch",
-                        "chinese": "Chinesisch",
+                        "berber": "Berbers",
+                        "bulgarian": "Bulgaars",
+                        "catalan": "Catalaans",
+                        "chinese": "Chinees",
                         "croatian": "Kroatisch",
-                        "czech": "Tschechisch",
-                        "danish": "Dänisch",
-                        "dutch": "Holländisch",
-                        "english": "Englisch",
-                        "estonian": "Estnisch",
-                        "finnish": "Finnisch",
-                        "french": "Französisch",
-                        "galician": "Galizisch",
-                        "german": "Deutsch",
-                        "greek": "Griechisch",
+                        "czech": "Tsjechisch",
+                        "danish": "Deens",
+                        "dutch": "Nederlands",
+                        "english": "Engels",
+                        "estonian": "Ests",
+                        "finnish": "Fins",
+                        "french": "Frans",
+                        "galician": "Galicisch",
+                        "german": "Duits",
+                        "greek": "Grieks",
                         "hindi": "Hindi",
-                        "hungarian": "Ungarisch",
-                        "italian": "Italienisch",
-                        "irish": "Irisch",
-                        "latvian": "Lettisch",
-                        "lithuanian": "Litauisch",
-                        "japanese": "Japanisch",
-                        "kurdish": "Kurdisch",
-                        "korean": "Koreanisch",
-                        "maltese": "Maltesisch",
-                        "norwegian": "Norwegisch",
-                        "polish": "Polnisch",
-                        "portuguese": "Portugiesisch",
-                        "romanian": "Rumänisch",
-                        "punjabi": "Punjab",
+                        "hungarian": "Hongaars",
+                        "italian": "Italiaans",
+                        "irish": "Iers",
+                        "latvian": "Lets",
+                        "lithuanian": "Litouws",
+                        "japanese": "Japans",
+                        "kurdish": "Koerdisch",
+                        "korean": "Koreaans",
+                        "maltese": "Maltees",
+                        "norwegian": "Noors",
+                        "polish": "Pools",
+                        "portuguese": "Portugees",
+                        "romanian": "Roemeens",
+                        "punjabi": "Punjabi",
                         "russian": "Russisch",
-                        "scottish": "Schottisch",
-                        "slovak": "Slowakisch",
-                        "slovenian": "Slowenisch",
-                        "spanish": "Spanisch",
-                        "swedish": "Schwedisch",
+                        "scottish": "Schots",
+                        "slovak": "Slowaaks",
+                        "slovenian": "Sloveens",
+                        "spanish": "Spaans",
+                        "swedish": "Zweeds",
                         "tagalog": "Tagalog",
                         "tamil": "Tamil",
-                        "turkish": "Türkisch",
+                        "turkish": "Turks",
                         "urdu": "Urdu",
-                        "welsh": "Walisisch"
+                        "welsh": "Welsh"
                     },
-                    "shortName": "Sprachen in denen ich mich behaglich fühle Feedback zu geben"
+                    "shortName": "Talen die je spreekt en waarin je feedback kan leveren"
                 },
                 "education_es": {
                     "list": {
-                        "lessHighschool": "Einige Zeit an der Obligatorischen Sekundärschule",
-                        "highschool": "Obligatorische Sekundärschule",
-                        "technical": "Diplomingenieur",
-                        "someBaccalaureate": "Einige Zeit höhere Sekundärbildung (Spanisches Bakkalaureat)",
-                        "baccalaureate": "Bakkalaureat",
-                        "someCollege": "Einige Zeit an der Universität (ohne Titel)",
-                        "college": "Universitätsabschluss (3 Jahre)",
-                        "masters": "Master",
-                        "phd": "Doktorat"
+                        "lessHighschool": "Verplicht voortgezet onderwijs of minder",
+                        "highschool": "Verplicht voortgezet onderwijs afgerond",
+                        "technical": "Technische / beroepsopleiding",
+                        "someBaccalaureate": "Een deel van het hoger secundair onderwijs voltooid (Spaans baccalaureaat)",
+                        "baccalaureate": "Hoger secundair onderwijs voltooid (Spaans baccalaureaat)",
+                        "someCollege": "Deel universitaire opleiding afgerond",
+                        "college": "Universitaire opleiding afgerond (bachelor)",
+                        "masters": "Masterdiploma",
+                        "phd": "Doctoraat"
                     }
                 },
                 "education_gb": {
                     "list": {
-                        "junior_infant": "This education levels are not for EU citizens but for UK.\nIf the levels are very specific I would leave them in English and only translate the parts like \"but no degree\".",
-                        "comprehensive": "Comprehensive School (GCSE)/Secondary modern (GCSE)/Grammar School (GCSE)/City Technology College (GCSE)/Sixth Form",
-                        "college": "College/Institution of Higher Education",
-                        "open_college": "Open College - College of Technology - Institute / Teacher Training University",
-                        "junior": "Junior School",
-                        "university": "University / Open University",
-                        "some_college": "Completed some University, but no degree"
+                        "junior_infant": "Basisschool",
+                        "comprehensive": "Middelbare school",
+                        "college": "HBO",
+                        "open_college": "Technische school / PABO",
+                        "junior": "Junior school",
+                        "university": "Universiteit / Open universiteit",
+                        "some_college": "Universitair geschoold, geen diploma"
                     }
                 },
                 "education_de": {
                     "list": {
-                        "primary": "Primärschule / Volksschule",
-                        "medium": "Sekundärschulabschluß",
-                        "university": "Abitur / Universität",
+                        "primary": "Primair voltooid",
+                        "medium": "Gemiddelde opleiding (middelbare school)",
+                        "university": "Eindexamen / Universiteit",
                         "associate": "Associate degree",
-                        "secondaryOther": "Weiterführende abgeschlossene sekundäre Ausbildung",
-                        "diploma": "Diplom (FH / DH)",
+                        "secondaryOther": "Andersoortig voortgezet onderwijs afgerond",
+                        "diploma": "Diploma (FH / DH)",
                         "bachelor": "Bachelor",
                         "magister": "Magister",
                         "master": "Master",
-                        "phd": "Doktorat",
-                        "universityOther": "Anderer Universitätstitel"
+                        "phd": "Doctoraat",
+                        "universityOther": "Ander universitair diploma"
                     }
                 },
                 "education_au": {
                     "list": {
-                        "furtherqualification": "Weiterführende abgeschlossene sekundäre Ausbildung",
-                        "universityNoDegree": "Einige Zeit an der Universität (ohne Titel)",
-                        "universityDegree": "Universitätsabschluss",
-                        "master": "Master",
-                        "doctorate": "Doktorat",
-                        "belowGcse": "Einige Zeit in der GCSE oder weniger",
-                        "gcse": "GCSE oder gleichwertige Ausbildung",
-                        "alevel": "A-levels oder gleichwertige Ausbildung"
+                        "furtherqualification": "Verdere kwalificaties (tussen middelbare school en universiteit)",
+                        "universityNoDegree": "Deels universitair geschoold, maar geen diploma",
+                        "universityDegree": "Universiteitsdiploma",
+                        "master": "Master- of professioneel diploma",
+                        "doctorate": "Doctoraat",
+                        "belowGcse": "Onder eindexamens",
+                        "gcse": "Eindexamens of equivalent",
+                        "alevel": "Schoolexamens of equivalent"
                     }
                 }
             },
             "household": {
                 "householdSize": {
-                    "question": "Wie viele Personen leben in Deinem Haushalt Dich eingeschlossen?",
+                    "question": "Hoeveel mensen wonen er in je huis inclusief jezelf?",
                     "list": {
-                        "1": "1 Person",
-                        "2": "2 Personen",
-                        "3": "3 Personen",
-                        "4": "4 Personen",
-                        "5": "5 Personen",
-                        "more_5": "Mehr als 5 Personen"
+                        "1": "1 persoon",
+                        "2": "2 mensen",
+                        "3": "3 mensen",
+                        "4": "4 mensen",
+                        "5": "5 mensen",
+                        "more_5": "Meer dan vijf mensen"
                     },
-                    "shortName": "Anzahl der Personen in Deinem Haushalt (Dich miteingerechnet)"
+                    "shortName": "Aantal personen in jouw huishouden"
                 },
                 "householdChildren": {
-                    "question": "Wieviele Personen unter 18 Jahren leben in Deinem Haushalt?",
-                    "shortName": "Anzahl der Minderjährigen in Deinem Haushalt"
+                    "question": "Hoeveel kinderen onder de 18 jaar heb je in je huishouden?",
+                    "shortName": "Aantal minderjarigen in jouw huishouden"
                 },
                 "pets": {
-                    "question": "Welche Haustiere leben in Deinem Haushalt?",
+                    "question": "Welke van de volgende huisdieren wonen in je huis?",
                     "list": {
-                        "cat": "Katze(n)",
-                        "dog": "Hund(e)",
-                        "bird": "Vogel (Vögel)",
-                        "fish": "Fische",
-                        "noPets": "Keine"
+                        "cat": "Kat(ten)",
+                        "dog": "Hond(en)",
+                        "bird": "Vogel(s)",
+                        "fish": "Vis",
+                        "noPets": "Ik heb geen huisdieren"
                     },
-                    "shortName": "Haustiere in Deinem Haushalt"
+                    "shortName": "Huisdieren"
                 },
                 "ownRent": {
-                    "question": "Welche Beschreibung passt am besten zu Deinem derzeitigen Haushalt?",
+                    "question": "Welke beschrijft je huidige huishouden het beste?",
                     "list": {
-                        "rented": "Miethaus / Mietwohnung",
-                        "owned": "Eigentumshaus / Eigentumswohnung",
-                        "parents": "Bei den Eltern lebend"
+                        "rented": "Huurappartement/-huis",
+                        "owned": "Eigenaar appartement/huis",
+                        "parents": "Woont bij ouders"
                     },
-                    "shortName": "Beschreibung Deines Haushalts"
+                    "shortName": "Huidig huishouden"
                 },
                 "purchaseDecisionMaker": {
-                    "question": "Für welche der folgenden Dinge bist Du zuständig oder teilweise zuständig in Deinem Haushalt?",
+                    "question": "Voor welke van de volgende zaken ben je in je huishouden verantwoordelijk of gedeeltelijk verantwoordelijk voor het nemen van beslissingen?",
                     "list": {
                         "internet": "Internet",
-                        "tv": "Fernsehen",
-                        "banking": "Bankanliegen",
-                        "groceries": "Lebensmitteleinkauf",
+                        "tv": "Televisie",
+                        "banking": "Bankzaken",
+                        "groceries": "Boodschappen",
                         "automobile": "Auto",
-                        "mortgage": "Hypothek",
-                        "finance": "Finanzen",
-                        "clothing": "Kleidung"
+                        "mortgage": "Hypotheek",
+                        "finance": "Financiën",
+                        "clothing": "Kleding"
                     },
-                    "shortName": "Deine Zuständigkeiten oder teilweise Zuständigkeiten in Deinem Haushalt"
+                    "shortName": "Zaken waar je geheel of deels voor verantwoordelijk bent binnen jouw huishouden"
                 },
                 "firstChild_gender": {
-                    "question": "Bitte nenne uns das Geschlecht Deines ersten Kindes unter 18 Jahre:",
-                    "shortName": "Geschlecht Deines ersten Kindes unter 18"
+                    "question": "Welk geslacht is de eerste minderjarige:",
+                    "shortName": "Geslacht eerste minderjarige"
                 },
                 "firstChild_birthday": {
-                    "question": "Bitte wähle das Geburtsdatum Deines ersten Kindes unter 18 Jahre:",
-                    "shortName": "Geburtsdatum Deines ersten Kindes unter 18"
+                    "question": "Welke geboortedatum heeft de eerste minderjarige:",
+                    "shortName": "Geboortedatum eerste minderjarige:"
                 },
                 "secondChild_gender": {
-                    "question": "Bitte nenne uns das Geschlecht Deines zweiten Kindes unter 18 Jahre:",
-                    "shortName": "Geschlecht Deines zweiten Kindes unter 18"
+                    "question": "Welk geslacht is de tweede minderjarige:",
+                    "shortName": "Geslacht tweede minderjarige"
                 },
                 "secondChild_birthday": {
-                    "question": "Bitte wähle das Geburtsdatum Deines zweiten Kindes unter 18 Jahre:",
-                    "shortName": "Geburtsdatum Deines zweiten Kindes unter 18"
+                    "question": "Welke geboortedatum heeft de tweede minderjarige:",
+                    "shortName": "Geboortedatum tweede minderjarige:"
                 },
                 "thirdChild_gender": {
-                    "question": "Bitte nenne uns das Geschlecht Deines dritten Kindes unter 18 Jahre:",
-                    "shortName": "Geschlecht Deines dritten Kindes unter 18"
+                    "question": "Welk geslacht is de derde minderjarige:",
+                    "shortName": "Geslacht derde minderjarige"
                 },
                 "thirdChild_birthday": {
-                    "question": "Bitte wähle das Geburtsdatum Deines dritten Kindes unter 18 Jahre:",
-                    "shortName": "Geburtsdatum Deines dritten Kindes unter 18"
+                    "question": "Welke geboortedatum heeft de derde minderjarige:",
+                    "shortName": "Geboortedatum derde minderjarige:"
                 },
                 "fourthChild_gender": {
-                    "question": "Bitte nenne uns das Geschlecht Deines vierten Kindes unter 18 Jahre:",
-                    "shortName": "Geschlecht Deines vierten Kindes unter 18"
+                    "question": "Welk geslacht is de vierde minderjarige:",
+                    "shortName": "Geslacht vierde minderjarige"
                 },
                 "fourthChild_birthday": {
-                    "question": "Bitte wähle das Geburtsdatum Deines vierten Kindes unter 18 Jahre:",
-                    "shortName": "Geburtsdatum Deines vierten Kindes unter 18"
+                    "question": "Welke geboortedatum heeft de vierde minderjarige:",
+                    "shortName": "Geboortedatum vierde minderjarige:"
                 },
                 "fifthChild_gender": {
-                    "question": "Bitte nenne uns das Geschlecht Deines fünften Kindes unter 18 Jahre:",
-                    "shortName": "Geschlecht Deines fünten Kindes unter 18"
+                    "question": "Welk geslacht is de vijfde minderjarige:",
+                    "shortName": "Geslacht vijfde minderjarige"
                 },
                 "fifthChild_birthday": {
-                    "question": "Bitte wähle das Geburtsdatum Deines fünften Kindes unter 18 Jahre:",
-                    "shortName": "Geburtsdatum Deines fünften Kindes unter 18"
+                    "question": "Welke geboortedatum heeft de vijfde minderjarige:",
+                    "shortName": "Geboortedatum vijfde minderjarige:"
                 }
             },
             "technology": {
                 "mobilePlan": {
-                    "question": "Welche Art von Mobilfunkvertrag hast Du?",
+                    "question": "Welk type mobiele abonnement heb je?",
                     "list": {
-                        "prepaid": "Prepaid / Wertkarte",
-                        "contract": "Vertrag",
-                        "noPhone": "Ich habe kein Mobiltelefon"
+                        "prepaid": "Prepaid",
+                        "contract": "Abonnement",
+                        "noPhone": "Ik heb geen mobiele telefoon"
                     },
-                    "shortName": "Art des Mobilfunkvertrages"
+                    "shortName": "Mobiel abonnement"
                 },
                 "electronicDevices": {
-                    "question": "Welche der folgenden Elektrogeräte besitzt Du?",
+                    "question": "Welke van de volgende elektronische producten bezit je?",
                     "list": {
-                        "flatTv": "Flachbildfernseher",
-                        "handheldConsole": "Tragbare Spielkonsole (Nintendo 2DS, Nintendo Switch)",
-                        "stationaryConsole": "Stationäre Spielkonsole (PlayStation, Xbox)",
-                        "videoCamera": "Videokamera",
-                        "digitalCamera": "Digitalkamera",
-                        "desktopPc": "PC/Mac Computer",
-                        "laptopPc": "PC/Mac Laptop",
-                        "cellPhone": "Mobiltelefon",
-                        "cordlessPhone": "Funktelefon",
-                        "projector": "Projektor",
-                        "documentScanner": "Scanner",
-                        "cableTv": "Kabel TV / Satellit",
-                        "digitalTv": "Digitalreceiver (TV)",
-                        "printer": "Drucker",
-                        "multipurposePrinter": "Multifunktionsdrucker (Fax, Drucker, Telefon, etc.)",
-                        "homeNetwork": "Heimnetzwerk / Kabelloses Internet",
-                        "surroundSystem": "Home Cinema",
-                        "digitalMediaReceiver": "Digitalreceiver (Bsp.: Apple TV, Roku)",
-                        "tablet": "Tablet",
-                        "ebook": "E-book reader (Bsp.: Kindle)"
+                        "flatTv": "Flatscreen tv",
+                        "handheldConsole": "Handheld gameconsole (Nintendo 2DS, Nintendo Switch)",
+                        "stationaryConsole": "Stationaire gameconsole (PlayStation, Xbox)",
+                        "videoCamera": "Videocamera",
+                        "digitalCamera": "Digitale Camera",
+                        "desktopPc": "PC/Mac desktop",
+                        "laptopPc": "PC/Mac laptop",
+                        "cellPhone": "Mobiele Telefoon",
+                        "cordlessPhone": "Draadloze Telefoon",
+                        "projector": "Projector",
+                        "documentScanner": "Documentscanner",
+                        "cableTv": "Kabel-/Satelliet Televisie",
+                        "digitalTv": "Digitale tv-ontvanger",
+                        "printer": "Printer",
+                        "multipurposePrinter": "Multifunctionele printer (fax, printer, telefoon, enzovoorts)",
+                        "homeNetwork": "Thuisnetwerk / Draadloos Internet",
+                        "surroundSystem": "Surroundsysteem / Thuisbioscoop",
+                        "digitalMediaReceiver": "Digitale Media-ontvanger (bijvoorbeeld Apple TV, Roku)",
+                        "tablet": "Tablet (bijvoorbeeld iPad)",
+                        "ebook": "E-boeklezer (bijvoorbeeld Kindle)"
                     },
-                    "shortName": "Elektrogeräte in Deinem Haushalt"
+                    "shortName": "Elektrische producten in jouw bezit"
                 }
             },
             "occupation": {
                 "employment": {
-                    "question": "Wie ist Dein aktuelles Dienstverhältnis?",
+                    "question": "Wat is je huidige werksituatie?",
                     "list": {
-                        "employed_full_time": "Mitarbeiter vollzeit",
-                        "employed_part_time": "Mitarbeiter teilzeit",
-                        "self_employed": "Selbstständig",
-                        "small_business_owner": "Selbsständig",
-                        "contractor_or_consultant": "Unternehmensberatung",
-                        "full_time_military": "Aktiver Soldat",
-                        "inactive_military": "Soldat in Ruhestand",
-                        "homemaker": "Vollzeit Haushaltsbetreuung (unbezahlt)",
-                        "retired": "In Ruhestand",
+                        "employed_full_time": "Fulltime in loondienst",
+                        "employed_part_time": "Parttime in loondienst",
+                        "self_employed": "ZZP'er",
+                        "small_business_owner": "Eigenaar van een klein bedrijf",
+                        "contractor_or_consultant": "Uitvoerder of adviseur",
+                        "full_time_military": "In actieve militaire dienst",
+                        "inactive_military": "Niet in actieve militaire dienst/Veteraan",
+                        "homemaker": "Fulltime huisvrouw/huisman",
+                        "retired": "Gepensioneerd",
                         "student": "Student",
-                        "unable_or_disabled": "Mit speziellen Bedürfnissen oder arbeitsunfähig",
-                        "looking_for_work": "Derzeit ohne Beschäftigung"
+                        "unable_or_disabled": "Mindervalide en niet in staat om te werken",
+                        "looking_for_work": "Tijdelijk werkloos"
                     },
-                    "shortName": "Aktuelles Dienstverhältnis"
+                    "shortName": "Huidige arbeidsstatus"
                 },
                 "industry": {
-                    "question": "In welcher der folgenden Branchen arbeitest Du?",
+                    "question": "In welke van de volgende bedrijfssectoren ben je werkzaam?",
                     "list": {
-                        "accounting": "Buchhaltung",
-                        "administrative": "Beamter",
-                        "advertising": "Werbung",
-                        "agriculture": "Agrikultur und Fischfang",
-                        "architecture": "Architektur",
-                        "arts_recreation": "Kunst und Erholung",
-                        "automotive": "Automobil",
-                        "aviation": "Fluglinie",
-                        "banking_finance": "Banken und Finanz",
+                        "accounting": "Boekhouding",
+                        "administrative": "Administratieve en Ondersteunende Diensten",
+                        "advertising": "Adverteren",
+                        "agriculture": "Landbouw / Visserij",
+                        "architecture": "Architectuur",
+                        "arts_recreation": "Kunst, Amusement en Recreatie",
+                        "automotive": "Auto-industrie",
+                        "aviation": "Luchtvaart",
+                        "banking_finance": "Bankieren / Financieel",
                         "biotech": "Biotechnologie",
-                        "brokerage": "Makler",
-                        "chemicals_plastics_rubber": "Chemie / Plastik / Gummi",
-                        "communications_information": "Kommunikation",
+                        "brokerage": "Makelaardij",
+                        "chemicals_plastics_rubber": "Chemicaliën / Kunststoffen / Rubber",
+                        "communications_information": "Communicatie / Informatie",
                         "computer_hardware": "Computerhardware",
-                        "computer_software": "Software",
-                        "computer_reseller": "Computerhändler",
-                        "construction": "Bauwesen",
-                        "consulting": "Consulting / Unternehmensberatung",
-                        "consumer_electronics": "Verbraucherelektronik",
-                        "consumer_goods": "Konsumgüter",
-                        "education": "Bildung",
-                        "energy_utilities": "Energiewirtschaft",
-                        "engineering": "Ingenieur",
-                        "environmental_services": "Umweltschutz",
-                        "fashion_apparel": "Bekleidungsindustrie",
-                        "food_beverage": "Gastronomie",
-                        "government_public_sector": "Öffentlicher Dienst",
-                        "healthcare": "Gesundheitswesen",
-                        "hospitality_tourism": "Tourismus",
-                        "human_resources": "Human Resources",
-                        "information_technology": "Informationstechnologie (IT)",
-                        "insurance": "Versicherungen",
+                        "computer_software": "Computersoftware",
+                        "computer_reseller": "Computerverkoper (software / hardware)",
+                        "construction": "Bouw",
+                        "consulting": "Advisering",
+                        "consumer_electronics": "Consumentenelektronica",
+                        "consumer_goods": "Verpakte Consumentengoederen",
+                        "education": "Educatie",
+                        "energy_utilities": "Energie / Nutsvoorzieningen / Olie en Gas",
+                        "engineering": "Techniek",
+                        "environmental_services": "Milieudiensten",
+                        "fashion_apparel": "Mode / Kleding",
+                        "food_beverage": "Eten / Drinken",
+                        "government_public_sector": "Overheid / Publieke Sector",
+                        "healthcare": "Gezondheidszorg",
+                        "hospitality_tourism": "Horeca / Toerisme",
+                        "human_resources": "Personeelszaken",
+                        "information_technology": "Informatietechnologie",
+                        "insurance": "Verzekeringen",
                         "internet": "Internet",
-                        "legal_law": "Recht und Justiz",
+                        "legal_law": "Juridisch / Wetgeving",
                         "management": "Management",
-                        "manufacturing": "Verarbeitende Industrie",
-                        "market_research": "Marktforschung",
-                        "marketing_sales": "Marketing und Verkauf",
-                        "media_entertainment": "Medien und Unterhaltung",
-                        "military": "Militär",
-                        "non_profit_social_services": "Nicht-Regierungs-Organisationen / Soziale Dienste",
-                        "personal_services": "Persönliche Dienstleistungen",
-                        "pharmaceuticals": "Pharmazeutische Industrie",
-                        "printing_publishing": "Druck und Medien",
-                        "professional_services": "Beratung / Professionelle Dienstleistungen",
-                        "public_administration": "Öffentliche Administration",
-                        "public_relations": "Öffentlichkeitsarbeit",
-                        "real_estate_property": "Immobilien",
-                        "retail_wholesale_trade": "Großhandel",
-                        "scientific_technical_services": "Wissenschaftliche oder technische Dienstleistungen",
-                        "security": "Sicherheitsdienst",
-                        "shipping_distribution": "Versand",
-                        "telecommunications": "Telekommunikation",
+                        "manufacturing": "Productie",
+                        "market_research": "Marktonderzoek",
+                        "marketing_sales": "Marketing / Verkoop",
+                        "media_entertainment": "Media / Amusement",
+                        "military": "Leger",
+                        "non_profit_social_services": "Non-profit / Sociale diensten",
+                        "personal_services": "Particuliere Dienstverlening",
+                        "pharmaceuticals": "Farmaceutische producten",
+                        "printing_publishing": "Drukkerij / Uitgeverij",
+                        "professional_services": "Professionele Dienstverlening",
+                        "public_administration": "Publieke Administratie",
+                        "public_relations": "Publieke Relaties",
+                        "real_estate_property": "Vastgoed / Onroerend Goed",
+                        "retail_wholesale_trade": "Detailhandel / Groothandel",
+                        "scientific_technical_services": "Wetenschappelijke of Technische Diensten",
+                        "security": "Beveiliging",
+                        "shipping_distribution": "Verzending / Distributie",
+                        "telecommunications": "Telecommunicatie",
                         "transportation": "Transport",
-                        "user_experience_research": "UX Research / Anwenderforschung"
+                        "user_experience_research": "Onderzoek naar Gebruikerservaring"
                     },
-                    "shortName": "Branche"
+                    "shortName": "Arbeidssector"
                 },
                 "jobDepartment": {
-                    "question": "In welcher Abteilung arbeitest Du hauptsächlich in Deinem Unternehmen?",
+                    "question": "Op welke afdeling binnen je organisatie ben je voornamelijk werkzaam?",
                     "list": {
-                        "admin": "Verwaltung",
-                        "customer_service": "Kundendienst",
-                        "executive": "Leitung / C-Level",
-                        "finance_accounting": "Buchhaltung",
-                        "human_resources": "Personalplanung",
-                        "legal": "Recht",
+                        "admin": "Administratie / Algemeen Personeel",
+                        "customer_service": "Klantenservice",
+                        "executive": "Uitvoerend Management / C-niveau",
+                        "finance_accounting": "Financiën / Boekhouding",
+                        "human_resources": "Personeelszaken",
+                        "legal": "Juridisch / Wetgeving",
                         "marketing": "Marketing",
-                        "operations": "Produktion und Kostenplanung",
-                        "procurement": "Einkauf",
-                        "product_management": "Produktmanagement",
-                        "sales": "Verkauf / Geschäftsentwicklung",
-                        "technology_hardware": "Hardwareentwicklung (nicht nur IT)",
-                        "technology_software": "Softwareentwicklung (nicht nur IT)",
-                        "technology_implementation": "Technologieeinführung",
-                        "other": "Andere"
+                        "operations": "Bedrijfsvoering",
+                        "procurement": "Inkoop",
+                        "product_management": "Productmanagement",
+                        "sales": "Verkoop / Bedrijfsontwikkeling",
+                        "technology_hardware": "Hardware Technologieontwikkeling (niet alleen ICT)",
+                        "technology_software": "Software Technologieontwikkeling (niet alleen ICT)",
+                        "technology_implementation": "Implementatie van Technologie",
+                        "other": "Overige"
                     },
-                    "shortName": "Abteilung"
+                    "shortName": "Baanafdeling"
                 },
                 "jobTitle": {
-                    "question": "Was ist Dein Berufstitel, Dienstgrad oder Verantwortungsbereich?",
+                    "question": "Wat is je functie, niveau of verantwoordelijkheid?",
                     "list": {
-                        "top_tier": "Geschäftsführung (Bsp: CEO, CFO), InhaberIn, PartnerIn, PräsidentIn",
-                        "vp_tier": "VizepräsidentIn (EVP, SVP, AVP, VP)",
-                        "director_tier": "AbteilungsleitungIn (AbetilungsleiterIn, GruppenleiterIn, Senior)",
-                        "management_tier": "ManagerIn (GruppenmanagerIn, Senior ManagerIn, Programm-ManagerIn)",
-                        "analyst": "Analyst",
-                        "associate": "AssistentIn",
-                        "administrative": "Administration (Büro und Verwaltung)",
-                        "individual_contributor": "Mitarbeiter/In",
-                        "contractor": "AuftragnehmerIn",
-                        "consultant": "BeraterIn",
-                        "intern": "PraktikantIn",
-                        "volunteer": "FreiwilligeR",
-                        "other": "Andere"
+                        "top_tier": "C-niveau (bijvoorbeeld CEO, CFO), Eigenaar, Partner, President",
+                        "vp_tier": "Vice-president (EVP, SVP, AVP, VP)",
+                        "director_tier": "Directeur (Groepsdirecteur, Senior-Directeur, Directeur)",
+                        "management_tier": "Manager (Groeps-, Senior-, Programmamanager, Manager)",
+                        "analyst": "Analist",
+                        "associate": "Assistent of Medewerker",
+                        "administrative": "Administratief (Administratief of Ondersteunend Personeel)",
+                        "individual_contributor": "Individuele Bijdrager",
+                        "contractor": "Uitvoerder",
+                        "consultant": "Consultant",
+                        "intern": "Stagiaire",
+                        "volunteer": "Vrijwilliger",
+                        "other": "Overige"
                     },
-                    "shortName": "Berufstitel"
+                    "shortName": "Baantitel"
                 },
                 "decisionMaker": {
-                    "question": "Bitte wähle auf welche Abteilungen / Produkte Du Einfluss hast oder über Eintscheindungsauthorität verfügst in Bezug auf Einkauf und Ausgaben",
+                    "question": "Kies op welke afdelingen/producten je invloed of beslissingsbevoegdheid hebt met betrekking tot uitgaven/inkopen.",
                     "list": {
-                        "itHardware": "IT Hardware",
-                        "itSoftware": "IT Software",
-                        "printers": "Drucker und Kopierer",
-                        "financial": "Finanzen",
-                        "humanResources": "Mitarbeiterplanung / HR",
-                        "officeSupplies": "Büromaterial",
-                        "corporateTravel": "Geschäftsreiseplanung",
-                        "telecommunications": "Telekommunikation",
-                        "sales": "Verkauf",
-                        "shipping": "Versand",
-                        "operations": "Einkauf",
-                        "legalServices": "Rechtsabteilung",
-                        "marketing": "Marketing und Werbung",
-                        "security": "Sicherheit",
-                        "foodServices": "Mitarbeiterverpflegung",
-                        "autoleasing": "Fuhrpark"
+                        "itHardware": "IT-hardware",
+                        "itSoftware": "IT-software",
+                        "printers": "Printers en kopieerapparaten",
+                        "financial": "Financiële Afdeling",
+                        "humanResources": "Personeelszaken",
+                        "officeSupplies": "Kantoorartikelen",
+                        "corporateTravel": "Bedrijfsreizen",
+                        "telecommunications": "Telecommunicatie",
+                        "sales": "Verkoop",
+                        "shipping": "Verzending",
+                        "operations": "Bedrijfsvoering",
+                        "legalServices": "Juridische diensten",
+                        "marketing": "Marketing/Adverteren",
+                        "security": "Beveiliging",
+                        "foodServices": "Voedseldiensten",
+                        "autoleasing": "Autolease/aankoop"
                     },
-                    "shortName": "Abteilungen / Produkte für die Du über Eintscheindungsauthorität verfügst in Bezug auf Einkauf und Ausgaben"
+                    "shortName": "Afdelingen/producten waar je invloed of beslissingsbevoegdheid hebt over geld uitgeven/aankopen."
                 },
                 "companySize": {
-                    "question": "Wie viele Mitarbeiter schätzt Du arbeiten in Deinem Unternehmen (alle Standorte)?",
-                    "shortName": "Anzahl der Mitarbeiter in Deinem Unternehmen"
+                    "question": "Circa hoeveel medewerkers werken er in uw bedrijf (alle vestigingen)?",
+                    "shortName": "Werknemers bij jouw organisatie"
                 }
             },
             "hobbiesAndInterests": {
                 "hobbies": {
-                    "question": "Welche Hobbies und Interessen hast Du?",
+                    "question": "Wat zijn je hobby's en interesses?",
                     "list": {
-                        "artsCrafts": "Kunst und Handwerk",
-                        "boating": "Schiffe und Segeln",
-                        "camping": "Camping",
-                        "cooking": "Kochen",
-                        "golf": "Golf",
-                        "healthFitness": "Fitness und Gesundheit",
-                        "huntingFishing": "Jagen / Fischen",
-                        "interiorDecorating": "Inneneinrichung und Renovierung",
-                        "teamSports": "Teamsport",
-                        "playingMusic": "Musik",
-                        "videogames": "Video- und Computerspiele",
-                        "reading": "Lesen",
-                        "skiing": "Skifahren",
-                        "technology": "Technologie / Computer",
-                        "travel": "Reisen",
-                        "tvSports": "Sportveranstaltungen im Fernsehen"
+                        "artsCrafts": "Kunst en Nijverheid",
+                        "boating": "Varen",
+                        "camping": "Kamperen",
+                        "cooking": "Koken",
+                        "golf": "Golfen",
+                        "healthFitness": "Gezondheid en fitness",
+                        "huntingFishing": "Jagen / Vissen",
+                        "interiorDecorating": "Interieurs inrichten / Renoveren",
+                        "teamSports": "Teamsporten",
+                        "playingMusic": "Muziek spelen",
+                        "videogames": "Video-/computerspelletjes spelen",
+                        "reading": "Lezen",
+                        "skiing": "Skiën",
+                        "technology": "Technologie / Computers",
+                        "travel": "Reizen",
+                        "tvSports": "Sport kijken op tv"
                     },
-                    "shortName": "Hobbies und Interessen"
+                    "shortName": "Hobby's en interesses"
                 },
                 "socialMedia": {
-                    "question": "Bei welchen der folgenden Social Media Plattformen bist Du aktiv oder beteiligst Dich innhaltlich?",
-                    "shortName": "Social Media Plattformen die Du aktiv nützt"
+                    "question": "O welke van de volgende socialemediaplatforms zit je of ben je actief?",
+                    "shortName": "Sociale media die je actief gebruikt"
                 },
                 "streamingMovies": {
-                    "question": "Wie oft im Durchschnitt lädst oder streamst Du einen Film um ihn zu Hause anzusehen?",
+                    "question": "Hoe vaak stream of download je gemiddeld films om thuis te bekijken?",
                     "list": {
-                        "less1": "Weniger als einmal im Monat",
-                        "1": "Einmal im Monat",
-                        "2": "Zweimal im Monat",
-                        "3": "Dreimal im Monat",
-                        "4": "Viermal im Monat",
-                        "5": "Fünfmal oder öfter im Monat",
-                        "none": "Ich streame oder lade keine Filme herunter"
+                        "less1": "Minder dan één keer per maand",
+                        "1": "Eén keer per maand",
+                        "2": "Twee keer per maand",
+                        "3": "Drie keer per maand",
+                        "4": "Vier keer per maand",
+                        "5": "Vijf keer per maand of vaker",
+                        "none": "Ik stream of download geen films"
                     },
-                    "shortName": "Häufigkeit mit der Du Filme zu Hause streamst oder herunterlädst"
+                    "shortName": "Frequentie streamen of downloaden van films"
                 },
                 "gambling": {
-                    "question": "An welcher Art Glücksspiel nimmst Du teil?",
+                    "question": "Aan wat voor kansspellen doe je weleens mee?",
                     "list": {
-                        "onlineSports": "Online Sportwetten",
-                        "onlineLottery": "Online Lotterie / Rubbelkarten",
-                        "onlinePoker": "Online Poker / Online Kasino",
-                        "offlineSports": "Sportwetten (offline)",
-                        "offlineLottery": "Lotterie / Rubbelkarten (offline)",
+                        "onlineSports": "Online sportweddenschappen",
+                        "onlineLottery": "Online loterij / kraslot",
+                        "onlinePoker": "Online poker / casino",
+                        "offlineSports": "Offline sportweddenschappen",
+                        "offlineLottery": "Offline loterij / kraslot",
                         "bingo": "Bingo",
-                        "casinoPoker": "Poker / BlackJack / Roulette / etc im Kasino",
-                        "casinoSlot": "Slot Maschinen im Kasino",
-                        "horseTrack": "Pferdewetten",
-                        "carRace": "Wetten auf Autorennen",
-                        "none": "Ich spiele keine Glücksspiele"
+                        "casinoPoker": "Casinopoker / Blackjack / Roulette / enz.",
+                        "casinoSlot": "Gokautomaten in het casino",
+                        "horseTrack": "Paardenwedden",
+                        "carRace": "Wedden op racewedstrijden",
+                        "none": "Ik gok nooit"
                     },
-                    "shortName": "Glücksspiele and denen Du teil nimmst"
+                    "shortName": "Op welke manieren gok je"
                 }
             },
             "financial": {
                 "financialProduct": {
-                    "question": "Welche der folgenden Finanzprodukte hast Du?",
+                    "question": "Welke van de volgende financiële producten bezit je?",
                     "list": {
-                        "creditCard": "Kreditkarte",
-                        "checkingAccount": "Girokonto",
-                        "savingsAccount": "Sparkonto",
-                        "personalLoan": "Kredit",
-                        "mortgage": "Hypothek"
+                        "creditCard": "Creditcard",
+                        "checkingAccount": "Betaalrekening",
+                        "savingsAccount": "Spaarrekening",
+                        "personalLoan": "Persoonlijke lening",
+                        "mortgage": "Hypotheek"
                     },
-                    "shortName": "Deine Finanzprodukte"
+                    "shortName": "Financiële producten die je bezit"
                 },
                 "investments_us": {
                     "list": {
-                        "none": "Ich habe keine Sparkonten / Investmentprodukte",
-                        "401k": "Betriebliche Altersvorsorge",
-                        "ira": "Betriebliche Altersvorsorge",
-                        "bonds": "Bonds",
-                        "deposit": "Zertifikate",
-                        "mutualFunds": "Versicherungen"
+                        "none": "Ik heb geen spaargeld / investeringen",
+                        "401k": "401k-regeling met matching door de werkgever",
+                        "ira": "IRA / Roth",
+                        "bonds": "Obligaties",
+                        "deposit": "Certificaat van borgstelling",
+                        "mutualFunds": "Beleggingsfondsen"
                     }
                 },
                 "investments_gb": {
                     "list": {
-                        "none": "Ich habe keine Spar- und Investmentkonten",
-                        "personalPension": "Private Pensionsvorsorge",
-                        "workplacePension": "Betriebliche Pensionsvorsorge",
-                        "unitTrusts": "Unit trusts",
-                        "oeic": "OEIC - Open Ended Investment Company",
-                        "etf": "ETF Securities (or Exchange Traded Funds)",
-                        "investmentTrusts": "Investment Trusts",
-                        "fixedIncomeProducts": "Fixed Income Products"
+                        "none": "Ik heb geen spaargeld / investeringen",
+                        "personalPension": "Persoonlijk pensioen",
+                        "workplacePension": "Werkplaats pensioen",
+                        "unitTrusts": "Eenheid trusts",
+                        "oeic": "OEIC - Open-end beleggingsfonds",
+                        "etf": "ETF-beveilingen (of Exchange Traded Funds)",
+                        "investmentTrusts": "Investeringstrusts",
+                        "fixedIncomeProducts": "Vastrentende producten"
                     }
                 }
             },
             "healthAndFitness": {
                 "diagnosed_ailments": {
-                    "question": "Wurde eine der folgenden Krankheiten oder Beschwerden bei Dir diagnostiziert?",
+                    "question": "Ben je gediagnosticeerd met een van de volgende ziekten / aandoeningen?",
                     "list": {
-                        "acne": "Akne",
+                        "acne": "Acne",
                         "add_adhd": "ADD / ADHD",
-                        "allergies": "Allergien (nicht mit Heuschnupfen in Verbindung)",
+                        "allergies": "Allergieën (hooikoorts en aanverwanten niet meegenomen)",
                         "alzheimers": "Alzheimer",
-                        "anemia": "Blutarmut",
+                        "anemia": "Bloedarmoede",
                         "angina": "Angina",
-                        "anxiety": "Angststörungen",
-                        "arrhythmia": "Herzrhythmusstörungen",
-                        "arthritis": "Arthritis",
-                        "asthma": "Asthma",
-                        "backPain": "Rückenschmerzen",
-                        "bipolar": "Bipolare Störung",
-                        "bloodDisorders": "Störungen im Blutbild",
+                        "anxiety": "Angststoornis",
+                        "arrhythmia": "Hartritmestoornissen / atriale fibrillatie",
+                        "arthritis": "Artritis",
+                        "asthma": "Astma",
+                        "backPain": "Rugpijn",
+                        "bipolar": "Bipolaire stoornis",
+                        "bloodDisorders": "Bloedziekten (geen kanker)",
                         "bronchitits": "Bronchitis",
-                        "cancer": "Krebs",
-                        "cardiovascular": "Herz-Kreislauf-Erkrankungen",
-                        "carpalTunnel": "Karpaltunnelsyndrom",
-                        "chronicFatigue": "Chronische Müdigkeit",
-                        "chronicKidney": "Chronische Nierenbeschwerden",
-                        "chronicLymphocytic": "Chronische Lymphatische Leukämie",
+                        "cancer": "Kanker",
+                        "cardiovascular": "Hart- en vaatziekten",
+                        "carpalTunnel": "Carpale-tunnelsyndroom",
+                        "chronicFatigue": "Chronisch Vermoeidheidssyndroom",
+                        "chronicKidney": "Chronische nierziekte",
+                        "chronicLymphocytic": "Chronische lymfocytaire leukemie",
                         "copd": "COPD",
-                        "cirrhosis": "Zirrhose",
-                        "colitis": "Kolitis / Dickdarmentzündung",
-                        "constipation": "Verstopfung",
-                        "crohns": "Morbus Crohn",
-                        "cystic": "Cystic Fibrosis",
-                        "dementia": "Demenz",
-                        "dental": "Dental Problems",
-                        "depresssion": "Depression",
-                        "diabetes1": "Diabetes Typ 1",
-                        "diabetes2": "Diabetes Typ 2",
-                        "diarrhea": "Durchfall",
-                        "eczema": "Ekzem",
-                        "emphysema": "Lungenemphysem",
+                        "cirrhosis": "Cirrose",
+                        "colitis": "Colitis",
+                        "constipation": "Constipatie",
+                        "crohns": "Ziekte van Crohn",
+                        "cystic": "Cystic fibrosis",
+                        "dementia": "Dementie",
+                        "dental": "Gebitsproblemen",
+                        "depresssion": "Depressie",
+                        "diabetes1": "Diabetes type 1",
+                        "diabetes2": "Diabetes type 2",
+                        "diarrhea": "Diarree",
+                        "eczema": "Eczeem",
+                        "emphysema": "Emfyseem",
                         "endometriosis": "Endometriose",
-                        "epilepsy": "Epilepsy",
-                        "erectileDysfunction": "Erektionsstörungen",
+                        "epilepsy": "Epilepsie",
+                        "erectileDysfunction": "Erectiestoornissen",
                         "fibromyalgia": "Fibromyalgie",
-                        "foodIntolerances": "Lebensmittelunverträglichkeiten",
-                        "gerd": "Gastro-ösophagealer Reflux",
-                        "gastroenteritis": "Gastroenteritis",
-                        "gout": "Gicht",
-                        "hemophilia": "Hämophilie",
-                        "hemorrhoids": "Hämorrhoiden",
-                        "hayFever": "Heuschnupfen",
-                        "heartConditions": "Herzbeschwerden (kein Herzversagen)",
-                        "heartFailure": "Herzversagen",
+                        "foodIntolerances": "Voedselintoleranties",
+                        "gerd": "Gastro-oesofageale reflux (GERD)",
+                        "gastroenteritis": "Gastro-enteritis",
+                        "gout": "Jicht",
+                        "hemophilia": "Hemofilie",
+                        "hemorrhoids": "Aambeien",
+                        "hayFever": "Hooikoorts",
+                        "heartConditions": "Hartkwalen (geen hartfalen)",
+                        "heartFailure": "Hartfalen",
                         "hepatitis": "Hepatitis",
-                        "cholesterol": "Überhöhter Cholesterinspiegel",
+                        "cholesterol": "Hoog cholesterol",
                         "aids": "HIV - Aids",
-                        "hypertension": "Bluthochdruck",
-                        "hypothyroidism": "Schilddrüsenunterfunktion",
-                        "impotence": "Impotenz",
-                        "infertility": "Unfruchtbarkeit",
-                        "irritableBowelSyndrome": "Reizdarmsyndrom",
-                        "jointReplacement": "Ersatzgelenk",
-                        "kidneyFailure": "Nierenversagen",
-                        "liverCirrhosis": "Lberzirrhose",
-                        "liverDisorders": "Leberschäden (andere als Krebs oder Zirrhose)",
+                        "hypertension": "Hypertensie",
+                        "hypothyroidism": "Hypothyreoïdie",
+                        "impotence": "Impotentie",
+                        "infertility": "Onvruchtbaarheid",
+                        "irritableBowelSyndrome": "Prikkelbaredarmsyndroom",
+                        "jointReplacement": "Gewrichtsvervanging",
+                        "kidneyFailure": "Nierfalen",
+                        "liverCirrhosis": "Levercirrose",
+                        "liverDisorders": "Leveraandoeningen (anders dan kanker of cirrose)",
                         "lupus": "Lupus",
-                        "luymeDisease": "Borreliose",
-                        "menopause": "Menopause",
-                        "migraine": "Migräne",
-                        "motorNeuronDisease": "Moto-Neuron Krankheiten",
-                        "multipleSclerosis": "Multiple Sklerose",
-                        "obesity": "Adipositas",
-                        "osteoarthritis": "Gelenkentzündung",
+                        "luymeDisease": "Ziekte van Lyme",
+                        "menopause": "Menopauze",
+                        "migraine": "Migraine",
+                        "motorNeuronDisease": "Motorneuronziekte",
+                        "multipleSclerosis": "Multiple sclerose",
+                        "obesity": "Obesitas",
+                        "osteoarthritis": "Osteoartritis",
                         "osteoporosis": "Osteoporose",
-                        "overactiveBladder": "Blasenhyperaktivität",
-                        "parkinons": "Parkinson",
-                        "pneumonia": "Lungenentzündung",
-                        "prematureEjaculation": "Vorzeitiger Samenerguss",
+                        "overactiveBladder": "Overactieve blaas",
+                        "parkinons": "Ziekte van Parkinson",
+                        "pneumonia": "Longontsteking",
+                        "prematureEjaculation": "Voortijdige zaadlozing",
                         "psoriasis": "Psoriasis",
                         "reflux": "Reflux",
-                        "restlessLegSyndrome": "Restless-Legs-Syndroms (RLS)",
-                        "rheumatoidArthritis": "Rheumatoide Arthritis",
-                        "schizophrenia ": "Schizophrenie",
-                        "shingles ": "Gürtelrose",
-                        "sinusitis": "Sinusitis",
-                        "sleepingDisorder": "Schlafstörungen",
-                        "smoking": "Tabaksucht (Raucher)",
-                        "stroke": "Schlaganfall",
-                        "substanceAbuse": "Drogensucht / Alkohol",
-                        "syphilis": "Syphilis",
-                        "thyroidProblems": "Schilddrüsenprobleme",
-                        "tuberculosis ": "Tuberkulose",
+                        "restlessLegSyndrome": "Rusteloze-benensyndroom",
+                        "rheumatoidArthritis": "Reumatoïde artritis",
+                        "schizophrenia ": "Schizofrenie",
+                        "shingles ": "Gordelroos",
+                        "sinusitis": "Bijholteontsteking",
+                        "sleepingDisorder": "Slaapstoornis",
+                        "smoking": "Rookverslaving",
+                        "stroke": "Beroerte",
+                        "substanceAbuse": "Substantiemisbruik drugs/alcohol",
+                        "syphilis": "Syfilis",
+                        "thyroidProblems": "Schildklierproblemen",
+                        "tuberculosis ": "Tuberculose",
                         "ulcerativeColitis": "Colitis ulcerosa",
-                        "ulcers": "Geschwüre",
-                        "urinaryIncontinence": "Inkontinenz"
+                        "ulcers": "Zweren",
+                        "urinaryIncontinence": "Urine-incontinentie"
                     },
-                    "shortName": "Diagnostizierte Krankheiten oder Beschwerden"
+                    "shortName": "Ziekten / aandoeningen die bij jou zijn vastgesteld"
                 }
             },
             "travel": {
                 "travelFlights": {
-                    "question": "Wie häufig fliegst Du?",
+                    "question": "Hoe vaak reis je met het vliegtuig?",
                     "list": {
-                        "everyMonth": "Einmal im Monat oder mehr",
-                        "every2-4Months": "Einmal alle 2-4 Monate",
-                        "twiceYear": "Zweimal im Jahr",
-                        "onceYear": "Einmal im Jahr"
+                        "everyMonth": "Maandelijks of vaker",
+                        "every2-4Months": "Elke 2-4 maanden",
+                        "twiceYear": "Twee keer per jaar",
+                        "onceYear": "Een keer per jaar"
                     },
-                    "shortName": "Häufigkeit von Flugreisen"
+                    "shortName": "Frequentie vliegreizen"
                 },
                 "flightPurpose": {
-                    "question": "Aus welchen Gründen reist Du mit dem Flugzeug?",
+                    "question": "Voor welke redenen reis je per vliegtuig?",
                     "list": {
-                        "business": "Geschäftlich",
-                        "leisure": "Freizeit",
-                        "both": "Beide, geschäftlich und Freizeit",
-                        "neither": "Keine, ich reise nicht mit dem Flugzeug"
+                        "business": "Werk",
+                        "leisure": "Ontspanning",
+                        "both": "Zowel werk als ontspanning",
+                        "neither": "Geen, ik reis nooit per vliegtuig"
                     },
-                    "shortName": "Gründe für Flugreisen"
+                    "shortName": "Doel vliegreizen"
                 },
                 "flightDestination": {
-                    "question": "Wenn Du fliegst, welche Art von Flug buchst Du?",
+                    "question": "Als je vliegt, wat voor type vluchten neem je dan?",
                     "list": {
-                        "domestic": "Gebuchte Flugreisetypen",
-                        "international": "Internationaler Flug",
-                        "both": "Beide, inland und international",
-                        "neither": "Ich bevorzuge es, diese Frage nicht zu beantworten"
+                        "domestic": "Binnenlands",
+                        "international": "Internationaal",
+                        "both": "Zowel binnenlands als internationaal",
+                        "neither": "Antwoord liever niet"
                     },
-                    "shortName": "Gebuchte Flugreisetypen"
+                    "shortName": "Types vluchten"
                 },
                 "domesticAirlines_us": {
-                    "question": "Mit welchen Inlandsfluglinien bist Du in den letzten 12 Monaten geflogen?",
+                    "question": "Met welke binnenlandse luchtvaartmaatschappijen heb je in de voorbije twaalf maanden gevlogen?",
                     "list": {
-                        "none": "Ich hatte keinen Inlandsflug in den letzten 12 Monaten"
+                        "none": "Ik heb in de voorbije twaalf maanden niet binnenlands gevlogen"
                     },
-                    "shortName": "In den letzten 12 Monaten genützte Inlandsfluglinien"
+                    "shortName": "Binnenlandse luchtvaartmaatschappijen waarmee je in de twaalf maanden hebt gevlogen"
                 },
                 "internationalAirlines": {
-                    "question": "Mit welchen internationalen Fluglinien bist Du in den letzten 12 Monaten geflogen?",
+                    "question": "Met welke internationale luchtvaartmaatschappijen heb je in de voorbije twaalf maanden gevlogen?",
                     "list": {
-                        "none": "Ich hatte keinen internationalen Flug in den letzten 12 Monaten"
+                        "none": "Ik heb in de voorbije twaalf maanden niet internationaal gevlogen"
                     },
-                    "shortName": "In den letzten 12 Monaten genützte Inlandsfluglinien"
+                    "shortName": "Internationale luchtvaartmaatschappijen waarmee je in de twaalf maanden hebt gevlogen"
                 },
                 "accomodationType": {
-                    "question": "Welche Art von Unterkunft hattest Du im letzten Jahr auf Reisen?",
+                    "question": "In welke types accommodatie ben je vorig jaar verbleven?",
                     "list": {
-                        "houseRental": "Privatzimmer, -wohnungen und -häuser (AirBnB & VRBO)",
+                        "houseRental": "Huizenhuur (AirBnB & VRBO)",
                         "bedBreakfast": "Bed & Breakfast",
-                        "campground": "Campingplatz",
+                        "campground": "Camping",
                         "hostel": "Hostel",
                         "hotel": "Hotel",
                         "motel": "Motel",
-                        "personalVacationHome": "Eigenes Urlaubsdomizil",
-                        "timeshare": "Timeshare / Teilzeitnutzung"
+                        "personalVacationHome": "Eigen vakantiehuis",
+                        "timeshare": "Timeshare"
                     },
-                    "shortName": "Art der im Verlauf eines Jahres genützten Unterkünfte"
+                    "shortName": "Type accommodaties waarin je vorig jaar bent verbleven"
                 },
                 "hotelLoyalty": {
-                    "question": "Nimmst Du an einem der folgenden Kundenbindungsprogramme von Hotels teil?",
-                    "shortName": "Genützte Kundenbindungsprogramme von Hotels"
+                    "question": "Hoor je bij één van de volgende loyalty-programma's van hotels?",
+                    "shortName": "Loyalty-programma's van hotels  waar je bij hoort"
                 }
             }
         },
         "generic": {
             "education": {
-                "question": "Was ist die höchste Ausbildung die Du abgeschlossen hast?",
-                "shortName": "Höchstes abgeschlossene Ausbildungs"
+                "question": "Wat is de hoogste opleiding die je hebt afgerond?",
+                "shortName": "Hoogst genoten opleidingsniveau"
             },
             "householdIncome": {
-                "question": "Wie hoch ist das Jahreseinkommen aller Mitglieder Deines Haushalts zusammengerechnet bevor Steuern (Brutto)?",
-                "shortName": "Jahresbruttoeinkommen (vor Steuern) aller Mitglieder Deines Haushalts zusammengerechnet"
+                "question": "Wat is het gezamenlijk jaarinkomen van alle leden van je huishouden samen vóór belastingen?",
+                "shortName": "Totaal bruto jaarinkomen van je huishouden"
             },
             "mobileCarrier": {
-                "question": "Welcher der folgenden Anbieter ist jener für das Mobiltelefon das Du am häufigsten benützt?",
-                "shortName": "Mobilfunkanbieter für Dein meistgenütztes Mobiltelefon"
-            },
-            "noPhone": {
-                "noPhone": "Ich habe kein Mobiltelefon"
+                "question": "Welke van deze is de provider van de mobiele telefoon die je het vaakst gebruikt?",
+                "shortName": "Provider van je meest gebruikte mobiele telefoon"
             },
             "companyRevenue": {
-                "question": "Was ist der geschätzte Jahresumsatz Deines Unternehmens?",
-                "shortName": "Geschätzer Jahresumsatz Deines Unternehmens"
+                "question": "Wat is ongeveer de jaaromzet van je bedrijf?",
+                "shortName": "Schatting jaaromzet van jouw bedrijf"
             },
             "subscriptions": {
-                "question": "Bei welchen der folgenden Anbieter hast Du ein Abonnement?",
-                "shortName": "Abonnierte Angebote"
+                "question": "Op welke van de volgende diensten ben je geabonneerd?",
+                "shortName": "Diensten waarop je geabonneerd bent"
             },
             "investments": {
-                "question": "Welche Art von Spar- und Investementkonten besitzt Du?",
-                "realEstate": "Immobilien",
-                "savingsAccount": "Sparkonto",
-                "shares": "Aktien",
-                "shortName": "Abonnierte Angebote"
+                "question": "Welke soorten spaar- en / of beleggingsrekeningen heb je?",
+                "realEstate": "Onroerend goed",
+                "savingsAccount": "Spaarrekening",
+                "shares": "Aandelen",
+                "shortName": "Spaar- of investeerrekening in jouw bezit"
             },
             "investableAssets": {
-                "question": "Welche Zahl kommt dem investierbaren Vermögen Deines Haushalts am nächsten (Haus- oder Wohnungseigentum ausgenommen)?",
-                "shortName": "Geschätztes investierbares Vermögen Deines Haushalts (Haus- oder Wohnungseigentum ausgenommen)"
+                "question": "Welke van deze komt het meest overeen met het belegbare vermogen van je huishouden (exclusief eigen woningbezit)?",
+                "shortName": "Geschatte waarde belegbare activa van uw huishouden (exclusief huisbezit)"
             },
             "airlineLoyalty": {
-                "question": "Bist Du für eines der folgenden Kundenbindungsprogramme von Fluglinien registriert?",
+                "question": "Hoor je bij één van de volgende loyalty-programma's van luchtvaartmaatschappijen?",
                 "list": {
-                    "none": "Ich bin für kein Kundenbindungsprogramm einer Fluglinie registert"
+                    "none": "Ik hoor bij geen enkel loyalty-programma van een luchtvaartmaatschappij"
                 },
-                "shortName": "Genützte Kundenbindungsprogramme von Fluglinien"
+                "shortName": "Loyalty-programma's van luchtvaartmaatschappijen waar je bij hoort"
             },
             "hotelLoyalty": {
                 "list": {
-                    "none": "Ich nehme an keinem Kundenbindungsprogramm von Hotels teil"
+                    "none": "Ik hoor bij geen enkel loyalty-programma van een hotel"
                 }
             },
             "ethnicity": {
-                "question": "Welcher Rasse gehört Du an?",
-                "shortName": "Rasse"
+                "question": "Welke van de volgende opties omschrijft jouw etnische afkomst het best?",
+                "shortName": "Etnische afkomst"
+            },
+            "noPhone": {
+                "noPhone": "Ik heb geen mobiele telefoon"
             }
         }
     },
     "izPanel": {
         "common": {
             "demographics": {
-                "billion": "milliarde"
+                "billion": "miljard"
             }
         }
     }
