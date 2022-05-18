@@ -1,195 +1,226 @@
 {
     "izPanel": {
         "common": {
-            "androidPhone": "Android Smartphone",
-            "androidTablet": "Android Tablet",
+            "androidPhone": "Téléphone Android",
+            "androidTablet": "Tablette Android",
             "chrome": "Chrome",
-            "claim": "Deine Meinung zählt. Teile Deine Meinung zu Deinen Lieblings-Produkten mit uns und lasse Dich dafür bezahlen.",
+            "claim": "Votre opinion compte. Recevez une rémunération pour partager vos expériences et avoir une influence sur les produits que vous aimez et auxquels vous tenez.",
             "comma": ",",
-            "contactUsLowercaseImperative": "kontaktiere uns",
-            "copyright": "IntelliZoom Panel © 2019. Alle Rechte vorbehalten.",
+            "contactUsLowercaseImperative": "contacte-nous",
+            "copyright": "IntelliZoom Panel © 2022. Tous droits réservés.",
             "edge": "Edge",
-            "email": "E-Mail",
+            "email": "Courriel",
             "firefox": "Firefox",
             "ie": "Internet Explorer {{version}}",
             "iPad": "iPad",
             "iPhone": "iPhone",
-            "logIn": "Anmelden",
-            "logInImperative": "Anmelden",
-            "logInLowercase": "anmelden",
-            "next": "Weiter",
-            "noRobot": "Ich bin kein Roboter",
-            "or": "oder",
-            "orPressEnter": "oder Enter drücken",
-            "password": "Passwort",
+            "logIn": "Connecte-toi",
+            "logInImperative": "Connecte-toi",
+            "logInLowercase": "Connecte-toi",
+            "next": "Suivant",
+            "noRobot": "Je ne suis pas un robot",
+            "or": "ou",
+            "orPressEnter": "ou appuyez sur « Entrée »",
+            "password": "Mot de passe",
             "period": ".",
-            "privacyLink": "Datenschutzerklärung",
-            "requiredField": "(Erforderlich)",
+            "privacyLink": "Politique de confidentialité",
+            "requiredField": "(Obligatoire)",
             "safari": "Safari",
-            "signUp": "Registrieren",
-            "submit": "Senden",
-            "termsLink": "Nutzungsbedingungen",
-            "day": "TT",
+            "signUp": "S'inscrire",
+            "submit": "Soumettre",
+            "termsLink": "Conditions d'utilisation",
+            "day": "DD",
             "month": "MM",
-            "year": "JJJJ",
+            "year": "YYYY",
             "facebook": "Facebook",
             "google": "Google",
-            "save": "Speichern",
-            "send": "Senden",
+            "save": "Sauvegarde. ",
+            "send": "Envoyer",
             "demographics": {
-                "female": "Frau",
-                "lessThan": "Weniger als",
-                "male": "Mann",
-                "na": "Ich bevorzuge diese Frage nicht zu beantworten",
-                "no": "Nein",
-                "none": "Keines der genannten",
-                "noneOrNoTell": "Keine der obigen / Ich bevorzuge es, diese Frage nicht zu beantworten",
-                "orMore": "oder mehr",
-                "other": "Andere",
-                "otherFeminine": "Andere",
-                "otherFemininePlural": "Andere",
-                "otherPlural": "Andere",
-                "unknown": "Ich weiss es nicht",
-                "yes": "Ja",
-                "nonBinary": "Nicht binär",
-                "noneMasculine": "Keines der genannten",
-                "no_answer": "Ich bevorzuge diese Frage nicht zu beantworten",
+                "female": "Femme",
+                "lessThan": "Moins de",
+                "male": "Homme",
+                "na": "Je préfère ne pas répondre",
+                "no": "Non",
+                "none": "Aucune des réponses ci-dessus",
+                "noneOrNoTell": "Aucun des éléments ci-dessus/Je préfère ne pas le dire",
+                "orMore": "ou plus",
+                "other": "Autre",
+                "otherFeminine": "Autre",
+                "otherFemininePlural": "Autre",
+                "otherPlural": "Autre",
+                "unknown": "Je ne sais pas",
+                "yes": "Oui",
+                "nonBinary": "Non binaire",
+                "noneMasculine": "Aucune des réponses ci-dessus",
+                "no_answer": "Je préfère ne pas répondre",
                 "million": "Million",
-                "millions": "Millionen"
+                "millions": "Million"
             },
             "tip": {
                 "paypal": {
-                    "title": "Wir verwenden PayPal um unsere Studienteilnehmer zu bezahlen",
-                    "description": "Vergewissere Dich, dass Deine E-Mail-Adresse mit einem PayPal Konto verknüpft ist. Denke daran, dass Du jederzeit ein PayPal Konto gratis einrichten kannst."
+                    "title": "Nous utilisons PayPal pour payer nos participants",
+                    "description": "Vérifiez que votre adresse e-mail est associée à un compte PayPal. N'oubliez pas que vous pouvez toujours en créer un gratuitement !"
                 }
             },
-            "finish": "Fertig",
-            "gotIt": "Okay",
+            "finish": "Terminer",
+            "gotIt": "Bien reçu",
             "emailNotifications": {
-                "title": "Studieneinladungen und Newsletter",
+                "title": "Invitations à l'étude et bulletin d'information",
                 "mkt": {
-                    "title": "Newsletter und Marketing-Mitteilungen",
-                    "description": "Wir senden Dir gelegentlich:\n\n-  Neuigkeiten wie Deine Meinung Produkte die Du magst beinflusst.\n-  Ein paar Tipps wie Du ein Meister darin wirst, Feedback zu geben.  "
+                    "title": "Newsletter et communications marketing",
+                    "description": "Nous pouvons occasionnellement vous envoyer :\n\n- Des mises à jour sur l'incidence de votre avis sur les produits que vous aimez.\n- Quelques conseils sur la façon de devenir un maître des commentaires."
                 },
                 "studyInvites": {
-                    "title": "Einladungen zu Usability Forschungs-Studien",
-                    "description": "Erhalte Einladungen zu Usability Forschungs-Studien die:\n\n-  Du von zu Hause aus machen kannst.\n-  Im Schnitt 10-20 Minuten Zeit benötigen.\n-  Dir im Durchschnitt {{tolIncentive}} für Studien die eine Audio- oder Videoaufnahme beinhalten bringen. Für Standard-Umfragen beträgt die Bezahlung durchschnittlich {{surveyIncentive}}.",
+                    "title": "Invitations à des études sur l'expérience utilisateur",
+                    "description": "Recevez des invitations à des études d'expérience utilisateur que :\n\n- Vous pouvez y répondre à distance, dans le confort de votre maison.\n- Il faut en moyenne 10 à 20 minutes pour y répondre.\n- Payez {{tolIncentive}} en moyenne pour les études qui enregistrent du son et de la vidéo. Pour les études standard, le paiement est {{surveyIncentive}} en moyenne.",
                     "confirmationModal": {
-                        "title": "Bist Du sicher?",
-                        "description": "Wenn Du diese Option deaktivierst, erhältst Du keine weiteren Einladungen zu bezahlten Studien.",
-                        "cta": "Ja, deaktivieren"
+                        "title": "Êtes-vous sûr ?",
+                        "description": "Si vous désactivez cette option, vous ne recevrez plus d'invitations à des études payantes.",
+                        "cta": "Oui, désactiver"
                     }
                 },
-                "description": "###Hallo, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "description_morning": "###Guten Morgen, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "descriptionName_morning": "###Guten Morgen {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "description_afternoon": "###Hallo, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "descriptionName_afternoon": "###Hallo {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "description_evening": "###Guten Abend, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "descriptionName_evening": "###Guten Abend {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:"
+                "description": "###Bonjour\n\nVoici les communications auxquelles vous êtes abonné :",
+                "description_morning": "###Bonjour,\n\nVoici les communications auxquelles vous êtes abonné :",
+                "descriptionName_morning": "###Bonjour {{userName}},\n\nVoici les communications auxquelles vous êtes abonné :",
+                "description_afternoon": "###Bon après-midi,\n\nVoici les communications auxquelles vous êtes abonné :",
+                "descriptionName_afternoon": "###Bon après-midi {{userName}},\n\nVoici les communications auxquelles vous êtes abonné :",
+                "description_evening": "###Bonsoir,\n\nVoici les communications auxquelles vous êtes abonné :",
+                "descriptionName_evening": "###Bonsoir {{userName}},\n\nVoici les communications auxquelles vous êtes abonné :"
             },
             "language": {
-                "title": "Sprache",
+                "title": "Langue",
                 "englishUS": "English US",
                 "englishUK": "English UK",
                 "spanish": "Español",
-                "german": "Deutsch"
+                "german": "Deutsch",
+                "danish": "Dansk",
+                "french": "Français",
+                "dutch": "Nederlands",
+                "swedish": "Svenska"
             },
-            "cancel": "Abbrechen",
-            "edit": "Bearbeiten",
+            "cancel": "Annuler",
+            "edit": "Modifier",
             "studies": {
                 "cardSort": {
-                    "title": "Card Sort",
-                    "description": "In dieser Art von Studie sind wir hauptsächlich daran interessiert wie Du bestimmte Elemente gruppierst. Das hilft dem Ersteller der Studie die Gedankenzüge bei der Kategorisierung zu verstehen. \n\nErinnere Dich, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner aufrichtigen Meinung interessiert."
+                    "title": "Tri des cartes",
+                    "description": "Dans ce type d'études, nous sommes surtout intéressés par la manière dont vous regrouperiez certains éléments. Ainsi, le créateur de l'étude peut comprendre le raisonnement de l'utilisateur lorsqu'il catégorise.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Nous sommes uniquement intéressés par votre opinion honnête."
                 },
                 "practice": {
-                    "title": "Übungsstudien",
-                    "description": "Nimm teil an dieser Übungsstudie und meistere die Kunst Feedback zu geben. \n\nWenn Du teilnimmst und unsere Bewertung bestehst, können wir Dich zu besser bezahlten Studien einladen."
+                    "title": "Étude pratique",
+                    "description": "Participez à cette étude pratique et maîtrisez l'art de donner votre avis.\n\nSi vous participez et réussissez notre examen, nous pourrons vous inviter à des études mieux rémunérées."
                 },
                 "survey": {
-                    "description": "Eine klassische Frage-Antwort Umfrage.\n\nErinnere Dich, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner aufrichtigen Meinung interessiert.",
-                    "title": "Umfrage"
+                    "description": "Une enquête standard de type question-réponse. Sans effets spéciaux.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Nous sommes uniquement intéressés par votre opinion honnête.",
+                    "title": "Enquête"
                 },
                 "taskBased": {
-                    "title": "Aufgabenbasiert",
-                    "description": "In einer Task-Based Studie wirst Du durch eine Reihe von Aufgaben geführt um diese zu lösen.\n\nManche Aufgaben sind einfach, andere sind etwas komplexer. Wir möchten wissen, wie einfach oder schwer Du diese Aufgaben empfindest.\n\nErinnere Dich, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner aufrichtigen Meinung interessiert."
+                    "title": "Basé sur les tâches",
+                    "description": "Dans une étude basée sur les tâches, comme son nom l'indique, l'étude vous guidera à travers un ensemble de tâches que vous devrez accomplir.\n\nCertaines tâches sont simples, d'autres sont un peu plus complexes. Ce qui nous intéresse, c'est de savoir si vous les trouvez faciles ou difficiles.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Nous sommes uniquement intéressés par votre opinion honnête."
                 },
                 "tol": {
-                    "title": "Think-Out-Loud",
-                    "description": "Diese Art von Studie erfordert die Aussprache Deiner Gedanken während Du an der Aufgabe teil nimmst.\n\nBehalte in Erinnerung, dass es keine falschen Antworten gibt. Wenn wir Dir eine Idee, ein Design oder ein Konzept zeigen - wenn Du es nicht magst, magst Du es nicht, wenn Du es liebst, liebst Du es, wenn es in keiner Weise irgendeine Emotion auslöst und es für Dich eine Zeitverschwendung ist ... sag es uns einfach!\n\nWir sind ausschließlich an Deiner aufrichtigen Meinungen interessiert."
+                    "title": "Pensez tout haut",
+                    "description": "Ce type d'études vous oblige à exprimer vos pensées pendant que vous effectuez des tâches.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Lorsque nous vous montrons une idée, un design ou un concept, si vous le détestez, vous le détestez, si vous l'aimez, vous l'aimez, s'il ne suscite aucune émotion et que c'est une perte de temps... dites-le aussi !\n\nSeul votre avis honnête nous intéresse."
                 },
                 "requirements": {
-                    "anyBrowser": "Ein aktueller Browser",
-                    "aWorking": "Eine Arbeit",
-                    "goodLightning": "Einen gut beleuchteten Platz",
-                    "headphones": "Kopfhörer",
-                    "maybeRecorded": "Du benötigst kein Mikrofon oder Webcam, aber Dein Bildschirm wird aufgezeichnet. Vergewissere Dich jede Aufgabe zu lesen und bestmöglich zu lösen.",
-                    "microphone": "Mikrofon",
-                    "quietEnvironment": "Eine ruhige Umgebung",
-                    "screener": "Beantworte ein paar Fragen um zu sehen ob Du in das Suchprofil passt. Viel Glück! :)",
-                    "strongConnection": "Starke Internetverbindung",
-                    "updatedBrowser": "Die letzte Version von",
-                    "webcam": "Videokamera",
-                    "title": "Für diese Studie benötigst Du:"
+                    "anyBrowser": "Un navigateur mis à jour",
+                    "aWorking": "Un travail",
+                    "goodLightning": "Un endroit bien éclairé",
+                    "headphones": "Des écouteurs",
+                    "maybeRecorded": "Vous n'aurez pas besoin de caméra Web ou de microphone, mais votre écran pourra être enregistré. Assurez-vous de lire chaque tâche et faites de votre mieux pour les accomplir.",
+                    "microphone": "Microphone",
+                    "quietEnvironment": "Un environnement calme",
+                    "screener": "Il se peut que l'on vous pose quelques questions pour voir si vous êtes qualifié pour cette étude, bonne chance ! :)",
+                    "strongConnection": "Une connexion solide",
+                    "updatedBrowser": "Dernière version de",
+                    "webcam": "Caméra Web",
+                    "title": "Pour cette étude, vous aurez besoin de :"
                 },
-                "participate": "Nimm teil!",
-                "devices": "Endgeräte",
-                "youWillNeed": "Du benötigst",
+                "participate": "Participer",
+                "devices": "Appareils",
+                "youWillNeed": "Vous aurez besoin de",
                 "manualSourcing": {
-                    "title": "Bleib am Ball mit Deinen E-mails!",
-                    "description": "Für Studien in {{country} nützen wir E-Mails zum senden von Einladungen.\n\nUm sicherzustellen, dass Du so oft wie möglich eingeladen wirst, vervollständige Dein Profil und halte es aktuell."
+                    "title": "Restez à l'écoute de votre e-mail !",
+                    "description": "Pour les études en {{country}}, nous utilisons les e-mails pour gérer nos invitations.\n\nPour vous assurer de recevoir des invitations aussi souvent que possible, veillez à ce que votre profil soit complet et mis à jour."
                 },
                 "treeTest": {
-                    "title": "Tree-Test",
-                    "description": "In dieser Art von Studie möchten wir den bestmöglichen Weg ein Navigationsmenü zu organisieren und die Elemente zu benennen.\n\nDas bedeutet, ob die Kategorien für Dich Sinn ergeben und ob die Elemente dort sind wo Du es erwartest. \n\nBehalte in Erinnerung, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner ehrlichen Meinung interessiert."
+                    "title": "Test sur les arbres",
+                    "description": "Dans ce type d'études, nous essayons de trouver la meilleure organisation et dénomination possible pour les menus de navigation.\n\nAutrement dit, il s'agit de savoir si les catégories ont un sens pour vous et si les éléments se trouvent là où vous les attendez.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Nous sommes uniquement intéressés par votre opinion honnête."
                 },
                 "clickTest": {
-                    "title": "Click-Test",
-                    "description": "Mit einem Click Test möchten wir verstehen wo Du zum durchführen einer bestimmten Aktion klicken würdest.\n\nBehalte in Erinnerung, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner ehrlichen Meinung interessiert."
+                    "title": "Test de clics",
+                    "description": "Avec un test de clics, nous voulons comprendre où vous cliquez lorsque nous vous demandons de réaliser une certaine action.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Nous sommes seulement intéressés par votre opinion honnête."
                 },
-                "projectId": "Studien ID zur Referenz: {{projectId}}",
+                "projectId": "Identifiant de l'étude pour votre référence : {{projectId}}",
                 "loadingScreen": {
-                    "title": "Öffne Studie…"
+                    "title": "Entrée dans le bureau..."
                 },
                 "recaptchaCheck": {
-                    "title": "Eine Sekunde! Nur Menschen erlaubt!"
+                    "title": "Une seconde ! Seuls les humains sont autorisés."
                 },
                 "moderated": {
-                    "title": "Online Interview",
-                    "description": "Du kannst Zeitfenster ansehen und jenes auswählen, das für dich am günstigsten ist.",
-                    "book": "Eine Session reservieren",
-                    "modalDescription": "In dieser Studie befindest du dich in einem Live-Videoanruf mit einem UX Forscher,  welcher dich um deine Gedanken und Meinung zu einer digitalen Erfahrung bitten wird. \n\nDiese Session wird ungefähr {{sessionDuration}} Minuten dauern. Du wirst auch wählen können, wann du teilnimmst, basierend auf den verfügbaren Zeitfenstern. "
+                    "title": "Entretien en ligne",
+                    "description": "Vous pourrez visualiser et choisir le créneau horaire qui vous convient le mieux.",
+                    "book": "Réserver une session",
+                    "modalDescription": "Dans cette étude, vous participerez à un appel vidéo en direct avec un chercheur en expérience utilisateur qui vous demandera de donner votre avis et de fournir des commentaires sur une expérience numérique.\n\nCette session durera environ {{sessionDuration}} minutes. Vous choisirez également le moment de votre participation en fonction des créneaux horaires disponibles.",
+                    "mobileRequired": "Un numéro de téléphone mobile est nécessaire pour programmer une session",
+                    "smsReminder": "Pour recevoir un SMS de rappel",
+                    "contactUser": "Ou vous contacter si quelque chose ne va pas",
+                    "why": "Pourquoi ?"
                 },
                 "sessionDuration": {
-                    "title": "Sessionsdauer:",
-                    "min": "{{sessionDuration}} Minuten"
+                    "title": "Durée de la session",
+                    "min": "{{sessionLength}} minutes"
+                },
+                "scheduled": {
+                    "warning": "**Remarque :** Si vous ne pouvez plus vous rendre à cette heure, veuillez [annuler]({{entranceLink}}) ou [reprogrammer]({{entranceLink}}) votre participation dès que possible.",
+                    "join": "Rejoignez maintenant",
+                    "notice": "Vous pourrez rejoindre la session 10 minutes avant l'heure de début.",
+                    "title": "Voici les détails de votre prochaine session",
+                    "nowTitle": "C'est parti ! Vous pouvez maintenant entrer dans la session"
                 }
             },
-            "and": "und",
-            "aUppercase": "Ein",
-            "desktop": "Computer",
-            "phone": "Mobiltelefon",
-            "tablet": "Tablet",
-            "selectAnOption": "Treffe eine Auswahl",
-            "comingSoon": "Demnächst",
-            "saved": "Gespeichert",
+            "and": "et",
+            "aUppercase": "un",
+            "desktop": "Ordinateur",
+            "phone": "Téléphone mobile",
+            "tablet": "Tablette",
+            "selectAnOption": "Sélectionnez une option",
+            "comingSoon": "Prochainement",
+            "saved": "Sauvegardé",
             "greetings": {
-                "greeting_morning": "Guten Morgen!",
-                "greetingName_morning": "Guten Morgen {{userName}}!",
-                "greeting_afternoon": "Hallo!",
-                "greetingName_afternoon": "Hallo {{userName}}!",
-                "greeting_evening": "Guten Abend!",
-                "greetingName_evening": "Guten Abend {{userName}}!"
+                "greeting_morning": "Bonjour !",
+                "greetingName_morning": "Bonjour {{userName}} !",
+                "greeting_afternoon": "Bon après-midi !",
+                "greetingName_afternoon": "Bon après-midi, {{userName}} !",
+                "greeting_evening": "Bonsoir !",
+                "greetingName_evening": "Bonsoir {{userName}} !"
             },
-            "noThanks": "Nein, danke"
+            "noThanks": "Non, merci"
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
-                "header": "Vergiss es nicht! Deine nächste Sitzung ist in",
-                "days": "{{count}} Tage",
-                "seeDetails": "Details anzeigen",
-                "show": "Kommende Sitzungen ausblenden",
-                "hide": "Kommende Sitzungen ausblenden"
+                "header": "N'oubliez pas ! Votre prochaine session est dans",
+                "days_plural": "{{count}} jours ",
+                "seeDetails": "Voir les détails",
+                "show": "Afficher les sessions à venir",
+                "hide": "Cacher les sessions à venir",
+                "studiesHeader": "À venir",
+                "headerDateOn": "N'oubliez pas ! Votre prochaine session est le",
+                "minutesNoHours_plural": "{{count}} minutes ",
+                "hours_plural": "{{count}} heures ",
+                "minutes_plural": "et {{count}} minutes ",
+                "days": "{{count}} jour ",
+                "cardsHeader": "Vous êtes programmé pour :",
+                "minutesNoHours": "{{count}} minute ",
+                "minutes": "et {{count}} minute ",
+                "hours": "{{count}} heure ",
+                "sessionDetails": "Détails de la session"
+            }
+        },
+        "studies": {
+            "sessionDetails": {
+                "title": "Commençons ! Vous pouvez maintenant entrer dans la session"
             }
         }
     }
