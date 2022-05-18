@@ -97,7 +97,10 @@
                 "danish": "Dansk",
                 "french": "Français",
                 "dutch": "Nederlands",
-                "swedish": "Svenska"
+                "swedish": "Svenska",
+                "spanishMX": "Español MX",
+                "germanAT": "Deutsch AT",
+                "germanCH": "Deutsch CH"
             },
             "cancel": "Avbryt",
             "edit": "Redigera",
