@@ -535,5 +535,9 @@
             },
             "infoMessage": "De data du giver os, lader os matche din profil med de mest relevante undersøgelser."
         }
+    },
+    "“izPanel”.“finalPages”.“moderatedSessionAboutToStart”": {
+        "title": "",
+        "cta": ""
     }
 }
