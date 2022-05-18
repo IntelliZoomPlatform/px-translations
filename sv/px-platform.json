@@ -535,5 +535,9 @@
             },
             "infoMessage": "Med informationen du tillhandahåller kan vi matcha din profil med de mest relevanta studierna."
         }
+    },
+    "“izPanel”.“finalPages”.“moderatedSessionAboutToStart”": {
+        "title": "",
+        "cta": ""
     }
 }
