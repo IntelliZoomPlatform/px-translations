@@ -1,0 +1,227 @@
+{
+    "izPanel": {
+        "common": {
+            "androidPhone": "Android Smartphone",
+            "androidTablet": "Android Tablet",
+            "chrome": "Chrome",
+            "claim": "Deine Meinung zählt. Teile Deine Meinung zu Deinen Lieblings-Produkten mit uns und lasse Dich dafür bezahlen.",
+            "comma": ",",
+            "contactUsLowercaseImperative": "kontaktiere uns",
+            "copyright": "IntelliZoom Panel © 2022. Alle Rechte vorbehalten.",
+            "edge": "Edge",
+            "email": "E-Mail",
+            "firefox": "Firefox",
+            "ie": "Internet Explorer {{version}}",
+            "iPad": "iPad",
+            "iPhone": "iPhone",
+            "logIn": "Anmelden",
+            "logInImperative": "Anmelden",
+            "logInLowercase": "anmelden",
+            "next": "Weiter",
+            "noRobot": "Ich bin kein Roboter",
+            "or": "oder",
+            "orPressEnter": "oder Enter drücken",
+            "password": "Passwort",
+            "period": ".",
+            "privacyLink": "Datenschutzerklärung",
+            "requiredField": "(Erforderlich)",
+            "safari": "Safari",
+            "signUp": "Registrieren",
+            "submit": "Senden",
+            "termsLink": "Nutzungsbedingungen",
+            "day": "TT",
+            "month": "MM",
+            "year": "JJJJ",
+            "facebook": "Facebook",
+            "google": "Google",
+            "save": "Speichern",
+            "send": "Senden",
+            "demographics": {
+                "female": "Frau",
+                "lessThan": "Weniger als",
+                "male": "Mann",
+                "na": "Ich bevorzuge diese Frage nicht zu beantworten",
+                "no": "Nein",
+                "none": "Keines der genannten",
+                "noneOrNoTell": "Keine der obigen / Ich bevorzuge es, diese Frage nicht zu beantworten",
+                "orMore": "oder mehr",
+                "other": "Andere",
+                "otherFeminine": "Andere",
+                "otherFemininePlural": "Andere",
+                "otherPlural": "Andere",
+                "unknown": "Ich weiss es nicht",
+                "yes": "Ja",
+                "nonBinary": "Nicht binär",
+                "noneMasculine": "Keines der genannten",
+                "no_answer": "Ich bevorzuge diese Frage nicht zu beantworten",
+                "million": "Million",
+                "millions": "Millionen"
+            },
+            "tip": {
+                "paypal": {
+                    "title": "Wir verwenden PayPal um unsere Studienteilnehmer zu bezahlen",
+                    "description": "Vergewissere Dich, dass Deine E-Mail-Adresse mit einem PayPal Konto verknüpft ist. Denke daran, dass Du jederzeit ein PayPal Konto gratis einrichten kannst."
+                }
+            },
+            "finish": "Fertig",
+            "gotIt": "Okay",
+            "emailNotifications": {
+                "title": "Studieneinladungen und Newsletter",
+                "mkt": {
+                    "title": "Newsletter und Marketing-Mitteilungen",
+                    "description": "Wir senden Dir gelegentlich:\n\n-  Neuigkeiten wie Deine Meinung Produkte die Du magst beinflusst.\n-  Ein paar Tipps wie Du ein Meister darin wirst, Feedback zu geben.  "
+                },
+                "studyInvites": {
+                    "title": "Einladungen zu Usability Forschungs-Studien",
+                    "description": "Erhalte Einladungen zu Usability Forschungs-Studien die:\n\n-  Du von zu Hause aus machen kannst.\n-  Im Schnitt 10-20 Minuten Zeit benötigen.\n-  Dir im Durchschnitt {{tolIncentive}} für Studien die eine Audio- oder Videoaufnahme beinhalten bringen. Für Standard-Umfragen beträgt die Bezahlung durchschnittlich {{surveyIncentive}}.",
+                    "confirmationModal": {
+                        "title": "Bist Du sicher?",
+                        "description": "Wenn Du diese Option deaktivierst, erhältst Du keine weiteren Einladungen zu bezahlten Studien.",
+                        "cta": "Ja, deaktivieren"
+                    }
+                },
+                "description": "###Hallo, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "description_morning": "###Guten Morgen, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "descriptionName_morning": "###Guten Morgen {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "description_afternoon": "###Hallo, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "descriptionName_afternoon": "###Hallo {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "description_evening": "###Guten Abend, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "descriptionName_evening": "###Guten Abend {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:"
+            },
+            "language": {
+                "title": "Sprache",
+                "englishUS": "English US",
+                "englishUK": "English UK",
+                "spanish": "Español",
+                "german": "Deutsch",
+                "danish": "Dansk",
+                "french": "Français",
+                "dutch": "Nederlands",
+                "swedish": "Svenska"
+            },
+            "cancel": "Abbrechen",
+            "edit": "Bearbeiten",
+            "studies": {
+                "cardSort": {
+                    "title": "Card Sort",
+                    "description": "In dieser Art von Studie sind wir hauptsächlich daran interessiert wie Du bestimmte Elemente gruppierst. Das hilft dem Ersteller der Studie die Gedankenzüge bei der Kategorisierung zu verstehen. \n\nErinnere Dich, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner aufrichtigen Meinung interessiert."
+                },
+                "practice": {
+                    "title": "Übungsstudien",
+                    "description": "Nimm teil an dieser Übungsstudie und meistere die Kunst Feedback zu geben. \n\nWenn Du teilnimmst und unsere Bewertung bestehst, können wir Dich zu besser bezahlten Studien einladen."
+                },
+                "survey": {
+                    "description": "Eine klassische Frage-Antwort Umfrage.\n\nErinnere Dich, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner aufrichtigen Meinung interessiert.",
+                    "title": "Umfrage"
+                },
+                "taskBased": {
+                    "title": "Aufgabenbasiert",
+                    "description": "In einer Task-Based Studie wirst Du durch eine Reihe von Aufgaben geführt um diese zu lösen.\n\nManche Aufgaben sind einfach, andere sind etwas komplexer. Wir möchten wissen, wie einfach oder schwer Du diese Aufgaben empfindest.\n\nErinnere Dich, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner aufrichtigen Meinung interessiert."
+                },
+                "tol": {
+                    "title": "Think-Out-Loud",
+                    "description": "Diese Art von Studie erfordert die Aussprache Deiner Gedanken während Du an der Aufgabe teil nimmst.\n\nBehalte in Erinnerung, dass es keine falschen Antworten gibt. Wenn wir Dir eine Idee, ein Design oder ein Konzept zeigen - wenn Du es nicht magst, magst Du es nicht, wenn Du es liebst, liebst Du es, wenn es in keiner Weise irgendeine Emotion auslöst und es für Dich eine Zeitverschwendung ist ... sag es uns einfach!\n\nWir sind ausschließlich an Deiner aufrichtigen Meinungen interessiert."
+                },
+                "requirements": {
+                    "anyBrowser": "Ein aktueller Browser",
+                    "aWorking": "Eine Arbeit",
+                    "goodLightning": "Einen gut beleuchteten Platz",
+                    "headphones": "Kopfhörer",
+                    "maybeRecorded": "Du benötigst kein Mikrofon oder Webcam, aber Dein Bildschirm wird aufgezeichnet. Vergewissere Dich jede Aufgabe zu lesen und bestmöglich zu lösen.",
+                    "microphone": "Mikrofon",
+                    "quietEnvironment": "Eine ruhige Umgebung",
+                    "screener": "Beantworte ein paar Fragen um zu sehen ob Du in das Suchprofil passt. Viel Glück! :)",
+                    "strongConnection": "Starke Internetverbindung",
+                    "updatedBrowser": "Die letzte Version von",
+                    "webcam": "Videokamera",
+                    "title": "Für diese Studie benötigst Du:"
+                },
+                "participate": "Nimm teil!",
+                "devices": "Endgeräte",
+                "youWillNeed": "Du benötigst",
+                "manualSourcing": {
+                    "title": "Bleib am Ball mit Deinen E-mails!",
+                    "description": "Für Studien in {{country} nützen wir E-Mails zum senden von Einladungen.\n\nUm sicherzustellen, dass Du so oft wie möglich eingeladen wirst, vervollständige Dein Profil und halte es aktuell."
+                },
+                "treeTest": {
+                    "title": "Tree-Test",
+                    "description": "In dieser Art von Studie möchten wir den bestmöglichen Weg ein Navigationsmenü zu organisieren und die Elemente zu benennen.\n\nDas bedeutet, ob die Kategorien für Dich Sinn ergeben und ob die Elemente dort sind wo Du es erwartest. \n\nBehalte in Erinnerung, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner ehrlichen Meinung interessiert."
+                },
+                "clickTest": {
+                    "title": "Click-Test",
+                    "description": "Mit einem Click Test möchten wir verstehen wo Du zum durchführen einer bestimmten Aktion klicken würdest.\n\nBehalte in Erinnerung, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner ehrlichen Meinung interessiert."
+                },
+                "projectId": "Studien ID zur Referenz: {{projectId}}",
+                "loadingScreen": {
+                    "title": "Öffne Studie…"
+                },
+                "recaptchaCheck": {
+                    "title": "Eine Sekunde! Nur Menschen erlaubt!"
+                },
+                "moderated": {
+                    "title": "Online Interview",
+                    "description": "Du kannst Zeitfenster ansehen und jenes auswählen, das für dich am günstigsten ist.",
+                    "book": "Eine Session reservieren",
+                    "modalDescription": "In dieser Studie befindest du dich in einem Live-Videoanruf mit einem UX Forscher,  welcher dich um deine Gedanken und Meinung zu einer digitalen Erfahrung bitten wird. \n\nDiese Session wird ungefähr {{sessionDuration}} Minuten dauern. Du wirst auch wählen können, wann du teilnimmst, basierend auf den verfügbaren Zeitfenstern. ",
+                    "mobileRequired": "Es muss eine Handynummer angegeben werden, um eine Sitzung zu planen",
+                    "smsReminder": "Um eine Erinnerung per SMS zu erhalten",
+                    "contactUser": "Sie zu kontaktieren, falls etwas nicht klappt",
+                    "why": "Warum?"
+                },
+                "sessionDuration": {
+                    "title": "Sessionsdauer",
+                    "min": "{{sessionDuration}} Minuten"
+                },
+                "scheduled": {
+                    "warning": "**Beachte:** Solltest du nicht mehr verfügbar sein zu dieser Zeit, [sag' ab]({{entranceLink}}) oder [verschiebe]({{entranceLink}}) deine Teilnahme umgehend. ",
+                    "join": "In der Sitzung einloggen",
+                    "notice": "Du kannst 10 Minuten vor Beginn der Sitzung einsteigen.",
+                    "title": "Hier sind die Details für deine nächste Sitzung",
+                    "nowTitle": "Fangen wir an! Du kannst jetzt die Sitzung betreten"
+                }
+            },
+            "and": "und",
+            "aUppercase": "Ein",
+            "desktop": "Computer",
+            "phone": "Mobiltelefon",
+            "tablet": "Tablet",
+            "selectAnOption": "Treffe eine Auswahl",
+            "comingSoon": "Demnächst",
+            "saved": "Gespeichert",
+            "greetings": {
+                "greeting_morning": "Guten Morgen!",
+                "greetingName_morning": "Guten Morgen {{userName}}!",
+                "greeting_afternoon": "Hallo!",
+                "greetingName_afternoon": "Hallo {{userName}}!",
+                "greeting_evening": "Guten Abend!",
+                "greetingName_evening": "Guten Abend {{userName}}!"
+            },
+            "noThanks": "Nein, danke"
+        },
+        "studiesDashboard": {
+            "upcomingScheduledStudies": {
+                "header": "Vergiss es nicht! Deine nächste Sitzung ist in ",
+                "days_plural": "{{count}} Tage ",
+                "seeDetails": "Details anzeigen",
+                "show": "Kommende Sitzungen ausblenden",
+                "hide": "Kommende Sitzungen ausblenden",
+                "studiesHeader": "Kommende",
+                "headerDateOn": "Vergiss es nicht! Deine nächste Sitzung ist am",
+                "minutesNoHours_plural": "{{count}} Minuten ",
+                "hours_plural": "{{count}} Stunden ",
+                "minutes_plural": "und {{count}} Minuten ",
+                "days": "{{count}} Tag ",
+                "cardsHeader": "Du bist eingeplant für: ",
+                "minutesNoHours": "{{count}} Minute ",
+                "minutes": "und {{count}} Minute ",
+                "hours": "{{count}} Stunde ",
+                "sessionDetails": "Details zur Sitzung"
+            }
+        },
+        "studies": {
+            "sessionDetails": {
+                "title": "Fangen wir an! Du kannst jetzt die Sitzung betreten"
+            }
+        }
+    }
+}

@@ -1,0 +1,539 @@
+{
+    "izPanel": {
+        "registration": {
+            "name": {
+                "title": "Wie heißt Du?",
+                "field": {
+                    "firstName": "Name",
+                    "lastName": "Nachname"
+                },
+                "alreadyRegistered": "Bereits registriert? <1>$t(px-common:izPanel.common.logInImperative)</1>"
+            },
+            "country": {
+                "title": "Willkommen {{firstName}}!",
+                "otherCountry": "Zeige mehr Länder",
+                "description": "**Du trittst unserem Panel in {{country}} bei.**\n\nFalls Du auf Reisen bist und das nicht das Land ist, indem Du lebst, registriere Dich bitte sobald Du zurück bist. Bist Du jetzt zu Hause und das ist nicht, wo Du lebst, [kontaktiere uns](https://help.intellizoom.com/hc/de/requests/new) uns bitte.",
+                "inSpanish": "¿Prefieres ver esta página en Español?",
+                "inGerman": "Möchtest Du diese Seite in Deutsch ansehen?"
+            },
+            "email": {
+                "title": "Was ist Deine E-Mail?",
+                "description": "Hierhin wirst Du Deine Studieneinladungen erhalten."
+            },
+            "password": {
+                "title": "Wähle ein Passwort",
+                "description": "Stelle sicher, dass es stark ist!\n\nVerwende: ",
+                "requirements": {
+                    "capitalLetter": "einen Großbuchstaben",
+                    "numberOrSymbol": "eine Zahl",
+                    "minChars": "mindestens 8 Zeichen",
+                    "lowercaseLetter": "einen Kleinbuchstaben",
+                    "passwordsShouldMatch": "selbstverständlich sollten Deine Passworte übereinstimmen"
+                },
+                "passwordConfirmation": "Passwort bestätigen"
+            },
+            "terms": {
+                "title": "Bevor es weiter geht...",
+                "description": "Nimm Dir bitte einen Moment Zeit unsere <1>{{termsLink}}</1> und <3>{{privacyLink}}</3> zu lesen.\n\nSolltest Du unsicher über die Nutzung Deiner Daten sein, <5>{{contactUsLowercaseImperative}}</5> bitte.",
+                "checkbox": {
+                    "gdpr": "Ich möchte Einladungen per E-Mail zu Forschungsstudien zur Benutzererfahrung die meinem Profil entsprechen erhalten. $t(px-common:izPanel.common.requiredField)",
+                    "terms": "Ich stimme den Nutzungsbedingungen und der Datenschutzerklärung zu. $t(px-common:izPanel.common.requiredField)",
+                    "mkt": "Ich möchte Benachrichtigungen und Newsletter von IntelliZoom Panel erhalten."
+                }
+            },
+            "doubleOptIn": {
+                "title": "Wir haben Dir eine E-Mail-Bestätigung zur Aktivierung Deines Kontos geschickt.",
+                "description": "Bitte klicke den Link in der E-Mail, um Dein Konto zu aktivieren. \n\nAus Sicherheitsgründen ist dieser Link nur 24 Stunden gültig. \n\nWenn Du keine Nachricht siehst, überprüfe bitte den Spam-Ordner. Wir können Dir das E-Mail auch <1>nochmals senden</1>.",
+                "resendSuccess": "E-Mail gesendet!"
+            }
+        },
+        "comingSoon": {
+            "title": "Bald Verfügbar!",
+            "description": "Wir haben derzeit kein Panel in {{selectedCountry}}, aber Du kannst uns Deine E-Mail hinterlassen und wir informieren Dich wenn wir eines öffnen. ",
+            "success": {
+                "title": "Danke!",
+                "description": "Wir kontaktieren Dich, wenn wir unser Panel in {{selectedCountry}} öffnen. \n\nAuf ein baldiges Wiedersehen!"
+            },
+            "gdpr": "Ich möchte informiert werden, wenn Intellizoom Panel in meinem Land öffnet. $t(px-common:izPanel.common.requiredField)",
+            "yourLocation": "Ihr Standort"
+        },
+        "error": {
+            "required": {
+                "field": "Diese Eingabe ist erforderlich.",
+                "gdpr": "Deine Zustimmung ist erforderlich.",
+                "terms": "Bitte akzeptiere die Allgemeinen Geschäftsbedigungen und die Datenschutzbestimmungen."
+            },
+            "format": {
+                "email": "Bitte trage eine gültige E-Mail-Adresse ein. Bsp: name@email.com",
+                "genericFormat": "Dieses Format ist ungültig"
+            },
+            "registration": {
+                "existingEmail": "Diese E-Mail-Adresse ist bereits registriert. Bitte\n<1>$t(px-common:izPanel.common.logInLowercase)</1>?",
+                "sendEmailFail": "Ojeh, irgendetwas ist schief gelaufen. Wir konnten Dir die Bestätigungs-E-Mail nicht senden. Bitte versuche es später erneut.",
+                "passwordRequirements": "Dieses Passwort erfüllt die Sicherheitsanforderungen nicht",
+                "emailLength": "Wow! Deine Email-Adresse kann nicht länger als 150 Zeichen sein...",
+                "passwordIncludesSpaces": "Das Passwort kann nicht mit einem Leerschritt beginnen oder enden."
+            },
+            "minTwoChars": {
+                "firstName": "Dein Name muss mindestens 2 Buchstaben haben.",
+                "lastName": "Dein Nachname muss mindestens 2 Buchstaben haben."
+            },
+            "generic": "Ojeh, da ist etwas schiefgelaufen. Bitte versuche es später erneut.",
+            "birthday": {
+                "future": "Zeitreisender, was? Dein Geburtsdatum kann nicht in der Zukunft liegen. ",
+                "past": "Keine Vampire erlaubt. Dein Geburtsdatum muss innhalb eines Jahrhunderts sein."
+            },
+            "login": {
+                "accountBlocked": "Dein Konto wurde nach mehreren aufeinanderfolgenden Anmeldungsversuchen blockiert.",
+                "accountInactive": "Dein Konto wurde noch nicht aktiviert. Sollen wir Dir die E-Mail-Bestätigung <1>nochmals zuschicken</1>?",
+                "expiredLink": "Der Aktivierungslink den Du geklickt hast is abgelaufen. Bitte <1>erneut senden</1> und wieder versuchen.",
+                "invalidCredentials": "Es tut uns leid. Wir konnten diese E-Mail/Passwort-Kombination nicht finden.",
+                "userNotFound": "Der Aktivierungslink den Du geklickt hast ist abgelaufen und Deine Daten wurden gelöscht. Bitte versuche erneut Dich zu registrieren.",
+                "wrongActivation": "Etwas ist schiefgelaufen während Deiner Kontoaktivierung. Bitte versuche es später erneut über die selbe Bestätigungs-E-Mail die wir Dir geschickt haben.",
+                "wrongActivationWithLink": "Etwas ist schiefgelaufen während Deiner Kontoaktivierung. Bitte <1>erneut senden</1> und wieder versuchen.",
+                "accountDeactivated": "Dein Konto ist zur Zeit nicht aktiv. Um wieder an IntelliZoom Studien teilzunehmen, kannst Du Deinen [Zugang anfordern](https://help.intellizoom.com/hc/de/requests/new)."
+            },
+            "forgotPassword": {
+                "sendEmailFail": "Ojeh, irgendetwas is schief gelaufen. Wir konnten Dir die Bestätigungs-E-Mail nicht senden. Bitte versuche es später erneut."
+            },
+            "resetPassword": {
+                "incorrectPassword": "Aktuelles Passwort ungültig",
+                "expiredLink": "Der link den Du benützt hast ist abgelaufen. Bitte fordere einen neuen Link auf der [Passwort vergessen](/forgot-password) Seite an."
+            },
+            "limitExceeded": "Du hast die maximale Anzahl an Versuchen erreicht. Bitte versuche es später erneut.",
+            "demographics": {
+                "notUnderAge": "Ein Minderjähriger kann nicht älter als 18 Jahre sein."
+            }
+        },
+        "footer": {
+            "item": {
+                "faqPayments": "[Wie lange dauert es bis ich bezahlt werde?](https://help.intellizoom.com/hc/de/articles/360000650458)",
+                "faqInvitations": "[Wie funktionieren Studieneinladungen?](https://help.intellizoom.com/hc/de/articles/360000658537)",
+                "faqChangeEmail": "[Wie kann ich meine E-Mail-Adresse ändern?](https://help.intellizoom.com/hc/de/articles/360001190318)",
+                "faqBrowseAll": "[Mehr anzeigen](https://help.intellizoom.com/hc/de)",
+                "sendEmail": "[Sende uns ein E-Mail](https://help.intellizoom.com/hc/de/requests/new)",
+                "whatIsIZP": "Was ist IntelliZoom Panel"
+            },
+            "title": {
+                "about": "Über uns",
+                "contact": "Kontakt",
+                "faq": "Häufige Fragen",
+                "social": "Folge uns!"
+            }
+        },
+        "header": {
+            "email": "{{userEmail}}",
+            "logOut": "Abmelden",
+            "mainDashboard": "Studien",
+            "name": "{{userFullName}}",
+            "profile": "Mein Profil",
+            "settings": "Einstellungen"
+        },
+        "basicDemographics": {
+            "flowTitle": "Okay!\n\nLos geht's",
+            "flowDescription": "Um Dich zu Studien einladen zu können, beantworte bitte die folgenden **3 Fragen:**",
+            "flowLastQuestion": "Und zu guter letzt...",
+            "progress": "Frage {{currentQuestion}} von {{totalQuestions}}",
+            "success": {
+                "title": "Fertig!",
+                "description": "Du bist nun bereit an unseren Studien teilzunehmen. \n\nVervollständige Dein Profil, sodass wir Dich zu spezifischeren (und besser bezahlten) Studien einladen können. ",
+                "cta": "Packen wir's an!"
+            },
+            "underage": {
+                "title": "Du musst zumindest {{minimumLegalAge}} Jahre alt sein, um an unseren Studien teilzunehmen",
+                "description": "Es tut uns leid, aber wir können Dich nicht zu Studien einladen oder Dir erlauben fortzufahren. Wir werden Dein IntelliZoom Panel Konto und alle Deine persönlichen Daten nun löschen. \n\nDanke für Dein Interesse."
+            }
+        },
+        "login": {
+            "title": "Anmelden",
+            "forgotPassword": "Passwort vergessen?",
+            "orSocialAccess": "oder weiter mit",
+            "newHere": "Noch kein Konto?",
+            "signUp": "Registriere Dich!",
+            "success": {
+                "accountActivated": "Dein Konto wurde erfolgreich aktiviert!",
+                "emailResent": "Wir haben Dir den Aktivierungslink erneut zugeschickt."
+            }
+        },
+        "forgotPassword": {
+            "title": "Hast Du Dein Passwort vergessen?",
+            "description": "Bitte trage Deine E-Mail ein und wir senden Dir einen Link, um Dein Passwort zurückzusetzen.",
+            "success": {
+                "title": "Wir haben Dir ein E-Mail geschickt, um Dein Passwort zurückzusetzen",
+                "description": "Aus Sicherheitsgründen ist dieser Link nur 24 Stunden gültig. \n\nWenn Du keine Nachricht siehst, überprüfe bitte den Spam-Ordner. Wir können Dir das E-Mail auch <1>nochmals senden</1>."
+            }
+        },
+        "resetPassword": {
+            "title": "Neues Passwort setzen",
+            "currentPassword": {
+                "description": "Und schreibe Dein aktuelles Passwort bitte:",
+                "field": "Aktuelles Passwort"
+            },
+            "success": {
+                "title": "Passwort aktualisiert!",
+                "description": "Dein neues Passwort wurde erfolgreich gespeichert.",
+                "cta": "Zur Anmeldung",
+                "backToSettings": "Zurück zu Einstellungen"
+            }
+        },
+        "landing": {
+            "heroSection": {
+                "title": "Deine Meinung zählt.",
+                "description": "Lass Dich bezahlen für das Teilen Deiner Erfahrungen mit Deinen Lieblingsprodukten.",
+                "cta": "Los geht's!"
+            },
+            "featureBoxes": {
+                "first": {
+                    "title": "Werde schnell und einfach bezahlt",
+                    "description": "Sparst Du auf etwas oder suchst Du nach extra Taschengeld? Mache es wie andere auf der ganzen Welt und hole Dir einen Zusatzverdienst indem Du Deine Erfahrungen mit uns teilst."
+                },
+                "second": {
+                    "title": "Beeinflusse das Produkterlebnis",
+                    "description": "Beeinflusse Deine Lieblingsprodukte indem Du Deine Meinung mit den Produktentwicklern teilst."
+                },
+                "third": {
+                    "title": "Mache es in Deiner Freizeit",
+                    "description": "Du hast 15-20 Minuten Zeit? Feedback geben ist einfach. Nimm an Studien aus der Ferne teil, wann Du Zeit hast, von zu Hause aus oder unterwegs, mit Deinem eigenen Gerät."
+                }
+            },
+            "reinforcingBanner": {
+                "phrase1": "Gebe Feedback",
+                "phrase2": "Werde bezahlt"
+            },
+            "faqs": {
+                "title": "Fragen? Wir haben die Antworten",
+                "faq1": {
+                    "title": "Wie schnell kann ich mit dem Testen loslegen?",
+                    "description": "Alsbald Du die Registrierung abgeschlossen hast und die 3 elementaren Profilierungs-Fragen beantwortet hast."
+                },
+                "faq2": {
+                    "title": "Wieviel Zeit wird die Teilnahme an einer Studie beanspruchen?",
+                    "description": "Die meisten Studien beanspruchen 10-20 Minuten im Schnitt."
+                },
+                "faq3": {
+                    "title": "Wie alt muss ich sein?",
+                    "description": "Alle Studienteilnehmer müssen 18 Jahre oder älter sein."
+                },
+                "faq4": {
+                    "title": "Wie viele Studieneinladungen werde ich erhalten?",
+                    "description": "Die Anzahl an Gelegenheiten die Du erhältst hängt von einigen Faktoren ab, wie etwa Deine demografischen Daten und Qualitätsbewertung ab."
+                },
+                "faq5": {
+                    "title": "Wie viel Geld werde ich verdienen?",
+                    "description": "Die Bezahlung hängt von der Komplexität der Studie ab. Für Studien die Deine Stimme oder ein Video aufnehmen, erhältst Du durchschnittlich $10. Für Standard-Umfragen beträgt die Bezahlung $2 im Schnitt."
+                },
+                "faq6": {
+                    "title": "Was benötige ich um an Studien teilnehmen zu können?",
+                    "description": "Alles was Du brauchst ist ein Computer, Tablet oder Smartphone, eine zuverlässige Internetverbindung, ein rugher Ort und die Möglichkeit, die zertifizierte (eCertified) Software von UserZoom herunterzuladen."
+                },
+                "faq7": {
+                    "title": "Wann werde ich bezahlt?",
+                    "description": "Die Prämie wird via PayPal innerhalb 21 Werktagen nach Abschluss der Studie ausbezahlt, wenn Dein Ergebnis gesichtet und bestätigt wurde. Die meisten Ergebnisse werden innerhalb von 3-5 Tagen bestätigt. \n\nDie Auszahlung wird an die selbe E-Mail-Adresse getätigt mit der Du Dich zu IntelliZoom Panel registriert hast."
+                }
+            },
+            "uzBanner": {
+                "title": "Ist das die Eule die Du suchst?",
+                "description": "Wenn Du mehr über IntelliZoom, den Motor für Sourcing im Einsatz für UserZoom, wissen möchtest, klicke hier. Wir finden die besten Teilnehmer für Deine UX Research Studien."
+            }
+        },
+        "settings": {
+            "title": "Einstellungen",
+            "account": {
+                "title": "Konto",
+                "credentials": {
+                    "title": "E-Mail-Zugang",
+                    "passwordLastUpdate": "Aktualisiert am",
+                    "changePassword": "Passwort ändern"
+                },
+                "phone": {
+                    "title": "Telefonnummer",
+                    "description": "Wenn du Deine Telefonnummer zu Deinem Konto hinzufügst, können wir Dich zu Moderierten Studien einladen. Eine moderierte Studie bedeutet, dass Dich ein Usability Forscher durch die Studie begleitet, um Dein Feedback einzuholen.",
+                    "addPhone": "Telefonnummer hinzufügen"
+                },
+                "deactivateAccount": {
+                    "title": "Konto deaktivieren",
+                    "description": "Wenn Du Dein Konto deaktivierst, verlierst Du Deinen Profilfortschritt und Du kannst nicht mehr an bezahlten Studien teilnehmen.",
+                    "cta": "Konto deaktivieren",
+                    "confirmationModal": {
+                        "title": "Bist Du sicher?",
+                        "description": "Du verlierst Deinen Profilfortschritt und Du kannst nicht mehr an bezahlten Studien teilnehmen.",
+                        "cta": "Ja, deaktivieren"
+                    }
+                }
+            },
+            "successfulUpdate": "Deine Einstellungen wurden erfolgreich aktualisiert!"
+        },
+        "studiesDashboard": {
+            "completed": {
+                "sectionTitle": "Absolvierte Studien",
+                "completitionDate": "Absolviert am {{date}}.",
+                "paymentsDescription": "Erinnere Dich, dass bei Annahme Deiner Teilnahme die Bezahlung bis zu 21 Werktage beanspruchen kann, um in Deinem PayPal Konto aufzuscheinen."
+            },
+            "incompleteProfile": {
+                "title": "Werde zu mehr Studien eingeladen!",
+                "description": "Vervollständige Deine persönliche Information in Mein Profil, sodass wir Dich zu Studien mit spezifischeren Teilnahmekriterien einladen können.",
+                "cta": "Profil vervollständigen"
+            },
+            "intro": {
+                "title": "Willkommen {{userName}}!",
+                "descriptionFTU": "Das ist Deine Studien-Übersicht. Hier kannst Du die Studien die Dir zur Verfügung stehen sowie praktische Tipps einsehen. \n\nNimm Dir nicht zu viel Zeit um daran teilzunehmen. Üblicherweise sind sie nur für kurze Zeit verfügbar.",
+                "oneStudyAvailable": "Du hast eine Verfügbare Studie ",
+                "severalStudiesAvailable": "Du hast {{studiesAvailable}} verfügbare Studien",
+                "verb": "Du hast ",
+                "availableStudies": "{{count}} verfügbare Studie ",
+                "availableStudies_plural": "{{count}} verfügbare Studien ",
+                "scheduledStudies_plural": "und {{count}} geplante ",
+                "scheduledStudies": "und {{count}} geplante ",
+                "scheduledStudiesNoAvailableStudies": "{{count}} geplante Studie ",
+                "scheduledStudiesNoAvailableStudies_plural": "{{count}} geplante Studien "
+            },
+            "practiceStudy": {
+                "cta": "An Übungsstudie teilnehmen"
+            },
+            "reactiveMessage": {
+                "certification": {
+                    "underRevision": {
+                        "title": "Übungsstudie",
+                        "description": "User Team überprüft Deine Teilnahme und wird Dich bald mit seinem Feedback anschreiben."
+                    },
+                    "rejected": {
+                        "title": "Übungsstudie",
+                        "description": "Die Übungsstudie die Du uns gesendet hast , hat unseren Qualitätsansprüchen zur Teilnahme an dieser Art von Studien nicht entsprochen. \n\nWenn Du denkst, dass hier ein Fehler vorliegt oder Du einen zweiten Versuch möchtest, <1>{{contactUsLowercaseImperative}}</1>."
+                    },
+                    "accepted": {
+                        "title": "Glückwunsch!",
+                        "description": "Deine Teilnahme an unserer Übungsstudie wurde überprüft und bestätigt. \n\nJetzt können wir Dich zu Think-Out-Loud-Studien und Card-Sort-Studien einladen.",
+                        "cta": "Super!"
+                    }
+                },
+                "unsubscribe": {
+                    "title": "Versäume keine Einladung!",
+                    "description": "Aktiviere die UX Research Studien-Einladungen und versäume nie wieder eine unserer Studien.",
+                    "cta": "Studieneinladungen aktiviere"
+                }
+            },
+            "tip": {
+                "phone": {
+                    "title": "Hallo {{username}},",
+                    "description": "Bist Du daran interessiert an moderierten Studien teilzunehmen? Das bedeutet, dass Dich ein Usability-Forscher durch eine Studie begleitet, um Dein Feedback einzuholen.",
+                    "mainCTA": "Spannend",
+                    "secondaryCTA": "Nein danke"
+                }
+            },
+            "availableStudiesTitle": "{{availableStudies}} Verfügbare Studien",
+            "availableStudyTitle": "1 verfügbare Studie",
+            "emptyDescription": "Derzeit gibt es keine verfügbaren Studien. Bleib dran!",
+            "noLongerAvailable": "Diese Studie ist nicht mehr verfügbar",
+            "studyCTA": "Teilnehmen"
+        },
+        "myProfile": {
+            "panelistName": "{{user.firstName}} {{user.lastName}}",
+            "profileCompletion": {
+                "title": "Dein Profil ist zu {{completionPercentage}} vollständig.",
+                "description": "Beantworte die Fragen in den folgenden Kategorien, sodass wir Dich zu mehr Studien einladen können."
+            },
+            "availableStudyTypes": {
+                "title": "Verfügbare Studientypen",
+                "description": "Komplettiere die <1>Übungsstudie</1> um an Think-Out-Loud- und Card Sort-Studien teilnehmen zu können."
+            },
+            "categories": {
+                "title": "Persönliche Daten",
+                "description": "Beantworte alle Fragen und komplettiere Dein Profil. Manche Studien erfordern sehr spezifische Kriterien zur Teilnahme. Je vollständiger und aktueller Dein Profil ist, desto mehr Studien stehen zu Deiner Teilnahme zur Verfügung.",
+                "complete": "Vollständig",
+                "questionsPending": "{{numberQuestionsPending}} Unbeantwortete Fragen",
+                "editCTA": "Prüfen / Bearbeiten",
+                "answerCTA": "Details hinzufügen"
+            }
+        },
+        "demographics": {
+            "categories": {
+                "aboutMe": "Über mich",
+                "healthAndFitness": "Gesundheit und Fitness",
+                "hobbiesAndInterests": "Hobbies und Interessen",
+                "household": "Haushalt",
+                "financial": "Finanzen",
+                "occupation": "Beruf",
+                "technology": "Technologie",
+                "travel": "Reisen"
+            },
+            "success": {
+                "title": "Spitze!",
+                "description": "Du kannst jetzt zu Studien die Deinem {{categoryFilled}} Profil entsprechen eingeladen werden. \n\nDenke daran, dass Du Dein {{categoryFilled}} jederzeit  in Deinem Profil <0>einsehen oder bearbeiten</0> kannst.",
+                "backToMyProfile": "Zurück zu meinem Profil",
+                "moreCategories": {
+                    "title": "Weiter mit Schwung!",
+                    "description": "Beantworte **nun {{numberQuestionsMissing}} Fragen** über {{categoryMissing}} um zu mehr Studien eingeladen zu werden.",
+                    "letsDoThis": "Packen wir's an!"
+                }
+            },
+            "aboutMe": {
+                "nonEditableFields": "Wenn Du Dein Geburtsdatum, Dein Geschlecht oder das Land in dem Du wohnst ändern möchtest, [kontaktiere](https://help.intellizoom.com/hc/de/requests/new) unser Service Team."
+            }
+        },
+        "reEngagement": {
+            "title": "Hallo {{userName}}!",
+            "description": "Da das eine brandneue Plattform ist, lass uns mit einem brandneuen Passwort starten.\n\nKlicke Neues Passwort beantragen und wir senden Dir eine E-Mail mit einem Link zum zurücksetzen.",
+            "cta": "Neues Passwort beantragen",
+            "success": {
+                "title": "Wir haben Dir ein E-Mail geschickt, um Dein Passwort zurückzusetzen",
+                "description": "Aus Sicherheitsgründen ist dieser Link nur 24 Stunden gültig. \n\nWenn Du keine Nachricht siehst, überprüfe bitte den Spam-Ordner. Wir können Dir das E-Mail auch <1>nochmals senden</1>."
+            },
+            "wud": {
+                "titleName": "Willkommen bei IntelliZoom Panel {{userName}}!",
+                "title": "Willkommen bei IntelliZoom Panel!",
+                "description": "Wir werden alle Ihre Profilinformationen von WhatUsersDo auf unsere Plattform verschieben. Da es sich jedoch um eine brandneue Website handelt, lass' uns mit einem brandneuen Passwort starten.\n\nKlicke ’Neues Passwort beantragen' und wir senden Dir eine E-Mail mit einem Link zur Bestätigung.",
+                "cta": "Neues Passwort beantragen",
+                "modal": {
+                    "title": "Jetzt Einladungsstatus aktivieren, damit Du gleich an neuen Studien teilnehmen kannst:",
+                    "bodycopy": "Erst, wenn Du den Einladungsstatus aktivierst, kannst Du Deine neuen Studien auf Deinem Dashboard sehen bzw. E-Mail-Einladungen zu neuen Studien erhalten.",
+                    "cta": "Studieneinladungen aktivieren"
+                }
+            }
+        },
+        "success": {
+            "resend": {
+                "email": "E-Mail gesendet!"
+            }
+        },
+        "finalPages": {
+            "complete": {
+                "title": "Du hast die Studie abgeschlossen. Danke für’s teilen Deiner Eindrücke!",
+                "description": "Sobald Deine Ergebnisse von uns gesichtet und bestätigt wurden, beauftragen wir die Zahlung mittels PayPal an die selbe E-Mail-Adresse die Du zur Registrierung bei IntelliZoom Panel benützt hast.\n\nDieser Prozess kann bis zu 21 Werktage benötigen. In der Zwischenzeit kannst Du an weiteren Studien teilnehmen.",
+                "cta": "Verfügbare Studien ansehen"
+            },
+            "alreadyTaken": {
+                "title": "Du hast diese Studie bereits abgeschlossen. Danke für Deine Teilnahme!",
+                "description": "Sobald Deine Ergebnisse von uns gesichtet und bestätigt wurden, beauftragen wir die Zahlung mittels PayPal an die selbe E-Mail-Adresse die Du zur Registrierung bei IntelliZoom Panel benützt hast.\n\nDieser Prozess kann bis zu 21 Werktage benötigen. In der Zwischenzeit kannst Du an weiteren Studien teilnehmen.",
+                "cta": "Verfügbare Studien ansehen"
+            },
+            "screenout": {
+                "title": "Verdammt! Du bist nicht qualifiziert um an dieser Studie teilzunehmen. Aber vielleicht bist Du der perfekte Kandidat für die nächste!",
+                "description": "Danke für Deine Zeit, {{user.name}}.\n\nStelle sicher, dass [Dein Profil](/profile) vollständig und aktuell ist um so viele passende Einladungen wie möglich zu erhalten.",
+                "cta": "Verfügbare Studien ansehen"
+            },
+            "cheater": {
+                "title": "Es tut uns leid, aber Dein Ergebnis entspricht unseren Qualitätskriterien nicht.",
+                "description": "Wir nehmen es sehr ernst mit der Beantwortung unserer Studien.\n\nDeshalb setzen wir voraus dass:\n\n-  Die Studie komplett abgeschlossen wurde.\n\n-  Die Kommentare des Teilnehmers in Qualität und Quantität stimmen.\n\n-  Der / Die Teilnehmer/In eine angemessene Zeitspanne mit Betrachtung und Interaktion mit der zu beurteilenden Seite verbringt.\n\nLeider entsprechen Deine Ergebnisse nicht diesen Standards, weshalb wir Dir diesmal keine Prämie anbieten können. Wir tun das nicht gerne, aber diese Gründe sind uns wichtig und wir empfehlen Dir, mehr Zeit und Einsatz in zukünftige Studien zu investieren.",
+                "cta": "Zurück zu den verfügbaren Studien"
+            },
+            "speeder": {
+                "title": "Du hast diese Studie viel zu schnell abgeschlossen.",
+                "description": "Du warst schneller als erwartet für jemanden der die Studie in bestem Wissen beantwortet. Wir verstehen zwar die Eile und den Wunsch mehr Studien abschließen zu können, nehmen es aber mit der Qualität der Antworten sehr genau.\n\nLeider müssen wir daher Deine Ergebnisse ausschließen und können Dir diesmal keine Prämie anbieten. Wir tun das nicht gerne, aber die Gründe sind uns sehr wichtig, weshalb wir Dir empfehlen in zukünftigen Studien mehr Zeit zu verbringen.",
+                "cta": "Zurück zu den verfügbaren Studien"
+            },
+            "closed": {
+                "title": "Die Studie an der Du teilnehmen möchtest wurde geschlossen.",
+                "description": "Schnell! Schau' ob es noch eine weitere Studie für Dich gibt.",
+                "cta": "Verfügbare Studien ansehen"
+            },
+            "quotafull": {
+                "title": "Die Studie an der Du teilnehmen möchtest hat bereits die notwendige Zahl an Antworten erreicht.",
+                "description": "Schnell! Schau' ob es noch eine weitere Studie für Dich gibt.",
+                "cta": "Verfügbare Studien ansehen"
+            },
+            "practiceStudy": "Wenn Du an einer unserer Übungsstudien teilnimmst, kontaktieren wir Dich, sobald wir Dein Ergebnis bewertet haben. Bitte behalte in Erinnerung, dass für Übungsstudien keine Prämien ausgezahlt werden."
+        },
+        "errorPages": {
+            "generic": {
+                "title": "Ohjeh! Diese Seite funktioniert nicht.",
+                "description": "Wir behalten das im Auge.\n\nMöchtest Du Dir in der Zwischenzeit ansehen welche [Studien](/studies) verfügbar sind?"
+            },
+            "uz": {
+                "generic": {
+                    "title": "Oops, etwas ist schiefgelaufen",
+                    "description": "Wir konnten die Seite nicht laden. Bitte versuche es in einigen Minuten nochmal."
+                }
+            },
+            "500": {
+                "title": "Und, nein… der Server antwortet nicht.",
+                "description": "Bitte entschuldige die Umstände. Bitte versuche es <1>in einigen Minuten</1> erneut."
+            }
+        },
+        "paypalToken": {
+            "dashboard": {
+                "status": {
+                    "noIntegration": {
+                        "title": "Verknüpfe Dein PayPal-Konto mit IntelliZoom!",
+                        "description": "Mit unserer neuen PayPal-Integration wirst Du nach jeder absolvierten Forschungsstudie sicher und pünktlich bezahlt.",
+                        "cta": "Mit PayPal verknüpfen"
+                    },
+                    "noTolUnverified": {
+                        "title": "Nur noch ein Schritt!",
+                        "description": "Um mit der Teilnahme an bezahlten Forschungsstudien zu beginnen, kannst Du entweder die Übungsstudie durchführen oder [Dein PayPal-Konto verifizieren.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                    },
+                    "connectionLost": {
+                        "title": "Leider könnn wir Dich nicht bezahlen …",
+                        "description": "Dein PayPal-Konto wurde von IntelliZoom getrennt. Um bezahlt zu werden und an zukünftigen Studien teilnehmen zu können, muss Dein PayPal-Konto verknüpft sein.",
+                        "cta": "Mit PayPal verknüpfen"
+                    }
+                },
+                "outcome": {
+                    "success": {
+                        "verified": {
+                            "title": "Herzlichen Glückwunsch! Dein PayPal-Konto wurde erfolgreich verknüpft.",
+                            "description": "Nehme zur Feier an einigen bezahlten Forschungsstudien teil."
+                        },
+                        "notVerifiedTol": {
+                            "title": "Herzlichen Glückwunsch! Dein PayPal-Konto wurde erfolgreich verknüpft.",
+                            "description": "Wenn Du an weiteren bezahlten Forschungsstudien teilnehmen möchtest, [verifiziere Dein PayPal-Konto.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                        },
+                        "notVerifiedNoTol": {
+                            "title": "Herzlichen Glückwunsch! Dein PayPal-Konto wurde erfolgreich verknüpft.",
+                            "description": "Um mit der Teilnahme an bezahlten Forschungsstudien zu beginnen, kannst Du entweder die Übungsstudie durchführen oder [Dein PayPal-Konto verifizieren.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                        }
+                    },
+                    "error": {
+                        "location": {
+                            "title": "Leider könnn wir Dich nicht bezahlen …",
+                            "description": "Dein PayPal- und Dein IntelliZoom-Konto müssen die gleichen Standortinformationen haben. Aktualisiere bitte die Seite, falls Du es erneut versuchen möchtest."
+                        },
+                        "severalAccounts": {
+                            "title": "Leider könnn wir Dich nicht bezahlen …",
+                            "description": "Dein PayPal-Konto wird bereits für ein anderes IntelliZoom-Konto verwendet. Aktualisiere bitte die Seite, falls Du es erneut versuchen möchtest."
+                        },
+                        "accessDenied": {
+                            "title": "Dein PayPal-Konto wurde nicht verknüpft, da Du IntelliZoom keinen Zugriff gewährt hast.",
+                            "cta": "Erneut versuchen"
+                        },
+                        "noLongerVerified": {
+                            "title": "Dein PayPal ist nicht mehr verifiziert",
+                            "description": "Bitte folge diesen [Anweisungen](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444), um Dein PayPal-Konto zu verifizieren, und versuche es erneut."
+                        }
+                    }
+                }
+            },
+            "studyEntrance": {
+                "notVerified": {
+                    "title": "Um teilzunehmen, musst Du Dein verifiziertes PayPal-Konto mit IntelliZoom verknüpfen.",
+                    "description": "Wenn Du Dein Konto bereits verknüpft hast, denke daran, dass Du zur Teilnahme an Studien entweder die Übungsstudie durchführen oder bei PayPal [Dein Konto verifizieren](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) musst.",
+                    "cta": "Zur Übersichtsseite"
+                }
+            },
+            "settings": {
+                "connect": {
+                    "title": "Mit Deinem PayPal verknüpfen",
+                    "description": "Stelle sicher, dass Du Deine Zahlungen pünktlich erhaltest, indem Du Dein Konto mit PayPal synchronisierst.",
+                    "cta": "Mein PayPal verknüpfen"
+                },
+                "disconnect": {
+                    "title": "PayPal – verknüpft",
+                    "description": "Dein Konto ist erfolgreich mit PayPal verknüpft.",
+                    "cta": "Von PayPal trennen",
+                    "doubleConfirmation": {
+                        "title": "Bist Du sicher, dass Du Dein PayPal trennen möchtest?",
+                        "description": "Wenn Du mit dieser Option fortfährst, erhaltest Du keine Einladungen zu bezahlten Studien mehr. Außerdem verlierst Du alle ausstehenden Zahlungen für Studien, die Du kürzlich abgeschlossen hast.",
+                        "cta": "Mein PayPal trennen"
+                    }
+                }
+            }
+        },
+        "demographicsUpdate": {
+            "complete": {
+                "title": "🎉 Danke, dass du dein Profil auf den neuesten Stand gebracht hast",
+                "description": "Durch deine Teilnahme können wir den bestmöglichen Service bieten",
+                "cta": "Verfügbare Studien ansehen"
+            },
+            "infoMessage": "Die von dir bereitgestellten Daten ermöglichen es uns, die für dein Profil relevantesten Studien zu finden."
+        }
+    }
+}
