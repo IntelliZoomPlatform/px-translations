@@ -3,760 +3,760 @@
         "category": {
             "aboutMe": {
                 "birthday": {
-                    "question": "Was ist Dein Gegurtsdatum?",
-                    "shortName": "Geburtsdatum"
+                    "question": "Hvad er din fødselsdato?",
+                    "shortName": "Fødselsdato"
                 },
                 "country": {
-                    "question": "In welchem Land lebst Du?",
+                    "question": "Hvilket land bor du i?",
                     "shortName": "Land"
                 },
                 "gender": {
-                    "question": "Bist Du...",
-                    "shortName": "Geschlecht"
+                    "question": "Hvad er dit køn?",
+                    "shortName": "Køn"
                 },
                 "postalCode": {
-                    "question": "Was ist Deine Postleitzahl",
-                    "shortName": "Postleitzahl"
+                    "question": "Hvad er dit postnummer?",
+                    "shortName": "Postnummer"
                 },
                 "hispanic": {
-                    "question": "Bist Du lateinamerikianischer, hispanischer oder spanischer Herkunft?",
-                    "shortName": "Lateinamerikanische, hispanische oder spanische Herkunft"
+                    "question": "Er du af latinamerikansk eller spansktalende baggrund?",
+                    "shortName": "Spanskamerikansk, latinamerikansk eller spansk oprindelse"
                 },
                 "ethnicity_us": {
                     "list": {
-                        "white": "Weiss",
-                        "black": "Schwarz oder Afroamerikanisch",
-                        "indian": "Indianer oder nativer Amerikaner",
-                        "asian": "Asiatisch",
-                        "islander": "Pazifik oder nativer Hawaiianer",
-                        "other": "Andere"
+                        "white": "Hvid",
+                        "black": "Sort eller afroamerikansk",
+                        "indian": "Indfødt fra Nordamerika og Alaska",
+                        "asian": "Asiatisk",
+                        "islander": "Stillehavsøbo eller indfødt hawaiianer",
+                        "other": "Anden baggrund"
                     }
                 },
                 "ethnicity_gb": {
                     "list": {
-                        "white": "Weiss",
-                        "traveller": "Nomadisch / Irish Traveller",
-                        "asian_indian": "Asiatisch oder Britisch-Asiatisch: Indisch",
-                        "asian_pakistani": "Asiatisch oder Britisch-Asiatisch: Pakistanisch",
-                        "asian_bangladeshi": "Asiatisch oder Britisch-Asiatisch: Bangladesch",
-                        "asian_chinese": "Asiatisch oder Britisch-Asiatisch: Chinesisch",
-                        "asian_other": "Asiatisch oder Britisch-Asiatisch: Andere",
-                        "black": "Schwarz oder schwarzer Brite",
-                        "mixed": "Gemischt oder mehrere"
+                        "white": "Hvid",
+                        "traveller": "Rejsende/irsk rejsende",
+                        "asian_indian": "Asiatisk eller asiatisk-britisk: indisk",
+                        "asian_pakistani": "Asiatisk eller asiatisk-britisk: pakistansk",
+                        "asian_bangladeshi": "Asiatisk eller asiatisk-britisk: bangladeshisk",
+                        "asian_chinese": "Asiatisk eller asiatisk-britisk: kinesisk",
+                        "asian_other": "Asiatisk eller asiatisk-britisk: anden asiatisk baggrund",
+                        "black": "Sort eller sort britisk",
+                        "mixed": "Blandet eller flere"
                     }
                 },
                 "householdDescription": {
                     "list": {
-                        "cohabiting": "Verpartnert / Gemeinsam lebend",
-                        "single": "Single, unverheiratet",
-                        "married": "Verheiratet",
-                        "divorced": "Geschieden",
-                        "separated": "Getrennt",
-                        "widowed": "Verwittwet"
+                        "cohabiting": "Samlever / Sambo",
+                        "single": "Single, har aldrig været gift",
+                        "married": "Gift",
+                        "divorced": "Skilt",
+                        "separated": "Separeret",
+                        "widowed": "Enke"
                     },
-                    "question": "Was ist Dein Familienstand?",
-                    "shortName": "Familienstand"
+                    "question": "Hvad er din civilstatus?",
+                    "shortName": "Civilstatus"
                 },
                 "education_us": {
                     "list": {
-                        "no_hs_diploma": "Einige Zeit in der Sekundärschule oder weniger",
-                        "hs_or_ged": "Sekundärschule oder gleichwertige Ausbildung",
-                        "some_college": "Einige Zeit an der Universität aber ohne Titel",
-                        "two_year_degree": "Universitätstitel - Accociate (2 Jahre)",
-                        "four_year_degree": "Universitätstitel - Bachelor (4 Jahre)",
-                        "post_grad_degree": "Post Graduate - MS, MA, MBA, PhD, etc.",
-                        "professional_degree": "Professional degree - MD, DVM, DDS, etc."
+                        "no_hs_diploma": "Delvis gymnasieuddannelse eller mindre",
+                        "hs_or_ged": "Gymnasieuddannelse eller tilsvarende",
+                        "some_college": "Gennemført delvis universitetsuddannelse men intet bevis",
+                        "two_year_degree": "Universitetsgrad - to år",
+                        "four_year_degree": "Universitetsgrad - fire år",
+                        "post_grad_degree": "Postgraduat - MS, MA, MBA, PhD osv.",
+                        "professional_degree": "Professionel grad - MD, DVM, DDS osv."
                     }
                 },
                 "languages": {
-                    "question": "Welche Sprachen sprichst Du, sodass Du Dich behaglich fühlst, Feedback zu geben?",
+                    "question": "Hvilke sprog kan du tale og give feedback på?",
                     "list": {
-                        "arabic": "Arabisch",
-                        "basque": "Baskisch",
-                        "berber": "Berberisch",
-                        "bulgarian": "Bulgarisch",
-                        "catalan": "Katalanisch",
-                        "chinese": "Chinesisch",
-                        "croatian": "Kroatisch",
-                        "czech": "Tschechisch",
-                        "danish": "Dänisch",
-                        "dutch": "Holländisch",
-                        "english": "Englisch",
-                        "estonian": "Estnisch",
-                        "finnish": "Finnisch",
-                        "french": "Französisch",
-                        "galician": "Galizisch",
-                        "german": "Deutsch",
-                        "greek": "Griechisch",
+                        "arabic": "Arabisk",
+                        "basque": "Baskisk",
+                        "berber": "Berbisk",
+                        "bulgarian": "Bulgarsk",
+                        "catalan": "Catalansk",
+                        "chinese": "Kinesisk",
+                        "croatian": "Kroatisk",
+                        "czech": "Tjekkisk",
+                        "danish": "Dansk",
+                        "dutch": "Hollandsk",
+                        "english": "Engelsk",
+                        "estonian": "Estisk",
+                        "finnish": "Finsk",
+                        "french": "Fransk",
+                        "galician": "Galicisk",
+                        "german": "Tysk",
+                        "greek": "Græsk",
                         "hindi": "Hindi",
-                        "hungarian": "Ungarisch",
-                        "italian": "Italienisch",
-                        "irish": "Irisch",
-                        "latvian": "Lettisch",
-                        "lithuanian": "Litauisch",
-                        "japanese": "Japanisch",
-                        "kurdish": "Kurdisch",
-                        "korean": "Koreanisch",
-                        "maltese": "Maltesisch",
-                        "norwegian": "Norwegisch",
-                        "polish": "Polnisch",
-                        "portuguese": "Portugiesisch",
-                        "romanian": "Rumänisch",
-                        "punjabi": "Punjab",
-                        "russian": "Russisch",
-                        "scottish": "Schottisch",
-                        "slovak": "Slowakisch",
-                        "slovenian": "Slowenisch",
-                        "spanish": "Spanisch",
-                        "swedish": "Schwedisch",
+                        "hungarian": "Ungarsk",
+                        "italian": "Italiensk",
+                        "irish": "Irsk",
+                        "latvian": "Lettisk",
+                        "lithuanian": "Litauisk",
+                        "japanese": "Japansk",
+                        "kurdish": "Kurdisk",
+                        "korean": "Koreansk",
+                        "maltese": "Maltesisk",
+                        "norwegian": "Norsk",
+                        "polish": "Polsk",
+                        "portuguese": "Portugisisk",
+                        "romanian": "Rumænsk",
+                        "punjabi": "Punjabi",
+                        "russian": "Russisk",
+                        "scottish": "Skotsk",
+                        "slovak": "Slovakisk",
+                        "slovenian": "Slovensk",
+                        "spanish": "Spansk",
+                        "swedish": "Svensk",
                         "tagalog": "Tagalog",
                         "tamil": "Tamil",
-                        "turkish": "Türkisch",
+                        "turkish": "Tyrkisk",
                         "urdu": "Urdu",
-                        "welsh": "Walisisch"
+                        "welsh": "Walisisk"
                     },
-                    "shortName": "Sprachen in denen ich mich behaglich fühle Feedback zu geben"
+                    "shortName": "Sporg, du taler og føler dig komfortabel med at give feedback om"
                 },
                 "education_es": {
                     "list": {
-                        "lessHighschool": "Einige Zeit an der Obligatorischen Sekundärschule",
-                        "highschool": "Obligatorische Sekundärschule",
-                        "technical": "Diplomingenieur",
-                        "someBaccalaureate": "Einige Zeit höhere Sekundärbildung (Spanisches Bakkalaureat)",
-                        "baccalaureate": "Bakkalaureat",
-                        "someCollege": "Einige Zeit an der Universität (ohne Titel)",
-                        "college": "Universitätsabschluss (3 Jahre)",
-                        "masters": "Master",
-                        "phd": "Doktorat"
+                        "lessHighschool": "Nogen obligatorisk folkeskole eller mindre",
+                        "highschool": "Har bestået obligatorisk folkeskole",
+                        "technical": "Teknisk/professionsbachelor",
+                        "someBaccalaureate": "Har gennemført en del af gymnasiet",
+                        "baccalaureate": "Har bestået gymnasiet",
+                        "someCollege": "Har gennemført en del af en universitetsuddannelse",
+                        "college": "Universitetsuddannet (3-årig)",
+                        "masters": "Kandidatgrad",
+                        "phd": "Ph.d."
                     }
                 },
                 "education_gb": {
                     "list": {
-                        "junior_infant": "This education levels are not for EU citizens but for UK.\nIf the levels are very specific I would leave them in English and only translate the parts like \"but no degree\".",
-                        "comprehensive": "Comprehensive School (GCSE)/Secondary modern (GCSE)/Grammar School (GCSE)/City Technology College (GCSE)/Sixth Form",
-                        "college": "College/Institution of Higher Education",
-                        "open_college": "Open College - College of Technology - Institute / Teacher Training University",
-                        "junior": "Junior School",
-                        "university": "University / Open University",
-                        "some_college": "Completed some University, but no degree"
+                        "junior_infant": "De små klasser i folkeskolen",
+                        "comprehensive": "Folkeskoleeksamen",
+                        "college": "Universitet/Højere uddannelsesinstitution",
+                        "open_college": "Teknisk universitet / pædagogikum",
+                        "junior": "Mellemtrinnet",
+                        "university": "Universitet",
+                        "some_college": "Har gennemført en del af en universitetsuddannelse, men har ingen universitetsgrad"
                     }
                 },
                 "education_de": {
                     "list": {
-                        "primary": "Primärschule / Volksschule",
-                        "medium": "Sekundärschulabschluß",
-                        "university": "Abitur / Universität",
-                        "associate": "Associate degree",
-                        "secondaryOther": "Weiterführende abgeschlossene sekundäre Ausbildung",
+                        "primary": "Gennemført folkeskole",
+                        "medium": "Ungdomsuddanelse (STX, HTX, HHX osv.)",
+                        "university": "Universitet",
+                        "associate": "Erhvervsakademiuddannelse",
+                        "secondaryOther": "Andre gennemførte gymnasiale uddannelser",
                         "diploma": "Diplom (FH / DH)",
                         "bachelor": "Bachelor",
                         "magister": "Magister",
-                        "master": "Master",
-                        "phd": "Doktorat",
-                        "universityOther": "Anderer Universitätstitel"
+                        "master": "Kandidat",
+                        "phd": "Doktorgrad",
+                        "universityOther": "Anden universitetsgrad"
                     }
                 },
                 "education_au": {
                     "list": {
-                        "furtherqualification": "Weiterführende abgeschlossene sekundäre Ausbildung",
-                        "universityNoDegree": "Einige Zeit an der Universität (ohne Titel)",
-                        "universityDegree": "Universitätsabschluss",
-                        "master": "Master",
-                        "doctorate": "Doktorat",
-                        "belowGcse": "Einige Zeit in der GCSE oder weniger",
-                        "gcse": "GCSE oder gleichwertige Ausbildung",
-                        "alevel": "A-levels oder gleichwertige Ausbildung"
+                        "furtherqualification": "Yderligere kvalificering (mellem gymnasie og universitet)",
+                        "universityNoDegree": "Har gennemført en del af en universitetsuddannelse, men har ingen universitetsgrad",
+                        "universityDegree": "Universitetsgrad",
+                        "master": "Kandidat eller Professionsbachelor",
+                        "doctorate": "Doktorgrad",
+                        "belowGcse": "Under folkeskole",
+                        "gcse": "Folkeskole eller tilsvarende",
+                        "alevel": "A-niveau eller tilsvarende"
                     }
                 }
             },
             "household": {
                 "householdSize": {
-                    "question": "Wie viele Personen leben in Deinem Haushalt Dich eingeschlossen?",
+                    "question": "Hvor mange personer bor i din husstand udover dig selv?",
                     "list": {
-                        "1": "1 Person",
-                        "2": "2 Personen",
-                        "3": "3 Personen",
-                        "4": "4 Personen",
-                        "5": "5 Personen",
-                        "more_5": "Mehr als 5 Personen"
+                        "1": "1 person",
+                        "2": "2 personer",
+                        "3": "3 personer",
+                        "4": "4 personer",
+                        "5": "5 personer",
+                        "more_5": "Mere end 5 personer"
                     },
-                    "shortName": "Anzahl der Personen in Deinem Haushalt (Dich miteingerechnet)"
+                    "shortName": "Antal personer, der bor i din husholdning"
                 },
                 "householdChildren": {
-                    "question": "Wieviele Personen unter 18 Jahren leben in Deinem Haushalt?",
-                    "shortName": "Anzahl der Minderjährigen in Deinem Haushalt"
+                    "question": "Hvor mange børn under 18 er der i din husstand?",
+                    "shortName": "Antal børn under 18 i din husholdning"
                 },
                 "pets": {
-                    "question": "Welche Haustiere leben in Deinem Haushalt?",
+                    "question": "Hvilke af følgende kæledyr bor i din husstand?",
                     "list": {
-                        "cat": "Katze(n)",
+                        "cat": "Kat(te)",
                         "dog": "Hund(e)",
-                        "bird": "Vogel (Vögel)",
-                        "fish": "Fische",
-                        "noPets": "Keine"
+                        "bird": "Fugl(e)",
+                        "fish": "Fisk",
+                        "noPets": "Jeg har ingen kæledyr"
                     },
-                    "shortName": "Haustiere in Deinem Haushalt"
+                    "shortName": "Kæledyr, der bor i dit hus"
                 },
                 "ownRent": {
-                    "question": "Welche Beschreibung passt am besten zu Deinem derzeitigen Haushalt?",
+                    "question": "Hvad beskriver bedst din nuværende husstand?",
                     "list": {
-                        "rented": "Miethaus / Mietwohnung",
-                        "owned": "Eigentumshaus / Eigentumswohnung",
-                        "parents": "Bei den Eltern lebend"
+                        "rented": "Lejet lejlighed/hus",
+                        "owned": "Ejerlejlighed/ejet hus",
+                        "parents": "Bor sammen med forældre"
                     },
-                    "shortName": "Beschreibung Deines Haushalts"
+                    "shortName": "Nuværende husstand"
                 },
                 "purchaseDecisionMaker": {
-                    "question": "Für welche der folgenden Dinge bist Du zuständig oder teilweise zuständig in Deinem Haushalt?",
+                    "question": "Hvilke af følgende ting er du helt eller delvist ansvarlig for at tage beslutninger om i din husstand?",
                     "list": {
                         "internet": "Internet",
-                        "tv": "Fernsehen",
-                        "banking": "Bankanliegen",
-                        "groceries": "Lebensmitteleinkauf",
-                        "automobile": "Auto",
-                        "mortgage": "Hypothek",
-                        "finance": "Finanzen",
-                        "clothing": "Kleidung"
+                        "tv": "TV",
+                        "banking": "Bankforhold",
+                        "groceries": "Dagligvareindkøb",
+                        "automobile": "Bil",
+                        "mortgage": "Huslån",
+                        "finance": "Økonomi",
+                        "clothing": "Tøj"
                     },
-                    "shortName": "Deine Zuständigkeiten oder teilweise Zuständigkeiten in Deinem Haushalt"
+                    "shortName": "Ting, du er ansvarlig for eller delvist ansvarlig for at tage beslutninger om i din husstand"
                 },
                 "firstChild_gender": {
-                    "question": "Bitte nenne uns das Geschlecht Deines ersten Kindes unter 18 Jahre:",
-                    "shortName": "Geschlecht Deines ersten Kindes unter 18"
+                    "question": "Angiv venligst køn på det første barn under 18",
+                    "shortName": "Køn på det første barn under 18"
                 },
                 "firstChild_birthday": {
-                    "question": "Bitte wähle das Geburtsdatum Deines ersten Kindes unter 18 Jahre:",
-                    "shortName": "Geburtsdatum Deines ersten Kindes unter 18"
+                    "question": "Angiv venligst fødselsdato på det første barn under 18:",
+                    "shortName": "Fødselsdato på det første barn under 18"
                 },
                 "secondChild_gender": {
-                    "question": "Bitte nenne uns das Geschlecht Deines zweiten Kindes unter 18 Jahre:",
-                    "shortName": "Geschlecht Deines zweiten Kindes unter 18"
+                    "question": "Angiv venligst køn på det andet barn under 18",
+                    "shortName": "Køn på det andet barn under 18"
                 },
                 "secondChild_birthday": {
-                    "question": "Bitte wähle das Geburtsdatum Deines zweiten Kindes unter 18 Jahre:",
-                    "shortName": "Geburtsdatum Deines zweiten Kindes unter 18"
+                    "question": "Angiv venligst fødselsdato på det andet barn under 18:",
+                    "shortName": "Fødselsdato på det andet barn under 18"
                 },
                 "thirdChild_gender": {
-                    "question": "Bitte nenne uns das Geschlecht Deines dritten Kindes unter 18 Jahre:",
-                    "shortName": "Geschlecht Deines dritten Kindes unter 18"
+                    "question": "Angiv venligst køn på det tredje barn under 18",
+                    "shortName": "Køn på det tredje barn under 18"
                 },
                 "thirdChild_birthday": {
-                    "question": "Bitte wähle das Geburtsdatum Deines dritten Kindes unter 18 Jahre:",
-                    "shortName": "Geburtsdatum Deines dritten Kindes unter 18"
+                    "question": "Angiv venligst fødselsdato på det tredje barn under 18:",
+                    "shortName": "Fødselsdato på det tredje barn under 18"
                 },
                 "fourthChild_gender": {
-                    "question": "Bitte nenne uns das Geschlecht Deines vierten Kindes unter 18 Jahre:",
-                    "shortName": "Geschlecht Deines vierten Kindes unter 18"
+                    "question": "Angiv venligst køn på det fjerde barn under 18",
+                    "shortName": "Køn på det fjerde barn under 18"
                 },
                 "fourthChild_birthday": {
-                    "question": "Bitte wähle das Geburtsdatum Deines vierten Kindes unter 18 Jahre:",
-                    "shortName": "Geburtsdatum Deines vierten Kindes unter 18"
+                    "question": "Angiv venligst fødselsdato på det fjerde barn under 18:",
+                    "shortName": "Fødselsdato på det fjerde barn under 18"
                 },
                 "fifthChild_gender": {
-                    "question": "Bitte nenne uns das Geschlecht Deines fünften Kindes unter 18 Jahre:",
-                    "shortName": "Geschlecht Deines fünten Kindes unter 18"
+                    "question": "Angiv venligst køn på det femte barn under 18",
+                    "shortName": "Køn på det femte barn under 18"
                 },
                 "fifthChild_birthday": {
-                    "question": "Bitte wähle das Geburtsdatum Deines fünften Kindes unter 18 Jahre:",
-                    "shortName": "Geburtsdatum Deines fünften Kindes unter 18"
+                    "question": "Angiv venligst fødselsdato på det femte barn under 18:",
+                    "shortName": "Fødselsdato på det femte barn under 18"
                 }
             },
             "technology": {
                 "mobilePlan": {
-                    "question": "Welche Art von Mobilfunkvertrag hast Du?",
+                    "question": "Hvilken type mobilabonnement har du?",
                     "list": {
-                        "prepaid": "Prepaid / Wertkarte",
-                        "contract": "Vertrag",
-                        "noPhone": "Ich habe kein Mobiltelefon"
+                        "prepaid": "Forudbetalt",
+                        "contract": "Kontrakt",
+                        "noPhone": "Jeg har ikke en mobiltelefon"
                     },
-                    "shortName": "Art des Mobilfunkvertrages"
+                    "shortName": "Type af mobilabonnement"
                 },
                 "electronicDevices": {
-                    "question": "Welche der folgenden Elektrogeräte besitzt Du?",
+                    "question": "Hvilke af følgende elektroniske produkter ejer du?",
                     "list": {
-                        "flatTv": "Flachbildfernseher",
-                        "handheldConsole": "Tragbare Spielkonsole (Nintendo 2DS, Nintendo Switch)",
-                        "stationaryConsole": "Stationäre Spielkonsole (PlayStation, Xbox)",
+                        "flatTv": "Fladskærms-TV",
+                        "handheldConsole": "Håndholdt spillekonsol (Nintendo 2DS, Nintendo Switch)",
+                        "stationaryConsole": "Stationær spillekonsol (PlayStation, Xbox)",
                         "videoCamera": "Videokamera",
-                        "digitalCamera": "Digitalkamera",
-                        "desktopPc": "PC/Mac Computer",
-                        "laptopPc": "PC/Mac Laptop",
+                        "digitalCamera": "Digitalt kamera",
+                        "desktopPc": "PC/Mac stationær computer",
+                        "laptopPc": "PC/Mac bærbar computer",
                         "cellPhone": "Mobiltelefon",
-                        "cordlessPhone": "Funktelefon",
+                        "cordlessPhone": "Trådløs telefon",
                         "projector": "Projektor",
-                        "documentScanner": "Scanner",
-                        "cableTv": "Kabel TV / Satellit",
-                        "digitalTv": "Digitalreceiver (TV)",
-                        "printer": "Drucker",
-                        "multipurposePrinter": "Multifunktionsdrucker (Fax, Drucker, Telefon, etc.)",
-                        "homeNetwork": "Heimnetzwerk / Kabelloses Internet",
-                        "surroundSystem": "Home Cinema",
-                        "digitalMediaReceiver": "Digitalreceiver (Bsp.: Apple TV, Roku)",
-                        "tablet": "Tablet",
-                        "ebook": "E-book reader (Bsp.: Kindle)"
+                        "documentScanner": "Dokumentscanner",
+                        "cableTv": "Kabel-TV/Satellit-TV",
+                        "digitalTv": "Digital TV-boks",
+                        "printer": "Printer",
+                        "multipurposePrinter": "Multifunktionel printer (fax, printer, telefon osv.)",
+                        "homeNetwork": "Hjemmenetværk / Trådløst internet",
+                        "surroundSystem": "Surroundsystem / Hjemmebiograf",
+                        "digitalMediaReceiver": "Digital medieboks (udover AppleTV, Roku)",
+                        "tablet": "Tablet (f.eks. iPad)",
+                        "ebook": "E-bogslæser (udover Kindle)"
                     },
-                    "shortName": "Elektrogeräte in Deinem Haushalt"
+                    "shortName": "Elektronikprodukter, du ejer"
                 }
             },
             "occupation": {
                 "employment": {
-                    "question": "Wie ist Dein aktuelles Dienstverhältnis?",
+                    "question": "Hvad er din nuværende arbejdsstatus?",
                     "list": {
-                        "employed_full_time": "Mitarbeiter vollzeit",
-                        "employed_part_time": "Mitarbeiter teilzeit",
-                        "self_employed": "Selbstständig",
-                        "small_business_owner": "Selbsständig",
-                        "contractor_or_consultant": "Unternehmensberatung",
-                        "full_time_military": "Aktiver Soldat",
-                        "inactive_military": "Soldat in Ruhestand",
-                        "homemaker": "Vollzeit Haushaltsbetreuung (unbezahlt)",
-                        "retired": "In Ruhestand",
-                        "student": "Student",
-                        "unable_or_disabled": "Mit speziellen Bedürfnissen oder arbeitsunfähig",
-                        "looking_for_work": "Derzeit ohne Beschäftigung"
+                        "employed_full_time": "Fuldtidsansat",
+                        "employed_part_time": "Deltidsansat",
+                        "self_employed": "Selvstændig",
+                        "small_business_owner": "Ejer af lille virksomhed",
+                        "contractor_or_consultant": "Entreprenør eller konsulent",
+                        "full_time_military": "Aktiv i militæret",
+                        "inactive_military": "Inaktiv i militæret/Veteran",
+                        "homemaker": "Fuldtidshjemmegående",
+                        "retired": "Pensioneret",
+                        "student": "Studerende",
+                        "unable_or_disabled": "Handicappet og kan ikke arbejde",
+                        "looking_for_work": "Midlertidigt arbejdsløs"
                     },
-                    "shortName": "Aktuelles Dienstverhältnis"
+                    "shortName": "Nuværende ansættelsesforhold"
                 },
                 "industry": {
-                    "question": "In welcher der folgenden Branchen arbeitest Du?",
+                    "question": "I hvilken af de følgende industrier arbejder du?",
                     "list": {
-                        "accounting": "Buchhaltung",
-                        "administrative": "Beamter",
-                        "advertising": "Werbung",
-                        "agriculture": "Agrikultur und Fischfang",
-                        "architecture": "Architektur",
-                        "arts_recreation": "Kunst und Erholung",
+                        "accounting": "Revision",
+                        "administrative": "Administration og Support Services",
+                        "advertising": "Reklamebranchen",
+                        "agriculture": "Landbrug / Fiskeri",
+                        "architecture": "Arkitektur",
+                        "arts_recreation": "Kunst, Underholdning og Fritid",
                         "automotive": "Automobil",
-                        "aviation": "Fluglinie",
-                        "banking_finance": "Banken und Finanz",
-                        "biotech": "Biotechnologie",
-                        "brokerage": "Makler",
-                        "chemicals_plastics_rubber": "Chemie / Plastik / Gummi",
-                        "communications_information": "Kommunikation",
+                        "aviation": "Flytrafik",
+                        "banking_finance": "Bank / Finans",
+                        "biotech": "Bio-Tech",
+                        "brokerage": "Aktiehandel",
+                        "chemicals_plastics_rubber": "Kemikalier / Plastik / Gummi",
+                        "communications_information": "Kommunikation / Information",
                         "computer_hardware": "Computerhardware",
-                        "computer_software": "Software",
-                        "computer_reseller": "Computerhändler",
-                        "construction": "Bauwesen",
-                        "consulting": "Consulting / Unternehmensberatung",
-                        "consumer_electronics": "Verbraucherelektronik",
-                        "consumer_goods": "Konsumgüter",
-                        "education": "Bildung",
-                        "energy_utilities": "Energiewirtschaft",
-                        "engineering": "Ingenieur",
-                        "environmental_services": "Umweltschutz",
-                        "fashion_apparel": "Bekleidungsindustrie",
-                        "food_beverage": "Gastronomie",
-                        "government_public_sector": "Öffentlicher Dienst",
-                        "healthcare": "Gesundheitswesen",
-                        "hospitality_tourism": "Tourismus",
+                        "computer_software": "Computersoftware",
+                        "computer_reseller": "Computersalg (software / hardware)",
+                        "construction": "Konstruktion",
+                        "consulting": "Konsulent",
+                        "consumer_electronics": "Forbrugerelektronik",
+                        "consumer_goods": "Indpakkede Forbrugsvarer",
+                        "education": "Uddannelse",
+                        "energy_utilities": "Energi / Forbrug / Olie og Gas",
+                        "engineering": "Ingeniørvidenskab",
+                        "environmental_services": "Miljøservices",
+                        "fashion_apparel": "Mode / Beklædning",
+                        "food_beverage": "Mad / Drikkevarer",
+                        "government_public_sector": "Stat / Offentlig Sektor",
+                        "healthcare": "Sundhed",
+                        "hospitality_tourism": "Beværtning / Turisme",
                         "human_resources": "Human Resources",
-                        "information_technology": "Informationstechnologie (IT)",
-                        "insurance": "Versicherungen",
+                        "information_technology": "Informationsteknologi",
+                        "insurance": "Forsikring",
                         "internet": "Internet",
-                        "legal_law": "Recht und Justiz",
-                        "management": "Management",
-                        "manufacturing": "Verarbeitende Industrie",
-                        "market_research": "Marktforschung",
-                        "marketing_sales": "Marketing und Verkauf",
-                        "media_entertainment": "Medien und Unterhaltung",
-                        "military": "Militär",
-                        "non_profit_social_services": "Nicht-Regierungs-Organisationen / Soziale Dienste",
-                        "personal_services": "Persönliche Dienstleistungen",
-                        "pharmaceuticals": "Pharmazeutische Industrie",
-                        "printing_publishing": "Druck und Medien",
-                        "professional_services": "Beratung / Professionelle Dienstleistungen",
-                        "public_administration": "Öffentliche Administration",
-                        "public_relations": "Öffentlichkeitsarbeit",
-                        "real_estate_property": "Immobilien",
-                        "retail_wholesale_trade": "Großhandel",
-                        "scientific_technical_services": "Wissenschaftliche oder technische Dienstleistungen",
-                        "security": "Sicherheitsdienst",
-                        "shipping_distribution": "Versand",
+                        "legal_law": "Lov / Jura",
+                        "management": "Ledelse",
+                        "manufacturing": "Produktion",
+                        "market_research": "Markedsresearch",
+                        "marketing_sales": "Marketing / Salg",
+                        "media_entertainment": "Medier / Underholdning",
+                        "military": "Militær",
+                        "non_profit_social_services": "Non-profit / Sociale services",
+                        "personal_services": "Personlige Services",
+                        "pharmaceuticals": "Farmaceut",
+                        "printing_publishing": "Trykkeri og Forlag",
+                        "professional_services": "Professionelle Services",
+                        "public_administration": "Offentlig Administration",
+                        "public_relations": "PR",
+                        "real_estate_property": "Fast Ejendom / Bolig",
+                        "retail_wholesale_trade": "Retail / Engroshandel",
+                        "scientific_technical_services": "Videnskabelige eller Tekniske Services",
+                        "security": "Sikkerhed",
+                        "shipping_distribution": "Shipping / Fordeling",
                         "telecommunications": "Telekommunikation",
                         "transportation": "Transport",
-                        "user_experience_research": "UX Research / Anwenderforschung"
+                        "user_experience_research": "Brugeroplevelses-research"
                     },
-                    "shortName": "Branche"
+                    "shortName": "Industri"
                 },
                 "jobDepartment": {
-                    "question": "In welcher Abteilung arbeitest Du hauptsächlich in Deinem Unternehmen?",
+                    "question": "Hvilken afdeling arbejder du primært i i din virksomhed?",
                     "list": {
-                        "admin": "Verwaltung",
-                        "customer_service": "Kundendienst",
-                        "executive": "Leitung / C-Level",
-                        "finance_accounting": "Buchhaltung",
-                        "human_resources": "Personalplanung",
-                        "legal": "Recht",
+                        "admin": "Administration / Generel Personale",
+                        "customer_service": "Kundeservice / Klientservice",
+                        "executive": "Direktionel Ledelse / C-niveau",
+                        "finance_accounting": "Finans / Revision",
+                        "human_resources": "Human Resources",
+                        "legal": "Lov / Jura",
                         "marketing": "Marketing",
-                        "operations": "Produktion und Kostenplanung",
-                        "procurement": "Einkauf",
-                        "product_management": "Produktmanagement",
-                        "sales": "Verkauf / Geschäftsentwicklung",
-                        "technology_hardware": "Hardwareentwicklung (nicht nur IT)",
-                        "technology_software": "Softwareentwicklung (nicht nur IT)",
-                        "technology_implementation": "Technologieeinführung",
-                        "other": "Andere"
+                        "operations": "Drift",
+                        "procurement": "Indkøb",
+                        "product_management": "Produktadministration",
+                        "sales": "Salg / Forretningsudvikling",
+                        "technology_hardware": "Hardwareteknologi-udvikling (ikke kun IT)",
+                        "technology_software": "Softwareteknologi-udvikling (ikke kun IT)",
+                        "technology_implementation": "Teknologiimplementering",
+                        "other": "Andet"
                     },
-                    "shortName": "Abteilung"
+                    "shortName": "Jobafdeling"
                 },
                 "jobTitle": {
-                    "question": "Was ist Dein Berufstitel, Dienstgrad oder Verantwortungsbereich?",
+                    "question": "Hvad er din jobtitel, dit niveau eller dit ansvar?",
                     "list": {
-                        "top_tier": "Geschäftsführung (Bsp: CEO, CFO), InhaberIn, PartnerIn, PräsidentIn",
-                        "vp_tier": "VizepräsidentIn (EVP, SVP, AVP, VP)",
-                        "director_tier": "AbteilungsleitungIn (AbetilungsleiterIn, GruppenleiterIn, Senior)",
-                        "management_tier": "ManagerIn (GruppenmanagerIn, Senior ManagerIn, Programm-ManagerIn)",
-                        "analyst": "Analyst",
-                        "associate": "AssistentIn",
-                        "administrative": "Administration (Büro und Verwaltung)",
-                        "individual_contributor": "Mitarbeiter/In",
-                        "contractor": "AuftragnehmerIn",
-                        "consultant": "BeraterIn",
-                        "intern": "PraktikantIn",
-                        "volunteer": "FreiwilligeR",
-                        "other": "Andere"
+                        "top_tier": "C-niveau (fx. CEO, CFO), Ejer, Partner, Formand",
+                        "vp_tier": "Næstformand (EVP, SVP, AVP, VP)",
+                        "director_tier": "Direktør (Gruppedirektør, Senior Direktør, Direktør)",
+                        "management_tier": "Leder (Gruppeleder, Seniorleder, Leder, Programleder)",
+                        "analyst": "Analytiker",
+                        "associate": "Assistent eller Medhjælper",
+                        "administrative": "Administrativ (Kontor eller Supportpersonale)",
+                        "individual_contributor": "Individuel Bidragyder",
+                        "contractor": "Entreprenør",
+                        "consultant": "Konsulent",
+                        "intern": "Praktikant",
+                        "volunteer": "Frivillig",
+                        "other": "Andet"
                     },
-                    "shortName": "Berufstitel"
+                    "shortName": "Jobtitel"
                 },
                 "decisionMaker": {
-                    "question": "Bitte wähle auf welche Abteilungen / Produkte Du Einfluss hast oder über Eintscheindungsauthorität verfügst in Bezug auf Einkauf und Ausgaben",
+                    "question": "Vælg venligst hvilke afdelinger/produkter du har indflydelse eller besluttelseskraft over i forhold til forbrug/indkøb.",
                     "list": {
-                        "itHardware": "IT Hardware",
-                        "itSoftware": "IT Software",
-                        "printers": "Drucker und Kopierer",
-                        "financial": "Finanzen",
-                        "humanResources": "Mitarbeiterplanung / HR",
-                        "officeSupplies": "Büromaterial",
-                        "corporateTravel": "Geschäftsreiseplanung",
+                        "itHardware": "IT-hardware",
+                        "itSoftware": "IT-software",
+                        "printers": "Printere og kopimaskiner",
+                        "financial": "Finansiel Afdeling",
+                        "humanResources": "Human Resources",
+                        "officeSupplies": "Kontorforsyninger",
+                        "corporateTravel": "Firmarejse",
                         "telecommunications": "Telekommunikation",
-                        "sales": "Verkauf",
-                        "shipping": "Versand",
-                        "operations": "Einkauf",
-                        "legalServices": "Rechtsabteilung",
-                        "marketing": "Marketing und Werbung",
-                        "security": "Sicherheit",
-                        "foodServices": "Mitarbeiterverpflegung",
-                        "autoleasing": "Fuhrpark"
+                        "sales": "Salg",
+                        "shipping": "Shipping",
+                        "operations": "Drift",
+                        "legalServices": "Lovgivningsservices",
+                        "marketing": "Marketing/reklame",
+                        "security": "Sikkerhed",
+                        "foodServices": "Madservices",
+                        "autoleasing": "Billeasing/køb"
                     },
-                    "shortName": "Abteilungen / Produkte für die Du über Eintscheindungsauthorität verfügst in Bezug auf Einkauf und Ausgaben"
+                    "shortName": "Afdelinger/produkter, du har indflydelse på eller autoritet til at tage beslutninger om, når det kommer til økonomi/indkøb."
                 },
                 "companySize": {
-                    "question": "Wie viele Mitarbeiter schätzt Du arbeiten in Deinem Unternehmen (alle Standorte)?",
-                    "shortName": "Anzahl der Mitarbeiter in Deinem Unternehmen"
+                    "question": "Hvor mange ansatte har din virksomhed cirka (alle lokationer)?",
+                    "shortName": "Ansatte i din organisation"
                 }
             },
             "hobbiesAndInterests": {
                 "hobbies": {
-                    "question": "Welche Hobbies und Interessen hast Du?",
+                    "question": "Hvad er dine hobbier og interesser?",
                     "list": {
-                        "artsCrafts": "Kunst und Handwerk",
-                        "boating": "Schiffe und Segeln",
+                        "artsCrafts": "Kunst og håndarbejde",
+                        "boating": "Sejlads",
                         "camping": "Camping",
-                        "cooking": "Kochen",
+                        "cooking": "Madlavning",
                         "golf": "Golf",
-                        "healthFitness": "Fitness und Gesundheit",
-                        "huntingFishing": "Jagen / Fischen",
-                        "interiorDecorating": "Inneneinrichung und Renovierung",
-                        "teamSports": "Teamsport",
-                        "playingMusic": "Musik",
-                        "videogames": "Video- und Computerspiele",
-                        "reading": "Lesen",
-                        "skiing": "Skifahren",
-                        "technology": "Technologie / Computer",
-                        "travel": "Reisen",
-                        "tvSports": "Sportveranstaltungen im Fernsehen"
+                        "healthFitness": "Sundhed og fitness",
+                        "huntingFishing": "Jagt / Fiskeri",
+                        "interiorDecorating": "Indretning / Renovering",
+                        "teamSports": "Holdsport",
+                        "playingMusic": "Spille musik",
+                        "videogames": "Spille video / computerspil",
+                        "reading": "Læse",
+                        "skiing": "Ski",
+                        "technology": "Teknologi / Computere",
+                        "travel": "Rejse",
+                        "tvSports": "Se sport på TV"
                     },
-                    "shortName": "Hobbies und Interessen"
+                    "shortName": "Hobbyer og interesser"
                 },
                 "socialMedia": {
-                    "question": "Bei welchen der folgenden Social Media Plattformen bist Du aktiv oder beteiligst Dich innhaltlich?",
-                    "shortName": "Social Media Plattformen die Du aktiv nützt"
+                    "question": "Hvilke af følgende sociale medier bruger du eller deltager aktivt i?",
+                    "shortName": "Sociale medieplatforme, du bruger aktivt"
                 },
                 "streamingMovies": {
-                    "question": "Wie oft im Durchschnitt lädst oder streamst Du einen Film um ihn zu Hause anzusehen?",
+                    "question": "Hvor ofte streamer eller downloader du i gennemsnit film for at se dem derhjemme?",
                     "list": {
-                        "less1": "Weniger als einmal im Monat",
-                        "1": "Einmal im Monat",
-                        "2": "Zweimal im Monat",
-                        "3": "Dreimal im Monat",
-                        "4": "Viermal im Monat",
-                        "5": "Fünfmal oder öfter im Monat",
-                        "none": "Ich streame oder lade keine Filme herunter"
+                        "less1": "Sjældnere end en gang om måneden",
+                        "1": "En gang om måneden",
+                        "2": "To gange om måneden",
+                        "3": "Tre gange om måneden",
+                        "4": "Fire gange om måneden",
+                        "5": "Fem eller flere gange om måneden",
+                        "none": "Jeg streamer eller downloader ikke film"
                     },
-                    "shortName": "Häufigkeit mit der Du Filme zu Hause streamst oder herunterlädst"
+                    "shortName": "Hvor ofte du streamer eller downloader film"
                 },
                 "gambling": {
-                    "question": "An welcher Art Glücksspiel nimmst Du teil?",
+                    "question": "Hvilke typer spil deltager du i?",
                     "list": {
-                        "onlineSports": "Online Sportwetten",
-                        "onlineLottery": "Online Lotterie / Rubbelkarten",
-                        "onlinePoker": "Online Poker / Online Kasino",
-                        "offlineSports": "Sportwetten (offline)",
-                        "offlineLottery": "Lotterie / Rubbelkarten (offline)",
-                        "bingo": "Bingo",
-                        "casinoPoker": "Poker / BlackJack / Roulette / etc im Kasino",
-                        "casinoSlot": "Slot Maschinen im Kasino",
-                        "horseTrack": "Pferdewetten",
-                        "carRace": "Wetten auf Autorennen",
-                        "none": "Ich spiele keine Glücksspiele"
+                        "onlineSports": "Online sportsbetting",
+                        "onlineLottery": "Online lotteri / skrabelodder",
+                        "onlinePoker": "Online poker / Kasinospil",
+                        "offlineSports": "Offline sportsbetting",
+                        "offlineLottery": "Offline lotteri / skrabelodder",
+                        "bingo": "Banko",
+                        "casinoPoker": "Kasinopoker / BlackJack / Roulette / osv",
+                        "casinoSlot": "Kasinospillemaskiner",
+                        "horseTrack": "Hestevæddeløb",
+                        "carRace": "Bilvæddeløb",
+                        "none": "Jeg spiller ikke"
                     },
-                    "shortName": "Glücksspiele and denen Du teil nimmst"
+                    "shortName": "Former for gambling, du deltager i"
                 }
             },
             "financial": {
                 "financialProduct": {
-                    "question": "Welche der folgenden Finanzprodukte hast Du?",
+                    "question": "Hvilke af følgende financielle produkter ejer du?",
                     "list": {
-                        "creditCard": "Kreditkarte",
-                        "checkingAccount": "Girokonto",
-                        "savingsAccount": "Sparkonto",
-                        "personalLoan": "Kredit",
-                        "mortgage": "Hypothek"
+                        "creditCard": "Kreditkort",
+                        "checkingAccount": "Budgetkonto",
+                        "savingsAccount": "Opsparingskonto",
+                        "personalLoan": "Personligt lån",
+                        "mortgage": "Huslån"
                     },
-                    "shortName": "Deine Finanzprodukte"
+                    "shortName": "Finansprodukter, du ejer"
                 },
                 "investments_us": {
                     "list": {
-                        "none": "Ich habe keine Sparkonten / Investmentprodukte",
-                        "401k": "Betriebliche Altersvorsorge",
-                        "ira": "Betriebliche Altersvorsorge",
-                        "bonds": "Bonds",
-                        "deposit": "Zertifikate",
-                        "mutualFunds": "Versicherungen"
+                        "none": "Jeg har ingen opsparing / investeringer",
+                        "401k": "Employer Matching 401k",
+                        "ira": "IRA / Roth",
+                        "bonds": "Obligationer",
+                        "deposit": "Indskudsbevis",
+                        "mutualFunds": "Fællesfonde"
                     }
                 },
                 "investments_gb": {
                     "list": {
-                        "none": "Ich habe keine Spar- und Investmentkonten",
-                        "personalPension": "Private Pensionsvorsorge",
-                        "workplacePension": "Betriebliche Pensionsvorsorge",
-                        "unitTrusts": "Unit trusts",
+                        "none": "Jeg har ikke nogen opsparing / investeringer",
+                        "personalPension": "Personlig pension",
+                        "workplacePension": "Arbejdspension",
+                        "unitTrusts": "Unit trust",
                         "oeic": "OEIC - Open Ended Investment Company",
-                        "etf": "ETF Securities (or Exchange Traded Funds)",
-                        "investmentTrusts": "Investment Trusts",
-                        "fixedIncomeProducts": "Fixed Income Products"
+                        "etf": "ETF Securities (eller Exchange Traded Funds)",
+                        "investmentTrusts": "Investeringsfonde",
+                        "fixedIncomeProducts": "Faste indkomstprodukter"
                     }
                 }
             },
             "healthAndFitness": {
                 "diagnosed_ailments": {
-                    "question": "Wurde eine der folgenden Krankheiten oder Beschwerden bei Dir diagnostiziert?",
+                    "question": "Har du diagnose på nogen af følgende sygdomme/tilstande?",
                     "list": {
-                        "acne": "Akne",
+                        "acne": "Acne",
                         "add_adhd": "ADD / ADHD",
-                        "allergies": "Allergien (nicht mit Heuschnupfen in Verbindung)",
-                        "alzheimers": "Alzheimer",
-                        "anemia": "Blutarmut",
-                        "angina": "Angina",
-                        "anxiety": "Angststörungen",
-                        "arrhythmia": "Herzrhythmusstörungen",
-                        "arthritis": "Arthritis",
-                        "asthma": "Asthma",
-                        "backPain": "Rückenschmerzen",
-                        "bipolar": "Bipolare Störung",
-                        "bloodDisorders": "Störungen im Blutbild",
-                        "bronchitits": "Bronchitis",
-                        "cancer": "Krebs",
-                        "cardiovascular": "Herz-Kreislauf-Erkrankungen",
+                        "allergies": "Allergier (som ikke er forbundet med høfeber)",
+                        "alzheimers": "Alzheimer’s",
+                        "anemia": "Anæmi",
+                        "angina": "Hjerteproblemer",
+                        "anxiety": "Angst",
+                        "arrhythmia": "Arytmi / Hjerteflimmer",
+                        "arthritis": "Gigt",
+                        "asthma": "Astma",
+                        "backPain": "Rygsmerter",
+                        "bipolar": "Bipolaritet",
+                        "bloodDisorders": "Blodsygdomme (udover kræft)",
+                        "bronchitits": "Bronkitis",
+                        "cancer": "Cancer",
+                        "cardiovascular": "Hjertekarsygdom",
                         "carpalTunnel": "Karpaltunnelsyndrom",
-                        "chronicFatigue": "Chronische Müdigkeit",
-                        "chronicKidney": "Chronische Nierenbeschwerden",
-                        "chronicLymphocytic": "Chronische Lymphatische Leukämie",
+                        "chronicFatigue": "Kronisk træthed",
+                        "chronicKidney": "Kronisk nyresygdom",
+                        "chronicLymphocytic": "Kronisk lymfatisk leukæmi",
                         "copd": "COPD",
-                        "cirrhosis": "Zirrhose",
-                        "colitis": "Kolitis / Dickdarmentzündung",
-                        "constipation": "Verstopfung",
-                        "crohns": "Morbus Crohn",
-                        "cystic": "Cystic Fibrosis",
-                        "dementia": "Demenz",
-                        "dental": "Dental Problems",
+                        "cirrhosis": "Skrumpelever",
+                        "colitis": "Tyktarmsbetændelse",
+                        "constipation": "Forstoppelse",
+                        "crohns": "Crohns sygdom",
+                        "cystic": "Cystisk fibrose",
+                        "dementia": "Demens",
+                        "dental": "Tandproblemer",
                         "depresssion": "Depression",
-                        "diabetes1": "Diabetes Typ 1",
-                        "diabetes2": "Diabetes Typ 2",
-                        "diarrhea": "Durchfall",
-                        "eczema": "Ekzem",
-                        "emphysema": "Lungenemphysem",
+                        "diabetes1": "Diabetes Type 1",
+                        "diabetes2": "Diabetes Type 2",
+                        "diarrhea": "Diarré",
+                        "eczema": "Eksem",
+                        "emphysema": "Emfysem",
                         "endometriosis": "Endometriose",
-                        "epilepsy": "Epilepsy",
-                        "erectileDysfunction": "Erektionsstörungen",
-                        "fibromyalgia": "Fibromyalgie",
-                        "foodIntolerances": "Lebensmittelunverträglichkeiten",
-                        "gerd": "Gastro-ösophagealer Reflux",
+                        "epilepsy": "Epilepsi",
+                        "erectileDysfunction": "Rejsningsproblemer",
+                        "fibromyalgia": "Fibromyalgi",
+                        "foodIntolerances": "Fødevareintolerancer",
+                        "gerd": "Gastroøsofageal reflukssygdom (GERD)",
                         "gastroenteritis": "Gastroenteritis",
-                        "gout": "Gicht",
-                        "hemophilia": "Hämophilie",
-                        "hemorrhoids": "Hämorrhoiden",
-                        "hayFever": "Heuschnupfen",
-                        "heartConditions": "Herzbeschwerden (kein Herzversagen)",
-                        "heartFailure": "Herzversagen",
+                        "gout": "Urinsur gigt",
+                        "hemophilia": "Hæmofili",
+                        "hemorrhoids": "Hæmorider",
+                        "hayFever": "Høfeber",
+                        "heartConditions": "Hjertesygdomme (ikke hjertefejl)",
+                        "heartFailure": "Hjertefejl",
                         "hepatitis": "Hepatitis",
-                        "cholesterol": "Überhöhter Cholesterinspiegel",
-                        "aids": "HIV - Aids",
-                        "hypertension": "Bluthochdruck",
-                        "hypothyroidism": "Schilddrüsenunterfunktion",
-                        "impotence": "Impotenz",
-                        "infertility": "Unfruchtbarkeit",
-                        "irritableBowelSyndrome": "Reizdarmsyndrom",
-                        "jointReplacement": "Ersatzgelenk",
-                        "kidneyFailure": "Nierenversagen",
-                        "liverCirrhosis": "Lberzirrhose",
-                        "liverDisorders": "Leberschäden (andere als Krebs oder Zirrhose)",
+                        "cholesterol": "Forhøjet kolesterol",
+                        "aids": "HIV - AIDS",
+                        "hypertension": "Forhøjet blodtryk",
+                        "hypothyroidism": "Hypothyroidisme",
+                        "impotence": "Impotens",
+                        "infertility": "Sterilitet",
+                        "irritableBowelSyndrome": "Irriteret tyktarm",
+                        "jointReplacement": "Ledimplantater",
+                        "kidneyFailure": "Nyresvigt",
+                        "liverCirrhosis": "Skrumpelever",
+                        "liverDisorders": "Leversygdomme (udover cancer eller skrumpelever)",
                         "lupus": "Lupus",
-                        "luymeDisease": "Borreliose",
-                        "menopause": "Menopause",
-                        "migraine": "Migräne",
-                        "motorNeuronDisease": "Moto-Neuron Krankheiten",
-                        "multipleSclerosis": "Multiple Sklerose",
-                        "obesity": "Adipositas",
-                        "osteoarthritis": "Gelenkentzündung",
-                        "osteoporosis": "Osteoporose",
-                        "overactiveBladder": "Blasenhyperaktivität",
-                        "parkinons": "Parkinson",
-                        "pneumonia": "Lungenentzündung",
-                        "prematureEjaculation": "Vorzeitiger Samenerguss",
+                        "luymeDisease": "Lymesygdom",
+                        "menopause": "Overgangsalder",
+                        "migraine": "Migræne",
+                        "motorNeuronDisease": "Motorneuronsygdomme",
+                        "multipleSclerosis": "Multipel Sklerose",
+                        "obesity": "Fedme",
+                        "osteoarthritis": "Slidgigt",
+                        "osteoporosis": "Knogleskørhed",
+                        "overactiveBladder": "Overaktiv blære",
+                        "parkinons": "Parkinson's",
+                        "pneumonia": "Lungebetændelse",
+                        "prematureEjaculation": "Tidlig udløsning",
                         "psoriasis": "Psoriasis",
-                        "reflux": "Reflux",
-                        "restlessLegSyndrome": "Restless-Legs-Syndroms (RLS)",
-                        "rheumatoidArthritis": "Rheumatoide Arthritis",
-                        "schizophrenia ": "Schizophrenie",
-                        "shingles ": "Gürtelrose",
-                        "sinusitis": "Sinusitis",
-                        "sleepingDisorder": "Schlafstörungen",
-                        "smoking": "Tabaksucht (Raucher)",
-                        "stroke": "Schlaganfall",
-                        "substanceAbuse": "Drogensucht / Alkohol",
-                        "syphilis": "Syphilis",
-                        "thyroidProblems": "Schilddrüsenprobleme",
+                        "reflux": "Refluks",
+                        "restlessLegSyndrome": "Restless Leg Syndrome/uro i benene",
+                        "rheumatoidArthritis": "Leddegigt",
+                        "schizophrenia ": "Skizofreni",
+                        "shingles ": "Helvedesild",
+                        "sinusitis": "Bihulebetændelse",
+                        "sleepingDisorder": "Søvnforstyrrelser",
+                        "smoking": "Rygeafhængighed",
+                        "stroke": "Slagtilfælde",
+                        "substanceAbuse": "Afhængighed af rusmidler (stoffer/alkohol)",
+                        "syphilis": "Syfilis",
+                        "thyroidProblems": "Problemer med skjoldbruskkirtlen",
                         "tuberculosis ": "Tuberkulose",
-                        "ulcerativeColitis": "Colitis ulcerosa",
-                        "ulcers": "Geschwüre",
-                        "urinaryIncontinence": "Inkontinenz"
+                        "ulcerativeColitis": "Tyktarmsbetændelse",
+                        "ulcers": "Mavesår",
+                        "urinaryIncontinence": "Inkontinens"
                     },
-                    "shortName": "Diagnostizierte Krankheiten oder Beschwerden"
+                    "shortName": "Sygdomme / lidelser, du har fået diagnosticeret"
                 }
             },
             "travel": {
                 "travelFlights": {
-                    "question": "Wie häufig fliegst Du?",
+                    "question": "Hvor ofte rejser du med fly?",
                     "list": {
-                        "everyMonth": "Einmal im Monat oder mehr",
-                        "every2-4Months": "Einmal alle 2-4 Monate",
-                        "twiceYear": "Zweimal im Jahr",
-                        "onceYear": "Einmal im Jahr"
+                        "everyMonth": "En gang om måneden eller mere",
+                        "every2-4Months": "En gang hver 2-4 måneder",
+                        "twiceYear": "To gange om året",
+                        "onceYear": "En gang om året"
                     },
-                    "shortName": "Häufigkeit von Flugreisen"
+                    "shortName": "Hvor ofte du rejser med fly"
                 },
                 "flightPurpose": {
-                    "question": "Aus welchen Gründen reist Du mit dem Flugzeug?",
+                    "question": "Til hvilke formål rejser du med fly?",
                     "list": {
-                        "business": "Geschäftlich",
-                        "leisure": "Freizeit",
-                        "both": "Beide, geschäftlich und Freizeit",
-                        "neither": "Keine, ich reise nicht mit dem Flugzeug"
+                        "business": "Forretning",
+                        "leisure": "Afslapning",
+                        "both": "Begge dele, forretning og afslapning",
+                        "neither": "Ingen af delene, jeg rejser ikke med fly"
                     },
-                    "shortName": "Gründe für Flugreisen"
+                    "shortName": "Årsager til, at du rejser med fly"
                 },
                 "flightDestination": {
-                    "question": "Wenn Du fliegst, welche Art von Flug buchst Du?",
+                    "question": "Når du flyver, hvilke former for flyvninger er der så tale om?",
                     "list": {
-                        "domestic": "Gebuchte Flugreisetypen",
-                        "international": "Internationaler Flug",
-                        "both": "Beide, inland und international",
-                        "neither": "Ich bevorzuge es, diese Frage nicht zu beantworten"
+                        "domestic": "Indenrigs",
+                        "international": "Udenrigs",
+                        "both": "Begge dele, indenrigs og udenrigs",
+                        "neither": "Vil helst ikke svare"
                     },
-                    "shortName": "Gebuchte Flugreisetypen"
+                    "shortName": "Typer flyvninger, du rejser med"
                 },
                 "domesticAirlines_us": {
-                    "question": "Mit welchen Inlandsfluglinien bist Du in den letzten 12 Monaten geflogen?",
+                    "question": "Hvilke indenrigs-flyselskaber har du fløjet med i de seneste 12 måneder?",
                     "list": {
-                        "none": "Ich hatte keinen Inlandsflug in den letzten 12 Monaten"
+                        "none": "Jeg har ikke fløjet indenrigs i de seneste 12 måneder"
                     },
-                    "shortName": "In den letzten 12 Monaten genützte Inlandsfluglinien"
+                    "shortName": "Indenrigs-flyselskaber, du har fløjet med i de seneste 12 måneder"
                 },
                 "internationalAirlines": {
-                    "question": "Mit welchen internationalen Fluglinien bist Du in den letzten 12 Monaten geflogen?",
+                    "question": "Hvilke udenrigs-flyselskaber har du fløjet med i de seneste 12 måneder?",
                     "list": {
-                        "none": "Ich hatte keinen internationalen Flug in den letzten 12 Monaten"
+                        "none": "Jeg har ikke fløjet udenrigs i de seneste 12 måneder"
                     },
-                    "shortName": "In den letzten 12 Monaten genützte Inlandsfluglinien"
+                    "shortName": "Udenrigs-flyselskaber, du har fløjet med i de seneste 12 måneder"
                 },
                 "accomodationType": {
-                    "question": "Welche Art von Unterkunft hattest Du im letzten Jahr auf Reisen?",
+                    "question": "Hvilke former for overnatningssteder har du gjort brug af i det seneste å?",
                     "list": {
-                        "houseRental": "Privatzimmer, -wohnungen und -häuser (AirBnB & VRBO)",
+                        "houseRental": "Leje af hus (AirBnB & VRBO)",
                         "bedBreakfast": "Bed & Breakfast",
-                        "campground": "Campingplatz",
+                        "campground": "Campingplads/autocamperplads",
                         "hostel": "Hostel",
                         "hotel": "Hotel",
                         "motel": "Motel",
-                        "personalVacationHome": "Eigenes Urlaubsdomizil",
-                        "timeshare": "Timeshare / Teilzeitnutzung"
+                        "personalVacationHome": "Personligt feriehus",
+                        "timeshare": "Deleferiehjem"
                     },
-                    "shortName": "Art der im Verlauf eines Jahres genützten Unterkünfte"
+                    "shortName": "Typer af overnatningssteder, du har brugt i det seneste år"
                 },
                 "hotelLoyalty": {
-                    "question": "Nimmst Du an einem der folgenden Kundenbindungsprogramme von Hotels teil?",
-                    "shortName": "Genützte Kundenbindungsprogramme von Hotels"
+                    "question": "Er du medlem af nogle af følgende hotelloyalitetsprogrammer?",
+                    "shortName": "Hotelloyalitetsprogrammer, du er medlem af"
                 }
             }
         },
         "generic": {
             "education": {
-                "question": "Was ist die höchste Ausbildung die Du abgeschlossen hast?",
-                "shortName": "Höchstes abgeschlossene Ausbildungs"
+                "question": "Hvad er dit højeste gennemførte uddannelsesniveau?",
+                "shortName": "Højeste uddannelsesniveau"
             },
             "householdIncome": {
-                "question": "Wie hoch ist das Jahreseinkommen aller Mitglieder Deines Haushalts zusammengerechnet bevor Steuern (Brutto)?",
-                "shortName": "Jahresbruttoeinkommen (vor Steuern) aller Mitglieder Deines Haushalts zusammengerechnet"
+                "question": "Hvor meget tjener alle dine husstandsmedlemmer tilsammen om året før skat?",
+                "shortName": "Samlet årlig indkomst, som alle medlemmer af din husstand tjener tilsammen (før skat)"
             },
             "mobileCarrier": {
-                "question": "Welcher der folgenden Anbieter ist jener für das Mobiltelefon das Du am häufigsten benützt?",
-                "shortName": "Mobilfunkanbieter für Dein meistgenütztes Mobiltelefon"
-            },
-            "noPhone": {
-                "noPhone": "Ich habe kein Mobiltelefon"
+                "question": "Hvilke af disse selskaber hører til den mobiltelefon du bruger oftest?",
+                "shortName": "Udbyder til mobiltelefonen, du bruger oftest"
             },
             "companyRevenue": {
-                "question": "Was ist der geschätzte Jahresumsatz Deines Unternehmens?",
-                "shortName": "Geschätzer Jahresumsatz Deines Unternehmens"
+                "question": "Hvad er den årlige omsætning for din virksomhed cirka?",
+                "shortName": "Nogenlunde årlig indkomst for din virksomhed"
             },
             "subscriptions": {
-                "question": "Bei welchen der folgenden Anbieter hast Du ein Abonnement?",
-                "shortName": "Abonnierte Angebote"
+                "question": "Hvilke af følgende tjenester abonnerer du på?",
+                "shortName": "Tjenester, du abonnerer på"
             },
             "investments": {
-                "question": "Welche Art von Spar- und Investementkonten besitzt Du?",
-                "realEstate": "Immobilien",
-                "savingsAccount": "Sparkonto",
-                "shares": "Aktien",
-                "shortName": "Abonnierte Angebote"
+                "question": "Hvilke typer opsparings- / investeringskonti har du?",
+                "realEstate": "Ejendom",
+                "savingsAccount": "Opsparingskonto",
+                "shares": "Aktier / Andele",
+                "shortName": "Opsparings- eller investeringskonti, du ejer"
             },
             "investableAssets": {
-                "question": "Welche Zahl kommt dem investierbaren Vermögen Deines Haushalts am nächsten (Haus- oder Wohnungseigentum ausgenommen)?",
-                "shortName": "Geschätztes investierbares Vermögen Deines Haushalts (Haus- oder Wohnungseigentum ausgenommen)"
+                "question": "Hvilke af disse repræsenterer bedst din husstands investeringsaktiver (udover huseje)?",
+                "shortName": "Cirkaværdi af husholdningens investerbare værdier (ikke inkl. bolig)"
             },
             "airlineLoyalty": {
-                "question": "Bist Du für eines der folgenden Kundenbindungsprogramme von Fluglinien registriert?",
+                "question": "Er du medlem af nogle af følgende flyselskabsloyalitetsprogrammer?",
                 "list": {
-                    "none": "Ich bin für kein Kundenbindungsprogramm einer Fluglinie registert"
+                    "none": "Jeg er ikke medlem af et flyselskabsloyalitetsprogram"
                 },
-                "shortName": "Genützte Kundenbindungsprogramme von Fluglinien"
+                "shortName": "Flyselskabsloyalitetsprogrammer, du er medlem af"
             },
             "hotelLoyalty": {
                 "list": {
-                    "none": "Ich nehme an keinem Kundenbindungsprogramm von Hotels teil"
+                    "none": "Jeg er ikke medlem af et hotelloyalitetsprogram"
                 }
             },
             "ethnicity": {
-                "question": "Welcher Rasse gehört Du an?",
-                "shortName": "Rasse"
+                "question": "Hvilken af følgende beskriver bedst din etniske herkomst?",
+                "shortName": "Etnisk herkomst"
+            },
+            "noPhone": {
+                "noPhone": "Jeg har ikke en mobiltelefon"
             }
         }
     },
     "izPanel": {
         "common": {
             "demographics": {
-                "billion": "milliarde"
+                "billion": "milliard"
             }
         }
     }
