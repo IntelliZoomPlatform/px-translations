@@ -535,5 +535,9 @@
             },
             "infoMessage": "De gegevens die je aanlevert geven ons de mogelijkheid om je profiel te matchen met de meest relevante onderzoeken."
         }
+    },
+    "“izPanel”.“finalPages”.“moderatedSessionAboutToStart”": {
+        "title": "",
+        "cta": ""
     }
 }
