@@ -1,0 +1,539 @@
+{
+    "izPanel": {
+        "registration": {
+            "name": {
+                "title": "Vad heter du?",
+                "field": {
+                    "firstName": "Förnamn",
+                    "lastName": "Efternamn"
+                },
+                "alreadyRegistered": "Redan registrerad? <1>$t(px-common:izPanel.common.logInImperative)</1>"
+            },
+            "country": {
+                "title": "Välkommen {{firstName}}!",
+                "otherCountry": "Visa fler länder",
+                "description": "**Du går med i vår panel i {{country}}.**\n\nOm du är på resa och inte bor i det landet råder vi dig att anmäla dig till IntelliZoom-panelen när du kommer hem. Om du är hemma och det inte är här du bor ber vi dig att [kontakta oss](https://help.intellizoom.com/hc/en-us/requests/new).",
+                "inSpanish": "¿Prefieres ver esta página en Español?",
+                "inGerman": "Möchtest Du diese Seite in Deutsch ansehen?"
+            },
+            "email": {
+                "title": "Vad är din e-postadress?",
+                "description": "Det är hit du får våra inbjudningar till studier."
+            },
+            "password": {
+                "title": "Välj ett lösenord",
+                "description": "Se till att det är ett starkt lösenord!\n\nInkludera:",
+                "requirements": {
+                    "capitalLetter": "en stor bokstav",
+                    "numberOrSymbol": "en siffra",
+                    "minChars": "minst åtta tecken",
+                    "lowercaseLetter": "en gemen",
+                    "passwordsShouldMatch": "och givetvis ska dina lösenord överensstämma"
+                },
+                "passwordConfirmation": "Bekräfta lösenordet"
+            },
+            "terms": {
+                "title": "Innan du fortsätter ...",
+                "description": "Ta ett ögonblick för att läsa våra <1>{{termsLink}}</1> och <3>{{privacyLink}}</3>.\n\nOm du har några tvivel om hur dina uppgifter hanteras är du välkommen att <5>{{contactUsLowercaseImperative}}</5>.",
+                "checkbox": {
+                    "gdpr": "Jag vill bli inbjuden via e-post till UX-forskningsstudier som matchar min profil. $t(px-common:izPanel.common.requiredField)",
+                    "terms": "Jag godkänner användarvillkoren och integritetspolicyn. $t(px-common:izPanel.common.requiredField)",
+                    "mkt": "Jag vill få meddelanden och nyhetsbrev från IntelliZoom."
+                }
+            },
+            "doubleOptIn": {
+                "title": "Vi har skickat dig ett bekräftelsemejl för att aktivera ditt konto",
+                "description": "Klicka på länken i e-postmeddelandet för att aktivera ditt konto.\n\nAv säkerhetsskäl upphör länken att gälla efter 24 timmar.\n\nOm du inte kan se meddelandet, kontrollera din skräppostmapp. Vi kan också <1>sända</1> dig e-postmeddelandet på nytt.",
+                "resendSuccess": "E-postmeddelande skickat!"
+            }
+        },
+        "comingSoon": {
+            "title": "Kommer snart!",
+            "description": "Vi har för närvarande ingen aktiv panel i {{selectedCountry}}, men lämna din e-postadress så informerar vi dig när vi öppnar en.",
+            "success": {
+                "title": "Tack!",
+                "description": "Vi kommer att kontakta dig när vi öppnar vår panel för {{selectedCountry}}.\n\nVi ses snart!"
+            },
+            "gdpr": "Jag vill bli informerad när IntelliZoom Panel öppnar i mitt land. $t(px-common:izPanel.common.requiredField)",
+            "yourLocation": "din plats"
+        },
+        "error": {
+            "required": {
+                "field": "Detta fält är obligatoriskt.",
+                "gdpr": "Detta samtycke krävs.",
+                "terms": "Du måste godkänna användarvillkoren och integritetspolicyn."
+            },
+            "format": {
+                "email": "Använd ett giltigt e-postformat. Exempel: namn@email.com",
+                "genericFormat": "Formatet är ogiltigt."
+            },
+            "registration": {
+                "existingEmail": "Det verkar som att du redan är registrerad! Vänligen <1>$t(px-common:izPanel.common.logInLowercase)</1>.",
+                "sendEmailFail": "Hoppsan, något gick fel och vi kunde inte skicka dig ett bekräftelsemejl. Vänligen försök igen senare.",
+                "passwordRequirements": "Lösenordet uppfyller inte kraven",
+                "emailLength": "Oj! Din e-postadress kan inte bestå av 150 tecken ...",
+                "passwordIncludesSpaces": "Lösenordet får inte börja eller sluta med mellanslag."
+            },
+            "minTwoChars": {
+                "firstName": "Ditt namn måste innehålla minst två tecken.",
+                "lastName": "Ditt efternamn måste innehålla minst två tecken."
+            },
+            "generic": "Hoppsan, något gick fel. Vänligen försök igen senare.",
+            "birthday": {
+                "future": "Reser du i tiden? Födelsedatumet kan inte vara i framtiden.",
+                "past": "Inga vampyrer tillåtna! Födelsedatumet måste vara från detta århundrade."
+            },
+            "login": {
+                "accountBlocked": "Ditt konto har blockerats efter flera inloggningsförsök i rad.",
+                "accountInactive": "Ditt konto har inte aktiverats ännu. Vill du att vi ska <1>sända</1> dig bekräftelsemejlet igen?",
+                "expiredLink": "Aktiveringslänken som du följde har gått ut. Vänligen <1>skicka den på nytt</1> och försök igen.",
+                "invalidCredentials": "Vi beklagar, denna e-post/lösenord-kombination kunde inte hittas.",
+                "userNotFound": "Aktiveringslänken som du följde har gått ut och dina uppgifter har raderats. Vänligen försök att registrera dig igen.",
+                "wrongActivation": "Något gick fel under aktiveringen av ditt konto. Vänligen försök igen senare via samma bekräftelsemejl som vi skickade till dig tidigare.",
+                "wrongActivationWithLink": "Något gick fel under aktiveringen av ditt konto. Vänligen <1>skicka<1> bekräftelsen på nytt och försök igen.",
+                "accountDeactivated": "Ditt konto avaktiverades. Vill du aktivera det på nytt ber vi dig att [kontakta oss](https://help.intellizoom.com/hc/en-us/requests/new)."
+            },
+            "forgotPassword": {
+                "sendEmailFail": "Hoppsan, något gick fel och vi kunde inte skicka e-postmeddelandet för att återställa lösenordet till dig. Vänligen försök igen senare."
+            },
+            "resetPassword": {
+                "incorrectPassword": "Felaktigt nuvarande lösenord",
+                "expiredLink": "Länken du klickade på gäller inte längre. Begär en ny länk på sidan [Glömt lösenordet](/forgot-password)."
+            },
+            "limitExceeded": "Du har nu inga försök kvar. Prova igen senare, tack.",
+            "demographics": {
+                "notUnderAge": "Ditt barn kan inte vara över 18 år."
+            }
+        },
+        "footer": {
+            "item": {
+                "faqPayments": "[Hur lång tid tar betalningar vanligtvis?](https://help.intellizoom.com/hc/en-us/articles/360000650458--When-and-how-much-will-I-get-paid-)",
+                "faqInvitations": "[Hur fungerar inbjudningar?](https://help.intellizoom.com/hc/en-us/articles/360000658537-How-will-I-be-notified-of-new-studies-)",
+                "faqChangeEmail": "[Hur kan jag ändra min e-postadress?](https://help.intellizoom.com/hc/en-us/articles/360001190318-How-can-I-change-my-email-)",
+                "faqBrowseAll": "[Läs mer](https://help.intellizoom.com/hc/en-us)",
+                "sendEmail": "[Skicka ett e-postmeddelande till oss](https://help.intellizoom.com/hc/en-us/requests/new)",
+                "whatIsIZP": "Vad är IntelliZoom Panel"
+            },
+            "title": {
+                "about": "Om oss",
+                "contact": "Kontakta",
+                "faq": "Vanliga frågor",
+                "social": "Följ oss!"
+            }
+        },
+        "header": {
+            "email": "{{userEmail}}",
+            "logOut": "Logga ut",
+            "mainDashboard": "Studier",
+            "name": "{{userFullName}}",
+            "profile": "Min profil",
+            "settings": "Inställningar"
+        },
+        "basicDemographics": {
+            "flowTitle": "Okej!\n\nDå sätter vi igång",
+            "flowDescription": "För att kunna bjuda in dig till studier måste vi bara ställa dig **3 grundläggande** profilfrågor.",
+            "flowLastQuestion": "Och sist men inte minst ...",
+            "progress": "Fråga {{currentQuestion}} av {{totalQuestions}}",
+            "success": {
+                "title": "Det var allt!",
+                "description": "Du är nu redo att börja delta i våra studier.\n\nFortsätt att fylla i din profil så att vi kan bjuda in dig till mer specifika (och bättre betalda) studier.",
+                "cta": "Nu kör vi!"
+            },
+            "underage": {
+                "title": "Du måste vara minst {{minimumLegalAge}} år gammal för att delta i våra studier",
+                "description": "Vi beklagar, men vi kan inte bjuda in dig till våra studier eller låta dig gå vidare. Vi kommer nu att fortsätta med att radera ditt IntelliZoom Panel-konto och alla dina personuppgifter.\n\nTack för ditt intresse."
+            }
+        },
+        "login": {
+            "title": "Logga in",
+            "forgotPassword": "Glömt lösenordet?",
+            "orSocialAccess": "eller fortsätt med",
+            "newHere": "Har du inget konto?",
+            "signUp": "Skapa ett konto!",
+            "success": {
+                "accountActivated": "Ditt konto har aktiverats!",
+                "emailResent": "Vi har skickat dig aktiveringsmejlet på nytt."
+            }
+        },
+        "forgotPassword": {
+            "title": "Glömt ditt lösenord?",
+            "description": "Ange din e-postadress så skickar vi dig en länk för att återställa ditt lösenord.",
+            "success": {
+                "title": "Vi har skickat ett dig ett e-postmeddelande för att återställa ditt lösenord",
+                "description": "Av säkerhetsskäl upphör länken att gälla efter 24 timmar.\n\nOm du inte kan se meddelandet, kontrollera din skräppostmapp. Vi kan också <1>sända</1> dig e-postmeddelandet på nytt."
+            }
+        },
+        "resetPassword": {
+            "title": "Ange ett nytt lösenord",
+            "currentPassword": {
+                "description": "Och skriv in ditt nuvarande lösenord:",
+                "field": "Nuvarande lösenord"
+            },
+            "success": {
+                "title": "Lösenordet har uppdaterats!",
+                "description": "Ditt nya lösenord har sparats.",
+                "cta": "Gå till inloggning",
+                "backToSettings": "Tillbaka till inställningar"
+            }
+        },
+        "landing": {
+            "heroSection": {
+                "title": "Din åsikt är viktig.",
+                "description": "Få betalt för att dela med dig av dina erfarenheter och påverka produkter som du gillar och bryr dig om.",
+                "cta": "Nu kör vi!"
+            },
+            "featureBoxes": {
+                "first": {
+                    "title": "Få betalt snabbt och enkelt",
+                    "description": "Sparar du till något eller letar du efter lite extra fickpengar? Gör som de människor världen över som tjänar extrainkomster genom att dela med sig av sina erfarenheter."
+                },
+                "second": {
+                    "title": "Påverka produktupplevelser",
+                    "description": "Ha en omedelbar påverkan på de produkter som du gillar och använder idag genom att dela din åsikt med de personer som tillverkar och förbättrar produkterna."
+                },
+                "third": {
+                    "title": "Gör det på din fritid",
+                    "description": "Har du 15–20 minuter över? Det är lätt att ge feedback. Delta i studier på distans enligt ditt eget schema, hemifrån eller på resande fot, från din egen enhet."
+                }
+            },
+            "reinforcingBanner": {
+                "phrase1": "Ge feedback",
+                "phrase2": "Få betalt"
+            },
+            "faqs": {
+                "title": "Har du frågor? Vi har svaren",
+                "faq1": {
+                    "title": "Hur snabbt kan jag börja delta i studier?",
+                    "description": "Så snart du har avslutat registreringsprocessen och svarat på 3 grundläggande profilfrågor."
+                },
+                "faq2": {
+                    "title": "Hur lång tid kommer studierna att ta?",
+                    "description": "De flesta studier tar i genomsnitt 10–20 minuter."
+                },
+                "faq3": {
+                    "title": "Hur gammal måste jag vara?",
+                    "description": "Alla deltagare måste vara 18 år eller äldre."
+                },
+                "faq4": {
+                    "title": "Hur många studieinbjudningar kommer jag att få?",
+                    "description": "Hur många möjligheter du får beror på ett antal faktorer, till exempel dina demografiska data och din kvalitetsklassificering."
+                },
+                "faq5": {
+                    "title": "Hur mycket pengar kan jag tjäna?",
+                    "description": "Betalningen beror på hur komplicerad studien är. För studier som spelar in dina åsikter i ljud- och videoformat kan du räkna med att tjäna 10 USD i genomsnitt. För standardundersökningar är betalningen i genomsnitt 2 USD."
+                },
+                "faq6": {
+                    "title": "Vad behöver jag för att delta i studier?",
+                    "description": "Allt du behöver är en dator, surfplatta eller smartphone, en pålitlig wifi-anslutning, en lugn plats och möjlighet att ladda ner UserZooms eCertifierade testprogramvara."
+                },
+                "faq7": {
+                    "title": "När får jag mina pengar?",
+                    "description": "Betalningarna skickas ut via PayPal inom 21 arbetsdagar efter att studien har slutförts, när dina resultat har granskats och godkänts. De flesta resultat godkänns inom 3–5 dagar.\n\nDu får betalningen till samma e-postadress som du använde när du registrerade dig."
+                }
+            },
+            "uzBanner": {
+                "title": "Är detta den uggla du letar efter?",
+                "description": "Om du vill veta mer om IntelliZoom, den sökmotor som används av UserZoom, [klicka här](https://www.userzoom.com/participant-sourcing/). Vi hittar de bästa deltagarna till dina UX-forskningsstudier."
+            }
+        },
+        "settings": {
+            "title": "Inställningar",
+            "account": {
+                "title": "Konto",
+                "credentials": {
+                    "title": "Åtkomst via e-post",
+                    "passwordLastUpdate": "Uppdaterat",
+                    "changePassword": "Ändra lösenord"
+                },
+                "phone": {
+                    "title": "Telefonnummer",
+                    "description": "Om du lägger till ditt telefonnummer i ditt konto kan vi bjuda in dig till modererade sessioner. En modererad session innebär i princip att en UX-forskare guidar dig genom en av sina studier och samlar in din feedback.",
+                    "addPhone": "Lägg till telefonnummer"
+                },
+                "deactivateAccount": {
+                    "title": "Inaktivera ditt konto",
+                    "description": "Om du inaktiverar ditt konto förlorar du alla dina profilframsteg och kommer inte längre att kunna delta i betalda studier.",
+                    "cta": "Inaktivera kontot",
+                    "confirmationModal": {
+                        "title": "Är du säker?",
+                        "description": "Framstegen på din profil kommer att gå förlorade och du kommer inte längre att kunna delta i studier mot betalning.",
+                        "cta": "Ja, avaktivera"
+                    }
+                }
+            },
+            "successfulUpdate": "Dina inställningar är nu uppdaterade!"
+        },
+        "studiesDashboard": {
+            "completed": {
+                "sectionTitle": "Genomförda studier",
+                "completitionDate": "Slutfördes {{date}}.",
+                "paymentsDescription": "Kom ihåg att om din medverkan får godkänt så kan det dröja som mest 21 arbetsdagar innan du får in pengarna på ditt PayPal-konto."
+            },
+            "incompleteProfile": {
+                "title": "Bli inbjuden till fler studier!",
+                "description": "Fyll i dina personuppgifter i Min profil, så kan vi bjuda in dig till studier med mer specifika kriterier.",
+                "cta": "Färdigställ min profil"
+            },
+            "intro": {
+                "title": "Välkommen {{userName}}!",
+                "descriptionFTU": "Detta är översikten för dina studier. Här får du se studier som är tillgängliga för dig samt användbara tips.\n\nVänta inte för länge med att delta! Ofta är de bara tillgängliga en kort tid.",
+                "oneStudyAvailable": "Det finns 1 studie som du kan delta i.",
+                "severalStudiesAvailable": "Det finns {{studiesAvailable}} studier som du kan delta i.",
+                "verb": "Du har ",
+                "availableStudies": "{{count}} tillgänglig studie",
+                "availableStudies_plural": "{{count}} tillgängliga studier",
+                "scheduledStudies_plural": "och {{count}} schemalagda",
+                "scheduledStudies": "och {{count}} schemalagd",
+                "scheduledStudiesNoAvailableStudies": "{{count}} schemalagd studie",
+                "scheduledStudiesNoAvailableStudies_plural": "{{count}} schemalagda studier"
+            },
+            "practiceStudy": {
+                "cta": "Gör övningsstudien"
+            },
+            "reactiveMessage": {
+                "certification": {
+                    "underRevision": {
+                        "title": "Övningsstudie",
+                        "description": "Vårt team granskar din övningsstudie och återkommer till dig med feedback inom kort!"
+                    },
+                    "rejected": {
+                        "title": "Övningsstudie",
+                        "description": "Övningsstudien du skickade till oss nådde inte upp till våra kvalitetskrav för denna typ av studier.\n\nTror du att detta är fel eller om du vill göra ett andra försök kan du <1>{{contactUsLowercaseImperative}}</1>."
+                    },
+                    "accepted": {
+                        "title": "Gratulerar!",
+                        "description": "Din övningsstudie fick godkänt efter granskning!\n\nNu kan vi börja bjuda in dig till studier från Think Out Loud och Card Sort.",
+                        "cta": "Grymt!"
+                    }
+                },
+                "unsubscribe": {
+                    "title": "Rädd att missa något? Missa ingen inbjudan!",
+                    "description": "Aktivera inbjudningar från UX Research, så missar du aldrig någon av våra studier.",
+                    "cta": "Aktivera inbjudningar till studier"
+                }
+            },
+            "tip": {
+                "phone": {
+                    "title": "Hej {{userName}},",
+                    "description": "är du intresserad av modererade studier? Det innebär att en UX-forskare vägleder dig genom en studie och tar emot din feedback.",
+                    "mainCTA": "Visst",
+                    "secondaryCTA": "Nej tack"
+                }
+            },
+            "availableStudiesTitle": "{{availableStudies}} Studier att välja mellan",
+            "availableStudyTitle": "1 tillgänglig studie",
+            "emptyDescription": "Det finns inga studier att delta i för närvarande. Återkom!",
+            "noLongerAvailable": "Denna studie är inte längre tillgänglig.",
+            "studyCTA": "Ta denna studie"
+        },
+        "myProfile": {
+            "panelistName": "{{user.firstName}} {{user.lastName}}",
+            "profileCompletion": {
+                "title": "Din profil är färdig till {{completionPercentage}}!",
+                "description": "Besvara frågorna i kategorierna nedan och bli inbjuden till fler studier."
+            },
+            "availableStudyTypes": {
+                "title": "Tillgängliga typer av studier",
+                "description": "Genomför <1>övningsstudien</1> för att delta i studier från Think Out Loud och Card Sort."
+            },
+            "categories": {
+                "title": "Personuppgifter",
+                "description": "Besvara alla frågor och färdigställ din profil. Vissa studier har mycket specifika kriterier, så ju mer och ju aktuellare info du har, desto större är dina chanser att bli inbjuden till sådana studier.",
+                "complete": "Färdigt",
+                "questionsPending": "{{numberQuestionsPending}} frågor kvar",
+                "editCTA": "Granska/ändra",
+                "answerCTA": "Lägg till uppgifter"
+            }
+        },
+        "demographics": {
+            "categories": {
+                "aboutMe": "Om mig",
+                "healthAndFitness": "Hälsa och träning",
+                "hobbiesAndInterests": "Hobbyer och intressen",
+                "household": "Hushåll",
+                "financial": "Ekonomi",
+                "occupation": "Sysselsättning",
+                "technology": "Teknologi",
+                "travel": "Resor"
+            },
+            "success": {
+                "title": "Toppen!",
+                "description": "Du kan nu bli inbjuden till studier som matchar din {{categoryFilled}}-profil.\n\nKom ihåg att du alltid kan <0>granska och ändra</0> din info i {{categoryFilled}} på Min profil.",
+                "backToMyProfile": "Tillbaka till Min profil",
+                "moreCategories": {
+                    "title": "Tappa inte fart!",
+                    "description": "Besvara **blott {{numberQuestionsMissing}} frågor** i {{categoryMissing}} för att kunna få fler studier att delta i.",
+                    "letsDoThis": "Nu skrider vi till verket"
+                }
+            },
+            "aboutMe": {
+                "nonEditableFields": "Vill du ändra ditt födelsedatum, kön eller land ber vi dig att [höra av dig](https://help.intellizoom.com/hc/en-us/requests/new) till vår support."
+            }
+        },
+        "reEngagement": {
+            "title": "Välkommen {{userName}}!",
+            "description": "Då detta är en helt ny hemsida börjar vi med att ge ditt konto ett helt nytt lösenord.\n\nKlicka på Begär nytt lösenord, så skickar vi ett mejl till dig med en länk.",
+            "cta": "Begär nytt lösenord",
+            "success": {
+                "title": "Vi skickade ett mejl till dig med vilket du kan begära ett nytt lösenord.",
+                "description": "Av säkerhetsskäl gäller länken bara i ett dygn.\n\nSer du inte mejlet kan det ha hamnat i skräpposten. Vi kan även <1>skicka mejlet igen</1>."
+            },
+            "wud": {
+                "titleName": "Välkommen till IntelliZoom-panelen, {{userName}}!",
+                "title": "Välkommen till IntelliZoom-panelen!",
+                "description": "Vi kommer att flytta all din profilinformation från WhatUsersDo till vår plattform, men då hemsidan är helt ny vill vi börja med att ge ditt konto ett helt nytt lösenord.\n\nKlicka på Begär nytt lösenord, så får du ett mejl med en länk för detta.",
+                "cta": "Begär nytt lösenord",
+                "modal": {
+                    "title": "Aktivera inbjudningar till studier för att kunna delta.",
+                    "bodycopy": "Aktiverar du dem inte kommer du inte att se några studier på din översikt eller få inbjudningar via e-post.",
+                    "cta": "Aktivera inbjudningar till studier"
+                }
+            }
+        },
+        "success": {
+            "resend": {
+                "email": "E-post skickad!"
+            }
+        },
+        "finalPages": {
+            "complete": {
+                "title": "Du är klar med studien. Tack för att du delade med dig av dina tankar!",
+                "description": "När dina resultat är granskade och godkända kommer vi att betala ut pengarna via PayPal till samma e-postadress som du uppgav när du anmälde dig till IntelliZoom.\n\nDetta kan dröja högst 21 arbetsdagar. Under tiden kan du fortsätta att delta i studier!",
+                "cta": "Se tillgängliga studier"
+            },
+            "alreadyTaken": {
+                "title": "Du är redan klar med denna studie. Tack för din medverkan!",
+                "description": "När dina resultat är granskade och godkända kommer vi att betala ut pengarna via PayPal till samma e-postadress som du uppgav när du anmälde dig till IntelliZoom.\n\nDetta kan dröja högst 21 arbetsdagar. Under tiden kan du fortsätta att delta i studier!",
+                "cta": "Se tillgängliga studier"
+            },
+            "screenout": {
+                "title": "Sablar! Du är inte kvalificerad för denna studie, men du kan passa perfekt för nästa!",
+                "description": "Tack, {{user.name}}, för att du tog dig tid att svara ändå.\n\nSe till att [din profil är komplett](/profile) och aktuell för att få så många relevanta inbjudningar som möjligt.",
+                "cta": "Se tillgängliga studier"
+            },
+            "cheater": {
+                "title": "Beklagar, men dina resultat når inte upp till vår standard.",
+                "description": "Vi tar kvaliteten på svaren i våra studier på största allvar.\n\nDärför kräver vi att:\n\n–  studien är genomförd till fullo.\n\n–  deltagarens kommentarer är kvalitativa och många.\n\n–  deltagaren ägnar rimlig tid åt att titta på och interagera med de utvärderade sajterna.\n\nTyvärr är dina resultat inte tillräckligt goda, och vi kan inte ge dig betalt denna gång. Vi hatar att göra det, men anledningarna är viktiga för oss, och därför rekommenderar vi starkt att du lägger mer tid och möda på framtida studier.",
+                "cta": "Tillbaka till tillgängliga studier"
+            },
+            "speeder": {
+                "title": "Du genomförde denna studie alldeles för snabbt.",
+                "description": "Med det menas på kortare tid än vad som rimligen kan tänkas behövas för att göra den ordentligt. Även om vi förstår att du vill arbeta snabbt för att genomföra ett större antal studier tar vi kvaliteten på svaren på största allvar.\n\nTyvärr måste vi underkänna din prestation och du kommer inte att få betalt denna gång. Vi hatar att göra det, men anledningarna är viktiga för oss, och därför rekommenderar vi starkt att du tar god tid på dig i studier hädanefter.",
+                "cta": "Tillbaka till tillgängliga studier"
+            },
+            "closed": {
+                "title": "Studien du försökte ta är stängd.",
+                "description": "Kvickt! Se om det finns en annan som du kan ta.",
+                "cta": "Se tillgängliga studier"
+            },
+            "quotafull": {
+                "title": "Studien du försökte ta fick precis önskat antal svar.",
+                "description": "Kvickt! Se om det finns en annan som du kan ta.",
+                "cta": "Se tillgängliga studier"
+            },
+            "practiceStudy": "Vad studien du tog en övningsstudie kommer vi att höra av oss till dig när vi har granskat dina resultat. Kom ihåg att man inte får betalt för övningsstudier."
+        },
+        "errorPages": {
+            "generic": {
+                "title": "Kära nån, sidan fungerar inte.",
+                "description": "Vi noterar detta.\n\nVill du under tiden se vilka [studier](/studies) du kan ta?"
+            },
+            "uz": {
+                "generic": {
+                    "title": "Hoppsan, något gick fel.",
+                    "description": "Vi kan inte ladda sidan. Försök igen om några minuter, tack."
+                }
+            },
+            "500": {
+                "title": "Och ... nej. Servern svarar inte.",
+                "description": "Beklagar besväret. <1>Prova igen</1> om några minuter, tack."
+            }
+        },
+        "paypalToken": {
+            "dashboard": {
+                "status": {
+                    "noIntegration": {
+                        "title": "Koppla ditt PayPal-konto till IntelliZoom!",
+                        "description": "Vår nya integration med PayPal innebär att du får säkra utbetalningar i tid varje gång du har deltagit i en studie mot betalning.",
+                        "cta": "Koppla till PayPal"
+                    },
+                    "noTolUnverified": {
+                        "title": "Bara ett steg till!",
+                        "description": "För att börja delta i studier och få betalt kan du antingen göra övningsstudien eller [verifiera ditt PayPal-konto.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                    },
+                    "connectionLost": {
+                        "title": "Vi kan tyvärr inte betala dig ...",
+                        "description": "Ditt PayPal-konto är bortkopplat från IntelliZoom. För att få betalt och delta i framtida studier måste ditt PayPal-konto vara anslutet.",
+                        "cta": "Koppla till PayPal"
+                    }
+                },
+                "outcome": {
+                    "success": {
+                        "verified": {
+                            "title": "Grattis! Ditt PayPal-konto är nu kopplat.",
+                            "description": "Ta några studier mot betalning för att fira."
+                        },
+                        "notVerifiedTol": {
+                            "title": "Grattis! Ditt PayPal-konto är nu kopplat.",
+                            "description": "Vill du ha möjlighet att delta i fler studier mot betalning behöver du [verifiera ditt PayPal-konto.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                        },
+                        "notVerifiedNoTol": {
+                            "title": "Grattis! Ditt PayPal-konto är nu kopplat.",
+                            "description": "För att börja delta i studier mot betalning kan du antingen göra övningsstudien eller [verifiera ditt PayPal-konto.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                        }
+                    },
+                    "error": {
+                        "location": {
+                            "title": "Vi kan tyvärr inte betala dig ...",
+                            "description": "Ditt PayPal-kontos plats måste överensstämma med IntelliZoom-kontots. Ladda om sidan om du vill försöka igen."
+                        },
+                        "severalAccounts": {
+                            "title": "Vi kan tyvärr inte betala dig ...",
+                            "description": "Ditt PayPal-konto används redan till ett annat konto på IntelliZoom. Ladda om sidan om du vill försöka igen."
+                        },
+                        "accessDenied": {
+                            "title": "PayPal kunde inte kopplas, för du beviljade inte IntelliZoom åtkomst.",
+                            "cta": "Försök igen"
+                        },
+                        "noLongerVerified": {
+                            "title": "Ditt PayPal är inte längre verifierat",
+                            "description": "Följ dessa [instruktioner](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) för att verifiera ditt PayPal-konto och gör ett nytt försök."
+                        }
+                    }
+                }
+            },
+            "studyEntrance": {
+                "notVerified": {
+                    "title": "För att delta måste du koppla ditt verifierade PayPal-konto till IntelliZoom.",
+                    "description": "Har du redan kopplat kontona gäller att du antingen behöver göra övningsstudien eller [verifiera ditt konto](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) på PayPal för att kunna delta i studier.",
+                    "cta": "Gå till översikten"
+                }
+            },
+            "settings": {
+                "connect": {
+                    "title": "Koppla ditt PayPal",
+                    "description": "Synka ditt konto med PayPal för att säkert få betalt i tid.",
+                    "cta": "Koppla mitt PayPal"
+                },
+                "disconnect": {
+                    "title": "PayPal – kopplat",
+                    "description": "Ditt konto är nu kopplat till PayPal.",
+                    "cta": "Koppla loss från PayPal",
+                    "doubleConfirmation": {
+                        "title": "Är du säker på att du vill koppla loss ditt PayPal?",
+                        "description": "Gör du detta kommer du inte att bli erbjuden att delta i fler studier mot betalning. Du kommer heller inte att få betalt för eventuella studier som du nyligen har genomfört.",
+                        "cta": "Koppla loss mitt PayPal"
+                    }
+                }
+            }
+        },
+        "demographicsUpdate": {
+            "complete": {
+                "title": "🎉 Tack för att du uppdaterade din profil",
+                "description": "Ditt deltagande säkerställer att vi tillhandahåller bästa möjliga service",
+                "cta": "Kolla tillgängliga studier"
+            },
+            "infoMessage": "Med informationen du tillhandahåller kan vi matcha din profil med de mest relevanta studierna."
+        }
+    }
+}

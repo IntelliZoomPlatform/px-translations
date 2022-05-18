@@ -1,0 +1,227 @@
+{
+    "izPanel": {
+        "common": {
+            "androidPhone": "Androidtelefon",
+            "androidTablet": "Android surfplatta",
+            "chrome": "Chrome",
+            "claim": "Dina åsikter har betydelse. Få betalt för att dela dina erfarenheter och få inflytande på produkter du älskar och bryr dig om.",
+            "comma": ",",
+            "contactUsLowercaseImperative": "kontakta oss",
+            "copyright": "IntelliZoom Panel © 2022. Alla rättigheter förbehålls.",
+            "edge": "Edge",
+            "email": "E-post",
+            "firefox": "Firefox",
+            "ie": "Internet Explorer {{version}}",
+            "iPad": "iPad",
+            "iPhone": "iPhone",
+            "logIn": "Logga in",
+            "logInImperative": "Logga in",
+            "logInLowercase": "Logga in",
+            "next": "Nästa",
+            "noRobot": "Jag är inte en robot",
+            "or": "eller",
+            "orPressEnter": "eller tryck på Enter",
+            "password": "Lösenord",
+            "period": ".",
+            "privacyLink": "Integritetspolicy",
+            "requiredField": "(Obligatoriskt)",
+            "safari": "Safari",
+            "signUp": "Registrera dig",
+            "submit": "Skicka",
+            "termsLink": "Tjänstevillkor",
+            "day": "DD",
+            "month": "MM",
+            "year": "YYYY",
+            "facebook": "Facebook",
+            "google": "Google",
+            "save": "Spara",
+            "send": "Skicka",
+            "demographics": {
+                "female": "Kvinna",
+                "lessThan": "Mindre än",
+                "male": "Man",
+                "na": "Jag föredrar att inte svara",
+                "no": "Nej",
+                "none": "Inget av ovanstående",
+                "noneOrNoTell": "Inget av ovanstående/Jag föredrar att inte ange",
+                "orMore": "eller mer",
+                "other": "Annat",
+                "otherFeminine": "Annat",
+                "otherFemininePlural": "Annat",
+                "otherPlural": "Annat",
+                "unknown": "Jag vet inte",
+                "yes": "Ja",
+                "nonBinary": "Icke-binär",
+                "noneMasculine": "Inget av ovanstående",
+                "no_answer": "Jag föredrar att inte svara",
+                "million": "Miljon",
+                "millions": "Miljon"
+            },
+            "tip": {
+                "paypal": {
+                    "title": "Vi använder PayPal för att betala våra deltagare",
+                    "description": "Se till att din e-post har ett PayPal-konto kopplat till sig. Kom ihåg att du kan alltid skapa ett gratis!"
+                }
+            },
+            "finish": "Avsluta",
+            "gotIt": "Jag förstår",
+            "emailNotifications": {
+                "title": "Studieinbjudan och nyhetsbrev",
+                "mkt": {
+                    "title": "Nyhetsbrev och marknadskommunikationer",
+                    "description": "Vi kan ibland skicka dig:\n\n-  Uppdateringar om hur din åsikt får inflytande på de produkter du älskar.\n-  Några tips som kan hjälpa dig att bli mästare på att ge feedback."
+                },
+                "studyInvites": {
+                    "title": "Inbjudningar till studier av användarnas upplevelse",
+                    "description": "Få inbjudningar till studier av användarnas upplevelse som:\n\n-  Du kan delta i på distans inom ditt hems trygga väggar.\n-  Tar i genomsnitt 10-20 minuter att svara på.\n-  Betalar {{tolIncentive}} i genomsnitt för studier som spelar in ljud och video. För standardundersökningar är betalningen {{surveyIncentive}} i genomsnitt.",
+                    "confirmationModal": {
+                        "title": "Vill du göra det?",
+                        "description": "Om du inaktiverar det här alternativet kommer du inte längre att få inbjudningar till betalda studier.",
+                        "cta": "Ja, inaktivera"
+                    }
+                },
+                "description": "###Hej!\n\nDet här är kommunikationen du prenumererar på:",
+                "description_morning": "###God morgon!\n\nDet här är kommunikationen du prenumererar på:",
+                "descriptionName_morning": "###God morgon {{userName}},\n\nDet här är kommunikationen du prenumererar på:",
+                "description_afternoon": "###God eftermiddag!\n\nDet här är kommunikationen du prenumererar på:",
+                "descriptionName_afternoon": "###God eftermiddag {{userName}},\n\nDet här är kommunikationen du prenumererar på:",
+                "description_evening": "###God kväll!\n\nDet här är kommunikationen du prenumererar på:",
+                "descriptionName_evening": "###God kväll {{userName}},\n\nDet här är kommunikationen du prenumererar på:"
+            },
+            "language": {
+                "title": "Språk",
+                "englishUS": "English US",
+                "englishUK": "English UK",
+                "spanish": "Español",
+                "german": "Deutsch",
+                "danish": "Dansk",
+                "french": "Français",
+                "dutch": "Nederlands",
+                "swedish": "Svenska"
+            },
+            "cancel": "Avbryt",
+            "edit": "Redigera",
+            "studies": {
+                "cardSort": {
+                    "title": "Kortsortering",
+                    "description": "I den här typen av studier är vi mest intresserade av hur du grupperar vissa saker. Det hjälper studiens skapare att förstå användarnas tankegång när de kategoriserar.\n\nKom ihåg att det finns inga felaktiga svar. Vi är bara intresserade av vad du ärligt tycker."
+                },
+                "practice": {
+                    "title": "Övningsstudie",
+                    "description": "Gör den här övningsstudien och bli mästare på att ge feedback.\n\nOm du deltar och klarar vår granskning kan vi bjuda in dig till bättre betalda studier."
+                },
+                "survey": {
+                    "description": "En standardmässig fråge- och svarsundersökning. Inga specialeffekter.\n\nKom ihåg att det finns inga felaktiga svar. Vi är bara intresserade av vad du ärligt tycker.",
+                    "title": "Undersökning"
+                },
+                "taskBased": {
+                    "title": "Uppgiftsbaserad",
+                    "description": "I en uppgiftsbaserad studie, ungefär om namnet säger, visar studien dig ett antal uppgifter som du ska lösa.\n\nVissa uppgifter är enkla, vissa är lite mer komplexa, Vi är intresserade av att få veta hur svåra eller lätta du tycker att de är.\n\nKom ihåg att det finns inga felaktiga svar. Vi är bara intresserade av vad du ärligt tycker."
+                },
+                "tol": {
+                    "title": "Tänk högt",
+                    "description": "Denna typ av studier kräver att du uttalar dina tankar medan du genomför uppgifter.\n\nKom ihåg att det finns inga felaktiga svar. När vi visar dig en idé, design eller ett koncept, om du hatar det hatar du det, om du älskar det älskar du det, om det inte väcker någon känsla och det är nästan bortkastad tid ... säg det också!\n\nVi är bara intresserade av vad du ärligt tycker."
+                },
+                "requirements": {
+                    "anyBrowser": "En uppdaterad webbläsare",
+                    "aWorking": "Ett fungerande",
+                    "goodLightning": "En väl upplyst plats",
+                    "headphones": "Hörlurar",
+                    "maybeRecorded": "Du behöver ingen webbkamera eller mikrofon, men din skärm kan komma att spelas in. Var noga med att läsa varje uppgift och gör ditt bästa för att lösa dem.",
+                    "microphone": "Mikrofon",
+                    "quietEnvironment": "En lugn miljö",
+                    "screener": "Du kan få svara på några frågor för att se om du uppfyller kraven för den här studien, lycka till! :)",
+                    "strongConnection": "Stark koppling",
+                    "updatedBrowser": "Senaste versionen av",
+                    "webcam": "Webbkamera",
+                    "title": "För den här studien behöver du:"
+                },
+                "participate": "Delta",
+                "devices": "Enheter",
+                "youWillNeed": "Du behöver",
+                "manualSourcing": {
+                    "title": "Håll ögonen öppna mot din e-post!",
+                    "description": "För studier i {{country}} använder vi e-post för att hantera våra inbjudningar.\n\nFör att säkerställa att du blir inbjuden så ofta som möjligt ska du se till att din profil har slutförts och är uppdaterad."
+                },
+                "treeTest": {
+                    "title": "Trädtest",
+                    "description": "I denna typ av studier försöker vi hitta den bästa möjliga organiseringen och namngivningen för navigeringsmenyer.\n\nDet vill säga om kategorierna verkar vettiga för dig och om objekten finns där du förväntar dig att dom är.\n\nKom ihåg att det finns inga felaktiga svar. Vi är bara intresserade av vad du ärligt tycker."
+                },
+                "clickTest": {
+                    "title": "Klicktest",
+                    "description": "Med ett Klicktest vill vi förstå var du skulle klicka när vi ber dig utföra en viss åtgärd.\n\nKom ihåg att det finns inga felaktiga svar. Vi är bara intresserade av vad du ärligt tycker."
+                },
+                "projectId": "Studie-ID som referens: {{projectId}}",
+                "loadingScreen": {
+                    "title": "Öppnar studien ..."
+                },
+                "recaptchaCheck": {
+                    "title": "Ett ögonblick! Endast människor tillåts."
+                },
+                "moderated": {
+                    "title": "Onlineintervju",
+                    "description": "Du kan visa och välja en tid som passar dig bäst.",
+                    "book": "Boka en session",
+                    "modalDescription": "I den här studien deltar du i ett livevideosamtal med en UX-forskare som ber dig att ge dina tankar om och återkoppling på en digital upplevelse.\n\nDen här sessionen tar ungefär {{sessionDuration}} minuter. Du kommer också att välja när du ska delta baserat på tillgängliga tider.",
+                    "mobileRequired": "Det krävs ett mobilnummer för att schemalägga en session",
+                    "smsReminder": "För att få ett påminnelse-SMS",
+                    "contactUser": "Kontakta dig om något går fel",
+                    "why": "Varför?"
+                },
+                "sessionDuration": {
+                    "title": "Sessionslängd",
+                    "min": "{{sessionLength}} minuter"
+                },
+                "scheduled": {
+                    "warning": "**Obs:** om du inte längre kan klara den här gången ska du [avboka]({{entranceLink}}) eller [boka om]({{entranceLink}}) ditt deltagande så snart som möjligt.",
+                    "join": "Gå med nu",
+                    "notice": "Du kommer att kunna gå med i sessionen 10 minuter före starttiden.",
+                    "title": "Här är detaljerna för din kommande session",
+                    "nowTitle": "Låt oss börja! Du kan nu gå in i sessionen"
+                }
+            },
+            "and": "och",
+            "aUppercase": "A",
+            "desktop": "Dator",
+            "phone": "Mobiltelefon",
+            "tablet": "Surfplatta",
+            "selectAnOption": "Välj ett alternativ",
+            "comingSoon": "Kommer snart",
+            "saved": "Sparat",
+            "greetings": {
+                "greeting_morning": "God morgon!",
+                "greetingName_morning": "God morgon {{userName}}!",
+                "greeting_afternoon": "God eftermiddag!",
+                "greetingName_afternoon": "God eftermiddag {{userName}}!",
+                "greeting_evening": "God kväll!",
+                "greetingName_evening": "God kväll {{userName}}!"
+            },
+            "noThanks": "Nej tack"
+        },
+        "studiesDashboard": {
+            "upcomingScheduledStudies": {
+                "header": "Glöm inte! Din nästa session är om",
+                "days_plural": "{{count}} dagar ",
+                "seeDetails": "Visa information",
+                "show": "Visa kommande sessioner",
+                "hide": "Dölj kommande sessioner",
+                "studiesHeader": "Kommande",
+                "headerDateOn": "Glöm inte! Din nästa session är den",
+                "minutesNoHours_plural": "{{count}} minuter ",
+                "hours_plural": "{{count}} timmar ",
+                "minutes_plural": "och {{count}} minuter ",
+                "days": "{{count}} dag ",
+                "cardsHeader": "Du har bokats till:",
+                "minutesNoHours": "{{count}} minut ",
+                "minutes": "och {{count}} minut ",
+                "hours": "{{count}} timme ",
+                "sessionDetails": "Sessionsinformation"
+            }
+        },
+        "studies": {
+            "sessionDetails": {
+                "title": "Låt oss börja! Du kan nu öppna sessionen"
+            }
+        }
+    }
+}

@@ -93,7 +93,11 @@
                 "englishUS": "English US",
                 "englishUK": "English UK",
                 "spanish": "Español",
-                "german": "Deutsch"
+                "german": "Deutsch",
+                "danish": "Dansk",
+                "french": "Français",
+                "dutch": "Nederlands",
+                "swedish": "Svenska"
             },
             "cancel": "Cancel",
             "edit": "Edit",
@@ -219,7 +223,5 @@
                 "title": "Let’s begin! You can now enter the session"
             }
         }
-    },
-    "test": {
     }
 }

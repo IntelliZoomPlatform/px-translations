@@ -1,0 +1,539 @@
+{
+    "izPanel": {
+        "registration": {
+            "name": {
+                "title": "Comment vous appelez-vous ?",
+                "field": {
+                    "firstName": "Prénom",
+                    "lastName": "Nom de famille"
+                },
+                "alreadyRegistered": "Vous êtes déjà inscrit ? <1>$t(px-common:izPanel.common.logInImperative)</1>"
+            },
+            "country": {
+                "title": "Bienvenue {{firstName}} !",
+                "otherCountry": "Afficher d'autres pays",
+                "description": "**Vous entrez dans notre panel en {{country}}.**\n\nSi vous êtes en voyage et que ce n'est pas le pays où vous vivez, nous vous recommandons de vous inscrire au Panel d'IntelliZoom une fois de retour chez vous. Si vous êtes chez vous et que ce n'est pas votre pays, veuillez [nous contacter](https://help.intellizoom.com/hc/en-us/requests/new).",
+                "inSpanish": "¿Prefieres ver esta página en Español?",
+                "inGerman": "Möchtest Du diese Seite in Deutsch ansehen?"
+            },
+            "email": {
+                "title": "Quelle est votre adresse e-mail ?",
+                "description": "C'est ici que vous recevrez nos invitations aux études."
+            },
+            "password": {
+                "title": "Choisissez un mot de passe",
+                "description": "Assurez-vous qu'il soit fort !\n\nIncluez :",
+                "requirements": {
+                    "capitalLetter": "une lettre majuscule",
+                    "numberOrSymbol": "un chiffre",
+                    "minChars": "au moins huit caractères",
+                    "lowercaseLetter": "une lettre minuscule",
+                    "passwordsShouldMatch": "et bien sûr, vos mots de passe doivent correspondre"
+                },
+                "passwordConfirmation": "Confirmez le mot de passe"
+            },
+            "terms": {
+                "title": "Avant de continuer...",
+                "description": "Veuillez prendre un moment pour lire nos <1>{{termsLink}}</1> et notre <3>{{privacyLink}}</3>.\n\nSi vous avez des doutes sur la manière dont vos données sont gérées, veuillez <5>{{contactUsLowercaseImperative}}</5>.",
+                "checkbox": {
+                    "gdpr": "Je veux recevoir une invitation par e-mail à des études de recherche d'expérience utilisateur qui correspondent à mon profil. $t(px-common:izPanel.common.requiredField)",
+                    "terms": "J'accepte les conditions d'utilisation et la politique de confidentialité. $t(px-common:izPanel.common.requiredField)",
+                    "mkt": "Je veux recevoir des communications et des bulletins d'information d'IntelliZoom."
+                }
+            },
+            "doubleOptIn": {
+                "title": "Nous vous avons envoyé un e-mail de confirmation pour activer votre compte",
+                "description": "Veuillez cliquer sur le lien contenu dans l'e-mail pour activer votre compte.\n\nPour des raisons de sécurité, le lien expirera dans un délai de 24 heures.\n\nSi vous ne le voyez pas, vérifiez votre dossier de courrier indésirable. Nous pouvons également vous <1>renvoyer</1> l'e-mail.",
+                "resendSuccess": "E-mail envoyé !"
+            }
+        },
+        "comingSoon": {
+            "title": "Bientôt disponible !",
+            "description": "Nous n'avons actuellement pas de panneau actif dans {{selectedCountry}}, mais laissez-nous votre e-mail et nous vous informerons lorsque nous en ouvrirons un.",
+            "success": {
+                "title": "Merci !",
+                "description": "Nous vous contacterons lorsque nous ouvrirons notre panel à {{selectedCountry}}.\n\nÀ bientôt !"
+            },
+            "gdpr": "Je veux recevoir une information lorsque IntelliZoom Panel ouvrira dans mon pays. $t(px-common:izPanel.common.requiredField)",
+            "yourLocation": "votre emplacement"
+        },
+        "error": {
+            "required": {
+                "field": "Ce champ est obligatoire.",
+                "gdpr": "Ce consentement est requis.",
+                "terms": "Vous devez accepter les conditions de service et la politique de confidentialité."
+            },
+            "format": {
+                "email": "Veuillez utiliser un format d'e-mail valide. P. ex., name@email.com",
+                "genericFormat": "Le format n'est pas valide."
+            },
+            "registration": {
+                "existingEmail": "Il semble que vous soyez déjà inscrit ! Veuillez, <1>$t(px-common:izPanel.common.logInLowercase)</1>.",
+                "sendEmailFail": "Oups, quelque chose s'est mal passé et nous n'avons pas pu vous envoyer l'e-mail de confirmation. Veuillez réessayer plus tard.",
+                "passwordRequirements": "Le mot de passe ne répond pas aux exigences",
+                "emailLength": "Ouah ! Votre e-mail ne peut pas contenir 150 caractères...",
+                "passwordIncludesSpaces": "Le mot de passe ne peut pas commencer ou se terminer par un espace."
+            },
+            "minTwoChars": {
+                "firstName": "Votre nom doit contenir au moins deux caractères.",
+                "lastName": "Votre nom de famille doit contenir au moins deux caractères."
+            },
+            "generic": "Oups, quelque chose s'est mal passé. Veuillez réessayer plus tard.",
+            "birthday": {
+                "future": "Vous avez voyagé dans le temps ? La date de naissance ne peut pas être dans le futur.",
+                "past": "Les vampires ne sont pas autorisés ! La date de naissance doit correspondre à ce siècle."
+            },
+            "login": {
+                "accountBlocked": "Votre compte a été bloqué après plusieurs tentatives de connexion consécutives.",
+                "accountInactive": "Votre compte n'a pas encore été activé. Souhaitez-vous que nous vous <1>renvoyions</1> l'e-mail de confirmation ?",
+                "expiredLink": "Le lien d'activation que vous avez suivi a expiré. Veuillez le <1>renvoyer</1> et réessayer.",
+                "invalidCredentials": "Nous sommes désolés, cette combinaison e-mail/mot de passe n'a pas pu être trouvée.",
+                "userNotFound": "Le lien d'activation que vous avez suivi a expiré et vos données ont été supprimées. Veuillez essayer de vous réinscrire.",
+                "wrongActivation": "Un problème est survenu lors de l'activation de votre compte. Veuillez réessayer plus tard via le même e-mail de confirmation que nous vous avons envoyé auparavant.",
+                "wrongActivationWithLink": "Un problème est survenu lors de l'activation de votre compte. Veuillez <1>renvoyer</1> l'e-mail de confirmation et réessayer.",
+                "accountDeactivated": "Votre compte a été désactivé. Si vous souhaitez le réactiver, veuillez [nous contacter] (https://help.intellizoom.com/hc/en-us/requests/new)."
+            },
+            "forgotPassword": {
+                "sendEmailFail": "Oups, quelque chose a mal tourné et nous n'avons pas pu vous envoyer l'e-mail de réinitialisation du mot de passe. Veuillez réessayer plus tard."
+            },
+            "resetPassword": {
+                "incorrectPassword": "Mot de passe actuel incorrect",
+                "expiredLink": "Le lien que vous avez suivi a expiré. Veuillez demander un nouveau lien à partir de la page [Mot de passe oublié](/forgot-password)."
+            },
+            "limitExceeded": "Vous avez atteint le nombre maximal de tentatives. Veuillez réessayer plus tard.",
+            "demographics": {
+                "notUnderAge": "Votre enfant ne peut pas être âgé de plus de 18 ans."
+            }
+        },
+        "footer": {
+            "item": {
+                "faqPayments": "[Combien de temps prennent généralement les paiements ?](https://help.intellizoom.com/hc/en-us/articles/360000650458--When-and-how-much-will-I-get-paid-)",
+                "faqInvitations": "[Comment fonctionnent les invitations ?](https://help.intellizoom.com/hc/en-us/articles/360000658537-How-will-I-be-notified-of-new-studies-)",
+                "faqChangeEmail": "[Comment puis-je modifier mon adresse e-mail ?](https://help.intellizoom.com/hc/en-us/articles/360001190318-How-can-I-change-my-email-)",
+                "faqBrowseAll": "[Voir plus](https://help.intellizoom.com/hc/en-us)",
+                "sendEmail": "[Envoyez-nous un e-mail](https://help.intellizoom.com/hc/en-us/requests/new)",
+                "whatIsIZP": "Qu'est-ce que le panneau IntelliZoom"
+            },
+            "title": {
+                "about": "À propos de nous",
+                "contact": "Contacter",
+                "faq": "FAQ",
+                "social": "Suivez-nous !"
+            }
+        },
+        "header": {
+            "email": "{{userEmail}}",
+            "logOut": "Déconnexion",
+            "mainDashboard": "Études",
+            "name": "{{userFullName}}",
+            "profile": "Mon profil",
+            "settings": "Paramètres"
+        },
+        "basicDemographics": {
+            "flowTitle": "Très bien !\n\nCommençons",
+            "flowDescription": "Pour vous inviter aux études, nous devons vous poser **juste trois questions basiques** de profilage.",
+            "flowLastQuestion": "Enfin et surtout...",
+            "progress": "Question {{currentQuestion}} de {{totalQuestions}}",
+            "success": {
+                "title": "Voilà !",
+                "description": "Vous êtes maintenant prêt à commencer à participer à nos études.\n\nContinuez à compléter votre profil afin que nous puissions vous inviter à des études plus spécifiques (et mieux rémunérées).",
+                "cta": "Allons-y !"
+            },
+            "underage": {
+                "title": "Vous devez avoir au moins {{minimumLegalAge}} ans pour participer à nos études",
+                "description": "Nous sommes désolés, mais nous ne pouvons pas vous inviter à nos études ou vous permettre de continuer. Nous allons maintenant procéder à la suppression de votre compte IntelliZoom Panel et de toutes vos informations personnelles.\n\nNous vous remercions de votre intérêt."
+            }
+        },
+        "login": {
+            "title": "Se connecter",
+            "forgotPassword": "Mot de passe oublié ?",
+            "orSocialAccess": "ou continuez avec",
+            "newHere": "Vous n'avez pas de compte ?",
+            "signUp": "Inscrivez-vous !",
+            "success": {
+                "accountActivated": "Votre compte a été activé avec succès !",
+                "emailResent": "Nous vous avons renvoyé l'e-mail d'activation."
+            }
+        },
+        "forgotPassword": {
+            "title": "Vous avez oublié votre mot de passe ?",
+            "description": "Veuillez saisir votre e-mail et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+            "success": {
+                "title": "Nous vous avons envoyé un e-mail pour réinitialiser votre mot de passe.",
+                "description": "Pour des raisons de sécurité, le lien expirera dans un délai de 24 heures.\n\nSi vous ne le voyez pas, vérifiez votre dossier de courrier indésirable. Nous pouvons également <1>renvoyer</1> l'e-mail."
+            }
+        },
+        "resetPassword": {
+            "title": "Définir un nouveau mot de passe",
+            "currentPassword": {
+                "description": "Et tapez votre mot de passe actuel :",
+                "field": "Mot de passe actuel"
+            },
+            "success": {
+                "title": "Mot de passe mis à jour !",
+                "description": "Votre nouveau mot de passe a été enregistré avec succès.",
+                "cta": "Aller à la page de connexion",
+                "backToSettings": "Retourner aux paramètres"
+            }
+        },
+        "landing": {
+            "heroSection": {
+                "title": "Votre opinion compte.",
+                "description": "Recevez une rémunération pour partager vos expériences et avoir une influence sur les produits que vous aimez et auxquels vous tenez.",
+                "cta": "Faisons-le !"
+            },
+            "featureBoxes": {
+                "first": {
+                    "title": "Faites-vous payer rapidement et facilement",
+                    "description": "Vous économisez pour quelque chose ou vous cherchez un peu d'argent de poche supplémentaire ? Rejoignez les personnes du monde entier qui gagnent un revenu supplémentaire en partageant leurs expériences."
+                },
+                "second": {
+                    "title": "Influencez les expériences des produits",
+                    "description": "Ayez une influence immédiate sur les produits que vous aimez et utilisez aujourd'hui en partageant votre opinion avec les personnes qui fabriquent et améliorent ces produits."
+                },
+                "third": {
+                    "title": "Faites-le pendant votre temps libre",
+                    "description": "Vous avez 15 à 20 minutes disponibles ? Donner votre avis est facile. Participez aux études à distance, selon votre emploi du temps, depuis votre domicile ou lors de vos déplacements, en utilisant votre propre appareil."
+                }
+            },
+            "reinforcingBanner": {
+                "phrase1": "Donnez votre avis",
+                "phrase2": "Recevez une rémunération"
+            },
+            "faqs": {
+                "title": "Vous avez des questions ? Nous avons les réponses",
+                "faq1": {
+                    "title": "En combien de temps puis-je commencer à suivre des études ?",
+                    "description": "Dès que vous aurez terminé le processus d'inscription et répondu à trois questions de base sur le profilage."
+                },
+                "faq2": {
+                    "title": "Quelle est la durée des études ?",
+                    "description": "La plupart des études durent en moyenne 10 à 20 minutes."
+                },
+                "faq3": {
+                    "title": "Quel âge dois-je avoir ?",
+                    "description": "Tous les participants doivent être âgés de 18 ans ou plus."
+                },
+                "faq4": {
+                    "title": "Combien d'invitations à l'étude vais-je recevoir ?",
+                    "description": "Le nombre d'opportunités que vous recevrez dépendra de plusieurs facteurs, tels que vos données démographiques et votre note de qualité."
+                },
+                "faq5": {
+                    "title": "Combien d'argent pourrais-je gagner ?",
+                    "description": "La rémunération dépend de la complexité de l'étude. Pour les études qui enregistrent du son et de la vidéo de think out loud, vous pouvez vous attendre à gagner 10 $ en moyenne. Pour les enquêtes standard, le paiement est de 2 $ en moyenne."
+                },
+                "faq6": {
+                    "title": "De quoi ai-je besoin pour participer à des études ?",
+                    "description": "Tout ce dont vous avez besoin, c'est d'un ordinateur, d'une tablette ou d'un smartphone, d'une connexion fiable à un réseau Wi-Fi, d'un endroit calme et de la possibilité de télécharger le logiciel de test certifié eCertified de UserZoom."
+                },
+                "faq7": {
+                    "title": "Quand recevrai-je mon argent ?",
+                    "description": "Les paiements sont envoyés via PayPal dans un délai de 21 jours ouvrables après la fin de l'étude, une fois que vos résultats ont été examinés et approuvés. La plupart des résultats sont approuvés dans un délai de trois à cinq jours.\n\nVous recevrez le paiement dans le même e-mail que celui utilisé pour vous inscrire."
+                }
+            },
+            "uzBanner": {
+                "title": "Est-ce la chouette que vous cherchez ?",
+                "description": "Si vous voulez en savoir plus sur IntelliZoom, le moteur d'approvisionnement utilisé par UserZoom, [cliquez ici](https://www.userzoom.com/participant-sourcing/). Nous trouverons les meilleurs participants pour vos études de recherche d'expérience utilisateur."
+            }
+        },
+        "settings": {
+            "title": "Paramètres",
+            "account": {
+                "title": "Compte",
+                "credentials": {
+                    "title": "Accès aux e-mails",
+                    "passwordLastUpdate": "Mis à jour le",
+                    "changePassword": "Modifier le mot de passe"
+                },
+                "phone": {
+                    "title": "Numéro de téléphone",
+                    "description": "Si vous ajoutez votre numéro de téléphone à votre compte, nous pourrons vous inviter à des sessions modérées. Une session modérée signifie essentiellement qu'un chercheur d'expérience utilisateur vous guide à travers l'une de ses études et recueille vos commentaires.",
+                    "addPhone": "Ajouter un numéro de téléphone"
+                },
+                "deactivateAccount": {
+                    "title": "Désactiver votre compte",
+                    "description": "Si vous désactivez votre compte, vous perdrez toute la progression de votre profil et vous ne pourrez plus suivre d'études payantes.",
+                    "cta": "Désactiver le compte",
+                    "confirmationModal": {
+                        "title": "Êtes-vous sûr ?",
+                        "description": "Vous perdrez toute la progression de votre profil et vous ne pourrez plus suivre d'études payantes.",
+                        "cta": "Oui, désactiver"
+                    }
+                }
+            },
+            "successfulUpdate": "Vos paramètres ont été mis à jour avec succès !"
+        },
+        "studiesDashboard": {
+            "completed": {
+                "sectionTitle": "Études terminées",
+                "completitionDate": "Terminé le {{date}}.",
+                "paymentsDescription": "N'oubliez pas que si votre participation est acceptée, le paiement peut prendre jusqu'à 21 jours ouvrables pour apparaître sur votre compte PayPal."
+            },
+            "incompleteProfile": {
+                "title": "Recevez des invitations pour d'autres études !",
+                "description": "Complétez vos informations personnelles dans « Mon profil » et nous pourrons vous inviter à des études avec des critères plus spécifiques.",
+                "cta": "Compléter mon profil"
+            },
+            "intro": {
+                "title": "Bienvenue {{userName}} !",
+                "descriptionFTU": "Voici le tableau de bord de vos études. Vous y verrez les études qui sont disponibles pour vous et quelques conseils utiles.\n\nNe tardez pas trop à y participer ! Elles ne sont généralement disponibles que pour une courte période de temps.",
+                "oneStudyAvailable": "Vous avez une étude disponible",
+                "severalStudiesAvailable": "Vous avez {{studiesAvailable}} études disponibles",
+                "verb": "Vous avez",
+                "availableStudies": "{{count} étude disponible",
+                "availableStudies_plural": "{{count} études disponibles",
+                "scheduledStudies_plural": "et {{count}} programmée",
+                "scheduledStudies": "et {{count}} programmée",
+                "scheduledStudiesNoAvailableStudies": "{{count}} étude programmée",
+                "scheduledStudiesNoAvailableStudies_plural": "{{count}} études programmées"
+            },
+            "practiceStudy": {
+                "cta": "Prendre une étude pratique"
+            },
+            "reactiveMessage": {
+                "certification": {
+                    "underRevision": {
+                        "title": "Étude pratique",
+                        "description": "Notre équipe est en train d'examiner votre étude pratique et vous fera part de ses commentaires sous peu !"
+                    },
+                    "rejected": {
+                        "title": "Étude pratique",
+                        "description": "L'étude pratique que vous nous avez envoyée ne répondait pas aux exigences de qualité que nous demandons pour ce type d'études.\n\nSi vous pensez qu'il s'agit d'une erreur ou si vous souhaitez une seconde chance, <1>{{contactUsLowercaseImperative}}</1>."
+                    },
+                    "accepted": {
+                        "title": "Félicitations !",
+                        "description": "Votre étude pratique a été examinée et approuvée !\n\nNous allons maintenant pouvoir commencer à vous envoyer des invitations pour les études Think Out Loud et Card Sort.",
+                        "cta": "Génial !"
+                    }
+                },
+                "unsubscribe": {
+                    "title": "Vous avez peur de rater quelque chose ? Ne manquez aucune invitation !",
+                    "description": "Activez les invitations aux études de recherche d'expérience utilisateur et ne manquez plus jamais aucune de nos études.",
+                    "cta": "Activer les invitations à l'étude"
+                }
+            },
+            "tip": {
+                "phone": {
+                    "title": "Bonjour {{userName}},",
+                    "description": "Seriez-vous intéressé par des études modérées ? Dans ce cas, un chercheur en expérience utilisateur vous guidera à travers l'une de ses études et recueillera vos commentaires.",
+                    "mainCTA": "Bien sûr",
+                    "secondaryCTA": "Non, merci"
+                }
+            },
+            "availableStudiesTitle": "{{availableStudies}} études disponibles",
+            "availableStudyTitle": "Une étude disponible",
+            "emptyDescription": "Il n'y a pas d'études disponibles pour le moment. Restez à l'écoute !",
+            "noLongerAvailable": "Cette étude n'est plus disponible",
+            "studyCTA": "Prenez cette étude"
+        },
+        "myProfile": {
+            "panelistName": "{{user.firstName}} {{user.lastName}}",
+            "profileCompletion": {
+                "title": "Votre profil est complet à {{completionPercentage}} !",
+                "description": "Répondez aux questions dans les catégories ci-dessous et soyez invité à d'autres études."
+            },
+            "availableStudyTypes": {
+                "title": "Types d'études disponibles",
+                "description": "Complétez l'<1>étude pratique</1> pour participer aux études Think Out Loud et Card Sort."
+            },
+            "categories": {
+                "title": "Informations personnelles",
+                "description": "Répondez à toutes les questions et complétez votre profil. Certaines études exigent des critères très spécifiques, donc plus votre profil est complet et mis à jour, plus vous avez de chances d'y être invité.",
+                "complete": "Terminer",
+                "questionsPending": "{{numberQuestionsPending}} questions restantes",
+                "editCTA": "Examiner/Modifier",
+                "answerCTA": "Ajouter des détails"
+            }
+        },
+        "demographics": {
+            "categories": {
+                "aboutMe": "À propos de moi",
+                "healthAndFitness": "Santé et forme physique",
+                "hobbiesAndInterests": "Passe-temps et intérêts",
+                "household": "Ménage",
+                "financial": "Finances",
+                "occupation": "Profession",
+                "technology": "Technologie",
+                "travel": "Voyages"
+            },
+            "success": {
+                "title": "Génial !",
+                "description": "Vous pouvez maintenant être invité à des études qui correspondent à votre profil {{categoryFilled}}.\n\nN'oubliez pas que vous pouvez toujours <0>examiner ou modifier</0> vos informations de {{categoryFilled}} depuis la section « Mon profil ».",
+                "backToMyProfile": "Retour à « Mon profil »",
+                "moreCategories": {
+                    "title": "Ne brisez pas votre élan !",
+                    "description": "Répondez à **seulement {{numberQuestionsMissing}} questions** sur {{categoryMissing}} pour pouvoir recevoir des invitations à d'autres études.",
+                    "letsDoThis": "Faisons ça"
+                }
+            },
+            "aboutMe": {
+                "nonEditableFields": "Si vous souhaitez modifier les informations relatives à votre date de naissance, votre sexe ou votre pays, veuillez [nous contacter](https://help.intellizoom.com/hc/en-us/requests/new) avec notre équipe d'assistance."
+            }
+        },
+        "reEngagement": {
+            "title": "Bienvenue {{userName}} !",
+            "description": "Comme il s'agit d'un tout nouveau site Web, nous allons commencer par définir un tout nouveau mot de passe pour votre compte.\n\nCliquez sur « Demander un nouveau mot de passe » et nous vous enverrons un e-mail avec un lien pour le réinitialiser.",
+            "cta": "Demander un nouveau mot de passe",
+            "success": {
+                "title": "Nous vous avons envoyé un e-mail pour demander un nouveau mot de passe.",
+                "description": "Pour des raisons de sécurité, le lien expirera dans 24 heures.\n\nSi vous ne le voyez pas, vérifiez votre dossier de courrier indésirable. Nous pouvons également <1>renvoyer</1> l'e-mail."
+            },
+            "wud": {
+                "titleName": "Bienvenue au Panel d'IntelliZoom {{userName}} !",
+                "title": "Bienvenue au Panel d'IntelliZoom !",
+                "description": "Nous allons transférer toutes les informations de votre profil de WhatUsersDo vers notre plate-forme, mais comme il s'agit d'un tout nouveau site Web, commençons par demander un tout nouveau mot de passe pour votre compte.\n\nCliquez sur « Demander un nouveau mot de passe » et nous vous enverrons un e-mail avec un lien pour le faire.",
+                "cta": "Demander un nouveau mot de passe",
+                "modal": {
+                    "title": "Activez les invitations aux études pour pouvoir y participer",
+                    "bodycopy": "Si vous ne les activez pas, vous ne verrez aucune étude sur votre tableau de bord des études et ne recevrez aucune invitation par e-mail.",
+                    "cta": "Activer les invitations aux études"
+                }
+            }
+        },
+        "success": {
+            "resend": {
+                "email": "E-mail envoyé !"
+            }
+        },
+        "finalPages": {
+            "complete": {
+                "title": "Vous avez terminé l'étude. Merci d'avoir partagé vos réflexions !",
+                "description": "Une fois que vos résultats auront été examinés et approuvés, nous traiterons votre paiement via PayPal sur le même compte de messagerie que vous avez utilisé lors de votre inscription au Panel IntelliZoom.\n\nCe processus peut prendre jusqu'à 21 jours ouvrables. Dans l'intervalle, vous pouvez continuer à participer à d'autres études !",
+                "cta": "Vérifiez les études disponibles"
+            },
+            "alreadyTaken": {
+                "title": "Vous avez déjà terminé cette étude. Merci d'y avoir participé !",
+                "description": "Une fois que vos résultats auront été examinés et approuvés, nous traiterons votre paiement via PayPal sur le même compte de messagerie que vous avez utilisé lors de votre inscription au Panel d'IntelliZoom.\n\nCe processus peut prendre jusqu'à 21 jours ouvrables. Dans l'intervalle, vous pouvez continuer à participer à d'autres études !",
+                "cta": "Vérifiez les études disponibles"
+            },
+            "screenout": {
+                "title": "Oups ! Vous n'étiez pas qualifié pour cette étude, mais vous pourriez être parfait pour la prochaine !",
+                "description": "Merci {{user.name}} d'avoir pris le temps de répondre quand même.\n\nAssurez-vous que [votre profil est complet](/profile) et à jour pour recevoir le plus d'invitations précises possible.",
+                "cta": "Vérifier les études disponibles"
+            },
+            "cheater": {
+                "title": "Désolé, mais vos résultats ne répondent pas à nos normes de qualité.",
+                "description": "Nous prenons la qualité des réponses de nos études extrêmement au sérieux.\n\nC'est pourquoi nous exigeons :\n\n- Que l'étude soit complètement terminée.\n\n- Que les commentaires des participants soient nombreux et de qualité.\n\n- Que le participant passe un temps raisonnable à regarder et à interagir avec les sites évalués.\n\nMalheureusement, vos résultats ne répondent pas à ces normes et nous ne sommes pas en mesure de vous offrir une récompense cette fois-ci. Nous détestons le faire, mais les raisons sont importantes pour nous, c'est pourquoi nous vous recommandons vivement d'investir plus de temps et d'efforts dans les études futures.",
+                "cta": "Retour aux études disponibles"
+            },
+            "speeder": {
+                "title": "Vous avez terminé cette étude trop vite.",
+                "description": "C'est-à-dire plus vite qu'on ne peut raisonnablement s'attendre à ce qu'il faille à quelqu'un pour la terminer de bonne foi. Bien que nous comprenions le besoin de rapidité et le désir de compléter plus d'études, nous prenons la qualité des réponses extrêmement au sérieux.\n\nMalheureusement, nous devons rejeter vos résultats et ne pourrons pas vous offrir de récompense cette fois-ci. Nous détestons le faire, mais les raisons sont importantes pour nous, c'est pourquoi nous vous recommandons vivement d'investir plus de temps et d'efforts dans les études futures.",
+                "cta": "Retour aux études disponibles"
+            },
+            "closed": {
+                "title": "L'étude que vous avez essayé d'entrer a été fermée.",
+                "description": "Vite ! Voyons s'il en existe une autre à laquelle vous pourriez participer.",
+                "cta": "Vérifier les études disponibles"
+            },
+            "quotafull": {
+                "title": "L'étude à laquelle vous avez essayé de participer vient d'atteindre le nombre de réponses requis.",
+                "description": "Vite ! Voyons s'il y a une autre étude à laquelle vous pouvez participer.",
+                "cta": "Vérifier les études disponibles"
+            },
+            "practiceStudy": "Si l'étude que vous avez suivie est une étude pratique, nous vous contacterons dès que nous aurons examiné vos résultats. N'oubliez pas que les études pratiques ne donnent pas droit à une rémunération."
+        },
+        "errorPages": {
+            "generic": {
+                "title": "Oh là là, cette page ne fonctionne pas.",
+                "description": "Nous en prenons note.\n\nEn attendant, vous souhaitez vérifier quelles [études](/studies) sont disponibles ?"
+            },
+            "uz": {
+                "generic": {
+                    "title": "Oups, quelque chose a mal tourné",
+                    "description": "Nous n'arrivons pas à charger cette page. Veuillez réessayer dans quelques minutes."
+                }
+            },
+            "500": {
+                "title": "Et... non. Le serveur ne répond pas.",
+                "description": "Désolé pour le dérangement. Veuillez <1>essayer à nouveau</1> dans quelques minutes."
+            }
+        },
+        "paypalToken": {
+            "dashboard": {
+                "status": {
+                    "noIntegration": {
+                        "title": "Connectez votre compte PayPal avec IntelliZoom !",
+                        "description": "Grâce à notre nouvelle intégration avec PayPal, vous serez payé en toute sécurité et à temps après chaque session de recherche rémunérée.",
+                        "cta": "Connectez-vous avec PayPal"
+                    },
+                    "noTolUnverified": {
+                        "title": "Une étape de plus !",
+                        "description": "Pour commencer à participer à des études de recherche rémunérées, vous pouvez soit suivre l'étude pratique, soit [vérifier votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                    },
+                    "connectionLost": {
+                        "title": "Désolé, nous ne pouvons pas vous payer...",
+                        "description": "Votre compte PayPal a été déconnecté d'IntelliZoom. Pour recevoir un paiement et participer à de futures études, votre compte PayPal doit être connecté.",
+                        "cta": "Connectez-vous avec PayPal"
+                    }
+                },
+                "outcome": {
+                    "success": {
+                        "verified": {
+                            "title": "Félicitations ! Votre compte PayPal a été connecté avec succès",
+                            "description": "Prenons quelques études payées pour fêter ça."
+                        },
+                        "notVerifiedTol": {
+                            "title": "Félicitations ! Votre compte PayPal a été connecté avec succès",
+                            "description": "Si vous voulez être éligible pour participer à d'autres études de recherche rémunérées, [vérifiez votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                        },
+                        "notVerifiedNoTol": {
+                            "title": "Félicitations ! Votre compte PayPal a été connecté avec succès.",
+                            "description": "Pour commencer à participer à des études de recherche rémunérées, vous pouvez soit suivre l'étude pratique, soit [vérifier votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                        }
+                    },
+                    "error": {
+                        "location": {
+                            "title": "Désolé, nous ne pouvons pas vous payer...",
+                            "description": "Vos deux comptes PayPal et IntelliZoom doivent avoir les mêmes informations de localisation. Actualisez la page si vous voulez réessayer."
+                        },
+                        "severalAccounts": {
+                            "title": "Désolé, nous ne pouvons pas vous payer...",
+                            "description": "Votre compte PayPal est déjà utilisé pour un autre compte IntelliZoom. Actualisez la page si vous voulez réessayer."
+                        },
+                        "accessDenied": {
+                            "title": "Votre PayPal n'a pas été connecté parce que vous n'avez pas autorisé l'accès à IntelliZoom",
+                            "cta": "Essayez à nouveau"
+                        },
+                        "noLongerVerified": {
+                            "title": "Votre PayPal n'est plus vérifié",
+                            "description": "Veuillez suivre ces [instructions](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) pour vérifier votre compte PayPal et réessayer."
+                        }
+                    }
+                }
+            },
+            "studyEntrance": {
+                "notVerified": {
+                    "title": "Pour participer, vous devez connecter votre compte PayPal vérifié à IntelliZoom.",
+                    "description": "Si vous avez déjà connecté vos comptes, rappelez-vous que pour participer aux études, vous devez soit passer l'étude pratique, soit [vérifier votre compte](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) dans PayPal.",
+                    "cta": "Aller au tableau de bord"
+                }
+            },
+            "settings": {
+                "connect": {
+                    "title": "Connectez votre PayPal",
+                    "description": "Assurez-vous de recevoir vos paiements à temps en synchronisant votre compte avec PayPal.",
+                    "cta": "Connecter mon PayPal"
+                },
+                "disconnect": {
+                    "title": "PayPal : connecté",
+                    "description": "Votre compte est connecté avec succès à PayPal.",
+                    "cta": "Se déconnecter de PayPal",
+                    "doubleConfirmation": {
+                        "title": "Êtes-vous sûr de vouloir déconnecter votre PayPal ?",
+                        "description": "Si vous le faites, vous ne recevrez plus d'invitations à des études payantes. Vous renoncerez également à tout paiement en attente pour des études que vous avez pu terminer récemment.",
+                        "cta": "Déconnecter mon PayPal"
+                    }
+                }
+            }
+        },
+        "demographicsUpdate": {
+            "complete": {
+                "title": "🎉 Merci d'avoir actualisé votre profil",
+                "description": "C'est grâce à votre participation que nous pouvons offrir un service impeccable",
+                "cta": "Voir les études disponibles"
+            },
+            "infoMessage": "Les données que vous nous fournissez nous permettent de trouver les études les plus adaptées à votre profil."
+        }
+    }
+}

@@ -1,0 +1,763 @@
+{
+    "demographics": {
+        "category": {
+            "aboutMe": {
+                "birthday": {
+                    "question": "Vilket är ditt födelsedatum?",
+                    "shortName": "Födelsedag"
+                },
+                "country": {
+                    "question": "Vilket land bor du i?",
+                    "shortName": "Land"
+                },
+                "gender": {
+                    "question": "Vad är ditt kön?",
+                    "shortName": "Kön"
+                },
+                "postalCode": {
+                    "question": "Vad är ditt postnummer?",
+                    "shortName": "Postnummer"
+                },
+                "hispanic": {
+                    "question": "Är du av latinamerikanskt, latino- eller spanskt ursprung?",
+                    "shortName": "Latinamerikanskt, spanskt eller latino-ursprung"
+                },
+                "ethnicity_us": {
+                    "list": {
+                        "white": "Vit",
+                        "black": "Svart eller afroamerikan",
+                        "indian": "Amerkans indian eller alaskainuit",
+                        "asian": "Asiatisk",
+                        "islander": "Stillahavsöbo eller infödd hawaiian",
+                        "other": "Någon annan ras"
+                    }
+                },
+                "ethnicity_gb": {
+                    "list": {
+                        "white": "Vit",
+                        "traveller": "Resenär/irländsk resenär",
+                        "asian_indian": "Asiatisk eller asiatisk-brittisk: indier",
+                        "asian_pakistani": "Asiatisk eller asiatisk-brittisk: pakistanier",
+                        "asian_bangladeshi": "Asiatisk eller asiatisk-brittisk: bangladeshier",
+                        "asian_chinese": "Asiatisk eller asiatisk-brittisk: kines",
+                        "asian_other": "Asiatisk eller asiatisk-brittisk: annan asiat",
+                        "black": "Svart eller svart brittisk",
+                        "mixed": "Blandat eller flera"
+                    }
+                },
+                "householdDescription": {
+                    "list": {
+                        "cohabiting": "partnerskap / bor med någon",
+                        "single": "Singel, aldrig varit gift",
+                        "married": "Gift",
+                        "divorced": "Skild",
+                        "separated": "Har separerat",
+                        "widowed": "Änkestånd"
+                    },
+                    "question": "Vad är ditt civilstånd?",
+                    "shortName": "Civilstånd"
+                },
+                "education_us": {
+                    "list": {
+                        "no_hs_diploma": "Någon gymnasieskola eller lägre",
+                        "hs_or_ged": "Gymnasieexamen eller motsvarande",
+                        "some_college": "Genomgått någon högskola, men ingen examen",
+                        "two_year_degree": "Examen från högskola - högskoleexamen (2 år)",
+                        "four_year_degree": "Examen från högskola - kandidatexamen (4 år)",
+                        "post_grad_degree": "Doktorsexamen - MS, MA, MBA, PhD, etc.",
+                        "professional_degree": "Yrkesexamen - MD, DVM, DDS, etc."
+                    }
+                },
+                "languages": {
+                    "question": "Vilka språk talar du och känner dig bekväm med att ge feedback på?",
+                    "list": {
+                        "arabic": "Arabiska",
+                        "basque": "Baskiska",
+                        "berber": "Berbiska",
+                        "bulgarian": "Bulgariska",
+                        "catalan": "Katalanska",
+                        "chinese": "Kinesiska",
+                        "croatian": "Kroatiska",
+                        "czech": "Tjeckiska",
+                        "danish": "Danska",
+                        "dutch": "Holländska",
+                        "english": "Engelska",
+                        "estonian": "Estniska",
+                        "finnish": "Finska",
+                        "french": "Franska",
+                        "galician": "Galiciska",
+                        "german": "Tyska",
+                        "greek": "Grekiska",
+                        "hindi": "Hindi",
+                        "hungarian": "Ungerska",
+                        "italian": "Italienska",
+                        "irish": "Irländska",
+                        "latvian": "Lettiska",
+                        "lithuanian": "Litauiska",
+                        "japanese": "Japanska",
+                        "kurdish": "Kurdiska",
+                        "korean": "Koreanska",
+                        "maltese": "Maltesiska",
+                        "norwegian": "Norska",
+                        "polish": "Polska",
+                        "portuguese": "Portugisiska",
+                        "romanian": "Rumänska",
+                        "punjabi": "Punjabi",
+                        "russian": "Ryska",
+                        "scottish": "Skotska",
+                        "slovak": "Slovakiska",
+                        "slovenian": "Slovenska",
+                        "spanish": "Spanska",
+                        "swedish": "Svenska",
+                        "tagalog": "Tagalog",
+                        "tamil": "Tamil",
+                        "turkish": "Turkiska",
+                        "urdu": "Urdu",
+                        "welsh": "Walesiska"
+                    },
+                    "shortName": "Språk som du talar och känner dig bekväm med att ge återkoppling på"
+                },
+                "education_es": {
+                    "list": {
+                        "lessHighschool": "Viss obligatorisk gymnasieutbildning eller mindre",
+                        "highschool": "Slutförd obligatorisk gymnasieutbildning (E.S.O.), gymnasieexamen",
+                        "technical": "Yrkesexamen",
+                        "someBaccalaureate": "Har genomfört viss högskoleutbildning (spansk kandidatexamen)",
+                        "baccalaureate": "Högskoleutbildning (spansk kandidatexamen)",
+                        "someCollege": "Har genomfört vissa universitetsstudier",
+                        "college": "Universitetsexamen (3 år)",
+                        "masters": "Masterexamen",
+                        "phd": "Doktorsexamen"
+                    }
+                },
+                "education_gb": {
+                    "list": {
+                        "junior_infant": "Kombinerad förskola och lågstadieskola",
+                        "comprehensive": "Grundskola (GCSE)/Modern gymnasieskola (GCSE)/trivialskola (GCSE)/City Technology College (GCSE)/gymnasium",
+                        "college": "Högskola / Institution för högre utbildning",
+                        "open_college": "Öppen högskola - teknisk högskola - Institut / Lärarhögskola",
+                        "junior": "Lågstadieskola",
+                        "university": "Universitet / öppet universitet",
+                        "some_college": "Genomfört vissa universitetsstudier men inte tagit examen"
+                    }
+                },
+                "education_de": {
+                    "list": {
+                        "primary": "Primärt genomförande",
+                        "medium": "Mellanutbildning (gymnasium / MSA, o.s.v.)",
+                        "university": "Studentexamen / universitet",
+                        "associate": "Amerikansk examen efter två års högskolestudier",
+                        "secondaryOther": "Annan avslutad högre utbildning",
+                        "diploma": "Examen",
+                        "bachelor": "Fil. kand.",
+                        "magister": "Fil. Mag.",
+                        "master": "Master",
+                        "phd": "Doktorsexamen",
+                        "universityOther": "Annan universitetsexamen"
+                    }
+                },
+                "education_au": {
+                    "list": {
+                        "furtherqualification": "Ytterligare utbildning (mellan gymnasiet och universitetet)",
+                        "universityNoDegree": "Genomfört vissa universitetsstudier men inte tagit examen",
+                        "universityDegree": "Universitetsexamen",
+                        "master": "Masterexamen eller yrkesexamen",
+                        "doctorate": "Doktorsexamen",
+                        "belowGcse": "Lägre än gymnasieexamen",
+                        "gcse": "Gymnasieexamen eller motsvarande",
+                        "alevel": "Gymnasieexamen eller motsvarande"
+                    }
+                }
+            },
+            "household": {
+                "householdSize": {
+                    "question": "Hur många människor bor i ditt hus inklusive dig själv?",
+                    "list": {
+                        "1": "1 person",
+                        "2": "2 personer",
+                        "3": "3 personer",
+                        "4": "4 personer",
+                        "5": "5 personer",
+                        "more_5": "Fler än 5 personer"
+                    },
+                    "shortName": "Antal personer som bor i ditt hus"
+                },
+                "householdChildren": {
+                    "question": "Hur många barn under 18 år har du i ditt hushåll?",
+                    "shortName": "Antal barn under 18 i ditt hushåll"
+                },
+                "pets": {
+                    "question": "Vilka av följande husdjur bor i ditt hus?",
+                    "list": {
+                        "cat": "Katt(er)",
+                        "dog": "Hund(ar)",
+                        "bird": "Fågel(fåglar)",
+                        "fish": "Fisk(ar)",
+                        "noPets": "Jag har inga husdjur"
+                    },
+                    "shortName": "Husdjur som bor i ditt hus"
+                },
+                "ownRent": {
+                    "question": "Vad beskriver bäst ditt nuvarande hushåll?",
+                    "list": {
+                        "rented": "Hyr lägenhet/hus",
+                        "owned": "Äger lägenhet/hus",
+                        "parents": "Bor med föräldrar"
+                    },
+                    "shortName": "Nuvarande hushåll"
+                },
+                "purchaseDecisionMaker": {
+                    "question": "Vilka av följande saker i ditt hushåll är du ansvarig eller delvis ansvarig för att fatta beslut om?",
+                    "list": {
+                        "internet": "Internet",
+                        "tv": "TV",
+                        "banking": "Bankärenden",
+                        "groceries": "Handla mat",
+                        "automobile": "Bil",
+                        "mortgage": "Lån",
+                        "finance": "Ekonomi",
+                        "clothing": "Kläder"
+                    },
+                    "shortName": "Saker som du har ansvar för eller är delansvarig för att besluta om i hushållet"
+                },
+                "firstChild_gender": {
+                    "question": "Var god och ange könet på det första barnet under 18:",
+                    "shortName": "Könet på det första barnet under 18"
+                },
+                "firstChild_birthday": {
+                    "question": "Var god och ange när det första barnet under 18 är fött:",
+                    "shortName": "Födelsedag för första barnet under 18"
+                },
+                "secondChild_gender": {
+                    "question": "Var god och ange könet på det andra barnet under 18:",
+                    "shortName": "Könet på det andra barnet under 18"
+                },
+                "secondChild_birthday": {
+                    "question": "Var god och ange när det andra barnet under 18 är fött:",
+                    "shortName": "Födelsedag för andra barnet under 18"
+                },
+                "thirdChild_gender": {
+                    "question": "Var god och ange könet på det tredje barnet under 18:",
+                    "shortName": "Könet på det tredje barnet under 18"
+                },
+                "thirdChild_birthday": {
+                    "question": "Var god och ange när det tredje barnet under 18 är fött:",
+                    "shortName": "Födelsedag för tredje barnet under 18"
+                },
+                "fourthChild_gender": {
+                    "question": "Var god och ange könet på ditt fjärde barn under 18:",
+                    "shortName": "Könet på det fjärde barnet under 18"
+                },
+                "fourthChild_birthday": {
+                    "question": "Var god och ange när det fjärde barnet under 18 är fött:",
+                    "shortName": "Födelsedag för fjärde barnet under 18"
+                },
+                "fifthChild_gender": {
+                    "question": "Var god och ange könet på ditt femte barn under 18:",
+                    "shortName": "Könet på det femte barnet under 18"
+                },
+                "fifthChild_birthday": {
+                    "question": "Var god och ange när det femte barnet under 18 är fött:",
+                    "shortName": "Födelsedag för femte barnet under 18"
+                }
+            },
+            "technology": {
+                "mobilePlan": {
+                    "question": "Vilken typ av mobilabonnemang har du?",
+                    "list": {
+                        "prepaid": "Förbetalt",
+                        "contract": "Abonnemang",
+                        "noPhone": "Jag har ingen mobiltelefon"
+                    },
+                    "shortName": "Typ av mobilabonnemang"
+                },
+                "electronicDevices": {
+                    "question": "Vilka av följande elektroniska produkter äger du?",
+                    "list": {
+                        "flatTv": "Platt-TV",
+                        "handheldConsole": "Handhållen spelkonsol (Nintendo 2DS, Nintendo Switch)",
+                        "stationaryConsole": "Stationär spelkonsol (PlayStation, Xbox)",
+                        "videoCamera": "Videokamera",
+                        "digitalCamera": "Digitalkamera",
+                        "desktopPc": "PC/Mac stationär dator",
+                        "laptopPc": "PC/Mac bärbar dator",
+                        "cellPhone": "Mobiltelefon",
+                        "cordlessPhone": "Trådlös telefon",
+                        "projector": "Projektor",
+                        "documentScanner": "Dokumentskanner",
+                        "cableTv": "Kabel-TV/satellit-TV",
+                        "digitalTv": "Digital TV-mottagare",
+                        "printer": "Skrivare",
+                        "multipurposePrinter": "Multifunktionsskrivare (fax, skrivare, telefon, etc.)",
+                        "homeNetwork": "Hemnätverk / Trådlöst internet",
+                        "surroundSystem": "Surroundsystem / hemmabio",
+                        "digitalMediaReceiver": "Digital mediamottagare (ex. Apple TV, Roku)",
+                        "tablet": "Surfplatta (ex. iPad)",
+                        "ebook": "E-boksläsare (ex. Kindle)"
+                    },
+                    "shortName": "Elektroniska produkter som du äger"
+                }
+            },
+            "occupation": {
+                "employment": {
+                    "question": "Vad är din nuvarande anställningsstatus?",
+                    "list": {
+                        "employed_full_time": "Anställd på heltid",
+                        "employed_part_time": "Anställd på deltid",
+                        "self_employed": "Egenföretagare",
+                        "small_business_owner": "Småföretagare",
+                        "contractor_or_consultant": "Entreprenör eller konsult",
+                        "full_time_military": "Verksam militär",
+                        "inactive_military": "Ej aktiv militär/veteran",
+                        "homemaker": "Hemmafru/man på heltid",
+                        "retired": "Pensionär",
+                        "student": "Student",
+                        "unable_or_disabled": "Funktionshindrad och ej arbetsförmögen",
+                        "looking_for_work": "Tillfälligt arbetslös"
+                    },
+                    "shortName": "Aktuell jobbstatus"
+                },
+                "industry": {
+                    "question": "Inom vilken av följande branscher arbetar du?",
+                    "list": {
+                        "accounting": "Redovisning",
+                        "administrative": "Administration och supporttjänster",
+                        "advertising": "Marknadsföring",
+                        "agriculture": "Lantbruk/fiske",
+                        "architecture": "Arkitektur",
+                        "arts_recreation": "Konst, underhållning och nöjesbranschen",
+                        "automotive": "Bilindustri",
+                        "aviation": "Flyg",
+                        "banking_finance": "Bank/finans",
+                        "biotech": "Bioteknik",
+                        "brokerage": "Mäklarbranschen",
+                        "chemicals_plastics_rubber": "Kemikalier/plast/gummi",
+                        "communications_information": "Kommunikation/information",
+                        "computer_hardware": "Datorhårdvara",
+                        "computer_software": "Datorprogramvara",
+                        "computer_reseller": "Datoråterförsäljare (mjukvara/hårdvara)",
+                        "construction": "Konstruktion",
+                        "consulting": "Konsult",
+                        "consumer_electronics": "Konsumentelektronik",
+                        "consumer_goods": "Konsumentförpackade varor",
+                        "education": "Utbildning",
+                        "energy_utilities": "Energi/försörjning/olja och gas",
+                        "engineering": "Ingenjörskonst",
+                        "environmental_services": "Miljötjänster",
+                        "fashion_apparel": "Mode/kläder",
+                        "food_beverage": "Mat/dryck",
+                        "government_public_sector": "Myndighet/offentlig sektor",
+                        "healthcare": "Hälso- och sjukvård",
+                        "hospitality_tourism": "Hotell/turism",
+                        "human_resources": "Personalavdelning",
+                        "information_technology": "Informationsteknologi",
+                        "insurance": "Försäkring",
+                        "internet": "Internet",
+                        "legal_law": "Rättsväsende/juridik",
+                        "management": "Förvaltning",
+                        "manufacturing": "Tillverkning",
+                        "market_research": "Marknadsundersökningar",
+                        "marketing_sales": "Marknadsföring/försäljning",
+                        "media_entertainment": "Media/underhållning",
+                        "military": "Militärt",
+                        "non_profit_social_services": "Ideellt/social verksamhet",
+                        "personal_services": "Personlig assistans",
+                        "pharmaceuticals": "Läkemedel",
+                        "printing_publishing": "Tryck/utgivning",
+                        "professional_services": "Professionella tjänster",
+                        "public_administration": "Offentlig administration",
+                        "public_relations": "Public relations",
+                        "real_estate_property": "Fastigheter/egendom",
+                        "retail_wholesale_trade": "Detaljhandel/grossisthandel",
+                        "scientific_technical_services": "Vetenskapliga eller tekniska tjänster",
+                        "security": "Säkerhet",
+                        "shipping_distribution": "Transport/distribution",
+                        "telecommunications": "Telekommunikationer",
+                        "transportation": "Transporter",
+                        "user_experience_research": "Forskning om kundupplevelser"
+                    },
+                    "shortName": "Bransch du jobbar inom"
+                },
+                "jobDepartment": {
+                    "question": "På vilket avdelning inom din organisation arbetar du huvudsakligen?",
+                    "list": {
+                        "admin": "Administration/allmän personal",
+                        "customer_service": "Kundtjänst",
+                        "executive": "Verkställande ledarskap/högre chefsnivå",
+                        "finance_accounting": "Ekonomi/bokföring",
+                        "human_resources": "Personalavdelning",
+                        "legal": "Juridik/rättsväsende",
+                        "marketing": "Marknadsföring",
+                        "operations": "Drift",
+                        "procurement": "Inköp",
+                        "product_management": "Produktledning",
+                        "sales": "Sälj-/affärsutveckling",
+                        "technology_hardware": "Utveckling av hårdvaruteknologi (inte bara IT)",
+                        "technology_software": "Utveckling av mjukvara (inte bara IT)",
+                        "technology_implementation": "Implementering av teknologi",
+                        "other": "Annat"
+                    },
+                    "shortName": "Avdelning du jobbar på"
+                },
+                "jobTitle": {
+                    "question": "Vilken är din yrkestitel, nivå eller ditt ansvarsområde?",
+                    "list": {
+                        "top_tier": "Högre chef (t.ex. vd, ekonomichef), ägare, partner, styrelseordförande",
+                        "vp_tier": "Vice vd (verkställande vice vd, direktör, assisterande vice vd, vice ordförande)",
+                        "director_tier": "Direktör (avdelningsdirektör, generaldirektör, direktör)",
+                        "management_tier": "Chef (koncernchef, högre chef, chef, programchef)",
+                        "analyst": "Analytiker",
+                        "associate": "Assistent eller biträdande",
+                        "administrative": "Administrativ personal (kontorspersonal eller stödpersonal)",
+                        "individual_contributor": "Individuell medarbetare",
+                        "contractor": "Entreprenör",
+                        "consultant": "Konsult",
+                        "intern": "Praktikant",
+                        "volunteer": "Volontärarbetare",
+                        "other": "Annat"
+                    },
+                    "shortName": "Jobbtitel"
+                },
+                "decisionMaker": {
+                    "question": "Välj de avdelningar/produkter där du har inflytande eller beslutanderätt när det gäller utgifter/inköp.",
+                    "list": {
+                        "itHardware": "IT-hårdvara",
+                        "itSoftware": "IT-mjukvara",
+                        "printers": "Printrar och kopiatorer",
+                        "financial": "Ekonomiavdelningen",
+                        "humanResources": "Personalavdelning",
+                        "officeSupplies": "Kontorsutrustning",
+                        "corporateTravel": "Tjänsteresor",
+                        "telecommunications": "Telekommunikationer",
+                        "sales": "Försäljning",
+                        "shipping": "Varutransport",
+                        "operations": "Drift",
+                        "legalServices": "Juridiska tjänster",
+                        "marketing": "Marknadsföring/annonsering",
+                        "security": "Säkerhet",
+                        "foodServices": "Matservering",
+                        "autoleasing": "Leasing/köp av bilar"
+                    },
+                    "shortName": "Avdelningar/produkter där du har inflytande eller beslutsrätt över utgifter/inköp."
+                },
+                "companySize": {
+                    "question": "Ungefär hur många anställda har din organisation (samtliga verksamhetsställen)?",
+                    "shortName": "Anställda i din organisation"
+                }
+            },
+            "hobbiesAndInterests": {
+                "hobbies": {
+                    "question": "Vilka är dina hobbyer och intressen?",
+                    "list": {
+                        "artsCrafts": "Konst och hantverk",
+                        "boating": "Båtliv",
+                        "camping": "Camping",
+                        "cooking": "Matlagning",
+                        "golf": "Golf",
+                        "healthFitness": "Hälsa och fitness",
+                        "huntingFishing": "Jakt/fiske",
+                        "interiorDecorating": "Inredningsdesign/renovering",
+                        "teamSports": "Lagsporter",
+                        "playingMusic": "Spela musik",
+                        "videogames": "Spela datorspel",
+                        "reading": "Läsa",
+                        "skiing": "Åka skidor",
+                        "technology": "Teknologi/datorer",
+                        "travel": "Resa",
+                        "tvSports": "Titta på sport på tv"
+                    },
+                    "shortName": "Hobbyer och intressen"
+                },
+                "socialMedia": {
+                    "question": "Vilka av följande sociala medieplattformar använder eller deltar du aktivt i?",
+                    "shortName": "Sociala medieplattformar som du aktivt använder"
+                },
+                "streamingMovies": {
+                    "question": "Hur ofta streamar eller laddar du ner filmer för hemmavisning i genomsnitt?",
+                    "list": {
+                        "less1": "Mindre än en gång i månaden",
+                        "1": "En gång i månaden",
+                        "2": "Två gånger i månaden",
+                        "3": "Tre gånger i månaden",
+                        "4": "Fyra gånger i månaden",
+                        "5": "Fem gånger i månaden",
+                        "none": "Jag varken streamar eller laddar ner filmer"
+                    },
+                    "shortName": "Hur ofta du laddar ner eller strömmar film"
+                },
+                "gambling": {
+                    "question": "Vilken typ av spelande ägnar du dig åt?",
+                    "list": {
+                        "onlineSports": "Sportbetting online",
+                        "onlineLottery": "Lotterier/skraplotter online",
+                        "onlinePoker": "Poker / kasinospel online",
+                        "offlineSports": "Sportbetting offline",
+                        "offlineLottery": "Lotterier/skraplotter offline",
+                        "bingo": "Bingo",
+                        "casinoPoker": "Kasino poker / BlackJack / Roulette / osv.",
+                        "casinoSlot": "Kasinospelautomater",
+                        "horseTrack": "Spel på hästar",
+                        "carRace": "Bilsportsbetting",
+                        "none": "Jag spelar inte alls"
+                    },
+                    "shortName": "Typ av spel som du satsar pengar på"
+                }
+            },
+            "financial": {
+                "financialProduct": {
+                    "question": "Vilka av följande finansiella produkter har du?",
+                    "list": {
+                        "creditCard": "Kreditkort",
+                        "checkingAccount": "Checkkonto",
+                        "savingsAccount": "Sparkonto",
+                        "personalLoan": "Privatlån",
+                        "mortgage": "Bostadslån"
+                    },
+                    "shortName": "Finansiella produkter som du äger"
+                },
+                "investments_us": {
+                    "list": {
+                        "none": "Jag har inga besparingar/investeringar",
+                        "401k": "Tjänstepension",
+                        "ira": "Pensionssparkonto",
+                        "bonds": "Obligationer",
+                        "deposit": "Bankcertifikat",
+                        "mutualFunds": "Fonder"
+                    }
+                },
+                "investments_gb": {
+                    "list": {
+                        "none": "Jag har inga besparingar / investeringar",
+                        "personalPension": "Privat pension",
+                        "workplacePension": "Tjänstepension",
+                        "unitTrusts": "Aktiefond",
+                        "oeic": "OEIC - Investmentbolag",
+                        "etf": "ETF-värdepapper (eller börshandlade fonder)",
+                        "investmentTrusts": "Investmentbolag",
+                        "fixedIncomeProducts": "Ränteprodukt"
+                    }
+                }
+            },
+            "healthAndFitness": {
+                "diagnosed_ailments": {
+                    "question": "Har du diagnostiserats med någon av följande sjukdomar/tillstånd?",
+                    "list": {
+                        "acne": "Acne",
+                        "add_adhd": "ADD / ADHD",
+                        "allergies": "Allergier (ej förknippade med hösnuva)",
+                        "alzheimers": "Alzheimers",
+                        "anemia": "Anemi",
+                        "angina": "Kärlkramp",
+                        "anxiety": "Ångest",
+                        "arrhythmia": "Arytmi / Förmaksflimmer",
+                        "arthritis": "Ledgångsreumatism",
+                        "asthma": "Astma",
+                        "backPain": "Ryggvärk",
+                        "bipolar": "Bipolär sjukdom",
+                        "bloodDisorders": "Blodsjukdomar (förutom cancer)",
+                        "bronchitits": "Bronkit",
+                        "cancer": "Cancer",
+                        "cardiovascular": "Kardiovaskulära sjukdomar",
+                        "carpalTunnel": "Karpaltunnelsyndrom",
+                        "chronicFatigue": "Kroniskt utmattningssyndrom",
+                        "chronicKidney": "Kronisk njursjukdom",
+                        "chronicLymphocytic": "Kronisk lymfatisk leukemi",
+                        "copd": "KOL",
+                        "cirrhosis": "Cirros",
+                        "colitis": "Kolit",
+                        "constipation": "Förstoppning",
+                        "crohns": "Crohns sjukdom",
+                        "cystic": "Cystisk fibros",
+                        "dementia": "Demens",
+                        "dental": "Tandbesvär",
+                        "depresssion": "Depression",
+                        "diabetes1": "Typ 1 diabetes",
+                        "diabetes2": "Typ 2 diabetes",
+                        "diarrhea": "Diarré",
+                        "eczema": "Eksem",
+                        "emphysema": "Emfysem",
+                        "endometriosis": "Endometrios",
+                        "epilepsy": "Epilepsi",
+                        "erectileDysfunction": "Erektil dysfunktion (ED)",
+                        "fibromyalgia": "Fibromyalgi",
+                        "foodIntolerances": "Matintoleranser",
+                        "gerd": "Gastroesofageal refluxsjukdom (GERD)",
+                        "gastroenteritis": "Gastroenterit",
+                        "gout": "Gikt",
+                        "hemophilia": "Blödarsjuka",
+                        "hemorrhoids": "Hemorrojder",
+                        "hayFever": "Hösnuva",
+                        "heartConditions": "Hjärtsjukdomar (förutom hjärtsvikt)",
+                        "heartFailure": "Hjärtsvikt",
+                        "hepatitis": "Hepatit",
+                        "cholesterol": "Högt kolesterol",
+                        "aids": "HIV - Aids",
+                        "hypertension": "Hypertoni",
+                        "hypothyroidism": "Hypotyreos",
+                        "impotence": "Impotens",
+                        "infertility": "Infertilitet",
+                        "irritableBowelSyndrome": "Irritabel tarmsyndrom",
+                        "jointReplacement": "Ledplastik",
+                        "kidneyFailure": "Njursvikt",
+                        "liverCirrhosis": "Levercirros",
+                        "liverDisorders": "Leversjukdomar (andra än cancer eller cirros)",
+                        "lupus": "Lupus",
+                        "luymeDisease": "Borreliainfektion",
+                        "menopause": "Klimakteriet",
+                        "migraine": "Migrän",
+                        "motorNeuronDisease": "Motorneuronsjukdom",
+                        "multipleSclerosis": "Multipel skleros",
+                        "obesity": "Obesitas",
+                        "osteoarthritis": "Artros",
+                        "osteoporosis": "Osteoporos",
+                        "overactiveBladder": "Överaktiv blåsa",
+                        "parkinons": "Parkinsons sjukdom",
+                        "pneumonia": "Lunginflammation",
+                        "prematureEjaculation": "För tidig utlösning",
+                        "psoriasis": "Psoriasis",
+                        "reflux": "Reflux",
+                        "restlessLegSyndrome": "Willis-Ekboms sjukdom",
+                        "rheumatoidArthritis": "Reumatism",
+                        "schizophrenia ": "Schizofreni",
+                        "shingles ": "Bältros",
+                        "sinusitis": "Bihåleinflammation",
+                        "sleepingDisorder": "Sömnstörning",
+                        "smoking": "Rökberoende",
+                        "stroke": "Stroke",
+                        "substanceAbuse": "Missbruk av droger/alkohol",
+                        "syphilis": "Syfilis",
+                        "thyroidProblems": "Hypotyreos",
+                        "tuberculosis ": "Tuberkulos",
+                        "ulcerativeColitis": "Ulcerös kolit",
+                        "ulcers": "Magsår",
+                        "urinaryIncontinence": "Urininkontinens"
+                    },
+                    "shortName": "Sjukdomar/åkommor som du har fått diagnostiserade"
+                }
+            },
+            "travel": {
+                "travelFlights": {
+                    "question": "Hur ofta reser du med flyg?",
+                    "list": {
+                        "everyMonth": "En gång i månaden eller oftare",
+                        "every2-4Months": "Var 2:a - 4:e månad",
+                        "twiceYear": "Två gånger om året",
+                        "onceYear": "En gång om året"
+                    },
+                    "shortName": "Flygresefrekvens"
+                },
+                "flightPurpose": {
+                    "question": "I vilka syften reser du med flyg?",
+                    "list": {
+                        "business": "Affärer",
+                        "leisure": "Semester",
+                        "both": "Både affärer och semester",
+                        "neither": "Ingetdera; jag reser inte med flyg"
+                    },
+                    "shortName": "Flygresesyfte"
+                },
+                "flightDestination": {
+                    "question": "Vilken sorts flyg tar du när du flyger?",
+                    "list": {
+                        "domestic": "Inrikes",
+                        "international": "Internationellt",
+                        "both": "Både inrikes och internationellt",
+                        "neither": "Föredrar att inte svara"
+                    },
+                    "shortName": "Typer av flyg som du tar"
+                },
+                "domesticAirlines_us": {
+                    "question": "Vilka inrikesflygbolag har du flugit med under de senaste 12 månaderna?",
+                    "list": {
+                        "none": "Jag har inte flugit inrikes under de senaste 12 månaderna."
+                    },
+                    "shortName": "Inrikesflygbolag som du har flugit med under de senaste 12 månaderna"
+                },
+                "internationalAirlines": {
+                    "question": "Vilka internationella flygbolag har du flugit med under de senaste 12 månaderna?",
+                    "list": {
+                        "none": "Jag har inte flugit internationellt under de senaste 12 månaderna."
+                    },
+                    "shortName": "Internationella flygbolag som du har flugit med under de senaste 12 månaderna"
+                },
+                "accomodationType": {
+                    "question": "Vilken sorts boende har du haft under det gångna året?",
+                    "list": {
+                        "houseRental": "Hyrt hus (AirBnB eller VRBO)",
+                        "bedBreakfast": "Pensionat",
+                        "campground": "Campingplats / Husvagnsparkering",
+                        "hostel": "Vandrarhem",
+                        "hotel": "Hotell",
+                        "motel": "Motell",
+                        "personalVacationHome": "Privat semesterhem",
+                        "timeshare": "Andelslägenhet"
+                    },
+                    "shortName": "Boendetyper som du har vistats på under det senaste året"
+                },
+                "hotelLoyalty": {
+                    "question": "Tillhör du något av följande lojalitetsprogram hos ett hotell?",
+                    "shortName": "Hotells lojalitetsprogram som du är del av"
+                }
+            }
+        },
+        "generic": {
+            "education": {
+                "question": "Vilken är den högsta utbildningsnivån du har slutfört?",
+                "shortName": "Högsta utbildningsnivå"
+            },
+            "householdIncome": {
+                "question": "Hur mycket total sammanlagd årsinkomst tjänar alla medlemmar i ditt hushåll före skatt?",
+                "shortName": "Sammanlagd årsinkomst för hela hushållet (före skatt)"
+            },
+            "mobileCarrier": {
+                "question": "Vilken av dessa är operatör för den mobiltelefon du använder oftast?",
+                "shortName": "Leverantör för den mobiltelefon som du oftast använder"
+            },
+            "companyRevenue": {
+                "question": "Ungefär hur mycket omsätter ditt företag årligen?",
+                "shortName": "Ditt företags uppskattade årliga intäkter"
+            },
+            "subscriptions": {
+                "question": "Vilka av följande tjänster abonnerar du på?",
+                "shortName": "Tjänster du prenumererar på"
+            },
+            "investments": {
+                "question": "Vilka typer av spar- och/eller investeringskonton har du?",
+                "realEstate": "Fastighet",
+                "savingsAccount": "Sparkonto",
+                "shares": "Aktier",
+                "shortName": "Spar- eller investeringskonton som du har"
+            },
+            "investableAssets": {
+                "question": "Vilken av dessa beskriver bäst dina hushållsinvesteringar (exklusive bostadsägande)?",
+                "shortName": "Det ungefärliga värdet på hushållets investerbara tillgångar (innefattar inte husägande)"
+            },
+            "airlineLoyalty": {
+                "question": "Tillhör du något av följande lojalitetsprogram hos ett flygbolag?",
+                "list": {
+                    "none": "Jag tillhör inte ett lojalitetsprogram hos något flygbolag"
+                },
+                "shortName": "Flygbolags lojalitetsprogram som du är del av"
+            },
+            "hotelLoyalty": {
+                "list": {
+                    "none": "Jag tillhör inte ett lojalitetsprogram hos något hotell"
+                }
+            },
+            "ethnicity": {
+                "question": "Vilket av följande motsvarar bäst din etniska bakgrund?",
+                "shortName": "Etniskt ursprung"
+            },
+            "noPhone": {
+                "noPhone": "Jag har ingen mobiltelefon"
+            }
+        }
+    },
+    "izPanel": {
+        "common": {
+            "demographics": {
+                "billion": "miljard"
+            }
+        }
+    }
+}

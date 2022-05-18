@@ -1,0 +1,227 @@
+{
+    "izPanel": {
+        "common": {
+            "androidPhone": "Android telefoon",
+            "androidTablet": "Android-tablet",
+            "chrome": "Chrome",
+            "claim": "Jouw mening telt. Laat je betalen om je ervaringen te delen en een impact te hebben op producten waar je van houdt en die je belangrijk vindt.",
+            "comma": ",",
+            "contactUsLowercaseImperative": "contacteer ons.",
+            "copyright": "ntelliZoom Panel © 2022. Alle rechten voorbehouden.",
+            "edge": "Edge",
+            "email": "E-mail",
+            "firefox": "Firefox",
+            "ie": "Internet Explorer {{version}}",
+            "iPad": "iPad",
+            "iPhone": "iPhone",
+            "logIn": "Log in",
+            "logInImperative": "Log in",
+            "logInLowercase": "log in",
+            "next": "Volgende",
+            "noRobot": "Ik ben geen robot",
+            "or": "of",
+            "orPressEnter": "of druk op Enter",
+            "password": "Wachtwoord",
+            "period": ".",
+            "privacyLink": "Privacybeleid",
+            "requiredField": "(Verplicht)",
+            "safari": "Safari",
+            "signUp": "Aanmelden",
+            "submit": "Indienen",
+            "termsLink": "Servicevoorwaarden",
+            "day": "DD",
+            "month": "MM",
+            "year": "JJJJ",
+            "facebook": "Facebook",
+            "google": "Google",
+            "save": "Spaar",
+            "send": "Verzenden",
+            "demographics": {
+                "female": "Vrouwelijk",
+                "lessThan": "Minder dan",
+                "male": "Mannelijk",
+                "na": "Ik geef er de voorkeur aan niet te antwoorden",
+                "no": "Nee",
+                "none": "Geen van bovenstaande",
+                "noneOrNoTell": "Geen van bovenstaande / Ik zeg het liever niet",
+                "orMore": "of meer",
+                "other": "Andere",
+                "otherFeminine": "Andere",
+                "otherFemininePlural": "Andere",
+                "otherPlural": "Andere",
+                "unknown": "Ik weet het niet.",
+                "yes": "Ja",
+                "nonBinary": "Niet binair",
+                "noneMasculine": "Geen van bovenstaande",
+                "no_answer": "Ik geef er de voorkeur aan niet te antwoorden",
+                "million": "Miljoen",
+                "millions": "Miljoen"
+            },
+            "tip": {
+                "paypal": {
+                    "title": "We gebruiken PayPal om onze deelnemers te betalen",
+                    "description": "Zorg ervoor dat aan je e-mail een PayPal-rekening is gekoppeld. Onthoud dat je er altijd een gratis kunt aanmaken!"
+                }
+            },
+            "finish": "Afronden",
+            "gotIt": "Begrepen",
+            "emailNotifications": {
+                "title": "Studie-uitnodigingen en nieuwsbrief",
+                "mkt": {
+                    "title": "Nieuwsbrief en marketingcommunicatie",
+                    "description": "We kunnen je af en toe sturen:\n\n- Updates over hoe jouw mening van invloed is op de producten waar je van houdt.\n- Een paar tips over hoe je een meester kunt worden in het geven van feedback."
+                },
+                "studyInvites": {
+                    "title": "Uitnodigingen voor studies naar de gebruikerservaring",
+                    "description": "Ontvang uitnodigingen voor gebruikerservaringsstudies die:\n\n- Je kunt op afstand nemen, vanuit het comfort van je huis.\n- Het duurt gemiddeld 10-20 minuten om te antwoorden.\n- Betaal {{tolIncentive}} gemiddeld voor onderzoeken die audio en video opnemen. Voor standaardonderzoeken is de betaling gemiddeld {{surveyIncentive}}.",
+                    "confirmationModal": {
+                        "title": "Ben je zeker?",
+                        "description": "Als je deze optie deactiveert, ontvang je geen uitnodigingen meer voor betaalde studies.",
+                        "cta": "Ja, deactiveren"
+                    }
+                },
+                "description": "###Hallo\n\nDit zijn de berichten waarop je geabonneerd bent:",
+                "description_morning": "###Goedemorgen,\n\nDit zijn de berichten waarop je geabonneerd bent:",
+                "descriptionName_morning": "###Goedemorgen {{userName}},\n\nDit zijn de berichten waarop je geabonneerd bent:",
+                "description_afternoon": "###Goedemiddag,\n\nDit zijn de berichten waarop je geabonneerd bent:",
+                "descriptionName_afternoon": "###Goedemiddag {{userName}},\n\nDit zijn de berichten waarop je geabonneerd bent:",
+                "description_evening": "###Goedenavond,\n\nDit zijn de berichten waarop je geabonneerd bent:",
+                "descriptionName_evening": "###Goedenavond {{userName}},\n\nDit zijn de berichten waarop je geabonneerd bent:"
+            },
+            "language": {
+                "title": "Taal",
+                "englishUS": "English US",
+                "englishUK": "English UK",
+                "spanish": "Español",
+                "german": "Deutsch",
+                "danish": "Dansk",
+                "french": "Français",
+                "dutch": "Nederlands",
+                "swedish": "Svenska"
+            },
+            "cancel": "Annuleer",
+            "edit": "Bewerken",
+            "studies": {
+                "cardSort": {
+                    "title": "Kaart Sorteren",
+                    "description": "In dit soort studies zijn we vooral geïnteresseerd in hoe je bepaalde items zou groeperen. Dit helpt de onderzoeker te begrijpen hoe de gebruiker denkt wanneer hij categoriseert.\n\nOnthoud dat er geen foute antwoorden zijn. We zijn alleen geïnteresseerd in je eerlijke mening."
+                },
+                "practice": {
+                    "title": "Praktijkstudie",
+                    "description": "Doe mee aan deze praktijkstudie en beheers de kunst van het feedback geven.\n\nAls je meedoet en slaagt voor onze beoordeling, kunnen we je uitnodigen voor beter betaalde studies."
+                },
+                "survey": {
+                    "description": "Een standaard vraag-antwoord onderzoek. Geen speciale effecten.\n\nOnthoud, er zijn geen foute antwoorden. We zijn alleen geïnteresseerd in je eerlijke mening.",
+                    "title": "Enquête"
+                },
+                "taskBased": {
+                    "title": "Taakgericht",
+                    "description": "In een taakgerichte studie, zoals de naam al zegt, wordt je door een reeks taken geleid die je moet volbrengen.\n\nSommige taken zijn eenvoudig, andere zijn wat complexer. We willen graag weten hoe gemakkelijk of moeilijk je ze vindt.\n\nOnthoud, er zijn geen foute antwoorden. We zijn alleen geïnteresseerd in je eerlijke mening."
+                },
+                "tol": {
+                    "title": "Denk hardop",
+                    "description": "Bij dit soort studies moet je je gedachten uitspreken terwijl je taken uitvoert.\n\nOnthoud, er zijn geen foute antwoorden. Als we je een idee, ontwerp of concept laten zien, als je het haat, haat je het, als je het geweldig vindt, vind je het geweldig, als het geen enkele emotie losmaakt en het eigenlijk tijdverspilling is... zeg het dan ook!\n\nWe zijn alleen geïnteresseerd in je eerlijke mening."
+                },
+                "requirements": {
+                    "anyBrowser": "Een bijgewerkte browser",
+                    "aWorking": "Een werk",
+                    "goodLightning": "Een goed verlichte plaats",
+                    "headphones": "Hoofdtelefoon",
+                    "maybeRecorded": "Je hebt geen webcam of microfoon nodig, maar je scherm kan worden opgenomen. Zorg ervoor dat je elke taak leest en doe je best om ze uit te voeren.",
+                    "microphone": "Microfoon",
+                    "quietEnvironment": "Een stille omgeving",
+                    "screener": "Er kunnen een paar vragen gesteld worden om te zien of je in aanmerking komt voor deze studie, veel succes! :)",
+                    "strongConnection": "Sterke verbinding",
+                    "updatedBrowser": "Laatste versie van",
+                    "webcam": "Webcam",
+                    "title": "Voor deze studie heb je nodig:"
+                },
+                "participate": "Deelnemen",
+                "devices": "Apparaten",
+                "youWillNeed": "Je hebt nodig",
+                "manualSourcing": {
+                    "title": "Blijf op de hoogte vanw je e-mail!",
+                    "description": "Voor studies in {{country}} gebruiken we emails om onze uitnodigingen te beheren.\n\nOm ervoor te zorgen dat je zo vaak mogelijk wordt uitgenodigd, moet je ervoor zorgen dat je profiel volledig en bijgewerkt is."
+                },
+                "treeTest": {
+                    "title": "Boomtest",
+                    "description": "In dit soort studies proberen wij de best mogelijke organisatie en naamgeving voor navigatiemenu's te vinden.\n\nDat wil zeggen, of de categorieën zinvol zijn voor jou en of de items zijn waar je ze verwacht.\n\nOnthoud, er zijn geen foute antwoorden. We zijn alleen geïnteresseerd in je eerlijke mening."
+                },
+                "clickTest": {
+                    "title": "Klik Test",
+                    "description": "Met een kliktest willen we begrijpen waar je zou klikken als we je vragen een bepaalde actie uit te voeren.\n\nOnthoud, er zijn geen foute antwoorden. We zijn alleen geïnteresseerd in je eerlijke mening."
+                },
+                "projectId": "Studie ID voor je referentie: {{projectId}}",
+                "loadingScreen": {
+                    "title": "De studie binnengaan..."
+                },
+                "recaptchaCheck": {
+                    "title": "Een seconde! Alleen mensen toegestaan."
+                },
+                "moderated": {
+                    "title": "Online interview",
+                    "description": "Je zult in staat zijn om een tijdslot te bekijken en te kiezen dat het beste bij je past.",
+                    "book": "Boek een sessie",
+                    "modalDescription": "In dit onderzoek zit je in een live videogesprek met een UX-onderzoeker die je zal vragen om je gedachten te geven en feedback te geven op een digitale ervaring.\n\nDeze sessie zal ongeveer {{sessionDuration}} minuten duren. Je zal ook kiezen wanneer je deelneemt op basis van de beschikbare tijdslots.",
+                    "mobileRequired": "Een mobiel telefoonnummer is vereist om een sessie in te plannen",
+                    "smsReminder": "Om een sms-herinnering te ontvangen",
+                    "contactUser": "Om contact met je op te nemen als iets verkeerd gaat",
+                    "why": "Waarom?"
+                },
+                "sessionDuration": {
+                    "title": "Duur van de sessie",
+                    "min": "{{sessionLength}} minuten"
+                },
+                "scheduled": {
+                    "warning": "**Opmerking:** als je niet meer op dit tijdstip kan komen, gelieve je deelname zo snel mogelijk te [annuleren]({{entranceLink}}) of [aan te passen]({{entranceLink}}). ",
+                    "join": "Nu deelnemen",
+                    "notice": "Je kunt 10 minuten voor de starttijd deelnemen aan de sessie.",
+                    "title": "Hier zijn de details van je aanstaande sessie",
+                    "nowTitle": "Laten we beginnen! Je kunt nu aan de sessie deelnemen"
+                }
+            },
+            "and": "en",
+            "aUppercase": "Een",
+            "desktop": "Computer",
+            "phone": "Telefoon",
+            "tablet": "Tablet",
+            "selectAnOption": "Selecteer een optie",
+            "comingSoon": "Binnenkort",
+            "saved": "Opgeslagen",
+            "greetings": {
+                "greeting_morning": "Goedemorgen!",
+                "greetingName_morning": "Goedemorgen {{userName}}!",
+                "greeting_afternoon": "Goedemiddag!",
+                "greetingName_afternoon": "Goedemiddag! {{userName}}!",
+                "greeting_evening": "Goedenavond!",
+                "greetingName_evening": "Goedenavond {{userName}}!"
+            },
+            "noThanks": "Nee, dank je wel"
+        },
+        "studiesDashboard": {
+            "upcomingScheduledStudies": {
+                "header": "Niet vergeten! Je volgende sessie is in",
+                "days_plural": "{{count}} dagen ",
+                "seeDetails": "Zie details",
+                "show": "Toon komende sessies",
+                "hide": "Verberg komende sessies",
+                "studiesHeader": "Komende",
+                "headerDateOn": "Niet vergeten! Je volgende sessie is op",
+                "minutesNoHours_plural": "{{count}} minuten ",
+                "hours_plural": "{{count}} uren ",
+                "minutes_plural": "en {{count}} minuten ",
+                "days": "{{count}} dag ",
+                "cardsHeader": "Je bent ingepland voor:",
+                "minutesNoHours": "{{count}} minuut ",
+                "minutes": "en {{count}} minuut ",
+                "hours": "{{count}} uur ",
+                "sessionDetails": "Sessie gegevens"
+            }
+        },
+        "studies": {
+            "sessionDetails": {
+                "title": "Laten we beginnen! Je kunt nu de sessie binnengaan"
+            }
+        }
+    }
+}

@@ -1,0 +1,267 @@
+{
+    "izPanel": {
+        "emails": {
+            "footer": {
+                "support": "Help!",
+                "copyright": "IntelliZoom Panel wordt beheerd door UserZoom Technologies, Inc. © 2019-2022 Alle rechten voorbehouden. <br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
+                "unsubscribe": "Afmelden van onze e-mails",
+                "termsOfService": "Servicevoorwaarden",
+                "privacyPolicy": "Privacybeleid",
+                "address": "IntelliZoom Panel wordt beheerd door UserZoom Technologies, Inc. © 2019-2022 Alle rechten voorbehouden. <br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
+                "thankYou": "Bedankt, <br> UserZoom-team",
+                "help": "Help!",
+                "unsubscribeSession": "Als je geen meldingen meer wilt ontvangen over deze onderzoekssessie, kun je je <a href='{{unsubscribeLink}}'>uitschrijven</a>.",
+                "regards": "Met vriendelijke groeten, <br> UserZoom-team"
+            },
+            "doubleOptIn": {
+                "subject": "Welkom bij het IntelliZoom Panel",
+                "title": "Hallo {{user.name}},<br>welkom op IntelliZoom Panel!",
+                "bodyCopy": "<strong>Klik op de onderstaande knop om je account te activeren.</strong><br>Wegens veiligheidsredenen zal deze link over 24 uur vervallen of na gebruik ervan.",
+                "cta": "Activeer account",
+                "closing": "Veel plezier! <br>IntelliZoom Panel Team"
+            },
+            "reset": {
+                "subject": "Wachtwoordherstelverzoek",
+                "title": "Wachtwoord vergeten?",
+                "bodyCopy": "Geen probleem, dat overkomt iedereen wel eens. Klik simpelweg op de onderstaande knop om een nieuw wachtwoord aan te maken. Negeer deze e-mail als je dit niet hebt aangevraagd.<br>Vanwege veiligheidsredenen verloopt deze link over 24 uur of na gebruik ervan.",
+                "cta": "Wachtwoord herstellen"
+            },
+            "studyInvitation": {
+                "subject": "Er is een nieuw onderzoek beschikbaar voor je!",
+                "title": "Hoi {{user.name}},<br>er is een nieuw onderzoek beschikbaar voor je!",
+                "bodyCopy": "Ben je klaar om je feedback te geven en {{studyFee}} te verdienen?",
+                "cta": "Neem deel!",
+                "studyID": "Onderzoek-ID voor jouw referentie: {{projectId}}",
+                "closing": "Veel plezier! <br>IntelliZoom Panel Team"
+            },
+            "studyComplete": {
+                "subject": "Bedankt voor het delen van je gedachten!",
+                "title": "Bedankt voor het delen van je gedachten!",
+                "bodyCopy": "We zullen je deelname aan het onderzoek {{projectId}} z.s.m. controleren.<br>Als je deelname wordt goedgekeurd zullen we de betaling binnen 21 werkdagen sturen. De beloning voor dit onderzoek is {{studyFee}}."
+            },
+            "paymentSent": {
+                "subject": "Je betaling is verzonden",
+                "title": "Hoi {{user.name}},<br>je betaling is verzonden!",
+                "bodyCopy": "We hebben {{studyFee}} via PayPal naar het volgende e-mailadres gestuurd:<br>{{user.email}}<br><br>Dit is de betaling voor het onderzoek: {{projectId}}"
+            },
+            "paymentConfirmation": {
+                "subject": "Je betaling is aangekomen!",
+                "title": "Hoi {{user.name}}, PayPal heeft net aan ons bevestigd dat je betaling is aangekomen",
+                "bodyCopy": "Je zou nu {{studyFee}} meer in je PayPal-account moeten hebben voor:<br>{{user.email}}<br><br>Deze betaling is voor het onderzoek: {{projectId}}"
+            },
+            "certificationApproved": {
+                "subject": "Je hebt je oefenonderzoek goed gedaan!",
+                "title": "Hé {{user.name}}, goed werk met je oefenonderzoek!",
+                "bodyCopyOne": "We zien dat je je gedachten en ervaringen duidelijk kunt uitdrukken. Je bent precies het soort panellid waar we op hoopten!",
+                "bodyCopyTwo": "Je zult nu ook uitnodigingen ontvangen voor Think Out Loud- en Card Sort-onderzoeken. Dit soort onderzoeken wordt over het algemeen beter betaald ;)"
+            },
+            "certificationRejected": {
+                "subject": "Je oefenonderzoek is niet goedgekeurd",
+                "title": "Hoi {{user.name}}, het oefenonderzoek dat je ons hebt gestuurd is niet goedgekeurd",
+                "bodyCopyOne": "Het spijt ons om je te moeten zeggen dat het ingediende oefenonderzoek niet voldeed aan de kwaliteitseisen die we stellen aan een Think Out Loud- of Card Sort-onderzoek.",
+                "bodyCopyTwo": "Als je denkt dat dit een vergissing is of het nog eens wilt proberen, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> we heractiveren het oefenonderzoek graag voor je."
+            },
+            "generic": {
+                "genericClosing": "Met vriendelijke groet, <br>IntelliZoom Panel Team",
+                "inlineContact": "neem contact met ons op",
+                "inlineHelp": "Helpcentrum",
+                "gotQuestions": "Als je verder nog vragen hebt <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> of bezoek ons <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
+            },
+            "reEngagement": {
+                "subject": "Nieuw wachtwoord aanvragen",
+                "title": "Nieuw wachtwoord aanvragen",
+                "bodyCopy": "Hoi {{user.name}}!<br>Klik op de onderstaande knop om een nieuw wachtwoord voor je account in te stellen.<br>Vanwege veiligheidsredenen verloopt deze link over 24 uur of na gebruik ervan.",
+                "cta": "Nieuw wachtwoord instellen"
+            },
+            "termination": {
+                "subject": "Je account is verwijderd",
+                "title": "Je IntelliZoom Panel account is verwijderd",
+                "bodyCopy": "Hallo {{user.name}},<br><br>We hebben je account en informatie uit ons systeem verwijderd. (Deze e-mail is het laatste bericht dat je van ons zult ontvangen.)<br><br>Als je dit niet hebt aangevraagd kan het ten gevolge van een lange periode van inactiviteit zijn, of vanwege misbruik van ons platform, resulterend in een schending van onze <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br><br>Als je denkt dat dit een vergissing is of als je meer informatie wilt <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> of bezoek ons <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
+            },
+            "practiceStudyComplete": {
+                "subject": "Bedankt voor het doen van het oefenonderzoek!",
+                "title": "Bedankt voor het doen van het oefenonderzoek!",
+                "bodyCopy": "We zullen zo snel mogelijk je deelname controleren en je de resultaten e-mailen.<br>Als je goedname wordt goedgekeurd zul je uitnodigingen beginnen te ontvangen voor Think Out Loud- en Card Sort-onderzoeken.<br>Dit soort onderzoeken wordt over het algemeen beter betaald ;)"
+            },
+            "PayPal": {
+                "paymentSent": {
+                    "note": "Bedankt voor je deelname aan het onderzoek {{projectId}}. We hopen je binnenkort weer te zien!"
+                }
+            },
+            "paypalToken": {
+                "title": "De verbinding van je PayPal-account met IntelliZoom is verbroken",
+                "description": "Het spijt ons om je slecht nieuws te moeten brengen, maar je PayPal-account is losgekoppeld van IntelliZoom.<br /><br />Dit betekent dat je geen uitnodigingen meer zult ontvangen voor betaalde onderzoeken en dat je geen uitstaande betalingen meer zult ontvangen voor onderzoeken die je mogelijk recentelijk hebt afgerond.<br /><br />Ga naar ons dashboard en koppel je accounts opnieuw als je wilt blijven deelnemen aan onze betaalde onderzoeken of uitstaande betalingen wilt blijven ontvangen.",
+                "cta": "Naar het dashboard"
+            },
+            "excludedParticipation": {
+                "subject": "Je deelname is niet goedgekeurd",
+                "title": "Hoi {{user.name}}, een van je deelnames is niet goedgekeurd",
+                "bodyCopy": "Het spijt ons om je te moeten vertellen dat je deelname aan het onderzoek {{projectId}} niet is goedgekeurd, en dat je de beloning voor het onderzoek niet zult ontvangen. <br /><br />Dit kan het gevolg zijn van een of meer van de volgende scenario's: <ul><li>Je hebt misschien niet hardop nagedacht zoals vereist.</li><li>Je hebt misschien niet genoeg tijd besteed aan het uitvoeren van de vereiste taken of vragenlijsten.</li><li>De technische kwaliteit van je deelname kan slecht of onvolledig zijn geweest vanwege een of meer van deze redenen: <ul><li>Slechte internetverbinding.</li><li>Slechte kwaliteit van microfoon of camera.</li><li>Slechte algehele kwaliteit door te veel vensters, tabbladen of apps die tegelijkertijd op jeapparaat actief zijn. </li></ul></li></ul>Om te voorkomen dat dit in de toekomst weer gebeurt, kun je deze <a href=\"https://help.intellizoom.com/hc/en-us/categories/360000100658\"> aanbevelingen voor beste praktijken</a> in ons Helpcentrum bekijken. <br /><br /> Wees niet ontmoedigd! Zorg er de volgende keer voor dat je apparaat klaar is voor het onderzoek en doe je best om feedback van topkwaliteit te geven."
+            },
+            "finishConfirmation": {
+                "subject": "ACTIE VEREIST: gelieve je sessie te bevestigen",
+                "generic": {
+                    "hi": "Hallo {{user.name}},",
+                    "oneMoreStep": "Nog één stap! Bevestig je sessie",
+                    "selectedDay": "Bedankt voor je interesse in deze sessie {{sessionDuration}} minuten durende sessie! Je hebt de deze dag en tijd geselecteerd om deel te nemen:",
+                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+                    "recommendations": "Zorg ervoor dat je op hetzelfde apparaat en dezelfde wifi-verbinding zit als die waarmee je aan de sessie gaat deelnemen. We adviseren om een headset te gebruiken.",
+                    "confirm": "Bevestig sessie",
+                    "alternativeLink": "En voor het geval dat de knop hierboven niet werkt... hier is de link: {{confirmLink}}",
+                    "timezone": "{{timeZone}}"
+                },
+                "desktop": {
+                    "hi": "Hallo {{user.name}},",
+                    "oneMoreStep": "Nog één stap! Bevestig je sessie",
+                    "thankYouForInterest": "Bedankt voor je interesse in deze sessie {{sessionDuration}} minuten durende sessie! Je hebt de deze dag en tijd geselecteerd om deel te nemen:",
+                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+                    "youWillNeed": "Voor dit onderzoek heb je nodig:\n<ul>\n<li>Desktopcomputer</li>\n<li>Laatste versie van <strong>Chrome</strong>, <strong>Firefox</strong>of <strong>Edge</strong></li>\n<li>Hoofdtelefoon</li>\n<li>Webcam</li>\n</ul>",
+                    "recommendations": "Zorg ervoor dat je op hetzelfde apparaat en dezelfde wifi-verbinding zit als die waarmee je aan de sessie gaat deelnemen. We adviseren om een headset te gebruiken.",
+                    "confirm": "Bevestig sessie",
+                    "alternativeLink": "En voor het geval dat de knop hierboven niet werkt... hier is de link: {{confirmLink}}"
+                },
+                "mobile": {
+                    "hi": "Hallo {{user.name}},",
+                    "oneMoreStep": "Nog één stap! Bevestig je sessie",
+                    "thankYouForInterest": "Bedankt voor je interesse in deze sessie {{sessionDuration}} minuten durende sessie! Je hebt de deze dag en tijd geselecteerd om deel te nemen:",
+                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+                    "youWillNeed": "Voor dit onderzoek heb je nodig:\n<ul>\n<li>Mobiel apparaat</li>\n<li>Voldoende batterij of stroomaansluiting</li>\n<li>Hoofdtelefoon</li>\n</ul>",
+                    "recommendations": "Zorg ervoor dat je op hetzelfde apparaat en dezelfde wifi-verbinding zit als die waarmee je aan de sessie gaat deelnemen. We adviseren om een headset te gebruiken.",
+                    "confirm": "Bevestig sessie"
+                }
+            },
+            "participationConfirmed": {
+                "subject": "Deelname bevestigd! Je plaats is gereserveerd",
+                "generic": {
+                    "hi": "Hallo {{user.name}},",
+                    "participationConfirmed": "Je deelname is bevestigd!",
+                    "scheduled": "Je bent ingepland op de deze dag en tijd:",
+                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+                    "recommendations": {
+                        "youWillNeed": "Je hebt de nieuwste versie van Chrome, Firefox of Edge nodig als je deelneemt vanaf een desktopcomputer; of een mobiel apparaat met voldoende batterij voor een mobiele sessie.",
+                        "environment": "Zorg ervoor dat je in een goed verlichte, rustige omgeving bent met een goede verbinding.",
+                        "ics": "We hebben bij deze e-mail ook een ICS bijgevoegd, zodat je deze gebeurtenis aan je agenda kunt toevoegen als je dat wilt.",
+                        "thatsIt": "Dat is alles. Drie minuten voor je sessie, hoef je alleen maar te klikken op..."
+                    },
+                    "join": "Deelnemen aan sessie",
+                    "alternativeLink": "En voor het geval dat de knop hierboven niet werkt... hier is de link:{{sessionLink}}",
+                    "note": "Opmerking! Als je niet meer kunt deelnemen op deze tijd, gelieve je deelname dan zo snel mogelijk te <a href='{{entranceLink}}'>annuleren</a> of te <a href='{{entranceLink}}'>verzetten</a>."
+                },
+                "desktop": {
+                    "hi": "Hallo {{user.name}},",
+                    "participationConfirmed": "Je deelname is bevestigd!",
+                    "scheduled": "Je bent ingepland op de deze dag en tijd:",
+                    "youWillNeed": "Voor dit onderzoek heb je nodig:\n<ul>\n<li>Desktopcomputer</li>\n<li>Laatste versie van <strong>Chrome</strong>, <strong>Firefox</strong>of <strong>Edge</strong></li>\n<li>Hoofdtelefoon</li>\n<li>Webcam</li>\n</ul>"
+                },
+                "mobile": {
+                    "hi": "Hallo {{user.name}},",
+                    "participationConfirmed": "Je deelname is bevestigd!",
+                    "scheduled": "Je bent ingepland op de deze dag en tijd:",
+                    "youWillNeed": "Voor dit onderzoek heb je nodig:\n<ul>\n<li>Mobiel apparaat</li>\n<li>Voldoende batterij of stroomaansluiting</li>\n<li>Hoofdtelefoon</li>\n</ul>"
+                }
+            },
+            "sessionCancelled": {
+                "subject": "Je onderzoekssessie is geannuleerd",
+                "generic": {
+                    "sessionHasBeenCancelled": "Je onderzoekssessie is geannuleerd",
+                    "sorry": "Onze excuses voor het eventuele ongemak als gevolg hiervan.",
+                    "seeYouAgain": "We hopen je spoedig weer te zien.",
+                    "hi": "Hallo {{user.name}},",
+                    "hope": "We hopen je spoedig weer te zien."
+                }
+            },
+            "sessionCancelledByModerator": {
+                "subject": "Je onderzoekssessie is geannuleerd",
+                "generic": {
+                    "hi": "Hallo {{user.name}},",
+                    "sessionHasBeenCancelled": "Je onderzoekssessie is geannuleerd",
+                    "requestedCancellation": "De moderator die jouw onderzoekssessie zou leiden, heeft je sessie geannuleerd.",
+                    "sorry": "Onze excuses voor het eventuele ongemak als gevolg hiervan.",
+                    "hope": "We hopen je spoedig weer te zien."
+                },
+                "moderator": {
+                    "scheduledFor": "Zoals gevraagd, hebben we de sessie geannuleerd voor project {{projectName}}, die u zou leiden op:",
+                    "sessionHasBeenCancelled": "Je onderzoekssessie is geannuleerd"
+                },
+                "participant": {
+                    "scheduledFor": "De moderator die uw onderzoekssessie met het studie-ID {{projectId}} zou leiden, heeft deze geannuleerd. Deze sessie was gepland op de volgende tijd en datum:",
+                    "sessionHasBeenCancelled": "Je onderzoekssessie is geannuleerd"
+                }
+            },
+            "sessionCancelledByParticipant": {
+                "subject": "Je onderzoekssessie is geannuleerd",
+                "generic": {
+                    "hi": "Hallo {{user.name}},",
+                    "sessionHasBeenCancelled": "Je onderzoekssessie is geannuleerd",
+                    "asRequested": "Conform je verzoek, hebben we je deelname aan de {{sessionDuration}} minuten durende onderzoekssessie geannuleerd.",
+                    "hope": "We hopen je spoedig weer te zien.",
+                    "sorry": "Onze excuses voor het eventuele ongemak als gevolg hiervan."
+                },
+                "moderator": {
+                    "scheduledFor": "Deze sessie was gepland voor de studie {{projectName}} op de volgende tijd en datum:"
+                },
+                "participant": {
+                    "sessionHasBeenCancelled": "Je onderzoekssessie is geannuleerd",
+                    "scheduledFor": "Zoals gevraagd, hebben we de sessie waaraan u zou deelnemen met studie-ID {{projectId}} geannuleerd:"
+                }
+            },
+            "reminders": {
+                "generic": {
+                    "hi": "Hallo {{user.name}},",
+                    "almostTime": "Het is bijna tijd voor je onderzoekssessie!",
+                    "reminder": "Dit is slechts een vriendelijke herinnering aan je komende onderzoekssessie:",
+                    "recommendations": {
+                        "youWillNeed": "Je hebt de nieuwste versie van Chrome, Firefox of Edge nodig als je deelneemt vanaf een desktopcomputer; of een mobiel apparaat met voldoende batterij voor een mobiele sessie.",
+                        "environment": "Zorg ervoor dat je in een goed verlichte, rustige omgeving bent met een goede verbinding.",
+                        "ics": "We hebben bij deze e-mail ook een ICS bijgevoegd, zodat je deze gebeurtenis aan je agenda kunt toevoegen als je dat wilt.",
+                        "thatsIt": "Dat is alles. Drie minuten voor je sessie, hoef je alleen maar te klikken op..."
+                    },
+                    "join": "Deelnemen aan sessie",
+                    "alternativeLink": "En voor het geval dat de knop hierboven niet werkt... hier is de link:{{sessionLink}}",
+                    "note": "Opmerking! Als je niet meer kunt deelnemen op deze tijd, gelieve je deelname dan zo snel mogelijk te <a href='{{entranceLink}}'>annuleren</a> of te <a href='{{entranceLink}}'>verzetten</a>."
+                },
+                "subject": {
+                    "24hbefore": "Herinnering! Je hebt morgen een onderzoekssessie",
+                    "30mbefore": "Herinnering! Je onderzoekssessie begint over 30 minuten!"
+                },
+                "desktop": {
+                    "youWillNeed": "Voor dit onderzoek heb je nodig:\n<ul>\n<li>Desktopcomputer</li>\n<li>Laatste versie van <strong>Chrome</strong>, <strong>Firefox</strong>of <strong>Edge</strong></li>\n<li>Hoofdtelefoon</li>\n<li>Webcam</li>\n</ul>"
+                },
+                "mobile": {
+                    "youWillNeed": "Voor dit onderzoek heb je nodig:\n<ul>\n<li>Mobiel apparaat</li>\n<li>Voldoende batterij of stroomaansluiting</li>\n<li>Hoofdtelefoon</li>\n</ul>"
+                }
+            },
+            "reschedule": {
+                "subject": "ACTIE VEREIST! Gelieve je onderzoekssessie te verzetten.",
+                "generic": {
+                    "hi": "Hallo {{user.name}},",
+                    "pleaseChoose": "Kies een andere tijd voor je onderzoekssessie",
+                    "explanation": "De moderator die jouw onderzoekssessie gaat leiden heeft gevraagd of je er een andere tijd voor kunt kiezen. <br> Je was eerder ingepland op:",
+                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+                    "chooseNewTime": "Kies een andere tijd",
+                    "selectNoneOfDates": "Als je op geen van deze tijden kunt deelnemen, selecteer dan 'Geen van de data schikt mij' om je sessie te annuleren.",
+                    "sorry": "Onze excuses voor het eventuele ongemak als gevolg hiervan."
+                }
+            },
+            "confirmationReschedule": {
+                "subject": "Je sessie is verzet!",
+                "generic": {
+                    "hi": "Hallo {{user.name}},",
+                    "participationHasBeenrescheduled": "Je geplande deelname is verzet",
+                    "newDetails": "Dit zijn de nieuwe details van je sessie:"
+                }
+            },
+            "icsParticipant": {
+                "summary": "Gemodereerde onderzoekssessie",
+                "description": "Ga naar de sessie: \n{{sessionLink}} \nAls u de sessie niet meer kunt bijwonen op de geplande tijd, kunt u deze opnieuw plannen of annuleren via deze link: \n{{recheduleLink}}",
+                "fileName": "Gemodereerde onderzoekssessie"
+            }
+        }
+    },
+    "sessionCancelledByModerator": {
+        "subject": "Je onderzoekssessie is geannuleerd"
+    },
+    "sessionCancelledByParticipant": {
+        "subject": "Je onderzoekssessie is geannuleerd"
+    }
+}
