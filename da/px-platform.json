@@ -431,7 +431,11 @@
                 "description": "Skynd dig! Se om der er en anden, du kan tage.",
                 "cta": "Tjek tilgængelige undersøgelser"
             },
-            "practiceStudy": "Hvis undersøgelsen, du har taget, er en Prøve-undersøgelse, kontakter vi dig så snart, vi har vurderet dine resultater. Husk venligst at du ikke bliver betalt for prøve-undersøgelser."
+            "practiceStudy": "Hvis undersøgelsen, du har taget, er en Prøve-undersøgelse, kontakter vi dig så snart, vi har vurderet dine resultater. Husk venligst at du ikke bliver betalt for prøve-undersøgelser.",
+            "moderatedSessionAboutToStart": {
+                "title": "",
+                "cta": ""
+            }
         },
         "errorPages": {
             "generic": {
@@ -535,9 +539,5 @@
             },
             "infoMessage": "De data du giver os, lader os matche din profil med de mest relevante undersøgelser."
         }
-    },
-    "“izPanel”.“finalPages”.“moderatedSessionAboutToStart”": {
-        "title": "",
-        "cta": ""
     }
 }
