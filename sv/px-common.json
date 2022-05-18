@@ -1,195 +1,226 @@
 {
     "izPanel": {
         "common": {
-            "androidPhone": "Android Smartphone",
-            "androidTablet": "Android Tablet",
+            "androidPhone": "Androidtelefon",
+            "androidTablet": "Android surfplatta",
             "chrome": "Chrome",
-            "claim": "Deine Meinung zählt. Teile Deine Meinung zu Deinen Lieblings-Produkten mit uns und lasse Dich dafür bezahlen.",
+            "claim": "Dina åsikter har betydelse. Få betalt för att dela dina erfarenheter och få inflytande på produkter du älskar och bryr dig om.",
             "comma": ",",
-            "contactUsLowercaseImperative": "kontaktiere uns",
-            "copyright": "IntelliZoom Panel © 2019. Alle Rechte vorbehalten.",
+            "contactUsLowercaseImperative": "kontakta oss",
+            "copyright": "IntelliZoom Panel © 2022. Alla rättigheter förbehålls.",
             "edge": "Edge",
-            "email": "E-Mail",
+            "email": "E-post",
             "firefox": "Firefox",
             "ie": "Internet Explorer {{version}}",
             "iPad": "iPad",
             "iPhone": "iPhone",
-            "logIn": "Anmelden",
-            "logInImperative": "Anmelden",
-            "logInLowercase": "anmelden",
-            "next": "Weiter",
-            "noRobot": "Ich bin kein Roboter",
-            "or": "oder",
-            "orPressEnter": "oder Enter drücken",
-            "password": "Passwort",
+            "logIn": "Logga in",
+            "logInImperative": "Logga in",
+            "logInLowercase": "Logga in",
+            "next": "Nästa",
+            "noRobot": "Jag är inte en robot",
+            "or": "eller",
+            "orPressEnter": "eller tryck på Enter",
+            "password": "Lösenord",
             "period": ".",
-            "privacyLink": "Datenschutzerklärung",
-            "requiredField": "(Erforderlich)",
+            "privacyLink": "Integritetspolicy",
+            "requiredField": "(Obligatoriskt)",
             "safari": "Safari",
-            "signUp": "Registrieren",
-            "submit": "Senden",
-            "termsLink": "Nutzungsbedingungen",
-            "day": "TT",
+            "signUp": "Registrera dig",
+            "submit": "Skicka",
+            "termsLink": "Tjänstevillkor",
+            "day": "DD",
             "month": "MM",
-            "year": "JJJJ",
+            "year": "YYYY",
             "facebook": "Facebook",
             "google": "Google",
-            "save": "Speichern",
-            "send": "Senden",
+            "save": "Spara",
+            "send": "Skicka",
             "demographics": {
-                "female": "Frau",
-                "lessThan": "Weniger als",
-                "male": "Mann",
-                "na": "Ich bevorzuge diese Frage nicht zu beantworten",
-                "no": "Nein",
-                "none": "Keines der genannten",
-                "noneOrNoTell": "Keine der obigen / Ich bevorzuge es, diese Frage nicht zu beantworten",
-                "orMore": "oder mehr",
-                "other": "Andere",
-                "otherFeminine": "Andere",
-                "otherFemininePlural": "Andere",
-                "otherPlural": "Andere",
-                "unknown": "Ich weiss es nicht",
+                "female": "Kvinna",
+                "lessThan": "Mindre än",
+                "male": "Man",
+                "na": "Jag föredrar att inte svara",
+                "no": "Nej",
+                "none": "Inget av ovanstående",
+                "noneOrNoTell": "Inget av ovanstående/Jag föredrar att inte ange",
+                "orMore": "eller mer",
+                "other": "Annat",
+                "otherFeminine": "Annat",
+                "otherFemininePlural": "Annat",
+                "otherPlural": "Annat",
+                "unknown": "Jag vet inte",
                 "yes": "Ja",
-                "nonBinary": "Nicht binär",
-                "noneMasculine": "Keines der genannten",
-                "no_answer": "Ich bevorzuge diese Frage nicht zu beantworten",
-                "million": "Million",
-                "millions": "Millionen"
+                "nonBinary": "Icke-binär",
+                "noneMasculine": "Inget av ovanstående",
+                "no_answer": "Jag föredrar att inte svara",
+                "million": "Miljon",
+                "millions": "Miljon"
             },
             "tip": {
                 "paypal": {
-                    "title": "Wir verwenden PayPal um unsere Studienteilnehmer zu bezahlen",
-                    "description": "Vergewissere Dich, dass Deine E-Mail-Adresse mit einem PayPal Konto verknüpft ist. Denke daran, dass Du jederzeit ein PayPal Konto gratis einrichten kannst."
+                    "title": "Vi använder PayPal för att betala våra deltagare",
+                    "description": "Se till att din e-post har ett PayPal-konto kopplat till sig. Kom ihåg att du kan alltid skapa ett gratis!"
                 }
             },
-            "finish": "Fertig",
-            "gotIt": "Okay",
+            "finish": "Avsluta",
+            "gotIt": "Jag förstår",
             "emailNotifications": {
-                "title": "Studieneinladungen und Newsletter",
+                "title": "Studieinbjudan och nyhetsbrev",
                 "mkt": {
-                    "title": "Newsletter und Marketing-Mitteilungen",
-                    "description": "Wir senden Dir gelegentlich:\n\n-  Neuigkeiten wie Deine Meinung Produkte die Du magst beinflusst.\n-  Ein paar Tipps wie Du ein Meister darin wirst, Feedback zu geben.  "
+                    "title": "Nyhetsbrev och marknadskommunikationer",
+                    "description": "Vi kan ibland skicka dig:\n\n-  Uppdateringar om hur din åsikt får inflytande på de produkter du älskar.\n-  Några tips som kan hjälpa dig att bli mästare på att ge feedback."
                 },
                 "studyInvites": {
-                    "title": "Einladungen zu Usability Forschungs-Studien",
-                    "description": "Erhalte Einladungen zu Usability Forschungs-Studien die:\n\n-  Du von zu Hause aus machen kannst.\n-  Im Schnitt 10-20 Minuten Zeit benötigen.\n-  Dir im Durchschnitt {{tolIncentive}} für Studien die eine Audio- oder Videoaufnahme beinhalten bringen. Für Standard-Umfragen beträgt die Bezahlung durchschnittlich {{surveyIncentive}}.",
+                    "title": "Inbjudningar till studier av användarnas upplevelse",
+                    "description": "Få inbjudningar till studier av användarnas upplevelse som:\n\n-  Du kan delta i på distans inom ditt hems trygga väggar.\n-  Tar i genomsnitt 10-20 minuter att svara på.\n-  Betalar {{tolIncentive}} i genomsnitt för studier som spelar in ljud och video. För standardundersökningar är betalningen {{surveyIncentive}} i genomsnitt.",
                     "confirmationModal": {
-                        "title": "Bist Du sicher?",
-                        "description": "Wenn Du diese Option deaktivierst, erhältst Du keine weiteren Einladungen zu bezahlten Studien.",
-                        "cta": "Ja, deaktivieren"
+                        "title": "Vill du göra det?",
+                        "description": "Om du inaktiverar det här alternativet kommer du inte längre att få inbjudningar till betalda studier.",
+                        "cta": "Ja, inaktivera"
                     }
                 },
-                "description": "###Hallo, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "description_morning": "###Guten Morgen, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "descriptionName_morning": "###Guten Morgen {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "description_afternoon": "###Hallo, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "descriptionName_afternoon": "###Hallo {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "description_evening": "###Guten Abend, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "descriptionName_evening": "###Guten Abend {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:"
+                "description": "###Hej!\n\nDet här är kommunikationen du prenumererar på:",
+                "description_morning": "###God morgon!\n\nDet här är kommunikationen du prenumererar på:",
+                "descriptionName_morning": "###God morgon {{userName}},\n\nDet här är kommunikationen du prenumererar på:",
+                "description_afternoon": "###God eftermiddag!\n\nDet här är kommunikationen du prenumererar på:",
+                "descriptionName_afternoon": "###God eftermiddag {{userName}},\n\nDet här är kommunikationen du prenumererar på:",
+                "description_evening": "###God kväll!\n\nDet här är kommunikationen du prenumererar på:",
+                "descriptionName_evening": "###God kväll {{userName}},\n\nDet här är kommunikationen du prenumererar på:"
             },
             "language": {
-                "title": "Sprache",
+                "title": "Språk",
                 "englishUS": "English US",
                 "englishUK": "English UK",
                 "spanish": "Español",
-                "german": "Deutsch"
+                "german": "Deutsch",
+                "danish": "Dansk",
+                "french": "Français",
+                "dutch": "Nederlands",
+                "swedish": "Svenska"
             },
-            "cancel": "Abbrechen",
-            "edit": "Bearbeiten",
+            "cancel": "Avbryt",
+            "edit": "Redigera",
             "studies": {
                 "cardSort": {
-                    "title": "Card Sort",
-                    "description": "In dieser Art von Studie sind wir hauptsächlich daran interessiert wie Du bestimmte Elemente gruppierst. Das hilft dem Ersteller der Studie die Gedankenzüge bei der Kategorisierung zu verstehen. \n\nErinnere Dich, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner aufrichtigen Meinung interessiert."
+                    "title": "Kortsortering",
+                    "description": "I den här typen av studier är vi mest intresserade av hur du grupperar vissa saker. Det hjälper studiens skapare att förstå användarnas tankegång när de kategoriserar.\n\nKom ihåg att det finns inga felaktiga svar. Vi är bara intresserade av vad du ärligt tycker."
                 },
                 "practice": {
-                    "title": "Übungsstudien",
-                    "description": "Nimm teil an dieser Übungsstudie und meistere die Kunst Feedback zu geben. \n\nWenn Du teilnimmst und unsere Bewertung bestehst, können wir Dich zu besser bezahlten Studien einladen."
+                    "title": "Övningsstudie",
+                    "description": "Gör den här övningsstudien och bli mästare på att ge feedback.\n\nOm du deltar och klarar vår granskning kan vi bjuda in dig till bättre betalda studier."
                 },
                 "survey": {
-                    "description": "Eine klassische Frage-Antwort Umfrage.\n\nErinnere Dich, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner aufrichtigen Meinung interessiert.",
-                    "title": "Umfrage"
+                    "description": "En standardmässig fråge- och svarsundersökning. Inga specialeffekter.\n\nKom ihåg att det finns inga felaktiga svar. Vi är bara intresserade av vad du ärligt tycker.",
+                    "title": "Undersökning"
                 },
                 "taskBased": {
-                    "title": "Aufgabenbasiert",
-                    "description": "In einer Task-Based Studie wirst Du durch eine Reihe von Aufgaben geführt um diese zu lösen.\n\nManche Aufgaben sind einfach, andere sind etwas komplexer. Wir möchten wissen, wie einfach oder schwer Du diese Aufgaben empfindest.\n\nErinnere Dich, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner aufrichtigen Meinung interessiert."
+                    "title": "Uppgiftsbaserad",
+                    "description": "I en uppgiftsbaserad studie, ungefär om namnet säger, visar studien dig ett antal uppgifter som du ska lösa.\n\nVissa uppgifter är enkla, vissa är lite mer komplexa, Vi är intresserade av att få veta hur svåra eller lätta du tycker att de är.\n\nKom ihåg att det finns inga felaktiga svar. Vi är bara intresserade av vad du ärligt tycker."
                 },
                 "tol": {
-                    "title": "Think-Out-Loud",
-                    "description": "Diese Art von Studie erfordert die Aussprache Deiner Gedanken während Du an der Aufgabe teil nimmst.\n\nBehalte in Erinnerung, dass es keine falschen Antworten gibt. Wenn wir Dir eine Idee, ein Design oder ein Konzept zeigen - wenn Du es nicht magst, magst Du es nicht, wenn Du es liebst, liebst Du es, wenn es in keiner Weise irgendeine Emotion auslöst und es für Dich eine Zeitverschwendung ist ... sag es uns einfach!\n\nWir sind ausschließlich an Deiner aufrichtigen Meinungen interessiert."
+                    "title": "Tänk högt",
+                    "description": "Denna typ av studier kräver att du uttalar dina tankar medan du genomför uppgifter.\n\nKom ihåg att det finns inga felaktiga svar. När vi visar dig en idé, design eller ett koncept, om du hatar det hatar du det, om du älskar det älskar du det, om det inte väcker någon känsla och det är nästan bortkastad tid ... säg det också!\n\nVi är bara intresserade av vad du ärligt tycker."
                 },
                 "requirements": {
-                    "anyBrowser": "Ein aktueller Browser",
-                    "aWorking": "Eine Arbeit",
-                    "goodLightning": "Einen gut beleuchteten Platz",
-                    "headphones": "Kopfhörer",
-                    "maybeRecorded": "Du benötigst kein Mikrofon oder Webcam, aber Dein Bildschirm wird aufgezeichnet. Vergewissere Dich jede Aufgabe zu lesen und bestmöglich zu lösen.",
+                    "anyBrowser": "En uppdaterad webbläsare",
+                    "aWorking": "Ett fungerande",
+                    "goodLightning": "En väl upplyst plats",
+                    "headphones": "Hörlurar",
+                    "maybeRecorded": "Du behöver ingen webbkamera eller mikrofon, men din skärm kan komma att spelas in. Var noga med att läsa varje uppgift och gör ditt bästa för att lösa dem.",
                     "microphone": "Mikrofon",
-                    "quietEnvironment": "Eine ruhige Umgebung",
-                    "screener": "Beantworte ein paar Fragen um zu sehen ob Du in das Suchprofil passt. Viel Glück! :)",
-                    "strongConnection": "Starke Internetverbindung",
-                    "updatedBrowser": "Die letzte Version von",
-                    "webcam": "Videokamera",
-                    "title": "Für diese Studie benötigst Du:"
+                    "quietEnvironment": "En lugn miljö",
+                    "screener": "Du kan få svara på några frågor för att se om du uppfyller kraven för den här studien, lycka till! :)",
+                    "strongConnection": "Stark koppling",
+                    "updatedBrowser": "Senaste versionen av",
+                    "webcam": "Webbkamera",
+                    "title": "För den här studien behöver du:"
                 },
-                "participate": "Nimm teil!",
-                "devices": "Endgeräte",
-                "youWillNeed": "Du benötigst",
+                "participate": "Delta",
+                "devices": "Enheter",
+                "youWillNeed": "Du behöver",
                 "manualSourcing": {
-                    "title": "Bleib am Ball mit Deinen E-mails!",
-                    "description": "Für Studien in {{country} nützen wir E-Mails zum senden von Einladungen.\n\nUm sicherzustellen, dass Du so oft wie möglich eingeladen wirst, vervollständige Dein Profil und halte es aktuell."
+                    "title": "Håll ögonen öppna mot din e-post!",
+                    "description": "För studier i {{country}} använder vi e-post för att hantera våra inbjudningar.\n\nFör att säkerställa att du blir inbjuden så ofta som möjligt ska du se till att din profil har slutförts och är uppdaterad."
                 },
                 "treeTest": {
-                    "title": "Tree-Test",
-                    "description": "In dieser Art von Studie möchten wir den bestmöglichen Weg ein Navigationsmenü zu organisieren und die Elemente zu benennen.\n\nDas bedeutet, ob die Kategorien für Dich Sinn ergeben und ob die Elemente dort sind wo Du es erwartest. \n\nBehalte in Erinnerung, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner ehrlichen Meinung interessiert."
+                    "title": "Trädtest",
+                    "description": "I denna typ av studier försöker vi hitta den bästa möjliga organiseringen och namngivningen för navigeringsmenyer.\n\nDet vill säga om kategorierna verkar vettiga för dig och om objekten finns där du förväntar dig att dom är.\n\nKom ihåg att det finns inga felaktiga svar. Vi är bara intresserade av vad du ärligt tycker."
                 },
                 "clickTest": {
-                    "title": "Click-Test",
-                    "description": "Mit einem Click Test möchten wir verstehen wo Du zum durchführen einer bestimmten Aktion klicken würdest.\n\nBehalte in Erinnerung, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner ehrlichen Meinung interessiert."
+                    "title": "Klicktest",
+                    "description": "Med ett Klicktest vill vi förstå var du skulle klicka när vi ber dig utföra en viss åtgärd.\n\nKom ihåg att det finns inga felaktiga svar. Vi är bara intresserade av vad du ärligt tycker."
                 },
-                "projectId": "Studien ID zur Referenz: {{projectId}}",
+                "projectId": "Studie-ID som referens: {{projectId}}",
                 "loadingScreen": {
-                    "title": "Öffne Studie…"
+                    "title": "Öppnar studien ..."
                 },
                 "recaptchaCheck": {
-                    "title": "Eine Sekunde! Nur Menschen erlaubt!"
+                    "title": "Ett ögonblick! Endast människor tillåts."
                 },
                 "moderated": {
-                    "title": "Online Interview",
-                    "description": "Du kannst Zeitfenster ansehen und jenes auswählen, das für dich am günstigsten ist.",
-                    "book": "Eine Session reservieren",
-                    "modalDescription": "In dieser Studie befindest du dich in einem Live-Videoanruf mit einem UX Forscher,  welcher dich um deine Gedanken und Meinung zu einer digitalen Erfahrung bitten wird. \n\nDiese Session wird ungefähr {{sessionDuration}} Minuten dauern. Du wirst auch wählen können, wann du teilnimmst, basierend auf den verfügbaren Zeitfenstern. "
+                    "title": "Onlineintervju",
+                    "description": "Du kan visa och välja en tid som passar dig bäst.",
+                    "book": "Boka en session",
+                    "modalDescription": "I den här studien deltar du i ett livevideosamtal med en UX-forskare som ber dig att ge dina tankar om och återkoppling på en digital upplevelse.\n\nDen här sessionen tar ungefär {{sessionDuration}} minuter. Du kommer också att välja när du ska delta baserat på tillgängliga tider.",
+                    "mobileRequired": "Det krävs ett mobilnummer för att schemalägga en session",
+                    "smsReminder": "För att få ett påminnelse-SMS",
+                    "contactUser": "Kontakta dig om något går fel",
+                    "why": "Varför?"
                 },
                 "sessionDuration": {
-                    "title": "Sessionsdauer:",
-                    "min": "{{sessionDuration}} Minuten"
+                    "title": "Sessionslängd",
+                    "min": "{{sessionLength}} minuter"
+                },
+                "scheduled": {
+                    "warning": "**Obs:** om du inte längre kan klara den här gången ska du [avboka]({{entranceLink}}) eller [boka om]({{entranceLink}}) ditt deltagande så snart som möjligt.",
+                    "join": "Gå med nu",
+                    "notice": "Du kommer att kunna gå med i sessionen 10 minuter före starttiden.",
+                    "title": "Här är detaljerna för din kommande session",
+                    "nowTitle": "Låt oss börja! Du kan nu gå in i sessionen"
                 }
             },
-            "and": "und",
-            "aUppercase": "Ein",
-            "desktop": "Computer",
+            "and": "och",
+            "aUppercase": "A",
+            "desktop": "Dator",
             "phone": "Mobiltelefon",
-            "tablet": "Tablet",
-            "selectAnOption": "Treffe eine Auswahl",
-            "comingSoon": "Demnächst",
-            "saved": "Gespeichert",
+            "tablet": "Surfplatta",
+            "selectAnOption": "Välj ett alternativ",
+            "comingSoon": "Kommer snart",
+            "saved": "Sparat",
             "greetings": {
-                "greeting_morning": "Guten Morgen!",
-                "greetingName_morning": "Guten Morgen {{userName}}!",
-                "greeting_afternoon": "Hallo!",
-                "greetingName_afternoon": "Hallo {{userName}}!",
-                "greeting_evening": "Guten Abend!",
-                "greetingName_evening": "Guten Abend {{userName}}!"
+                "greeting_morning": "God morgon!",
+                "greetingName_morning": "God morgon {{userName}}!",
+                "greeting_afternoon": "God eftermiddag!",
+                "greetingName_afternoon": "God eftermiddag {{userName}}!",
+                "greeting_evening": "God kväll!",
+                "greetingName_evening": "God kväll {{userName}}!"
             },
-            "noThanks": "Nein, danke"
+            "noThanks": "Nej tack"
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
-                "header": "Vergiss es nicht! Deine nächste Sitzung ist in",
-                "days": "{{count}} Tage",
-                "seeDetails": "Details anzeigen",
-                "show": "Kommende Sitzungen ausblenden",
-                "hide": "Kommende Sitzungen ausblenden"
+                "header": "Glöm inte! Din nästa session är om",
+                "days_plural": "{{count}} dagar ",
+                "seeDetails": "Visa information",
+                "show": "Visa kommande sessioner",
+                "hide": "Dölj kommande sessioner",
+                "studiesHeader": "Kommande",
+                "headerDateOn": "Glöm inte! Din nästa session är den",
+                "minutesNoHours_plural": "{{count}} minuter ",
+                "hours_plural": "{{count}} timmar ",
+                "minutes_plural": "och {{count}} minuter ",
+                "days": "{{count}} dag ",
+                "cardsHeader": "Du har bokats till:",
+                "minutesNoHours": "{{count}} minut ",
+                "minutes": "och {{count}} minut ",
+                "hours": "{{count}} timme ",
+                "sessionDetails": "Sessionsinformation"
+            }
+        },
+        "studies": {
+            "sessionDetails": {
+                "title": "Låt oss börja! Du kan nu öppna sessionen"
             }
         }
     }
