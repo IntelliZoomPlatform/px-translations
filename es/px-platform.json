@@ -535,5 +535,9 @@
             },
             "infoMessage": "Los datos que nos facilitas nos permiten relacionar tu perfil con los estudios más relevantes. "
         }
+    },
+    "“izPanel”.“finalPages”.“moderatedSessionAboutToStart”": {
+        "title": "Tienes programada una sesión para esta hora. \nPara continuar, accede a tu cuenta.",
+        "cta": "Entrar"
     }
 }
