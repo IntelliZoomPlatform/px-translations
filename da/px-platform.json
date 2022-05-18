@@ -2,523 +2,538 @@
     "izPanel": {
         "registration": {
             "name": {
-                "title": "Wie heißt Du?",
+                "title": "Hvad hedder du?",
                 "field": {
-                    "firstName": "Name",
-                    "lastName": "Nachname"
+                    "firstName": "Fornavn",
+                    "lastName": "Efternavn"
                 },
-                "alreadyRegistered": "Bereits registriert? <1>$t(px-common:izPanel.common.logInImperative)</1>"
+                "alreadyRegistered": "Allerede registreret? <1>$t(px-common:izPanel.common.logInImperative)</1>"
             },
             "country": {
-                "title": "Willkommen {{firstName}}!",
-                "otherCountry": "Zeige mehr Länder",
-                "description": "**Du trittst unserem Panel in {{country}} bei.**\n\nFalls Du auf Reisen bist und das nicht das Land ist, indem Du lebst, registriere Dich bitte sobald Du zurück bist. Bist Du jetzt zu Hause und das ist nicht, wo Du lebst, [kontaktiere uns](https://help.intellizoom.com/hc/de/requests/new) uns bitte.",
+                "title": "Velkommen {{firstName}}!",
+                "otherCountry": "Vis flere lande",
+                "description": "**Du tilmelder dig vores panel i {{country}}.**\n\nHvis du er ude at rejse og dette ikke er det land, du bor i, anbefaler vi, at du registrerer dig hos IntelliZoom Panel, når du kommer hjem. Hvis du er hjemme, og dette ikke er der, du bor, bedes du [contact us](https://help.intellizoom.com/hc/en-us/requests/new).",
                 "inSpanish": "¿Prefieres ver esta página en Español?",
                 "inGerman": "Möchtest Du diese Seite in Deutsch ansehen?"
             },
             "email": {
-                "title": "Was ist Deine E-Mail?",
-                "description": "Hierhin wirst Du Deine Studieneinladungen erhalten."
+                "title": "Hvad er din e-mailadresse?",
+                "description": "Her vil du modtage invitationer til undersøgelser."
             },
             "password": {
-                "title": "Wähle ein Passwort",
-                "description": "Stelle sicher, dass es stark ist!\n\nVerwende: ",
+                "title": "Vælg en adgangskode",
+                "description": "Sørg for at det er stærkt!\n\nInkluder:",
                 "requirements": {
-                    "capitalLetter": "einen Großbuchstaben",
-                    "numberOrSymbol": "eine Zahl",
-                    "minChars": "mindestens 8 Zeichen",
-                    "lowercaseLetter": "einen Kleinbuchstaben",
-                    "passwordsShouldMatch": "selbstverständlich sollten Deine Passworte übereinstimmen"
+                    "capitalLetter": "et stort bogstav",
+                    "numberOrSymbol": "et nummer",
+                    "minChars": "mindst otte tegn",
+                    "lowercaseLetter": "et lille bogstav",
+                    "passwordsShouldMatch": "og dine kodeord skal selvfølgelig stemme overens"
                 },
-                "passwordConfirmation": "Passwort bestätigen"
+                "passwordConfirmation": "bekræft kodeord"
             },
             "terms": {
-                "title": "Bevor es weiter geht...",
-                "description": "Nimm Dir bitte einen Moment Zeit unsere <1>{{termsLink}}</1> und <3>{{privacyLink}}</3> zu lesen.\n\nSolltest Du unsicher über die Nutzung Deiner Daten sein, <5>{{contactUsLowercaseImperative}}</5> bitte.",
+                "title": "Før du fortsætter...",
+                "description": "Tag dig tid til at læse vores <1>{{termsLink}}</1> og <3>{{privacyLink}}</3>.\n\nHvis du er i tvivl om, hvordan dine data administreres <5>{{contactUsLowercaseImperative}}</5>.",
                 "checkbox": {
-                    "gdpr": "Ich möchte Einladungen per E-Mail zu Forschungsstudien zur Benutzererfahrung die meinem Profil entsprechen erhalten. $t(px-common:izPanel.common.requiredField)",
-                    "terms": "Ich stimme den Nutzungsbedingungen und der Datenschutzerklärung zu. $t(px-common:izPanel.common.requiredField)",
-                    "mkt": "Ich möchte Benachrichtigungen und Newsletter von IntelliZoom Panel erhalten."
+                    "gdpr": "Jeg ønsker at blive inviteret via e-mail til UX-forskningsundersøgelser, der matcher min profil. $t(px-common:izPanel.common.requiredField)",
+                    "terms": "Jeg accepterer servicevilkår og privatlivspolitik. $t(px-common:izPanel.common.requiredField)",
+                    "mkt": "Jeg ønsker at modtage kommunikation og nyhedsbreve fra IntelliZoom."
                 }
             },
             "doubleOptIn": {
-                "title": "Wir haben Dir eine E-Mail-Bestätigung zur Aktivierung Deines Kontos geschickt.",
-                "description": "Bitte klicke den Link in der E-Mail, um Dein Konto zu aktivieren. \n\nAus Sicherheitsgründen ist dieser Link nur 24 Stunden gültig. \n\nWenn Du keine Nachricht siehst, überprüfe bitte den Spam-Ordner. Wir können Dir das E-Mail auch <1>nochmals senden</1>.",
-                "resendSuccess": "E-Mail gesendet!"
+                "title": "Vi har sendt en bekræftelsesmail for at aktivere din konto",
+                "description": "Klik på linket i e-mailen for at aktivere din konto.\n\nAf sikkerhedsmæssige årsager udløber linket om 24 timer.\n\nHvis du ikke kan se mailen, så tjek din spam-mappe. Vi kan også <1>gensende</1> e-mailen.",
+                "resendSuccess": "E-mailen blev sendt!"
             }
         },
         "comingSoon": {
-            "title": "Bald Verfügbar!",
-            "description": "Wir haben derzeit kein Panel in {{selectedCountry}}, aber Du kannst uns Deine E-Mail hinterlassen und wir informieren Dich wenn wir eines öffnen. ",
+            "title": "Kommer snart!",
+            "description": "Vi har i øjeblikket ikke et aktivt panel i {{selectedCountry}}, men oplys din e-mail, så vi kan informere dig, når vi åbner et.",
             "success": {
-                "title": "Danke!",
-                "description": "Wir kontaktieren Dich, wenn wir unser Panel in {{selectedCountry}} öffnen. \n\nAuf ein baldiges Wiedersehen!"
+                "title": "Tak",
+                "description": "Vi kontakter dig, når vi åbner et panel i {{selectedCountry}}.\n\nVi ses!"
             },
-            "gdpr": "Ich möchte informiert werden, wenn Intellizoom Panel in meinem Land öffnet. $t(px-common:izPanel.common.requiredField)",
-            "yourLocation": "Ihr Standort"
+            "gdpr": "Jeg ønsker at blive informeret, når IntelliZoom-panelet åbner i mit land. $t(px-common:izPanel.common.requiredField)",
+            "yourLocation": "din placering"
         },
         "error": {
             "required": {
-                "field": "Diese Eingabe ist erforderlich.",
-                "gdpr": "Deine Zustimmung ist erforderlich.",
-                "terms": "Bitte akzeptiere die Allgemeinen Geschäftsbedigungen und die Datenschutzbestimmungen."
+                "field": "Feltet er obligatorisk.",
+                "gdpr": "Dette samtykke er påkrævet.",
+                "terms": "Du skal acceptere servicebetingelser og privatlivspolitik."
             },
             "format": {
-                "email": "Bitte trage eine gültige E-Mail-Adresse ein. Bsp: name@email.com",
-                "genericFormat": "Dieses Format ist ungültig"
+                "email": "Brug et gyldigt e-mailformat. F.eks. navn@email.com",
+                "genericFormat": "Formatet er ugyldigt."
             },
             "registration": {
-                "existingEmail": "Diese E-Mail-Adresse ist bereits registriert. Bitte\n<1>$t(px-common:izPanel.common.logInLowercase)</1>?",
-                "sendEmailFail": "Ojeh, irgendetwas ist schief gelaufen. Wir konnten Dir die Bestätigungs-E-Mail nicht senden. Bitte versuche es später erneut.",
-                "passwordRequirements": "Dieses Passwort erfüllt die Sicherheitsanforderungen nicht",
-                "emailLength": "Wow! Deine Email-Adresse kann nicht länger als 150 Zeichen sein...",
-                "passwordIncludesSpaces": "Das Passwort kann nicht mit einem Leerschritt beginnen oder enden."
+                "existingEmail": "Det ser ud til, du allerede er registeret! <1>$t(px-common:izPanel.common.logInLowercase)</1>.",
+                "sendEmailFail": "Ups, noget gik galt og vi kunne ikke sende dig en bekræftelsesmail. Prøv igen senere.",
+                "passwordRequirements": "Adgangskoden opfylder ikke betingelserne",
+                "emailLength": "Wow! Din e-mail må ikke være 150 tegn lang...",
+                "passwordIncludesSpaces": "Kodeordet kan ikke begynde eller slutte med et mellemrum."
             },
             "minTwoChars": {
-                "firstName": "Dein Name muss mindestens 2 Buchstaben haben.",
-                "lastName": "Dein Nachname muss mindestens 2 Buchstaben haben."
+                "firstName": "Dit navn skal indeholde mindst to tegn.",
+                "lastName": "Dit efternavn skal indeholde mindst to tegn."
             },
-            "generic": "Ojeh, da ist etwas schiefgelaufen. Bitte versuche es später erneut.",
+            "generic": "Ups, noget gik galt. Prøv igen senere.",
             "birthday": {
-                "future": "Zeitreisender, was? Dein Geburtsdatum kann nicht in der Zukunft liegen. ",
-                "past": "Keine Vampire erlaubt. Dein Geburtsdatum muss innhalb eines Jahrhunderts sein."
+                "future": "Er du mon på tidsrejse? Fødselsdato kan ikke være i fremtiden.",
+                "past": "Vampyrer ingen adgang! Fødselsdato skal være i dette århundrede."
             },
             "login": {
-                "accountBlocked": "Dein Konto wurde nach mehreren aufeinanderfolgenden Anmeldungsversuchen blockiert.",
-                "accountInactive": "Dein Konto wurde noch nicht aktiviert. Sollen wir Dir die E-Mail-Bestätigung <1>nochmals zuschicken</1>?",
-                "expiredLink": "Der Aktivierungslink den Du geklickt hast is abgelaufen. Bitte <1>erneut senden</1> und wieder versuchen.",
-                "invalidCredentials": "Es tut uns leid. Wir konnten diese E-Mail/Passwort-Kombination nicht finden.",
-                "userNotFound": "Der Aktivierungslink den Du geklickt hast ist abgelaufen und Deine Daten wurden gelöscht. Bitte versuche erneut Dich zu registrieren.",
-                "wrongActivation": "Etwas ist schiefgelaufen während Deiner Kontoaktivierung. Bitte versuche es später erneut über die selbe Bestätigungs-E-Mail die wir Dir geschickt haben.",
-                "wrongActivationWithLink": "Etwas ist schiefgelaufen während Deiner Kontoaktivierung. Bitte <1>erneut senden</1> und wieder versuchen.",
-                "accountDeactivated": "Dein Konto ist zur Zeit nicht aktiv. Um wieder an IntelliZoom Studien teilzunehmen, kannst Du Deinen [Zugang anfordern](https://help.intellizoom.com/hc/de/requests/new)."
+                "accountBlocked": "Din konto er blevet blokeret efter flere på hinanden følgende loginforsøg.",
+                "accountInactive": "Din konto er endnu ikke blevet aktiveret. Vil du have os til at <1>gensende</1>  bekræftelsesmailen?",
+                "expiredLink": "Aktiveringslinket er udløbet. <1>Send det igen</1>, og prøv igen.",
+                "invalidCredentials": "E-mail/adgangskodekombination blev ikke fundet.",
+                "userNotFound": "Aktiveringslinket er udløbet, og dine data blev slettet. Prøv at tilmelde dig igen.",
+                "wrongActivation": "Noget gik galt under aktivering af ​​din konto. Prøv igen senere via den samme bekræftelsesmail, som vi sendte dig tidligere.",
+                "wrongActivationWithLink": "Noget gik galt under aktivering af ​​din konto. <1>Send</1> bekræftelsesmailen igen, og prøv igen.",
+                "accountDeactivated": "Din konto blev deaktiveret. Hvis du ønsker at genaktivere den, bedes du [contact us](https://help.intellizoom.com/hc/en-us/requests/new)."
             },
             "forgotPassword": {
-                "sendEmailFail": "Ojeh, irgendetwas is schief gelaufen. Wir konnten Dir die Bestätigungs-E-Mail nicht senden. Bitte versuche es später erneut."
+                "sendEmailFail": "Ups, noget gik galt og vi kunne ikke sende e-mailen med nulstilling af adgangskode. Prøv igen senere."
             },
             "resetPassword": {
-                "incorrectPassword": "Aktuelles Passwort ungültig",
-                "expiredLink": "Der link den Du benützt hast ist abgelaufen. Bitte fordere einen neuen Link auf der [Passwort vergessen](/forgot-password) Seite an."
+                "incorrectPassword": "Ukorrekt nuværende adgangskode",
+                "expiredLink": "Linket, du trykkede på, er udløbet. Anmod venligst om et nyt link fra [Forgot password](/forgot-password)-siden."
             },
-            "limitExceeded": "Du hast die maximale Anzahl an Versuchen erreicht. Bitte versuche es später erneut.",
+            "limitExceeded": "Du har nået det maksimale antal forsøg. Prøv venligst igen senere.",
             "demographics": {
-                "notUnderAge": "Ein Minderjähriger kann nicht älter als 18 Jahre sein."
+                "notUnderAge": "Dit barn kan ikke være over 18 år."
             }
         },
         "footer": {
             "item": {
-                "faqPayments": "[Wie lange dauert es bis ich bezahlt werde?](https://help.intellizoom.com/hc/de/articles/360000650458)",
-                "faqInvitations": "[Wie funktionieren Studieneinladungen?](https://help.intellizoom.com/hc/de/articles/360000658537)",
-                "faqChangeEmail": "[Wie kann ich meine E-Mail-Adresse ändern?](https://help.intellizoom.com/hc/de/articles/360001190318)",
-                "faqBrowseAll": "[Mehr anzeigen](https://help.intellizoom.com/hc/de)",
-                "sendEmail": "[Sende uns ein E-Mail](https://help.intellizoom.com/hc/de/requests/new)",
-                "whatIsIZP": "Was ist IntelliZoom Panel"
+                "faqPayments": "[Hvor lang tid tager udbetalinger normalt?](https://help.intellizoom.com/hc/en-us/articles/360000650458--When-and-how-much-will-I-get-paid-)",
+                "faqInvitations": "[Hvordan virker invitationer?](https://help.intellizoom.com/hc/en-us/articles/360000658537-How-will-I-be-notified-of-new-studies-)",
+                "faqChangeEmail": "[Hvordan kan jeg ændre min e-mail?](https://help.intellizoom.com/hc/en-us/articles/360001190318-How-can-I-change-my-email-)",
+                "faqBrowseAll": "[Se mere] (https://help.intellizoom.com/hc/en-us)",
+                "sendEmail": "[Send os en e-mail](https://help.intellizoom.com/hc/en-us/requests/new)",
+                "whatIsIZP": "Hvad er IntelliZoom-panelet"
             },
             "title": {
-                "about": "Über uns",
+                "about": "Om os",
                 "contact": "Kontakt",
-                "faq": "Häufige Fragen",
-                "social": "Folge uns!"
+                "faq": "FAQ",
+                "social": "Følg os!"
             }
         },
         "header": {
             "email": "{{userEmail}}",
-            "logOut": "Abmelden",
-            "mainDashboard": "Studien",
+            "logOut": "Log ud",
+            "mainDashboard": "Studier",
             "name": "{{userFullName}}",
-            "profile": "Mein Profil",
-            "settings": "Einstellungen"
+            "profile": "Min profil",
+            "settings": "Indstillinger"
         },
         "basicDemographics": {
-            "flowTitle": "Okay!\n\nLos geht's",
-            "flowDescription": "Um Dich zu Studien einladen zu können, beantworte bitte die folgenden **3 Fragen:**",
-            "flowLastQuestion": "Und zu guter letzt...",
-            "progress": "Frage {{currentQuestion}} von {{totalQuestions}}",
+            "flowTitle": "Godt!\n\nLad os komme i gang",
+            "flowDescription": "For at invitere dig til undersøgelser, har vi brug for at stille dig **bare 3 grundlæggende** profileringsspørgsmål",
+            "flowLastQuestion": "Sidst, men ikke mindst...",
+            "progress": "Spørgsmål {{currentQuestion}} af {{totalQuestions}}",
             "success": {
-                "title": "Fertig!",
-                "description": "Du bist nun bereit an unseren Studien teilzunehmen. \n\nVervollständige Dein Profil, sodass wir Dich zu spezifischeren (und besser bezahlten) Studien einladen können. ",
-                "cta": "Packen wir's an!"
+                "title": "Sådan!",
+                "description": "Du er nu klar til at deltage i vores undersøgelser.\n\nFærdiggør din profil, så vi kan invitere dig til mere specifikke (og bedre betalte) undersøgelser.",
+                "cta": "Lad os komme i gang!"
             },
             "underage": {
-                "title": "Du musst zumindest {{minimumLegalAge}} Jahre alt sein, um an unseren Studien teilzunehmen",
-                "description": "Es tut uns leid, aber wir können Dich nicht zu Studien einladen oder Dir erlauben fortzufahren. Wir werden Dein IntelliZoom Panel Konto und alle Deine persönlichen Daten nun löschen. \n\nDanke für Dein Interesse."
+                "title": "Du skal være mindst {{minimumLegalAge}} år for at deltage i vores undersøgelser",
+                "description": "Beklager, men vi kan ikke invitere dig til vores undersøgelser eller tillade dig at fortsætte. Vi sletter din IntelliZoom panel-konto og dine personlige oplysninger.\n\nTak for din interesse."
             }
         },
         "login": {
-            "title": "Anmelden",
-            "forgotPassword": "Passwort vergessen?",
-            "orSocialAccess": "oder weiter mit",
-            "newHere": "Noch kein Konto?",
-            "signUp": "Registriere Dich!",
+            "title": "Log ind",
+            "forgotPassword": "Har du glemt din adgangskode?",
+            "orSocialAccess": "eller fortsæt med",
+            "newHere": "Har du ikke en konto?",
+            "signUp": "Tilmeld dig!",
             "success": {
-                "accountActivated": "Dein Konto wurde erfolgreich aktiviert!",
-                "emailResent": "Wir haben Dir den Aktivierungslink erneut zugeschickt."
+                "accountActivated": "Din konto blev aktiveret!",
+                "emailResent": "Vi har gensendt din aktiveringsmail."
             }
         },
         "forgotPassword": {
-            "title": "Hast Du Dein Passwort vergessen?",
-            "description": "Bitte trage Deine E-Mail ein und wir senden Dir einen Link, um Dein Passwort zurückzusetzen.",
+            "title": "Har du glemt adgangskoden?",
+            "description": "Indtast din e-mail, så vi kan sende dig et link til at nulstille din adgangskode.",
             "success": {
-                "title": "Wir haben Dir ein E-Mail geschickt, um Dein Passwort zurückzusetzen",
-                "description": "Aus Sicherheitsgründen ist dieser Link nur 24 Stunden gültig. \n\nWenn Du keine Nachricht siehst, überprüfe bitte den Spam-Ordner. Wir können Dir das E-Mail auch <1>nochmals senden</1>."
+                "title": "Vi har sendt en e-mail til at nulstille din adgangskode",
+                "description": "Af sikkerhedsmæssige årsager udløber linket om 24 timer.\n\nHvis du ikke kan se mailen, så tjek din spam-mappe. Vi kan også <1>gensende</1> e-mailen."
             }
         },
         "resetPassword": {
-            "title": "Neues Passwort setzen",
+            "title": "Vælg en ny adgangskode",
             "currentPassword": {
-                "description": "Und schreibe Dein aktuelles Passwort bitte:",
-                "field": "Aktuelles Passwort"
+                "description": "Skriv din nye adgangskode:",
+                "field": "Nuværende adgangskode"
             },
             "success": {
-                "title": "Passwort aktualisiert!",
-                "description": "Dein neues Passwort wurde erfolgreich gespeichert.",
-                "cta": "Zur Anmeldung",
-                "backToSettings": "Zurück zu Einstellungen"
+                "title": "Adgangskoden blev opdateret!",
+                "description": "Din ny adgangskode er blevet gemt.",
+                "cta": "Gå til log ind",
+                "backToSettings": "Tilbage til indstillinger"
             }
         },
         "landing": {
             "heroSection": {
-                "title": "Deine Meinung zählt.",
-                "description": "Lass Dich bezahlen für das Teilen Deiner Erfahrungen mit Deinen Lieblingsprodukten.",
-                "cta": "Los geht's!"
+                "title": "Din mening betyder noget.",
+                "description": "Bliv betalt for at dele dine oplevelser og få indflydelse på produkter, du elsker og holder af.",
+                "cta": "Lad os komme i gang!"
             },
             "featureBoxes": {
                 "first": {
-                    "title": "Werde schnell und einfach bezahlt",
-                    "description": "Sparst Du auf etwas oder suchst Du nach extra Taschengeld? Mache es wie andere auf der ganzen Welt und hole Dir einen Zusatzverdienst indem Du Deine Erfahrungen mit uns teilst."
+                    "title": "Bliv betalt hurtigt og sikkert",
+                    "description": "Sparer du op til noget, eller leder du efter lidt ekstra indtjening? Slut dig til folk over hele verden, der tjener ekstra ved at dele deres erfaringer."
                 },
                 "second": {
-                    "title": "Beeinflusse das Produkterlebnis",
-                    "description": "Beeinflusse Deine Lieblingsprodukte indem Du Deine Meinung mit den Produktentwicklern teilst."
+                    "title": "Påvirk produktoplevelser",
+                    "description": "Få øjeblikkelig indflydelse på de produkter, du elsker og bruger i dag, ved at dele din mening med de mennesker der fremstiller og forbedrer produkterne."
                 },
                 "third": {
-                    "title": "Mache es in Deiner Freizeit",
-                    "description": "Du hast 15-20 Minuten Zeit? Feedback geben ist einfach. Nimm an Studien aus der Ferne teil, wann Du Zeit hast, von zu Hause aus oder unterwegs, mit Deinem eigenen Gerät."
+                    "title": "Gør det i din fritid",
+                    "description": "Har du 15-20 minutter til overs? Det er nemt at give feedback. Deltag i undersøgelser på afstand, når du har tid, fra dit hjem eller på farten og på din egen enhed."
                 }
             },
             "reinforcingBanner": {
-                "phrase1": "Gebe Feedback",
-                "phrase2": "Werde bezahlt"
+                "phrase1": "Giv feedback",
+                "phrase2": "Bliv betalt"
             },
             "faqs": {
-                "title": "Fragen? Wir haben die Antworten",
+                "title": "Har du spørgsmål? Vi har svarene",
                 "faq1": {
-                    "title": "Wie schnell kann ich mit dem Testen loslegen?",
-                    "description": "Alsbald Du die Registrierung abgeschlossen hast und die 3 elementaren Profilierungs-Fragen beantwortet hast."
+                    "title": "Hvor hurtigt kan jeg komme i gang?",
+                    "description": "Så snart du er færdig med registreringsprocessen og har besvaret 3 grundlæggende profileringsspørgsmål."
                 },
                 "faq2": {
-                    "title": "Wieviel Zeit wird die Teilnahme an einer Studie beanspruchen?",
-                    "description": "Die meisten Studien beanspruchen 10-20 Minuten im Schnitt."
+                    "title": "Hvor lang tid tager undersøgelserne?",
+                    "description": "De fleste undersøgelser tager 10-20 minutter at gennemføre."
                 },
                 "faq3": {
-                    "title": "Wie alt muss ich sein?",
-                    "description": "Alle Studienteilnehmer müssen 18 Jahre oder älter sein."
+                    "title": "Hvor gammel skal jeg være?",
+                    "description": "Alle deltagere skal være 18 år eller ældre."
                 },
                 "faq4": {
-                    "title": "Wie viele Studieneinladungen werde ich erhalten?",
-                    "description": "Die Anzahl an Gelegenheiten die Du erhältst hängt von einigen Faktoren ab, wie etwa Deine demografischen Daten und Qualitätsbewertung ab."
+                    "title": "Hvor mange undersøgelsesinvitationer kommer jeg til at modtage?",
+                    "description": "Antallet af indbydelser afhænger af en række faktorer såsom demografi og din kvalitetsvurdering."
                 },
                 "faq5": {
-                    "title": "Wie viel Geld werde ich verdienen?",
-                    "description": "Die Bezahlung hängt von der Komplexität der Studie ab. Für Studien die Deine Stimme oder ein Video aufnehmen, erhältst Du durchschnittlich $10. Für Standard-Umfragen beträgt die Bezahlung $2 im Schnitt."
+                    "title": "Hvor meget kan jeg tjene?",
+                    "description": "Betaling afhænger af undersøgelsens kompleksitet. For undersøgelser, der indeholder lyd og video, kan du forvente at tjene 10$ i gennemsnit. For standardundersøgelser er betalingen 2$ i gennemsnit."
                 },
                 "faq6": {
-                    "title": "Was benötige ich um an Studien teilnehmen zu können?",
-                    "description": "Alles was Du brauchst ist ein Computer, Tablet oder Smartphone, eine zuverlässige Internetverbindung, ein rugher Ort und die Möglichkeit, die zertifizierte (eCertified) Software von UserZoom herunterzuladen."
+                    "title": "Hvad skal jeg bruge for at deltage i undersøgelser?",
+                    "description": "Du har bare brug for en computer, tablet eller smartphone, en pålidelig Wi-Fi-forbindelse, et roligt sted og muligheden for at downloade UserZooms eCertificerede testsoftware."
                 },
                 "faq7": {
-                    "title": "Wann werde ich bezahlt?",
-                    "description": "Die Prämie wird via PayPal innerhalb 21 Werktagen nach Abschluss der Studie ausbezahlt, wenn Dein Ergebnis gesichtet und bestätigt wurde. Die meisten Ergebnisse werden innerhalb von 3-5 Tagen bestätigt. \n\nDie Auszahlung wird an die selbe E-Mail-Adresse getätigt mit der Du Dich zu IntelliZoom Panel registriert hast."
+                    "title": "Hvornår modtager jeg betaling for deltagelse?",
+                    "description": "Betalinger sendes via PayPal inden for 21 hverdage efter afslutningen af ​​undersøgelsen, og når dine resultater er blevet gennemgået og godkendt. De fleste resultater godkendes inden for 3-5 dage.\n\nDu modtager betaling til samme e-mail, som du brugte til at registrere dig."
                 }
             },
             "uzBanner": {
-                "title": "Ist das die Eule die Du suchst?",
-                "description": "Wenn Du mehr über IntelliZoom, den Motor für Sourcing im Einsatz für UserZoom, wissen möchtest, klicke hier. Wir finden die besten Teilnehmer für Deine UX Research Studien."
+                "title": "Er dette uglen du leder efter?",
+                "description": "Hvis du vil læse mere om IntelliZoom, sourcingen der bruges af UserZoom, [klik her] (https://www.userzoom.com/participant-sourcing/). Vi finder de bedste deltagere til dine UX-forskningsstudier."
             }
         },
         "settings": {
-            "title": "Einstellungen",
+            "title": "Indstillinger",
             "account": {
                 "title": "Konto",
                 "credentials": {
-                    "title": "E-Mail-Zugang",
-                    "passwordLastUpdate": "Aktualisiert am",
-                    "changePassword": "Passwort ändern"
+                    "title": "E-mail adgang",
+                    "passwordLastUpdate": "Opdateret den",
+                    "changePassword": "Skift adgangskode"
                 },
                 "phone": {
                     "title": "Telefonnummer",
-                    "description": "Wenn du Deine Telefonnummer zu Deinem Konto hinzufügst, können wir Dich zu Moderierten Studien einladen. Eine moderierte Studie bedeutet, dass Dich ein Usability Forscher durch die Studie begleitet, um Dein Feedback einzuholen.",
-                    "addPhone": "Telefonnummer hinzufügen"
+                    "description": "Hvis du tilføjer et telefonnummer til din konto, vil det give os mulighed for at invitere dig til modererede sessioner. En modereret session betyder grundlæggende, at en UX-forsker guider dig gennem en af deres undersøgelser og får din feedback.",
+                    "addPhone": "Tilføj telefonnummer"
                 },
                 "deactivateAccount": {
-                    "title": "Konto deaktivieren",
-                    "description": "Wenn Du Dein Konto deaktivierst, verlierst Du Deinen Profilfortschritt und Du kannst nicht mehr an bezahlten Studien teilnehmen.",
-                    "cta": "Konto deaktivieren",
+                    "title": "Deaktiver din konto",
+                    "description": "Hvis du deaktiverer din konto, mister du alle dine profilfremskridt, og du vil ikke længere kunne deltage i betalte undersøgelser.",
+                    "cta": "Deaktiver konto",
                     "confirmationModal": {
-                        "title": "Bist Du sicher?",
-                        "description": "Du verlierst Deinen Profilfortschritt und Du kannst nicht mehr an bezahlten Studien teilnehmen.",
-                        "cta": "Ja, deaktivieren"
+                        "title": "Er du sikker?",
+                        "description": "Du mister alt dit fremskridt på din profil og kan ikke længere tage del i betalte undersøgelser længere.",
+                        "cta": "Ja, deaktiver"
                     }
                 }
             },
-            "successfulUpdate": "Deine Einstellungen wurden erfolgreich aktualisiert!"
+            "successfulUpdate": "Dine indstillinger er nu opdateret!"
         },
         "studiesDashboard": {
             "completed": {
-                "sectionTitle": "Absolvierte Studien",
-                "completitionDate": "Absolviert am {{date}}.",
-                "paymentsDescription": "Erinnere Dich, dass bei Annahme Deiner Teilnahme die Bezahlung bis zu 21 Werktage beanspruchen kann, um in Deinem PayPal Konto aufzuscheinen."
+                "sectionTitle": "Gennemførte undersøgelser",
+                "completitionDate": "Gennemført den {{date}}.",
+                "paymentsDescription": "Husk, at hvis din deltagelse accepteres, kan det tage op til 21 arbejdsdage, før betalingen kan ses på din PayPal-konto."
             },
             "incompleteProfile": {
-                "title": "Werde zu mehr Studien eingeladen!",
-                "description": "Vervollständige Deine persönliche Information in Mein Profil, sodass wir Dich zu Studien mit spezifischeren Teilnahmekriterien einladen können.",
-                "cta": "Profil vervollständigen"
+                "title": "Bliv inviteret til flere undersøgelser!",
+                "description": "Færdiggør dine personlige oplysninger under Min Profil - så kan vi invitere dig til undersøgelser med mere specifikke kriterier.",
+                "cta": "Færdiggør min profil"
             },
             "intro": {
-                "title": "Willkommen {{userName}}!",
-                "descriptionFTU": "Das ist Deine Studien-Übersicht. Hier kannst Du die Studien die Dir zur Verfügung stehen sowie praktische Tipps einsehen. \n\nNimm Dir nicht zu viel Zeit um daran teilzunehmen. Üblicherweise sind sie nur für kurze Zeit verfügbar.",
-                "oneStudyAvailable": "Du hast eine Verfügbare Studie",
-                "severalStudiesAvailable": "Du hast {{studiesAvailable}} verfügbare Studien"
+                "title": "Velkommen {{userName}}!",
+                "descriptionFTU": "Dette er dit undersøgelses-dashboard. Her kan du se de undersøgelser, der er tilgængelige for dig samt nogle smarte tips.\n\nVent ikke for længe med at deltage i dem! De er normalt kun tilgængelige i kort tid.",
+                "oneStudyAvailable": "Du har 1 tilgængelig undersøgelse",
+                "severalStudiesAvailable": "Du {{studiesAvailable}} tilgængelige undersøgelser",
+                "verb": "Du har",
+                "availableStudies": "{{count}} tilgængelig undersøgelse",
+                "availableStudies_plural": "{{count}} tilgængelige undersøgelser",
+                "scheduledStudies_plural": "og {{count}} planlagt",
+                "scheduledStudies": "og {{count}} planlagt",
+                "scheduledStudiesNoAvailableStudies": "{{count}} planlagt undersøgelse",
+                "scheduledStudiesNoAvailableStudies_plural": "{{count}} planlagte undersøgelser"
             },
             "practiceStudy": {
-                "cta": "An Übungsstudie teilnehmen"
+                "cta": "Gennemfør prøve-undersøgelse"
             },
             "reactiveMessage": {
                 "certification": {
                     "underRevision": {
-                        "title": "Übungsstudie",
-                        "description": "User Team überprüft Deine Teilnahme und wird Dich bald mit seinem Feedback anschreiben."
+                        "title": "Prøve-undersøgelse",
+                        "description": "Vores team vurderer din prøve-undersøgelse og vender tilbage til dig med feedback snart!"
                     },
                     "rejected": {
-                        "title": "Übungsstudie",
-                        "description": "Die Übungsstudie die Du uns gesendet hast , hat unseren Qualitätsansprüchen zur Teilnahme an dieser Art von Studien nicht entsprochen. \n\nWenn Du denkst, dass hier ein Fehler vorliegt oder Du einen zweiten Versuch möchtest, <1>{{contactUsLowercaseImperative}}</1>."
+                        "title": "Prøve-undersøgelse",
+                        "description": "Den prøve-undersøgelse, du har sendt os, levede ikke op til kvalitetskravene, vi kræver for disse typer af undersøgelser.\n\nHvis du mener, at dette er en fejl, eller du gerne vil have en chance til, <1>{{contactUsLowercaseImperative}}</1>."
                     },
                     "accepted": {
-                        "title": "Glückwunsch!",
-                        "description": "Deine Teilnahme an unserer Übungsstudie wurde überprüft und bestätigt. \n\nJetzt können wir Dich zu Think-Out-Loud-Studien und Card-Sort-Studien einladen.",
-                        "cta": "Super!"
+                        "title": "Tillyke!",
+                        "description": "Din prøve-undersøgelse er blevet vurderet og godkendt!\n\nNu kan vi begynde at sende dig invitationer til Tænke højt- og Kortsorteringsundersøgelser.",
+                        "cta": "Fedt!"
                     }
                 },
                 "unsubscribe": {
-                    "title": "Versäume keine Einladung!",
-                    "description": "Aktiviere die UX Research Studien-Einladungen und versäume nie wieder eine unserer Studien.",
-                    "cta": "Studieneinladungen aktiviere"
+                    "title": "FOMO? Gå ikke glip af en invitation!",
+                    "description": "Aktiver UX Research-undersøgelsesinvitationer og gå aldrig mere glip af nogle af vores undersøgelser.",
+                    "cta": "Aktiver undersøgelsesinvitationer"
                 }
             },
             "tip": {
                 "phone": {
-                    "title": "Hallo {{username}},",
-                    "description": "Bist Du daran interessiert an moderierten Studien teilzunehmen? Das bedeutet, dass Dich ein Usability-Forscher durch eine Studie begleitet, um Dein Feedback einzuholen.",
-                    "mainCTA": "Spannend",
-                    "secondaryCTA": "Nein danke"
+                    "title": "Hej {{userName}},",
+                    "description": "Har du lyst til at deltage i modererede undersøgelser? Dette betyder, at en UX-forsker guider dig igennem en af deres undersøgelser og indsamler din feedback.",
+                    "mainCTA": "Gerne",
+                    "secondaryCTA": "Nej tak"
                 }
             },
-            "availableStudiesTitle": "{{availableStudies}} Verfügbare Studien",
-            "availableStudyTitle": "1 verfügbare Studie",
-            "emptyDescription": "Derzeit gibt es keine verfügbaren Studien. Bleib dran!",
-            "noLongerAvailable": "Diese Studie ist nicht mehr verfügbar",
-            "studyCTA": "Teilnehmen"
+            "availableStudiesTitle": "{{availableStudies}} tilgængelige undersøgelser",
+            "availableStudyTitle": "1 tilgængelig undersøgelse",
+            "emptyDescription": "Der er ingen tilgængelige undersøgelser i øjeblikket. Hold øje!",
+            "noLongerAvailable": "Denne undersøgelse er ikke længere tilgængelig",
+            "studyCTA": "Tag denne undersøgelse"
         },
         "myProfile": {
             "panelistName": "{{user.firstName}} {{user.lastName}}",
             "profileCompletion": {
-                "title": "Dein Profil ist zu {{completionPercentage}} vollständig.",
-                "description": "Beantworte die Fragen in den folgenden Kategorien, sodass wir Dich zu mehr Studien einladen können."
+                "title": "Din profil er {{completionPercentage}} færdig!",
+                "description": "Besvar spørgsmålene i kategorierne nedenfor og bliv inviteret til flere undersøgelser."
             },
             "availableStudyTypes": {
-                "title": "Verfügbare Studientypen",
-                "description": "Komplettiere die <1>Übungsstudie</1> um an Think-Out-Loud- und Card Sort-Studien teilnehmen zu können."
+                "title": "Tilgængelige undersøgelsestyper",
+                "description": "Gennemfør <1>prøve-undersøgelsen</1> for at tage Tænke højt- og Kortsorteringsundersøgelser."
             },
             "categories": {
-                "title": "Persönliche Daten",
-                "description": "Beantworte alle Fragen und komplettiere Dein Profil. Manche Studien erfordern sehr spezifische Kriterien zur Teilnahme. Je vollständiger und aktueller Dein Profil ist, desto mehr Studien stehen zu Deiner Teilnahme zur Verfügung.",
-                "complete": "Vollständig",
-                "questionsPending": "{{numberQuestionsPending}} Unbeantwortete Fragen",
-                "editCTA": "Prüfen / Bearbeiten",
-                "answerCTA": "Details hinzufügen"
+                "title": "Personlige oplysninger",
+                "description": "Besvar alle spørgsmål og færddigør din profil. Nogle undersøgelser kræver meget specifikke kriterier, så jo mere komplet og opdateret din profil er, jo større sandsynlighed har du for at blive inviteret til dem.",
+                "complete": "Færdig",
+                "questionsPending": "{{numberQuestionsPending}} spørgsmål tilbage",
+                "editCTA": "Gennemse / Rediger",
+                "answerCTA": "Tilføj oplysninger"
             }
         },
         "demographics": {
             "categories": {
-                "aboutMe": "Über mich",
-                "healthAndFitness": "Gesundheit und Fitness",
-                "hobbiesAndInterests": "Hobbies und Interessen",
-                "household": "Haushalt",
-                "financial": "Finanzen",
-                "occupation": "Beruf",
-                "technology": "Technologie",
-                "travel": "Reisen"
+                "aboutMe": "Om me",
+                "healthAndFitness": "Sundhed & Træning",
+                "hobbiesAndInterests": "Hobbyer & Interesser",
+                "household": "Hjemmet",
+                "financial": "Økonomi",
+                "occupation": "Stilling",
+                "technology": "Teknologi",
+                "travel": "Rejser"
             },
             "success": {
-                "title": "Spitze!",
-                "description": "Du kannst jetzt zu Studien die Deinem {{categoryFilled}} Profil entsprechen eingeladen werden. \n\nDenke daran, dass Du Dein {{categoryFilled}} jederzeit  in Deinem Profil <0>einsehen oder bearbeiten</0> kannst.",
-                "backToMyProfile": "Zurück zu meinem Profil",
+                "title": "Sådan!",
+                "description": "Du kan nu blive inviteret til undersøgelser, der matcher din {{categoryFilled}}-profil.\n\nHusk at du altid kan <0>gennemse eller redigere</0> dine {{categoryFilled}}-oplysninger fra sektionen Min profil.",
+                "backToMyProfile": "Tilbage til Min profil",
                 "moreCategories": {
-                    "title": "Weiter mit Schwung!",
-                    "description": "Beantworte **nun {{numberQuestionsMissing}} Fragen** über {{categoryMissing}} um zu mehr Studien eingeladen zu werden.",
-                    "letsDoThis": "Packen wir's an!"
+                    "title": "Ødelæg ikke dit momentum!",
+                    "description": "Besvar **kun {{numberQuestionsMissing}} spørgsmål** i {{categoryMissing}} for at kunne blive inviteret til flere undersøgelser.",
+                    "letsDoThis": "Lad os gøre det"
                 }
             },
             "aboutMe": {
-                "nonEditableFields": "Wenn Du Dein Geburtsdatum, Dein Geschlecht oder das Land in dem Du wohnst ändern möchtest, [kontaktiere](https://help.intellizoom.com/hc/de/requests/new) unser Service Team."
+                "nonEditableFields": "Hvis du ønsker at ændre din fødselsdato, dit køn eller dit land, bedes du [get in touch](https://help.intellizoom.com/hc/en-us/requests/new) vores kundeserviceteam."
             }
         },
         "reEngagement": {
-            "title": "Hallo {{userName}}!",
-            "description": "Da das eine brandneue Plattform ist, lass uns mit einem brandneuen Passwort starten.\n\nKlicke Neues Passwort beantragen und wir senden Dir eine E-Mail mit einem Link zum zurücksetzen.",
-            "cta": "Neues Passwort beantragen",
+            "title": "Velkommen {{userName}}!",
+            "description": "Da dette er en helt ny hjemmeside, så lad os begynde med at give dig et helt nyt kodeord til din konto.\n\nKlik på Anmod om ny adgangskode, så sender vi dig en e-mail med at link til at nulstille den.",
+            "cta": "Anmod om nyt kodeord",
             "success": {
-                "title": "Wir haben Dir ein E-Mail geschickt, um Dein Passwort zurückzusetzen",
-                "description": "Aus Sicherheitsgründen ist dieser Link nur 24 Stunden gültig. \n\nWenn Du keine Nachricht siehst, überprüfe bitte den Spam-Ordner. Wir können Dir das E-Mail auch <1>nochmals senden</1>."
+                "title": "Vi har sendt dig en e-mail med en anmodning om et nyt kodeord",
+                "description": "Af sikkerhedshensyn udløber dette link om 24 timer.\n\nHvis du ikke kan se det, kan du tjekke din spam-mappe. Vi kan også <1>genudsende</1> e-mailen til dig."
             },
             "wud": {
-                "titleName": "Willkommen bei IntelliZoom Panel {{userName}}!",
-                "title": "Willkommen bei IntelliZoom Panel!",
-                "description": "Wir werden alle Ihre Profilinformationen von WhatUsersDo auf unsere Plattform verschieben. Da es sich jedoch um eine brandneue Website handelt, lass' uns mit einem brandneuen Passwort starten.\n\nKlicke ’Neues Passwort beantragen' und wir senden Dir eine E-Mail mit einem Link zur Bestätigung.",
-                "cta": "Neues Passwort beantragen",
+                "titleName": "Velkommen til IntelliZoom Panel {{userName}}!",
+                "title": "Velkommen til IntelliZoom Panel!",
+                "description": "Vi flytter alle dine profiloplysninger for WhatUsersDo til vores nye platform, men da dette er en helt ny hjemmeside, så lad os begynde med at anmode om en helt ny adgangskode til din konto.\n\nKlik på Anmod om ny adgangskode, så sender vi dig en e-mail med at link til at gøre det.",
+                "cta": "Anmod om ny adgangskode",
                 "modal": {
-                    "title": "Jetzt Einladungsstatus aktivieren, damit Du gleich an neuen Studien teilnehmen kannst:",
-                    "bodycopy": "Erst, wenn Du den Einladungsstatus aktivierst, kannst Du Deine neuen Studien auf Deinem Dashboard sehen bzw. E-Mail-Einladungen zu neuen Studien erhalten.",
-                    "cta": "Studieneinladungen aktivieren"
+                    "title": "Aktiver undersøgelsesinvitationerne for at kunne deltage",
+                    "bodycopy": "Hvis du ikke aktiverer dem, ser du ikke nogen undersøgelser i dit Undersøgelses-dashboard eller modtager invitationer via e-mail.",
+                    "cta": "Aktiver undersøgelsesinvitationer"
                 }
             }
         },
         "success": {
             "resend": {
-                "email": "E-Mail gesendet!"
+                "email": "E-mail er nu sendt!"
             }
         },
         "finalPages": {
             "complete": {
-                "title": "Du hast die Studie abgeschlossen. Danke für’s teilen Deiner Eindrücke!",
-                "description": "Sobald Deine Ergebnisse von uns gesichtet und bestätigt wurden, beauftragen wir die Zahlung mittels PayPal an die selbe E-Mail-Adresse die Du zur Registrierung bei IntelliZoom Panel benützt hast.\n\nDieser Prozess kann bis zu 21 Werktage benötigen. In der Zwischenzeit kannst Du an weiteren Studien teilnehmen.",
-                "cta": "Verfügbare Studien ansehen"
+                "title": "Du har gennemført undersøgelsen. Tak for at du har delt dine tanker!",
+                "description": "Når dine resultater er blevet vurderet og godkendt, behandler vi din betaling via PayPal til samme e-mailkonto, du brugte til at registrere dig i IntelliZoom-panelet.\n\nDenne proces kan tage op til 21 arbejdsdag. Imens kan du blive ved med at deltage i flere undersøgelser!",
+                "cta": "Tjek tilgængelige undersøgelser"
             },
             "alreadyTaken": {
-                "title": "Du hast diese Studie bereits abgeschlossen. Danke für Deine Teilnahme!",
-                "description": "Sobald Deine Ergebnisse von uns gesichtet und bestätigt wurden, beauftragen wir die Zahlung mittels PayPal an die selbe E-Mail-Adresse die Du zur Registrierung bei IntelliZoom Panel benützt hast.\n\nDieser Prozess kann bis zu 21 Werktage benötigen. In der Zwischenzeit kannst Du an weiteren Studien teilnehmen.",
-                "cta": "Verfügbare Studien ansehen"
+                "title": "Du har allerede gennemført denne undersøgelse. Tak for din deltagelse!",
+                "description": "Når dine resultater er blevet vurderet og godkendt, behandler vi din betaling via PayPal til samme e-mailkonto, du brugte til at registrere dig i IntelliZoom-panelet.\n\nDenne proces kan tage op til 21 arbejdsdag. Imens kan du blive ved med at deltage i flere undersøgelser!",
+                "cta": "Tjek tilgængelige undersøgelser"
             },
             "screenout": {
-                "title": "Verdammt! Du bist nicht qualifiziert um an dieser Studie teilzunehmen. Aber vielleicht bist Du der perfekte Kandidat für die nächste!",
-                "description": "Danke für Deine Zeit, {{user.name}}.\n\nStelle sicher, dass [Dein Profil](/profile) vollständig und aktuell ist um so viele passende Einladungen wie möglich zu erhalten.",
-                "cta": "Verfügbare Studien ansehen"
+                "title": "Ærgerligt! Du var ikke kvalificeret til denne undersøgelse, men du kan være den perfekte person til den næste!",
+                "description": "Mange tak, {{user.name}}, for stadig at tage dig tid til at svare.\n\nSørg for at [your profile is complete](/profile) og opdateret for at få så mange målrettede invitationer som muligt.",
+                "cta": "Tjek tilgængelige undersøgelser"
             },
             "cheater": {
-                "title": "Es tut uns leid, aber Dein Ergebnis entspricht unseren Qualitätskriterien nicht.",
-                "description": "Wir nehmen es sehr ernst mit der Beantwortung unserer Studien.\n\nDeshalb setzen wir voraus dass:\n\n-  Die Studie komplett abgeschlossen wurde.\n\n-  Die Kommentare des Teilnehmers in Qualität und Quantität stimmen.\n\n-  Der / Die Teilnehmer/In eine angemessene Zeitspanne mit Betrachtung und Interaktion mit der zu beurteilenden Seite verbringt.\n\nLeider entsprechen Deine Ergebnisse nicht diesen Standards, weshalb wir Dir diesmal keine Prämie anbieten können. Wir tun das nicht gerne, aber diese Gründe sind uns wichtig und wir empfehlen Dir, mehr Zeit und Einsatz in zukünftige Studien zu investieren.",
-                "cta": "Zurück zu den verfügbaren Studien"
+                "title": "Beklager, dine resultater lever ikke op til vores kvalitetsstandarder.",
+                "description": "Vi tager kvaliteten af svarene i vores undersøgelser ekstremt alvorligt.\n\nDerfor kræver vi:\n\n- At undersøgelsen er helt færdiggjort.\n\n- At deltagerens kommentarer er talrige og kvalificerede.\n\n- At deltageren bruger en rimelig mængde tid på at se og interagere med de sider, der evalueres på.\n\nDesværre lever dine resultater ikke op til disse standarder, og vi kan ikke tilbyde dig en belønning denne gang. Vi er kede af at gøre det, men årsagerne er vigtige for os, og derfor anbefaler vi, at du investerer mere tid og gør en større indsats i fremtidige undersøgelser.",
+                "cta": "Tilbage til tilgængelige undersøgelser"
             },
             "speeder": {
-                "title": "Du hast diese Studie viel zu schnell abgeschlossen.",
-                "description": "Du warst schneller als erwartet für jemanden der die Studie in bestem Wissen beantwortet. Wir verstehen zwar die Eile und den Wunsch mehr Studien abschließen zu können, nehmen es aber mit der Qualität der Antworten sehr genau.\n\nLeider müssen wir daher Deine Ergebnisse ausschließen und können Dir diesmal keine Prämie anbieten. Wir tun das nicht gerne, aber die Gründe sind uns sehr wichtig, weshalb wir Dir empfehlen in zukünftigen Studien mehr Zeit zu verbringen.",
-                "cta": "Zurück zu den verfügbaren Studien"
+                "title": "Du færdiggjorde denne undersøgelse alt for hurtigt.",
+                "description": "Som i hurtigere end hvad der rimeligt kan forventes, at det ville tage en person at gennemføre det med gode intentioner. Vi forstår selvfølgelig behovet for at skynde sig og lysten til at gennemføre flere undersøgelser, men vi tager kvaliteten af svar ekstremt alvorligt.\n\nDesværre må vi afvise dine resultater og kan ikke tilbyde dig en belønning denne gang. Vi er kede af at gøre det, men årsagerne er vigtige for os, og derfor anbefaler vi, at du investerer mere tid og gør en større indsats i fremtidige undersøgelser.",
+                "cta": "Tilbage til tilgængelige undersøgelser"
             },
             "closed": {
-                "title": "Die Studie an der Du teilnehmen möchtest wurde geschlossen.",
-                "description": "Schnell! Schau' ob es noch eine weitere Studie für Dich gibt.",
-                "cta": "Verfügbare Studien ansehen"
+                "title": "Undersøgelsen, du prøvede at deltage i, er afsluttet.",
+                "description": "Skynd dig! Se om der er en anden, du kan tage.",
+                "cta": "Tjek tilgængelige undersøgelser"
             },
             "quotafull": {
-                "title": "Die Studie an der Du teilnehmen möchtest hat bereits die notwendige Zahl an Antworten erreicht.",
-                "description": "Schnell! Schau' ob es noch eine weitere Studie für Dich gibt.",
-                "cta": "Verfügbare Studien ansehen"
+                "title": "Undersøgelsen, du forsøgte at tilgå, har lige nået det påkrævede antal svar.",
+                "description": "Skynd dig! Se om der er en anden, du kan tage.",
+                "cta": "Tjek tilgængelige undersøgelser"
             },
-            "practiceStudy": "Wenn Du an einer unserer Übungsstudien teilnimmst, kontaktieren wir Dich, sobald wir Dein Ergebnis bewertet haben. Bitte behalte in Erinnerung, dass für Übungsstudien keine Prämien ausgezahlt werden."
+            "practiceStudy": "Hvis undersøgelsen, du har taget, er en Prøve-undersøgelse, kontakter vi dig så snart, vi har vurderet dine resultater. Husk venligst at du ikke bliver betalt for prøve-undersøgelser."
         },
         "errorPages": {
             "generic": {
-                "title": "Ohjeh! Diese Seite funktioniert nicht.",
-                "description": "Wir behalten das im Auge.\n\nMöchtest Du Dir in der Zwischenzeit ansehen welche [Studien](/studies) verfügbar sind?"
+                "title": "Åh nej, denne side virker ikke.",
+                "description": "Vi noterer det.\n\nVil du i mellemtiden se, hvilke [studies](/studies), der er tilgængelige?"
             },
             "uz": {
                 "generic": {
-                    "title": "Oops, etwas ist schiefgelaufen",
-                    "description": "Wir konnten die Seite nicht laden. Bitte versuche es in einigen Minuten nochmal."
+                    "title": "Ups, noget gik galt",
+                    "description": "Vi kunne ikke indlæse denne side. Forsøg venligst igen om et par minutter."
                 }
             },
             "500": {
-                "title": "Und, nein… der Server antwortet nicht.",
-                "description": "Bitte entschuldige die Umstände. Bitte versuche es <1>in einigen Minuten</1> erneut."
+                "title": "Og... nej. Serveren svarede ikke.",
+                "description": "Beklager ulejligheden. <1>Prøv igen</1> om et par minutter"
             }
         },
         "paypalToken": {
             "dashboard": {
                 "status": {
                     "noIntegration": {
-                        "title": "Verknüpfe Dein PayPal-Konto mit IntelliZoom!",
-                        "description": "Mit unserer neuen PayPal-Integration wirst Du nach jeder absolvierten Forschungsstudie sicher und pünktlich bezahlt.",
-                        "cta": "Mit PayPal verknüpfen"
+                        "title": "Tilslut din PayPal-konto hos IntelliZoom!",
+                        "description": "Med vores nye PayPal-integration bliver du betalt sikkert og til tiden efter hver gennemført undersøgelses-session med betaling.",
+                        "cta": "Tilknyt PayPal"
                     },
                     "noTolUnverified": {
-                        "title": "Nur noch ein Schritt!",
-                        "description": "Um mit der Teilnahme an bezahlten Forschungsstudien zu beginnen, kannst Du entweder die Übungsstudie durchführen oder [Dein PayPal-Konto verifizieren.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                        "title": "Bare ét trin mere!",
+                        "description": "For at begynde at deltage i betalte undersøgelser, kan du enten tage prøve-undersøgelsen eller [verify your PayPal account.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
                     },
                     "connectionLost": {
-                        "title": "Leider könnn wir Dich nicht bezahlen …",
-                        "description": "Dein PayPal-Konto wurde von IntelliZoom getrennt. Um bezahlt zu werden und an zukünftigen Studien teilnehmen zu können, muss Dein PayPal-Konto verknüpft sein.",
-                        "cta": "Mit PayPal verknüpfen"
+                        "title": "Beklager, vi kan ikke betale dig...",
+                        "description": "Din PayPal-konto er blevet frakoblet fra IntelliZoom. For at blive betalt og deltage i fremtidige undersøgelser, skal din PayPal-konto være tilkoblet.",
+                        "cta": "Tilknyt PayPal"
                     }
                 },
                 "outcome": {
                     "success": {
                         "verified": {
-                            "title": "Herzlichen Glückwunsch! Dein PayPal-Konto wurde erfolgreich verknüpft.",
-                            "description": "Nehme zur Feier an einigen bezahlten Forschungsstudien teil."
+                            "title": "Tillykke! Din PayPal-konto er nu forbundet",
+                            "description": "Lad os tage nogle betalte undersøgelser for at fejre det."
                         },
                         "notVerifiedTol": {
-                            "title": "Herzlichen Glückwunsch! Dein PayPal-Konto wurde erfolgreich verknüpft.",
-                            "description": "Wenn Du an weiteren bezahlten Forschungsstudien teilnehmen möchtest, [verifiziere Dein PayPal-Konto.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                            "title": "Tillykke! Din PayPal-konto er nu tilknyttet",
+                            "description": "Hvis du vil være kvalificeret til at deltage i flere betalte undersøgelser, skal du [verify your PayPal account.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
                         },
                         "notVerifiedNoTol": {
-                            "title": "Herzlichen Glückwunsch! Dein PayPal-Konto wurde erfolgreich verknüpft.",
-                            "description": "Um mit der Teilnahme an bezahlten Forschungsstudien zu beginnen, kannst Du entweder die Übungsstudie durchführen oder [Dein PayPal-Konto verifizieren.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                            "title": "Tillykke! Din PayPal-konto er nu forbundet",
+                            "description": "For at begynde at deltage i betalte undersøgelser, kan du enten tage prøve-undersøgelsen eller [verify your PayPal account.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
                         }
                     },
                     "error": {
                         "location": {
-                            "title": "Leider könnn wir Dich nicht bezahlen …",
-                            "description": "Dein PayPal- und Dein IntelliZoom-Konto müssen die gleichen Standortinformationen haben. Aktualisiere bitte die Seite, falls Du es erneut versuchen möchtest."
+                            "title": "Beklager, vi kan ikke betale dig...",
+                            "description": "Både din PayPal- og IntelliZoom-konto skal have samme placeringsoplysninger. Genindlæs siden, hvis du vil forsøge igen."
                         },
                         "severalAccounts": {
-                            "title": "Leider könnn wir Dich nicht bezahlen …",
-                            "description": "Dein PayPal-Konto wird bereits für ein anderes IntelliZoom-Konto verwendet. Aktualisiere bitte die Seite, falls Du es erneut versuchen möchtest."
+                            "title": "Beklager, vi kan ikke betale dig...",
+                            "description": "Din PayPal-konto bliver allerede brugt til en anden IntelliZoom-konto. Genindlæs siden hvis du vil forsøge igen."
                         },
                         "accessDenied": {
-                            "title": "Dein PayPal-Konto wurde nicht verknüpft, da Du IntelliZoom keinen Zugriff gewährt hast.",
-                            "cta": "Erneut versuchen"
+                            "title": "Din PayPal-konto blev ikke tilknyttet, da du ikke gav adgang til IntelliZoom",
+                            "cta": "Prøv igen"
                         },
                         "noLongerVerified": {
-                            "title": "Dein PayPal ist nicht mehr verifiziert",
-                            "description": "Bitte folge diesen [Anweisungen](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444), um Dein PayPal-Konto zu verifizieren, und versuche es erneut."
+                            "title": "Din PayPal er ikke længere verificeret",
+                            "description": "Følg venligst disse [instructions](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) for at verificere din PayPal-konto og forsøg igen."
                         }
                     }
                 }
             },
             "studyEntrance": {
                 "notVerified": {
-                    "title": "Um teilzunehmen, musst Du Dein verifiziertes PayPal-Konto mit IntelliZoom verknüpfen.",
-                    "description": "Wenn Du Dein Konto bereits verknüpft hast, denke daran, dass Du zur Teilnahme an Studien entweder die Übungsstudie durchführen oder bei PayPal [Dein Konto verifizieren](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) musst.",
-                    "cta": "Zur Übersichtsseite"
+                    "title": "For at deltage skal du tilkoble din verificerede PayPal-konto til IntelliZoom",
+                    "description": "Hvis du allerede har forbundet dine konti, skal du huske, at for at deltage i undersøgelser, skal du enten tage prøve-undersøgelsen eller [verify your account](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) i PayPal.",
+                    "cta": "Gå til dashboard"
                 }
             },
             "settings": {
                 "connect": {
-                    "title": "Mit Deinem PayPal verknüpfen",
-                    "description": "Stelle sicher, dass Du Deine Zahlungen pünktlich erhaltest, indem Du Dein Konto mit PayPal synchronisierst.",
-                    "cta": "Mein PayPal verknüpfen"
+                    "title": "Tilknyt din PayPal",
+                    "description": "Sørg for at du modtager dine betalinger til tiden ved at synkronisere din konto med PayPal.",
+                    "cta": "Tilknyt min PayPal"
                 },
                 "disconnect": {
-                    "title": "PayPal – verknüpft",
-                    "description": "Dein Konto ist erfolgreich mit PayPal verknüpft.",
-                    "cta": "Von PayPal trennen",
+                    "title": "PayPal - Forbundet",
+                    "description": "Din konto er nu forbundet til PayPal.",
+                    "cta": "Fjern forbindelse til PayPal",
                     "doubleConfirmation": {
-                        "title": "Bist Du sicher, dass Du Dein PayPal trennen möchtest?",
-                        "description": "Wenn Du mit dieser Option fortfährst, erhaltest Du keine Einladungen zu bezahlten Studien mehr. Außerdem verlierst Du alle ausstehenden Zahlungen für Studien, die Du kürzlich abgeschlossen hast.",
-                        "cta": "Mein PayPal trennen"
+                        "title": "Er du sikker på, at du vil fjerne forbindelsen til din PayPal?",
+                        "description": "Hvis du gør dette, modtager du ikke længere invitationer til betalte undersøgelser. Du frasiger dig også eventuelle afventende betalinger for undersøgelser, du har gennemført for nylig.",
+                        "cta": "Frakobl min PayPal"
                     }
                 }
             }
+        },
+        "demographicsUpdate": {
+            "complete": {
+                "title": "🎉 Tak for at du opdaterede din profil",
+                "description": "Din deltagelse sikrer at vi kan yde den bedst mulige service",
+                "cta": "Tjek tilgængelige undersøgelser"
+            },
+            "infoMessage": "De data du giver os, lader os matche din profil med de mest relevante undersøgelser."
         }
     }
 }
