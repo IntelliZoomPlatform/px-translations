@@ -535,5 +535,9 @@
             },
             "infoMessage": "Les données que vous nous fournissez nous permettent de trouver les études les plus adaptées à votre profil."
         }
+    },
+    "“izPanel”.“finalPages”.“moderatedSessionAboutToStart”": {
+        "title": "",
+        "cta": ""
     }
 }
