@@ -431,7 +431,11 @@
                 "description": "¡Rápido! Miremos si hay otro estudio disponible en el que puedas participar.",
                 "cta": "Ver estudios disponibles"
             },
-            "practiceStudy": "Si el estudio que has completado era un Estudio de práctica, nos pondremos en contacto contigo en cuanto revisemos tus resultados. Recuerda que los estudios de práctica no son pagados."
+            "practiceStudy": "Si el estudio que has completado era un Estudio de práctica, nos pondremos en contacto contigo en cuanto revisemos tus resultados. Recuerda que los estudios de práctica no son pagados.",
+            "moderatedSessionAboutToStart": {
+                "title": "Tienes programada una sesión para esta hora. \nPara continuar, accede a tu cuenta.",
+                "cta": "Entrar"
+            }
         },
         "errorPages": {
             "generic": {

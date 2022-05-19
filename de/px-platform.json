@@ -431,7 +431,11 @@
                 "description": "Schnell! Schau' ob es noch eine weitere Studie für Dich gibt.",
                 "cta": "Verfügbare Studien ansehen"
             },
-            "practiceStudy": "Wenn Du an einer unserer Übungsstudien teilnimmst, kontaktieren wir Dich, sobald wir Dein Ergebnis bewertet haben. Bitte behalte in Erinnerung, dass für Übungsstudien keine Prämien ausgezahlt werden."
+            "practiceStudy": "Wenn Du an einer unserer Übungsstudien teilnimmst, kontaktieren wir Dich, sobald wir Dein Ergebnis bewertet haben. Bitte behalte in Erinnerung, dass für Übungsstudien keine Prämien ausgezahlt werden.",
+            "moderatedSessionAboutToStart": {
+                "title": "Um diese Uhrzeit ist eine Sitzung für dich eingeplant. \u2028\nUm fortzufahren, logge dich bitte in dein Konto ein.",
+                "cta": "Anmelden"
+            }
         },
         "errorPages": {
             "generic": {

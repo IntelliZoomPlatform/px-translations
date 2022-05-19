@@ -431,7 +431,11 @@
                 "description": "Snel! laten we kijken of er nog een andere is waaraan je kunt meedoen.",
                 "cta": "Check beschikbare studies"
             },
-            "practiceStudy": "Als de studie die je hebt genomen een proefstudie is dan zullen we zo snel mogelijk contact met je opnemen zodra we je resultaten hebben beoordeeld. Let er wel op dat proefstudies niet betaald zijn."
+            "practiceStudy": "Als de studie die je hebt genomen een proefstudie is dan zullen we zo snel mogelijk contact met je opnemen zodra we je resultaten hebben beoordeeld. Let er wel op dat proefstudies niet betaald zijn.",
+            "moderatedSessionAboutToStart": {
+                "title": "",
+                "cta": ""
+            }
         },
         "errorPages": {
             "generic": {

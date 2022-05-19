@@ -431,7 +431,11 @@
                 "description": "Kvickt! Se om det finns en annan som du kan ta.",
                 "cta": "Se tillgängliga studier"
             },
-            "practiceStudy": "Vad studien du tog en övningsstudie kommer vi att höra av oss till dig när vi har granskat dina resultat. Kom ihåg att man inte får betalt för övningsstudier."
+            "practiceStudy": "Vad studien du tog en övningsstudie kommer vi att höra av oss till dig när vi har granskat dina resultat. Kom ihåg att man inte får betalt för övningsstudier.",
+            "moderatedSessionAboutToStart": {
+                "title": "",
+                "cta": ""
+            }
         },
         "errorPages": {
             "generic": {
