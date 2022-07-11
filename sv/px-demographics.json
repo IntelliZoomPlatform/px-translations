@@ -167,6 +167,112 @@
                         "gcse": "Gymnasieexamen eller motsvarande",
                         "alevel": "Gymnasieexamen eller motsvarande"
                     }
+                },
+                "education_at": {
+                    "list": {
+                        "not_lower_secondary": "",
+                        "lower_secondary": "",
+                        "vocational": "",
+                        "higher_technical": "",
+                        "university": "",
+                        "master": "",
+                        "phd": ""
+                    }
+                },
+                "education_ie": {
+                    "list": {
+                        "post_primary": "",
+                        "leaving": "",
+                        "third_level": "",
+                        "higher_technical": "",
+                        "bachelor": "",
+                        "master": "",
+                        "phd": "",
+                        "post_leaving": ""
+                    }
+                },
+                "education_dk": {
+                    "list": {
+                        "primary": "",
+                        "secondary": "",
+                        "vocational": "",
+                        "uncompleted_tertiary": "",
+                        "first_degree": "",
+                        "bachelor": "",
+                        "master": "",
+                        "phd": ""
+                    }
+                },
+                "education_mx": {
+                    "list": {
+                        "incomplete_prep": "",
+                        "prep": "",
+                        "vocational": "",
+                        "university": "",
+                        "technical": "",
+                        "undergraduate": "",
+                        "master": "",
+                        "phd": ""
+                    }
+                },
+                "education_se": {
+                    "list": {
+                        "some_a_level": "",
+                        "a_level": "",
+                        "vocational": "",
+                        "some_university": "",
+                        "university": "",
+                        "bachelor": "",
+                        "master": "",
+                        "phd": ""
+                    }
+                },
+                "education_nl": {
+                    "list": {
+                        "no_hs_diploma": "",
+                        "diploma": "",
+                        "technical": "",
+                        "some_college": "",
+                        "two_year_degree": "",
+                        "four_year_degree": "",
+                        "masters": "",
+                        "phd": ""
+                    }
+                },
+                "education_fr": {
+                    "list": {
+                        "high_school": "",
+                        "baccalaureate": "",
+                        "vocational": "",
+                        "technical": "",
+                        "higher_technical": "",
+                        "bachelor": "",
+                        "master": "",
+                        "phd": ""
+                    }
+                },
+                "education_in": {
+                    "list": {
+                        "some_secondary": "",
+                        "secondary": "",
+                        "some_vocational": "",
+                        "vocational": "",
+                        "some_university": "",
+                        "university": "",
+                        "master": "",
+                        "phd": ""
+                    }
+                },
+                "education_ch": {
+                    "list": {
+                        "compulsory": "",
+                        "basic_vocational": "",
+                        "technical": "",
+                        "higher_technical": "",
+                        "bachelor": "",
+                        "master": "",
+                        "phd": ""
+                    }
                 }
             },
             "household": {
