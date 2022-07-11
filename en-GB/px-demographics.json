@@ -167,6 +167,112 @@
                         "gcse": "GCSEs or equivalent",
                         "alevel": "A-levels or equivalent"
                     }
+                },
+                "education_at": {
+                    "list": {
+                        "not_lower_secondary": "Did not complete lower secondary/gymnasium",
+                        "lower_secondary": "Lower secondary/gymnasium certificate",
+                        "vocational": "Berufsschule (vocational school) certificate",
+                        "higher_technical": "Höhere Schule certificate",
+                        "university": "University degree",
+                        "master": "Master's degree",
+                        "phd": "Doctorate degree"
+                    }
+                },
+                "education_ie": {
+                    "list": {
+                        "post_primary": "Some post-primary education or less",
+                        "leaving": "Leaving Certificate",
+                        "third_level": "Completed some third-level education, but no degree",
+                        "higher_technical": "Higher Certificate",
+                        "bachelor": "Bachelor degree",
+                        "master": "Master's or professional degree",
+                        "phd": "Doctorate degree",
+                        "post_leaving": "Post-Leaving Certificate vocational training"
+                    }
+                },
+                "education_dk": {
+                    "list": {
+                        "primary": "Public school (primary and lower secondary school)",
+                        "secondary": "A-levels / high school (upper secondary school)",
+                        "vocational": "Skilled worker / workman or other vocational training",
+                        "uncompleted_tertiary": "Started but never completed tertiary education",
+                        "first_degree": "2-year first-degree programme / minor subject",
+                        "bachelor": "Bachelor's degree",
+                        "master": "Master's degree",
+                        "phd": "PhD degree"
+                    }
+                },
+                "education_mx": {
+                    "list": {
+                        "incomplete_prep": "Incomplete prep school or less",
+                        "prep": "Prep school certificate",
+                        "vocational": "Tertiary higher education, vocational school",
+                        "university": "University education, no degree",
+                        "technical": "Technical or commercial degree",
+                        "undergraduate": "Undergraduate degree",
+                        "master": "Master's or professional education",
+                        "phd": "Doctorate degree"
+                    }
+                },
+                "education_se": {
+                    "list": {
+                        "some_a_level": "Some A-Levels or lower",
+                        "a_level": "A-Levels",
+                        "vocational": "Other post-secondary vocational qualification",
+                        "some_university": "Some university, but no degree",
+                        "university": "University diploma (2-year degree)",
+                        "bachelor": "Bachelor's degree",
+                        "master": "Master's degree or professional degree",
+                        "phd": "Doctoral degree"
+                    }
+                },
+                "education_nl": {
+                    "list": {
+                        "no_hs_diploma": "Part of high school or less",
+                        "diploma": "High school diploma",
+                        "technical": "Other vocational training after high school",
+                        "some_college": "Completed part of university of applied sciences / university, but no diploma",
+                        "two_year_degree": "Associate's degree",
+                        "four_year_degree": "Bachelor's degree",
+                        "masters": "Master's degree",
+                        "phd": "Doctorate/ PhD"
+                    }
+                },
+                "education_fr": {
+                    "list": {
+                        "high_school": "High school diploma",
+                        "baccalaureate": "Baccalaureate",
+                        "vocational": "Other vocational training after high school",
+                        "technical": "Bac +1",
+                        "higher_technical": "Bac +2",
+                        "bachelor": "Bac +3/+4 (Licence, Master 1)",
+                        "master": "Master's degree",
+                        "phd": "Doctorate"
+                    }
+                },
+                "education_in": {
+                    "list": {
+                        "some_secondary": "Some secondary school or less",
+                        "secondary": "Finished secondary school",
+                        "some_vocational": "Some vocational school/technical college",
+                        "vocational": "Vocational school/technical college",
+                        "some_university": "Some university/higher education",
+                        "university": "University degree, Honours degree",
+                        "master": "Masters",
+                        "phd": "Doctorate"
+                    }
+                },
+                "education_ch": {
+                    "list": {
+                        "compulsory": "Compulsory school / bridging programme",
+                        "basic_vocational": "Basic vocational education / school of general education",
+                        "technical": "(Technical) college/university without degree",
+                        "higher_technical": "Higher technical or vocational training",
+                        "bachelor": "University (technical) degree (Bachelor)",
+                        "master": "University (technical) degree (Master)",
+                        "phd": "Doctorate"
+                    }
                 }
             },
             "household": {
