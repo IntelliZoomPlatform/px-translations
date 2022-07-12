@@ -170,108 +170,109 @@
                 },
                 "education_at": {
                     "list": {
-                        "not_lower_secondary": "",
-                        "lower_secondary": "",
-                        "vocational": "",
-                        "higher_technical": "",
-                        "university": "",
-                        "master": "",
-                        "phd": ""
+                        "not_lower_secondary": "No completó el primer ciclo de secundaria",
+                        "lower_secondary": "Certificado de primer ciclo de secundaria",
+                        "vocational": "Certificado de la Berufsschule (escuela profesional)",
+                        "higher_technical": "Certificado de Höhere Schule",
+                        "university": "Título universitario",
+                        "master": "Máster",
+                        "phd": "Doctorado"
                     }
                 },
                 "education_ie": {
                     "list": {
-                        "post_primary": "",
-                        "leaving": "",
-                        "third_level": "",
-                        "higher_technical": "",
-                        "bachelor": "",
-                        "master": "",
-                        "phd": "",
-                        "post_leaving": ""
+                        "post_primary": "Alguna educación postprimaria o menos",
+                        "leaving": "Certificado de fin de estudios",
+                        "third_level": "Ha completado algunos estudios de tercer nivel, pero no tiene título",
+                        "higher_technical": "Certificado superior",
+                        "bachelor": "Licenciatura",
+                        "master": "Máster o título profesional",
+                        "phd": "Doctorado",
+                        "post_leaving": "Formación profesional con certificado de fin de estudios"
                     }
                 },
                 "education_dk": {
                     "list": {
-                        "primary": "",
-                        "secondary": "",
-                        "vocational": "",
-                        "uncompleted_tertiary": "",
-                        "first_degree": "",
-                        "bachelor": "",
-                        "master": "",
-                        "phd": ""
+                        "primary": "Escuela pública (primaria y primer ciclo de secundaria)",
+                        "secondary": "Bachillerato / instituto (escuela secundaria superior)",
+                        "vocational": "Trabajador cualificado / obrero u otra formación profesional",
+                        "uncompleted_tertiary": "Comenzó pero nunca completó la educación terciaria",
+                        "first_degree": "Programa de primer grado de 2 años / asignatura secundaria",
+                        "bachelor": "Licenciatura",
+                        "master": "Máster",
+                        "phd": "Doctorado"
                     }
                 },
                 "education_mx": {
                     "list": {
-                        "incomplete_prep": "",
-                        "prep": "",
-                        "vocational": "",
-                        "university": "",
-                        "technical": "",
-                        "undergraduate": "",
-                        "master": "",
-                        "phd": ""
+                        "incomplete_prep": "Preparatoria incompleta o menos",
+                        "prep": "Certificado de estudios previos",
+                        "vocational": "Enseñanza superior terciaria, escuela de formación profesional",
+                        "university": "Educación universitaria, sin título",
+                        "technical": "Grado técnico o comercial",
+                        "undergraduate": "Licenciatura",
+                        "master": "Máster o título profesional",
+                        "phd": "Doctorado"
                     }
                 },
                 "education_se": {
                     "list": {
-                        "some_a_level": "",
-                        "a_level": "",
-                        "vocational": "",
-                        "some_university": "",
-                        "university": "",
-                        "bachelor": "",
-                        "master": "",
-                        "phd": ""
+                        "some_a_level": "Algunos A-Levels o inferiores",
+                        "a_level": "A-Levels",
+                        "vocational": "Otra cualificación profesional postsecundaria",
+                        "some_university": "Algo de universidad, pero sin título",
+                        "university": "Diploma universitario (licenciatura de 2 años)",
+                        "bachelor": "Licenciatura",
+                        "master": "Máster o título profesional",
+                        "phd": "Doctorado"
                     }
                 },
                 "education_nl": {
                     "list": {
-                        "no_hs_diploma": "",
-                        "diploma": "",
-                        "technical": "",
-                        "some_college": "",
-                        "two_year_degree": "",
-                        "four_year_degree": "",
-                        "masters": "",
-                        "phd": ""
+                        "no_hs_diploma": "Parte de la escuela secundaria o menos",
+                        "diploma": "Título de bachillerato",
+                        "technical": "Otras formaciones profesionales después del bachillerato",
+                        "some_college": "Parte completa de la universidad de ciencias aplicadas / universidad, pero sin diploma",
+                        "two_year_degree": "Grado de asociado",
+                        "four_year_degree": "Licenciatura",
+                        "masters": "Máster",
+                        "phd": "Doctorado"
                     }
                 },
                 "education_fr": {
                     "list": {
-                        "high_school": "",
-                        "baccalaureate": "",
-                        "vocational": "",
-                        "technical": "",
-                        "higher_technical": "",
-                        "bachelor": "",
-                        "master": "",
-                        "phd": ""
+                        "high_school": "Secundaria o menos",
+                        "baccalaureate": "Bachillerato",
+                        "vocational": "Otra formación profesional después del bachillerato",
+                        "technical": "Bac +1",
+                        "higher_technical": "Bac +2",
+                        "bachelor": "Bac +3/+4 (Licence, Master 1)",
+                        "master": "Máster",
+                        "phd": "Doctorado"
                     }
                 },
                 "education_in": {
                     "list": {
-                        "some_secondary": "",
-                        "secondary": "",
-                        "some_vocational": "",
-                        "vocational": "",
-                        "some_university": "",
-                        "university": "",
-                        "master": "",
-                        "phd": ""
+                        "some_secondary": "Algunos estudios secundarios o menos",
+                        "secondary": "Escuela secundaria terminada",
+                        "some_vocational": "Alguna escuela de formación profesional/universidad técnica",
+                        "vocational": "Escuela profesional/colegio técnico",
+                        "some_university": "Algo de universidad/educación superior",
+                        "university": "Licenciatura universitaria, con matrícula de honor",
+                        "master": "Máster",
+                        "phd": "Doctorado"
                     }
                 },
                 "education_ch": {
                     "list": {
-                        "compulsory": "",
-                        "basic_vocational": "",
-                        "technical": "",
-                        "higher_technical": "",
-                        "bachelor": "",
-                        "master": "",
-                        "phd": ""
+                        "compulsory": "Escuela obligatoria",
+                        "basic_vocational": "Formación profesional básica / escuela de enseñanza general",
+                        "technical": "Escuela superior (técnica) / universidad sin título",
+                        "higher_technical": "Formación técnica o profesional superior",
+                        "bachelor": "Título universitario (técnico) (Licenciatura)",
+                        "master": "Título universitario (técnico) (Máster)",
+                        "phd": "Doctorado",
+                        "some_compulsory": "Ninguna o hasta 7 años de escolarización obligatoria"
                     }
                 }
             },
