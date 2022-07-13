@@ -241,7 +241,7 @@
                 },
                 "education_fr": {
                     "list": {
-                        "high_school": "High school diploma",
+                        "high_school": "High school or less",
                         "baccalaureate": "Baccalaureate",
                         "vocational": "Other vocational training after high school",
                         "technical": "Bac +1",
@@ -271,7 +271,8 @@
                         "higher_technical": "Higher technical or vocational training",
                         "bachelor": "University (technical) degree (Bachelor)",
                         "master": "University (technical) degree (Master)",
-                        "phd": "Doctorate"
+                        "phd": "Doctorate",
+                        "some_compulsory": "None or up to 7 years of compulsory schooling"
                     }
                 }
             },
@@ -548,7 +549,7 @@
                 },
                 "companySize": {
                     "question": "Approximately how many employees work at your company (all locations)?",
-                    "shortName": "Employees at your organization"
+                    "shortName": "Employees at your company"
                 }
             },
             "hobbiesAndInterests": {
