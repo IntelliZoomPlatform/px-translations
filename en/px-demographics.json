@@ -857,6 +857,10 @@
             },
             "noPhone": {
                 "noPhone": "I don't have a mobile phone"
+            },
+            "socialMedia": {
+                "question": "Which of the following social media platforms do you use or actively participate in?",
+                "shortName": "Social media platforms you actively use"
             }
         }
     },
