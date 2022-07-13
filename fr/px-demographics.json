@@ -857,6 +857,10 @@
             },
             "noPhone": {
                 "noPhone": "Je n'ai pas de téléphone mobile"
+            },
+            "socialMedia": {
+                "question": "",
+                "shortName": ""
             }
         }
     },
