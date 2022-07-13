@@ -174,9 +174,9 @@
                         "lower_secondary": "",
                         "vocational": "",
                         "higher_technical": "",
-                        "university": "",
-                        "master": "",
-                        "phd": ""
+                        "university": "Universitair diploma",
+                        "master": "Master's graad",
+                        "phd": "Doctoraat"
                     }
                 },
                 "education_ie": {
@@ -185,9 +185,9 @@
                         "leaving": "",
                         "third_level": "",
                         "higher_technical": "",
-                        "bachelor": "",
-                        "master": "",
-                        "phd": "",
+                        "bachelor": "Bachelordiploma",
+                        "master": "Master of professionele graad",
+                        "phd": "Doctoraat",
                         "post_leaving": ""
                     }
                 },
@@ -198,9 +198,9 @@
                         "vocational": "",
                         "uncompleted_tertiary": "",
                         "first_degree": "",
-                        "bachelor": "",
-                        "master": "",
-                        "phd": ""
+                        "bachelor": "Bachelordiploma",
+                        "master": "Master's graad",
+                        "phd": "PhD graad"
                     }
                 },
                 "education_mx": {
@@ -210,9 +210,9 @@
                         "vocational": "",
                         "university": "",
                         "technical": "",
-                        "undergraduate": "",
-                        "master": "",
-                        "phd": ""
+                        "undergraduate": "Ondergraads graad",
+                        "master": "Master of professionele graad",
+                        "phd": "Doctoraat"
                     }
                 },
                 "education_se": {
@@ -222,9 +222,9 @@
                         "vocational": "",
                         "some_university": "",
                         "university": "",
-                        "bachelor": "",
-                        "master": "",
-                        "phd": ""
+                        "bachelor": "Bachelordiploma",
+                        "master": "Master of professionele graad",
+                        "phd": "Doctoraat"
                     }
                 },
                 "education_nl": {
@@ -235,7 +235,7 @@
                         "some_college": "",
                         "two_year_degree": "",
                         "four_year_degree": "",
-                        "masters": "",
+                        "masters": "Master's graad",
                         "phd": ""
                     }
                 },
@@ -259,8 +259,8 @@
                         "vocational": "",
                         "some_university": "",
                         "university": "",
-                        "master": "",
-                        "phd": ""
+                        "master": "Master's",
+                        "phd": "Doctoraat"
                     }
                 },
                 "education_ch": {
@@ -271,7 +271,7 @@
                         "higher_technical": "",
                         "bachelor": "",
                         "master": "",
-                        "phd": "",
+                        "phd": "Doctoraat",
                         "some_compulsory": ""
                     }
                 }
