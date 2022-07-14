@@ -126,7 +126,7 @@
                         "baccalaureate": "Upper secondary education graduate (Spanish Baccalaureate)",
                         "someCollege": "Completed some University",
                         "college": "University Degree (3 year diploma)",
-                        "masters": "Masters degree",
+                        "masters": "Master's degree",
                         "phd": "Doctorate degree"
                     }
                 },
@@ -185,7 +185,7 @@
                         "leaving": "Leaving Certificate",
                         "third_level": "Completed some third-level education, but no degree",
                         "higher_technical": "Higher Certificate",
-                        "bachelor": "Bachelor degree",
+                        "bachelor": "Bachelor's degree",
                         "master": "Master's or professional degree",
                         "phd": "Doctorate degree",
                         "post_leaving": "Post-Leaving Certificate vocational training"
@@ -259,7 +259,7 @@
                         "vocational": "Vocational school/technical college",
                         "some_university": "Some university/higher education",
                         "university": "University degree, Honors degree",
-                        "master": "Masters",
+                        "master": "Master's",
                         "phd": "Doctorate"
                     }
                 },
