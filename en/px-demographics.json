@@ -259,7 +259,7 @@
                         "vocational": "Vocational school/technical college",
                         "some_university": "Some university/higher education",
                         "university": "University degree, Honors degree",
-                        "master": "Master's",
+                        "masters": "Master's",
                         "phd": "Doctorate"
                     }
                 },
