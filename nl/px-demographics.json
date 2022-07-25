@@ -170,10 +170,10 @@
                 },
                 "education_at": {
                     "list": {
-                        "not_lower_secondary": "",
-                        "lower_secondary": "",
-                        "vocational": "",
-                        "higher_technical": "",
+                        "not_lower_secondary": "Heeft de middelbare school niet afgemaakt",
+                        "lower_secondary": "Middelbare schooldiploma",
+                        "vocational": "Vakschool diploma",
+                        "higher_technical": "Hbo-diploma",
                         "university": "Universitair diploma",
                         "master": "Master's graad",
                         "phd": "Doctoraat"
@@ -181,23 +181,23 @@
                 },
                 "education_ie": {
                     "list": {
-                        "post_primary": "",
-                        "leaving": "",
-                        "third_level": "",
-                        "higher_technical": "",
+                        "post_primary": "Enig onderwijs gevolgd na de basisschool",
+                        "leaving": "Middelbare school diploma",
+                        "third_level": "Enig hoger onderwijs gevolgd, maar geen diploma gehaald",
+                        "higher_technical": "Hoger certificaat",
                         "bachelor": "Bachelordiploma",
                         "master": "Master of professionele graad",
                         "phd": "Doctoraat",
-                        "post_leaving": ""
+                        "post_leaving": "Mbo-diploma"
                     }
                 },
                 "education_dk": {
                     "list": {
-                        "primary": "",
-                        "secondary": "",
-                        "vocational": "",
-                        "uncompleted_tertiary": "",
-                        "first_degree": "",
+                        "primary": "Basisschool (basisschool en onderbouw)",
+                        "secondary": "Middelbare school (bovenbouw)",
+                        "vocational": "Bekwaam vakman/vakvrouw of andere beroepsgericht onderwijs",
+                        "uncompleted_tertiary": "Begonnen aan beroepsonderwijs, maar niet afgemaakt",
+                        "first_degree": "2-jarig programma of minor op beroepsonderwijsniveau",
                         "bachelor": "Bachelordiploma",
                         "master": "Master's graad",
                         "phd": "PhD graad"
@@ -205,11 +205,11 @@
                 },
                 "education_mx": {
                     "list": {
-                        "incomplete_prep": "",
-                        "prep": "",
-                        "vocational": "",
-                        "university": "",
-                        "technical": "",
+                        "incomplete_prep": "Voorbereidend onderwijs of lager niet afgemaakt",
+                        "prep": "Voorbereidend onderwijs certificaat",
+                        "vocational": "Hoger beroepsonderwijs, vakschool",
+                        "university": "Universitair onderwijs, geen diploma",
+                        "technical": "Technisch of commercieel diploma",
                         "undergraduate": "Ondergraads graad",
                         "master": "Master of professionele graad",
                         "phd": "Doctoraat"
@@ -217,11 +217,11 @@
                 },
                 "education_se": {
                     "list": {
-                        "some_a_level": "",
-                        "a_level": "",
-                        "vocational": "",
-                        "some_university": "",
-                        "university": "",
+                        "some_a_level": "Gedeelte van de bovenbouw of lager",
+                        "a_level": "Bovenbouw",
+                        "vocational": "Ander beroepsonderwijs diploma",
+                        "some_university": "Begonnen aan universitiar onderwijs, maar geen diploma",
+                        "university": "Universitair diploma (2-jarig programma)",
                         "bachelor": "Bachelordiploma",
                         "master": "Master of professionele graad",
                         "phd": "Doctoraat"
@@ -229,50 +229,50 @@
                 },
                 "education_nl": {
                     "list": {
-                        "no_hs_diploma": "",
-                        "diploma": "",
-                        "technical": "",
-                        "some_college": "",
-                        "two_year_degree": "",
-                        "four_year_degree": "",
+                        "no_hs_diploma": "Gedeelte van de middelbare school of minder",
+                        "diploma": "Middelbare schooldiploma",
+                        "technical": "Andere beroepsgerichte training na de middelbare school",
+                        "some_college": "Hbo of universiteit afgemaakt, maar geen diploma",
+                        "two_year_degree": "Associate degree",
+                        "four_year_degree": "Bachelor",
                         "masters": "Master's graad",
-                        "phd": ""
+                        "phd": "Master"
                     }
                 },
                 "education_fr": {
                     "list": {
-                        "high_school": "",
-                        "baccalaureate": "",
-                        "vocational": "",
-                        "technical": "",
-                        "higher_technical": "",
-                        "bachelor": "",
-                        "master": "",
-                        "phd": ""
+                        "high_school": "Middelbare schooldiploma",
+                        "baccalaureate": "Mbo bachelor",
+                        "vocational": "Ander beroepsgerichte training na de middelbare school",
+                        "technical": "Bac +1",
+                        "higher_technical": "Bac +2",
+                        "bachelor": "Bac +3/+4 (Diploma, Master 1)",
+                        "master": "Master",
+                        "phd": "Doctoraat"
                     }
                 },
                 "education_in": {
                     "list": {
-                        "some_secondary": "",
-                        "secondary": "",
-                        "some_vocational": "",
-                        "vocational": "",
-                        "some_university": "",
-                        "university": "",
+                        "some_secondary": "Enig middelbaar onderwijs of minder",
+                        "secondary": "Middelbare school afgerond",
+                        "some_vocational": "Enig beroepsonderwijs/technisch mbo",
+                        "vocational": "Beroepsonderwijs/technisch mbo",
+                        "some_university": "Enig universitair/hoger beroepsonderwijs",
+                        "university": "Universitair diploma, honours degree",
                         "masters": "Master's",
                         "phd": "Doctoraat"
                     }
                 },
                 "education_ch": {
                     "list": {
-                        "compulsory": "",
-                        "basic_vocational": "",
-                        "technical": "",
-                        "higher_technical": "",
-                        "bachelor": "",
-                        "master": "",
+                        "compulsory": "Basisschool/overbruggingsprogramma",
+                        "basic_vocational": "Basis beroepsonderwijs / basisschool",
+                        "technical": "(Technisch) hbo/universitaire opleiding zonder diploma",
+                        "higher_technical": "Hoger technisch of beroepsonderwijs",
+                        "bachelor": "Universitair (technisch) diploma (bachelor)",
+                        "master": "Universitair (technisch) diploma (master)",
                         "phd": "Doctoraat",
-                        "some_compulsory": ""
+                        "some_compulsory": "Geen of minder dan 7 jaar basisonderwijs"
                     }
                 }
             },
@@ -859,8 +859,8 @@
                 "noPhone": "Ik heb geen mobiele telefoon"
             },
             "socialMedia": {
-                "question": "",
-                "shortName": ""
+                "question": "Welke van de volgende social media platforms gebruik je (actief)?",
+                "shortName": "Social media platforms die je actief gebruikt"
             }
         }
     },

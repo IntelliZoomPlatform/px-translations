@@ -170,10 +170,10 @@
                 },
                 "education_at": {
                     "list": {
-                        "not_lower_secondary": "",
-                        "lower_secondary": "",
-                        "vocational": "",
-                        "higher_technical": "",
+                        "not_lower_secondary": "Fullbordade inte grundskolan",
+                        "lower_secondary": "Grundskolecertifikat",
+                        "vocational": "Certifikat från Berufsschule (yrkesskola)",
+                        "higher_technical": "Certifikat från Höhere Schule",
                         "university": "Högskoleexamen",
                         "master": "Magisterexamen",
                         "phd": "Doktorsexamen"
@@ -181,23 +181,23 @@
                 },
                 "education_ie": {
                     "list": {
-                        "post_primary": "",
-                        "leaving": "",
-                        "third_level": "",
-                        "higher_technical": "",
+                        "post_primary": "Viss utbildning efter grundskolan eller lägre",
+                        "leaving": "Leaving Certificate",
+                        "third_level": "Fullbordade viss högre utbildning, men saknar examen",
+                        "higher_technical": "Högre certifikat",
                         "bachelor": "Kandidatexamen",
                         "master": "Magisterexamen eller yrkesexamen",
                         "phd": "Doktorsexamen",
-                        "post_leaving": ""
+                        "post_leaving": "Yrkesutbildning efter Leaving Certificate"
                     }
                 },
                 "education_dk": {
                     "list": {
-                        "primary": "",
-                        "secondary": "",
-                        "vocational": "",
-                        "uncompleted_tertiary": "",
-                        "first_degree": "",
+                        "primary": "Grundskolan",
+                        "secondary": "Gymnasieutbildning",
+                        "vocational": "Utbildad arbetare eller annan yrkesutbildning",
+                        "uncompleted_tertiary": "Påbörjade men avslutade inte eftergymnasial utbildning",
+                        "first_degree": "2-årigt program på första graden",
                         "bachelor": "Kandidatexamen",
                         "master": "Magisterexamen",
                         "phd": "Doktorsexamen"
@@ -205,11 +205,11 @@
                 },
                 "education_mx": {
                     "list": {
-                        "incomplete_prep": "",
-                        "prep": "",
-                        "vocational": "",
-                        "university": "",
-                        "technical": "",
+                        "incomplete_prep": "Oavslutad förberedande skola eller lägre",
+                        "prep": "Certifikat från förberedande skola",
+                        "vocational": "Eftergymnasial utbildning, yrkesskola",
+                        "university": "Universitetsutbildning utan examen",
+                        "technical": "Teknisk eller handelsexamen",
                         "undergraduate": "Grundutbildning",
                         "master": "Magisterexamen eller yrkesexamen",
                         "phd": "Doktorsexamen"
@@ -217,11 +217,11 @@
                 },
                 "education_se": {
                     "list": {
-                        "some_a_level": "",
-                        "a_level": "",
-                        "vocational": "",
-                        "some_university": "",
-                        "university": "",
+                        "some_a_level": "Vissa A-Levels eller lägre",
+                        "a_level": "A-Levels",
+                        "vocational": "Annan eftergymnasial yrkesinriktad utbildning",
+                        "some_university": "Viss universitetsutbildning, men saknar examen",
+                        "university": "Universitetsdiplom (2-årig examen)",
                         "bachelor": "Kandidatexamen",
                         "master": "Magisterexamen eller yrkesexamen",
                         "phd": "Doktorsexamen"
@@ -229,50 +229,50 @@
                 },
                 "education_nl": {
                     "list": {
-                        "no_hs_diploma": "",
-                        "diploma": "",
-                        "technical": "",
-                        "some_college": "",
-                        "two_year_degree": "",
-                        "four_year_degree": "",
+                        "no_hs_diploma": "Delar av High school eller mindre",
+                        "diploma": "High school diplom",
+                        "technical": "Annan yrkesinriktad utbildning efter gymnasiet",
+                        "some_college": "Fullbordade delar av yrkeshögskola / universitet, men saknar examen",
+                        "two_year_degree": "Associate's degree",
+                        "four_year_degree": "Kandidatexamen",
                         "masters": "Magisterexamen",
-                        "phd": ""
+                        "phd": "Doktorsexamen / PhD"
                     }
                 },
                 "education_fr": {
                     "list": {
-                        "high_school": "",
-                        "baccalaureate": "",
-                        "vocational": "",
-                        "technical": "",
-                        "higher_technical": "",
-                        "bachelor": "",
-                        "master": "",
-                        "phd": ""
+                        "high_school": "High School diplom",
+                        "baccalaureate": "Baccalaureate",
+                        "vocational": "Annan yrkesutbildning efter gymnasiet",
+                        "technical": "Bac + 1",
+                        "higher_technical": "Bac +2",
+                        "bachelor": "Bac + 3/+4 (Licence, Master 1)",
+                        "master": "Masterexamen",
+                        "phd": "Doktorsexamen"
                     }
                 },
                 "education_in": {
                     "list": {
-                        "some_secondary": "",
-                        "secondary": "",
-                        "some_vocational": "",
-                        "vocational": "",
-                        "some_university": "",
-                        "university": "",
+                        "some_secondary": "Någon gymnasieutbildning eller mindre",
+                        "secondary": "Fullbordade gymnasiet",
+                        "some_vocational": "Viss yrkesskola/teknisk högskola",
+                        "vocational": "Yrkesskola/teknisk högskola",
+                        "some_university": "Viss universitets/högre utbildning",
+                        "university": "Universitetsexamen, Hedersexamen",
                         "masters": "Magisterexamen",
                         "phd": "Doktorsexamen"
                     }
                 },
                 "education_ch": {
                     "list": {
-                        "compulsory": "",
-                        "basic_vocational": "",
-                        "technical": "",
-                        "higher_technical": "",
-                        "bachelor": "",
-                        "master": "",
+                        "compulsory": "Obligatorisk skola / överbryggande program",
+                        "basic_vocational": "Grundläggande yrkesutbildning / skola för allmän utbildning",
+                        "technical": "Tekniskt universitet eller högskola utan examen",
+                        "higher_technical": "Högre teknisk eller yrkesutbildning",
+                        "bachelor": "Kandidatexamen från tekniskt universitet eller högskola",
+                        "master": "Masterexamen från tekniskt universitet eller högskola",
                         "phd": "Doktorsexamen",
-                        "some_compulsory": ""
+                        "some_compulsory": "Ingen eller upp till 7 års obligatorisk utbildning"
                     }
                 }
             },
@@ -859,8 +859,8 @@
                 "noPhone": "Jag har ingen mobiltelefon"
             },
             "socialMedia": {
-                "question": "",
-                "shortName": ""
+                "question": "Vilka av följande sociala medier använder du eller deltar aktivt i?",
+                "shortName": "Sociala medier du använder aktivt"
             }
         }
     },
