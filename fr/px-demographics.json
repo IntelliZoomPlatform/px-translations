@@ -170,10 +170,10 @@
                 },
                 "education_at": {
                     "list": {
-                        "not_lower_secondary": "",
-                        "lower_secondary": "",
-                        "vocational": "",
-                        "higher_technical": "",
+                        "not_lower_secondary": "N'a pas terminé le premier cycle du secondaire/gymnase",
+                        "lower_secondary": "Certificat d'études secondaires du premier cycle/gymnase",
+                        "vocational": "Certificat de la Berufsschule (école professionnelle)",
+                        "higher_technical": "Certificat de Höhere Schule",
                         "university": "Diplôme universitaire",
                         "master": "Maîtrise",
                         "phd": "Doctorat"
@@ -181,23 +181,23 @@
                 },
                 "education_ie": {
                     "list": {
-                        "post_primary": "",
-                        "leaving": "",
-                        "third_level": "",
-                        "higher_technical": "",
+                        "post_primary": "Enseignement post-primaire ou moins élevé",
+                        "leaving": "Diplôme de fin d'études",
+                        "third_level": "A terminé les études de troisième cycle, sans diplôme.",
+                        "higher_technical": "Diplôme d'études supérieures",
                         "bachelor": "Baccalauréat",
                         "master": "Maîtrise ou diplôme professionnel",
                         "phd": "Doctorat",
-                        "post_leaving": ""
+                        "post_leaving": "Diplôme de fin d'études - formation professionnelle"
                     }
                 },
                 "education_dk": {
                     "list": {
-                        "primary": "",
-                        "secondary": "",
-                        "vocational": "",
-                        "uncompleted_tertiary": "",
-                        "first_degree": "",
+                        "primary": "École publique (école primaire et secondaire du premier cycle)",
+                        "secondary": "Baccalauréat / lycée (école secondaire de deuxième cycle)",
+                        "vocational": "Ouvrier qualifié / ouvrier ou autre formation professionnelle",
+                        "uncompleted_tertiary": "A entamé mais n'a jamais terminé les études supérieures",
+                        "first_degree": "Programme de premier cycle de 2 ans / matière complémentaire",
                         "bachelor": "Baccalauréat",
                         "master": "Maîtrise",
                         "phd": "Doctorat"
@@ -205,11 +205,11 @@
                 },
                 "education_mx": {
                     "list": {
-                        "incomplete_prep": "",
-                        "prep": "",
-                        "vocational": "",
-                        "university": "",
-                        "technical": "",
+                        "incomplete_prep": "École préparatoire incomplète ou moins",
+                        "prep": "Diplôme de l'école préparatoire",
+                        "vocational": "Études supérieures supérieures, école professionnelle",
+                        "university": "Études universitaires, sans diplôme",
+                        "technical": "Diplôme technique ou commercial",
                         "undergraduate": "Diplôme de premier cycle",
                         "master": "Maîtrise ou diplôme professionnel",
                         "phd": "Doctorat"
@@ -217,11 +217,11 @@
                 },
                 "education_se": {
                     "list": {
-                        "some_a_level": "",
-                        "a_level": "",
-                        "vocational": "",
-                        "some_university": "",
-                        "university": "",
+                        "some_a_level": "Certains baccalauréats ou un niveau inférieur",
+                        "a_level": "Baccalauréats",
+                        "vocational": "Autre qualification professionnelle de niveau post-secondaire",
+                        "some_university": "Études universitaires, sans diplôme",
+                        "university": "Diplôme universitaire (2 ans d'études)",
                         "bachelor": "Baccalauréat",
                         "master": "Maîtrise ou diplôme professionnel",
                         "phd": "Doctorat"
@@ -229,14 +229,14 @@
                 },
                 "education_nl": {
                     "list": {
-                        "no_hs_diploma": "",
-                        "diploma": "",
-                        "technical": "",
-                        "some_college": "",
-                        "two_year_degree": "",
-                        "four_year_degree": "",
+                        "no_hs_diploma": "Niveau d'études secondaires ou plus bas",
+                        "diploma": "Diplôme de fin d'études secondaires",
+                        "technical": "Autre formation professionnelle après l'école secondaire",
+                        "some_college": "Partie achevée de l'école supérieure / université, sans diplôme",
+                        "two_year_degree": "Diplôme d'associé",
+                        "four_year_degree": "Diplôme de licence",
                         "masters": "Maîtrise",
-                        "phd": ""
+                        "phd": "Doctorat/PhD"
                     }
                 },
                 "education_fr": {
@@ -253,26 +253,26 @@
                 },
                 "education_in": {
                     "list": {
-                        "some_secondary": "",
-                        "secondary": "",
-                        "some_vocational": "",
-                        "vocational": "",
-                        "some_university": "",
-                        "university": "",
+                        "some_secondary": "Études secondaires partielles ou niveau inférieur",
+                        "secondary": "A terminé l'école secondaire",
+                        "some_vocational": "Quelques écoles professionnelles/un collège technique",
+                        "vocational": "École professionnelle/ collège technique",
+                        "some_university": "Quelques études universitaires/ supérieures",
+                        "university": "Diplôme universitaire, diplôme avec mention",
                         "masters": "Maîtrise",
                         "phd": "Doctorat"
                     }
                 },
                 "education_ch": {
                     "list": {
-                        "compulsory": "",
-                        "basic_vocational": "",
-                        "technical": "",
-                        "higher_technical": "",
-                        "bachelor": "",
-                        "master": "",
+                        "compulsory": "Scolarisation obligatoire / programme de transition",
+                        "basic_vocational": "Enseignement professionnel de base / école d'enseignement général",
+                        "technical": "Collège/université (technique) sans diplôme",
+                        "higher_technical": "Formation technique ou professionnelle supérieure",
+                        "bachelor": "Diplôme (technique) universitaire ( licence)",
+                        "master": "Diplôme (technique) universitaire (Master)",
                         "phd": "Doctorat",
-                        "some_compulsory": ""
+                        "some_compulsory": "Aucune ou jusqu'à 7 ans de scolarisation obligatoire"
                     }
                 }
             },
@@ -859,8 +859,8 @@
                 "noPhone": "Je n'ai pas de téléphone mobile"
             },
             "socialMedia": {
-                "question": "",
-                "shortName": ""
+                "question": "Parmi les plateformes de médias sociaux suivantes, quelles sont celles que vous utilisez ou auxquelles vous participez activement ?",
+                "shortName": "Les plateformes de médias sociaux que vous utilisez activement"
             }
         }
     },
