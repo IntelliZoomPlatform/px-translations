@@ -170,10 +170,10 @@
                 },
                 "education_at": {
                     "list": {
-                        "not_lower_secondary": "",
-                        "lower_secondary": "",
-                        "vocational": "",
-                        "higher_technical": "",
+                        "not_lower_secondary": "Fuldførte ikke ungdomsuddannelse/gymnasium",
+                        "lower_secondary": "Ungdomsuddannelsesbevis/gymnasium eksamensbevis",
+                        "vocational": "Berufsschule (fagskole)-certifikat",
+                        "higher_technical": "Höhere Schule-certificate",
                         "university": "Universitetsdiplom",
                         "master": "Master's grad",
                         "phd": "Doktorgrad"
@@ -181,23 +181,23 @@
                 },
                 "education_ie": {
                     "list": {
-                        "post_primary": "",
-                        "leaving": "",
-                        "third_level": "",
-                        "higher_technical": "",
+                        "post_primary": "Delvis efterskole eller mindre",
+                        "leaving": "Afgangsbevis",
+                        "third_level": "Fuldført noget videregående uddannelse, men ingen afsluttende eksamen",
+                        "higher_technical": "Bachelor eksamensbevis",
                         "bachelor": "Bachelor's grad",
                         "master": "Master eller faglig uddannelse",
                         "phd": "Doktorgrad",
-                        "post_leaving": ""
+                        "post_leaving": "Post Leaving Certificate (Irland) svendebrev"
                     }
                 },
                 "education_dk": {
                     "list": {
-                        "primary": "",
-                        "secondary": "",
-                        "vocational": "",
-                        "uncompleted_tertiary": "",
-                        "first_degree": "",
+                        "primary": "Grundskole (9. - 10. klasse)",
+                        "secondary": "A-niveau / gymnasium (handelsskole)",
+                        "vocational": "Faglært arbejder/arbejder eller anden erhvervsuddannelse",
+                        "uncompleted_tertiary": "Begyndte, men fuldførte aldrig en videregående uddannelse",
+                        "first_degree": "2-årig bachelorgrad/bifag",
                         "bachelor": "Bachelor's grad",
                         "master": "Master's grad",
                         "phd": "Ph.d.-grad"
@@ -205,11 +205,11 @@
                 },
                 "education_mx": {
                     "list": {
-                        "incomplete_prep": "",
-                        "prep": "",
-                        "vocational": "",
-                        "university": "",
-                        "technical": "",
+                        "incomplete_prep": "Ikke-gennemført prep scool eller mindre",
+                        "prep": "Prep school-eksamensbevis",
+                        "vocational": "Videregående uddannelse - erhvervsskole",
+                        "university": "Universitetsuddannelse - ikke afslutttet",
+                        "technical": "Teknisk- eller handelseksamen",
                         "undergraduate": "Bachelor-eksamen",
                         "master": "Master eller faglig uddannelse",
                         "phd": "Doktorgrad"
@@ -217,11 +217,11 @@
                 },
                 "education_se": {
                     "list": {
-                        "some_a_level": "",
-                        "a_level": "",
-                        "vocational": "",
-                        "some_university": "",
-                        "university": "",
+                        "some_a_level": "Nogle fag på A-niveau eller lavere",
+                        "a_level": "A-niveau",
+                        "vocational": "Anden videregående erhvervsskole",
+                        "some_university": "Universitetsstudier men ingen eksamen",
+                        "university": "University diploma (2-year degree)",
                         "bachelor": "Bachelor's grad",
                         "master": "Master eller faglig uddannelse",
                         "phd": "Doktorgrad"
@@ -229,50 +229,50 @@
                 },
                 "education_nl": {
                     "list": {
-                        "no_hs_diploma": "",
-                        "diploma": "",
-                        "technical": "",
-                        "some_college": "",
-                        "two_year_degree": "",
-                        "four_year_degree": "",
+                        "no_hs_diploma": "Uafsluttet gymnasium eller mindre",
+                        "diploma": "Afsluttet gymnasieuddannelse",
+                        "technical": "Anden erhvervsskole efter gymnasium",
+                        "some_college": "Fuldført del af professionshøjskole/universitet, men uden diplom",
+                        "two_year_degree": "Associate's degree",
+                        "four_year_degree": "Bachelorgrad",
                         "masters": "Master's grad",
-                        "phd": ""
+                        "phd": "Doktorgrad/PhD"
                     }
                 },
                 "education_fr": {
                     "list": {
-                        "high_school": "",
-                        "baccalaureate": "",
-                        "vocational": "",
-                        "technical": "",
-                        "higher_technical": "",
-                        "bachelor": "",
-                        "master": "",
-                        "phd": ""
+                        "high_school": "Gymnasie eksamensbevis",
+                        "baccalaureate": "Baccalaureate",
+                        "vocational": "Anden erhvervsskole efter gymnasium",
+                        "technical": "Bac + 1",
+                        "higher_technical": "Bac + 2",
+                        "bachelor": "Bac + 3/+4 (Licence, Master 1)",
+                        "master": "Kandidatgrad",
+                        "phd": "Doktorat"
                     }
                 },
                 "education_in": {
                     "list": {
-                        "some_secondary": "",
-                        "secondary": "",
-                        "some_vocational": "",
-                        "vocational": "",
-                        "some_university": "",
-                        "university": "",
+                        "some_secondary": "Noget ungdomsuddannelse eller mindre",
+                        "secondary": "Fuldført gymnasieuddannelse",
+                        "some_vocational": "Noget erhvervsskole /teknisk skole",
+                        "vocational": "Erhvervsskole/teknisk skole",
+                        "some_university": "Påbegyndt universitet/højere uddannelse",
+                        "university": "Universitetsgrad, Honours degree",
                         "masters": "Master's",
                         "phd": "Doktorgrad"
                     }
                 },
                 "education_ch": {
                     "list": {
-                        "compulsory": "",
-                        "basic_vocational": "",
-                        "technical": "",
-                        "higher_technical": "",
-                        "bachelor": "",
-                        "master": "",
+                        "compulsory": "Grundskole/broforløb",
+                        "basic_vocational": "Basis erhvervsskole/grundskole",
+                        "technical": "(Technical) college/universitet uden afgangsbevis",
+                        "higher_technical": "Højere teknisk eller faglig uddannelse",
+                        "bachelor": "Technical University (Bachelor)",
+                        "master": "Technical University (Kandidatgrad)",
                         "phd": "Doktorgrad",
-                        "some_compulsory": ""
+                        "some_compulsory": "Ingen eller op til 7 års grundskole"
                     }
                 }
             },
@@ -859,8 +859,8 @@
                 "noPhone": "Jeg har ikke en mobiltelefon"
             },
             "socialMedia": {
-                "question": "",
-                "shortName": ""
+                "question": "Hvilke af følgende sociale medieplatforme bruger eller deltager du aktivt i?",
+                "shortName": "Sociale medieplatforme, du bruger aktivt"
             }
         }
     },
