@@ -170,10 +170,10 @@
                 },
                 "education_at": {
                     "list": {
-                        "not_lower_secondary": "",
-                        "lower_secondary": "",
-                        "vocational": "",
-                        "higher_technical": "",
+                        "not_lower_secondary": "Kein Abschluss der Sekundarstufe I/Gymnasium",
+                        "lower_secondary": "Hauptschulabschluss/Gymnasium",
+                        "vocational": "Berufsschulzeugnis",
+                        "higher_technical": "Höhere Schule Zeugnis",
                         "university": "Hochschulabschluss",
                         "master": "Master-Abschluss",
                         "phd": "Doktortitel"
@@ -181,23 +181,23 @@
                 },
                 "education_ie": {
                     "list": {
-                        "post_primary": "",
-                        "leaving": "",
-                        "third_level": "",
-                        "higher_technical": "",
+                        "post_primary": "Eine gewisse postprimäre Bildung oder weniger",
+                        "leaving": "Abschlusszeugnis",
+                        "third_level": "Abgeschlossene Hochschulbildung, aber kein Abschluss",
+                        "higher_technical": "Höheres Zertifikat",
                         "bachelor": "Bachelor-Abschluss",
                         "master": "Master-Abschluss oder Berufsabschluss",
                         "phd": "Doktortitel",
-                        "post_leaving": ""
+                        "post_leaving": "Berufsausbildung mit Abschlusszeugnis"
                     }
                 },
                 "education_dk": {
                     "list": {
-                        "primary": "",
-                        "secondary": "",
-                        "vocational": "",
-                        "uncompleted_tertiary": "",
-                        "first_degree": "",
+                        "primary": "Öffentliche Schule (Grundschule und Sekundarstufe I)",
+                        "secondary": "Abitur / Gymnasium (Sekundarstufe II)",
+                        "vocational": "Facharbeiter / Handwerker oder andere Berufsausbildung",
+                        "uncompleted_tertiary": "Begonnene, aber nie abgeschlossene Hochschulausbildung",
+                        "first_degree": "2-jähriger Erststudiengang / Nebenfach",
                         "bachelor": "Bachelor-Abschluss",
                         "master": "Master-Abschluss",
                         "phd": "Doktortitel"
@@ -205,11 +205,11 @@
                 },
                 "education_mx": {
                     "list": {
-                        "incomplete_prep": "",
-                        "prep": "",
-                        "vocational": "",
-                        "university": "",
-                        "technical": "",
+                        "incomplete_prep": "Nicht abgeschlossene Vorschule oder weniger",
+                        "prep": "Vorschulabschluss",
+                        "vocational": "Berufsschule",
+                        "university": "Hochschulausbildung, kein Abschluss",
+                        "technical": "Technischer oder kaufmännischer Abschluss",
                         "undergraduate": "Undergraduate-Abschluss",
                         "master": "Master-Abschluss oder Berufsabschluss",
                         "phd": "Doktortitel"
@@ -217,11 +217,11 @@
                 },
                 "education_se": {
                     "list": {
-                        "some_a_level": "",
-                        "a_level": "",
-                        "vocational": "",
-                        "some_university": "",
-                        "university": "",
+                        "some_a_level": "Einige A-Levels oder niedriger",
+                        "a_level": "A-Levels",
+                        "vocational": "Andere postsekundäre berufliche Qualifikation",
+                        "some_university": "Etwas Universität, aber kein Abschluss",
+                        "university": "Universitätsdiplom (2-jähriger Abschluss)",
                         "bachelor": "Bachelor-Abschluss",
                         "master": "Master-Abschluss oder Berufsabschluss",
                         "phd": "Doktortitel"
@@ -229,50 +229,50 @@
                 },
                 "education_nl": {
                     "list": {
-                        "no_hs_diploma": "",
-                        "diploma": "",
-                        "technical": "",
-                        "some_college": "",
-                        "two_year_degree": "",
-                        "four_year_degree": "",
+                        "no_hs_diploma": "Teil der High School oder weniger",
+                        "diploma": "Abitur",
+                        "technical": "Andere Berufsausbildung nach der High School",
+                        "some_college": "Abgeschlossener Teil der Fachhochschule / Universität, aber kein Diplom",
+                        "two_year_degree": "Hochschulabschluss",
+                        "four_year_degree": "Bachelor-Abschluss",
                         "masters": "Master-Abschluss",
-                        "phd": ""
+                        "phd": "Doktorat/ PhD"
                     }
                 },
                 "education_fr": {
                     "list": {
-                        "high_school": "",
-                        "baccalaureate": "",
-                        "vocational": "",
-                        "technical": "",
-                        "higher_technical": "",
-                        "bachelor": "",
-                        "master": "",
-                        "phd": ""
+                        "high_school": "Oberschule oder weniger",
+                        "baccalaureate": "Baccalaureate",
+                        "vocational": "Andere Berufsausbildung nach der Schule/High School",
+                        "technical": "Bac +1",
+                        "higher_technical": "Bac +2",
+                        "bachelor": "Bac +3/+4",
+                        "master": "Master-Abschluss",
+                        "phd": "Doktorat"
                     }
                 },
                 "education_in": {
                     "list": {
-                        "some_secondary": "",
-                        "secondary": "",
-                        "some_vocational": "",
-                        "vocational": "",
-                        "some_university": "",
-                        "university": "",
+                        "some_secondary": "Eine weiterführende Schule oder weniger",
+                        "secondary": "Abgeschlossene Sekundarschule",
+                        "some_vocational": "Einige Berufsschul-/Fachschulausbildungen",
+                        "vocational": "Berufliche Schule/Fachhochschule",
+                        "some_university": "Eine Universität/Hochschulbildung",
+                        "university": "Universitätsabschluss, Ehrentitel",
                         "masters": "Master-Abschluss",
                         "phd": "Doktortitel"
                     }
                 },
                 "education_ch": {
                     "list": {
-                        "compulsory": "",
-                        "basic_vocational": "",
-                        "technical": "",
-                        "higher_technical": "",
-                        "bachelor": "",
-                        "master": "",
+                        "compulsory": "Pflichtschule / Überbrückungsprogramm",
+                        "basic_vocational": "Berufliche Grundbildung / Allgemeinbildende Schule ",
+                        "technical": "(Fach-)Hochschule/Universität ohne Abschluss",
+                        "higher_technical": "Höhere technische oder berufliche Ausbildung",
+                        "bachelor": "Bachelor-Studiengänge der Technischen Hochschule",
+                        "master": "Master-Studiengang an der Technischen Hochschule",
                         "phd": "Doktorat",
-                        "some_compulsory": ""
+                        "some_compulsory": "Keine oder bis zu 7 Jahre Schulpflicht"
                     }
                 }
             },
@@ -859,8 +859,8 @@
                 "noPhone": "Ich habe kein Mobiltelefon"
             },
             "socialMedia": {
-                "question": "",
-                "shortName": ""
+                "question": "Welche der folgenden Social-Media-Plattformen nutzt du oder bist dort aktiv?",
+                "shortName": "Soziale Medienplattformen, die du aktiv nutzt"
             }
         }
     },
