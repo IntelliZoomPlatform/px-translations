@@ -59,7 +59,7 @@
                 },
                 "education_us": {
                     "list": {
-                        "no_hs_diploma": "Einige Zeit in der Sekundärschule oder weniger",
+                        "no_hs_diploma": "Etwas High School oder weniger",
                         "hs_or_ged": "Sekundärschule oder gleichwertige Ausbildung",
                         "some_college": "Einige Zeit an der Universität aber ohne Titel",
                         "two_year_degree": "Universitätstitel - Accociate (2 Jahre)",
@@ -122,7 +122,7 @@
                         "lessHighschool": "Einige Zeit an der Obligatorischen Sekundärschule",
                         "highschool": "Obligatorische Sekundärschule",
                         "technical": "Diplomingenieur",
-                        "someBaccalaureate": "Einige Zeit höhere Sekundärbildung (Spanisches Bakkalaureat)",
+                        "someBaccalaureate": "Abschluss der Sekundarstufe II  (Spanisches Bakkalaureat)",
                         "baccalaureate": "Bakkalaureat",
                         "someCollege": "Einige Zeit an der Universität (ohne Titel)",
                         "college": "Universitätsabschluss (3 Jahre)",
@@ -809,8 +809,8 @@
         },
         "generic": {
             "education": {
-                "question": "Was ist die höchste Ausbildung die Du abgeschlossen hast?",
-                "shortName": "Höchstes abgeschlossene Ausbildungs"
+                "question": "Was ist die höchste Ausbildung die du abgeschlossen hast?",
+                "shortName": "Höchste abgeschlossene Ausbildung"
             },
             "householdIncome": {
                 "question": "Wie hoch ist das Jahreseinkommen aller Mitglieder Deines Haushalts zusammengerechnet bevor Steuern (Brutto)?",
