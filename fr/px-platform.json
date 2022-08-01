@@ -433,8 +433,8 @@
             },
             "practiceStudy": "Si l'étude que vous avez suivie est une étude pratique, nous vous contacterons dès que nous aurons examiné vos résultats. N'oubliez pas que les études pratiques ne donnent pas droit à une rémunération.",
             "moderatedSessionAboutToStart": {
-                "title": "",
-                "cta": ""
+                "title": "Tu es programée pour une session en ce moment. \nPour continuer, connecte-toi à ton compte.",
+                "cta": "Connectez-vous"
             }
         },
         "errorPages": {
