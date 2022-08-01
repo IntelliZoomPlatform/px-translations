@@ -433,8 +433,8 @@
             },
             "practiceStudy": "Als de studie die je hebt genomen een proefstudie is dan zullen we zo snel mogelijk contact met je opnemen zodra we je resultaten hebben beoordeeld. Let er wel op dat proefstudies niet betaald zijn.",
             "moderatedSessionAboutToStart": {
-                "title": "",
-                "cta": ""
+                "title": "Je bent ingepland voor een sessie op dit moment. \nOm verder te gaan, log je in op je account.",
+                "cta": "Log in"
             }
         },
         "errorPages": {
