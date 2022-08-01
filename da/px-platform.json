@@ -433,8 +433,8 @@
             },
             "practiceStudy": "Hvis undersøgelsen, du har taget, er en Prøve-undersøgelse, kontakter vi dig så snart, vi har vurderet dine resultater. Husk venligst at du ikke bliver betalt for prøve-undersøgelser.",
             "moderatedSessionAboutToStart": {
-                "title": "",
-                "cta": ""
+                "title": "Du er planlagt til en session på dette tidspunkt. \u2028\nFor at fortsætte skal du logge ind på din konto for at fortsætte.",
+                "cta": "Log ind"
             }
         },
         "errorPages": {
