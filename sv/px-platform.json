@@ -433,8 +433,8 @@
             },
             "practiceStudy": "Vad studien du tog en övningsstudie kommer vi att höra av oss till dig när vi har granskat dina resultat. Kom ihåg att man inte får betalt för övningsstudier.",
             "moderatedSessionAboutToStart": {
-                "title": "",
-                "cta": ""
+                "title": "Du är schemalagd för en session vid denna tidpunkt. \u2028\nLogga in på ditt konto för att fortsätta.",
+                "cta": "Logga in"
             }
         },
         "errorPages": {
