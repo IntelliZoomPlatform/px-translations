@@ -211,7 +211,7 @@
                         "university": "Educación universitaria, sin título",
                         "technical": "Grado técnico o comercial",
                         "undergraduate": "Licenciatura",
-                        "master": "Máster o título profesional",
+                        "master": "Maestría o título profesional",
                         "phd": "Doctorado"
                     }
                 },
@@ -512,7 +512,7 @@
                         "top_tier": "C-Level (eg. CEO, CFO), Propietario, Socio o Presidente",
                         "vp_tier": "Vicepresidente (EVP, SVP, AVP, VP)",
                         "director_tier": "Director (Director de grupo, Sr. Director, Director)",
-                        "management_tier": "Gerenter (Gerente de grupo, Gerente Sr., Gerente, Gerente de programa)",
+                        "management_tier": "Gerente (Gerente de grupo, Gerente Sr., Gerente, Gerente de programa)",
                         "analyst": "Analista",
                         "associate": "Asistente o asociado",
                         "administrative": "Administrativo (de personal o de apoyo)",
@@ -596,10 +596,10 @@
                     "question": "¿En qué tipo de apuestas participas?",
                     "list": {
                         "onlineSports": "Apuestas deportivas online",
-                        "onlineLottery": "Loteria / rasca y gana online",
+                        "onlineLottery": "Lotería / rasca y gana online",
                         "onlinePoker": "Póker o casino online",
                         "offlineSports": "Apuestas deportivas",
-                        "offlineLottery": "Loteria / rasca y gana en tienda",
+                        "offlineLottery": "Lotería / rasca y gana en tienda",
                         "bingo": "Bingo",
                         "casinoPoker": "Póker / BlackJack / Ruleta / etc en el casino",
                         "casinoSlot": "Tragaperras del casino",
@@ -739,7 +739,7 @@
                         "ulcers": "Úlceras",
                         "urinaryIncontinence": "Incontinencia urinaria"
                     },
-                    "shortName": "Enfermedades / afecciones con las que hayas sido diagnosticado"
+                    "shortName": "Enfermedades / afecciones que te hayan sido diagnosticadas"
                 }
             },
             "travel": {
