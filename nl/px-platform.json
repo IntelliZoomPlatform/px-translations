@@ -367,7 +367,7 @@
                 }
             },
             "aboutMe": {
-                "nonEditableFields": "Als je jouw verjaardag, gender of informatie over je land wilt veranderen dan [kun je contact opnemen] https://help.intellizoom.com/hc/en-us/requests/new)  met ons Ondersteuningsteam."
+                "nonEditableFields": "Als je jouw verjaardag, gender of informatie over je land wilt veranderen dan [kun je contact opnemen](https://help.intellizoom.com/hc/en-us/requests/new)  met ons Ondersteuningsteam."
             }
         },
         "reEngagement": {
