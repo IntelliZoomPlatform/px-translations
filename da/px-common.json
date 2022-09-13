@@ -199,7 +199,8 @@
                 "greeting_evening": "Godaften!",
                 "greetingName_evening": "Godaften {{userName}}!"
             },
-            "noThanks": "Nej tak"
+            "noThanks": "Nej tak",
+            "back": ""
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {

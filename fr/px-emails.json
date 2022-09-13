@@ -62,7 +62,7 @@
                 "bodyCopyTwo": "Si vous pensez qu'il s'agit d'une erreur ou si vous souhaitez une seconde chance, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> et nous serons ravis de réactiver l'étude pratique pour vous."
             },
             "generic": {
-                "genericClosing": "Sincères salutations,<br>L'équipe du panneautelliZoom",
+                "genericClosing": "Sincères salutations,<br>L'équipe du IntelliZoom",
                 "inlineContact": "contactez-nous",
                 "inlineHelp": "Centre d'aide",
                 "gotQuestions": "Si vous avez d'autres questions, veuillez <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> ou visiter notre <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
