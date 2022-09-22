@@ -4,7 +4,7 @@
             "androidPhone": "Téléphone Android",
             "androidTablet": "Tablette Android",
             "chrome": "Chrome",
-            "claim": "Votre opinion compte. Recevez une rémunération pour partager vos expériences et avoir une influence sur les produits que vous aimez et auxquels vous tenez.",
+            "claim": "Votre opinion compte. Recevez une gratification pour partager vos expériences et avoir une influence sur les interfaces digitales que vous aimez et utilisez.",
             "comma": ",",
             "contactUsLowercaseImperative": "contacte-nous",
             "copyright": "IntelliZoom Panel © 2022. Tous droits réservés.",
@@ -14,9 +14,9 @@
             "ie": "Internet Explorer {{version}}",
             "iPad": "iPad",
             "iPhone": "iPhone",
-            "logIn": "Connecte-toi",
-            "logInImperative": "Connecte-toi",
-            "logInLowercase": "Connecte-toi",
+            "logIn": "Se connecter",
+            "logInImperative": "Se connecter",
+            "logInLowercase": "Se connecter",
             "next": "Suivant",
             "noRobot": "Je ne suis pas un robot",
             "or": "ou",
@@ -66,17 +66,17 @@
             "finish": "Terminer",
             "gotIt": "Bien reçu",
             "emailNotifications": {
-                "title": "Invitations à l'étude et bulletin d'information",
+                "title": "Invitations à le test et newsletter",
                 "mkt": {
                     "title": "Newsletter et communications marketing",
-                    "description": "Nous pouvons occasionnellement vous envoyer :\n\n- Des mises à jour sur l'incidence de votre avis sur les produits que vous aimez.\n- Quelques conseils sur la façon de devenir un maître des commentaires."
+                    "description": "Nous pouvons occasionnellement vous envoyer :\n\n- Des mises à jour sur l'incidence de votre avis sur les sites et apps que vous aimez.\n- Quelques conseils sur la façon de devenir un maître des commentaires."
                 },
                 "studyInvites": {
-                    "title": "Invitations à des études sur l'expérience utilisateur",
-                    "description": "Recevez des invitations à des études d'expérience utilisateur que :\n\n- Vous pouvez y répondre à distance, dans le confort de votre maison.\n- Il faut en moyenne 10 à 20 minutes pour y répondre.\n- Payez {{tolIncentive}} en moyenne pour les études qui enregistrent du son et de la vidéo. Pour les études standard, le paiement est {{surveyIncentive}} en moyenne.",
+                    "title": "Invitations à des tests sur l'expérience utilisateur",
+                    "description": "Recevez des invitations à des tests d'expérience utilisateur que :\n\n- Vous pouvez y répondre à distance, dans le confort de votre maison.\n- Il faut en moyenne 10 à 20 minutes pour y répondre.\n- Payez {{tolIncentive}} en moyenne pour les tests qui enregistrent du son et de la vidéo. Pour les tests standard, le paiement est {{surveyIncentive}} en moyenne.",
                     "confirmationModal": {
                         "title": "Êtes-vous sûr ?",
-                        "description": "Si vous désactivez cette option, vous ne recevrez plus d'invitations à des études payantes.",
+                        "description": "Si vous désactivez cette option, vous ne recevrez plus d'invitations à des tests payantes.",
                         "cta": "Oui, désactiver"
                     }
                 },
@@ -107,11 +107,11 @@
             "studies": {
                 "cardSort": {
                     "title": "Tri des cartes",
-                    "description": "Dans ce type d'études, nous sommes surtout intéressés par la manière dont vous regrouperiez certains éléments. Ainsi, le créateur de l'étude peut comprendre le raisonnement de l'utilisateur lorsqu'il catégorise.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Nous sommes uniquement intéressés par votre opinion honnête."
+                    "description": "Dans ce type des tests, nous sommes surtout intéressés par la manière dont vous regrouperiez certains éléments. Ainsi, le créateur du test peut comprendre le raisonnement de l'utilisateur lorsqu'il catégorise.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Nous sommes uniquement intéressés par votre opinion honnête."
                 },
                 "practice": {
-                    "title": "Étude pratique",
-                    "description": "Participez à cette étude pratique et maîtrisez l'art de donner votre avis.\n\nSi vous participez et réussissez notre examen, nous pourrons vous inviter à des études mieux rémunérées."
+                    "title": "Test pratique",
+                    "description": "Participez à ce test pratique et maîtrisez l'art de donner votre avis.\n\nSi vous participez et réussissez notre examen, nous pourrons vous inviter à des tests mieux rémunérées."
                 },
                 "survey": {
                     "description": "Une enquête standard de type question-réponse. Sans effets spéciaux.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Nous sommes uniquement intéressés par votre opinion honnête.",
@@ -119,11 +119,11 @@
                 },
                 "taskBased": {
                     "title": "Basé sur les tâches",
-                    "description": "Dans une étude basée sur les tâches, comme son nom l'indique, l'étude vous guidera à travers un ensemble de tâches que vous devrez accomplir.\n\nCertaines tâches sont simples, d'autres sont un peu plus complexes. Ce qui nous intéresse, c'est de savoir si vous les trouvez faciles ou difficiles.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Nous sommes uniquement intéressés par votre opinion honnête."
+                    "description": "Dans une test basée sur les tâches, comme son nom l'indique, le test vous guidera à travers un ensemble de tâches que vous devrez accomplir.\n\nCertaines tâches sont simples, d'autres sont un peu plus complexes. Ce qui nous intéresse, c'est de savoir si vous les trouvez faciles ou difficiles.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Nous sommes uniquement intéressés par votre opinion honnête."
                 },
                 "tol": {
                     "title": "Pensez tout haut",
-                    "description": "Ce type d'études vous oblige à exprimer vos pensées pendant que vous effectuez des tâches.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Lorsque nous vous montrons une idée, un design ou un concept, si vous le détestez, vous le détestez, si vous l'aimez, vous l'aimez, s'il ne suscite aucune émotion et que c'est une perte de temps... dites-le aussi !\n\nSeul votre avis honnête nous intéresse."
+                    "description": "Ce type des tests vous oblige à exprimer vos pensées pendant que vous effectuez des tâches.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Lorsque nous vous montrons une idée, un design ou un concept, si vous le détestez, vous le détestez, si vous l'aimez, vous l'aimez, s'il ne suscite aucune émotion et que c'est une perte de temps... dites-le aussi !\n\nSeul votre avis honnête nous intéresse."
                 },
                 "requirements": {
                     "anyBrowser": "Un navigateur mis à jour",
@@ -133,30 +133,30 @@
                     "maybeRecorded": "Vous n'aurez pas besoin de caméra Web ou de microphone, mais votre écran pourra être enregistré. Assurez-vous de lire chaque tâche et faites de votre mieux pour les accomplir.",
                     "microphone": "Microphone",
                     "quietEnvironment": "Un environnement calme",
-                    "screener": "Il se peut que l'on vous pose quelques questions pour voir si vous êtes qualifié pour cette étude, bonne chance ! :)",
+                    "screener": "Il se peut que l'on vous pose quelques questions pour voir si vous êtes qualifié pour ce test, bonne chance ! :)",
                     "strongConnection": "Une connexion solide",
                     "updatedBrowser": "Dernière version de",
                     "webcam": "Caméra Web",
-                    "title": "Pour cette étude, vous aurez besoin de :"
+                    "title": "Pour ce test, vous aurez besoin de :"
                 },
                 "participate": "Participer",
                 "devices": "Appareils",
                 "youWillNeed": "Vous aurez besoin de",
                 "manualSourcing": {
                     "title": "Restez à l'écoute de votre e-mail !",
-                    "description": "Pour les études en {{country}}, nous utilisons les e-mails pour gérer nos invitations.\n\nPour vous assurer de recevoir des invitations aussi souvent que possible, veillez à ce que votre profil soit complet et mis à jour."
+                    "description": "Pour les tests en {{country}}, nous utilisons les e-mails pour gérer nos invitations.\n\nPour vous assurer de recevoir des invitations aussi souvent que possible, veillez à ce que votre profil soit complet et mis à jour."
                 },
                 "treeTest": {
                     "title": "Test sur les arbres",
-                    "description": "Dans ce type d'études, nous essayons de trouver la meilleure organisation et dénomination possible pour les menus de navigation.\n\nAutrement dit, il s'agit de savoir si les catégories ont un sens pour vous et si les éléments se trouvent là où vous les attendez.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Nous sommes uniquement intéressés par votre opinion honnête."
+                    "description": "Dans ce type des tests, nous essayons de trouver la meilleure organisation et dénomination possible pour les menus de navigation.\n\nAutrement dit, il s'agit de savoir si les catégories ont un sens pour vous et si les éléments se trouvent là où vous les attendez.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Nous sommes uniquement intéressés par votre opinion honnête."
                 },
                 "clickTest": {
                     "title": "Test de clics",
                     "description": "Avec un test de clics, nous voulons comprendre où vous cliquez lorsque nous vous demandons de réaliser une certaine action.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Nous sommes seulement intéressés par votre opinion honnête."
                 },
-                "projectId": "Identifiant de l'étude pour votre référence : {{projectId}}",
+                "projectId": "Identifiant du test pour votre référence : {{projectId}}",
                 "loadingScreen": {
-                    "title": "Entrée dans le bureau..."
+                    "title": "Redirection vers le test"
                 },
                 "recaptchaCheck": {
                     "title": "Une seconde ! Seuls les humains sont autorisés."
@@ -165,7 +165,7 @@
                     "title": "Entretien en ligne",
                     "description": "Vous pourrez visualiser et choisir le créneau horaire qui vous convient le mieux.",
                     "book": "Réserver une session",
-                    "modalDescription": "Dans cette étude, vous participerez à un appel vidéo en direct avec un chercheur en expérience utilisateur qui vous demandera de donner votre avis et de fournir des commentaires sur une expérience numérique.\n\nCette session durera environ {{sessionDuration}} minutes. Vous choisirez également le moment de votre participation en fonction des créneaux horaires disponibles.",
+                    "modalDescription": "Dans ce test, vous participerez à un appel vidéo en direct avec un chercheur en expérience utilisateur qui vous demandera de donner votre avis et de fournir des commentaires sur une expérience numérique.\n\nCette session durera environ {{sessionDuration}} minutes. Vous choisirez également le moment de votre participation en fonction des créneaux horaires disponibles.",
                     "mobileRequired": "Un numéro de téléphone mobile est nécessaire pour programmer une session",
                     "smsReminder": "Pour recevoir un SMS de rappel",
                     "contactUser": "Ou vous contacter si quelque chose ne va pas",
