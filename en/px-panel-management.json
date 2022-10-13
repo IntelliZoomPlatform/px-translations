@@ -13,10 +13,8 @@
                 "greaterThan": "greater than",
                 "lessThan": "less than",
                 "isBetween": "is between",
-                "multiSelect": {
-                    "someOf": "must include all of these",
-                    "noneOf": "does not include"
-                }
+                "someOf": "must include all of these",
+                "noneOf": "does not include"
             },
             "searchPlaceholder": "Search for a specific filter",
             "names": {
@@ -48,7 +46,7 @@
                 "phone": "Phone",
                 "email": "Email",
                 "dateOfBirth": "Date of birth",
-                "ethnicity": "Ethnicity",
+                "ethnicity_us": "Ethnicity",
                 "financialProduct": "Financial products",
                 "investable_assets_ca": "Investable assets CA",
                 "investable_assets_ch": "Investable assets CH",
@@ -96,8 +94,8 @@
                 "fourthChild_birthday": "Children age",
                 "fifthChildren_birthday": "Children age",
                 "firstChild_gender": "Children gender",
-                "secondChildren_gender": "Children gender",
-                "thirdChildren_gender": "Children gender",
+                "secondChild_gender": "Children gender",
+                "thirdChild_gender": "Children gender",
                 "fourthChild_gender": "Children gender",
                 "fifthChild_gender": "Children gender",
                 "ownRent": "House rent/owner",
@@ -174,8 +172,12 @@
                 "airlineLoyalty_other": "Airline loyalty programs Other",
                 "accomodationType": "Recent accommodation type",
                 "hotelLoyalty": "Hotel loyalty programs",
-                "householdDescription": "Relationship status"
-            }
+                "householdDescription": "Relationship status",
+                "ethnicity_gb": "Ethnicity"
+            },
+            "next": "Next",
+            "previous": "Previous",
+            "totalPages": ""
         },
         "panelistTable": {
             "headers": {
@@ -218,11 +220,9 @@
             "apply": "Apply"
         },
         "query": {
-            "multiSelect": {
-                "everyOf": "must include",
-                "someOf": "may include",
-                "noneOf": "does not include"
-            }
+            "everyOf": "must include",
+            "someOf": "may include",
+            "noneOf": "does not include"
         }
     },
     "Airline loyalty programs US": {
