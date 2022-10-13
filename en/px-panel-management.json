@@ -197,9 +197,9 @@
                 "addFilter": "Add filter"
             },
             "panelists": "{{number}} panelists",
-            "panelistMatch": "**{{number}} panelist match** from {{totalNumber}}",
-            "panelistsMatch": "**{{number}} panelists match** from {{totalNumber}}",
-            "noPanelistsMatch": "**No panelist match** from {{totalNumber}}",
+            "panelistMatch": "**{{number}} panelist match** from {{total}}",
+            "panelistsMatch": "**{{number}} panelists match** from {{total}}",
+            "noPanelistsMatch": "**No panelist match** from {{total}}",
             "noPanelistsFoundForFilter": "No panelists found for this filter"
         },
         "generic": {
