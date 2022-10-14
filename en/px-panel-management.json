@@ -14,7 +14,8 @@
                 "lessThan": "less than",
                 "isBetween": "is between",
                 "someOf": "must include all of these",
-                "noneOf": "does not include"
+                "noneOf": "does not include",
+                "everyOf": "must include all of these"
             },
             "searchPlaceholder": "Search for a specific filter",
             "names": {
@@ -26,10 +27,10 @@
                 "occupation": "Occupation",
                 "technology": "Technology",
                 "travel": "Travel",
-                "createdAt": "Date created",
-                "updatedAt": "Date updated",
-                "status": "Status",
-                "communications": "Communications",
+                "dateJoined": "Date created",
+                "panelistUpdated": "Date updated",
+                "panelistStatus": "Status",
+                "communicationsAccepted": "Communications",
                 "panelistId": "Panelist ID",
                 "firstName": "Name",
                 "lastName": "Last name",
@@ -41,11 +42,11 @@
                 "householdSize": "Household size",
                 "householdChildren": "Total children",
                 "acquisitionSource": "Acquisition source",
-                "tolStatus": "TOL status",
-                "privacyPolicy": "Privacy Policy",
+                "activeTOL": "TOL status",
+                "privacyPolicyAccepted": "Privacy Policy",
                 "phone": "Phone",
                 "email": "Email",
-                "dateOfBirth": "Date of birth",
+                "birthday": "Date of birth",
                 "ethnicity_us": "Ethnicity",
                 "financialProduct": "Financial products",
                 "investable_assets_ca": "Investable assets CA",
@@ -92,7 +93,7 @@
                 "secondChild_birthday": "Children age",
                 "thirdChild_birthday": "Children age",
                 "fourthChild_birthday": "Children age",
-                "fifthChildren_birthday": "Children age",
+                "fifthChild_birthday": "Children age",
                 "firstChild_gender": "Children gender",
                 "secondChild_gender": "Children gender",
                 "thirdChild_gender": "Children gender",
@@ -170,14 +171,18 @@
                 "airlineLoyalty_au": "Airline loyalty programs AU",
                 "airlineLoyalty_ca": "Airline loyalty programs CA",
                 "airlineLoyalty_other": "Airline loyalty programs Other",
+                "airlineLoyalty_us": "Airline loyalty programs US",
                 "accomodationType": "Recent accommodation type",
                 "hotelLoyalty": "Hotel loyalty programs",
                 "householdDescription": "Relationship status",
-                "ethnicity_gb": "Ethnicity"
+                "ethnicity_gb": "Ethnicity",
+                "payableStatus": "Payable status",
+                "hispanic": "Hispanic",
+                "mobileCarrier_at": "Mobile carrier AT"
             },
             "next": "Next",
             "previous": "Previous",
-            "totalPages": ""
+            "totalPages": "Total pages"
         },
         "panelistTable": {
             "headers": {
@@ -224,8 +229,5 @@
             "someOf": "may include",
             "noneOf": "does not include"
         }
-    },
-    "Airline loyalty programs US": {
-        "airlineLoyalty_us": "Airline loyalty programs US"
     }
 }
