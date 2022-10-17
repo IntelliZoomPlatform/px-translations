@@ -27,43 +27,43 @@
                 "cta": "Réinitialiser le mot de passe"
             },
             "studyInvitation": {
-                "subject": "Il y a une nouvelle étude disponible pour vous !",
-                "title": "Bonjour {{user.name}}, <br>une nouvelle étude est disponible pour vous !",
+                "subject": "Il y a une nouvelle test disponible pour vous !",
+                "title": "Bonjour {{user.name}}, <br>une nouvelle test est disponible pour vous !",
                 "bodyCopy": "Êtes-vous prêt à donner votre avis et à gagner {{studyFee}} ?",
                 "cta": "Participe !",
-                "studyID": "Identifiant de l'étude pour votre référence : {{projectId}}",
+                "studyID": "Identifiant du test pour votre référence : {{projectId}}",
                 "closing": "Amuse-toi bien!<br>L'équipe de Panel IntelliZoom"
             },
             "studyComplete": {
-                "subject": "Merci de partager tes pensées !",
-                "title": "Merci de partager tes pensées !",
-                "bodyCopy": "Nous examinerons votre participation à l'étude {{projectId}} dès que possible.<br>Si votre participation est approuvée, nous procéderons à l'envoi du paiement dans un délai de 21 jours ouvrables. L'incitation pour cette étude est de {{studyFee}}."
+                "subject": "Merci de partager vos retours !",
+                "title": "Merci de partager vos retours !",
+                "bodyCopy": "Nous examinerons votre participation à le test {{projectId}} dès que possible.<br>Si votre participation est approuvée, nous procéderons à l'envoi du paiement dans un délai de 21 jours ouvrables. La gratification pour cette étude est de {{studyFee}}."
             },
             "paymentSent": {
                 "subject": "Votre paiement a été envoyé",
                 "title": "Bonjour {{user.name}}, <br>votre paiement a été envoyé !",
-                "bodyCopy": "Nous avons envoyé {{studyFee}} via PayPal à l'adresse e-mail suivante :<br>{{user.email}}<br><br>Ce paiement concerne l'étude : {{projectId}}"
+                "bodyCopy": "Nous avons envoyé {{studyFee}} via PayPal à l'adresse e-mail suivante :<br>{{user.email}}<br><br>Ce paiement concerne le test : {{projectId}}"
             },
             "paymentConfirmation": {
                 "subject": "Votre paiement est arrivé !",
                 "title": "Bonjour {{user.name}}, PayPal vient de nous confirmer que votre paiement a été reçu",
-                "bodyCopy": "Vous devriez maintenant avoir {{studyFee}} de plus sur votre compte PayPal pour :<br>{{user.email}}<br><br>Ce paiement fait référence à l'étude : {{projetId}}"
+                "bodyCopy": "Vous devriez maintenant avoir {{studyFee}} de plus sur votre compte PayPal pour :<br>{{user.email}}<br><br>Ce paiement fait référence à le test : {{projectId}}"
             },
             "certificationApproved": {
-                "subject": "Vous avez bien réussi votre étude pratique !",
-                "title": "Bonjour {{user.name}}, vous avez fait un excellent travail dans votre étude pratique !",
+                "subject": "Vous avez bien réussi votre test pratique !",
+                "title": "Bonjour {{user.name}}, vous avez fait un excellent travail dans votre test pratique !",
                 "bodyCopyOne": "Nous voyons que vous pouvez clairement articuler vos pensées et votre expérience. Vous êtes exactement le type de conférencier que nous espérions !",
-                "bodyCopyTwo": "Vous recevrez désormais des invitations pour les études Think Out Loud et Card Sort aussi. Ce type d'études est généralement mieux rémunéré. ;)"
+                "bodyCopyTwo": "Vous recevrez désormais des invitations pour les tests Think Out Loud et Card Sort aussi. Ce type des tests est généralement mieux rémunéré. ;)"
             },
             "certificationRejected": {
-                "subject": "Votre étude pratique n'a pas été approuvée",
-                "title": "Bonjour {{user.name}}, l'étude pratique que vous nous avez envoyée n'a pas été approuvée",
-                "bodyCopyOne": "Nous sommes désolés de vous informer que l'étude pratique que vous avez soumise ne répondait pas aux exigences de qualité que nous demandons pour une étude Think Out Loud ou Card Sort.",
-                "bodyCopyTwo": "Si vous pensez qu'il s'agit d'une erreur ou si vous souhaitez une seconde chance, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> et nous serons ravis de réactiver l'étude pratique pour vous."
+                "subject": "Votre test pratique n'a pas été approuvée",
+                "title": "Bonjour {{user.name}}, le test pratique que vous nous avez envoyée n'a pas été approuvée",
+                "bodyCopyOne": "Nous sommes désolés de vous informer que le test pratique que vous avez soumise ne répondait pas aux exigences de qualité que nous demandons pour un test Think Out Loud ou Card Sort.",
+                "bodyCopyTwo": "Si vous pensez qu'il s'agit d'une erreur ou si vous souhaitez une seconde chance, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> et nous serons ravis de réactiver le test pratique pour vous."
             },
             "generic": {
                 "genericClosing": "Sincères salutations,<br>L'équipe du IntelliZoom",
-                "inlineContact": "contactez-nous",
+                "inlineContact": "nous contacter",
                 "inlineHelp": "Centre d'aide",
                 "gotQuestions": "Si vous avez d'autres questions, veuillez <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> ou visiter notre <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
             },
@@ -79,24 +79,24 @@
                 "bodyCopy": "Bonjour {{user.name}},<br><br>Nous avons supprimé votre compte et vos informations de notre système. (Cet e-mail sera la dernière communication que vous recevrez de notre part.)<br><br>Si vous ne l'avez pas demandé, il se peut que cette suppression soit due à une longue période d'inactivité ou à une mauvaise utilisation de notre plate-forme entraînant une violation de nos <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br><br>Si vous pensez qu'il s'agit d'une erreur ou si vous souhaitez obtenir des informations complémentaires, veuillez <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> ou visiter notre <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
             },
             "practiceStudyComplete": {
-                "subject": "Merci d'avoir suivi l'étude pratique !",
-                "title": "Merci d'avoir suivi l'étude pratique !",
-                "bodyCopy": "Nous examinerons votre participation dès que possible et vous enverrons un e-mail avec les résultats.<br> Si votre participation est approuvée, vous commencerez à recevoir des invitations pour les études Think Out Loud et Card Sort.<br> Ce type d'études est généralement mieux payé. ;)"
+                "subject": "Merci d'avoir suivi le test pratique !",
+                "title": "Merci d'avoir suivi le test pratique !",
+                "bodyCopy": "Nous examinerons votre participation dès que possible et vous enverrons un e-mail avec les résultats.<br> Si votre participation est approuvée, vous commencerez à recevoir des invitations pour les tests Think Out Loud et Card Sort.<br> Ce type des tests est généralement mieux payé. ;)"
             },
             "PayPal": {
                 "paymentSent": {
-                    "note": "Merci d'avoir participé à l'étude {{projectId}}. Nous espérons vous revoir bientôt !"
+                    "note": "Merci d'avoir participé à le test {{projectId}}. Nous espérons vous revoir bientôt !"
                 }
             },
             "paypalToken": {
                 "title": "Votre compte PayPal a été déconnecté d'IntelliZoom",
-                "description": "Nous sommes désolés de vous annoncer cette mauvaise nouvelle, mais votre compte PayPal a été déconnecté d'IntelliZoom.<br /><br />Ainsi, vous ne recevrez plus d'invitations à participer à des études payantes et vous ne recevrez plus les paiements en attente pour les études que vous avez réalisées récemment.<br /><br />Pour continuer à participer à nos études payantes ou pour recevoir les paiements en attente, consultez notre tableau de bord et reconnectez vos comptes.",
+                "description": "Nous sommes désolés de vous annoncer cette mauvaise nouvelle, mais votre compte PayPal a été déconnecté d'IntelliZoom.<br /><br />Ainsi, vous ne recevrez plus d'invitations à participer à des tests payantes et vous ne recevrez plus les paiements en attente pour les tests que vous avez réalisées récemment.<br /><br />Pour continuer à participer à nos tests payantes ou pour recevoir les paiements en attente, consultez notre tableau de bord et reconnectez vos comptes.",
                 "cta": "Aller au tableau de bord"
             },
             "excludedParticipation": {
                 "subject": "Votre participation n'a pas été approuvée",
                 "title": "Bonjour {{user.name}}, une de vos participations n'a pas été approuvée",
-                "bodyCopy": "Nous sommes désolés de vous informer que votre participation à l'étude {{projetId}} n'a pas été approuvée et que vous ne recevrez pas l'incitation de l'étude. <br /><br />Cette situation peut être le résultat d'un ou plusieurs des scénarios suivants : <ul><li>Vous n'avez peut-être pas réfléchi à voix haute comme il se doit.</li><li>Vous n'avez peut-être pas consacré suffisamment de temps à l'exécution des tâches ou des questionnaires requis.</li><li>La qualité technique de votre participation peut avoir été médiocre ou incomplète pour l'une ou plusieurs des raisons suivantes : <ul><li>Mauvaise connexion Internet.</li><li>Mauvaise qualité du microphone ou de la caméra.</li><li>Mauvaise qualité générale en raison d'un trop grand nombre de fenêtres, d'onglets ou d'applications fonctionnant en même temps sur votre appareil. </li></ul></li></ul>Pour éviter que cette situation ne se reproduise à l'avenir, veuillez consulter ces <a href=\"https://help.intellizoom.com/hc/en-us/categories/360000100658\">recommandations de meilleures pratiques</a> dans notre centre d'aide. <br /><br /> Ne vous découragez pas ! La prochaine fois, assurez-vous que votre appareil est prêt pour l'étude et faites de votre mieux pour fournir des commentaires de qualité supérieure."
+                "bodyCopy": "Nous sommes désolés de vous informer que votre participation au test {{projectId}} n’a pas été approuvée et que vous ne recevrez pas la gratification du test. <br /><br />Cette situation peut être le résultat d'un ou plusieurs des scénarios suivants : <ul><li>Vous n'avez peut-être pas réfléchi à voix haute comme il se doit.</li><li>Vous n'avez peut-être pas consacré suffisamment de temps à l'exécution des tâches ou des questionnaires requis.</li><li>La qualité technique de votre participation peut avoir été médiocre ou incomplète pour l'une ou plusieurs des raisons suivantes : <ul><li>Mauvaise connexion Internet.</li><li>Mauvaise qualité du microphone ou de la caméra.</li><li>Mauvaise qualité générale en raison d'un trop grand nombre de fenêtres, d'onglets ou d'applications fonctionnant en même temps sur votre appareil. </li></ul></li></ul>Pour éviter que cette situation ne se reproduise à l'avenir, veuillez consulter ces <a href=\"https://help.intellizoom.com/hc/en-us/categories/360000100658\">recommandations de meilleures pratiques</a> dans notre centre d'aide. <br /><br /> Ne vous découragez pas ! La prochaine fois, assurez-vous que votre appareil est prêt pour le test et faites de votre mieux pour fournir des commentaires de qualité supérieure."
             },
             "finishConfirmation": {
                 "subject": "ACTION REQUISE : Veuillez confirmer votre session",
@@ -198,11 +198,11 @@
                     "sorry": "Nous sommes désolés pour la gêne et les problèmes que cela peut vous causer."
                 },
                 "moderator": {
-                    "scheduledFor": "Cette session a été programmée pour l'étude {{projectName}} à l'heure et à la date suivantes :"
+                    "scheduledFor": "Cette session a été programmée pour le test {{projectName}} à l'heure et à la date suivantes :"
                 },
                 "participant": {
                     "sessionHasBeenCancelled": "Votre session de recherche a été annulée",
-                    "scheduledFor": "Comme il a été demandé, nous avons annulé la session avec identifiant d'étude {{projectId}} à laquelle vous alliez participer :"
+                    "scheduledFor": "Comme il a été demandé, nous avons annulé la session avec identifiant du test {{projectId}} à laquelle vous alliez participer :"
                 }
             },
             "reminders": {
