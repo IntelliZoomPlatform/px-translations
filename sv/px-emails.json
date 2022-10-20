@@ -111,7 +111,7 @@
                     "timezone": "{{timeZone}}"
                 },
                 "desktop": {
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "oneMoreStep": "Ett sista steg! Bekräfta din session",
                     "thankYouForInterest": "Tack för ditt intresse för den här {{sessionDuration}}-minuterssessionen! Du har valt följande dag och tid att delta:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -121,7 +121,7 @@
                     "alternativeLink": "Och bara utifall att knappen ovan inte skulle fungera... här är länken: {{confirmLink}}"
                 },
                 "mobile": {
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "oneMoreStep": "Ett sista steg! Bekräfta din session",
                     "thankYouForInterest": "Tack för ditt intresse för den här {{sessionDuration}}-minuterssessionen! Du har valt följande dag och tid att delta:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -133,7 +133,7 @@
             "participationConfirmed": {
                 "subject": "Deltagande bekräftat! Din plats är bokad",
                 "generic": {
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "participationConfirmed": "Ditt deltagande är bekräftat!",
                     "scheduled": "Du har schemalagts för följande dag och tid:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -148,13 +148,13 @@
                     "note": "Observera: om du inte längre kan på den här tiden ber vi dig att <a href='{{entranceLink}}'>avboka</a> eller <a href='{{entranceLink}}'>boka om</a> ditt deltagande så snart som möjligt."
                 },
                 "desktop": {
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "participationConfirmed": "Ditt deltagande är bekräftat!",
                     "scheduled": "Du har schemalagts för följande dag och tid:",
                     "youWillNeed": "För den här studien behöver du:\n<ul>\n<li>Stationär dator</li>\n<li>Senaste versionen av <strong>Chrome</strong>, <strong>Firefox</strong> eller <strong>Edge</strong></li>\n<li>Hörlurar</li>\n<li>Webbkamera</li>\n</ul>"
                 },
                 "mobile": {
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "participationConfirmed": "Ditt deltagande är bekräftat!",
                     "scheduled": "Du har schemalagts för följande dag och tid:",
                     "youWillNeed": "För den här studien behöver du:\n<ul>\n<li>Mobil enhet</li>\n<li>Tillräckligt med batteri eller inkopplad laddare</li>\n<li>Hörlurar</li>\n</ul>"

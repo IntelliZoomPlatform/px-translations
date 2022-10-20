@@ -101,7 +101,7 @@
             "finishConfirmation": {
                 "subject": "HANDLING PÅKRÆVET: Bekræft venligst din session",
                 "generic": {
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "oneMoreStep": "Et trin mere! Bekræft din session",
                     "selectedDay": "Tak for din interesse i denne {{sessionDuration}}-minutters session! Du har valgt følgende dag og tidspunkt for din deltagelse:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -111,7 +111,7 @@
                     "timezone": "{{timeZone}}"
                 },
                 "desktop": {
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "oneMoreStep": "Et trin mere! Bekræft din session",
                     "thankYouForInterest": "Tak for din interesse i denne {{sessionDuration}}-minutters session! Du har valgt følgende dag og tidspunkt for din deltagelse:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -121,7 +121,7 @@
                     "alternativeLink": "Og i tilfælde af at knappen ovenfor ikke virker... her er linket: {{confirmLink}}"
                 },
                 "mobile": {
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "oneMoreStep": "Et trin mere! Bekræft din session",
                     "thankYouForInterest": "Tak for din interesse i denne {{sessionDuration}}-minutters session! Du har valgt følgende dag og tidspunkt for din deltagelse:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -133,7 +133,7 @@
             "participationConfirmed": {
                 "subject": "Deltagelse bekræftet! Din plads er reserveret",
                 "generic": {
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "participationConfirmed": "Din deltagelse er bekræftet!",
                     "scheduled": "Du har en aftale på den følgende dag og tidspunkt:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -148,13 +148,13 @@
                     "note": "Bemærk: hvis du ikke længere kan på dette tidspunkt, bedes du <a href='{{entranceLink}}'>anullere</a> eller <a href='{{entranceLink}}'>omplanlægge</a> din deltagelse snarest muligt."
                 },
                 "desktop": {
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "participationConfirmed": "Din deltagelse er bekræftet!",
                     "scheduled": "Du har en aftale på den følgende dag og tidspunkt:",
                     "youWillNeed": "Til denne undersøgelse skal du bruge:\n<ul>\n<li>Stationær computer</li>\n<li>Seneste version af <strong>Chrome</strong>, <strong>Firefox</strong> eller <strong>Edge</strong></li>\n<li>Hovedtelefoner</li>\n<li>Webkamera</li>\n</ul>"
                 },
                 "mobile": {
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "participationConfirmed": "Din deltagelse er bekræftet!",
                     "scheduled": "Du har en aftale på den følgende dag og tidspunkt:",
                     "youWillNeed": "Til denne undersøgelse skal du bruge:\n<ul>\n<li>Mobil enhed</li>\n<li>Tilstrækkeligt batteri, eller være tilkoblet oplader</li>\n<li>Hovedtelefoner</li>\n</ul>"
@@ -166,14 +166,14 @@
                     "sessionHasBeenCancelled": "Din forskningssession er blevet annulleret",
                     "sorry": "Vi beklager ulejligheden og de problemer dette måtte forårsage.",
                     "seeYouAgain": "Vi håber at se dig igen snart.",
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "hope": "Vi håber at se dig igen snart."
                 }
             },
             "sessionCancelledByModerator": {
                 "subject": "Din forskningssession er blevet annulleret",
                 "generic": {
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "sessionHasBeenCancelled": "Din forskningssession er blevet annulleret",
                     "requestedCancellation": "Moderatoren som skulle lede din forskningssession har annulleret sessionen.",
                     "sorry": "Vi beklager ulejligheden og de problemer dette måtte forårsage.",
@@ -191,7 +191,7 @@
             "sessionCancelledByParticipant": {
                 "subject": "Din forskningssession er blevet annulleret",
                 "generic": {
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "sessionHasBeenCancelled": "Din forskningssession er blevet annulleret",
                     "asRequested": "Per din anmodning har vi annulleret din deltagelse i {{sessionDuration}}-minutters forskningssessionen.",
                     "hope": "Vi håber at se dig igen snart.",
@@ -207,7 +207,7 @@
             },
             "reminders": {
                 "generic": {
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "almostTime": "Det er snart tid til din forskningssession!",
                     "reminder": "Bare en venlig påmindelse om din kommende forskningssession:",
                     "recommendations": {
@@ -234,7 +234,7 @@
             "reschedule": {
                 "subject": "HANDLING PÅKRÆVET: Omplanlæg venligst din forskningssession",
                 "generic": {
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "pleaseChoose": "Vælg et nyt tidspunkt til din forskingssession",
                     "explanation": "Moderatoren som skal lede din forskingssession har anmodet om, at du ændrer tidspunktet for den. <br> Din tidligere aftale var:",
                     "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
@@ -246,7 +246,7 @@
             "confirmationReschedule": {
                 "subject": "Din session er blevet rykket!",
                 "generic": {
-                    "hi": "Hej {{name}},",
+                    "hi": "Hej {{user.name}},",
                     "participationHasBeenrescheduled": "Din deltagelse er blevet omplanlagt",
                     "newDetails": "Her er dine nye sessionsoplysninger:"
                 }
