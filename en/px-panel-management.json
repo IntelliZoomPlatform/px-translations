@@ -15,7 +15,10 @@
                 "isBetween": "is between",
                 "someOf": "must include all of these",
                 "noneOf": "does not include",
-                "everyOf": "must include all of these"
+                "everyOf": "must include all of these",
+                "after": "after",
+                "on": "on",
+                "before": "before"
             },
             "searchPlaceholder": "Search for a specific filter",
             "names": {
