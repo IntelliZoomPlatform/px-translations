@@ -200,7 +200,8 @@
                 "greetingName_evening": "¡Buenas noches {{userName}}!"
             },
             "noThanks": "No, gracias",
-            "back": "Volver"
+            "back": "Volver",
+            "in": "en"
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
