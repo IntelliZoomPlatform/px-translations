@@ -200,7 +200,8 @@
                 "greetingName_evening": "Good evening {{userName}}!"
             },
             "noThanks": "No, thanks",
-            "back": "Back"
+            "back": "Back",
+            "in": "in"
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
