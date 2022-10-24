@@ -200,7 +200,8 @@
                 "greetingName_evening": "God kväll {{userName}}!"
             },
             "noThanks": "Nej tack",
-            "back": ""
+            "back": "",
+            "in": ""
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
