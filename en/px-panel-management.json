@@ -50,7 +50,7 @@
                 "phone": "Phone",
                 "email": "Email",
                 "birthday": "Date of birth",
-                "ethnicity_us": "Ethnicity",
+                "ethnicity_us": "Ethnicity US",
                 "financialProduct": "Financial products",
                 "investable_assets_ca": "Investable assets CA",
                 "investable_assets_ch": "Investable assets CH",
@@ -178,7 +178,7 @@
                 "accomodationType": "Recent accommodation type",
                 "hotelLoyalty": "Hotel loyalty programs",
                 "householdDescription": "Relationship status",
-                "ethnicity_gb": "Ethnicity",
+                "ethnicity_gb": "Ethnicity GB",
                 "payableStatus": "Payable status",
                 "hispanic": "Hispanic",
                 "mobileCarrier_at": "Mobile carrier AT"
