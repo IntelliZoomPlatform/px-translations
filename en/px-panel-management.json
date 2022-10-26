@@ -13,7 +13,7 @@
                 "greaterThan": "greater than",
                 "lessThan": "less than",
                 "isBetween": "is between",
-                "someOf": "must include all of these",
+                "someOf": "must include some of these",
                 "noneOf": "does not include",
                 "everyOf": "must include all of these",
                 "after": "after",
