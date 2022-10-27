@@ -13,9 +13,12 @@
                 "greaterThan": "greater than",
                 "lessThan": "less than",
                 "isBetween": "is between",
-                "someOf": "must include all of these",
+                "someOf": "must include some of these",
                 "noneOf": "does not include",
-                "everyOf": "must include all of these"
+                "everyOf": "must include all of these",
+                "after": "after",
+                "on": "on",
+                "before": "before"
             },
             "searchPlaceholder": "Search for a specific filter",
             "names": {
@@ -47,7 +50,7 @@
                 "phone": "Phone",
                 "email": "Email",
                 "birthday": "Date of birth",
-                "ethnicity_us": "Ethnicity",
+                "ethnicity_us": "Ethnicity US",
                 "financialProduct": "Financial products",
                 "investable_assets_ca": "Investable assets CA",
                 "investable_assets_ch": "Investable assets CH",
@@ -175,7 +178,7 @@
                 "accomodationType": "Recent accommodation type",
                 "hotelLoyalty": "Hotel loyalty programs",
                 "householdDescription": "Relationship status",
-                "ethnicity_gb": "Ethnicity",
+                "ethnicity_gb": "Ethnicity GB",
                 "payableStatus": "Payable status",
                 "hispanic": "Hispanic",
                 "mobileCarrier_at": "Mobile carrier AT"
