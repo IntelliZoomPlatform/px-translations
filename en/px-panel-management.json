@@ -18,7 +18,9 @@
                 "everyOf": "must include all of these",
                 "after": "after",
                 "on": "on",
-                "before": "before"
+                "before": "before",
+                "yes": "accepted",
+                "no": "declined"
             },
             "searchPlaceholder": "Search for a specific filter",
             "names": {
