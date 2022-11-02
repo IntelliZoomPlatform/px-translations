@@ -11,8 +11,8 @@
                     "shortName": "Pays"
                 },
                 "gender": {
-                    "question": "Quel est votre sexe ?",
-                    "shortName": "Sexe"
+                    "question": "Quel est votre genre ?",
+                    "shortName": "Genre"
                 },
                 "postalCode": {
                     "question": "Quel est votre code postal ?",
@@ -47,15 +47,15 @@
                 },
                 "householdDescription": {
                     "list": {
-                        "cohabiting": "Partenariat domestique / Vit avec quelqu'un",
+                        "cohabiting": "Union libre / concubinage",
                         "single": "Célibataire, jamais marié(e)",
                         "married": "Marié(e)",
                         "divorced": "Divorcé(e)",
                         "separated": "Séparé(e)",
                         "widowed": "Veuf(ve)"
                     },
-                    "question": "Quelle est votre situation de couple ?",
-                    "shortName": "Situation de couple"
+                    "question": "Quelle est votre situation maritale ?",
+                    "shortName": "Situation maritale"
                 },
                 "education_us": {
                     "list": {
@@ -242,8 +242,8 @@
                 "education_fr": {
                     "list": {
                         "high_school": "Collège-Lycée ou moins",
-                        "baccalaureate": "Baccalaureate",
-                        "vocational": "Autre type d'éducation supérieur",
+                        "baccalaureate": "Baccalauréat",
+                        "vocational": "Autre type d'études supérieures",
                         "technical": "Bac +1",
                         "higher_technical": "Bac +2",
                         "bachelor": "Bac +3/+4 (Licence, Master 1)",
@@ -280,18 +280,18 @@
                 "householdSize": {
                     "question": "Combien de personnes vivent dans votre maison, vous-même compris ?",
                     "list": {
-                        "1": "Une personne",
-                        "2": "2 peuples",
-                        "3": "3 peuples",
-                        "4": "4 peuples",
-                        "5": "5 peuples",
-                        "more_5": "Plus de 5 peuples"
+                        "1": "1 personne",
+                        "2": "2 personnes",
+                        "3": "3 personnes",
+                        "4": "4 personnes",
+                        "5": "5 personnes",
+                        "more_5": "Plus de 5 personnes"
                     },
-                    "shortName": "Nombre de personnes qui vivent dans votre maison"
+                    "shortName": "Nombre de personnes qui vivent dans votre foyer"
                 },
                 "householdChildren": {
-                    "question": "Combien d'enfants de moins de 18 ans avez-vous dans votre foyer ?",
-                    "shortName": "Nombre d'enfants de moins de 18 ans dans votre ménage"
+                    "question": "Combien d'enfants de moins de 18 ans vivent dans votre foyer ?",
+                    "shortName": "Nombre d'enfants de moins de 18 ans dans votre foyer"
                 },
                 "pets": {
                     "question": "Parmi les animaux domestiques suivants, lesquels vivent dans votre maison ?",
@@ -299,22 +299,22 @@
                         "cat": "Chat(s)",
                         "dog": "Chien(s)",
                         "bird": "Oiseau(x)",
-                        "fish": "Poisson",
+                        "fish": "Poisson(s)",
                         "noPets": "Je n'ai pas d'animaux domestiques"
                     },
                     "shortName": "Les animaux domestiques qui vivent dans votre maison"
                 },
                 "ownRent": {
-                    "question": "Quelle est la meilleure description de votre foyer actuel ?",
+                    "question": "Quelle est la meilleure description de votre situation actuelle ?",
                     "list": {
                         "rented": "Loue un appartement ou une maison",
                         "owned": "Est propriétaire d'un appartement ou d'une maison",
                         "parents": "Vit avec ses parents"
                     },
-                    "shortName": "Ménage actuel"
+                    "shortName": "Situation actuelle"
                 },
                 "purchaseDecisionMaker": {
-                    "question": "Dans votre foyer, quelles sont les choses suivantes pour lesquelles vous êtes responsable ou partiellement responsable de la prise de décisions ?",
+                    "question": "Dans votre foyer, pour lesquels des domaines suivants êtes-vous responsable ou partiellement responsable en termes de prise de décision ?",
                     "list": {
                         "internet": "Internet",
                         "tv": "Télévision",
@@ -325,47 +325,47 @@
                         "finance": "Finance",
                         "clothing": "Vêtements"
                     },
-                    "shortName": "Les choses pour lesquelles vous êtes responsable ou en partie responsable de prendre des décisions dans votre ménage"
+                    "shortName": "Domaines pour lesquelles vous êtes responsable ou en partie responsable en termes de prise de décision dans votre foyer"
                 },
                 "firstChild_gender": {
-                    "question": "Veuillez indiquer le sexe du premier enfant de moins de 18 ans :",
-                    "shortName": "Sexe du premier enfant de moins de 18 ans"
+                    "question": "Veuillez indiquer le genre de votre premier enfant de moins de 18 ans :",
+                    "shortName": "Genre de votre premier enfant de moins de 18 ans"
                 },
                 "firstChild_birthday": {
-                    "question": "Veuillez indiquer la date de naissance du premier enfant de moins de 18 ans :",
-                    "shortName": "Date de naissance du premier enfant de moins de 18 ans"
+                    "question": "Veuillez indiquer la date de naissance de votre premier enfant de moins de 18 ans :",
+                    "shortName": "Date de naissance de votre premier enfant de moins de 18 ans"
                 },
                 "secondChild_gender": {
-                    "question": "Veuillez indiquer le sexe du deuxième enfant de moins de 18 ans :",
-                    "shortName": "Sexe du premier second de moins de 18 ans"
+                    "question": "Veuillez indiquer le genre de votre deuxième enfant de moins de 18 ans :",
+                    "shortName": "Genre de votre deuxième enfant de moins de 18 ans"
                 },
                 "secondChild_birthday": {
-                    "question": "Veuillez indiquer la date de naissance du deuxième enfant de moins de 18 ans :",
-                    "shortName": "Date de naissance du deuxième enfant de moins de 18 ans"
+                    "question": "Veuillez indiquer la date de naissance de votre deuxième enfant de moins de 18 ans :",
+                    "shortName": "Date de naissance de votre deuxième enfant de moins de 18 ans"
                 },
                 "thirdChild_gender": {
-                    "question": "Veuillez indiquer le sexe de votre troisième enfant de moins de 18 ans :",
-                    "shortName": "Sexe du troisième enfant de moins de 18 ans"
+                    "question": "Veuillez indiquer le genre de votre troisième enfant de moins de 18 ans :",
+                    "shortName": "Genre de votre troisième enfant de moins de 18 ans"
                 },
                 "thirdChild_birthday": {
-                    "question": "Veuillez indiquer la date de naissance du troisième enfant de moins de 18 ans :",
-                    "shortName": "Date de naissance du troisième enfant de moins de 18 ans"
+                    "question": "Veuillez indiquer la date de naissance de votre troisième enfant de moins de 18 ans :",
+                    "shortName": "Date de naissance de votre troisième enfant de moins de 18 ans"
                 },
                 "fourthChild_gender": {
-                    "question": "Veuillez indiquer le sexe de votre quatrième enfant de moins de 18 ans :",
-                    "shortName": "Sexe du quatrième enfant de moins de 18 ans"
+                    "question": "Veuillez indiquer le genre de votre quatrième enfant de moins de 18 ans :",
+                    "shortName": "Genre de votre quatrième enfant de moins de 18 ans"
                 },
                 "fourthChild_birthday": {
-                    "question": "Veuillez indiquer la date de naissance du quatrième enfant de moins de 18 ans :",
-                    "shortName": "Date de naissance du quatrième enfant de moins de 18 ans"
+                    "question": "Veuillez indiquer la date de naissance de votre quatrième enfant de moins de 18 ans :",
+                    "shortName": "Date de naissance de votre quatrième enfant de moins de 18 ans"
                 },
                 "fifthChild_gender": {
                     "question": "Veuillez indiquer le sexe de votre cinquième enfant de moins de 18 ans :",
-                    "shortName": "Sexe du cinquième enfant de moins de 18 ans"
+                    "shortName": "Genre de votre cinquième enfant de moins de 18 ans"
                 },
                 "fifthChild_birthday": {
-                    "question": "Veuillez indiquer la date de naissance du cinquième enfant de moins de 18 ans :",
-                    "shortName": "Date de naissance du cinquième enfant de moins de 18 ans"
+                    "question": "Veuillez indiquer la date de naissance de votre cinquième enfant de moins de 18 ans :",
+                    "shortName": "Date de naissance votre cinquième enfant de moins de 18 ans"
                 }
             },
             "technology": {
@@ -419,7 +419,7 @@
                         "homemaker": "Personne au foyer à plein temps",
                         "retired": "Retraité",
                         "student": "Étudiant",
-                        "unable_or_disabled": "Handicapé et incapable de travailler",
+                        "unable_or_disabled": "Handicapé en incapacité de travailler",
                         "looking_for_work": "Chômeur temporaire"
                     },
                     "shortName": "Situation d'emploi actuelle"
@@ -428,7 +428,7 @@
                     "question": "Dans quel secteur d'activité travaillez-vous ?",
                     "list": {
                         "accounting": "Comptabilité",
-                        "administrative": "Services administratifs et de soutien",
+                        "administrative": "Services administratifs et de support",
                         "advertising": "Publicité",
                         "agriculture": "Agriculture / Pêche",
                         "architecture": "Architecture",
@@ -481,9 +481,9 @@
                         "shipping_distribution": "Livraison / Distribution",
                         "telecommunications": "Télécommunications",
                         "transportation": "Transport",
-                        "user_experience_research": "Recherche sur l'expérience des utilisateurs"
+                        "user_experience_research": "Recherche sur l'expérience utilisateur"
                     },
-                    "shortName": "Secteur du travail"
+                    "shortName": "Secteur d'activité"
                 },
                 "jobDepartment": {
                     "question": "Dans quel département travaillez-vous principalement au sein de votre organisation ?",
@@ -507,15 +507,15 @@
                     "shortName": "Service de l'emploi"
                 },
                 "jobTitle": {
-                    "question": "Quel est le titre, le niveau ou la responsabilité de votre poste ?",
+                    "question": "Quel est le titre ou le niveau de responsabilité de votre poste ?",
                     "list": {
-                        "top_tier": "Niveau C (par ex. PDG, directeur financier), propriétaire, partenaire, président",
+                        "top_tier": "Direction générale (par ex. PDG, directeur financier), propriétaire, partenaire, président",
                         "vp_tier": "Vice-président (EVP, SVP, AVP, VP)",
                         "director_tier": "Directeur (directeur de groupe, directeur principal, directeur)",
                         "management_tier": "Manager (Group Manager, Sr. Manager, Manager, Program Manager)",
                         "analyst": "Analyste",
                         "associate": "Assistant ou associé",
-                        "administrative": "Administratif (personnel de bureau ou de soutien)",
+                        "administrative": "Administratif (personnel de bureau ou de support)",
                         "individual_contributor": "Contributeur individuel",
                         "contractor": "Entrepreneur",
                         "consultant": "Consultant",
@@ -549,7 +549,7 @@
                 },
                 "companySize": {
                     "question": "Combien d'employés environ travaillent dans votre entreprise (tous sites confondus) ?",
-                    "shortName": "Employés de votre organisation"
+                    "shortName": "Nombre d'employés de votre organisation"
                 }
             },
             "hobbiesAndInterests": {
@@ -590,7 +590,7 @@
                         "5": "Cinq fois par mois",
                         "none": "Je ne streame/télécharge pas de films"
                     },
-                    "shortName": "Fréquence de diffusion ou de téléchargement de films"
+                    "shortName": "Fréquence de streaming ou de téléchargement de films"
                 },
                 "gambling": {
                     "question": "À quel genre de paris jouez-vous ?",
@@ -788,7 +788,7 @@
                     "shortName": "Compagnies aériennes internationales avec lesquelles vous avez volé au cours des 12 derniers mois"
                 },
                 "accomodationType": {
-                    "question": "Quel type d`hébergement avez-vous utilisé au cours de l`année passée ?",
+                    "question": "Quel type d`hébergement avez-vous utilisé au cours de lànnée passée ?",
                     "list": {
                         "houseRental": "Location de maison (AirBnB & VRBO)",
                         "bedBreakfast": "Chambre et petit déjeuner",
@@ -809,16 +809,16 @@
         },
         "generic": {
             "education": {
-                "question": "Quel est le niveau d'éducation le plus élevé que vous ayez atteint ?",
+                "question": "Quel est le niveau d'études le plus élevé que vous ayez atteint ?",
                 "shortName": "Niveau d'études le plus élevé"
             },
             "householdIncome": {
                 "question": "Quel est le revenu annuel total combiné de tous les membres de votre foyer avant impôts ?",
-                "shortName": "Somme totale des revenus annuels de tous les membres de votre ménage (avant impôts)"
+                "shortName": "Somme totale des revenus annuels de tous les membres de votre foyer (avant impôts)"
             },
             "mobileCarrier": {
                 "question": "Lequel de ces opérateurs est celui du téléphone mobile que vous utilisez le plus souvent ?",
-                "shortName": "Opérateur de la téléphonie mobile que vous utilisez le plus souvent"
+                "shortName": "Opérateur de téléphonie mobile que vous utilisez le plus souvent"
             },
             "companyRevenue": {
                 "question": "Quel est le chiffre d'affaires annuel approximatif de votre entreprise ?",
@@ -837,7 +837,7 @@
             },
             "investableAssets": {
                 "question": "Parmi les placements suivants (hors propriété de votre logement), lesquels représentent le mieux votre foyer ?",
-                "shortName": "Valeur approximative des actifs investis par le ménage (hors propriété du logement)"
+                "shortName": "Valeur approximative des actifs investis par votre foyer (hors propriété du logement)"
             },
             "airlineLoyalty": {
                 "question": "Appartenez-vous à l'un des programmes de fidélité des compagnies aériennes suivantes ?",
