@@ -116,7 +116,7 @@
             },
             "title": {
                 "about": "À propos de nous",
-                "contact": "Contacter",
+                "contact": "Contactez-nous",
                 "faq": "FAQ",
                 "social": "Suivez-nous !"
             }
@@ -252,11 +252,11 @@
                 },
                 "deactivateAccount": {
                     "title": "Désactiver votre compte",
-                    "description": "Si vous désactivez votre compte, vous perdrez toute la progression de votre profil et vous ne pourrez plus suivre des tests payantes.",
+                    "description": "Si vous désactivez votre compte, vous perdrez toute les informations de votre profil et vous ne pourrez plus réaliser des tests rémunérées.",
                     "cta": "Désactiver le compte",
                     "confirmationModal": {
                         "title": "Êtes-vous sûr ?",
-                        "description": "Vous perdrez toute la progression de votre profil et vous ne pourrez plus suivre des tests payantes.",
+                        "description": "Vous perdrez toute les informations de votre profil et vous ne pourrez plus réaliser des tests rémunérées.",
                         "cta": "Oui, désactiver"
                     }
                 }
@@ -288,7 +288,7 @@
                 "scheduledStudiesNoAvailableStudies_plural": "{{count}} tests programmées"
             },
             "practiceStudy": {
-                "cta": "Prendre un test pratique"
+                "cta": "Réaliser un test d'essai"
             },
             "reactiveMessage": {
                 "certification": {
@@ -339,9 +339,9 @@
             "categories": {
                 "title": "Informations personnelles",
                 "description": "Répondez à toutes les questions et complétez votre profil. Certaines tests exigent des critères très spécifiques, donc plus votre profil est complet et mis à jour, plus vous avez de chances d'y être invité.",
-                "complete": "Terminer",
+                "complete": "Terminé",
                 "questionsPending": "{{numberQuestionsPending}} questions restantes",
-                "editCTA": "Examiner/Modifier",
+                "editCTA": "Consulter/Modifier",
                 "answerCTA": "Ajouter des détails"
             }
         },
@@ -350,7 +350,7 @@
                 "aboutMe": "À propos de moi",
                 "healthAndFitness": "Santé et forme physique",
                 "hobbiesAndInterests": "Passe-temps et intérêts",
-                "household": "Ménage",
+                "household": "Foyer",
                 "financial": "Finances",
                 "occupation": "Profession",
                 "technology": "Technologie",
@@ -361,9 +361,9 @@
                 "description": "Vous pouvez maintenant être invité à des tests qui correspondent à votre profil {{categoryFilled}}.\n\nN'oubliez pas que vous pouvez toujours <0>examiner ou modifier</0> vos informations de {{categoryFilled}} depuis la section « Mon profil ».",
                 "backToMyProfile": "Retour à « Mon profil »",
                 "moreCategories": {
-                    "title": "Ne brisez pas votre élan !",
+                    "title": "Continuez sur votre élan !",
                     "description": "Répondez à **seulement {{numberQuestionsMissing}} questions** sur {{categoryMissing}} pour pouvoir recevoir des invitations à d'autres tests.",
-                    "letsDoThis": "Faisons ça"
+                    "letsDoThis": "C'est parti !"
                 }
             },
             "aboutMe": {
@@ -457,7 +457,7 @@
             "dashboard": {
                 "status": {
                     "noIntegration": {
-                        "title": "Connectez votre compte PayPal avec IntelliZoom !",
+                        "title": "Connectez votre compte PayPal à IntelliZoom !",
                         "description": "Grâce à notre nouvelle intégration avec PayPal, vous serez payé en toute sécurité et à temps après chaque session de recherche rémunérée.",
                         "cta": "Connectez-vous avec PayPal"
                     },
