@@ -65,7 +65,7 @@
                 "genericClosing": "Vänliga hälsningar,<br>panelteamet på IntelliZoom",
                 "inlineContact": "kontakta oss",
                 "inlineHelp": "Hjälpcenter",
-                "gotQuestions": "Om du har ytterligare frågor, vänligen <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> eller besök vår <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHjälp )</a>."
+                "gotQuestions": "Om du har ytterligare frågor, vänligen <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> eller besök vår <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp )</a>."
             },
             "reEngagement": {
                 "subject": "Begäran om nytt lösenord",
