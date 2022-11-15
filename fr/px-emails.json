@@ -184,7 +184,7 @@
                     "sessionHasBeenCancelled": "Votre session de recherche a été annulée"
                 },
                 "participant": {
-                    "scheduledFor": "Le modérateur qui devait diriger votre session de recherche pour le projet {{projectName}} l'a annulée. Cette session était prévue à l'heure et à la date suivantes :",
+                    "scheduledFor": "Le modérateur qui devait diriger votre session de recherche pour le projet {{projectId}} l'a annulée. Cette session était prévue à l'heure et à la date suivantes :",
                     "sessionHasBeenCancelled": "Votre session de recherche a été annulée"
                 }
             },
