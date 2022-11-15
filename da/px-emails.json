@@ -180,7 +180,7 @@
                     "hope": "Vi håber at se dig igen snart."
                 },
                 "moderator": {
-                    "scheduledFor": "Som anmodet har vi aflyst sessionen med studere-ID {{projectId}}, som du skulle deltage i:",
+                    "scheduledFor": "Som anmodet har vi aflyst sessionen med studere-ID {{projectName}}, som du skulle deltage i:",
                     "sessionHasBeenCancelled": "Din forskningssession er blevet annulleret"
                 },
                 "participant": {
