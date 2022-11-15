@@ -184,7 +184,7 @@
                     "sessionHasBeenCancelled": "Din forskningssession har ställts in"
                 },
                 "participant": {
-                    "scheduledFor": "Moderatorn som skulle leda ditt forskningsmöte i projektet {{projectName}} har ställt in. Mötet var inbokat följande tid och datum:",
+                    "scheduledFor": "Moderatorn som skulle leda ditt forskningsmöte i projektet {{projectId}} har ställt in. Mötet var inbokat följande tid och datum:",
                     "sessionHasBeenCancelled": "Din forskningssession har ställts in"
                 }
             },
@@ -202,7 +202,7 @@
                 },
                 "participant": {
                     "sessionHasBeenCancelled": "Din forskningssession har ställts in",
-                    "scheduledFor": "På din begäran har vi ställt in mötet angående projektet {{projectName}} som du skulle ha varit ledare för:"
+                    "scheduledFor": "På din begäran har vi ställt in mötet angående projektet {{projectId}} som du skulle ha varit ledare för:"
                 }
             },
             "reminders": {
