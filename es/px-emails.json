@@ -180,7 +180,7 @@
                     "hope": "Esperamos volver a verte pronto."
                 },
                 "moderator": {
-                    "scheduledFor": "Conforme a tu solicitud, hemos cancelado la sesión del estudio {{project_name}} que ibas a realizar el:",
+                    "scheduledFor": "Conforme a tu solicitud, hemos cancelado la sesión del estudio {{projectName}} que ibas a realizar el:",
                     "sessionHasBeenCancelled": "Tu sesión de investigación ha sido cancelada"
                 },
                 "participant": {
