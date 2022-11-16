@@ -217,7 +217,8 @@
         "generic": {
             "selectPlaceholder": "Please select ...",
             "done": "Done",
-            "noResults": "No matching search results"
+            "noResults": "No matching search results",
+            "filterNoResults": "No filter matches this search"
         },
         "actions": {
             "title": "Action",
