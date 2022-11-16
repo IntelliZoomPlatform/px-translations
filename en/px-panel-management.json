@@ -169,7 +169,7 @@
                 "mobileCarrier_us": "Mobile carrier US",
                 "electronicDevices": "Electronic products",
                 "travelFlights": "Flight frequency",
-                "flightPurpose": "Flight frequency",
+                "flightPurpose": "Flight purpose",
                 "flightDestination": "Flight type",
                 "internationalAirlines": "Recent airlines used",
                 "domesticAirlines_us": "Domestic airlines used",
@@ -187,7 +187,8 @@
             },
             "next": "Next",
             "previous": "Previous",
-            "totalPages": "Total pages"
+            "totalPages": "Total pages",
+            "noResults": "No filter matches this search"
         },
         "panelistTable": {
             "headers": {
