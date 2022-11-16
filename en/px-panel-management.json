@@ -187,7 +187,8 @@
             },
             "next": "Next",
             "previous": "Previous",
-            "totalPages": "Total pages"
+            "totalPages": "Total pages",
+            "noResults": "No filter matches this search"
         },
         "panelistTable": {
             "headers": {
@@ -217,8 +218,7 @@
         "generic": {
             "selectPlaceholder": "Please select ...",
             "done": "Done",
-            "noResults": "No matching search results",
-            "filterNoResults": "No filter matches this search"
+            "noResults": "No matching search results"
         },
         "actions": {
             "title": "Action",
