@@ -27,8 +27,8 @@
                 "cta": "Réinitialiser le mot de passe"
             },
             "studyInvitation": {
-                "subject": "Il y a une nouvelle test disponible pour vous !",
-                "title": "Bonjour {{user.name}}, <br>une nouvelle test est disponible pour vous !",
+                "subject": "Il y a un nouveau test disponible pour vous !",
+                "title": "Bonjour {{user.name}}, <br>un nouveau test est disponible pour vous !",
                 "bodyCopy": "Êtes-vous prêt à donner votre avis et à gagner {{studyFee}} ?",
                 "cta": "Participe !",
                 "studyID": "Identifiant du test pour votre référence : {{projectId}}",
