@@ -228,12 +228,39 @@
             "banPanelist": "Ban panelist",
             "deletePanelists": "Delete panelists",
             "deletePanelist": "Delete panelist",
-            "apply": "Apply"
+            "apply": "Apply",
+            "active": "active",
+            "optedOut": "opted out",
+            "removed": "removed",
+            "inactive": "inactive",
+            "banned": "banned"
         },
         "query": {
             "everyOf": "must include",
             "someOf": "may include",
             "noneOf": "does not include"
+        },
+        "confirmationModal": {
+            "allPanelists": {
+                "title": "Mark all panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?"
+            },
+            "allFilteredPanelists": {
+                "title": "Mark all filtered panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?"
+            },
+            "selectedPanelists": {
+                "title": "Mark selected panelist as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
+                "title_plural": "Mark selected panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
+                "text": "You’ve selected 1 panelist to mark as $t(px-panel-management:panelManagement.actions.{{bulkAction}}). <br> Please confirm this change.",
+                "text_plural": "You’ve selected {{count}} panelists to mark as $t(px-panel-management:panelManagement.actions.{{bulkAction}}). <br> Please confirm this change."
+            },
+            "filteredPanelists": {
+                "title": "Mark filtered panelist as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
+                "title_plural": "Mark filtered panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
+                "text": "You’ve selected 1 filtered panelist to mark as  $t(px-panel-management:panelManagement.actions.{{bulkAction}}). <br> Please confirm this change.",
+                "text_plural": "You’ve selected {{count}} filtered panelists to mark as $t(px-panel-management:panelManagement.actions.{{bulkAction}}) <br> Please confirm this change."
+            },
+            "cancelButton": "Cancel",
+            "confirmButton": "Yes, confirm"
         }
     }
 }
