@@ -188,7 +188,8 @@
             "next": "Next",
             "previous": "Previous",
             "totalPages": "Total pages",
-            "noResults": "No filter matches this search"
+            "noResults": "No filter matches this search",
+            "disabled": "Clear all selected panelists to use filters"
         },
         "panelistTable": {
             "headers": {
@@ -201,7 +202,8 @@
                 "payableMethod": "Payment method",
                 "acquisitionSource": "Acquisition source",
                 "search": "Search panelist",
-                "filterBy": "Filter by"
+                "filterBy": "Filter by",
+                "searchDisabled": "Clear all selected panelists to search"
             },
             "menuButton": "Reporting Dashboards",
             "title": "All panelists",
@@ -233,12 +235,13 @@
             "optedOut": "opted out",
             "removed": "removed",
             "inactive": "inactive",
-            "banned": "banned"
+            "banned": "banned",
+            "optionMain": "Mark as"
         },
         "query": {
-            "everyOf": "must include",
+            "everyOf": "must include:",
             "someOf": "may include",
-            "noneOf": "does not include"
+            "noneOf": "does not include:"
         },
         "confirmationModal": {
             "allPanelists": {
@@ -248,19 +251,36 @@
                 "title": "Mark all filtered panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?"
             },
             "selectedPanelists": {
-                "title": "Mark selected panelist as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
-                "title_plural": "Mark selected panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
-                "text": "You’ve selected 1 panelist to mark as $t(px-panel-management:panelManagement.actions.{{bulkAction}}). <br> Please confirm this change.",
-                "text_plural": "You’ve selected {{count}} panelists to mark as $t(px-panel-management:panelManagement.actions.{{bulkAction}}). <br> Please confirm this change."
+                "title_one": "Mark selected panelist as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
+                "title_other": "Mark selected panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
+                "text_one": "You’ve selected 1 panelist to mark as $t(px-panel-management:panelManagement.actions.{{bulkAction}}). \\n Please confirm this change.",
+                "text_other": "You’ve selected {{count}} panelists to mark as $t(px-panel-management:panelManagement.actions.{{bulkAction}}). \\n Please confirm this change."
             },
             "filteredPanelists": {
-                "title": "Mark filtered panelist as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
-                "title_plural": "Mark filtered panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
-                "text": "You’ve selected 1 filtered panelist to mark as  $t(px-panel-management:panelManagement.actions.{{bulkAction}}). <br> Please confirm this change.",
-                "text_plural": "You’ve selected {{count}} filtered panelists to mark as $t(px-panel-management:panelManagement.actions.{{bulkAction}}) <br> Please confirm this change."
+                "title_other": "Mark filtered panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
+                "text_one": "You’ve selected 1 filtered panelist to mark as  $t(px-panel-management:panelManagement.actions.{{bulkAction}}). \\n Please confirm this change.",
+                "text_other": "You’ve selected {{count}} filtered panelists to mark as $t(px-panel-management:panelManagement.actions.{{bulkAction}}) \\n Please confirm this change.",
+                "title_one": "**Mark filtered panelist as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?**"
             },
             "cancelButton": "Cancel",
             "confirmButton": "Yes, confirm"
+        },
+        "feedbackToast": {
+            "loading_other": "",
+            "loading_one": "",
+            "confirmation_other": "",
+            "confirmation_one": "",
+            "generalError": "",
+            "unaffectedPanelist_other": "",
+            "unaffectedPanelist_one": "",
+            "error": "",
+            "review_other": "",
+            "review_one": ""
+        },
+        "notUpdatedView": {
+            "text_other": "",
+            "text_one": "",
+            "exit": ""
         }
     }
 }
