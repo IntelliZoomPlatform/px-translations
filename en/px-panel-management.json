@@ -236,7 +236,9 @@
             "removed": "removed",
             "inactive": "inactive",
             "banned": "banned",
-            "optionMain": "Mark as"
+            "optionMain": "Mark as",
+            "chooseAction": "Choose action",
+            "selectedPanelists": "{{number}} selected panelists"
         },
         "query": {
             "everyOf": "must include:",
@@ -266,21 +268,21 @@
             "confirmButton": "Yes, confirm"
         },
         "feedbackToast": {
-            "loading_other": "",
-            "loading_one": "",
-            "confirmation_other": "",
-            "confirmation_one": "",
-            "generalError": "",
-            "unaffectedPanelist_other": "",
-            "unaffectedPanelist_one": "",
-            "error": "",
-            "review_other": "",
-            "review_one": ""
+            "loading_other": "Marking {{count}} panelists as $t(panelManagement:actions.{{bulkAction}})",
+            "loading_one": "{{count}} panelist is being marked as $t(panelManagement:actions.{{bulkAction}})",
+            "confirmation_other": "{{total}} panelists marked as $t(panelManagement:actions.{{bulkAction}})",
+            "confirmation_one": "{{total}} panelist marked as $t(panelManagement:actions.{{bulkAction}})",
+            "generalError": "Action cannot be completed. Please try again.",
+            "unaffectedPanelist_other": "{{number}} panelists could not be marked as $t(panelManagement:actions.{{bulkAction}}). Please review.",
+            "unaffectedPanelist_one": "{{number}} panelist could not be marked as $t(panelManagement:actions.{{bulkAction}}). Please review.",
+            "error": "Error",
+            "review_other": "View {{number}} panelists",
+            "review_one": "View {{number}} panelist"
         },
         "notUpdatedView": {
-            "text_other": "",
-            "text_one": "",
-            "exit": ""
+            "text_other": "Viewing the {{number}} panelists who could not be marked as $t(panelManagement:actions.{{bulkAction}}).",
+            "text_one": "Viewing the {{number}} panelist who could not be marked as $t(panelManagement:actions.{{bulkAction}}).",
+            "exit": "Exit"
         }
     }
 }
