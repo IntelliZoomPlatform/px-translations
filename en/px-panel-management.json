@@ -188,7 +188,8 @@
             "next": "Next",
             "previous": "Previous",
             "totalPages": "Total pages",
-            "noResults": "No filter matches this search"
+            "noResults": "No filter matches this search",
+            "disabled": "Clear all selected panelists to use filters"
         },
         "panelistTable": {
             "headers": {
@@ -201,7 +202,8 @@
                 "payableMethod": "Payment method",
                 "acquisitionSource": "Acquisition source",
                 "search": "Search panelist",
-                "filterBy": "Filter by"
+                "filterBy": "Filter by",
+                "searchDisabled": "Clear all selected panelists to search"
             },
             "menuButton": "Reporting Dashboards",
             "title": "All panelists",
@@ -210,9 +212,9 @@
                 "addFilter": "Add filter"
             },
             "panelists": "{{number}} panelists",
-            "panelistMatch": "**{{number}} panelist match** from {{total}}",
-            "panelistsMatch": "**{{number}} panelists match** from {{total}}",
-            "noPanelistsMatch": "**No panelist match** from {{total}}",
+            "panelistMatch": "**{{number}} panelist match** out of {{total}}",
+            "panelistsMatch": "**{{number}} panelists match** out of {{total}}",
+            "noPanelistsMatch": "**No panelist match** out of {{total}}",
             "noPanelistsFoundForFilter": "No panelists found for this filter"
         },
         "generic": {
@@ -228,12 +230,59 @@
             "banPanelist": "Ban panelist",
             "deletePanelists": "Delete panelists",
             "deletePanelist": "Delete panelist",
-            "apply": "Apply"
+            "apply": "Apply",
+            "active": "active",
+            "optedOut": "opted out",
+            "removed": "removed",
+            "inactive": "inactive",
+            "banned": "banned",
+            "optionMain": "Mark as",
+            "chooseAction": "Choose action",
+            "selectedPanelists": "{{number}} selected panelists"
         },
         "query": {
-            "everyOf": "must include",
+            "everyOf": "must include:",
             "someOf": "may include",
-            "noneOf": "does not include"
+            "noneOf": "does not include:"
+        },
+        "confirmationModal": {
+            "allPanelists": {
+                "title": "Mark all panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?"
+            },
+            "allFilteredPanelists": {
+                "title": "Mark all filtered panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?"
+            },
+            "selectedPanelists": {
+                "title_one": "Mark selected panelist as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
+                "title_other": "Mark selected panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
+                "text_one": "You’ve selected 1 panelist to mark as $t(px-panel-management:panelManagement.actions.{{bulkAction}}). \\n Please confirm this change.",
+                "text_other": "You’ve selected {{count}} panelists to mark as $t(px-panel-management:panelManagement.actions.{{bulkAction}}). \\n Please confirm this change."
+            },
+            "filteredPanelists": {
+                "title_other": "Mark filtered panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
+                "text_one": "You’ve selected 1 filtered panelist to mark as  $t(px-panel-management:panelManagement.actions.{{bulkAction}}). \\n Please confirm this change.",
+                "text_other": "You’ve selected {{count}} filtered panelists to mark as $t(px-panel-management:panelManagement.actions.{{bulkAction}}) \\n Please confirm this change.",
+                "title_one": "**Mark filtered panelist as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?**"
+            },
+            "cancelButton": "Cancel",
+            "confirmButton": "Yes, confirm"
+        },
+        "feedbackToast": {
+            "loading_other": "Marking {{count}} panelists as $t(panelManagement:actions.{{bulkAction}})",
+            "loading_one": "{{count}} panelist is being marked as $t(panelManagement:actions.{{bulkAction}})",
+            "confirmation_other": "{{total}} panelists marked as $t(panelManagement:actions.{{bulkAction}})",
+            "confirmation_one": "{{total}} panelist marked as $t(panelManagement:actions.{{bulkAction}})",
+            "generalError": "Action cannot be completed. Please try again.",
+            "unaffectedPanelist_other": "{{number}} panelists could not be marked as $t(panelManagement:actions.{{bulkAction}}). Please review.",
+            "unaffectedPanelist_one": "{{number}} panelist could not be marked as $t(panelManagement:actions.{{bulkAction}}). Please review.",
+            "error": "Error",
+            "review_other": "View {{number}} panelists",
+            "review_one": "View {{number}} panelist"
+        },
+        "notUpdatedView": {
+            "text_other": "Viewing the {{number}} panelists who could not be marked as $t(panelManagement:actions.{{bulkAction}}).",
+            "text_one": "Viewing the {{number}} panelist who could not be marked as $t(panelManagement:actions.{{bulkAction}}).",
+            "exit": "Exit"
         }
     }
 }
