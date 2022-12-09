@@ -255,13 +255,13 @@
             "selectedPanelists": {
                 "title_one": "Mark selected panelist as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
                 "title_other": "Mark selected panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
-                "text_one": "You’ve selected **1** panelist to mark as **$t(px-panel-management:panelManagement.actions.{{bulkAction}})**.<br>Please confirm this change.",
-                "text_other": "You’ve selected **{{count}}** panelists to mark as **$t(px-panel-management:panelManagement.actions.{{bulkAction}})**.<br>Please confirm this change."
+                "text_one": "You’ve selected **1 panelist** to mark as **$t(px-panel-management:panelManagement.actions.{{bulkAction}})**.<br>Please confirm this change.",
+                "text_other": "You’ve selected **{{count}} panelists** to mark as **$t(px-panel-management:panelManagement.actions.{{bulkAction}})**.<br>Please confirm this change."
             },
             "filteredPanelists": {
                 "title_other": "Mark filtered panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
-                "text_one": "You’ve selected **1** filtered panelist to mark as **$t(px-panel-management:panelManagement.actions.{{bulkAction}})**.<br>Please confirm this change.",
-                "text_other": "You’ve selected **{{count}}** filtered panelists to mark as **$t(px-panel-management:panelManagement.actions.{{bulkAction}})**.<br>Please confirm this change.",
+                "text_one": "You’ve selected **1 filtered panelist** to mark as **$t(px-panel-management:panelManagement.actions.{{bulkAction}})**.<br>Please confirm this change.",
+                "text_other": "You’ve selected **{{count}} filtered panelists** to mark as **$t(px-panel-management:panelManagement.actions.{{bulkAction}})**.<br>Please confirm this change.",
                 "title_one": "**Mark filtered panelist as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?**"
             },
             "cancelButton": "Cancel",
@@ -272,20 +272,20 @@
             }
         },
         "feedbackToast": {
-            "loading_other": "Marking {{count}} panelists as $t(panelManagement:actions.{{bulkAction}})",
-            "loading_one": "{{count}} panelist is being marked as $t(panelManagement:actions.{{bulkAction}})",
-            "confirmation_other": "{{count}} panelists marked as $t(panelManagement:actions.{{bulkAction}})",
-            "confirmation_one": "{{count}} panelist marked as $t(panelManagement:actions.{{bulkAction}})",
+            "loading_other": "Marking **{{count}}** panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})",
+            "loading_one": "**{{count}}** panelist is being marked as $t(px-panel-management:panelManagement.actions.{{bulkAction}})",
+            "confirmation_other": "**{{count}}** panelists marked as $t(px-panel-management:panelManagement.actions.{{bulkAction}})",
+            "confirmation_one": "**{{count}}** panelist marked as $t(px-panel-management:panelManagement.actions.{{bulkAction}})",
             "generalError": "Action cannot be completed. Please try again.",
-            "unaffectedPanelist_other": "{{count}} panelists could not be marked as $t(panelManagement:actions.{{bulkAction}}). Please review.",
-            "unaffectedPanelist_one": "{{count}} panelist could not be marked as $t(panelManagement:actions.{{bulkAction}}). Please review.",
+            "unaffectedPanelist_other": "**{{count}}** panelists could not be marked as $t(px-panel-management:panelManagement.actions.{{bulkAction}}). Please review.",
+            "unaffectedPanelist_one": "**{{count}}** panelist could not be marked as $t(px-panel-management:panelManagement.actions.{{bulkAction}}). Please review.",
             "error": "Error",
-            "review_other": "View {{number}} panelists",
-            "review_one": "View {{number}} panelist"
+            "review_other": "View {{count}} panelists",
+            "review_one": "View {{count}} panelist"
         },
         "notUpdatedView": {
-            "text_other": "Viewing the {{number}} panelists who could not be marked as $t(panelManagement:actions.{{bulkAction}}).",
-            "text_one": "Viewing the {{number}} panelist who could not be marked as $t(panelManagement:actions.{{bulkAction}}).",
+            "text_other": "Viewing the {{count}} panelists who could not be marked as $t(px-panel-management:panelManagement.actions.{{bulkAction}}).",
+            "text_one": "Viewing the {{count}} panelist who could not be marked as $t(px-panel-management:panelManagement.actions.{{bulkAction}}).",
             "exit": "Exit"
         }
     }
