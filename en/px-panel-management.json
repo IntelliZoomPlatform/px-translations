@@ -239,7 +239,8 @@
             "banned": "banned",
             "optionMain": "Mark as",
             "chooseAction": "Choose action",
-            "selectedPanelists": "{{number}} selected panelists"
+            "selectedPanelists_one": "{{count}} panelist selected",
+            "selectedPanelists_other": "{{count}} panelists selected"
         },
         "query": {
             "everyOf": "must include:",
