@@ -233,7 +233,7 @@
             "deletePanelist": "Delete panelist",
             "apply": "Apply",
             "active": "active",
-            "optedOut": "opted out",
+            "optedOut": "deactived",
             "removed": "removed",
             "inactive": "inactive",
             "banned": "banned",
@@ -289,6 +289,35 @@
             "text_other": "Viewing the {{count}} panelists who could not be marked as $t(px-panel-management:panelManagement.actions.{{bulkAction}}).",
             "text_one": "Viewing the {{count}} panelist who could not be marked as $t(px-panel-management:panelManagement.actions.{{bulkAction}}).",
             "exit": "Exit"
+        },
+        "demographics": {
+            "category": {
+                "aboutMe": {
+                    "panelistStatus": {
+                        "list": {
+                            "active": "active",
+                            "optedOut": "deactivated",
+                            "removed": "removed",
+                            "inactive": "inactive",
+                            "banned": "banned"
+                        }
+                    },
+                    "payableStatus": {
+                        "list": {
+                            "nonPayable": "non payable",
+                            "email": "email",
+                            "paypal": "paypal"
+                        }
+                    },
+                    "activeTOL": {
+                        "list": {
+                            "approved": "approved",
+                            "rejected": "rejected",
+                            "pending": "pending"
+                        }
+                    }
+                }
+            }
         }
     }
 }
