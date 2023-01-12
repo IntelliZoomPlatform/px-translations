@@ -47,7 +47,7 @@
                 "householdSize": "Household size",
                 "householdChildren": "Total children",
                 "acquisitionSource": "Acquisition source",
-                "activeTOL": "TOL status",
+                "statusTOL": "TOL status",
                 "privacyPolicyAccepted": "Privacy Policy",
                 "phone": "Phone",
                 "email": "Email",
@@ -289,7 +289,8 @@
         "notUpdatedView": {
             "text_other": "Viewing the {{count}} panelists who could not be marked as $t(px-panel-management:panelManagement.actions.{{bulkAction}}).",
             "text_one": "Viewing the {{count}} panelist who could not be marked as $t(px-panel-management:panelManagement.actions.{{bulkAction}}).",
-            "exit": "Exit"
+            "exit": "Exit",
+            "disabled": "Filter is disabled in the current error view"
         },
         "demographics": {
             "category": {
@@ -310,7 +311,7 @@
                             "paypal": "paypal"
                         }
                     },
-                    "activeTOL": {
+                    "statusTOL": {
                         "list": {
                             "approved": "approved",
                             "rejected": "rejected",
