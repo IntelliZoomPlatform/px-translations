@@ -289,7 +289,8 @@
         "notUpdatedView": {
             "text_other": "Viewing the {{count}} panelists who could not be marked as $t(px-panel-management:panelManagement.actions.{{bulkAction}}).",
             "text_one": "Viewing the {{count}} panelist who could not be marked as $t(px-panel-management:panelManagement.actions.{{bulkAction}}).",
-            "exit": "Exit"
+            "exit": "Exit",
+            "disabled": "Filter is disabled in the current error view"
         },
         "demographics": {
             "category": {
