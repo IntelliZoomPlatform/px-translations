@@ -47,7 +47,7 @@
                 "householdSize": "Household size",
                 "householdChildren": "Total children",
                 "acquisitionSource": "Acquisition source",
-                "activeTOL": "TOL status",
+                "statusTOL": "TOL status",
                 "privacyPolicyAccepted": "Privacy Policy",
                 "phone": "Phone",
                 "email": "Email",
