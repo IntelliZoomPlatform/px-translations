@@ -35,7 +35,7 @@
                 "dateJoined": "Join date",
                 "panelistUpdated": "Date updated",
                 "panelistStatus": "Status",
-                "communicationsAccepted": "Communications",
+                "communications": "Communications",
                 "panelistId": "Panelist ID",
                 "firstName": "Name",
                 "lastName": "Last name",
@@ -271,7 +271,8 @@
             "confirmButton": "Yes, confirm",
             "warning": {
                 "heading": "Warning:",
-                "removed": "Panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}}) will have their data anonymized. Once removed, the status cannot be changed."
+                "removed": "Panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}}) will have their data anonymized. Once removed, the status cannot be changed.",
+                "optedOut": "**Warning:** Once marked as deactivated, the status cannot be changed."
             }
         },
         "feedbackToast": {
