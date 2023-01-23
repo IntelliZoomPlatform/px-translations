@@ -253,7 +253,7 @@
                 "title": "Mark all panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?"
             },
             "allFilteredPanelists": {
-                "title": "Mark filtered panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?"
+                "title": "Mark all filtered panelists as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?"
             },
             "selectedPanelists": {
                 "title_one": "Mark selected panelist as $t(px-panel-management:panelManagement.actions.{{bulkAction}})?",
