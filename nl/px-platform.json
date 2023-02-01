@@ -508,8 +508,8 @@
             },
             "studyEntrance": {
                 "notVerified": {
-                    "title": "Om mee te kunnen doen moet jouw geverifieerde PayPal account verbonden zijn met IntelliZoom.",
-                    "description": "Als je jouw accounts al verbonden hebt, moet je wel onthouden dat je wel eerste een proefstudie of je [account moet verifiëren] voordat je kan meedoen aan studies (https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) in PayPal.",
+                    "title": "Koppel je PayPal-account om deel te kunnen nemen",
+                    "description": "Je kan niet aan betaalde onderzoeken deelnemen want je PayPal-account is niet gekoppeld. Maar denk eraan, ook al heb je geen account, je kan altijd gratis een PayPal-account aanmaken!",
                     "cta": "Ga naar het dashboard"
                 }
             },
