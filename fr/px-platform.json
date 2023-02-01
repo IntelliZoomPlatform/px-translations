@@ -508,8 +508,8 @@
             },
             "studyEntrance": {
                 "notVerified": {
-                    "title": "Pour participer, vous devez connecter votre compte PayPal vérifié à IntelliZoom.",
-                    "description": "Si vous avez déjà connecté vos comptes, rappelez-vous que pour participer aux tests, vous devez soit passer le test pratique, soit [vérifier votre compte](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) dans PayPal.",
+                    "title": "",
+                    "description": "",
                     "cta": "Aller au tableau de bord"
                 }
             },
