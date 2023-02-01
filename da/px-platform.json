@@ -508,8 +508,8 @@
             },
             "studyEntrance": {
                 "notVerified": {
-                    "title": "For at deltage skal du tilkoble din verificerede PayPal-konto til IntelliZoom",
-                    "description": "Hvis du allerede har forbundet dine konti, skal du huske, at for at deltage i undersøgelser, skal du enten tage prøve-undersøgelsen eller [verify your account](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) i PayPal.",
+                    "title": "Forbind din PayPal-konto for at deltage",
+                    "description": "Du kan ikke deltage i betalte undersøgelser, fordi din PayPal-konto ikke er forbundet. Husk, at selv hvis du ikke har en konto, kan du altid oprette en gratis PayPal-konto!",
                     "cta": "Gå til dashboard"
                 }
             },
