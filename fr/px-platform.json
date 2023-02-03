@@ -36,15 +36,15 @@
                 "title": "Pour finaliser votre inscription...",
                 "description": "Veuillez prendre un moment pour lire nos <1>{{termsLink}}</1> et notre <3>{{privacyLink}}</3>.\n\nSi vous avez des doutes sur la manière dont vos données sont gérées, veuillez <5>{{contactUsLowercaseImperative}}</5>.",
                 "checkbox": {
-                    "gdpr": "Je veux recevoir des invitations par e-mail à des tests utilisateurs à distance qui correspondent à mon profil. $t(px-common:izPanel.common.requiredField)",
+                    "gdpr": "Je veux recevoir des invitations par mail à des tests utilisateurs à distance qui correspondent à mon profil. $t(px-common:izPanel.common.requiredField)",
                     "terms": "J'accepte les conditions d'utilisation et la politique de confidentialité. $t(px-common:izPanel.common.requiredField)",
                     "mkt": "Je veux recevoir des communications et la newsletter d'IntelliZoom."
                 }
             },
             "doubleOptIn": {
-                "title": "Nous vous avons envoyé un e-mail de confirmation pour activer votre compte",
-                "description": "Veuillez cliquer sur le lien contenu dans l'e-mail pour activer votre compte.\n\nPour des raisons de sécurité, le lien expirera dans un délai de 24 heures.\n\nSi vous ne le voyez pas, vérifiez votre dossier de courrier indésirable. Nous pouvons également vous <1>renvoyer</1> l'e-mail.",
-                "resendSuccess": "E-mail envoyé !"
+                "title": "Nous vous avons envoyé un mail de confirmation pour activer votre compte",
+                "description": "Veuillez cliquer sur le lien contenu dans l'e-mail pour activer votre compte.\n\nPour des raisons de sécurité, ce lien expirera dans un délai de 24 heures.\n\nSi vous ne le voyez pas, vérifiez votre dossier de courrier indésirable. Nous pouvons également vous <1>renvoyer</1> l'e-mail.",
+                "resendSuccess": "Mail envoyé avec succès !"
             }
         },
         "comingSoon": {
@@ -61,15 +61,15 @@
             "required": {
                 "field": "Ce champ est obligatoire.",
                 "gdpr": "Ce consentement est requis.",
-                "terms": "Vous devez accepter les conditions de service et la politique de confidentialité."
+                "terms": "Vous devez accepter les conditions d'utilisation et la politique de confidentialité."
             },
             "format": {
-                "email": "Veuillez utiliser un format d'e-mail valide. P. ex., name@email.com",
+                "email": "Merci d'utiliser un format d'e-mail valide. P. ex., name@email.com",
                 "genericFormat": "Le format n'est pas valide."
             },
             "registration": {
                 "existingEmail": "Il semble que vous soyez déjà inscrit ! Veuillez, <1>$t(px-common:izPanel.common.logInLowercase)</1>.",
-                "sendEmailFail": "Oups, quelque chose s'est mal passé et nous n'avons pas pu vous envoyer l'e-mail de confirmation. Veuillez réessayer plus tard.",
+                "sendEmailFail": "Oups, une erreur est survenue et nous n'avons pas pu vous envoyer le mail de confirmation. Merci de réessayer plus tard.",
                 "passwordRequirements": "Le mot de passe ne répond pas aux exigences",
                 "emailLength": "Ouah ! Votre e-mail ne peut pas contenir 150 caractères...",
                 "passwordIncludesSpaces": "Le mot de passe ne peut pas commencer ou se terminer par un espace."
@@ -78,23 +78,23 @@
                 "firstName": "Votre nom doit contenir au moins deux caractères.",
                 "lastName": "Votre nom de famille doit contenir au moins deux caractères."
             },
-            "generic": "Oups, quelque chose s'est mal passé. Veuillez réessayer plus tard.",
+            "generic": "Oups, une erreur est survenue. Merci de réessayer plus tard.",
             "birthday": {
-                "future": "Vous avez voyagé dans le temps ? La date de naissance ne peut pas être dans le futur.",
-                "past": "Les vampires ne sont pas autorisés ! La date de naissance doit correspondre à ce siècle."
+                "future": "Vous avez voyagé dans le temps, non ? Désolé, mais votre date de naissance ne peut pas se située dans le futur.",
+                "past": "Désolé, les vampires ne sont pas autorisés ! Votre date de naissance doit correspondre à ce siècle."
             },
             "login": {
-                "accountBlocked": "Votre compte a été bloqué après plusieurs tentatives de connexion consécutives.",
+                "accountBlocked": "Nous avons bloqué l’accès à votre compte à la suite de multiples tentatives de connexion infructueuses.",
                 "accountInactive": "Votre compte n'a pas encore été activé. Souhaitez-vous que nous vous <1>renvoyions</1> l'e-mail de confirmation ?",
                 "expiredLink": "Le lien d'activation que vous avez suivi a expiré. Veuillez le <1>renvoyer</1> et réessayer.",
-                "invalidCredentials": "Nous sommes désolés, cette combinaison e-mail/mot de passe n'a pas pu être trouvée.",
+                "invalidCredentials": "La combinaison de l'adresse e-mail et du mot de passe est incorrecte.",
                 "userNotFound": "Le lien d'activation que vous avez suivi a expiré et vos données ont été supprimées. Veuillez essayer de vous réinscrire.",
-                "wrongActivation": "Un problème est survenu lors de l'activation de votre compte. Veuillez réessayer plus tard via le même e-mail de confirmation que nous vous avons envoyé auparavant.",
-                "wrongActivationWithLink": "Un problème est survenu lors de l'activation de votre compte. Veuillez <1>renvoyer</1> l'e-mail de confirmation et réessayer.",
+                "wrongActivation": "Une erreur est survenue lors de l'activation de votre compte. Veuillez réessayer plus tard via le même e-mail de confirmation que nous vous avons envoyé auparavant.",
+                "wrongActivationWithLink": "Une erreur est survenue lors de l'activation de votre compte. Veuillez <1>renvoyer</1> l'e-mail de confirmation et réessayer.",
                 "accountDeactivated": "Votre compte a été désactivé. Si vous souhaitez le réactiver, veuillez [nous contacter] (https://help.intellizoom.com/hc/en-us/requests/new)."
             },
             "forgotPassword": {
-                "sendEmailFail": "Oups, quelque chose a mal tourné et nous n'avons pas pu vous envoyer l'e-mail de réinitialisation du mot de passe. Veuillez réessayer plus tard."
+                "sendEmailFail": "Oups, une erreur est survenue et nous n'avons pas pu vous envoyer le mail de réinitialisation de votre mot de passe. Merci de réessayer plus tard."
             },
             "resetPassword": {
                 "incorrectPassword": "Mot de passe actuel incorrect",
@@ -111,7 +111,7 @@
                 "faqInvitations": "[Comment fonctionnent les invitations ?](https://help.intellizoom.com/hc/en-us/articles/360000658537-How-will-I-be-notified-of-new-studies-)",
                 "faqChangeEmail": "[Comment puis-je modifier mon adresse e-mail ?](https://help.intellizoom.com/hc/en-us/articles/360001190318-How-can-I-change-my-email-)",
                 "faqBrowseAll": "[Voir plus](https://help.intellizoom.com/hc/en-us)",
-                "sendEmail": "[Envoyez-nous un e-mail](https://help.intellizoom.com/hc/en-us/requests/new)",
+                "sendEmail": "[Envoyez-nous un mail](https://help.intellizoom.com/hc/en-us/requests/new)",
                 "whatIsIZP": "Qu'est-ce que IntelliZoom Panel"
             },
             "title": {
@@ -130,12 +130,12 @@
             "settings": "Paramètres"
         },
         "basicDemographics": {
-            "flowTitle": "Très bien !\n\nCommençons",
+            "flowTitle": "Parfait !\n\nCommençons",
             "flowDescription": "Pour vous inviter aux tests, nous devons vous poser **juste trois questions basiques** de profilage.",
             "flowLastQuestion": "Enfin et surtout...",
             "progress": "Question {{currentQuestion}} de {{totalQuestions}}",
             "success": {
-                "title": "Voilà !",
+                "title": "Et voilà !",
                 "description": "Vous êtes maintenant prêt à commencer à participer à nos tests.\n\nContinuez à compléter votre profil afin que nous puissions vous inviter à des tests plus spécifiques (et mieux rémunérées).",
                 "cta": "Allons-y !"
             },
@@ -152,14 +152,14 @@
             "signUp": "Inscrivez-vous !",
             "success": {
                 "accountActivated": "Votre compte a été activé avec succès !",
-                "emailResent": "Nous vous avons renvoyé l'e-mail d'activation."
+                "emailResent": "Nous vous avons renvoyé le mail d'activation."
             }
         },
         "forgotPassword": {
             "title": "Vous avez oublié votre mot de passe ?",
-            "description": "Veuillez saisir votre e-mail et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+            "description": "Saisissez votre adresse e-mail et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
             "success": {
-                "title": "Nous vous avons envoyé un e-mail pour réinitialiser votre mot de passe.",
+                "title": "Nous vous avons envoyé un mail pour réinitialiser votre mot de passe.",
                 "description": "Pour des raisons de sécurité, le lien expirera dans un délai de 24 heures.\n\nSi vous ne le voyez pas, vérifiez votre dossier de courrier indésirable. Nous pouvons également <1>renvoyer</1> l'e-mail."
             }
         },
@@ -508,8 +508,8 @@
             },
             "studyEntrance": {
                 "notVerified": {
-                    "title": "",
-                    "description": "",
+                    "title": "Vous devez d'abord connecter votre compte PayPal",
+                    "description": "Vous ne pouvez pas participer à nos tests, car votre compte PayPal n'est pas connecté. Si vous n'avez pas encore de compte PayPal, vous pouvez en créer un gratuitement !",
                     "cta": "Aller au tableau de bord"
                 }
             },
