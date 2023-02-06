@@ -508,8 +508,8 @@
             },
             "studyEntrance": {
                 "notVerified": {
-                    "title": "To participate, you must connect your verified PayPal account to IntelliZoom",
-                    "description": "If you have already connected your accounts, remember that in order to participate in studies you need to either take the practice study or [verify your account](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) in PayPal.",
+                    "title": "To participate connect your PayPal account",
+                    "description": "You cannot participate in paid research studies because your PayPal is not connected. Remember even if you don't have an account you can always create a PayPal for free!",
                     "cta": "Go to dashboard"
                 }
             },

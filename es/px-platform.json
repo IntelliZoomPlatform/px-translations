@@ -78,7 +78,7 @@
                 "firstName": "Tu nombre debe contener al menos dos caracteres.",
                 "lastName": "Tu apellido debe contener al menos dos caracteres."
             },
-            "generic": "Oops, algo ha ido mal. Por favor, vuelve a intentarlo pasados unos minutos. ",
+            "generic": "Oops, algo ha ido mal. Por favor, vuelve a intentarlo pasados unos minutos.",
             "birthday": {
                 "future": "Viajando en el tiempo eh... La fecha de nacimiento no puede ser del futuro.",
                 "past": "¡No se admiten vampiros! La fecha de nacimiento no puede ser de hace más de 100 años."
@@ -276,7 +276,7 @@
             },
             "intro": {
                 "title": "¡Hola {{userName}}!",
-                "descriptionFTU": "En esta sección encontrarás todos los estudios que estén disponibles para ti. \n\n¡Pero no tardes mucho en participar! No están disponibles por mucho tiempo...",
+                "descriptionFTU": "En esta sección encontrarás todos los estudios que estén disponibles para ti. \n\n¡Pero no tardes mucho en participar! Suelen estar disponibles por poco tiempo...",
                 "oneStudyAvailable": "Tienes 1 estudio disponible ",
                 "severalStudiesAvailable": "Tienes {{studiesAvailable}} estudios disponibles",
                 "verb": "Tienes ",
@@ -475,7 +475,7 @@
                     "success": {
                         "verified": {
                             "title": "¡Genial! Tu cuenta de PayPal ha sido conectada exitosamente",
-                            "description": "Y para celebrarlo, nada mejor que participar en un par de estudios."
+                            "description": "Y para celebrarlo, nada mejor que participar en un par de estudios pagados."
                         },
                         "notVerifiedTol": {
                             "title": "¡Genial! Tu cuenta de PayPal ha sido conectada exitosamente",
@@ -508,8 +508,8 @@
             },
             "studyEntrance": {
                 "notVerified": {
-                    "title": "Para participar en este estudio, debes tener tu cuenta de PayPal verificada y conectada a IntelliZoom",
-                    "description": "Si tu cuenta de PayPal ya está conectada a IntelliZoom, recuerda que para poder participar en nuestros estudios debes haber completado exitosamente el estudio de práctica o haber [verificado tu cuenta en PayPal.](https://www.paypal.com/ar/smarthelp/article/faq444)",
+                    "title": "Para participar conecta tu cuenta PayPal",
+                    "description": "No puedes participar en estudios de investigación pagados porque tu cuenta PayPal no está conectada. Recuerda que aunque no tengas una cuenta, puedes crear una cuenta PayPal gratis. ",
                     "cta": "Ir a Estudios"
                 }
             },

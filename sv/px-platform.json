@@ -508,8 +508,8 @@
             },
             "studyEntrance": {
                 "notVerified": {
-                    "title": "För att delta måste du koppla ditt verifierade PayPal-konto till IntelliZoom.",
-                    "description": "Har du redan kopplat kontona gäller att du antingen behöver göra övningsstudien eller [verifiera ditt konto](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) på PayPal för att kunna delta i studier.",
+                    "title": "Anslut ditt PayPal-konto för att delta",
+                    "description": "Du kan inte delta i betalda forskningsstudier eftersom ditt PayPal-konto inte är anslutet. Kom ihåg att även om du inte har ett PayPal-konto kan du alltid skapa ett gratis!",
                     "cta": "Gå till översikten"
                 }
             },

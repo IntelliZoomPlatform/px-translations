@@ -222,7 +222,8 @@
         "generic": {
             "selectPlaceholder": "Please select ...",
             "done": "Done",
-            "noResults": "No matching search results"
+            "noResults": "No matching search results",
+            "anonymized": "anonymized"
         },
         "actions": {
             "title": "Action",
