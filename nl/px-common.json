@@ -202,7 +202,7 @@
             "noThanks": "Nee, dank je wel",
             "back": "Terug",
             "in": "in",
-            "fieldCannotBeEmpty": ""
+            "fieldCannotBeEmpty": "Het veld mag niet leeg zijn"
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
