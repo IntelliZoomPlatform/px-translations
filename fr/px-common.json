@@ -201,7 +201,8 @@
             },
             "noThanks": "Non, merci",
             "back": "Retour",
-            "in": "dans"
+            "in": "dans",
+            "fieldCannotBeEmpty": ""
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
