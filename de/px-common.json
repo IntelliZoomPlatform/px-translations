@@ -202,7 +202,7 @@
             "noThanks": "Nein, danke",
             "back": "Zurück",
             "in": "in",
-            "fieldCannotBeEmpty": ""
+            "fieldCannotBeEmpty": "Das Feld darf nicht leer sein"
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
