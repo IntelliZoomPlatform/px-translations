@@ -201,7 +201,8 @@
             },
             "noThanks": "Nee, dank je wel",
             "back": "Terug",
-            "in": "in"
+            "in": "in",
+            "fieldCannotBeEmpty": ""
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
