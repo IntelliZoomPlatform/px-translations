@@ -325,6 +325,9 @@
         },
         "panelistProfile": {
             "heading": "Panelist profile"
+        },
+        "panelistEditModal": {
+            "title": "Edit panelist information"
         }
     }
 }
