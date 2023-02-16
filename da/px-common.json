@@ -201,7 +201,8 @@
             },
             "noThanks": "Nej tak",
             "back": "Tilbage",
-            "in": "i"
+            "in": "i",
+            "fieldCannotBeEmpty": ""
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
