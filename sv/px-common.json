@@ -201,7 +201,8 @@
             },
             "noThanks": "Nej tack",
             "back": "Tillbaka",
-            "in": "på"
+            "in": "på",
+            "fieldCannotBeEmpty": ""
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
