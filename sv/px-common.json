@@ -202,7 +202,7 @@
             "noThanks": "Nej tack",
             "back": "Tillbaka",
             "in": "på",
-            "fieldCannotBeEmpty": ""
+            "fieldCannotBeEmpty": "Fältet får inte var tomt"
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
