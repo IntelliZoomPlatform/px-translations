@@ -201,7 +201,8 @@
             },
             "noThanks": "No, thanks",
             "back": "Back",
-            "in": "in"
+            "in": "in",
+            "fieldCannotBeEmpty": "Field can't be empty"
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
