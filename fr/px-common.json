@@ -202,7 +202,7 @@
             "noThanks": "Non, merci",
             "back": "Retour",
             "in": "dans",
-            "fieldCannotBeEmpty": ""
+            "fieldCannotBeEmpty": "Le champ doit être renseigné"
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
