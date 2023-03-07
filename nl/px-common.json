@@ -201,7 +201,8 @@
             },
             "noThanks": "Nee, dank je wel",
             "back": "Terug",
-            "in": "in"
+            "in": "in",
+            "fieldCannotBeEmpty": "Het veld mag niet leeg zijn"
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {

@@ -201,7 +201,8 @@
             },
             "noThanks": "No, gracias",
             "back": "Volver",
-            "in": "en"
+            "in": "en",
+            "fieldCannotBeEmpty": "Este campo es obligatorio"
         },
         "studiesDashboard": {
             "upcomingScheduledStudies": {
