@@ -286,7 +286,12 @@
             "unaffectedPanelist_one": "**{{count}}** panelist could not be marked as $t(px-panel-management:panelManagement.actions.{{bulkAction}}). Please review.",
             "error": "Error",
             "review_other": "View {{count}} panelists",
-            "review_one": "View {{count}} panelist"
+            "review_one": "View {{count}} panelist",
+            "changesConfirmation": "Changes applied",
+            "changesLoading": "Applying changes",
+            "changesGeneralError": "Changes could not be applied. Please try again.",
+            "unaffectedFields_one": "The change in the {{notUpdatedFields}} field could not be applied. The rest of the fields could be updated.",
+            "unaffectedFields_other": "The change in the {{notUpdatedFields}} fields could not be applied. The rest of the fields could be updated."
         },
         "notUpdatedView": {
             "text_other": "Viewing the {{count}} panelists who could not be marked as $t(px-panel-management:panelManagement.actions.{{bulkAction}}).",
