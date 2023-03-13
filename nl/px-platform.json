@@ -322,9 +322,10 @@
             },
             "availableStudiesTitle": "{{availableStudies}} Beschikbare studies",
             "availableStudyTitle": "1 beschikbare studie",
-            "emptyDescription": "Er zijn geen beschikbare studies op dit moment. Blijf kijken!",
+            "emptyDescription": "Er zijn geen beschikbare studies op dit moment.",
             "noLongerAvailable": "De studie is niet langer beschikbaar",
-            "studyCTA": "Aanvaard deze studie"
+            "studyCTA": "Aanvaard deze studie",
+            "completeYourProfile": "<a href=‘{{profileLink}}’>Door uw profiel te vervolledigen</a>, kunt u worden uitgenodigd voor meer studies."
         },
         "myProfile": {
             "panelistName": "{{user.firstName}} {{user.lastName}}",
