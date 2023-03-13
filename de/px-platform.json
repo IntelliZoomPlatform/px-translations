@@ -322,9 +322,10 @@
             },
             "availableStudiesTitle": "{{availableStudies}} Verfügbare Studien",
             "availableStudyTitle": "1 verfügbare Studie",
-            "emptyDescription": "Derzeit gibt es keine verfügbaren Studien. Bleib dran!",
+            "emptyDescription": "Derzeit gibt es keine verfügbaren Studien. ",
             "noLongerAvailable": "Diese Studie ist nicht mehr verfügbar",
-            "studyCTA": "Teilnehmen"
+            "studyCTA": "Teilnehmen",
+            "completeYourProfile": "<a href=‘{{profileLink}}’>Wenn Sie Ihr Profil vervollständigen</a>, werden Sie zu mehr Studien eingeladen."
         },
         "myProfile": {
             "panelistName": "{{user.firstName}} {{user.lastName}}",
