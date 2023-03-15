@@ -325,7 +325,7 @@
             "emptyDescription": "Er zijn geen beschikbare studies op dit moment.",
             "noLongerAvailable": "De studie is niet langer beschikbaar",
             "studyCTA": "Aanvaard deze studie",
-            "completeYourProfile": "<a href=‘{{profileLink}}’>Door uw profiel te vervolledigen</a>, kunt u worden uitgenodigd voor meer studies."
+            "completeYourProfile": "<a href='{{profileLink}}'>Door uw profiel te vervolledigen</a>, kunt u worden uitgenodigd voor meer studies."
         },
         "myProfile": {
             "panelistName": "{{user.firstName}} {{user.lastName}}",
