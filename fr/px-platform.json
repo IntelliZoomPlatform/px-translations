@@ -325,7 +325,7 @@
             "emptyDescription": "Il n'y a pas des tests disponibles pour le moment.",
             "noLongerAvailable": "Cette test n'est plus disponible",
             "studyCTA": "Prenez cette test",
-            "completeYourProfile": "<a href=‘{{profileLink}}’>Complétez votre profil</a> pour recevoir encore plus d'invitations à nos tests."
+            "completeYourProfile": "<a href='{{profileLink}}'>Complétez votre profil</a> pour recevoir encore plus d'invitations à nos tests."
         },
         "myProfile": {
             "panelistName": "{{user.firstName}} {{user.lastName}}",

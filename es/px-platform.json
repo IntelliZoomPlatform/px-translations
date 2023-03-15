@@ -325,7 +325,7 @@
             "emptyDescription": "Actualmente no hay ningún estudio disponible.",
             "noLongerAvailable": "Este estudio ya no está disponible",
             "studyCTA": "Participar",
-            "completeYourProfile": "<a href=‘{{profileLink}}’>Completar tu perfil</a>te ayudará a que te inviten a más estudios."
+            "completeYourProfile": "<a href='{{profileLink}}'>Completar tu perfil</a>te ayudará a que te inviten a más estudios."
         },
         "myProfile": {
             "panelistName": "{{user.firstName}} {{user.lastName}}",

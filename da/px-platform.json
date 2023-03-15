@@ -325,7 +325,7 @@
             "emptyDescription": "Der er ingen tilgængelige undersøgelser i øjeblikket.",
             "noLongerAvailable": "Denne undersøgelse er ikke længere tilgængelig",
             "studyCTA": "Tag denne undersøgelse",
-            "completeYourProfile": "<a href=‘{{profileLink}}’>Hvis du gennemfører din profil</a>, har du større chance for at blive inviteret til studier."
+            "completeYourProfile": "<a href='{{profileLink}}'>Hvis du gennemfører din profil</a>, har du større chance for at blive inviteret til studier."
         },
         "myProfile": {
             "panelistName": "{{user.firstName}} {{user.lastName}}",
