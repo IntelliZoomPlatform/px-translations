@@ -322,9 +322,10 @@
             },
             "availableStudiesTitle": "{{availableStudies}} Studier att välja mellan",
             "availableStudyTitle": "1 tillgänglig studie",
-            "emptyDescription": "Det finns inga studier att delta i för närvarande. Återkom!",
+            "emptyDescription": "Det finns inga studier att delta i för närvarande.",
             "noLongerAvailable": "Denna studie är inte längre tillgänglig.",
-            "studyCTA": "Ta denna studie"
+            "studyCTA": "Ta denna studie",
+            "completeYourProfile": "<a href=‘{{profileLink}}’>Att fylla i hela din profil</a> gör att du lättare blir inbjuden till fler studier."
         },
         "myProfile": {
             "panelistName": "{{user.firstName}} {{user.lastName}}",

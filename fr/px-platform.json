@@ -80,7 +80,7 @@
             },
             "generic": "Oups, une erreur est survenue. Merci de réessayer plus tard.",
             "birthday": {
-                "future": "Vous avez voyagé dans le temps, non ? Désolé, mais votre date de naissance ne peut pas se située dans le futur.",
+                "future": "Vous avez voyagé dans le temps, non ? Désolé, mais votre date de naissance ne peut pas se situer dans le futur.",
                 "past": "Désolé, les vampires ne sont pas autorisés ! Votre date de naissance doit correspondre à ce siècle."
             },
             "login": {
@@ -322,9 +322,10 @@
             },
             "availableStudiesTitle": "{{availableStudies}} tests disponibles",
             "availableStudyTitle": "Un test disponible",
-            "emptyDescription": "Il n'y a pas des tests disponibles pour le moment. Restez à l'écoute !",
+            "emptyDescription": "Il n'y a pas des tests disponibles pour le moment.",
             "noLongerAvailable": "Cette test n'est plus disponible",
-            "studyCTA": "Prenez cette test"
+            "studyCTA": "Prenez cette test",
+            "completeYourProfile": "<a href=‘{{profileLink}}’>Complétez votre profil</a> pour recevoir encore plus d'invitations à nos tests."
         },
         "myProfile": {
             "panelistName": "{{user.firstName}} {{user.lastName}}",
