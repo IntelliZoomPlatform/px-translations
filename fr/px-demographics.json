@@ -3,7 +3,7 @@
         "category": {
             "aboutMe": {
                 "birthday": {
-                    "question": "Quelle est votre date de naissance ?",
+                    "question": "Quelle est votre date de naissance ?",
                     "shortName": "Date de naissance"
                 },
                 "country": {
@@ -11,7 +11,7 @@
                     "shortName": "Pays"
                 },
                 "gender": {
-                    "question": "Quel est votre genre ?",
+                    "question": "À quel genre vous identifiez-vous ?",
                     "shortName": "Genre"
                 },
                 "postalCode": {
@@ -20,49 +20,49 @@
                 },
                 "hispanic": {
                     "question": "Êtes-vous d'origine hispanique, latine ou espagnole ?",
-                    "shortName": "Origine hispanique, latino ou espagnole"
+                    "shortName": "Hispanique, Latino, ou d'origine espagnole"
                 },
                 "ethnicity_us": {
                     "list": {
                         "white": "Blanc",
-                        "black": "Noir ou afro-américain",
-                        "indian": "Indien d'Amérique ou autochtone d'Alaska",
+                        "black": "Noir ou Afro-américain",
+                        "indian": "Amérindien ou Autochtone d'Alaska",
                         "asian": "Asiatique",
-                        "islander": "Insulaire du Pacifique ou indigène hawaïen",
-                        "other": "Autre race"
+                        "islander": "Insulaire du Pacifique ou Autochtone hawaïen",
+                        "other": "Autre"
                     }
                 },
                 "ethnicity_gb": {
                     "list": {
                         "white": "Blanc",
-                        "traveller": "Gens du voyage / gens du voyage irlandais",
-                        "asian_indian": "Asiatique ou britannique asiatique : indien",
-                        "asian_pakistani": "Asiatique ou britannique asiatique : pakistanais",
-                        "asian_bangladeshi": "Asiatique ou britannique asiatique : bangladais",
-                        "asian_chinese": "Asiatique ou britannique asiatique : chinois",
-                        "asian_other": "Asiatique ou britannique asiatique : autre origine asiatique",
-                        "black": "Noir ou britannique noir",
-                        "mixed": "Mixte ou multiple"
+                        "traveller": "Traveller / Traveller irlandais",
+                        "asian_indian": "Asiatique ou Britannique asiatique : Indien",
+                        "asian_pakistani": "Asiatique ou Britannique asiatique : Pakistanais",
+                        "asian_bangladeshi": "Asiatique ou Britannique asiatique : Bangladais",
+                        "asian_chinese": "Asiatique ou Britannique asiatique : Chinois",
+                        "asian_other": "Asiatique ou Britannique asiatique : Autre origine asiatique",
+                        "black": "Noir ou Britannique noir",
+                        "mixed": "Mixte ou Multiple"
                     }
                 },
                 "householdDescription": {
                     "list": {
-                        "cohabiting": "Union libre / concubinage",
-                        "single": "Célibataire, jamais marié(e)",
-                        "married": "Marié(e)",
-                        "divorced": "Divorcé(e)",
-                        "separated": "Séparé(e)",
-                        "widowed": "Veuf(ve)"
+                        "cohabiting": "Union libre / Concubinage",
+                        "single": "Célibataire, jamais marié·e",
+                        "married": "Marié·e",
+                        "divorced": "Divorcé·e",
+                        "separated": "Séparé·e",
+                        "widowed": "Veuf·ve"
                     },
-                    "question": "Quelle est votre situation maritale ?",
-                    "shortName": "Situation maritale"
+                    "question": "Quelle est votre situation familiale ?",
+                    "shortName": "Situation familiale"
                 },
                 "education_us": {
                     "list": {
                         "no_hs_diploma": "Quelques années d'études secondaires ou moins",
                         "hs_or_ged": "Diplôme d'études secondaires ou équivalent",
-                        "some_college": "Quelques années d'université, mais pas de diplôme",
-                        "two_year_degree": "Diplôme universitaire – Grade d'associé (2 ans)",
+                        "some_college": "Quelques années d'études universitaires, sans diplôme",
+                        "two_year_degree": "Diplôme universitaire – Associate Degree (2 ans)",
                         "four_year_degree": "Diplôme universitaire – Licence (4 ans)",
                         "post_grad_degree": "Diplôme d'études supérieures – MS, MA, MBA, PhD, etc.",
                         "professional_degree": "Diplôme professionnel – MD, DVM, DDS, etc."
@@ -115,39 +115,39 @@
                         "urdu": "Ourdou",
                         "welsh": "Gallois"
                     },
-                    "shortName": "Langues que vous parlez et dans lesquelles vous vous sentez à l'aise pour fournir des commentaires"
+                    "shortName": "Langues que vous parlez et dans lesquelles vous vous sentez à l'aise pour donner votre avis"
                 },
                 "education_es": {
                     "list": {
                         "lessHighschool": "Enseignement secondaire obligatoire ou moins",
-                        "highschool": "Diplômé de l'enseignement secondaire obligatoire (E.S.O)",
+                        "highschool": "Diplôme de l'enseignement secondaire obligatoire (E.S.O)",
                         "technical": "Diplôme technique / professionnel",
-                        "someBaccalaureate": "Avoir terminé l'enseignement secondaire supérieur (baccalauréat espagnol)",
+                        "someBaccalaureate": "Quelques années d’enseignement secondaire supérieur (baccalauréat espagnol)",
                         "baccalaureate": "Diplôme d'enseignement secondaire supérieur (baccalauréat espagnol)",
-                        "someCollege": "A terminé des études universitaires",
-                        "college": "Diplôme universitaire (diplôme obtenu après 3 ans d'étude)",
-                        "masters": "Diplôme de master",
+                        "someCollege": "Quelques années d'études universitaires",
+                        "college": "Diplôme universitaire (3 ans)",
+                        "masters": "Master",
                         "phd": "Doctorat"
                     }
                 },
                 "education_gb": {
                     "list": {
-                        "junior_infant": "École secondaire et maternelle combinée/École maternelle, école primaire",
-                        "comprehensive": "École polyvalente (GCSE)/secondaire moderne (GCSE)/école secondaire (GCSE)/collège technologique de la ville (GCSE)/classe de sixième",
-                        "college": "Collège/institution d'enseignement supérieur",
-                        "open_college": "Collège ouvert - collège de technologie - institut / université de formation des enseignants",
-                        "junior": "École primaire",
+                        "junior_infant": "École primaire et maternelle combinées/Infant School Junior School",
+                        "comprehensive": "École polyvalente (GCSE)/Secondaire moderne (GCSE)/École secondaire (GCSE)/Collège technologique (GCSE)/Sixth Form",
+                        "college": "Collège universitaire/Institution d'enseignement supérieur",
+                        "open_college": "Collège universitaire ouvert - Collège universitaire de technologie - Institut / Université de formation des enseignants",
+                        "junior": "Junior School",
                         "university": "Université / Université ouverte",
-                        "some_college": "A terminé des études universitaires, mais sans diplôme"
+                        "some_college": "Quelques années d'études universitaires, sans diplôme"
                     }
                 },
                 "education_de": {
                     "list": {
-                        "primary": "A terminé le primaire",
+                        "primary": "École primaire",
                         "medium": "Instruction moyenne (lycée / MSA, etc.)",
-                        "university": "Baccalauréat / université",
-                        "associate": "Diplôme d'associé",
-                        "secondaryOther": "Autre deuxième cycle de l'enseignement \nsecondaire achevé",
+                        "university": "Abitur (baccalauréat Allemand) / Université",
+                        "associate": "Associate degree (2 ans)",
+                        "secondaryOther": "Autre deuxième cycle de l'enseignement secondaire achevé",
                         "diploma": "Diplôme (FH / DH)",
                         "bachelor": "Licence",
                         "magister": "Magister",
@@ -158,35 +158,35 @@
                 },
                 "education_au": {
                     "list": {
-                        "furtherqualification": "Qualification complémentaire (entre le lycée et l'université)",
-                        "universityNoDegree": "A terminé des études universitaires, mais sans diplôme",
+                        "furtherqualification": "Supérieur (entre le lycée et l'université)",
+                        "universityNoDegree": "Quelques années d'études universitaires, sans diplôme",
                         "universityDegree": "Diplôme universitaire",
-                        "master": "Maîtrise ou diplôme professionnel",
+                        "master": "Master ou diplôme professionnel",
                         "doctorate": "Doctorat",
-                        "belowGcse": "Inférieur au GCSE (brevet des collèges)",
+                        "belowGcse": "Inférieur au GCSE",
                         "gcse": "GCSE ou équivalent",
-                        "alevel": "Baccalauréat ou équivalent"
+                        "alevel": "A-levels ou équivalent"
                     }
                 },
                 "education_at": {
                     "list": {
-                        "not_lower_secondary": "N'a pas terminé le premier cycle du secondaire/gymnase",
-                        "lower_secondary": "Certificat d'études secondaires du premier cycle/gymnase",
+                        "not_lower_secondary": "Quelques années du premier cycle du secondaire/gymnasium (lycée)",
+                        "lower_secondary": "Certificat d'études secondaires du premier cycle/gymnasium (lycée)",
                         "vocational": "Certificat de la Berufsschule (école professionnelle)",
                         "higher_technical": "Certificat de Höhere Schule",
                         "university": "Diplôme universitaire",
-                        "master": "Maîtrise",
+                        "master": "Master",
                         "phd": "Doctorat"
                     }
                 },
                 "education_ie": {
                     "list": {
-                        "post_primary": "Enseignement post-primaire ou moins élevé",
+                        "post_primary": "Enseignement post-primaire ou moins",
                         "leaving": "Diplôme de fin d'études",
-                        "third_level": "A terminé les études de troisième cycle, sans diplôme.",
+                        "third_level": "Quelques années d'études de troisième cycle, sans diplôme",
                         "higher_technical": "Diplôme d'études supérieures",
-                        "bachelor": "Baccalauréat",
-                        "master": "Maîtrise ou diplôme professionnel",
+                        "bachelor": "Licence",
+                        "master": "Master ou diplôme professionnel",
                         "phd": "Doctorat",
                         "post_leaving": "Diplôme de fin d'études - formation professionnelle"
                     }
@@ -194,12 +194,12 @@
                 "education_dk": {
                     "list": {
                         "primary": "École publique (école primaire et secondaire du premier cycle)",
-                        "secondary": "Baccalauréat / lycée (école secondaire de deuxième cycle)",
+                        "secondary": "A-levels / lycée (école secondaire de deuxième cycle)",
                         "vocational": "Ouvrier qualifié / ouvrier ou autre formation professionnelle",
-                        "uncompleted_tertiary": "A entamé mais n'a jamais terminé les études supérieures",
-                        "first_degree": "Programme de premier cycle de 2 ans / matière complémentaire",
-                        "bachelor": "Baccalauréat",
-                        "master": "Maîtrise",
+                        "uncompleted_tertiary": "Études universitaires, sans diplôme",
+                        "first_degree": "Programme de premier cycle de 2 ans / mineure universitaire",
+                        "bachelor": "Licence",
+                        "master": "Master",
                         "phd": "Doctorat"
                     }
                 },
@@ -207,35 +207,35 @@
                     "list": {
                         "incomplete_prep": "École préparatoire incomplète ou moins",
                         "prep": "Diplôme de l'école préparatoire",
-                        "vocational": "Études supérieures supérieures, école professionnelle",
+                        "vocational": "Études supérieures, école professionnelle",
                         "university": "Études universitaires, sans diplôme",
                         "technical": "Diplôme technique ou commercial",
                         "undergraduate": "Diplôme de premier cycle",
-                        "master": "Maîtrise ou diplôme professionnel",
+                        "master": "Master ou diplôme professionnel",
                         "phd": "Doctorat"
                     }
                 },
                 "education_se": {
                     "list": {
-                        "some_a_level": "Certains baccalauréats ou un niveau inférieur",
-                        "a_level": "Baccalauréats",
+                        "some_a_level": "A-Levels ou moins",
+                        "a_level": "A-Levels",
                         "vocational": "Autre qualification professionnelle de niveau post-secondaire",
                         "some_university": "Études universitaires, sans diplôme",
                         "university": "Diplôme universitaire (2 ans d'études)",
-                        "bachelor": "Baccalauréat",
-                        "master": "Maîtrise ou diplôme professionnel",
+                        "bachelor": "Licence",
+                        "master": "Master ou diplôme professionnel",
                         "phd": "Doctorat"
                     }
                 },
                 "education_nl": {
                     "list": {
-                        "no_hs_diploma": "Niveau d'études secondaires ou plus bas",
+                        "no_hs_diploma": "Niveau d'études secondaires ou moins",
                         "diploma": "Diplôme de fin d'études secondaires",
                         "technical": "Autre formation professionnelle après l'école secondaire",
-                        "some_college": "Partie achevée de l'école supérieure / université, sans diplôme",
-                        "two_year_degree": "Diplôme d'associé",
-                        "four_year_degree": "Diplôme de licence",
-                        "masters": "Maîtrise",
+                        "some_college": "Quelques années d'études en sciences appliquées / université, sans diplôme",
+                        "two_year_degree": "Associate degree (2 ans)",
+                        "four_year_degree": "Licence",
+                        "masters": "Master",
                         "phd": "Doctorat/PhD"
                     }
                 },
@@ -254,12 +254,12 @@
                 "education_in": {
                     "list": {
                         "some_secondary": "Études secondaires partielles ou niveau inférieur",
-                        "secondary": "A terminé l'école secondaire",
-                        "some_vocational": "Quelques écoles professionnelles/un collège technique",
-                        "vocational": "École professionnelle/ collège technique",
-                        "some_university": "Quelques études universitaires/ supérieures",
+                        "secondary": "École secondaire",
+                        "some_vocational": "Quelques années d'école professionnelle / collège technique",
+                        "vocational": "École professionnelle / collège technique",
+                        "some_university": "Quelques années d'études universitaires / supérieures",
                         "university": "Diplôme universitaire, diplôme avec mention",
-                        "masters": "Maîtrise",
+                        "masters": "Master",
                         "phd": "Doctorat"
                     }
                 },
@@ -267,9 +267,9 @@
                     "list": {
                         "compulsory": "Scolarisation obligatoire / programme de transition",
                         "basic_vocational": "Enseignement professionnel de base / école d'enseignement général",
-                        "technical": "Collège/université (technique) sans diplôme",
+                        "technical": "Collège/université (technique), sans diplôme",
                         "higher_technical": "Formation technique ou professionnelle supérieure",
-                        "bachelor": "Diplôme (technique) universitaire ( licence)",
+                        "bachelor": "Diplôme (technique) universitaire (Licence)",
                         "master": "Diplôme (technique) universitaire (Master)",
                         "phd": "Doctorat",
                         "some_compulsory": "Aucune ou jusqu'à 7 ans de scolarisation obligatoire"
@@ -278,7 +278,7 @@
             },
             "household": {
                 "householdSize": {
-                    "question": "Combien de personnes vivent dans votre maison, vous-même compris ?",
+                    "question": "Combien de personnes vivent dans votre maison, y compris vous-même ?",
                     "list": {
                         "1": "1 personne",
                         "2": "2 personnes",
@@ -307,9 +307,9 @@
                 "ownRent": {
                     "question": "Quelle est la meilleure description de votre situation actuelle ?",
                     "list": {
-                        "rented": "Loue un appartement ou une maison",
-                        "owned": "Est propriétaire d'un appartement ou d'une maison",
-                        "parents": "Vit avec ses parents"
+                        "rented": "Locataire d'un appartement ou d'une maison",
+                        "owned": "Propriétaire d'un appartement ou d'une maison",
+                        "parents": "Je vis avec mes parents"
                     },
                     "shortName": "Situation actuelle"
                 },
@@ -322,49 +322,49 @@
                         "groceries": "Achat de produits alimentaires",
                         "automobile": "Automobile",
                         "mortgage": "Crédit immobilier",
-                        "finance": "Finance",
+                        "finance": "Finances",
                         "clothing": "Vêtements"
                     },
-                    "shortName": "Domaines pour lesquelles vous êtes responsable ou en partie responsable en termes de prise de décision dans votre foyer"
+                    "shortName": "Domaines pour lesquels vous êtes responsable ou en partie responsable en termes de prise de décision dans votre foyer"
                 },
                 "firstChild_gender": {
-                    "question": "Veuillez indiquer le genre de votre premier enfant de moins de 18 ans :",
+                    "question": "Merci d’indiquer le genre de votre premier enfant de moins de 18 ans :",
                     "shortName": "Genre de votre premier enfant de moins de 18 ans"
                 },
                 "firstChild_birthday": {
-                    "question": "Veuillez indiquer la date de naissance de votre premier enfant de moins de 18 ans :",
+                    "question": "Merci d'indiquer la date de naissance de votre premier enfant de moins de 18 ans :",
                     "shortName": "Date de naissance de votre premier enfant de moins de 18 ans"
                 },
                 "secondChild_gender": {
-                    "question": "Veuillez indiquer le genre de votre deuxième enfant de moins de 18 ans :",
+                    "question": "Merci d'indiquer le genre de votre deuxième enfant de moins de 18 ans :",
                     "shortName": "Genre de votre deuxième enfant de moins de 18 ans"
                 },
                 "secondChild_birthday": {
-                    "question": "Veuillez indiquer la date de naissance de votre deuxième enfant de moins de 18 ans :",
+                    "question": "Merci d'indiquer la date de naissance de votre deuxième enfant de moins de 18 ans :",
                     "shortName": "Date de naissance de votre deuxième enfant de moins de 18 ans"
                 },
                 "thirdChild_gender": {
-                    "question": "Veuillez indiquer le genre de votre troisième enfant de moins de 18 ans :",
+                    "question": "Merci d'indiquer le genre de votre troisième enfant de moins de 18 ans :",
                     "shortName": "Genre de votre troisième enfant de moins de 18 ans"
                 },
                 "thirdChild_birthday": {
-                    "question": "Veuillez indiquer la date de naissance de votre troisième enfant de moins de 18 ans :",
+                    "question": "Merci d'indiquer la date de naissance de votre troisième enfant de moins de 18 ans :",
                     "shortName": "Date de naissance de votre troisième enfant de moins de 18 ans"
                 },
                 "fourthChild_gender": {
-                    "question": "Veuillez indiquer le genre de votre quatrième enfant de moins de 18 ans :",
+                    "question": "Merci d'indiquer le genre de votre quatrième enfant de moins de 18 ans :",
                     "shortName": "Genre de votre quatrième enfant de moins de 18 ans"
                 },
                 "fourthChild_birthday": {
-                    "question": "Veuillez indiquer la date de naissance de votre quatrième enfant de moins de 18 ans :",
+                    "question": "Merci d'indiquer la date de naissance de votre quatrième enfant de moins de 18 ans :",
                     "shortName": "Date de naissance de votre quatrième enfant de moins de 18 ans"
                 },
                 "fifthChild_gender": {
-                    "question": "Veuillez indiquer le sexe de votre cinquième enfant de moins de 18 ans :",
+                    "question": "Merci d'indiquer le genre de votre cinquième enfant de moins de 18 ans :",
                     "shortName": "Genre de votre cinquième enfant de moins de 18 ans"
                 },
                 "fifthChild_birthday": {
-                    "question": "Veuillez indiquer la date de naissance de votre cinquième enfant de moins de 18 ans :",
+                    "question": "Merci d'indiquer la date de naissance de votre cinquième enfant de moins de 18 ans :",
                     "shortName": "Date de naissance votre cinquième enfant de moins de 18 ans"
                 }
             },
@@ -388,15 +388,15 @@
                         "digitalCamera": "Appareil photo numérique",
                         "desktopPc": "Ordinateur de bureau PC / Mac",
                         "laptopPc": "Ordinateur portable PC / Mac",
-                        "cellPhone": "Téléphone mobile",
-                        "cordlessPhone": "Téléphone sans fil",
+                        "cellPhone": "Téléphone mobile / Smartphone",
+                        "cordlessPhone": "Téléphone fixe sans fil",
                         "projector": "Projecteur",
                         "documentScanner": "Scanner de documents",
                         "cableTv": "TV par câble / TV par satellite",
                         "digitalTv": "Récepteur TV numérique",
                         "printer": "Imprimante",
-                        "multipurposePrinter": "Imprimante multi-fonctions (fax, imprimante, téléphone, etc.)",
-                        "homeNetwork": "Réseau local / Internet sans fil",
+                        "multipurposePrinter": "Imprimante multifonction (fax, imprimante, téléphone, etc.)",
+                        "homeNetwork": "Réseau local / Internet sans fil (Wi-Fi)",
                         "surroundSystem": "Système Surround / Home Cinéma",
                         "digitalMediaReceiver": "Récepteur de médias numériques (ex. Apple TV, Roku)",
                         "tablet": "Tablette (ex. iPad)",
@@ -407,22 +407,22 @@
             },
             "occupation": {
                 "employment": {
-                    "question": "Quelle est votre situation professionnelle actuelle ?",
+                    "question": "Quelle est votre situation professionnelle actuelle / votre statut ?",
                     "list": {
                         "employed_full_time": "Employé à temps plein",
                         "employed_part_time": "Employé à temps partiel",
                         "self_employed": "Travailleur indépendant",
                         "small_business_owner": "Propriétaire d'une petite entreprise",
-                        "contractor_or_consultant": "Entrepreneur ou consultant",
+                        "contractor_or_consultant": "Entrepreneur ou Consultant",
                         "full_time_military": "Militaire actif",
-                        "inactive_military": "Militaire inactif/ancien combattant",
+                        "inactive_military": "Militaire inactif / Ancien combattant",
                         "homemaker": "Personne au foyer à plein temps",
                         "retired": "Retraité",
                         "student": "Étudiant",
                         "unable_or_disabled": "Handicapé en incapacité de travailler",
-                        "looking_for_work": "Chômeur temporaire"
+                        "looking_for_work": "Chômage temporaire"
                     },
-                    "shortName": "Situation d'emploi actuelle"
+                    "shortName": "Situation professionnelle / Statut"
                 },
                 "industry": {
                     "question": "Dans quel secteur d'activité travaillez-vous ?",
@@ -432,7 +432,7 @@
                         "advertising": "Publicité",
                         "agriculture": "Agriculture / Pêche",
                         "architecture": "Architecture",
-                        "arts_recreation": "Arts, spectacles et loisirs",
+                        "arts_recreation": "Arts, Spectacles et Loisirs",
                         "automotive": "Automobile",
                         "aviation": "Aviation",
                         "banking_finance": "Banque / Finance",
@@ -460,16 +460,16 @@
                         "information_technology": "Technologies de l'information",
                         "insurance": "Assurance",
                         "internet": "Internet",
-                        "legal_law": "Judiciaire / Droit",
+                        "legal_law": "Juridique / Droit",
                         "management": "Gestion",
-                        "manufacturing": "Fabrication",
+                        "manufacturing": "Industrie",
                         "market_research": "Études de marché",
                         "marketing_sales": "Marketing / Ventes",
                         "media_entertainment": "Médias / Divertissement",
                         "military": "Militaire",
-                        "non_profit_social_services": "Services sociaux / à but non lucratif",
-                        "personal_services": "Services aux particuliers",
-                        "pharmaceuticals": "Produits pharmaceutiques",
+                        "non_profit_social_services": "Services sociaux / Organisme à but non lucratif",
+                        "personal_services": "Services à la personne",
+                        "pharmaceuticals": "Industrie pharmaceutique",
                         "printing_publishing": "Imprimerie et Édition",
                         "professional_services": "Services professionnels",
                         "public_administration": "Administration publique",
@@ -481,7 +481,7 @@
                         "shipping_distribution": "Livraison / Distribution",
                         "telecommunications": "Télécommunications",
                         "transportation": "Transport",
-                        "user_experience_research": "Recherche sur l'expérience utilisateur"
+                        "user_experience_research": "Recherche utilisateur"
                     },
                     "shortName": "Secteur d'activité"
                 },
@@ -490,10 +490,10 @@
                     "list": {
                         "admin": "Administration / Personnel général",
                         "customer_service": "Service client / Service clientèle",
-                        "executive": "Direction générale / niveau C",
+                        "executive": "Direction générale / C-Level",
                         "finance_accounting": "Finance / Comptabilité",
                         "human_resources": "Ressources humaines",
-                        "legal": "Judiciaire / Droit",
+                        "legal": "Juridique / Droit",
                         "marketing": "Marketing",
                         "operations": "Opérations",
                         "procurement": "Approvisionnement",
@@ -504,20 +504,20 @@
                         "technology_implementation": "Mise en œuvre des technologies",
                         "other": "Autre"
                     },
-                    "shortName": "Service de l'emploi"
+                    "shortName": "Département d'entreprise"
                 },
                 "jobTitle": {
                     "question": "Quel est le titre ou le niveau de responsabilité de votre poste ?",
                     "list": {
-                        "top_tier": "Direction générale (par ex. PDG, directeur financier), propriétaire, partenaire, président",
+                        "top_tier": "C-Level (ex. PDG, directeur financier), propriétaire, partenaire, président",
                         "vp_tier": "Vice-président (EVP, SVP, AVP, VP)",
-                        "director_tier": "Directeur (directeur de groupe, directeur principal, directeur)",
-                        "management_tier": "Manager (Group Manager, Sr. Manager, Manager, Program Manager)",
+                        "director_tier": "Directeur (group director, directeur principal, directeur)",
+                        "management_tier": "Manager (group manager, manager principal, manager, program manager)",
                         "analyst": "Analyste",
-                        "associate": "Assistant ou associé",
-                        "administrative": "Administratif (personnel de bureau ou de support)",
+                        "associate": "Assistant ou Junior",
+                        "administrative": "Administratif (personnel de bureau ou de soutien)",
                         "individual_contributor": "Contributeur individuel",
-                        "contractor": "Entrepreneur",
+                        "contractor": "Contractuel",
                         "consultant": "Consultant",
                         "intern": "Stagiaire",
                         "volunteer": "Bénévole",
@@ -526,11 +526,11 @@
                     "shortName": "Intitulé du poste"
                 },
                 "decisionMaker": {
-                    "question": "Veuillez choisir les départements/produits sur lesquels vous avez une influence ou un pouvoir de décision en matière de dépenses/achats.",
+                    "question": "Parmi les départements/produits suivants, sur lesquels avez-vous une influence ou un pouvoir de décision en matière de dépenses/achats ?",
                     "list": {
                         "itHardware": "Matériel informatique",
                         "itSoftware": "Logiciels",
-                        "printers": "Imprimantes et copieurs",
+                        "printers": "Imprimantes et photocopieurs",
                         "financial": "Département financier",
                         "humanResources": "Ressources humaines",
                         "officeSupplies": "Fournitures de bureau",
@@ -554,7 +554,7 @@
             },
             "hobbiesAndInterests": {
                 "hobbies": {
-                    "question": "Quels sont vos passe-temps et intérêts ?",
+                    "question": "Quels sont vos passe-temps et centres d'intérêt ?",
                     "list": {
                         "artsCrafts": "Arts et artisanat",
                         "boating": "Navigation de plaisance",
@@ -566,7 +566,7 @@
                         "interiorDecorating": "Décoration intérieure / Rénovation",
                         "teamSports": "Sports d'équipe",
                         "playingMusic": "Jouer de la musique",
-                        "videogames": "Jeux vidéo / informatiques",
+                        "videogames": "Jeux vidéo",
                         "reading": "Lecture",
                         "skiing": "Ski",
                         "technology": "Technologie / Ordinateurs",
@@ -576,11 +576,11 @@
                     "shortName": "Passe-temps et centres d'intérêt"
                 },
                 "socialMedia": {
-                    "question": "Parmi les plateformes de réseaux sociaux suivantes, lesquelles utilisez-vous activement ?",
-                    "shortName": "Les plateformes de médias sociaux que vous utilisez activement"
+                    "question": "Parmi les plateformes de réseaux et médias sociaux suivantes, lesquelles utilisez-vous régulièrement ?",
+                    "shortName": "Les plateformes de réseaux et médias sociaux que vous utilisez régulièrement"
                 },
                 "streamingMovies": {
-                    "question": "En moyenne, à quelle fréquence téléchargez-vous/streamez-vous des films pour les regarder chez vous ?",
+                    "question": "En moyenne, à quelle fréquence téléchargez-vous des films ou regardez-vous des films en streaming depuis chez vous ?",
                     "list": {
                         "less1": "Moins d'une fois par mois",
                         "1": "Une fois par mois",
@@ -588,7 +588,7 @@
                         "3": "Trois fois par mois",
                         "4": "Quatre fois par mois",
                         "5": "Cinq fois par mois",
-                        "none": "Je ne streame/télécharge pas de films"
+                        "none": "Je ne télécharge pas de films / ne regarde pas de films en streaming"
                     },
                     "shortName": "Fréquence de streaming ou de téléchargement de films"
                 },
@@ -596,15 +596,15 @@
                     "question": "À quel genre de paris jouez-vous ?",
                     "list": {
                         "onlineSports": "Paris sportifs en ligne",
-                        "onlineLottery": "Loterie/jeux à gratter en ligne",
-                        "onlinePoker": "Poker/jeux de casino en ligne",
+                        "onlineLottery": "Loterie / Jeux à gratter en ligne",
+                        "onlinePoker": "Poker / Jeux de casino en ligne",
                         "offlineSports": "Paris sportifs hors ligne",
-                        "offlineLottery": "Loterie/jeux à gratter hors ligne",
+                        "offlineLottery": "Loterie / Jeux à gratter hors ligne",
                         "bingo": "Bingo",
-                        "casinoPoker": "Poker/blackjack/roulette, etc. au casino",
+                        "casinoPoker": "Casino (poker, blackjack, roulette, etc.)",
                         "casinoSlot": "Machines à sous au casino",
                         "horseTrack": "Paris hippiques",
-                        "carRace": "Paris sur les sports mécaniques",
+                        "carRace": "Paris sur les sports automobiles",
                         "none": "Je ne parie pas du tout"
                     },
                     "shortName": "Types de jeux d'argent auxquels vous participez"
@@ -618,29 +618,29 @@
                         "checkingAccount": "Compte courant",
                         "savingsAccount": "Compte d'épargne",
                         "personalLoan": "Emprunt personnel",
-                        "mortgage": "Hypothèque"
+                        "mortgage": "Prêt immobilier"
                     },
                     "shortName": "Produits financiers que vous possédez"
                 },
                 "investments_us": {
                     "list": {
-                        "none": "Je n'ai pas d'épargne/d'investissements",
-                        "401k": "Abondement accru au plan d'épargne 401(k)",
-                        "ira": "Compte individuel d'épargne retraite",
+                        "none": "Je n'ai pas de compte d'épargne/compte titres",
+                        "401k": "Plan 401(k)",
+                        "ira": "Compte individuel d'épargne retraite (IRA/Roth)",
                         "bonds": "Obligations",
-                        "deposit": "Bon de placement",
-                        "mutualFunds": "Fonds communs"
+                        "deposit": "Certificat de dépôt",
+                        "mutualFunds": "Fonds mutuels"
                     }
                 },
                 "investments_gb": {
                     "list": {
-                        "none": "Je n'ai pas d'économies / d'investissements",
+                        "none": "Je n'ai pas de compte épargne ou de compte titres",
                         "personalPension": "Pension personnelle",
                         "workplacePension": "Pension professionnelle",
-                        "unitTrusts": "Fonds de placement",
-                        "oeic": "OEIC - Société de fonds mutuel",
-                        "etf": "Titres ETF (ou fonds négociés en bourse)",
-                        "investmentTrusts": "Fonds d'investissement",
+                        "unitTrusts": "Fonds communs de placement",
+                        "oeic": "OEIC - Société de fonds mutuels",
+                        "etf": "ETF Securities (ou fonds négociés en bourse)",
+                        "investmentTrusts": "Fiducie de placement",
                         "fixedIncomeProducts": "Produits à revenu fixe"
                     }
                 }
@@ -656,7 +656,7 @@
                         "anemia": "Anémie",
                         "angina": "Angine",
                         "anxiety": "Anxiété",
-                        "arrhythmia": "Arythmie/fibrillation auriculaire",
+                        "arrhythmia": "Arythmie / Fibrillation auriculaire",
                         "arthritis": "Arthrite",
                         "asthma": "Asthme",
                         "backPain": "Mal de dos",
@@ -698,7 +698,7 @@
                         "heartFailure": "Insuffisance cardiaque",
                         "hepatitis": "Hépatite",
                         "cholesterol": "Cholestérol élevé",
-                        "aids": "HIV- Sida",
+                        "aids": "VIH - SIDA",
                         "hypertension": "Hypertension",
                         "hypothyroidism": "Hypothyroïdie",
                         "impotence": "Impuissance",
@@ -739,12 +739,12 @@
                         "ulcers": "Ulcère",
                         "urinaryIncontinence": "Incontinence urinaire"
                     },
-                    "shortName": "Maladies/conditions qui ont été diagnostiquées chez vous"
+                    "shortName": "Maladies/conditions/troubles qui ont été diagnostiqués chez vous"
                 }
             },
             "travel": {
                 "travelFlights": {
-                    "question": "Combien de fois voyagez-vous en avion ?",
+                    "question": "À quelle fréquence voyagez-vous en avion ?",
                     "list": {
                         "everyMonth": "Une fois par mois ou plus",
                         "every2-4Months": "Une fois tous les 2 à 4 mois",
@@ -756,19 +756,19 @@
                 "flightPurpose": {
                     "question": "Pour quels motifs voyagez-vous en avion ?",
                     "list": {
-                        "business": "Profession",
+                        "business": "Travail",
                         "leisure": "Loisir",
-                        "both": "Profession et loisir",
-                        "neither": "Aucun des deux, je ne voyage pas en avion"
+                        "both": "Travail et loisir",
+                        "neither": "Je ne voyage pas en avion"
                     },
-                    "shortName": "Buts du voyage en avion"
+                    "shortName": "Motifs de vos voyages en avion"
                 },
                 "flightDestination": {
                     "question": "Lorsque vous prenez l'avion, quels types de vols prenez-vous ?",
                     "list": {
                         "domestic": "Intérieurs",
                         "international": "Internationaux",
-                        "both": "Les deux, intérieurs et internationaux",
+                        "both": "Intérieurs et internationaux",
                         "neither": "Je préfère ne pas répondre"
                     },
                     "shortName": "Types de vols que vous prenez"
@@ -788,21 +788,21 @@
                     "shortName": "Compagnies aériennes internationales avec lesquelles vous avez volé au cours des 12 derniers mois"
                 },
                 "accomodationType": {
-                    "question": "Quel type d`hébergement avez-vous utilisé au cours de lànnée passée ?",
+                    "question": "Quel type d'hébergement avez-vous utilisé pour vos déplacements au cours de l’année passée ?",
                     "list": {
                         "houseRental": "Location de maison (AirBnB & VRBO)",
-                        "bedBreakfast": "Chambre et petit déjeuner",
-                        "campground": "Terrain de camping/parc VR",
-                        "hostel": "Auberge",
+                        "bedBreakfast": "Chambre et petit déjeuner (Bed & Breakfast)",
+                        "campground": "Camping / Terrain de camping-cars",
+                        "hostel": "Auberge / Auberge de jeunesse",
                         "hotel": "Hôtel",
                         "motel": "Motel",
                         "personalVacationHome": "Résidence de vacances personnelle",
-                        "timeshare": "Multipropriété"
+                        "timeshare": "Location en temps partagé"
                     },
                     "shortName": "Type d'hébergement que vous avez utilisé au cours de l'année écoulée"
                 },
                 "hotelLoyalty": {
-                    "question": "Appartenez-vous à l'un des programmes de fidélité hôteliers suivants ?",
+                    "question": "Êtes-vous membre de l'un des programmes de fidélité hôteliers suivants ?",
                     "shortName": "Programmes de fidélité d'hôtels dont vous êtes membre"
                 }
             }
@@ -818,49 +818,49 @@
             },
             "mobileCarrier": {
                 "question": "Lequel de ces opérateurs est celui du téléphone mobile que vous utilisez le plus souvent ?",
-                "shortName": "Opérateur de téléphonie mobile que vous utilisez le plus souvent"
+                "shortName": "Opérateur du téléphone mobile que vous utilisez le plus souvent"
             },
             "companyRevenue": {
                 "question": "Quel est le chiffre d'affaires annuel approximatif de votre entreprise ?",
                 "shortName": "Revenu annuel approximatif de votre entreprise"
             },
             "subscriptions": {
-                "question": "Parmi les services suivants, auxquels êtes-vous abonné ?",
-                "shortName": "Services auxquels vous êtes abonné"
+                "question": "Parmi les services suivants, auxquels avez-vous souscrit un abonnement ?",
+                "shortName": "Services auxquels vous avez souscrit"
             },
             "investments": {
-                "question": "Parmi les comptes d'épargne et/ou d'investissement suivants, lesquels possédez-vous ?",
-                "realEstate": "Immobilier",
+                "question": "Parmi les comptes d'épargne et/ou comptes titres suivants, lesquels possédez-vous ?",
+                "realEstate": "Bien immobilier",
                 "savingsAccount": "Compte d'épargne",
                 "shares": "Actions",
-                "shortName": "Comptes d'épargne ou d'investissement que vous possédez"
+                "shortName": "Comptes d'épargne ou comptes titres que vous possédez"
             },
             "investableAssets": {
-                "question": "Parmi les placements suivants (hors propriété de votre logement), lesquels représentent le mieux votre foyer ?",
-                "shortName": "Valeur approximative des actifs investis par votre foyer (hors propriété du logement)"
+                "question": "À combien s'élève l'épargne de votre foyer (hors propriété de votre logement) ?",
+                "shortName": "Montant approximatif de l'épargne de votre foyer (hors propriété du logement)"
             },
             "airlineLoyalty": {
-                "question": "Appartenez-vous à l'un des programmes de fidélité des compagnies aériennes suivantes ?",
+                "question": "Êtes-vous membre de l'un des programmes de fidélité des compagnies aériennes suivantes ?",
                 "list": {
-                    "none": "Je n'appartiens aucun programme de fidélité de compagnie aérienne"
+                    "none": "Je ne suis membre d'aucun programme de fidélité de compagnie aérienne"
                 },
-                "shortName": "Programmes de fidélité des compagnies aériennes dont vous êtes membre"
+                "shortName": "Programmes de fidélité de compagnies aériennes dont vous êtes membre"
             },
             "hotelLoyalty": {
                 "list": {
-                    "none": "Je n'appartiens à aucun programme de fidélité d'hôtel"
+                    "none": "Je ne suis membre d'aucun programme de fidélité d'hôtel"
                 }
             },
             "ethnicity": {
-                "question": "Laquelle des catégories suivantes représente le mieux votre héritage racial ou ethnique ?",
-                "shortName": "Patrimoine racial ou ethnique"
+                "question": "Quelle est votre origine ethnique ?",
+                "shortName": "Origine ethnique"
             },
             "noPhone": {
                 "noPhone": "Je n'ai pas de téléphone mobile"
             },
             "socialMedia": {
-                "question": "Parmi les plateformes de médias sociaux suivantes, quelles sont celles que vous utilisez ou auxquelles vous participez activement ?",
-                "shortName": "Les plateformes de médias sociaux que vous utilisez activement"
+                "question": "Parmi les plateformes de réseaux et médias sociaux suivantes, lesquelles utilisez-vous régulièrement ?",
+                "shortName": "Les plateformes de réseaux et médias sociaux que vous utilisez régulièrement"
             }
         }
     },
