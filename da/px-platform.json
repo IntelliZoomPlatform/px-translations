@@ -107,11 +107,11 @@
         },
         "footer": {
             "item": {
-                "faqPayments": "[Hvor lang tid tager udbetalinger normalt?](https://help.intellizoom.com/hc/en-us/articles/360000650458--When-and-how-much-will-I-get-paid-)",
-                "faqInvitations": "[Hvordan virker invitationer?](https://help.intellizoom.com/hc/en-us/articles/360000658537-How-will-I-be-notified-of-new-studies-)",
-                "faqChangeEmail": "[Hvordan kan jeg ændre min e-mail?](https://help.intellizoom.com/hc/en-us/articles/360001190318-How-can-I-change-my-email-)",
-                "faqBrowseAll": "[Se mere] (https://help.intellizoom.com/hc/en-us)",
-                "sendEmail": "[Send os en e-mail](https://help.intellizoom.com/hc/en-us/requests/new)",
+                "faqPayments": "[Hvor lang tid tager udbetalinger normalt?](https://help.intellizoom.com/hc/da/articles/17419741241619)",
+                "faqInvitations": "[Hvordan virker invitationer?](https://help.intellizoom.com/hc/da/articles/17408348012563)",
+                "faqChangeEmail": "[Hvordan kan jeg ændre min e-mail?](https://help.intellizoom.com/hc/da/articles/17417709873683)",
+                "faqBrowseAll": "[Se mere] (https://help.intellizoom.com/hc/da)",
+                "sendEmail": "[Støttecenter](https://help.intellizoom.com/hc/da)",
                 "whatIsIZP": "Hvad er IntelliZoom-panelet"
             },
             "title": {
