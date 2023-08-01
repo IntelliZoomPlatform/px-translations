@@ -107,11 +107,11 @@
         },
         "footer": {
             "item": {
-                "faqPayments": "[Quand vais-je recevoir mes gains ?](https://help.intellizoom.com/hc/en-us/articles/360000650458--When-and-how-much-will-I-get-paid-)",
-                "faqInvitations": "[Comment fonctionnent les invitations ?](https://help.intellizoom.com/hc/en-us/articles/360000658537-How-will-I-be-notified-of-new-studies-)",
-                "faqChangeEmail": "[Comment puis-je modifier mon adresse e-mail ?](https://help.intellizoom.com/hc/en-us/articles/360001190318-How-can-I-change-my-email-)",
-                "faqBrowseAll": "[Voir plus](https://help.intellizoom.com/hc/en-us)",
-                "sendEmail": "[Envoyez-nous un mail](https://help.intellizoom.com/hc/en-us/requests/new)",
+                "faqPayments": "[Quand vais-je recevoir mes gains ?](https://help.intellizoom.com/hc/fr/articles/17419741241619)",
+                "faqInvitations": "[Comment fonctionnent les invitations ?](https://help.intellizoom.com/hc/fr/articles/17408348012563)",
+                "faqChangeEmail": "[Comment puis-je modifier mon adresse e-mail ?](https://help.intellizoom.com/hc/fr/articles/17417709873683)",
+                "faqBrowseAll": "[Voir plus](https://help.intellizoom.com/hc/fr)",
+                "sendEmail": "[Centre de Soutien](https://help.intellizoom.com/hc/fr)",
                 "whatIsIZP": "Qu'est-ce que IntelliZoom Panel"
             },
             "title": {
