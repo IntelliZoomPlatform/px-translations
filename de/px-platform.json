@@ -107,11 +107,11 @@
         },
         "footer": {
             "item": {
-                "faqPayments": "[Wie lange dauert es bis ich bezahlt werde?](https://help.intellizoom.com/hc/de/articles/360000650458)",
-                "faqInvitations": "[Wie funktionieren Studieneinladungen?](https://help.intellizoom.com/hc/de/articles/360000658537)",
-                "faqChangeEmail": "[Wie kann ich meine E-Mail-Adresse ändern?](https://help.intellizoom.com/hc/de/articles/360001190318)",
+                "faqPayments": "[Wie lange dauert es bis ich bezahlt werde?](https://help.intellizoom.com/hc/de/articles/17419741241619)",
+                "faqInvitations": "[Wie funktionieren Studieneinladungen?](https://help.intellizoom.com/hc/de/articles/17408348012563)",
+                "faqChangeEmail": "[Wie kann ich meine E-Mail-Adresse ändern?](https://help.intellizoom.com/hc/de/articles/17417709873683)",
                 "faqBrowseAll": "[Mehr anzeigen](https://help.intellizoom.com/hc/de)",
-                "sendEmail": "[Sende uns ein E-Mail](https://help.intellizoom.com/hc/de/requests/new)",
+                "sendEmail": "[Help Center](https://help.intellizoom.com/hc/de)",
                 "whatIsIZP": "Was ist IntelliZoom Panel"
             },
             "title": {
