@@ -107,11 +107,11 @@
         },
         "footer": {
             "item": {
-                "faqPayments": "[Hoe lang duren betalingen doorgaans?](https://help.intellizoom.com/hc/en-us/articles/360000650458--When-and-how-much-will-I-get-paid-)",
-                "faqInvitations": "[Hoe werken uitnodigingen?](https://help.intellizoom.com/hc/en-us/articles/360000658537-How-will-I-be-notified-of-new-studies-)",
-                "faqChangeEmail": "[How verander ik mijn mailadres?](https://help.intellizoom.com/hc/en-us/articles/360001190318-How-can-I-change-my-email-)",
+                "faqPayments": "[Hoe lang duren betalingen doorgaans?](https://help.intellizoom.com/hc/en-us/articles/17419741241619)",
+                "faqInvitations": "[Hoe werken uitnodigingen?](https://help.intellizoom.com/hc/en-us/articles/17408348012563)",
+                "faqChangeEmail": "[How verander ik mijn mailadres?](https://help.intellizoom.com/hc/en-us/articles/17417709873683)",
                 "faqBrowseAll": "[Meer bekijken](https://help.intellizoom.com/hc/en-us)",
-                "sendEmail": "[Stuur ons een e-mail](https://help.intellizoom.com/hc/en-us/requests/new)",
+                "sendEmail": "[Help Center](https://help.intellizoom.com/hc/en-us)",
                 "whatIsIZP": "Wat is het IntelliZoom-panel"
             },
             "title": {

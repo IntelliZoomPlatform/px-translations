@@ -107,11 +107,11 @@
         },
         "footer": {
             "item": {
-                "faqPayments": "[¿Cuánto tardan normalmente los pagos?](https://help.intellizoom.com/hc/es/articles/360000650458)",
-                "faqInvitations": "[¿Cómo funcionan las invitaciones?](https://help.intellizoom.com/hc/es/articles/360000658537)",
-                "faqChangeEmail": "[¿Cómo puedo cambiar mi email?](https://help.intellizoom.com/hc/es/articles/360001190318)",
+                "faqPayments": "[¿Cuánto tardan normalmente los pagos?](https://help.intellizoom.com/hc/es/articles/17419741241619)",
+                "faqInvitations": "[¿Cómo funcionan las invitaciones?](https://help.intellizoom.com/hc/es/articles/17408348012563)",
+                "faqChangeEmail": "[¿Cómo puedo cambiar mi email?](https://help.intellizoom.com/hc/es/articles/17417709873683)",
                 "faqBrowseAll": "[Ver más](https://help.intellizoom.com/hc/es)",
-                "sendEmail": "[Envíanos un email](https://help.intellizoom.com/hc/es/requests/new)",
+                "sendEmail": "[Centro de Soporte](https://help.intellizoom.com/hc/es)",
                 "whatIsIZP": "Qué es IntelliZoom Panel"
             },
             "title": {

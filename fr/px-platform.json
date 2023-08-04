@@ -7,75 +7,75 @@
                     "firstName": "Prénom",
                     "lastName": "Nom de famille"
                 },
-                "alreadyRegistered": "Vous êtes déjà inscrit ? <1>$t(px-common:izPanel.common.logInImperative)</1>"
+                "alreadyRegistered": "Déjà membre ? <1>$t(px-common:izPanel.common.logInImperative)</1>"
             },
             "country": {
                 "title": "Bienvenue {{firstName}} !",
                 "otherCountry": "Afficher d'autres pays",
-                "description": "**Vous entrez dans notre panel en {{country}}.**\n\nSi vous êtes en voyage et que ce n'est pas le pays où vous vivez, nous vous recommandons de vous inscrire au Panel d'IntelliZoom une fois de retour chez vous. Si vous êtes chez vous et que ce n'est pas votre pays, veuillez [nous contacter](https://help.intellizoom.com/hc/en-us/requests/new).",
+                "description": "**Vous entrez dans notre panel pour {{country}}.**\n\nSi vous êtes en voyage dans un autre pays, nous vous recommandons de vous inscrire sur IntelliZoom Panel une fois de retour chez vous. Si vous êtes chez vous et que ce n'est pas votre pays, merci de [nous contacter](https://help.intellizoom.com/hc/en-us/requests/new).",
                 "inSpanish": "¿Prefieres ver esta página en Español?",
                 "inGerman": "Möchtest Du diese Seite in Deutsch ansehen?"
             },
             "email": {
                 "title": "Quelle est votre adresse e-mail ?",
-                "description": "C'est ici que vous recevrez nos invitations aux tests."
+                "description": "C'est à cette adresse que vous recevrez nos invitations aux tests."
             },
             "password": {
                 "title": "Choisissez un mot de passe",
-                "description": "Assurez-vous qu'il soit fort !\n\nIncluez :",
+                "description": "Pour plus de sécurité,\n\nAssurez-vous d'utiliser :",
                 "requirements": {
                     "capitalLetter": "une lettre majuscule",
                     "numberOrSymbol": "un chiffre",
                     "minChars": "au moins huit caractères",
                     "lowercaseLetter": "une lettre minuscule",
-                    "passwordsShouldMatch": "et bien sûr, vos mots de passe doivent correspondre"
+                    "passwordsShouldMatch": "et bien sûr, vos mots de passe doivent être identiques"
                 },
                 "passwordConfirmation": "Confirmez le mot de passe"
             },
             "terms": {
-                "title": "Pour finaliser votre inscription...",
-                "description": "Veuillez prendre un moment pour lire nos <1>{{termsLink}}</1> et notre <3>{{privacyLink}}</3>.\n\nSi vous avez des doutes sur la manière dont vos données sont gérées, veuillez <5>{{contactUsLowercaseImperative}}</5>.",
+                "title": "Avant de continuer...",
+                "description": "Nous vous invitons à lire nos <1>{{termsLink}}</1> et notre <3>{{privacyLink}}</3>.\n\nSi vous avez des questions sur la façon dont vos données sont gérées, <5>{{contactUsLowercaseImperative}}</5>.",
                 "checkbox": {
-                    "gdpr": "Je veux recevoir des invitations par mail à des tests utilisateurs à distance qui correspondent à mon profil. $t(px-common:izPanel.common.requiredField)",
+                    "gdpr": "Je veux recevoir des invitations par mail à des tests utilisateurs qui correspondent à mon profil. $t(px-common:izPanel.common.requiredField)",
                     "terms": "J'accepte les conditions d'utilisation et la politique de confidentialité. $t(px-common:izPanel.common.requiredField)",
-                    "mkt": "Je veux recevoir des communications et la newsletter d'IntelliZoom."
+                    "mkt": "Je veux recevoir des communications et la newsletter de IntelliZoom."
                 }
             },
             "doubleOptIn": {
                 "title": "Nous vous avons envoyé un mail de confirmation pour activer votre compte",
-                "description": "Veuillez cliquer sur le lien contenu dans l'e-mail pour activer votre compte.\n\nPour des raisons de sécurité, ce lien expirera dans un délai de 24 heures.\n\nSi vous ne le voyez pas, vérifiez votre dossier de courrier indésirable. Nous pouvons également vous <1>renvoyer</1> l'e-mail.",
+                "description": "Il ne vous reste plus qu'à cliquer sur le lien contenu dans le mail pour activer votre compte.\n\nPour des raisons de sécurité, le lien expirera dans 24 heures.\n\nSi vous ne voyez pas le mail dans votre boîte de réception, pensez à vérifier vos spams. Nous pouvons également vous <1>renvoyer le mail</1>.",
                 "resendSuccess": "Mail envoyé avec succès !"
             }
         },
         "comingSoon": {
             "title": "Bientôt disponible !",
-            "description": "Nous n'avons actuellement pas de panneau actif dans {{selectedCountry}}, mais laissez-nous votre e-mail et nous vous informerons lorsque nous en ouvrirons un.",
+            "description": "Nous n'avons pas de panel actif pour {{selectedCountry}} actuellement, mais laissez-nous votre e-mail et nous vous informerons dès qu'un panel est disponible pour ce pays.",
             "success": {
                 "title": "Merci !",
-                "description": "Nous vous contacterons lorsque nous ouvrirons notre panel à {{selectedCountry}}.\n\nÀ bientôt !"
+                "description": "Nous vous contacterons lorsqu'un panel est disponible pour {{selectedCountry}}.\n\nÀ bientôt !"
             },
-            "gdpr": "Je veux recevoir une information lorsque IntelliZoom Panel ouvrira dans mon pays. $t(px-common:izPanel.common.requiredField)",
-            "yourLocation": "votre emplacement"
+            "gdpr": "Je veux recevoir un mail lorsque IntelliZoom Panel est disponible dans mon pays. $t(px-common:izPanel.common.requiredField)",
+            "yourLocation": "votre position"
         },
         "error": {
             "required": {
                 "field": "Ce champ est obligatoire.",
-                "gdpr": "Ce consentement est requis.",
+                "gdpr": "Votre consentement est requis ici.",
                 "terms": "Vous devez accepter les conditions d'utilisation et la politique de confidentialité."
             },
             "format": {
-                "email": "Merci d'utiliser un format d'e-mail valide. P. ex., name@email.com",
+                "email": "Merci de saisir une e-mail avec un format valide, ex. votrenom@email.com",
                 "genericFormat": "Le format n'est pas valide."
             },
             "registration": {
-                "existingEmail": "Il semble que vous soyez déjà inscrit ! Veuillez, <1>$t(px-common:izPanel.common.logInLowercase)</1>.",
+                "existingEmail": "Cette adresse e-mail existe déjà ! <1>$t(px-common:izPanel.common.logInImperative)</1>.",
                 "sendEmailFail": "Oups, une erreur est survenue et nous n'avons pas pu vous envoyer le mail de confirmation. Merci de réessayer plus tard.",
-                "passwordRequirements": "Le mot de passe ne répond pas aux exigences",
+                "passwordRequirements": "Ce mot de passe ne répond pas aux critères",
                 "emailLength": "Ouah ! Votre e-mail ne peut pas contenir 150 caractères...",
-                "passwordIncludesSpaces": "Le mot de passe ne peut pas commencer ou se terminer par un espace."
+                "passwordIncludesSpaces": "Votre mot de passe ne peut pas commencer ou se terminer par une espace."
             },
             "minTwoChars": {
-                "firstName": "Votre nom doit contenir au moins deux caractères.",
+                "firstName": "Votre prénom doit contenir au moins deux caractères.",
                 "lastName": "Votre nom de famille doit contenir au moins deux caractères."
             },
             "generic": "Oups, une erreur est survenue. Merci de réessayer plus tard.",
@@ -85,33 +85,33 @@
             },
             "login": {
                 "accountBlocked": "Nous avons bloqué l’accès à votre compte à la suite de multiples tentatives de connexion infructueuses.",
-                "accountInactive": "Votre compte n'a pas encore été activé. Souhaitez-vous que nous vous <1>renvoyions</1> l'e-mail de confirmation ?",
-                "expiredLink": "Le lien d'activation que vous avez suivi a expiré. Veuillez le <1>renvoyer</1> et réessayer.",
+                "accountInactive": "Votre compte n'a pas encore été activé ! Voulez-vous que nous vous <1>renvoyions</1> le mail de confirmation ?",
+                "expiredLink": "Le lien d'activation que vous avez suivi a expiré. Nous pouvons vous <1>envoyer un nouveau lien</1> pour réessayer.",
                 "invalidCredentials": "La combinaison de l'adresse e-mail et du mot de passe est incorrecte.",
-                "userNotFound": "Le lien d'activation que vous avez suivi a expiré et vos données ont été supprimées. Veuillez essayer de vous réinscrire.",
-                "wrongActivation": "Une erreur est survenue lors de l'activation de votre compte. Veuillez réessayer plus tard via le même e-mail de confirmation que nous vous avons envoyé auparavant.",
-                "wrongActivationWithLink": "Une erreur est survenue lors de l'activation de votre compte. Veuillez <1>renvoyer</1> l'e-mail de confirmation et réessayer.",
-                "accountDeactivated": "Votre compte a été désactivé. Si vous souhaitez le réactiver, veuillez [nous contacter] (https://help.intellizoom.com/hc/en-us/requests/new)."
+                "userNotFound": "Le lien d'activation que vous avez suivi a expiré et vos données ont été supprimées. Essayez de vous réinscrire.",
+                "wrongActivation": "Une erreur est survenue lors de l'activation de votre compte. Merci de réessayer plus tard en cliquant de nouveau sur le lien d'activation contenu dans le mail de confirmation.",
+                "wrongActivationWithLink": "Une erreur est survenue lors de l'activation de votre compte. Nous pouvons vous <1>renvoyer le mail de confirmation</1> pour réessayer.",
+                "accountDeactivated": "Votre compte a été désactivé. Si vous souhaitez le réactiver, [contactez-nous] (https://help.intellizoom.com/hc/en-us/requests/new)."
             },
             "forgotPassword": {
                 "sendEmailFail": "Oups, une erreur est survenue et nous n'avons pas pu vous envoyer le mail de réinitialisation de votre mot de passe. Merci de réessayer plus tard."
             },
             "resetPassword": {
                 "incorrectPassword": "Mot de passe actuel incorrect",
-                "expiredLink": "Le lien que vous avez suivi a expiré. Veuillez demander un nouveau lien à partir de la page [Mot de passe oublié](/forgot-password)."
+                "expiredLink": "Le lien que vous avez suivi a expiré. Pour recevoir un nouveau lien, allez dans [« Mot de passe oublié »](/forgot-password)."
             },
-            "limitExceeded": "Vous avez atteint le nombre maximal de tentatives. Veuillez réessayer plus tard.",
+            "limitExceeded": "Vous avez atteint le nombre maximal de tentatives. Merci de réessayer plus tard.",
             "demographics": {
-                "notUnderAge": "Votre enfant ne peut pas être âgé de plus de 18 ans."
+                "notUnderAge": "Votre enfant doit avoir moins de 18 ans."
             }
         },
         "footer": {
             "item": {
-                "faqPayments": "[Combien de temps prennent généralement les paiements ?](https://help.intellizoom.com/hc/en-us/articles/360000650458--When-and-how-much-will-I-get-paid-)",
-                "faqInvitations": "[Comment fonctionnent les invitations ?](https://help.intellizoom.com/hc/en-us/articles/360000658537-How-will-I-be-notified-of-new-studies-)",
-                "faqChangeEmail": "[Comment puis-je modifier mon adresse e-mail ?](https://help.intellizoom.com/hc/en-us/articles/360001190318-How-can-I-change-my-email-)",
-                "faqBrowseAll": "[Voir plus](https://help.intellizoom.com/hc/en-us)",
-                "sendEmail": "[Envoyez-nous un mail](https://help.intellizoom.com/hc/en-us/requests/new)",
+                "faqPayments": "[Quand vais-je recevoir mes gains ?](https://help.intellizoom.com/hc/fr/articles/17419741241619)",
+                "faqInvitations": "[Comment fonctionnent les invitations ?](https://help.intellizoom.com/hc/fr/articles/17408348012563)",
+                "faqChangeEmail": "[Comment puis-je modifier mon adresse e-mail ?](https://help.intellizoom.com/hc/fr/articles/17417709873683)",
+                "faqBrowseAll": "[Voir plus](https://help.intellizoom.com/hc/fr)",
+                "sendEmail": "[Centre de Soutien](https://help.intellizoom.com/hc/fr)",
                 "whatIsIZP": "Qu'est-ce que IntelliZoom Panel"
             },
             "title": {
@@ -131,21 +131,21 @@
         },
         "basicDemographics": {
             "flowTitle": "Parfait !\n\nCommençons",
-            "flowDescription": "Pour vous inviter aux tests, nous devons vous poser **juste trois questions basiques** de profilage.",
-            "flowLastQuestion": "Enfin et surtout...",
-            "progress": "Question {{currentQuestion}} de {{totalQuestions}}",
+            "flowDescription": "Pour pouvoir vous inviter aux tests, nous devons d'abord vous poser **quelques questions**.",
+            "flowLastQuestion": "Et pour finir…",
+            "progress": "Question {{currentQuestion}} sur {{totalQuestions}}",
             "success": {
                 "title": "Et voilà !",
-                "description": "Vous êtes maintenant prêt à commencer à participer à nos tests.\n\nContinuez à compléter votre profil afin que nous puissions vous inviter à des tests plus spécifiques (et mieux rémunérées).",
+                "description": "Vous pouvez maintenant participer à nos tests.\n\nComplétez votre profil au maximum pour recevoir des invitations à des tests qui vous correspondent (votre récompense sera plus importante).",
                 "cta": "Allons-y !"
             },
             "underage": {
                 "title": "Vous devez avoir au moins {{minimumLegalAge}} ans pour participer à nos tests",
-                "description": "Nous sommes désolés, mais nous ne pouvons pas vous inviter à nos tests ou vous permettre de continuer. Nous allons maintenant procéder à la suppression de votre compte IntelliZoom Panel et de toutes vos informations personnelles.\n\nNous vous remercions de votre intérêt."
+                "description": "Nous sommes désolés, mais vous n'avez pas l'âge minimal requis pour participer à nos tests. Nous allons maintenant supprimer votre compte IntelliZoom Panel, ainsi que toutes vos informations personnelles.\n\nNous serons ravis de vous revoir à vos 18 ans !"
             }
         },
         "login": {
-            "title": "Se connecter",
+            "title": "Accéder à votre compte",
             "forgotPassword": "Mot de passe oublié ?",
             "orSocialAccess": "ou continuez avec",
             "newHere": "Vous n'avez pas de compte ?",
@@ -160,7 +160,7 @@
             "description": "Saisissez votre adresse e-mail et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
             "success": {
                 "title": "Nous vous avons envoyé un mail pour réinitialiser votre mot de passe.",
-                "description": "Pour des raisons de sécurité, le lien expirera dans un délai de 24 heures.\n\nSi vous ne le voyez pas, vérifiez votre dossier de courrier indésirable. Nous pouvons également <1>renvoyer</1> l'e-mail."
+                "description": "Pour des raisons de sécurité, le lien expirera dans 24 heures.\n\nSi vous ne voyez pas le mail dans votre boîte de réception, pensez à vérifier vos spams. Nous pouvons également vous <1>renvoyer le mail</1>."
             }
         },
         "resetPassword": {
@@ -179,61 +179,61 @@
         "landing": {
             "heroSection": {
                 "title": "Votre opinion compte.",
-                "description": "Recevez une gratification pour partager vos expériences et avoir une influence sur les sites et apps que vous aimez et auxquels vous tenez.",
+                "description": "Gagnez des récompenses en aidant des marques internationales à améliorer leurs produits et leurs expériences digitales.",
                 "cta": "C'est parti !"
             },
             "featureBoxes": {
                 "first": {
-                    "title": "Faites-vous payer rapidement et facilement",
-                    "description": "Vous économisez pour quelque chose ou vous cherchez un peu d'argent de poche supplémentaire ? Rejoignez les personnes du monde entier qui gagnent un revenu supplémentaire en partageant leurs expériences."
+                    "title": "Gagnez de l'argent facilement et rapidement",
+                    "description": "Vous économisez pour quelque chose ou vous cherchez de l'argent de poche supplémentaire ? Rejoignez notre panel de testeurs et recevez des récompenses en échange de vos commentaires."
                 },
                 "second": {
                     "title": "Influencez les expériences digitales d'aujourd'hui et de demain",
-                    "description": "Ayez une influence immédiate sur les sites et apps que vous aimez et utilisez aujourd'hui en partageant votre opinion avec les personnes qui fabriquent et améliorent ces expériences digitales."
+                    "description": "Faites bouger les choses en partageant votre avis avec ceux et celles qui créent et améliorent les sites web et applications que vous utilisez tous les jours."
                 },
                 "third": {
                     "title": "Faites-le pendant votre temps libre",
-                    "description": "Vous avez 15 à 20 minutes disponibles ? Donner votre avis est facile. Participez aux tests à distance, selon votre emploi du temps, depuis votre domicile ou lors de vos déplacements, en utilisant votre propre appareil."
+                    "description": "Vous avez 15 à 20 minutes de disponibles ? Alors pourquoi ne pas partager votre avis ? Participez à nos tests à distance depuis votre domicile ou lors de vos déplacements, via votre smartphone, votre tablette ou votre ordinateur."
                 }
             },
             "reinforcingBanner": {
                 "phrase1": "Donnez votre avis",
-                "phrase2": "Recevez une gratification"
+                "phrase2": "Recevez des récompenses"
             },
             "faqs": {
                 "title": "Vous avez des questions ? Nous avons les réponses",
                 "faq1": {
-                    "title": "En combien de temps puis-je commencer à faire des tests ?",
-                    "description": "Dès que vous aurez terminé le processus d'inscription et répondu à trois questions de base sur le profilage."
+                    "title": "Quand pourrai-je participer aux tests ?",
+                    "description": "Dès que vous aurez terminé votre inscription et répondu à quelques questions."
                 },
                 "faq2": {
-                    "title": "Quelle est la durée des tests ?",
+                    "title": "Quelle est la durée d'un test ?",
                     "description": "La plupart des tests durent en moyenne 10 à 20 minutes."
                 },
                 "faq3": {
                     "title": "Quel âge dois-je avoir ?",
-                    "description": "Tous les participants doivent être âgés de 18 ans ou plus."
+                    "description": "Nos testeurs et testeuses doivent avoir 18 ans ou plus."
                 },
                 "faq4": {
                     "title": "Combien d'invitations pour des tests vais-je recevoir ?",
-                    "description": "Le nombre d'opportunités que vous recevrez dépendra de plusieurs facteurs, tels que vos données démographiques et votre note de qualité."
+                    "description": "Le nombre d'invitations que vous recevrez dépend de plusieurs facteurs, comme de vos informations personnelles ou de la qualité de vos réponses."
                 },
                 "faq5": {
-                    "title": "Combien d'argent pourrais-je gagner ?",
-                    "description": "La gratification dépend de la complexité du test. Pour les tests qui enregistrent du son et de la vidéo de think out loud, vous pouvez vous attendre à gagner 10 $ en moyenne. Pour les enquêtes standard, le paiement est de 2 $ en moyenne."
+                    "title": "Quels seront mes gains ?",
+                    "description": "La récompense dépend de la complexité du test. Pour les enregistrements audio et vidéo commentés à voix haute, les gains s'élèvent à 10 $ en moyenne. Pour les sondages et questionnaires standards, les gains sont de 2 $ en moyenne."
                 },
                 "faq6": {
-                    "title": "De quoi ai-je besoin pour participer à des tests ?",
+                    "title": "De quoi ai-je besoin pour participer aux tests ?",
                     "description": "Tout ce dont vous avez besoin, c'est d'un ordinateur, d'une tablette ou d'un smartphone, d'une connexion fiable à un réseau Wi-Fi, d'un endroit calme et de la possibilité de télécharger le logiciel de test certifié eCertified de UserZoom."
                 },
                 "faq7": {
-                    "title": "Quand recevrai-je mon argent ?",
-                    "description": "Les paiements sont envoyés via PayPal dans un délai de 21 jours ouvrables après la fin du test, une fois que vos résultats ont été examinés et approuvés. La plupart des résultats sont approuvés dans un délai de trois à cinq jours.\n\nVous recevrez le paiement grâce au même e-mail que celui utilisé pour vous inscrire."
+                    "title": "Quand vais-je recevoir mes gains ?",
+                    "description": "Les récompenses sont envoyées via PayPal dans un délai de 21 jours ouvrables après la fin du test, une fois vos réponses examinées et approuvées par notre équipe. Ces vérifications s'effectuent dans un délai de 3 à 5 jours.\n\nVous recevrez vos gains à l'adresse e-mail utilisée lors de votre inscription sur IntelliZoom."
                 }
             },
             "uzBanner": {
                 "title": "Est-ce la chouette que vous cherchez ?",
-                "description": "Si vous voulez en savoir plus sur IntelliZoom, la communauté en ligne gérée par UserZoom, [cliquez ici](https://www.userzoom.com/participant-sourcing/). Nous trouverons les meilleurs participants pour vos tests de recherche d'expérience utilisateur."
+                "description": "Si vous voulez en savoir plus sur IntelliZoom, le panel de testeurs géré par UserZoom, [cliquez ici](https://www.userzoom.com/participant-sourcing/). Nous trouverons les meilleurs participants pour vos études de recherche UX."
             }
         },
         "settings": {
@@ -241,22 +241,22 @@
             "account": {
                 "title": "Compte",
                 "credentials": {
-                    "title": "Accès aux e-mails",
+                    "title": "Accès aux mails",
                     "passwordLastUpdate": "Mis à jour le",
                     "changePassword": "Modifier le mot de passe"
                 },
                 "phone": {
                     "title": "Numéro de téléphone",
-                    "description": "Si vous ajoutez votre numéro de téléphone à votre compte, nous pourrons vous inviter à des sessions modérées. Une session modérée signifie essentiellement qu'un chercheur d'expérience utilisateur vous guide à travers l'une de ses tests et recueille vos commentaires.",
+                    "description": "Si vous ajoutez votre numéro de téléphone mobile, nous pourrons vous inviter à des sessions modérées. Un chercheur en expérience utilisateur sera présent lors de la session pour vous guider à travers les différentes étapes du test et pour recueillir vos commentaires.",
                     "addPhone": "Ajouter un numéro de téléphone"
                 },
                 "deactivateAccount": {
                     "title": "Désactiver votre compte",
-                    "description": "Si vous désactivez votre compte, vous perdrez toute les informations de votre profil et vous ne pourrez plus réaliser des tests rémunérées.",
-                    "cta": "Désactiver le compte",
+                    "description": "Si vous désactivez votre compte, vous perdrez toutes les informations de votre profil et vous ne pourrez plus participer à nos tests.",
+                    "cta": "Désactiver mon compte",
                     "confirmationModal": {
-                        "title": "Êtes-vous sûr ?",
-                        "description": "Vous perdrez toute les informations de votre profil et vous ne pourrez plus réaliser des tests rémunérées.",
+                        "title": "Voulez-vous vraiment désactiver votre compte ?",
+                        "description": "Vous perdrez toutes les informations de votre profil et vous ne pourrez plus participer à nos tests.",
                         "cta": "Oui, désactiver"
                     }
                 }
@@ -265,30 +265,30 @@
         },
         "studiesDashboard": {
             "completed": {
-                "sectionTitle": "Tests terminées",
+                "sectionTitle": "Tests terminés",
                 "completitionDate": "Terminé le {{date}}.",
-                "paymentsDescription": "N'oubliez pas que si votre participation est acceptée, le paiement peut prendre jusqu'à 21 jours ouvrables pour apparaître sur votre compte PayPal."
+                "paymentsDescription": "N’oubliez pas que si votre participation est validée, le versement des gains peut prendre jusqu'à 21 jours ouvrables pour apparaître sur votre compte PayPal."
             },
             "incompleteProfile": {
-                "title": "Recevez des invitations pour d'autres tests !",
-                "description": "Complétez vos informations personnelles dans « Mon profil » et nous pourrons vous inviter à des tests avec des critères plus spécifiques.",
+                "title": "Recevez encore plus d'invitations !",
+                "description": "Complétez vos informations personnelles dans « Mon profil » pour recevoir des invitations à des tests plus spécifiques.",
                 "cta": "Compléter mon profil"
             },
             "intro": {
                 "title": "Bienvenue {{userName}} !",
-                "descriptionFTU": "Voici le tableau de bord de vos tests. Vous y verrez les tests qui sont disponibles pour vous et quelques conseils utiles.\n\nNe tardez pas trop à y participer ! Elles ne sont généralement disponibles que pour une courte période de temps.",
-                "oneStudyAvailable": "Vous avez un test disponible",
+                "descriptionFTU": "Voici le tableau de bord de vos tests. Vous y trouverez les tests disponibles pour vous, ainsi que quelques conseils utiles.\n\nNe tardez pas trop à y participer ! Les tests ne sont généralement disponibles que pour une courte période de temps.",
+                "oneStudyAvailable": "Vous avez un test disponible ",
                 "severalStudiesAvailable": "Vous avez {{studiesAvailable}} tests disponibles",
-                "verb": "Vous avez",
-                "availableStudies": "{{count} test disponible",
-                "availableStudies_plural": "{{count} tests disponibles",
-                "scheduledStudies_plural": "et {{count}} programmée",
-                "scheduledStudies": "et {{count}} programmée",
-                "scheduledStudiesNoAvailableStudies": "{{count}} test programmée",
-                "scheduledStudiesNoAvailableStudies_plural": "{{count}} tests programmées"
+                "verb": "Vous avez ",
+                "availableStudies": "{{count} test disponible ",
+                "availableStudies_plural": "{{count} tests disponibles ",
+                "scheduledStudies_plural": "et {{count}} sessions programmées␣",
+                "scheduledStudies": "et {{count}} session programmée␣",
+                "scheduledStudiesNoAvailableStudies": "{{count}} session programmée␣",
+                "scheduledStudiesNoAvailableStudies_plural": "{{count}} sessions programmées␣"
             },
             "practiceStudy": {
-                "cta": "Réaliser un test d'essai"
+                "cta": "Passer le test pratique"
             },
             "reactiveMessage": {
                 "certification": {
@@ -298,48 +298,48 @@
                     },
                     "rejected": {
                         "title": "Test pratique",
-                        "description": "Le test pratique que vous nous avez envoyée ne répondait pas aux exigences de qualité que nous demandons pour ce type des tests.\n\nSi vous pensez qu'il s'agit d'une erreur ou si vous souhaitez une seconde chance, <1>{{contactUsLowercaseImperative}}</1>."
+                        "description": "Les résultats du test pratique que vous avez passé ne répondent pas à nos standards qualité pour ce type de tests.\n\nSi vous pensez qu'il s'agit d'une erreur, ou si vous souhaitez une seconde chance, <1>{{contactUsLowercaseImperative}}</1>."
                     },
                     "accepted": {
                         "title": "Félicitations !",
-                        "description": "Votre test pratique a été examinée et approuvée !\n\nNous allons maintenant pouvoir commencer à vous envoyer des invitations pour les tests Think Out Loud et Card Sort.",
+                        "description": "Votre test pratique a été examiné et approuvé !\n\nVous pouvez maintenant recevoir des invitations aux tests commentés à voix haute et aux tests de tri de cartes.",
                         "cta": "Génial !"
                     }
                 },
                 "unsubscribe": {
-                    "title": "Vous avez peur de rater quelque chose ? Ne manquez aucune invitation !",
-                    "description": "Activez les invitations aux tests de recherche d'expérience utilisateur et ne manquez plus jamais aucune de nos tests.",
-                    "cta": "Activer les invitations au test"
+                    "title": "Peur de rater quelque chose ? Ne manquez plus aucune invitation !",
+                    "description": "Activez les invitations à nos tests utilisateurs et ne manquez plus jamais aucun de nos tests.",
+                    "cta": "Activer les invitations aux tests"
                 }
             },
             "tip": {
                 "phone": {
                     "title": "Bonjour {{userName}},",
-                    "description": "Seriez-vous intéressé par des tests modérées ? Dans ce cas, un chercheur en expérience utilisateur vous guidera à travers l'une de ses tests et recueillera vos commentaires.",
+                    "description": "Souhaiteriez-vous participer à des tests modérés ? Un chercheur en expérience utilisateur sera présent pour vous guider lors du test et pour recueillir vos commentaires.",
                     "mainCTA": "Bien sûr",
                     "secondaryCTA": "Non, merci"
                 }
             },
             "availableStudiesTitle": "{{availableStudies}} tests disponibles",
-            "availableStudyTitle": "Un test disponible",
-            "emptyDescription": "Il n'y a pas des tests disponibles pour le moment.",
-            "noLongerAvailable": "Cette test n'est plus disponible",
-            "studyCTA": "Prenez cette test",
+            "availableStudyTitle": "1 test disponible",
+            "emptyDescription": "Il n'y a pas de test disponible pour vous actuellement. Restez à l'écoute !",
+            "noLongerAvailable": "Ce test n'est plus disponible",
+            "studyCTA": "Participer au test",
             "completeYourProfile": "<a href='{{profileLink}}'>Complétez votre profil</a> pour recevoir encore plus d'invitations à nos tests."
         },
         "myProfile": {
             "panelistName": "{{user.firstName}} {{user.lastName}}",
             "profileCompletion": {
                 "title": "Votre profil est complet à {{completionPercentage}} !",
-                "description": "Répondez aux questions dans les catégories ci-dessous et soyez invité à d'autres tests."
+                "description": "Répondez aux questions dans les catégories ci-dessous pour recevoir encore plus d’invitations."
             },
             "availableStudyTypes": {
                 "title": "Types des tests disponibles",
-                "description": "Complétez l'<1>test pratique</1> pour participer aux tests Think Out Loud et Card Sort."
+                "description": "Passez le <1>test pratique</1> pour pouvoir participer aux tests commentés à voix haute et aux tests de tri de cartes."
             },
             "categories": {
                 "title": "Informations personnelles",
-                "description": "Répondez à toutes les questions et complétez votre profil. Certaines tests exigent des critères très spécifiques, donc plus votre profil est complet et mis à jour, plus vous avez de chances d'y être invité.",
+                "description": "Répondez à toutes les questions, puis complétez votre profil. Des profils très spécifiques sont recherchés pour certains tests. Plus votre profil est complet et mis à jour régulièrement, plus vous avez de chances de recevoir des invitations.",
                 "complete": "Terminé",
                 "questionsPending": "{{numberQuestionsPending}} questions restantes",
                 "editCTA": "Consulter/Modifier",
@@ -350,108 +350,108 @@
             "categories": {
                 "aboutMe": "À propos de moi",
                 "healthAndFitness": "Santé et forme physique",
-                "hobbiesAndInterests": "Passe-temps et intérêts",
+                "hobbiesAndInterests": "Passe-temps et centres d'intérêt",
                 "household": "Foyer",
                 "financial": "Finances",
                 "occupation": "Profession",
-                "technology": "Technologie",
+                "technology": "Technologies",
                 "travel": "Voyages"
             },
             "success": {
                 "title": "Génial !",
-                "description": "Vous pouvez maintenant être invité à des tests qui correspondent à votre profil {{categoryFilled}}.\n\nN'oubliez pas que vous pouvez toujours <0>examiner ou modifier</0> vos informations de {{categoryFilled}} depuis la section « Mon profil ».",
+                "description": "Vous pouvez maintenant recevoir des invitations à des tests qui correspondent à votre profil {{categoryFilled}}.\n\nN'oubliez pas que vous pouvez toujours <0>consulter ou modifier</0> vos informations {{categoryFilled}} depuis la section « Mon profil ».",
                 "backToMyProfile": "Retour à « Mon profil »",
                 "moreCategories": {
                     "title": "Continuez sur votre élan !",
-                    "description": "Répondez à **seulement {{numberQuestionsMissing}} questions** sur {{categoryMissing}} pour pouvoir recevoir des invitations à d'autres tests.",
+                    "description": "Répondez à **seulement {{numberQuestionsMissing}} questions** {{categoryMissing}} pour pouvoir recevoir des invitations à d'autres tests.",
                     "letsDoThis": "C'est parti !"
                 }
             },
             "aboutMe": {
-                "nonEditableFields": "Si vous souhaitez modifier les informations relatives à votre date de naissance, votre sexe ou votre pays, veuillez [nous contacter](https://help.intellizoom.com/hc/en-us/requests/new) avec notre équipe d'assistance."
+                "nonEditableFields": "Pour modifier les informations relatives à votre date de naissance, votre genre ou votre pays, nous vous invitons à [prendre contact](https://help.intellizoom.com/hc/en-us/requests/new) avec notre équipe d'assistance."
             }
         },
         "reEngagement": {
             "title": "Bienvenue {{userName}} !",
-            "description": "Comme il s'agit d'un tout nouveau site Web, nous allons commencer par définir un tout nouveau mot de passe pour votre compte.\n\nCliquez sur « Demander un nouveau mot de passe » et nous vous enverrons un e-mail avec un lien pour le réinitialiser.",
-            "cta": "Demander un nouveau mot de passe",
+            "description": "Comme il s'agit d'un tout nouveau site web, commençons par définir un nouveau mot de passe pour votre compte.\n\nCliquez sur « Définir un nouveau mot de passe » et nous vous enverrons un mail avec un lien pour réinitialiser votre mot de passe.",
+            "cta": "Définir un nouveau mot de passe",
             "success": {
-                "title": "Nous vous avons envoyé un e-mail pour demander un nouveau mot de passe.",
-                "description": "Pour des raisons de sécurité, le lien expirera dans 24 heures.\n\nSi vous ne le voyez pas, vérifiez votre dossier de courrier indésirable. Nous pouvons également <1>renvoyer</1> l'e-mail."
+                "title": "Nous vous avons envoyé un mail pour réinitialiser votre mot de passe",
+                "description": "Pour des raisons de sécurité, le lien expirera dans 24 heures.\n\nSi vous ne voyez pas le mail dans votre boîte de réception, pensez à vérifier vos spams. Nous pouvons également vous <1>renvoyer le mail</1>."
             },
             "wud": {
-                "titleName": "Bienvenue au Panel d'IntelliZoom {{userName}} !",
-                "title": "Bienvenue au Panel d'IntelliZoom !",
-                "description": "Nous allons transférer toutes les informations de votre profil de WhatUsersDo vers notre plate-forme, mais comme il s'agit d'un tout nouveau site Web, commençons par demander un tout nouveau mot de passe pour votre compte.\n\nCliquez sur « Demander un nouveau mot de passe » et nous vous enverrons un e-mail avec un lien pour le faire.",
-                "cta": "Demander un nouveau mot de passe",
+                "titleName": "Bienvenue sur IntelliZoom Panel {{userName}} !",
+                "title": "Bienvenue sur IntelliZoom Panel !",
+                "description": "Nous allons transférer toutes les informations de votre profil WhatUsersDo vers notre plateforme. Mais comme il s'agit d'un tout nouveau site web, commençons par définir un nouveau mot de passe pour votre compte.\n\nCliquez sur « Définir un nouveau mot de passe » et nous vous enverrons un mail avec un lien pour réinitialiser votre mot de passe.",
+                "cta": "Définir un nouveau mot de passe",
                 "modal": {
                     "title": "Activez les invitations aux tests pour pouvoir y participer",
-                    "bodycopy": "Si vous ne les activez pas, vous ne verrez aucune test sur votre tableau de bord des tests et ne recevrez aucune invitation par e-mail.",
+                    "bodycopy": "Si vous n'activez pas ces invitations, vous ne verrez aucun test disponible sur votre tableau de bord et ne recevrez aucune invitation par mail.",
                     "cta": "Activer les invitations aux tests"
                 }
             }
         },
         "success": {
             "resend": {
-                "email": "E-mail envoyé !"
+                "email": "Mail envoyé avec succès !"
             }
         },
         "finalPages": {
             "complete": {
-                "title": "Vous avez terminé le test. Merci d'avoir partagé vos réflexions !",
-                "description": "Une fois que vos résultats auront été examinés et approuvés, nous traiterons votre paiement via PayPal sur le même compte de messagerie que vous avez utilisé lors de votre inscription au Panel IntelliZoom.\n\nCe processus peut prendre jusqu'à 21 jours ouvrables. Dans l'intervalle, vous pouvez continuer à participer à d'autres tests !",
-                "cta": "Vérifiez les tests disponibles"
+                "title": "Vous avez terminé ce test. Merci d'avoir partagé votre avis !",
+                "description": "Une fois vos réponses examinées et approuvées, vous recevrez vos gains via PayPal à la même adresse e-mail que celle utilisée pour vous inscrire sur IntelliZoom Panel.\n\nCe processus peut prendre jusqu'à 21 jours ouvrables. En attendant, vous pouvez participer à d'autres tests !",
+                "cta": "Voir les tests disponibles"
             },
             "alreadyTaken": {
-                "title": "Vous avez déjà terminé cette test. Merci d'y avoir participé !",
-                "description": "Une fois que vos résultats auront été examinés et approuvés, nous traiterons votre paiement via PayPal sur le même compte de messagerie que vous avez utilisé lors de votre inscription au Panel d'IntelliZoom.\n\nCe processus peut prendre jusqu'à 21 jours ouvrables. Dans l'intervalle, vous pouvez continuer à participer à d'autres tests !",
-                "cta": "Vérifiez les tests disponibles"
+                "title": "Vous avez déjà terminé ce test. Merci d'y avoir participé !",
+                "description": "Une fois vos réponses examinées et approuvées, vous recevrez vos gains via PayPal à la même adresse e-mail que celle utilisée pour vous inscrire sur IntelliZoom Panel.\n\nCe processus peut prendre jusqu'à 21 jours ouvrables. En attendant, vous pouvez participer à d'autres tests !",
+                "cta": "Voir les tests disponibles"
             },
             "screenout": {
-                "title": "Oups ! Vous n'étiez pas qualifié pour cette test, mais vous pourriez être parfait pour la prochaine !",
-                "description": "Merci {{user.name}} d'avoir pris le temps de répondre quand même.\n\nAssurez-vous que [votre profil est complet](/profile) et à jour pour recevoir le plus d'invitations précises possible.",
-                "cta": "Vérifier les tests disponibles"
+                "title": "Zut ! Vous ne pouvez pas poursuivre avec ce test, mais d’autres tests n'attendent que vous !",
+                "description": "Merci d’avoir pris le temps de participer à ce test {{user.name}}.\n\nAssurez-vous que [votre profil est complet](/profile) et à jour pour recevoir des invitations qui vous correspondent davantage.",
+                "cta": "Voir les tests disponibles"
             },
             "cheater": {
-                "title": "Désolé, mais vos résultats ne répondent pas à nos normes de qualité.",
-                "description": "Nous prenons la qualité des réponses de nos tests extrêmement au sérieux.\n\nC'est pourquoi nous exigeons :\n\n- Que le test soit complètement terminée.\n\n- Que les commentaires des participants soient nombreux et de qualité.\n\n- Que le participant passe un temps raisonnable à regarder et à interagir avec les sites évalués.\n\nMalheureusement, vos résultats ne répondent pas à ces normes et nous ne sommes pas en mesure de vous offrir une récompense cette fois-ci. Nous détestons le faire, mais les raisons sont importantes pour nous, c'est pourquoi nous vous recommandons vivement d'investir plus de temps et d'efforts dans les tests futures.",
+                "title": "Désolé, mais vos réponses ne correspondent pas à nos standards qualité.",
+                "description": "Nous prenons la qualité des réponses à nos tests très au sérieux.\n\nC'est pourquoi nous exigeons :\n\n- Que le test soit complété dans son entièreté.\n\n- Que les commentaires de nos testeurs et testeuses soient nombreux et de qualité.\n\n- Que nos testeurs et testeuses passent suffisamment de temps à consulter et à interagir avec les sites évalués.\n\nMalheureusement, vos réponses ne correspondent pas à ces critères et nous ne pouvons pas vous donner votre récompense. Nous n'aimons pas prendre ce genre de décisions, mais ces critères sont très importants pour nous. C'est pourquoi nous vous recommandons vivement d'investir plus de temps et d'efforts dans vos prochaines participations.",
                 "cta": "Retour aux tests disponibles"
             },
             "speeder": {
-                "title": "Vous avez terminé cette test trop vite.",
-                "description": "C'est-à-dire plus vite qu'on ne peut raisonnablement s'attendre à ce qu'il faille à quelqu'un pour la terminer de bonne foi. Bien que nous comprenions le besoin de rapidité et le désir de compléter plus des tests, nous prenons la qualité des réponses extrêmement au sérieux.\n\nMalheureusement, nous devons rejeter vos résultats et ne pourrons pas vous offrir de récompense cette fois-ci. Nous détestons le faire, mais les raisons sont importantes pour nous, c'est pourquoi nous vous recommandons vivement d'investir plus de temps et d'efforts dans les tests futures.",
+                "title": "Vous avez terminé ce test beaucoup trop vite.",
+                "description": "Trop vite, c'est-à-dire bien plus rapidement que la durée moyenne estimée pour une participation honnête. Nous comprenons que nos testeurs et testeuses souhaitent participer à un maximum de tests, mais nous prenons la qualité des réponses à nos tests très au sérieux.\n\nPour cette raison, nous ne pouvons malheureusement pas vous donner votre récompense cette fois-ci. Nous vous recommandons d'investir plus de temps et d'efforts dans vos prochaines participations.",
                 "cta": "Retour aux tests disponibles"
             },
             "closed": {
-                "title": "Le test que vous avez essayé d'entrer a été fermée.",
-                "description": "Vite ! Voyons s'il en existe une autre à laquelle vous pourriez participer.",
-                "cta": "Vérifier les tests disponibles"
+                "title": "Cette étude est terminée.",
+                "description": "Vite ! Voyons s'il y a d'autres tests auxquels vous pourriez participer.",
+                "cta": "Voir les tests disponibles"
             },
             "quotafull": {
-                "title": "Le test à laquelle vous avez essayé de participer vient d'atteindre le nombre de réponses requis.",
-                "description": "Vite ! Voyons s'il y a une autre test à laquelle vous pouvez participer.",
-                "cta": "Vérifier les tests disponibles"
+                "title": "Ce test a déjà atteint le nombre requis de participations.",
+                "description": "Vite ! Voyons s'il y a d'autres tests auxquels vous pourriez participer.",
+                "cta": "Voir les tests disponibles"
             },
-            "practiceStudy": "Si le test que vous avez suivie est une test pratique, nous vous contacterons dès que nous aurons examiné vos résultats. N'oubliez pas que les tests pratiques ne donnent pas droit à une gratification.",
+            "practiceStudy": "Si le test que vous venez de terminer est un test pratique, nous vous contacterons après examen de vos résultats. N'oubliez pas que les tests pratiques ne donnent pas droit à une récompense.",
             "moderatedSessionAboutToStart": {
-                "title": "Tu es programée pour une session en ce moment. \nPour continuer, connecte-toi à ton compte.",
-                "cta": "Connectez-vous"
+                "title": "Vous avez une session programmée maintenant. \nPour continuer, connectez-vous à votre compte.",
+                "cta": "Me connecter"
             }
         },
         "errorPages": {
             "generic": {
                 "title": "Oh là là, cette page ne fonctionne pas.",
-                "description": "Nous en prenons note.\n\nEn attendant, vous souhaitez vérifier quelles [tests](/studies) sont disponibles ?"
+                "description": "Nous en prenons note.\n\nEn attendant, voulez-vous voir si [d'autres tests](/studies) sont disponibles ?"
             },
             "uz": {
                 "generic": {
-                    "title": "Oups, quelque chose a mal tourné",
-                    "description": "Nous n'arrivons pas à charger cette page. Veuillez réessayer dans quelques minutes."
+                    "title": "Oups, une erreur est survenue",
+                    "description": "Nous n'arrivons pas à charger cette page. Merci de réessayer dans quelques minutes."
                 }
             },
             "500": {
                 "title": "Et... non. Le serveur ne répond pas.",
-                "description": "Désolé pour le dérangement. Veuillez <1>essayer à nouveau</1> dans quelques minutes."
+                "description": "Désolé pour ce désagrément. Merci de <1>réessayer</1> dans quelques minutes."
             }
         },
         "paypalToken": {
@@ -459,74 +459,74 @@
                 "status": {
                     "noIntegration": {
                         "title": "Connectez votre compte PayPal à IntelliZoom !",
-                        "description": "Grâce à notre nouvelle intégration avec PayPal, vous serez payé en toute sécurité et à temps après chaque session de recherche rémunérée.",
-                        "cta": "Connectez-vous avec PayPal"
+                        "description": "Grâce à notre nouvelle intégration avec PayPal, vous recevrez vos gains à temps, et en toute sécurité, après chaque test complété.",
+                        "cta": "Connecter mon compte PayPal"
                     },
                     "noTolUnverified": {
-                        "title": "Une étape de plus !",
-                        "description": "Pour commencer à participer à des tests de recherche rémunérées, vous pouvez soit suivre le test pratique, soit [vérifier votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                        "title": "Une dernière étape !",
+                        "description": "Pour pouvoir participer à nos tests, vous pouvez soit passer le test pratique, soit [vérifier votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
                     },
                     "connectionLost": {
-                        "title": "Désolé, nous ne pouvons pas vous payer...",
-                        "description": "Votre compte PayPal a été déconnecté d'IntelliZoom. Pour recevoir un paiement et participer à de futures tests, votre compte PayPal doit être connecté.",
-                        "cta": "Connectez-vous avec PayPal"
+                        "title": "Désolé, nous ne pouvons pas vous donner votre récompense...",
+                        "description": "Votre compte PayPal a été dissocié de votre compte IntelliZoom. Pour recevoir vos gains et participer à d'autres tests, vos comptes PayPal et IntelliZoom doivent être liés.",
+                        "cta": "Connecter mon compte PayPal"
                     }
                 },
                 "outcome": {
                     "success": {
                         "verified": {
-                            "title": "Félicitations ! Votre compte PayPal a été connecté avec succès",
-                            "description": "Prenons quelques tests payées pour fêter ça."
+                            "title": "Félicitations ! Vos comptes PayPal et IntelliZoom sont liés",
+                            "description": "Participons à quelques tests pour fêter ça."
                         },
                         "notVerifiedTol": {
-                            "title": "Félicitations ! Votre compte PayPal a été connecté avec succès",
-                            "description": "Si vous voulez être éligible pour participer à d'autres tests de recherche rémunérées, [vérifiez votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                            "title": "Félicitations ! Vos comptes PayPal et IntelliZoom sont liés",
+                            "description": "Pour pouvoir participer à nos tests, [vérifiez votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
                         },
                         "notVerifiedNoTol": {
-                            "title": "Félicitations ! Votre compte PayPal a été connecté avec succès.",
-                            "description": "Pour commencer à participer à des tests de recherche rémunérées, vous pouvez soit suivre le test pratique, soit [vérifier votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                            "title": "Vos comptes PayPal et IntelliZoom sont dissociés",
+                            "description": "Pour pouvoir participer à nos tests, vous pouvez soit passer le test pratique, soit [vérifier votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
                         }
                     },
                     "error": {
                         "location": {
-                            "title": "Désolé, nous ne pouvons pas vous payer...",
-                            "description": "Vos deux comptes PayPal et IntelliZoom doivent avoir les mêmes informations de localisation. Actualisez la page si vous voulez réessayer."
+                            "title": "Désolé, nous ne pouvons pas vous donner votre récompense...",
+                            "description": "Vos comptes PayPal et IntelliZoom doivent avoir les mêmes informations de localisation. Actualisez la page pour réessayer."
                         },
                         "severalAccounts": {
-                            "title": "Désolé, nous ne pouvons pas vous payer...",
-                            "description": "Votre compte PayPal est déjà utilisé pour un autre compte IntelliZoom. Actualisez la page si vous voulez réessayer."
+                            "title": "Désolé, nous ne pouvons pas vous donner votre récompense...",
+                            "description": "Votre compte PayPal est déjà associé à un autre compte IntelliZoom. Actualisez la page pour réessayer."
                         },
                         "accessDenied": {
-                            "title": "Votre PayPal n'a pas été connecté parce que vous n'avez pas autorisé l'accès à IntelliZoom",
-                            "cta": "Essayez à nouveau"
+                            "title": "Nous n'avons pas pu connecter votre compte PayPal, car vous n'avez pas autorisé l'accès à IntelliZoom",
+                            "cta": "Réessayer"
                         },
                         "noLongerVerified": {
-                            "title": "Votre PayPal n'est plus vérifié",
-                            "description": "Veuillez suivre ces [instructions](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) pour vérifier votre compte PayPal et réessayer."
+                            "title": "Votre compte PayPal n'est plus vérifié",
+                            "description": "Nous vous invitons à suivre ces [instructions](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) pour vérifier votre compte PayPal, puis à réessayer."
                         }
                     }
                 }
             },
             "studyEntrance": {
                 "notVerified": {
-                    "title": "Vous devez d'abord connecter votre compte PayPal",
-                    "description": "Vous ne pouvez pas participer à nos tests, car votre compte PayPal n'est pas connecté. Si vous n'avez pas encore de compte PayPal, vous pouvez en créer un gratuitement !",
+                    "title": "Vous devez d'abord connecter votre compte PayPal à IntelliZoom",
+                    "description": "Vous ne pouvez pas participer à nos tests tant que vos comptes PayPal et IntelliZoom ne sont pas liés. Si vous n'avez pas encore de compte PayPal, vous pouvez en créer un gratuitement !",
                     "cta": "Aller au tableau de bord"
                 }
             },
             "settings": {
                 "connect": {
                     "title": "Connectez votre PayPal",
-                    "description": "Assurez-vous de recevoir vos paiements à temps en synchronisant votre compte avec PayPal.",
+                    "description": "Recevez vos gains rapidement en liant vos comptes PayPal et IntelliZoom.",
                     "cta": "Connecter mon PayPal"
                 },
                 "disconnect": {
-                    "title": "PayPal : connecté",
-                    "description": "Votre compte est connecté avec succès à PayPal.",
-                    "cta": "Se déconnecter de PayPal",
+                    "title": "PayPal - Lié à IntelliZoom",
+                    "description": "Vos comptes PayPal et IntelliZoom ont été liés avec succès !",
+                    "cta": "Déconnecter mon compte PayPal",
                     "doubleConfirmation": {
-                        "title": "Êtes-vous sûr de vouloir déconnecter votre PayPal ?",
-                        "description": "Si vous le faites, vous ne recevrez plus d'invitations à des tests payantes. Vous renoncerez également à tout paiement en attente pour des tests que vous avez pu terminer récemment.",
+                        "title": "Voulez-vous vraiment dissocier vos comptes PayPal et IntelliZoom ?",
+                        "description": "Vous ne recevrez plus d'invitations à nos tests. Vous renoncez également à vos gains en attente pour les tests que vous avez pu terminer récemment.",
                         "cta": "Déconnecter mon PayPal"
                     }
                 }
@@ -535,10 +535,10 @@
         "demographicsUpdate": {
             "complete": {
                 "title": "🎉 Merci d'avoir actualisé votre profil",
-                "description": "C'est grâce à votre participation que nous pouvons offrir un service impeccable",
+                "description": "C'est grâce à votre participation que nous pouvons offrir un service de qualité à nos utilisateurs.",
                 "cta": "Voir les tests disponibles"
             },
-            "infoMessage": "Les données que vous nous fournissez nous permettent de trouver les tests les plus adaptées à votre profil."
+            "infoMessage": "Les informations que vous nous fournissez nous permettent de trouver les tests les plus adaptés à votre profil."
         }
     }
 }
