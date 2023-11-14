@@ -288,21 +288,21 @@
                 "scheduledStudiesNoAvailableStudies_plural": "{{count}} sessions programmées␣"
             },
             "practiceStudy": {
-                "cta": "Passer le test pratique"
+                "cta": "Passer le test d'entraînement"
             },
             "reactiveMessage": {
                 "certification": {
                     "underRevision": {
-                        "title": "Test pratique",
-                        "description": "Notre équipe est en train d'examiner votre test pratique et vous fera part de ses commentaires sous peu !"
+                        "title": "Test d'entraînement",
+                        "description": "Notre équipe est en train d'examiner votre test d'entraînement et vous fera part de ses commentaires sous peu !"
                     },
                     "rejected": {
-                        "title": "Test pratique",
-                        "description": "Les résultats du test pratique que vous avez passé ne répondent pas à nos standards qualité pour ce type de tests.\n\nSi vous pensez qu'il s'agit d'une erreur, ou si vous souhaitez une seconde chance, <1>{{contactUsLowercaseImperative}}</1>."
+                        "title": "Test d'entraînement",
+                        "description": "Les résultats du test d'entraînement que vous avez passé ne répondent pas à nos standards qualité pour ce type de tests.\n\nSi vous pensez qu'il s'agit d'une erreur, ou si vous souhaitez une seconde chance, <1>{{contactUsLowercaseImperative}}</1>."
                     },
                     "accepted": {
                         "title": "Félicitations !",
-                        "description": "Votre test pratique a été examiné et approuvé !\n\nVous pouvez maintenant recevoir des invitations aux tests commentés à voix haute et aux tests de tri de cartes.",
+                        "description": "Votre test d'entraînement a été examiné et approuvé !\n\nVous pouvez maintenant recevoir des invitations aux tests commentés à voix haute et aux tests de tri de cartes.",
                         "cta": "Génial !"
                     }
                 },
@@ -335,7 +335,7 @@
             },
             "availableStudyTypes": {
                 "title": "Types des tests disponibles",
-                "description": "Passez le <1>test pratique</1> pour pouvoir participer aux tests commentés à voix haute et aux tests de tri de cartes."
+                "description": "Passez le <1>test d'entraînement</1> pour pouvoir participer aux tests commentés à voix haute et aux tests de tri de cartes."
             },
             "categories": {
                 "title": "Informations personnelles",
@@ -432,7 +432,7 @@
                 "description": "Vite ! Voyons s'il y a d'autres tests auxquels vous pourriez participer.",
                 "cta": "Voir les tests disponibles"
             },
-            "practiceStudy": "Si le test que vous venez de terminer est un test pratique, nous vous contacterons après examen de vos résultats. N'oubliez pas que les tests pratiques ne donnent pas droit à une récompense.",
+            "practiceStudy": "Si le test que vous venez de terminer est un test d'entraînement, nous vous contacterons après examen de vos résultats. N'oubliez pas que les tests pratiques ne donnent pas droit à une récompense.",
             "moderatedSessionAboutToStart": {
                 "title": "Vous avez une session programmée maintenant. \nPour continuer, connectez-vous à votre compte.",
                 "cta": "Me connecter"
@@ -464,7 +464,7 @@
                     },
                     "noTolUnverified": {
                         "title": "Une dernière étape !",
-                        "description": "Pour pouvoir participer à nos tests, vous pouvez soit passer le test pratique, soit [vérifier votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                        "description": "Pour pouvoir participer à nos tests, vous pouvez soit passer le test d'entraînement, soit [vérifier votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
                     },
                     "connectionLost": {
                         "title": "Désolé, nous ne pouvons pas vous donner votre récompense...",
@@ -484,7 +484,7 @@
                         },
                         "notVerifiedNoTol": {
                             "title": "Vos comptes PayPal et IntelliZoom sont dissociés",
-                            "description": "Pour pouvoir participer à nos tests, vous pouvez soit passer le test pratique, soit [vérifier votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                            "description": "Pour pouvoir participer à nos tests, vous pouvez soit passer le test d'entraînement, soit [vérifier votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
                         }
                     },
                     "error": {

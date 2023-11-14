@@ -110,8 +110,8 @@
                     "description": "Dans ce type de tests, nous nous intéressons à la façon dont vous groupez des objets ensemble. Cela permet aux spécialistes en expérience utilisateur de comprendre votre raisonnement et d'adapter leurs produits.\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Partagez simplement votre opinion."
                 },
                 "practice": {
-                    "title": "Test pratique",
-                    "description": "Passez notre test pratique et devenez maître en matière de commentaires.\n\nSi vous réussissez ce test pratique, nous pourrons vous inviter à des tests qui offrent des gains plus importants."
+                    "title": "Test d'entraînement",
+                    "description": "Passez notre test d'entraînement et devenez maître en matière de commentaires.\n\nSi vous réussissez ce test d'entraînement, nous pourrons vous inviter à des tests qui offrent des gains plus importants."
                 },
                 "survey": {
                     "description": "Une enquête standard de type question-réponse. Sans effets spéciaux !\n\nN'oubliez pas qu'il n'y a pas de mauvaises réponses. Partagez simplement votre opinion.",
