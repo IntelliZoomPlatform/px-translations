@@ -50,16 +50,16 @@
                 "bodyCopy": "Vous devriez maintenant avoir {{studyFee}} de plus sur le compte PayPal :<br>{{user.email}}<br><br>Cette récompense concerne le test : {{projectId}}"
             },
             "certificationApproved": {
-                "subject": "Vous avez passé votre test pratique avec succès !",
-                "title": "Bonjour {{user.name}}, vous avez fait un excellent travail dans votre test pratique !",
+                "subject": "Vous avez passé votre test d'entraînement avec succès !",
+                "title": "Bonjour {{user.name}}, vous avez fait un excellent travail dans votre test d'entraînement !",
                 "bodyCopyOne": "Vous vous exprimez avec clarté et savez partager vos pensées et vos idées. Vous êtes exactement le type de panéliste que nous espérions trouver !",
                 "bodyCopyTwo": "Vous pouvez maintenant recevoir des invitations à nos tests commentés à voix haute et nos tests de tri de cartes. Ces tests offrent généralement des gains plus importants. ;)"
             },
             "certificationRejected": {
-                "subject": "Votre test pratique n'a pas été approuvé",
-                "title": "Bonjour {{user.name}}, le test pratique que vous avez passé n’a pas été approuvé",
-                "bodyCopyOne": "Nous sommes désolés de vous informer que les résultats de votre test pratique ne répondent pas à nos standards qualité pour les tests commentés à voix haute et les tests de tri de cartes.",
-                "bodyCopyTwo": "Si vous pensez qu'il s'agit d'une erreur, ou si vous souhaitez une seconde chance, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> et nous serons ravis de réactiver le test pratique pour vous."
+                "subject": "Votre test d'entraînement n'a pas été approuvé",
+                "title": "Bonjour {{user.name}}, le test d'entraînement que vous avez passé n’a pas été approuvé",
+                "bodyCopyOne": "Nous sommes désolés de vous informer que les résultats de votre test d'entraînement ne répondent pas à nos standards qualité pour les tests commentés à voix haute et les tests de tri de cartes.",
+                "bodyCopyTwo": "Si vous pensez qu'il s'agit d'une erreur, ou si vous souhaitez une seconde chance, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> et nous serons ravis de réactiver le test d'entraînement pour vous."
             },
             "generic": {
                 "genericClosing": "Cordialement,<br>L'équipe IntelliZoom Panel",
@@ -79,8 +79,8 @@
                 "bodyCopy": "Bonjour {{user.name}},<br><br>Nous avons supprimé votre compte IntelliZoom et vos informations de notre système. (Ce mail sera la dernière communication que vous recevrez de notre part.)<br><br>Si vous n'êtes pas à l'origine de cette demande, il se peut que cette suppression soit due à une longue période d'inactivité ou à une mauvaise utilisation de notre plateforme entraînant une violation de nos <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br><br>Si vous pensez qu'il s'agit d'une erreur, ou si vous souhaitez obtenir des informations complémentaires, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> ou visitez notre <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
             },
             "practiceStudyComplete": {
-                "subject": "Vous avez terminé le test pratique !",
-                "title": "Merci d'avoir passé notre test pratique !",
+                "subject": "Vous avez terminé le test d'entraînement !",
+                "title": "Merci d'avoir passé notre test d'entraînement !",
                 "bodyCopy": "Nous examinerons votre participation le plus vite possible et nous vous enverrons un mail pour vous faire part de notre décision.<br> Si votre participation est approuvée, nous pourrons vous inviter à des tests commentés à voix haute et des tests de tri de cartes.<br> Ces tests offrent généralement des gains plus importants. ;)"
             },
             "PayPal": {
