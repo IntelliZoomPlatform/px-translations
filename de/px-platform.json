@@ -228,7 +228,7 @@
                 },
                 "faq7": {
                     "title": "Wann werde ich bezahlt?",
-                    "description": "Prämien werden üblicherweise innerhalb von 14 Tagen nach Testabschluss ausgezahlt. Du erhältst die Zahlung an dieselbe E-Mail mit der du dich registriert hast."
+                    "description": "Die Prämie wird via PayPal innerhalb 21 Werktagen nach Abschluss der Studie ausbezahlt, wenn Dein Ergebnis gesichtet und bestätigt wurde. Die meisten Ergebnisse werden innerhalb von 3-5 Tagen bestätigt. \n\nDie Auszahlung wird an die selbe E-Mail-Adresse getätigt mit der Du Dich zu IntelliZoom Panel registriert hast."
                 }
             },
             "uzBanner": {
@@ -267,7 +267,7 @@
             "completed": {
                 "sectionTitle": "Absolvierte Studien",
                 "completitionDate": "Absolviert am {{date}}.",
-                "paymentsDescription": "Erinnere Dich, dass bei Annahme Deiner Teilnahme die Bezahlung bis zu 14 Werktage beanspruchen kann, um in Deinem PayPal Konto aufzuscheinen."
+                "paymentsDescription": "Erinnere Dich, dass bei Annahme Deiner Teilnahme die Bezahlung bis zu 21 Werktage beanspruchen kann, um in Deinem PayPal Konto aufzuscheinen."
             },
             "incompleteProfile": {
                 "title": "Werde zu mehr Studien eingeladen!",
@@ -399,12 +399,12 @@
         "finalPages": {
             "complete": {
                 "title": "Du hast die Studie abgeschlossen. Danke für’s teilen Deiner Eindrücke!",
-                "description": "Wir werden deine Zahlung über PayPal an dieselbe E-Mail-Adresse überweisen, die du zur Registrierung bei IntelliZoom Panel verwendet hast. \n\nDieser Prozess dauert in der Regel 14 Tage. In der Zwischenzeit kannst du an weiteren Studien teilnehmen!",
+                "description": "Sobald Deine Ergebnisse von uns gesichtet und bestätigt wurden, beauftragen wir die Zahlung mittels PayPal an die selbe E-Mail-Adresse die Du zur Registrierung bei IntelliZoom Panel benützt hast.\n\nDieser Prozess kann bis zu 21 Werktage benötigen. In der Zwischenzeit kannst Du an weiteren Studien teilnehmen.",
                 "cta": "Verfügbare Studien ansehen"
             },
             "alreadyTaken": {
                 "title": "Du hast diese Studie bereits abgeschlossen. Danke für Deine Teilnahme!",
-                "description": "Wir werden deine Zahlung über PayPal an dieselbe E-Mail-Adresse überweisen, die du zur Registrierung bei IntelliZoom Panel verwendet hast. Dieser Prozess dauert in der Regel 14 Tage. In der Zwischenzeit kannst du an weiteren Studien teilnehmen!",
+                "description": "Sobald Deine Ergebnisse von uns gesichtet und bestätigt wurden, beauftragen wir die Zahlung mittels PayPal an die selbe E-Mail-Adresse die Du zur Registrierung bei IntelliZoom Panel benützt hast.\n\nDieser Prozess kann bis zu 21 Werktage benötigen. In der Zwischenzeit kannst Du an weiteren Studien teilnehmen.",
                 "cta": "Verfügbare Studien ansehen"
             },
             "screenout": {

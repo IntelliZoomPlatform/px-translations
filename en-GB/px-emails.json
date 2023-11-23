@@ -37,7 +37,7 @@
             "studyComplete": {
                 "subject": "Thanks for sharing your thoughts!",
                 "title": "Thanks for sharing your thoughts!",
-                "bodyCopy": "We'll process your payment via PayPal to the same email account you used when registering in IntelliZoom Panel. This process usually takes 14 days. The incentive for this study is {{studyFee}}."
+                "bodyCopy": "We will review your participation in the study {{projectId}} asap.<br>If your participation is approved we will proceed to send you the payment within 21 business days. The incentive for this study is {{studyFee}}."
             },
             "paymentSent": {
                 "subject": "Your payment has been sent",
