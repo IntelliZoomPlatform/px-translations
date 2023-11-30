@@ -37,7 +37,7 @@
             "studyComplete": {
                 "subject": "Tack för att du delar med dig av dina tankar!",
                 "title": "Tack för att du delar med dig av dina tankar!",
-                "bodyCopy": "Vi kommer så fort som möjligt att granska ditt deltagande i studien {{projectId}}.<br>Om ditt deltagande godkänns fortsätter vi att skicka betalningen till dig inom 21 arbetsdagar. Incitamentet för denna studie är {{studyFee}}."
+                "bodyCopy": ""
             },
             "paymentSent": {
                 "subject": "Din betalning har skickats",
