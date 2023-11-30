@@ -404,7 +404,7 @@
             },
             "alreadyTaken": {
                 "title": "Du hast diese Studie bereits abgeschlossen. Danke für Deine Teilnahme!",
-                "description": "Wir werden deine Zahlung über PayPal an dieselbe E-Mail-Adresse überweisen, die du zur Registrierung bei IntelliZoom Panel verwendet hast. Dieser Prozess dauert in der Regel 14 Tage. In der Zwischenzeit kannst du an weiteren Studien teilnehmen!",
+                "description": "Wir werden deine Zahlung über PayPal an dieselbe E-Mail-Adresse überweisen, die du zur Registrierung bei IntelliZoom Panel verwendet hast. \n\nDieser Prozess dauert in der Regel 14 Tage. In der Zwischenzeit kannst du an weiteren Studien teilnehmen!",
                 "cta": "Verfügbare Studien ansehen"
             },
             "screenout": {
