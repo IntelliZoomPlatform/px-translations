@@ -37,7 +37,7 @@
             "studyComplete": {
                 "subject": "Tak fordi du har delt dine tanker!",
                 "title": "Tak fordi du har delt dine tanker!",
-                "bodyCopy": "Vi gennemgår din deltagelse i undersøgelsen {{projectId}} hurtigst muligt.<br>Hvis din deltagelse godkendes, fortsætter vi med at sende betalingen til dig inden for 21 hverdage. Betalingen for denne undersøgelse er {{studyFee}}"
+                "bodyCopy": ""
             },
             "paymentSent": {
                 "subject": "Din betaling er blevet sendt",
