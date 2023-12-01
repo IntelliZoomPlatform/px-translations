@@ -399,7 +399,7 @@
         "finalPages": {
             "complete": {
                 "title": "Je hebt deze studie afgerond. Bedankt voor het delen van jouw mening!",
-                "description": " ",
+                "description": "We verwerken uw betaling via PayPal naar dezelfde e-mailaccount die bij de registratie voor IntelliZoom Panel gebruikt heeft. \n\nDit proces duurt meestal 14 dagen. Ondertussen kunt u blijven deelnemen aan meer onderzoeken!",
                 "cta": "Check voor beschikbare studies"
             },
             "alreadyTaken": {
