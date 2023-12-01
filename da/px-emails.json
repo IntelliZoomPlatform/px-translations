@@ -37,7 +37,7 @@
             "studyComplete": {
                 "subject": "Tak fordi du har delt dine tanker!",
                 "title": "Tak fordi du har delt dine tanker!",
-                "bodyCopy": ""
+                "bodyCopy": "Vi behandler din betaling for undersøgelse {{projectId}} via PayPal til den samme e-mail-konto, som du brugte, da du registrerede dig hos IntelliZoom Panel. Denne proces tager normalt 14 dage. Incitamentet for denne undersøgelse er {{studyFee}}."
             },
             "paymentSent": {
                 "subject": "Din betaling er blevet sendt",
