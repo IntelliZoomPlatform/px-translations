@@ -399,7 +399,7 @@
         "finalPages": {
             "complete": {
                 "title": "Du har gennemført undersøgelsen. Tak for at du har delt dine tanker!",
-                "description": " ",
+                "description": "Vi behandler din betaling via PayPal til den samme e-mailkonto, som du brugte, da du registrerede dig i IntelliZoom-panelet.\n\nDenne proces tager normalt 14 dage. I mellemtiden kan du fortsætte med at deltage i flere studier!",
                 "cta": "Tjek tilgængelige undersøgelser"
             },
             "alreadyTaken": {
