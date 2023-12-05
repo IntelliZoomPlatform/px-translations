@@ -37,7 +37,8 @@
             "studyComplete": {
                 "subject": "Merci pour votre participation !",
                 "title": "Merci de nous avoir partagé votre avis !",
-                "bodyCopy": "Nous examinerons votre participation au test {{projectId}} dès que possible.<br>Si votre participation est approuvée, nous transférerons vos gains sur votre compte PayPal dans un délai de 21 jours ouvrables. La récompense pour ce test est de {{studyFee}}."
+                "bodyCopy": "Vous recevrez votre récompense pour le test {{projectId}} via PayPal à la même adresse e-mail que celle utilisée pour vous inscrire sur IntelliZoom Panel. Ce processus peut prendre jusqu'à 14 jours. La récompense pour ce test est de {{studyFee}}."
+
             },
             "paymentSent": {
                 "subject": "Votre récompense a été envoyée",

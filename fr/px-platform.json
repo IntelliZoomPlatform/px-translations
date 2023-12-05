@@ -399,12 +399,12 @@
         "finalPages": {
             "complete": {
                 "title": "Vous avez terminé ce test. Merci d'avoir partagé votre avis !",
-                "description": "Une fois vos réponses examinées et approuvées, vous recevrez vos gains via PayPal à la même adresse e-mail que celle utilisée pour vous inscrire sur IntelliZoom Panel.\n\nCe processus peut prendre jusqu'à 21 jours ouvrables. En attendant, vous pouvez participer à d'autres tests !",
+                "description": "Vous recevrez vos gains via PayPal à la même adresse e-mail que celle utilisée pour vous inscrire sur IntelliZoom Panel. Ce processus peut prendre jusqu'à 14 jours. \n\nEn attendant, vous pouvez participer à d'autres tests !",
                 "cta": "Voir les tests disponibles"
             },
             "alreadyTaken": {
                 "title": "Vous avez déjà terminé ce test. Merci d'y avoir participé !",
-                "description": "Une fois vos réponses examinées et approuvées, vous recevrez vos gains via PayPal à la même adresse e-mail que celle utilisée pour vous inscrire sur IntelliZoom Panel.\n\nCe processus peut prendre jusqu'à 21 jours ouvrables. En attendant, vous pouvez participer à d'autres tests !",
+                "description": "Vous recevrez vos gains via PayPal à la même adresse e-mail que celle utilisée pour vous inscrire sur IntelliZoom Panel. Ce processus peut prendre jusqu'à 14 jours. \n\nEn attendant, vous pouvez participer à d'autres tests !",
                 "cta": "Voir les tests disponibles"
             },
             "screenout": {

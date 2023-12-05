@@ -228,7 +228,7 @@
                 },
                 "faq7": {
                     "title": "Hvornår modtager jeg betaling for deltagelse?",
-                    "description": "Betalinger sendes via PayPal inden for 21 hverdage efter afslutningen af ​​undersøgelsen, og når dine resultater er blevet gennemgået og godkendt. De fleste resultater godkendes inden for 3-5 dage.\n\nDu modtager betaling til samme e-mail, som du brugte til at registrere dig."
+                    "description": "Betalinger sendes ud via PayPal, som regel 14 dage efter studiets afslutning. Du vil modtage betalingen i den samme email, som er brugt til registrering."
                 }
             },
             "uzBanner": {
@@ -267,7 +267,7 @@
             "completed": {
                 "sectionTitle": "Gennemførte undersøgelser",
                 "completitionDate": "Gennemført den {{date}}.",
-                "paymentsDescription": "Husk, at hvis din deltagelse accepteres, kan det tage op til 21 arbejdsdage, før betalingen kan ses på din PayPal-konto."
+                "paymentsDescription": "Husk, at hvis din deltagelse accepteres, kan det tage op til 14 arbejdsdage, før betalingen kan ses på din PayPal-konto."
             },
             "incompleteProfile": {
                 "title": "Bliv inviteret til flere undersøgelser!",
@@ -399,12 +399,12 @@
         "finalPages": {
             "complete": {
                 "title": "Du har gennemført undersøgelsen. Tak for at du har delt dine tanker!",
-                "description": "Når dine resultater er blevet vurderet og godkendt, behandler vi din betaling via PayPal til samme e-mailkonto, du brugte til at registrere dig i IntelliZoom-panelet.\n\nDenne proces kan tage op til 21 arbejdsdag. Imens kan du blive ved med at deltage i flere undersøgelser!",
+                "description": "Vi behandler din betaling via PayPal til den samme e-mailkonto, som du brugte, da du registrerede dig i IntelliZoom-panelet.\n\nDenne proces tager normalt 14 dage. I mellemtiden kan du fortsætte med at deltage i flere studier!",
                 "cta": "Tjek tilgængelige undersøgelser"
             },
             "alreadyTaken": {
                 "title": "Du har allerede gennemført denne undersøgelse. Tak for din deltagelse!",
-                "description": "Når dine resultater er blevet vurderet og godkendt, behandler vi din betaling via PayPal til samme e-mailkonto, du brugte til at registrere dig i IntelliZoom-panelet.\n\nDenne proces kan tage op til 21 arbejdsdag. Imens kan du blive ved med at deltage i flere undersøgelser!",
+                "description": "Vi behandler din betaling via PayPal til den samme email-konto du brugte ved registrering i IntelliZoom Panel.\n\nDenne proces tager som regel 14 dage. Imens kan du fortsætte med at deltage i flere studier!",
                 "cta": "Tjek tilgængelige undersøgelser"
             },
             "screenout": {

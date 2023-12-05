@@ -228,7 +228,7 @@
                 },
                 "faq7": {
                     "title": "¿Cuándo se reciben los pagos?",
-                    "description": "Los pagos se envían vía PayPal a los 21 días laborables desde que el estudio ha sido completado, una vez los resultados hayan sido revisados y aprobados. La mayoría de resultados son aprobados en 3-5 días.\n\nRecibirás el pago en el mismo email que hayas usado para registrarte."
+                    "description": "Los pagos se envían a través de PayPal normalmente 14 días después de la finalización del estudio. Recibirás el pago en el mismo correo electrónico utilizado para inscribirte."
                 }
             },
             "uzBanner": {
@@ -267,7 +267,7 @@
             "completed": {
                 "sectionTitle": "Estudios completados",
                 "completitionDate": "Completado el {{date}}.",
-                "paymentsDescription": "Recuerda que si tu participación es aceptada, el pago puede tardar hasta 21 días hábiles en aparecer en tu cuenta PayPal."
+                "paymentsDescription": "Recuerda que si tu participación es aceptada, el pago puede tardar hasta 14 días hábiles en aparecer en tu cuenta PayPal."
             },
             "incompleteProfile": {
                 "title": "¿Quieres ser invitado a más estudios?",
@@ -399,12 +399,12 @@
         "finalPages": {
             "complete": {
                 "title": "Has completado el estudio. ¡Gracias por compartir tu opinión!",
-                "description": "En cuanto tus resultados sean revisados y aprobados, enviaremos tu pago vía PayPal a la misma cuenta de email con la que te registraste en IntelliZoom Panel.\n\nEste proceso puede tardar hasta 21 días hábiles. Mientras tanto, ¡puedes seguir participando en más estudios!",
+                "description": "Procesaremos tu pago a través de PayPal a la misma cuenta de correo electrónico que utilizaste al registrarte en el Panel de IntelliZoom. \n\nEste proceso suele tardar 14 días. Mientras tanto, ¡puedes seguir participando en más estudios!",
                 "cta": "Ver estudios disponibles"
             },
             "alreadyTaken": {
                 "title": "Ya has completado este estudio. ¡Gracias por compartir tu opinión!",
-                "description": "En cuanto tus resultados sean revisados y aprobados, enviaremos tu pago vía PayPal a la misma cuenta de email con la que te registraste en IntelliZoom Panel.\n\nEste proceso puede tardar hasta 21 días hábiles. Mientras tanto, ¡puedes seguir participando en más estudios!",
+                "description": "Procesaremos tu pago a través de PayPal a la misma cuenta de correo electrónico que utilizaste al registrarte en el Panel de IntelliZoom. \n\nEste proceso suele tardar 14 días. Mientras tanto, ¡puedes seguir participando en más estudios!",
                 "cta": "Ver estudios disponibles"
             },
             "screenout": {

@@ -37,7 +37,7 @@
             "studyComplete": {
                 "subject": "Bedankt voor het delen van je gedachten!",
                 "title": "Bedankt voor het delen van je gedachten!",
-                "bodyCopy": "We zullen je deelname aan het onderzoek {{projectId}} z.s.m. controleren.<br>Als je deelname wordt goedgekeurd zullen we de betaling binnen 21 werkdagen sturen. De beloning voor dit onderzoek is {{studyFee}}."
+                "bodyCopy": "We zullen je betaling voor onderzoek {{projectId}} via PayPal verwerken met hetzelfde e-mailaccount dat je bij de registratie voor IntelliZoom Panel hebt gebruikt. Dit proces duurt doorgaans 14 dagen. De beloning voor dit onderzoek bedraagt {{studyFee}}."
             },
             "paymentSent": {
                 "subject": "Je betaling is verzonden",

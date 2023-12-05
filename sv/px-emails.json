@@ -37,7 +37,7 @@
             "studyComplete": {
                 "subject": "Tack för att du delar med dig av dina tankar!",
                 "title": "Tack för att du delar med dig av dina tankar!",
-                "bodyCopy": "Vi kommer så fort som möjligt att granska ditt deltagande i studien {{projectId}}.<br>Om ditt deltagande godkänns fortsätter vi att skicka betalningen till dig inom 21 arbetsdagar. Incitamentet för denna studie är {{studyFee}}."
+                "bodyCopy": "Vi behandlar din betalning för studien {{projectId}} via PayPal till samma e-postkonto som du använde när du registrerade dig på IntelliZoom Panel. Den här processen tar vanligtvis 14 dagar. Ersättningen för den här studien är {{studyFee}}."
             },
             "paymentSent": {
                 "subject": "Din betalning har skickats",

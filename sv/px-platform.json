@@ -228,7 +228,7 @@
                 },
                 "faq7": {
                     "title": "När får jag mina pengar?",
-                    "description": "Betalningarna skickas ut via PayPal inom 21 arbetsdagar efter att studien har slutförts, när dina resultat har granskats och godkänts. De flesta resultat godkänns inom 3–5 dagar.\n\nDu får betalningen till samma e-postadress som du använde när du registrerade dig."
+                    "description": "Betalning sker via PayPal, vanligtvis 14 dagar efter att studien avslutats. Du får betalningen till samma e-postkonto som du använde för att registrera dig."
                 }
             },
             "uzBanner": {
@@ -267,7 +267,7 @@
             "completed": {
                 "sectionTitle": "Genomförda studier",
                 "completitionDate": "Slutfördes {{date}}.",
-                "paymentsDescription": "Kom ihåg att om din medverkan får godkänt så kan det dröja som mest 21 arbetsdagar innan du får in pengarna på ditt PayPal-konto."
+                "paymentsDescription": "Kom ihåg att om din medverkan får godkänt så kan det dröja som mest 14 arbetsdagar innan du får in pengarna på ditt PayPal-konto."
             },
             "incompleteProfile": {
                 "title": "Bli inbjuden till fler studier!",
@@ -399,12 +399,12 @@
         "finalPages": {
             "complete": {
                 "title": "Du är klar med studien. Tack för att du delade med dig av dina tankar!",
-                "description": "När dina resultat är granskade och godkända kommer vi att betala ut pengarna via PayPal till samma e-postadress som du uppgav när du anmälde dig till IntelliZoom.\n\nDetta kan dröja högst 21 arbetsdagar. Under tiden kan du fortsätta att delta i studier!",
+                "description": "Vi kommer att behandla din betalning via PayPal till samma e-postkonto som du använde när du registrerade dig i IntelliZoom Panel.\n\nProcessen tar vanligtvis 14 dagar. Under tiden kan du fortsätta att delta i fler studier!",
                 "cta": "Se tillgängliga studier"
             },
             "alreadyTaken": {
                 "title": "Du är redan klar med denna studie. Tack för din medverkan!",
-                "description": "När dina resultat är granskade och godkända kommer vi att betala ut pengarna via PayPal till samma e-postadress som du uppgav när du anmälde dig till IntelliZoom.\n\nDetta kan dröja högst 21 arbetsdagar. Under tiden kan du fortsätta att delta i studier!",
+                "description": "Vi genomför betalningen via PayPal till samma e-postkonto som du använde för att registrera dig för IntelliZoom Panel.\n\nDen här processen tar vanligtvis 14 dagar. Under tiden kan du fortsätta att delta i fler studier!",
                 "cta": "Se tillgängliga studier"
             },
             "screenout": {

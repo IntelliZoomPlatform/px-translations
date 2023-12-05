@@ -228,7 +228,7 @@
                 },
                 "faq7": {
                     "title": "Wanneer krijg ik mijn geld?",
-                    "description": "Betalingen worden binnen 21 werkdagen na de voltooiing van de studie verzonden via PayPal, zodra uw resultaten zijn bekeken en goedgekeurd. Resultaten worden meestal binnen 3-5 dagen goedgekeurd. \n\nJe zult worden betaald op hetzelfde e-mailadres dat je gebruikte om te registreren."
+                    "description": "Betalingen worden meestal 14 dagen na voltooiing van de studie via PayPal verzonden. U ontvangt de betaling via hetzelfde e-mailadres waarmee u zich heeft ingeschreven."
                 }
             },
             "uzBanner": {
@@ -267,7 +267,7 @@
             "completed": {
                 "sectionTitle": "Voltooide studies",
                 "completitionDate": "Voltooid op {{date}}.",
-                "paymentsDescription": "Let er wel op dat wanneer je participatie geaccepteerd is de betaling 21 werkdagen in beslag kan nemen voordat deze op jouw PayPal account te zien is."
+                "paymentsDescription": "Let er wel op dat wanneer je participatie geaccepteerd is de betaling 14 werkdagen in beslag kan nemen voordat deze op jouw PayPal account te zien is."
             },
             "incompleteProfile": {
                 "title": "Wordt uitgenodigd voor meer studies!",
@@ -399,12 +399,12 @@
         "finalPages": {
             "complete": {
                 "title": "Je hebt deze studie afgerond. Bedankt voor het delen van jouw mening!",
-                "description": "Zodra jouw resultaten gecontroleerd zijn en goedgekeurd zullen wij de betaling via PayPal verwerken op hetzelfde e-mailaccount als dat je hebt gebruikt bij het registreren via het IntelliZoom Panel.\n\nDit proces kan tot 21 werkdagen duren. Ondertussen kan je gewoon blijven deelnemen aan meer studies!",
+                "description": "We verwerken uw betaling via PayPal naar dezelfde e-mailaccount die bij de registratie voor IntelliZoom Panel gebruikt heeft. \n\nDit proces duurt meestal 14 dagen. Ondertussen kunt u blijven deelnemen aan meer onderzoeken!",
                 "cta": "Check voor beschikbare studies"
             },
             "alreadyTaken": {
                 "title": "Je hebt deze studie al voltooid. Bedankt voor je deelname!",
-                "description": "Zodra jouw resultaten gecontroleerd zijn en goedgekeurd zullen wij de betaling via PayPal verwerken op hetzelfde e-mailaccount als dat je hebt gebruikt bij het registreren via het IntelliZoom Paneel.\n\nDit proces kan tot 21 werkdagen duren. Ondertussen kan je gewoon blijven deelnemen aan meer studies!",
+                "description": "Wij verwerken uw betaling via PayPal op dezelfde e-mailaccount die u bij de registratie bij IntelliZoom Panel heeft gebruikt. \n\nDit proces neemt gewoonlijk 14 dagen in beslag. Ondertussen kunt u blijven deelnemen aan meer onderzoeken!",
                 "cta": "Check voor beschikbare studies"
             },
             "screenout": {

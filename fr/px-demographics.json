@@ -490,7 +490,7 @@
                     "list": {
                         "admin": "Administration / Personnel général",
                         "customer_service": "Service client / Service clientèle",
-                        "executive": "Direction générale / C-Level",
+                        "executive": "Direction générale",
                         "finance_accounting": "Finance / Comptabilité",
                         "human_resources": "Ressources humaines",
                         "legal": "Juridique / Droit",
@@ -509,13 +509,13 @@
                 "jobTitle": {
                     "question": "Quel est le titre ou le niveau de responsabilité de votre poste ?",
                     "list": {
-                        "top_tier": "C-Level (ex. PDG, directeur financier), propriétaire, partenaire, président",
-                        "vp_tier": "Vice-président (EVP, SVP, AVP, VP)",
-                        "director_tier": "Directeur (group director, directeur principal, directeur)",
-                        "management_tier": "Manager (group manager, manager principal, manager, program manager)",
+                        "top_tier": "Fondateur, Associé, Président, Vice-président ou Directeur général",
+                        "vp_tier": "Directeur",
+                        "director_tier": "Responsable d'équipe",
+                        "management_tier": "Manager",
                         "analyst": "Analyste",
-                        "associate": "Assistant ou Junior",
-                        "administrative": "Administratif (personnel de bureau ou de soutien)",
+                        "associate": "Assistant",
+                        "administrative": "Fonction support",
                         "individual_contributor": "Contributeur individuel",
                         "contractor": "Contractuel",
                         "consultant": "Consultant",
