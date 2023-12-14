@@ -228,7 +228,7 @@
                 },
                 "faq7": {
                     "title": "When do I get my money?",
-                    "description": "Payments are sent out via PayPal within 21 business days after the completion of the study, once your results have been reviewed and approved. Most results are approved within 3-5 days.\n\nYou will receive the payment in the same email used to register."
+                    "description": "Payments are sent out via PayPal usually 14 days after the completion of the study. You will receive the payment in the same email used to register."
                 }
             },
             "uzBanner": {
@@ -267,7 +267,7 @@
             "completed": {
                 "sectionTitle": "Completed studies",
                 "completitionDate": "Completed on {{date}}.",
-                "paymentsDescription": "Remember that if your participation is accepted, the payment can take up to 21 business days to appear in your PayPal account."
+                "paymentsDescription": "Remember that if your participation is accepted, the payment usually takes 14 days to appear in your PayPal account."
             },
             "incompleteProfile": {
                 "title": "Get invited to more studies!",
@@ -399,12 +399,12 @@
         "finalPages": {
             "complete": {
                 "title": "You have completed the study. Thanks for sharing your thoughts!",
-                "description": "Once your results have been reviewed and approved, we'll process your payment via PayPal to the same email account you used when registering in IntelliZoom Panel.\n\nThis process may take up to 21 business days. Meanwhile you can keep on participating in more studies!",
+                "description": "We'll process your payment via PayPal to the same email account you used when registering in IntelliZoom Panel. \n\nThis process usually takes 14 days. Meanwhile you can keep on participating in more studies!",
                 "cta": "Check available studies"
             },
             "alreadyTaken": {
                 "title": "You have already completed this study. Thank you for participating!",
-                "description": "Once your results have been reviewed and approved, we'll process your payment via PayPal to the same email account you used when registering in IntelliZoom Panel.\n\nThis process may take up to 21 business days. Meanwhile you can keep on participating in more studies!",
+                "description": "We'll process your payment via PayPal to the same email account you used when registering in IntelliZoom Panel. \n\nThis process usually takes 14 days. Meanwhile you can keep on participating in more studies!",
                 "cta": "Check available studies"
             },
             "screenout": {
