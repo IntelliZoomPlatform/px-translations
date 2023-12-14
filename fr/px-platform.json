@@ -228,7 +228,7 @@
                 },
                 "faq7": {
                     "title": "Quand vais-je recevoir mes gains ?",
-                    "description": "Les récompenses sont envoyées via PayPal dans un délai de 21 jours ouvrables après la fin du test, une fois vos réponses examinées et approuvées par notre équipe. Ces vérifications s'effectuent dans un délai de 3 à 5 jours.\n\nVous recevrez vos gains à l'adresse e-mail utilisée lors de votre inscription sur IntelliZoom."
+                    "description": "Les récompenses sont envoyées via PayPal 14 jours après la réalisation d’un test. Vous recevrez vos gains à l'adresse e-mail utilisée lors de votre inscription."
                 }
             },
             "uzBanner": {
@@ -267,7 +267,7 @@
             "completed": {
                 "sectionTitle": "Tests terminés",
                 "completitionDate": "Terminé le {{date}}.",
-                "paymentsDescription": "N’oubliez pas que si votre participation est validée, le versement des gains peut prendre jusqu'à 21 jours ouvrables pour apparaître sur votre compte PayPal."
+                "paymentsDescription": "N’oubliez pas que si votre participation est validée, le versement des gains peut prendre jusqu'à 14 jours pour apparaître sur votre compte PayPal."
             },
             "incompleteProfile": {
                 "title": "Recevez encore plus d'invitations !",
