@@ -7,7 +7,7 @@
             "claim": "Dina åsikter har betydelse. Få betalt för att dela dina erfarenheter och få inflytande på produkter du älskar och bryr dig om.",
             "comma": ",",
             "contactUsLowercaseImperative": "kontakta oss",
-            "copyright": "IntelliZoom Panel © 2022. Alla rättigheter förbehålls.",
+            "copyright": "IntelliZoom Panel © {{currentYear}}. Alla rättigheter förbehålls.",
             "edge": "Edge",
             "email": "E-post",
             "firefox": "Firefox",
