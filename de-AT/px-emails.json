@@ -2,266 +2,266 @@
     "izPanel": {
         "emails": {
             "footer": {
-                "support": "Hilfe!",
-                "copyright": "IntelliZoom Panel wird betrieben von UserZoom Technologies, Inc. © 2019-2022 Alle Rechte vorbehalten<br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
-                "unsubscribe": "Von unseren E-Mails abmelden",
-                "termsOfService": "Nutzungsbedingungen",
-                "privacyPolicy": "Datenschutzerklärung",
-                "address": "IntelliZoom Panel wird betrieben von UserZoom Technologies, Inc. © 2019-2022 Alle Rechte vorbehalten<br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
-                "thankYou": "Vielen Dank, <br> UserZoom Team",
-                "help": "Hilfe!",
-                "unsubscribeSession": "Falls du keine Benachrichtigungen über diese Forschungs-Session mehr erhalten möchtest, klicke  <a href='{{unsubscribeLink}}'>abmelden</a>.",
-                "regards": "Mit freundlichen Grüßen, <br> das UserZoom Team"
+                "support": "",
+                "copyright": "",
+                "unsubscribe": "",
+                "termsOfService": "",
+                "privacyPolicy": "",
+                "address": "",
+                "thankYou": "",
+                "help": "",
+                "unsubscribeSession": "",
+                "regards": ""
             },
             "doubleOptIn": {
-                "subject": "Willkommen zu IntelliZoom Panel",
-                "title": "Hallo {{user.name}}, Willkommen zu IntelliZoom Panel!",
-                "bodyCopy": "<strong>Klicke hier um Dein Konto zu aktivieren.</strong><br>Aus Sicherheitsgründen wird dieser Link nach 24 Stunden oder einmaliger Benützung ungültig.",
-                "cta": "Konto aktivieren",
-                "closing": "Tschüss!<br>IntelliZoom Panel Team"
+                "subject": "",
+                "title": "",
+                "bodyCopy": "",
+                "cta": "",
+                "closing": ""
             },
             "reset": {
-                "subject": "Passwort zurücksetzen",
-                "title": "Hast Du Dein Passwort vergessen?",
-                "bodyCopy": "Das ist in Ordnung und passiert uns allen. Klicke einfach auf die Schaltfläche unten um Dein Passwort zurückzusetzen und fertig. Solltest Du diese Anfrage nicht getätigt haben, bitte ignoriere dieses E-Mail.<br>Aus Sicherheitsgründen wird dieser Link nach 24 Stunden oder einmaliger Benützung ungültig.",
-                "cta": "Passwort zurücksetzen"
+                "subject": "",
+                "title": "",
+                "bodyCopy": "",
+                "cta": ""
             },
             "studyInvitation": {
-                "subject": "Eine neue Studie ist für dich verfügbar",
-                "title": "Hallo {{user.name}},<br> eine neue Studie ist für dich verfügbar!",
-                "bodyCopy": "Bist Du bereit uns Dein Feedback zu geben und {{studyFee}} zu verdienen?",
-                "cta": "Nimm teil!",
-                "studyID": "Studien ID zur Referenz: {{projectId}}",
-                "closing": "Tschüss!<br>IntelliZoom Panel Team"
+                "subject": "",
+                "title": "",
+                "bodyCopy": "",
+                "cta": "",
+                "studyID": "",
+                "closing": ""
             },
             "studyComplete": {
-                "subject": "Danke, dass Du uns Deine Meinung mitteilst",
-                "title": "Danke, dass Du uns Deine Meinung mitteilst",
-                "bodyCopy": "Wir werden deine Teilnahme an der Studie {{projectId}} baldmöglichst überprüfen.<br>Wenn deine Teilnahme genehmigt ist, werden wir dir die Zahlung innerhalb von 21 Werktagen zusenden. Der Betrag für diese Studie ist {{studyFee}}."
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
             },
             "paymentSent": {
-                "subject": "Deine Prämie wurde ausbezahlt",
-                "title": "Hallo {{user.name}},<br>Deine Prämie wurde ausbezahlt!",
-                "bodyCopy": "Wir haben {{studyFee}} via PayPal zur folgenden E-Mail gesendet:<br>{{user.email}}<br><br>Diese Prämie erhältst Du für Deine Teilnahme an folgender Studie: {{projectId}}"
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
             },
             "paymentConfirmation": {
-                "subject": "Deine Prämie ist angekommen!",
-                "title": "Hallo {{user.name}}, PayPal hat soeben bestätigt, dass Du Deine Prämie erhalten hast",
-                "bodyCopy": "Du solltest jetzt {{studyFee}} mehr in folgendem PayPal Konto haben:<br>{{user.email}}<br><br>Diese Auszahlung erhältst Du für Deine Teilnahme an folgender Studie: {{projectId}}"
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
             },
             "certificationApproved": {
-                "subject": "Gute Arbeit in Deiner Übungsstudie!",
-                "title": "Hallo {{user.name}}, gute Arbeit in Deiner Übungsstudie!",
-                "bodyCopyOne": "Wir sehen, dass Du Deine Gedanken und Eindrücke klar ausdrücken kannst. Du bist genau was wir suchen!",
-                "bodyCopyTwo": "Du wirst von nun an Einladungen zu Think-Out-Loud-Studien und Card-Sort-Studien erhalten. Diese Studienarten sind üblicherweise besser bezahlt ;)"
+                "subject": "",
+                "title": "",
+                "bodyCopyOne": "",
+                "bodyCopyTwo": ""
             },
             "certificationRejected": {
-                "subject": "Deine Übungsstudie wurde nicht bestätigt",
-                "title": "Hallo {{user.name}}, die Übungsstudie die Du gesendet hast wurde nicht bestätigt",
-                "bodyCopyOne": "Es tut uns leid, Dir mitteilen zu müssen, dass die Übungsstudie die Du gesendet hast unseren Qualitätsanforderungen für Think-Out-Loud-Studien oder Card-Sort-Studien nicht entspricht.",
-                "bodyCopyTwo": "Wenn Du meinst, dass hier ein Fehler vorliegt und Du es ein weiteres mal versuchen möchtest, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> und es wird uns freuen die Übungsstudie für Dich zu reaktivieren."
+                "subject": "",
+                "title": "",
+                "bodyCopyOne": "",
+                "bodyCopyTwo": ""
             },
             "generic": {
-                "genericClosing": "Tschüss!<br>IntelliZoom Panel Team",
-                "inlineContact": "kontaktiere uns",
-                "inlineHelp": "Help Center",
-                "gotQuestions": "Falls Du weitere Fragen hast, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> oder besuche unser <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
+                "genericClosing": "",
+                "inlineContact": "",
+                "inlineHelp": "",
+                "gotQuestions": ""
             },
             "reEngagement": {
-                "subject": "Passwort zurücksetzen",
-                "title": "Passwort zurücksetzen",
-                "bodyCopy": "Hallo {{user.name}}!<br>Klicke auf den Link unten um das Passwort für Dein Konto zurückzusetzen.<br>Aus Sicherheitsgründen wird dieser Link nach 24 Stunden oder einmaliger Benützung ungültig.",
-                "cta": "Passwort zurücksetzen"
+                "subject": "",
+                "title": "",
+                "bodyCopy": "",
+                "cta": ""
             },
             "termination": {
-                "subject": "Dein Konto wurde gelöscht",
-                "title": "Dein IntelliZoom Panel Konto wurde gelöscht",
-                "bodyCopy": "Hallo {user.name}},<br><br>Wir haben Dein Konto und all Deine Information von unserem System gelöscht. (Das ist die letzte Nachricht, die Du von uns erhalten wirst).<br><br>Solltest Du das nicht gewünscht haben, kann es sein, dass dies entweder durch längere Inaktivität oder aber durch einen Verstoß gegen unsere <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a> ausgelöst wurde.<br><br>Sollte hier ein Fehler vorliegen oder möchtest Du mehr Information, bitte <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> oder werfe einen Blick in unser <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
             },
             "practiceStudyComplete": {
-                "subject": "Danke für die Teilnahme an der Übungsstudie!",
-                "title": "Danke für die Teilnahme an der Übungsstudie!",
-                "bodyCopy": "Wir werden Deine Teilnahme alsbald möglich überprüfen und Dir eine E-Mail mit dem Ergebnis senden.<br>Sobald Deine Teilnahme akzeptiert ist, erhältst Du Einladungen zu Think-Out-Loud und Card Sort Studien.<br>Diese Studientypen sind üblicherweise besser bezahlt ;)"
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
             },
             "PayPal": {
                 "paymentSent": {
-                    "note": "Vielen Dank für deine Teilnahme an der Studie {{projectId}}. Wir hoffen dich bald wiederzusehen!"
+                    "note": ""
                 }
             },
             "paypalToken": {
-                "title": "Ihr PayPal-Account wurde von IntelliZoom abgeschaltet.",
-                "description": "Leider bringen wir schlechte Nachrichten, denn Ihr PayPal-Konto wurde von IntelliZoom abgeschaltet.<br /><br />Das bedeutet, dass Sie keine weiteren Einladungen zu bezahlten Untersuchungen erhalten und auch, dass Sie keine ausstehenden Zahlungen für Untersuchungen erhalten, die Sie kürzlich beendet haben.<br /><br />Um weiterhin an unseren bezahlten Forschungsstudien teilzunehmen oder ausstehende Zahlungen zu erhalten, besuchen Sie bitte unsere Übersichtsseite und verbinden Ihre Konten erneut.",
-                "cta": "Zur Übersichtsseite gehen"
+                "title": "",
+                "description": "",
+                "cta": ""
             },
             "excludedParticipation": {
-                "subject": "Deine Teilnahme wurde nicht genehmigt",
-                "title": "Hallo {{user.name}}, einer Deiner Einträge wurde nicht genehmigt.",
-                "bodyCopy": "Es tut uns leid, dir mitzuteilen, dass deine Teilnahme an der Studie {{projectId}} nicht genehmigt wurde und du den Anreiz der Studie nicht erhalten wirst. <br /><br /> Dies kann ein Ergebnis eines oder mehrerer der folgenden Szenarien sein: <ul> <li>Du hast vielleicht nicht laut gedacht wie gefordert.</li> <li>Du hast vielleicht nicht genug Zeit für die Durchführung der geforderten Aufgaben oder Fragebögen verwendet.</li> <li>Die technische Qualität deiner Teilnahme kann aus einem oder mehreren der folgenden Gründe schlecht oder unvollständig gewesen sein:<ul> <li>Schlechte Internetverbindung.</li> <li>Schlechte Mikrofon- oder Kameraqualität.</li> <li>Schlechte Gesamtqualität als Folge von zu vielen Fenstern, Tabs oder Apps, die gleichzeitig auf deinem Gerät laufen.</li> </ul> </li> </ul> Um zu vermeiden, dass dies in Zukunft noch einmal passiert, schau dir bitte diese <a href=\"https://help.intellizoom.com/hc/de/categories/360000100658\">Best-Practice-Empfehlungen</a> in unserem Hilfe-Center an. <br /><br /> Lass dich nicht entmutigen! Beim nächsten Mal stelle sicher, dass dein Gerät für die Studie bereit ist und du ein qualitativ hochwertiges Feedback gibst."
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
             },
             "finishConfirmation": {
-                "subject": "AKTIVITÄT ERFORDERLICH: Bitte bestätige deine Session",
+                "subject": "",
                 "generic": {
-                    "hi": "Hallo {{user.name}}!",
-                    "oneMoreStep": "Ein letzter Schritt! Bestätige deine Session",
-                    "selectedDay": "Vielen Dank für dein Interesse an dieser {{sessionDuration}}-minütigen Session! Du hast den folgenden Tag und Uhrzeit zur Teilnahme gewählt:",
-                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
-                    "recommendations": "Bitte vergewissere dich, dasselbe Gerät und dieselbe WIFI-Verbindung auch während der Session zu verwenden. Wir empfehlen die Verwendung eines Headsets.",
-                    "confirm": "Session bestätigen",
-                    "alternativeLink": "Nur für den Fall, dass der Button oben nicht funktioniert ... hier ist der Link: {{confirmLink}}",
-                    "timezone": "{{timeZone}}"
+                    "hi": "",
+                    "oneMoreStep": "",
+                    "selectedDay": "",
+                    "dateAndTime": "",
+                    "recommendations": "",
+                    "confirm": "",
+                    "alternativeLink": "",
+                    "timezone": ""
                 },
                 "desktop": {
-                    "hi": "Hallo {{user.name}}!",
-                    "oneMoreStep": "Ein letzter Schritt! Bestätige deine Session",
-                    "thankYouForInterest": "Vielen Dank für dein Interesse an dieser {{sessionDuration}}-minütigen Session! Du hast den folgenden Tag und Uhrzeit zur Teilnahme gewählt:",
-                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
-                    "youWillNeed": "Für diese Studie benötigst du: \n<ul>\n<li>Einen Computer</li>\n<li>Die neuste Version von <strong>Chrome</strong> , <strong>Firefox</strong> oder <strong>Edge</strong</li>\n<li>Headset</li>\n<li>Webcam</li>\n</ul>",
-                    "recommendations": "Bitte vergewissere dich, dasselbe Gerät und dieselbe WIFI-Verbindung auch während der Session zu verwenden.",
-                    "confirm": "Session bestätigen",
-                    "alternativeLink": "Nur für den Fall, dass der Button oben nicht funktioniert ... hier ist der Link: {{confirmLink}}"
+                    "hi": "",
+                    "oneMoreStep": "",
+                    "thankYouForInterest": "",
+                    "dateAndTime": "",
+                    "youWillNeed": "",
+                    "recommendations": "",
+                    "confirm": "",
+                    "alternativeLink": ""
                 },
                 "mobile": {
-                    "hi": "Hallo {{user.name}}!",
-                    "oneMoreStep": "Ein letzter Schritt! Bestätige deine Session",
-                    "thankYouForInterest": "Vielen Dank für dein Interesse an dieser {{sessionDuration}}-minütigen Session! Du hast den folgenden Tag und Uhrzeit zur Teilnahme gewählt:",
-                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
-                    "youWillNeed": "For this study you will need:\n<ul>\n<li>Handy oder Tablet</li>\n<li>Genügend Akku oder das Gerät angeschlossen</li>\n<li>Headset</li>\n</ul>",
-                    "recommendations": "Bitte vergewissere dich, dasselbe Gerät und dieselbe WIFI-Verbindung auch während der Session zu verwenden.",
-                    "confirm": "Session bestätigen"
+                    "hi": "",
+                    "oneMoreStep": "",
+                    "thankYouForInterest": "",
+                    "dateAndTime": "",
+                    "youWillNeed": "",
+                    "recommendations": "",
+                    "confirm": ""
                 }
             },
             "participationConfirmed": {
-                "subject": "Teilnahme bestätigt! Dein Platz ist reserviert",
+                "subject": "",
                 "generic": {
-                    "hi": "Hallo {{user.name}}!",
-                    "participationConfirmed": "Deine Teilnahme is bestätigt!",
-                    "scheduled": "Du bist an folgendem Tag und Uhrzeit eingeplant:",
-                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+                    "hi": "",
+                    "participationConfirmed": "",
+                    "scheduled": "",
+                    "dateAndTime": "",
                     "recommendations": {
-                        "youWillNeed": "Du benötigst die aktuelle Version von Chrome, Firefox oder Edge wenn Du von einem Desktop-Computer aus teilnimmst oder ein mobiles Endgerät mit genügend Batterie für eine mobile Session.",
-                        "environment": "Bitte stelle auch sicher, an einem gut beleuchteten, ruhigen Ort mit guter Internetverbindung zu sein. ",
-                        "ics": "Wir haben diesem Email auch eine ICS-Datei angehängt, damit du diesen Termin deinem Kalender hinzufügen kannst.",
-                        "thatsIt": "Das war's. Klicke einfach 3 Minuten bevor deine Session beginnt…"
+                        "youWillNeed": "",
+                        "environment": "",
+                        "ics": "",
+                        "thatsIt": ""
                     },
-                    "join": "Session beitreten",
-                    "alternativeLink": "Nur für den Fall, dass der Button oben nicht funktioniert ... hier ist der Link: {{sessionLink}}",
-                    "note": "Beachte: Solltest du nicht mehr verfügbar sein zu dieser Zeit, <a href='{{entranceLink}}'>sag' ab</a> oder <a href='{{entranceLink}}'>verschiebe</a> deine Teilnahme umgehend. "
+                    "join": "",
+                    "alternativeLink": "",
+                    "note": ""
                 },
                 "desktop": {
-                    "hi": "Hallo {{user.name}}!",
-                    "participationConfirmed": "Deine Teilnahme is bestätigt!",
-                    "scheduled": "Du bist an folgendem Tag und Uhrzeit eingeplant:",
-                    "youWillNeed": "Für diese Studie benötigst du: \n<ul>\n<li>Einen Computer</li>\n<li>Die neuste Version von <strong>Chrome</strong> , <strong>Firefox</strong> oder <strong>Edge</strong</li>\n<li>Headset</li>\n<li>Webcam</li>\n</ul>"
+                    "hi": "",
+                    "participationConfirmed": "",
+                    "scheduled": "",
+                    "youWillNeed": ""
                 },
                 "mobile": {
-                    "hi": "Hallo {{user.name}}!",
-                    "participationConfirmed": "Deine Teilnahme is bestätigt!",
-                    "scheduled": "Du bist an folgendem Tag und Uhrzeit eingeplant:",
-                    "youWillNeed": "For this study you will need:\n<ul>\n<li>Handy oder Tablet</li>\n<li>Genügend Akku oder das Gerät angeschlossen</li>\n<li>Headset</li>\n</ul>"
+                    "hi": "",
+                    "participationConfirmed": "",
+                    "scheduled": "",
+                    "youWillNeed": ""
                 }
             },
             "sessionCancelled": {
-                "subject": "Deine Forschungs-Session wurde abgesagt",
+                "subject": "",
                 "generic": {
-                    "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt",
-                    "sorry": "Wir entschuldigen uns für eventuelle  Unannehmlichkeiten für dich.",
-                    "seeYouAgain": "Wir hoffen dich bald wieder zu sehen.",
-                    "hi": "Hallo {{user.name}}!",
-                    "hope": "Wir hoffen dich bald wieder zu sehen."
+                    "sessionHasBeenCancelled": "",
+                    "sorry": "",
+                    "seeYouAgain": "",
+                    "hi": "",
+                    "hope": ""
                 }
             },
             "sessionCancelledByModerator": {
-                "subject": "Deine Forschungs-Session wurde abgesagt",
+                "subject": "",
                 "generic": {
-                    "hi": "Hallo {{user.name}}!",
-                    "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt",
-                    "requestedCancellation": "Der Moderator der deine Forschungs-Session leiten sollte hat deine session abgesagt.",
-                    "sorry": "Wir entschuldigen uns für eventuelle  Unannehmlichkeiten für dich.",
-                    "hope": "Wir hoffen dich bald wieder zu sehen."
+                    "hi": "",
+                    "sessionHasBeenCancelled": "",
+                    "requestedCancellation": "",
+                    "sorry": "",
+                    "hope": ""
                 },
                 "moderator": {
-                    "scheduledFor": "Wie gewünscht, haben wir die Sitzung für das Projekt {{projectName}}, die Sie durchführen wollten, abgesagt:",
-                    "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt"
+                    "scheduledFor": "",
+                    "sessionHasBeenCancelled": ""
                 },
                 "participant": {
-                    "scheduledFor": "Der Moderator, der Ihre Recherchesitzung mit der Studien-ID {{projectId}} durchführen sollte, hat die Sitzung abgesagt. Diese Sitzung war zum folgenden Zeitpunkt und Datum geplant:",
-                    "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt"
+                    "scheduledFor": "",
+                    "sessionHasBeenCancelled": ""
                 }
             },
             "sessionCancelledByParticipant": {
-                "subject": "Deine Forschungs-Session wurde abgesagt",
+                "subject": "",
                 "generic": {
-                    "hi": "Hallo {{user.name}}!",
-                    "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt",
-                    "asRequested": "Wie gewünscht haben wir deine Teilnahme an der {{sessionDuration}}-minütigen Forschungs-Session abgesagt.",
-                    "hope": "Wir hoffen dich bald wieder zu sehen.",
-                    "sorry": "Wir entschuldigen uns für eventuelle Unannehmlichkeiten für dich."
+                    "hi": "",
+                    "sessionHasBeenCancelled": "",
+                    "asRequested": "",
+                    "hope": "",
+                    "sorry": ""
                 },
                 "moderator": {
-                    "scheduledFor": "Diese Sitzung war für die Studie {{projectName}} zum folgenden Zeitpunkt und Datum geplant:"
+                    "scheduledFor": ""
                 },
                 "participant": {
-                    "sessionHasBeenCancelled": "Deine Forschungs-Session wurde abgesagt",
-                    "scheduledFor": "Wie gewünscht, haben wir die Sitzung mit der Studien-ID {{projectId}}, an der Sie teilnehmen wollten, abgesagt:"
+                    "sessionHasBeenCancelled": "",
+                    "scheduledFor": ""
                 }
             },
             "reminders": {
                 "generic": {
-                    "hi": "Hallo {{user.name}}!",
-                    "almostTime": "Es ist schon fast Zeit für deine Session!",
-                    "reminder": "Das ist eine Erinnerung an deine bevorstehende Forschungs-Session:",
+                    "hi": "",
+                    "almostTime": "",
+                    "reminder": "",
                     "recommendations": {
-                        "youWillNeed": "Du benötigst die aktuelle Version von Chrome, Firefox oder Edge wenn Du von einem Desktop-Computer aus teilnimmst oder ein mobiles Endgerät mit genügend Batterie für eine mobile Session.",
-                        "environment": "Bitte stelle auch sicher, an einem gut beleuchteten, ruhigen Ort mit guter Internetverbindung zu sein. ",
-                        "ics": "Wir haben diesem Email auch eine ICS-Datei angehängt, damit du diesen Termin deinem Kalender hinzufügen kannst.",
-                        "thatsIt": "Das war's. Klicke einfach 3 Minuten bevor deine Session beginnt…"
+                        "youWillNeed": "",
+                        "environment": "",
+                        "ics": "",
+                        "thatsIt": ""
                     },
-                    "join": "Session beitreten",
-                    "alternativeLink": "Nur für den Fall, dass der Button oben nicht funktioniert ... hier ist der Link: {{sessionLink}}",
-                    "note": "Beachte: Solltest du nicht mehr verfügbar sein zu dieser Zeit, <a href='{{entranceLink}}'>sag' ab</a> oder <a href='{{entranceLink}}'>verschiebe</a> deine Teilnahme umgehend. "
+                    "join": "",
+                    "alternativeLink": "",
+                    "note": ""
                 },
                 "subject": {
-                    "24hbefore": "Erinnerung: Du hast eine Forschungs-Session morgen",
-                    "30mbefore": "Erinnerung: Deine Forschungs-Session startet in 30 Minuten!"
+                    "24hbefore": "",
+                    "30mbefore": ""
                 },
                 "desktop": {
-                    "youWillNeed": "Für diese Studie benötigst du: \n<ul>\n<li>Einen Computer</li>\n<li>Die neuste Version von <strong>Chrome</strong> , <strong>Firefox</strong> oder <strong>Edge</strong</li>\n<li>Headset</li>\n<li>Webcam</li>\n</ul>"
+                    "youWillNeed": ""
                 },
                 "mobile": {
-                    "youWillNeed": "For this study you will need:\n<ul>\n<li>Handy oder Tablet</li>\n<li>Genügend Akku oder das Gerät angeschlossen</li>\n<li>Headset</li>\n</ul>"
+                    "youWillNeed": ""
                 }
             },
             "reschedule": {
-                "subject": "AKTIVITÄT ERFORDERLICH: Bitte verschiebe deine Forschungs-Session",
+                "subject": "",
                 "generic": {
-                    "hi": "Hallo {{user.name}}!",
-                    "pleaseChoose": "Bitte wähle eine neue Zeit für deine Forschungs-Session",
-                    "explanation": "Der Moderator, der deine Forschungs-Session leiten wird, bittet dich eine neue Zeit auszuwählen. <br> Bisher warst du eingeplant für:",
-                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
-                    "chooseNewTime": "Wähle eine neue Zeit",
-                    "selectNoneOfDates": "Solltest du zu keiner der verfügbaren Zeiten  teilnehmen können, wähle bitte “Keine dieser Termine passt für mich” um die Session abzusagen. ",
-                    "sorry": "Wir entschuldigen uns für eventuelle  Unannehmlichkeiten für dich."
+                    "hi": "",
+                    "pleaseChoose": "",
+                    "explanation": "",
+                    "dateAndTime": "",
+                    "chooseNewTime": "",
+                    "selectNoneOfDates": "",
+                    "sorry": ""
                 }
             },
             "confirmationReschedule": {
-                "subject": "Deine Session wurde verschoben!",
+                "subject": "",
                 "generic": {
-                    "hi": "Hallo {{user.name}}!",
-                    "participationHasBeenrescheduled": "Deine Teilnahme wurde verschoben",
-                    "newDetails": "Das sind die neuen Daten:"
+                    "hi": "",
+                    "participationHasBeenrescheduled": "",
+                    "newDetails": ""
                 }
             },
             "icsParticipant": {
-                "summary": "Moderierte Forschungs-Session",
-                "description": "Trete der Session bei: \n{{sessionLink}} \nFalls du an dieser Session nicht mehr zur geplanten Zeit teilnehmen kannst, kannst du sie mit dem folgendem Link verschieben order absagen: \n{{rescheduleLink}}",
-                "fileName": "Moderierte Forschungs-Session"
+                "summary": "",
+                "description": "",
+                "fileName": ""
             }
         }
     },
     "sessionCancelledByModerator": {
-        "subject": "Deine Forschungs-Session wurde abgesagt"
+        "subject": ""
     },
     "sessionCancelledByParticipant": {
-        "subject": "Deine Forschungs-Session wurde abgesagt"
+        "subject": ""
     }
 }
