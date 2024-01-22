@@ -1,0 +1,14 @@
+name: Auto-merge terraform
+on:
+  push:
+    branches:
+      - terraform
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  call-workflow-automerge-terraform:
+    uses: UserZoomSecurity/security-workflows/.github/workflows/automerge-terraform.yml@main
+    secrets: inherit
