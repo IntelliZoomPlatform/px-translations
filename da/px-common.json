@@ -7,7 +7,7 @@
             "claim": "Din mening er vigtig. Bliv betalt for at dele dine oplevelser og få indflydelse på produkter du elsker og holder af.",
             "comma": ",",
             "contactUsLowercaseImperative": "kontakt os",
-            "copyright": "IntelliZoom Panel © 2022. Alle rettigheder forbeholdes.",
+            "copyright": "IntelliZoom Panel © {{currentYear}}. Alle rettigheder forbeholdes.",
             "edge": "Edge",
             "email": "E-mail",
             "firefox": "Firefox",

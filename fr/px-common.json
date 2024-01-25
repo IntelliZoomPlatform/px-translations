@@ -7,7 +7,7 @@
             "claim": "Votre opinion compte. Gagnez des récompenses en aidant des marques internationales à améliorer leurs produits et leurs expériences digitales.",
             "comma": ",",
             "contactUsLowercaseImperative": "contactez-nous",
-            "copyright": "IntelliZoom Panel © 2022. Tous droits réservés.",
+            "copyright": "IntelliZoom Panel © {{currentYear}}. Tous droits réservés.",
             "edge": "Edge",
             "email": "E-mail",
             "firefox": "Firefox",

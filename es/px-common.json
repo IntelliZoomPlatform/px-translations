@@ -7,7 +7,7 @@
             "claim": "Tu opinión cuenta. \nGana dinero por compartir tus experiencias y ayuda a mejorar los productos que más te gustan e interesan.",
             "comma": ",",
             "contactUsLowercaseImperative": "contáctanos",
-            "copyright": "IntelliZoom Panel © 2022. Todos los derechos reservados.",
+            "copyright": "IntelliZoom Panel © {{currentYear}}. Todos los derechos reservados.",
             "edge": "Edge",
             "email": "Email",
             "firefox": "Firefox",

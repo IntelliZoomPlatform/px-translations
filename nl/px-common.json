@@ -7,7 +7,7 @@
             "claim": "Jouw mening telt. Laat je betalen om je ervaringen te delen en een impact te hebben op producten waar je van houdt en die je belangrijk vindt.",
             "comma": ",",
             "contactUsLowercaseImperative": "contacteer ons.",
-            "copyright": "ntelliZoom Panel © 2022. Alle rechten voorbehouden.",
+            "copyright": "ntelliZoom Panel © {{currentYear}}. Alle rechten voorbehouden.",
             "edge": "Edge",
             "email": "E-mail",
             "firefox": "Firefox",
