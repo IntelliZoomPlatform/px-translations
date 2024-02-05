@@ -3,11 +3,11 @@
         "emails": {
             "footer": {
                 "support": "Help!",
-                "copyright": "IntelliZoom Panel wordt beheerd door UserZoom Technologies, Inc. © 2019-2022 Alle rechten voorbehouden. <br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
+                "copyright": "IntelliZoom Panel wordt beheerd door UserZoom Technologies, Inc. © {{currentYear}} Alle rechten voorbehouden. <br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
                 "unsubscribe": "Afmelden van onze e-mails",
                 "termsOfService": "Servicevoorwaarden",
                 "privacyPolicy": "Privacybeleid",
-                "address": "IntelliZoom Panel wordt beheerd door UserZoom Technologies, Inc. © 2019-2022 Alle rechten voorbehouden. <br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
+                "address": "IntelliZoom Panel wordt beheerd door UserZoom Technologies, Inc. © {{currentYear}} Alle rechten voorbehouden. <br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
                 "thankYou": "Bedankt, <br> UserZoom-team",
                 "help": "Help!",
                 "unsubscribeSession": "Als je geen meldingen meer wilt ontvangen over deze onderzoekssessie, kun je je <a href='{{unsubscribeLink}}'>uitschrijven</a>.",
