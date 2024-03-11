@@ -1,0 +1,61 @@
+---
+api: 'https://translation.usertesting.com/graphql'
+repo: 'px-translations'
+
+flows:
+  px_common:
+    source_path: ../en-US/px-common.json
+    project_name: 'Panel Portal - Common'
+    stakeholder: panelist-experience
+    source_locale: en-US
+    target_locales: ['da-DK', 'de-DE', 'de-AT', 'de-CH', 'en-GB', 'es-ES', 'es-MX', 'fr-FR', 'nl-NL', 'sv-SE']
+    target_pattern: ./%s/px-common.json
+    key_prefix: null
+  px_countries:
+    source_path: ../en-US/px-countries.json
+    project_name: 'Panel Portal - Countries'
+    stakeholder: panelist-experience
+    source_locale: en-US
+    target_locales: ['da-DK', 'de-DE', 'de-AT', 'de-CH', 'en-GB', 'es-ES', 'es-MX', 'fr-FR', 'nl-NL', 'sv-SE']
+    target_pattern: ./%s/px-countries.json
+    key_prefix: null
+  px_demographics:
+    source_path: ../en-US/px-demographics.json
+    project_name: 'Panel Portal - Demographics'
+    stakeholder: panelist-experience
+    source_locale: en-US
+    target_locales: ['da-DK', 'de-DE', 'de-AT', 'de-CH', 'en-GB', 'es-ES', 'es-MX', 'fr-FR', 'nl-NL', 'sv-SE']
+    target_pattern: ./%s/px-demographics.json
+    key_prefix: null
+  px_emails:
+    source_path: ../en-US/px-emails.json
+    project_name: 'Panel Portal - Emails'
+    stakeholder: panelist-experience
+    source_locale: en-US
+    target_locales: ['da-DK', 'de-DE', 'de-AT', 'de-CH', 'en-GB', 'es-ES', 'es-MX', 'fr-FR', 'nl-NL', 'sv-SE']
+    target_pattern: ./%s/px-emails.json
+    key_prefix: null
+  px_legal:
+    source_path: ../en-US/px-legal.json
+    project_name: 'Panel Portal - Legal'
+    stakeholder: panelist-experience
+    source_locale: en-US
+    target_locales: ['da-DK', 'de-DE', 'de-AT', 'de-CH', 'en-GB', 'es-ES', 'es-MX', 'fr-FR', 'nl-NL', 'sv-SE']
+    target_pattern: ./%s/px-legal.json
+    key_prefix: null
+  px_panel-management:
+    source_path: ../en-US/px-panel-management.json
+    project_name: 'Panel Portal - Panel Management'
+    stakeholder: panelist-experience
+    source_locale: en-US
+    target_locales: ['da-DK', 'de-DE', 'de-AT', 'de-CH', 'en-GB', 'es-ES', 'es-MX', 'fr-FR', 'nl-NL', 'sv-SE']
+    target_pattern: ./%s/px-panel-management.json
+    key_prefix: null
+  px_platform:
+    source_path: ../en-US/px-platform.json
+    project_name: 'Panel Portal - Platform'
+    stakeholder: panelist-experience
+    source_locale: en-US
+    target_locales: ['da-DK', 'de-DE', 'de-AT', 'de-CH', 'en-GB', 'es-ES', 'es-MX', 'fr-FR', 'nl-NL', 'sv-SE']
+    target_pattern: ./%s/px-platform.json
+    key_prefix: null
