@@ -513,6 +513,11 @@
           "title": "To participate connect your PayPal account",
           "description": "You cannot participate in paid research studies because your PayPal is not connected. Remember even if you don't have an account you can always create a PayPal for free!",
           "cta": "Go to dashboard"
+        },
+        "paypalNotVerified": {
+          "title": "Action needed for PayPal payments",
+          "description": "A connected and verified PayPal account is required to participate in paid research studies. First, go to [How do I verify my PayPal account?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434)\nOnce verified, return here and select \"Confirm PayPal verification\".  ",
+          "cta": "Confirm PayPal verification"
         }
       },
       "settings": {
