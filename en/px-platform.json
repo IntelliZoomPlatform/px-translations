@@ -489,6 +489,11 @@
             "notVerifiedNoTol": {
               "title": "Congrats! your PayPal was connected successfully",
               "description": "To start participating in paid research studies you can either take the practice study or [verify your PayPal account.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+            },
+            "notVerified": {
+              "title": "Your PayPal is not verified",
+              "description": "First, go to [How do I verify my Paypal account?](https://www.paypal.com/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) \n\n Once verified, return here and select \"I've verified my Paypal\".",
+              "cta": "I've verified my Paypal"
             }
           },
           "error": {
