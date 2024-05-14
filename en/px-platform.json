@@ -479,6 +479,9 @@
               "title": "Congrats! Your PayPal account was successfully connected",
               "description": "Let’s take some paid research studies to celebrate."
             },
+            "verifiedMustVerify": {
+              "title": "Congrats! We’ve confirmed your PayPal account is verified and you’re good to go"
+            },
             "notVerifiedTol": {
               "title": "Congrats! Your PayPal account was successfully connected",
               "description": "If you want to be eligible to participate in more paid research studies [verify your PayPal account.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
@@ -486,6 +489,11 @@
             "notVerifiedNoTol": {
               "title": "Congrats! your PayPal was connected successfully",
               "description": "To start participating in paid research studies you can either take the practice study or [verify your PayPal account.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+            },
+            "notVerified": {
+              "title": "Your PayPal is not verified",
+              "description": "First, go to [How do I verify my Paypal account?](https://www.paypal.com/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) \n\n Once verified, return here and select \"I've verified my Paypal\".",
+              "cta": "I've verified my Paypal"
             }
           },
           "error": {
