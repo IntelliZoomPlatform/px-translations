@@ -529,7 +529,7 @@
         },
         "paypalNotVerified": {
           "title": "Handling nødvendig for PayPal-betalinger",
-          "description": "En tilsluttet og verificeret PayPal-konto er påkrævet for at deltage i betalte forskningsundersøgelser. Gå først til [Hvordan verificerer jeg min PayPal-konto?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434)\nNår du er verificeret, skal du vende tilbage hertil og vælge \"Bekræft PayPal-verificering\".  ",
+          "description": "En tilsluttet og verificeret PayPal-konto er påkrævet for at deltage i betalte forskningsundersøgelser. Gå først til [Hvordan verificerer jeg min PayPal-konto?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434)\n\nNår du er verificeret, skal du vende tilbage hertil og vælge \"Bekræft PayPal-verificering\".  ",
           "cta": "Bekræft PayPal-bekræftelse"
         }
       },

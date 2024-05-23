@@ -529,7 +529,7 @@
         },
         "paypalNotVerified": {
           "title": "Actie benodigd voor PayPal-betalingen",
-          "description": "Er is een gekoppelde en geverifieerde PayPal-account nodig om aan betaald onderzoek mee te doen. Ga eerst naar [Hoe verifieer ik mijn PayPal-account?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434)\nNa het verifiëren komt u hier terug en selecteert u 'PayPal-verificatie bevestigen'.  ",
+          "description": "Er is een gekoppelde en geverifieerde PayPal-account nodig om aan betaald onderzoek mee te doen. Ga eerst naar [Hoe verifieer ik mijn PayPal-account?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434)\n\nNa het verifiëren komt u hier terug en selecteert u 'PayPal-verificatie bevestigen'.  ",
           "cta": "PayPal-verificatie bevestigen"
         }
       },

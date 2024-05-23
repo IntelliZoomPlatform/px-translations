@@ -529,7 +529,7 @@
         },
         "paypalNotVerified": {
           "title": "Actions nécessaires pour les paiements PayPal",
-          "description": "Un compte PayPal connecté et vérifié est nécessaire pour participer aux études rémunérées. Tout d'abord, consultez la page [Comment vérifier mon compte PayPal ?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434)\nUne fois la vérification effectuée, revenez sur cette page et sélectionnez «  Confirmer la vérification PayPal ».  ",
+          "description": "Un compte PayPal connecté et vérifié est nécessaire pour participer aux études rémunérées. Tout d'abord, consultez la page [Comment vérifier mon compte PayPal ?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434)\n\nUne fois la vérification effectuée, revenez sur cette page et sélectionnez «  Confirmer la vérification PayPal ».  ",
           "cta": "Confirmer la vérification PayPal"
         }
       },

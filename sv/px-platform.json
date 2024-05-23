@@ -529,7 +529,7 @@
         },
         "paypalNotVerified": {
           "title": "Åtgärd behövs för PayPal-betalningar",
-          "description": "Ett anslutet och verifierat PayPal-konto krävs för att delta i betalda forskningsstudier. Först går du till [Hur verifierar jag mitt PayPal-konto?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434)\nNär det är verifierat återvänder du hit och klickar på \"Bekräfta PayPal-verifiering\".  ",
+          "description": "Ett anslutet och verifierat PayPal-konto krävs för att delta i betalda forskningsstudier. Först går du till [Hur verifierar jag mitt PayPal-konto?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434)\n\nNär det är verifierat återvänder du hit och klickar på \"Bekräfta PayPal-verifiering\".  ",
           "cta": "Bekräfta PayPal-verifiering"
         }
       },
