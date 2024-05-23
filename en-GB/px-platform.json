@@ -435,7 +435,7 @@
       },
       "practiceStudy": "If the study you’ve taken is a Practice Study, we’ll get in touch with you as soon as we review your results. Please remember that practice studies are not eligible for pay.",
       "moderatedSessionAboutToStart": {
-        "title": "You’re scheduled for a session at this time. \nTo continue, please log in to your account.",
+        "title": "You’re scheduled for a session at this time. \n To continue, please log in to your account.",
         "cta": "Log in"
       }
     },

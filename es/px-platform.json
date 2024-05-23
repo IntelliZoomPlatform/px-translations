@@ -471,6 +471,11 @@
             "title": "Lo sentimos, pero no podremos pagarte…",
             "description": "Tu cuenta de PayPal ha sido desconectada de IntelliZoom. Para poder recibir tus pagos y seguir participando en nuestros estudios, debes tener tu cuenta de PayPal conectada.",
             "cta": "Conectar con PayPal"
+          },
+          "notVerified": {
+            "title": "Proceso necesario para pagos por PayPal",
+            "description": "Es necesario facilitar una cuenta de PayPal conectada y verificada para participar en estudios de investigación remunerados. En primer lugar, dirígete a [¿Cómo puedo verificar mi cuenta de PayPal?] (https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434). Cuando esté verificada, vuelve aquí y selecciona «Confirmar verificación de PayPal».  ",
+            "cta": "Confirmar verificación de PayPal"
           }
         },
         "outcome": {
@@ -479,6 +484,9 @@
               "title": "¡Genial! Tu cuenta de PayPal ha sido conectada exitosamente",
               "description": "Y para celebrarlo, nada mejor que participar en un par de estudios pagados."
             },
+            "verifiedMustVerify": {
+              "title": "¡Enhorabuena! Hemos confirmado que tu cuenta de PayPal está verificada. Puedes continuar."
+            },
             "notVerifiedTol": {
               "title": "¡Genial! Tu cuenta de PayPal ha sido conectada exitosamente",
               "description": "Si te gustaría poder participar en más tipos de estudios pagados, [verifica tu cuenta en PayPal.](https://www.paypal.com/ar/smarthelp/article/faq444)"
@@ -486,6 +494,11 @@
             "notVerifiedNoTol": {
               "title": "¡Genial! Tu cuenta de PayPal ha sido conectada exitosamente",
               "description": "Para participar en nuestros estudios pagados, debes primero completar nuestro estudio de práctica o [verificar tu cuenta en PayPal.](https://www.paypal.com/ar/smarthelp/article/faq444)"
+            },
+            "notVerified": {
+              "title": "Tu cuenta de PayPal no está verificada",
+              "description": "En primer lugar, dirígete a [¿Cómo puedo verificar mi cuenta de PayPal?] (https://www.paypal.com/smarthelp/article/how-do-i-verify-my-paypal-account-faq444).\n\nCuando esté verificada, vuelve aquí y selecciona «He verificado mi PayPal».",
+              "cta": "He verificado mi PayPal"
             }
           },
           "error": {
@@ -513,6 +526,11 @@
           "title": "Para participar conecta tu cuenta PayPal",
           "description": "No puedes participar en estudios de investigación pagados porque tu cuenta PayPal no está conectada. Recuerda que aunque no tengas una cuenta, puedes crear una cuenta PayPal gratis. ",
           "cta": "Ir a Estudios"
+        },
+        "paypalNotVerified": {
+          "title": "Proceso necesario para pagos por PayPal",
+          "description": "Es necesario facilitar una cuenta de PayPal conectada y verificada para participar en estudios de investigación remunerados. En primer lugar, dirígete a [¿Cómo puedo verificar mi cuenta de PayPal?] (https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434).\nCuando esté verificada, vuelve aquí y selecciona «Confirmar verificación de PayPal».  ",
+          "cta": "Confirmar verificación de PayPal"
         }
       },
       "settings": {

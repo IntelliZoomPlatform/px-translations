@@ -281,8 +281,8 @@
         "oneStudyAvailable": "Vous avez un test disponible ",
         "severalStudiesAvailable": "Vous avez {{studiesAvailable}} tests disponibles",
         "verb": "Vous avez ",
-        "availableStudies": "{{count} test disponible ",
-        "availableStudies_plural": "{{count} tests disponibles ",
+        "availableStudies": "{{count}} test disponible ",
+        "availableStudies_plural": "{{count}} tests disponibles ",
         "scheduledStudies": "et {{count}} session programmée␣",
         "scheduledStudies_plural": "et {{count}} sessions programmées␣",
         "scheduledStudiesNoAvailableStudies": "{{count}} session programmée␣",
@@ -471,6 +471,11 @@
             "title": "Désolé, nous ne pouvons pas vous donner votre récompense...",
             "description": "Votre compte PayPal a été dissocié de votre compte IntelliZoom. Pour recevoir vos gains et participer à d'autres tests, vos comptes PayPal et IntelliZoom doivent être liés.",
             "cta": "Connecter mon compte PayPal"
+          },
+          "notVerified": {
+            "title": "Actions nécessaires pour les paiements PayPal",
+            "description": "Un compte PayPal connecté et vérifié est nécessaire pour participer aux études rémunérées. Tout d'abord, consultez la page [Comment vérifier mon compte PayPal ?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434) Une fois la vérification effectuée, revenez sur cette page et sélectionnez «  Confirmer la vérification PayPal ».  ",
+            "cta": "Confirmer la vérification PayPal"
           }
         },
         "outcome": {
@@ -479,6 +484,9 @@
               "title": "Félicitations ! Vos comptes PayPal et IntelliZoom sont liés",
               "description": "Participons à quelques tests pour fêter ça."
             },
+            "verifiedMustVerify": {
+              "title": "Félicitations ! Nous confirmons que votre compte PayPal a été vérifié et que vous êtes fin prêt"
+            },
             "notVerifiedTol": {
               "title": "Félicitations ! Vos comptes PayPal et IntelliZoom sont liés",
               "description": "Pour pouvoir participer à nos tests, [vérifiez votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
@@ -486,6 +494,11 @@
             "notVerifiedNoTol": {
               "title": "Vos comptes PayPal et IntelliZoom sont dissociés",
               "description": "Pour pouvoir participer à nos tests, vous pouvez soit passer le test d'entraînement, soit [vérifier votre compte PayPal.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+            },
+            "notVerified": {
+              "title": "Votre compte PayPal n'a pas été vérifié",
+              "description": "Tout d'abord, consultez la page [Comment vérifier mon compte Paypal ?] \n(https://www.paypal.com/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) \n\n\nUne fois la vérification effectuée, revenez sur cette page et sélectionnez «  J'ai vérifié mon compte PayPal ».",
+              "cta": "J'ai vérifié mon compte PayPal"
             }
           },
           "error": {
@@ -513,6 +526,11 @@
           "title": "Vous devez d'abord connecter votre compte PayPal à IntelliZoom",
           "description": "Vous ne pouvez pas participer à nos tests tant que vos comptes PayPal et IntelliZoom ne sont pas liés. Si vous n'avez pas encore de compte PayPal, vous pouvez en créer un gratuitement !",
           "cta": "Aller au tableau de bord"
+        },
+        "paypalNotVerified": {
+          "title": "Actions nécessaires pour les paiements PayPal",
+          "description": "Un compte PayPal connecté et vérifié est nécessaire pour participer aux études rémunérées. Tout d'abord, consultez la page [Comment vérifier mon compte PayPal ?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434)\nUne fois la vérification effectuée, revenez sur cette page et sélectionnez «  Confirmer la vérification PayPal ».  ",
+          "cta": "Confirmer la vérification PayPal"
         }
       },
       "settings": {

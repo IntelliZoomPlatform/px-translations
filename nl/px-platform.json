@@ -471,6 +471,11 @@
             "title": "Sorry, we kunnen je niet uitbetalen...",
             "description": "Jouw PayPal account is niet meer verbonden met IntelliZoom. Om uitbetaald te worden en in de toekomst mee te doen aan studies moet jouw PayPal account verbonden zijn.",
             "cta": "Verbind met PayPal"
+          },
+          "notVerified": {
+            "title": "Actie benodigd voor PayPal-betalingen",
+            "description": "Er is een gekoppelde en geverifieerde PayPal-account nodig om aan betaald onderzoek mee te doen. Ga eerst naar [Hoe verifieer ik mijn PayPal-account?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434) Na het verifiëren komt u hier terug en selecteert u 'PayPal-verificatie bevestigen'.  ",
+            "cta": "PayPal-verificatie bevestigen"
           }
         },
         "outcome": {
@@ -479,6 +484,9 @@
               "title": "Gefeliciteerd! Jouw PayPal account is succesvol verbonden",
               "description": "Laten we wat betaalde onderzoekstudies doen om dit te vieren."
             },
+            "verifiedMustVerify": {
+              "title": "Gefeliciteerd! We hebben bevestigd dat uw PayPal-account geverifieerd is en u kunt aan de slag"
+            },
             "notVerifiedTol": {
               "title": "Gefeliciteerd! Jouw PayPal account is succesvol verbonden",
               "description": "Als je aan meerdere betaalde onderzoeken wilt kunnen meedoen moet je [jouw PayPal account verifiëren.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
@@ -486,6 +494,11 @@
             "notVerifiedNoTol": {
               "title": "Gefeliciteerd! Jouw PayPal was succesvol verbonden",
               "description": "Om mee te doen aan betaalde studies kun je ofwel een proefstudie doen of [jouw PayPal account verifiëren]\n(https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+            },
+            "notVerified": {
+              "title": "Uw PayPal is niet geverifieerd",
+              "description": "Ga eerst naar [Hoe verifieer ik mijn PayPal-account?](https://www.paypal.com/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) \n\nNa het verifiëren komt u hier terug en selecteert u 'Ik heb mijn Paypal geverifieerd'.",
+              "cta": "Ik heb mijn PayPal geverifieerd"
             }
           },
           "error": {
@@ -513,6 +526,11 @@
           "title": "Koppel je PayPal-account om deel te kunnen nemen",
           "description": "Je kan niet aan betaalde onderzoeken deelnemen want je PayPal-account is niet gekoppeld. Maar denk eraan, ook al heb je geen account, je kan altijd gratis een PayPal-account aanmaken!",
           "cta": "Ga naar het dashboard"
+        },
+        "paypalNotVerified": {
+          "title": "Actie benodigd voor PayPal-betalingen",
+          "description": "Er is een gekoppelde en geverifieerde PayPal-account nodig om aan betaald onderzoek mee te doen. Ga eerst naar [Hoe verifieer ik mijn PayPal-account?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434)\nNa het verifiëren komt u hier terug en selecteert u 'PayPal-verificatie bevestigen'.  ",
+          "cta": "PayPal-verificatie bevestigen"
         }
       },
       "settings": {

@@ -471,6 +471,11 @@
             "title": "Leider könnn wir Dich nicht bezahlen …",
             "description": "Dein PayPal-Konto wurde von IntelliZoom getrennt. Um bezahlt zu werden und an zukünftigen Studien teilnehmen zu können, muss Dein PayPal-Konto verknüpft sein.",
             "cta": "Mit PayPal verknüpfen"
+          },
+          "notVerified": {
+            "title": "Aktion für PayPal-Zahlungen erforderlich",
+            "description": "Ein verknüpftes und verifiziertes PayPal-Konto ist erforderlich, um an bezahlten Forschungsprojekten teilzunehmen. Zuerst gehen Sie zu [Wie verifiziere ich mein PayPal-Konto?] (https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434). Nach der Verifizierung kommen Sie hierher zurück und wählen „PayPal-Verifizierung bestätigen“.  ",
+            "cta": "PayPal-Verifizierung bestätigen"
           }
         },
         "outcome": {
@@ -479,6 +484,9 @@
               "title": "Herzlichen Glückwunsch! Dein PayPal-Konto wurde erfolgreich verknüpft.",
               "description": "Nehme zur Feier an einigen bezahlten Forschungsstudien teil."
             },
+            "verifiedMustVerify": {
+              "title": "Glückwunsch! Wir haben bestätigt, dass Ihr PayPal-Konto verifiziert ist. Jetzt können Sie fortfahren"
+            },
             "notVerifiedTol": {
               "title": "Herzlichen Glückwunsch! Dein PayPal-Konto wurde erfolgreich verknüpft.",
               "description": "Wenn Du an weiteren bezahlten Forschungsstudien teilnehmen möchtest, [verifiziere Dein PayPal-Konto.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
@@ -486,6 +494,11 @@
             "notVerifiedNoTol": {
               "title": "Herzlichen Glückwunsch! Dein PayPal-Konto wurde erfolgreich verknüpft.",
               "description": "Um mit der Teilnahme an bezahlten Forschungsstudien zu beginnen, kannst Du entweder die Übungsstudie durchführen oder [Dein PayPal-Konto verifizieren.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+            },
+            "notVerified": {
+              "title": "Ihr PayPal-Konto ist nicht verifiziert",
+              "description": "Zuerst gehen Sie zu [Wie verifiziere ich mein PayPal-Konto?] (https://www.paypal.com/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) \n\nNach der Verifizierung kommen Sie hierher zurück und wählen „Ich habe mein PayPal-Konto verifiziert“.",
+              "cta": "Ich habe mein PayPal-Konto verifiziert"
             }
           },
           "error": {
@@ -513,6 +526,11 @@
           "title": "Verbinde zur Teilnahme dein PayPal-Konto",
           "description": "Du kannst nicht an bezahlten Forschungsstudien teilnehmen, weil dein PayPal nicht verbunden ist. Wenn noch kein Konto hast, kannst aber jederzeit kostenlos ein PayPal-Konto erstellen!",
           "cta": "Zur Übersichtsseite"
+        },
+        "paypalNotVerified": {
+          "title": "Aktion für PayPal-Zahlungen erforderlich",
+          "description": "Ein verknüpftes und verifiziertes PayPal-Konto ist erforderlich, um an bezahlten Forschungsprojekten teilzunehmen. Zuerst gehen Sie zu [Wie verifiziere ich mein PayPal-Konto?] (https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434)\nNach der Verifizierung kommen Sie hierher zurück und wählen „PayPal-Verifizierung bestätigen“.  ",
+          "cta": "PayPal-Verifizierung bestätigen"
         }
       },
       "settings": {
