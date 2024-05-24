@@ -471,6 +471,11 @@
             "title": "Beklager, vi kan ikke betale dig...",
             "description": "Din PayPal-konto er blevet frakoblet fra IntelliZoom. For at blive betalt og deltage i fremtidige undersøgelser, skal din PayPal-konto være tilkoblet.",
             "cta": "Tilknyt PayPal"
+          },
+          "notVerified": {
+            "title": "Handling nødvendig for PayPal-betalinger",
+            "description": "En tilsluttet og verificeret PayPal-konto er påkrævet for at deltage i betalte forskningsundersøgelser. Gå først til [Hvordan verificerer jeg min PayPal-konto?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434) Når den er verificeret, skal du vende tilbage hertil og vælg \"Bekræft PayPal-verificering\".  ",
+            "cta": "Bekræft PayPal-bekræftelse"
           }
         },
         "outcome": {
@@ -479,6 +484,9 @@
               "title": "Tillykke! Din PayPal-konto er nu forbundet",
               "description": "Lad os tage nogle betalte undersøgelser for at fejre det."
             },
+            "verifiedMustVerify": {
+              "title": "Tillykke! Vi har bekræftet, at din PayPal-konto er verificeret, og du er nu klar til at komme i gang"
+            },
             "notVerifiedTol": {
               "title": "Tillykke! Din PayPal-konto er nu tilknyttet",
               "description": "Hvis du vil være kvalificeret til at deltage i flere betalte undersøgelser, skal du [verify your PayPal account.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
@@ -486,6 +494,11 @@
             "notVerifiedNoTol": {
               "title": "Tillykke! Din PayPal-konto er nu forbundet",
               "description": "For at begynde at deltage i betalte undersøgelser, kan du enten tage prøve-undersøgelsen eller [verify your PayPal account.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+            },
+            "notVerified": {
+              "title": "Din PayPal er ikke verificeret",
+              "description": "Gå først til [Hvordan verificerer jeg min Paypal-konto?](https://www.paypal.com/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) \n\n Når du er verificeret, skal du vende tilbage hertil og vælge \"Jeg har verificeret min Paypal\".",
+              "cta": "Jeg har verificeret min Paypal"
             }
           },
           "error": {
@@ -513,6 +526,11 @@
           "title": "Forbind din PayPal-konto for at deltage",
           "description": "Du kan ikke deltage i betalte undersøgelser, fordi din PayPal-konto ikke er forbundet. Husk, at selv hvis du ikke har en konto, kan du altid oprette en gratis PayPal-konto!",
           "cta": "Gå til dashboard"
+        },
+        "paypalNotVerified": {
+          "title": "Handling nødvendig for PayPal-betalinger",
+          "description": "En tilsluttet og verificeret PayPal-konto er påkrævet for at deltage i betalte forskningsundersøgelser. Gå først til [Hvordan verificerer jeg min PayPal-konto?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434)\n\nNår du er verificeret, skal du vende tilbage hertil og vælge \"Bekræft PayPal-verificering\".  ",
+          "cta": "Bekræft PayPal-bekræftelse"
         }
       },
       "settings": {
