@@ -474,7 +474,7 @@
           },
           "notVerified": {
             "title": "Proceso necesario para pagos por PayPal",
-            "description": "Es necesario facilitar una cuenta de PayPal conectada y verificada para participar en estudios de investigación remunerados. En primer lugar, dirígete a [¿Cómo puedo verificar mi cuenta de PayPal?] (https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434). Cuando esté verificada, vuelve aquí y selecciona «Confirmar verificación de PayPal».  ",
+            "description": "Es necesario facilitar una cuenta de PayPal conectada y verificada para participar en estudios de investigación remunerados. En primer lugar, dirígete a [¿Cómo puedo verificar mi cuenta de PayPal?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434). Cuando esté verificada, vuelve aquí y selecciona «Confirmar verificación de PayPal».  ",
             "cta": "Confirmar verificación de PayPal"
           }
         },
@@ -529,7 +529,7 @@
         },
         "paypalNotVerified": {
           "title": "Proceso necesario para pagos por PayPal",
-          "description": "Es necesario facilitar una cuenta de PayPal conectada y verificada para participar en estudios de investigación remunerados. En primer lugar, dirígete a [¿Cómo puedo verificar mi cuenta de PayPal?] (https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434).\n\nCuando esté verificada, vuelve aquí y selecciona «Confirmar verificación de PayPal».  ",
+          "description": "Es necesario facilitar una cuenta de PayPal conectada y verificada para participar en estudios de investigación remunerados. En primer lugar, dirígete a [¿Cómo puedo verificar mi cuenta de PayPal?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434).\n\nCuando esté verificada, vuelve aquí y selecciona «Confirmar verificación de PayPal».  ",
           "cta": "Confirmar verificación de PayPal"
         }
       },
