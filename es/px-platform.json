@@ -497,7 +497,7 @@
             },
             "notVerified": {
               "title": "Tu cuenta de PayPal no está verificada",
-              "description": "En primer lugar, dirígete a [¿Cómo puedo verificar mi cuenta de PayPal?] (https://www.paypal.com/smarthelp/article/how-do-i-verify-my-paypal-account-faq444).\n\nCuando esté verificada, vuelve aquí y selecciona «He verificado mi PayPal».",
+              "description": "En primer lugar, dirígete a [¿Cómo puedo verificar mi cuenta de PayPal?](https://www.paypal.com/smarthelp/article/how-do-i-verify-my-paypal-account-faq444).\n\nCuando esté verificada, vuelve aquí y selecciona «He verificado mi PayPal».",
               "cta": "He verificado mi PayPal"
             }
           },
