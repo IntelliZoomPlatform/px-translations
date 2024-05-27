@@ -474,7 +474,7 @@
           },
           "notVerified": {
             "title": "Aktion für PayPal-Zahlungen erforderlich",
-            "description": "Ein verknüpftes und verifiziertes PayPal-Konto ist erforderlich, um an bezahlten Forschungsprojekten teilzunehmen. Zuerst gehen Sie zu [Wie verifiziere ich mein PayPal-Konto?] (https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434). Nach der Verifizierung kommen Sie hierher zurück und wählen „PayPal-Verifizierung bestätigen“.  ",
+            "description": "Ein verknüpftes und verifiziertes PayPal-Konto ist erforderlich, um an bezahlten Forschungsprojekten teilzunehmen. Zuerst gehen Sie zu [Wie verifiziere ich mein PayPal-Konto?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434). Nach der Verifizierung kommen Sie hierher zurück und wählen „PayPal-Verifizierung bestätigen“.  ",
             "cta": "PayPal-Verifizierung bestätigen"
           }
         },
@@ -497,7 +497,7 @@
             },
             "notVerified": {
               "title": "Ihr PayPal-Konto ist nicht verifiziert",
-              "description": "Zuerst gehen Sie zu [Wie verifiziere ich mein PayPal-Konto?] (https://www.paypal.com/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) \n\nNach der Verifizierung kommen Sie hierher zurück und wählen „Ich habe mein PayPal-Konto verifiziert“.",
+              "description": "Zuerst gehen Sie zu [Wie verifiziere ich mein PayPal-Konto?](https://www.paypal.com/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) \n\nNach der Verifizierung kommen Sie hierher zurück und wählen „Ich habe mein PayPal-Konto verifiziert“.",
               "cta": "Ich habe mein PayPal-Konto verifiziert"
             }
           },
@@ -529,7 +529,7 @@
         },
         "paypalNotVerified": {
           "title": "Aktion für PayPal-Zahlungen erforderlich",
-          "description": "Ein verknüpftes und verifiziertes PayPal-Konto ist erforderlich, um an bezahlten Forschungsprojekten teilzunehmen. Zuerst gehen Sie zu [Wie verifiziere ich mein PayPal-Konto?] (https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434)\n\nNach der Verifizierung kommen Sie hierher zurück und wählen „PayPal-Verifizierung bestätigen“.  ",
+          "description": "Ein verknüpftes und verifiziertes PayPal-Konto ist erforderlich, um an bezahlten Forschungsprojekten teilzunehmen. Zuerst gehen Sie zu [Wie verifiziere ich mein PayPal-Konto?](https://www.paypal.com/cshelp/article/how-do-i-verify-my-paypal-account-help434)\n\nNach der Verifizierung kommen Sie hierher zurück und wählen „PayPal-Verifizierung bestätigen“.  ",
           "cta": "PayPal-Verifizierung bestätigen"
         }
       },

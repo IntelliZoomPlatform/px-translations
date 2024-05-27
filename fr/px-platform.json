@@ -497,7 +497,7 @@
             },
             "notVerified": {
               "title": "Votre compte PayPal n'a pas été vérifié",
-              "description": "Tout d'abord, consultez la page [Comment vérifier mon compte Paypal ?] \n(https://www.paypal.com/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) \n\n\nUne fois la vérification effectuée, revenez sur cette page et sélectionnez «  J'ai vérifié mon compte PayPal ».",
+              "description": "Tout d'abord, consultez la page [Comment vérifier mon compte Paypal ?](https://www.paypal.com/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) \n\n Une fois la vérification effectuée, revenez sur cette page et sélectionnez «  J'ai vérifié mon compte PayPal ».",
               "cta": "J'ai vérifié mon compte PayPal"
             }
           },
