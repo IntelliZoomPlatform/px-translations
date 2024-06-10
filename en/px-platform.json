@@ -345,6 +345,16 @@
         "questionsPending": "{{numberQuestionsPending}} questions left",
         "editCTA": "Review / Edit",
         "answerCTA": "Add details"
+      },
+      "verifications": {
+        "title": "Verifications",
+        "description": "Enhance your profile by adding verifications like LinkedIn, which will improve your chances of being invited to future studies. You will have control over the data you choose to share.",
+        "linkedin": {
+          "title": "LinkedIn",
+          "description": "Connect your LinkedIn account to share your verifications and profile data with IntelliZoom. By continuing, you’re agreeing to [IntelliZoom’s Privacy Policy](http://www.intellizoom.com/privacy-policy).",
+          "linkedinInfo": "[Learn more about sharing your LinkedIn verifications](https://www.linkedin.com/help/linkedin/answer/a1359065)",
+          "connect": "Connect LinkedIn"
+        }
       }
     },
     "demographics": {
