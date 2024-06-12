@@ -334,6 +334,20 @@
         },
         "panelistEditModal": {
             "title": "Edit panelist information"
+        },
+        "invitationTable": {
+            "headers": {
+                "invitedAt": "Date/Time",
+                "studyId": "Study UUID",
+                "Id": "Session UUID",
+                "studyType": "Study Type",
+                "status": "Status",
+                "duration": "Duration"
+            },
+            "noInvitationsFound": "No invitations found for this panelist"
+        },
+        "recentActivity": {
+            "title": "Recent Activity"
         }
     }
 }
