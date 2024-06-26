@@ -212,10 +212,6 @@
             "button": {
                 "addFilter": "Add filter"
             },
-            "panelists": "{{number}} panelists",
-            "panelistMatch": "**{{number}} panelist match** out of {{total}}",
-            "panelistsMatch": "**{{number}} panelists match** out of {{total}}",
-            "noPanelistsMatch": "**No panelist match** out of {{total}}",
             "noPanelistsFoundForFilter": "No panelists found for this filter",
             "selectionLimitReached": "The maximum number of panelists on which an action can be applied is {{total}}."
         },
@@ -224,6 +220,12 @@
             "done": "Done",
             "noResults": "No matching search results",
             "anonymized": "anonymized"
+        },
+        "count": {
+            "match": "**{{number}} {{collectionName}} match** out of {{total}}",
+            "matches": "**{{number}} {{collectionName}}s match** out of {{total}}",
+            "noMatches": "**No {{collectionName}} match** out of {{total}}",
+            "total": "{{number}} {{collectionName}}s"
         },
         "actions": {
             "title": "Action",
