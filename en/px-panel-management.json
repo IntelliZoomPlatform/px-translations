@@ -212,6 +212,10 @@
             "button": {
                 "addFilter": "Add filter"
             },
+            "panelists": "{{number}} panelists",
+            "panelistMatch": "**{{number}} panelist match** out of {{total}}",
+            "panelistsMatch": "**{{number}} panelists match** out of {{total}}",
+            "noPanelistsMatch": "**No panelist match** out of {{total}}",
             "noPanelistsFoundForFilter": "No panelists found for this filter",
             "selectionLimitReached": "The maximum number of panelists on which an action can be applied is {{total}}."
         },
