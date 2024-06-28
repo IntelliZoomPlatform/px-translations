@@ -3,11 +3,11 @@
         "emails": {
             "footer": {
                 "support": "Hjælp!",
-                "copyright": "IntelliZoom Panel drives af UserZoom Technologies, Inc. © 2019-2022 Alle rettigheder forbeholdes. <br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
+                "copyright": "IntelliZoom Panel drives af UserZoom Technologies, Inc. © {{currentYear}} Alle rettigheder forbeholdes. <br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
                 "unsubscribe": "Afmeld vores e-mails",
                 "termsOfService": "Servicevilkår",
                 "privacyPolicy": "Privatlivspolitik",
-                "address": "IntelliZoom Panel drives af UserZoom Technologies, Inc. © 2019-2022 Alle rettigheder forbeholdes. <br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
+                "address": "IntelliZoom Panel drives af UserZoom Technologies, Inc. © {{currentYear}} Alle rettigheder forbeholdes. <br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
                 "thankYou": "Tak, <br> UserZoom Teamet",
                 "help": "Hjælp",
                 "unsubscribeSession": "Hvis du ikke længere vil modtage beskeder om denne forskningssession kan du <a href='{{unsubscribeLink}}'>afmelde dig</a>.",
