@@ -225,6 +225,12 @@
             "noResults": "No matching search results",
             "anonymized": "anonymized"
         },
+        "count": {
+            "match": "**{{number}} {{collectionName}} match** out of {{total}}",
+            "matches": "**{{number}} {{collectionName}}s match** out of {{total}}",
+            "noMatches": "**No {{collectionName}} match** out of {{total}}",
+            "total": "{{number}} {{collectionName}}s"
+        },
         "actions": {
             "title": "Action",
             "exportPanelists": "Export panelists",
