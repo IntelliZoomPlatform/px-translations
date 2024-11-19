@@ -15,7 +15,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.SOURCING_GITHUB_TOKEN }}
     steps:
-      - uses: actions/github-script@v5
+      - uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.SOURCING_GITHUB_TOKEN }}
           script: |
