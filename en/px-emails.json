@@ -255,6 +255,11 @@
                 "summary": "Moderated research session",
                 "description": "Enter the session:\n{{sessionLink}}\nIf you can no longer attend the session at the scheduled time you can reschedule or cancel it by following this link:\n{{rescheduleLink}}",
                 "fileName": "Moderated Research Session"
+            },
+            "panelistProblemReported": {
+                "subject": "Unpaid",
+                "title": "Hi {{user.name}},",
+                "bodyCopy": "Thank you for reporting a problem with this test: {{projectId}}. We appreciate you taking the time to do this. The company running this test has been notified of the issue you experienced, and you are now free to accept other tests from your dashboard. <br> <br> We apologize for the issue you experienced and hope your next test goes smoothly!"
             }
         }
     },
