@@ -1,267 +1,267 @@
 {
-    "izPanel": {
-        "emails": {
-            "footer": {
-                "support": "",
-                "copyright": "",
-                "unsubscribe": "",
-                "termsOfService": "",
-                "privacyPolicy": "",
-                "address": "",
-                "thankYou": "",
-                "help": "",
-                "unsubscribeSession": "",
-                "regards": ""
-            },
-            "doubleOptIn": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": "",
-                "cta": "",
-                "closing": ""
-            },
-            "reset": {
-                "subject": "",
-                "title": "¿Olvidaste tu contraseña?",
-                "bodyCopy": "Relax, a todos nos pasa de vez en cuando. Solo tienes que hacer click en el botón de abajo y podrás crear una contraseña nueva. Si tú no solicitaste este cambio de contraseña, por favor, ignora este email.<br>Por razones de seguridad, este link expirará en 24 horas o en cuanto sea utilizado. ",
-                "cta": ""
-            },
-            "studyInvitation": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": "",
-                "cta": "",
-                "studyID": "",
-                "closing": ""
-            },
-            "studyComplete": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": ""
-            },
-            "paymentSent": {
-                "subject": "Tu pago fue enviado",
-                "title": "",
-                "bodyCopy": ""
-            },
-            "paymentConfirmation": {
-                "subject": "",
-                "title": "Hola {{user.name}}, PayPal acaba de confirmarnos que tu pago fue recibido",
-                "bodyCopy": ""
-            },
-            "certificationApproved": {
-                "subject": "¡Realizaste un estudio de práctica de 10!",
-                "title": "",
-                "bodyCopyOne": "",
-                "bodyCopyTwo": ""
-            },
-            "certificationRejected": {
-                "subject": "Tu estudio de práctica no fue aprobado",
-                "title": "Hola {{user.name}}, el estudio de práctica que nos enviaste no fue aprobado",
-                "bodyCopyOne": "",
-                "bodyCopyTwo": ""
-            },
-            "generic": {
-                "genericClosing": "",
-                "inlineContact": "",
-                "inlineHelp": "",
-                "gotQuestions": ""
-            },
-            "reEngagement": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": "",
-                "cta": ""
-            },
-            "termination": {
-                "subject": "Tu cuenta fue eliminada",
-                "title": "Tu cuenta de IntelliZoom Panel fue eliminada",
-                "bodyCopy": "Hola {{user.name}},<br><br>Hemos eliminado tu cuenta y toda tu información personal de nuestra base de datos. (Este email es la última comunicación que recibirás de nosotros.)<br><br>Si no solicitaste la eliminación de tu cuenta, puede que su eliminación sea resultado de un largo periodo de inactividad o debido a un mal uso de nuestra plataforma, incumpliendo las <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br><br>Si crees que se trata de un error o quieres más información, consulta nuestra sección de <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a> o <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> directamente con nosotros."
-            },
-            "practiceStudyComplete": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": ""
-            },
-            "PayPal": {
-                "paymentSent": {
-                    "note": ""
-                }
-            },
-            "paypalToken": {
-                "title": "Tu cuenta de PayPal fue desconectada de IntelliZoom",
-                "description": "Sentimos traer malas noticias, pero tu cuenta de PayPal fue desconectada de IntelliZoom.<br /><br />Esto quiere decir que ya no podrás participar en nuestros estudios y también que no recibirás ningún pago pendiente por estudios completados recientemente.<br /><br />Para poder recibir tus pagos y seguir participando en nuestros estudios, visita nuestra sección Estudios y conecta tus cuentas de PayPal e IntelliZoom de nuevo.",
-                "cta": ""
-            },
-            "excludedParticipation": {
-                "subject": "Tu participación no fue aprobada",
-                "title": "Hola {{user.name}}, una de tus participaciones no fue aprobada",
-                "bodyCopy": "Sentimos informarte que tu participación en el estudio {{projectId}} no fue aprobada y por lo tanto no recibirás el incentivo del estudio. <br /><br /> Esto puede ser debido a una o más de las siguientes razones: <ul><li>Puede que no hayas pensado en voz alta como requiere un estudio TOL.</li><li>Puede que no hayas invertido el tiempo suficiente en las tareas y cuestionarios del estudio.</li><li>Puede que la calidad técnica de tu participación haya sido pobre o incompleta debido a uno o más de estos casos:<ul <li>Mala conexión a internet.</li><li>Mala calidad de micrófono o cámara.</li><li>Mala calidad en general de la participación debido a demasiadas ventanas, pestañas o aplicaciones abiertas al mismo tiempo en tu dispositivo.</li></ul></li></ul> Para evitar que esto vuelva a pasar en el futuro, te recomendamos que eches un vistazo a estos consejos de <a href=\"https://help.intellizoom.com/hc/es/categories/360000100658\">buenas prácticas</a> en nuestra página de Ayuda. <br /><br /> ¡No te desanimes! La próxima vez asegúrate de que tu dispositivo está listo para realizar el estudio y de dar tu opinión de la manera más clara posible."
-            },
-            "finishConfirmation": {
-                "subject": "",
-                "generic": {
-                    "hi": "",
-                    "oneMoreStep": "",
-                    "selectedDay": "¡Muchas gracias por tu interés en esta sesión de {{sessionDuration}}-minutos! Elegiste participar en la siguiente hora y fecha:",
-                    "dateAndTime": "",
-                    "recommendations": "",
-                    "confirm": "",
-                    "alternativeLink": "",
-                    "timezone": ""
-                },
-                "desktop": {
-                    "hi": "",
-                    "oneMoreStep": "",
-                    "thankYouForInterest": "¡Muchas gracias por tu interés en esta sesión de {{sessionDuration}}-minutos! Elegiste participar en la siguiente hora y fecha:",
-                    "dateAndTime": "",
-                    "youWillNeed": "Para este estudio necesitarás: \n<ul>\n<li>Una computadora</li>\n<li>Última versión de <strong>Chrome</strong>, <strong>Firefox</strong> o <strong>Edge</strong></li>\n<li>Audífonos</li>\n<li>Videocámara</li>\n</ul>",
-                    "recommendations": "",
-                    "confirm": "",
-                    "alternativeLink": ""
-                },
-                "mobile": {
-                    "hi": "",
-                    "oneMoreStep": "",
-                    "thankYouForInterest": "¡Muchas gracias por tu interés en esta sesión de {{sessionDuration}}-minutos! Elegiste participar en la siguiente hora y fecha:",
-                    "dateAndTime": "",
-                    "youWillNeed": "Para este estudio necesitarás:\n<ul>\n<li>Dispositivo móvil (tablet o smartphone)</li>\n<li>Suficiente batería o estar conectado</li> \n<li>Audífonos</li>\n</ul>",
-                    "recommendations": "",
-                    "confirm": ""
-                }
-            },
-            "participationConfirmed": {
-                "subject": "",
-                "generic": {
-                    "hi": "",
-                    "participationConfirmed": "¡Tu participación fue confirmada!",
-                    "scheduled": "",
-                    "dateAndTime": "",
-                    "recommendations": {
-                        "youWillNeed": "Necesitarás la última versión de Chrome, Firefox o Edge si participas desde una computadora o un dispositivo móvil con suficiente carga para una sesión móvil.",
-                        "environment": "",
-                        "ics": "También adjuntamos un ICS en este correo para que puedas agregar este evento a tu calendario si lo deseas.",
-                        "thatsIt": ""
-                    },
-                    "join": "",
-                    "alternativeLink": "",
-                    "note": ""
-                },
-                "desktop": {
-                    "hi": "",
-                    "participationConfirmed": "¡Tu participación fue confirmada!",
-                    "scheduled": "",
-                    "youWillNeed": "Para este estudio necesitarás: \n<ul>\n<li>Una computadora</li>\n<li>Última versión de <strong>Chrome</strong>, <strong>Firefox</strong> o <strong>Edge</strong></li>\n<li>Audífonos</li>\n<li>Videocámara</li>\n</ul>"
-                },
-                "mobile": {
-                    "hi": "",
-                    "participationConfirmed": "¡Tu participación fue confirmada!",
-                    "scheduled": "",
-                    "youWillNeed": "Para este estudio necesitarás:\n<ul>\n<li>Dispositivo móvil (tablet o smartphone)</li>\n<li>Suficiente batería o estar conectado</li> \n<li>Audífonos</li>\n</ul>"
-                }
-            },
-            "sessionCancelled": {
-                "subject": "Tu sesión de investigación fue cancelada",
-                "generic": {
-                    "sessionHasBeenCancelled": "Tu sesión de investigación fue cancelada",
-                    "sorry": "",
-                    "seeYouAgain": "",
-                    "hi": "",
-                    "hope": ""
-                }
-            },
-            "sessionCancelledByModerator": {
-                "subject": "Tu sesión de investigación fue cancelada",
-                "generic": {
-                    "hi": "",
-                    "sessionHasBeenCancelled": "Tu sesión de investigación fue cancelada",
-                    "requestedCancellation": "El moderador que iba a realizar la sesión de investigación canceló tu sesión.",
-                    "sorry": "",
-                    "hope": ""
-                },
-                "moderator": {
-                    "scheduledFor": "",
-                    "sessionHasBeenCancelled": "Tu sesión de investigación fue cancelada"
-                },
-                "participant": {
-                    "scheduledFor": "",
-                    "sessionHasBeenCancelled": "Tu sesión de investigación fue cancelada"
-                }
-            },
-            "sessionCancelledByParticipant": {
-                "subject": "Tu sesión de investigación fue cancelada",
-                "generic": {
-                    "hi": "",
-                    "sessionHasBeenCancelled": "Tu sesión de investigación fue cancelada",
-                    "asRequested": "",
-                    "hope": "",
-                    "sorry": ""
-                },
-                "moderator": {
-                    "scheduledFor": ""
-                },
-                "participant": {
-                    "sessionHasBeenCancelled": "Tu sesión de investigación fue cancelada",
-                    "scheduledFor": "Tal y como solicitaste, hemos cancelado la sesión con ID de estudio {{projectId}} en la que ibas a participar:"
-                }
-            },
-            "reminders": {
-                "generic": {
-                    "hi": "",
-                    "almostTime": "",
-                    "reminder": "",
-                    "recommendations": {
-                        "youWillNeed": "Necesitarás la última versión de Chrome, Firefox o Edge si participas desde una computadora o un dispositivo móvil con suficiente batería para una sesión.",
-                        "environment": "",
-                        "ics": "",
-                        "thatsIt": ""
-                    },
-                    "join": "",
-                    "alternativeLink": "",
-                    "note": ""
-                },
-                "subject": {
-                    "24hbefore": "",
-                    "30mbefore": ""
-                },
-                "desktop": {
-                    "youWillNeed": "Para este estudio necesitarás: \n<ul>\n<li>Una computadora</li>\n<li>Última versión de <strong>Chrome</strong>, <strong>Firefox</strong> o <strong>Edge</strong></li>\n<li>Audífonos</li>\n<li>Videocámara</li>\n</ul>"
-                },
-                "mobile": {
-                    "youWillNeed": "Para este estudio necesitarás:\n<ul>\n<li>Dispositivo móvil (tablet o smartphone)</li>\n<li>Suficiente batería o estar conectado</li> \n<li>Audífonos</li>\n</ul>"
-                }
-            },
-            "reschedule": {
-                "subject": "",
-                "generic": {
-                    "hi": "",
-                    "pleaseChoose": "",
-                    "explanation": "El moderador que realizará tu sesión de investigación solicitó si puedes elegir una nueva hora para el estudio. <br> Estabas citado previamente para el:",
-                    "dateAndTime": "",
-                    "chooseNewTime": "",
-                    "selectNoneOfDates": "",
-                    "sorry": ""
-                }
-            },
-            "confirmationReschedule": {
-                "subject": "¡Tu sesión fue reprogramada!",
-                "generic": {
-                    "hi": "",
-                    "participationHasBeenrescheduled": "Tu sesión fue reprogramada",
-                    "newDetails": ""
-                }
-            },
-            "icsParticipant": {
-                "summary": "",
-                "description": "",
-                "fileName": ""
-            }
+  "izPanel": {
+    "emails": {
+      "footer": {
+        "support": "",
+        "copyright": "",
+        "unsubscribe": "",
+        "termsOfService": "",
+        "privacyPolicy": "",
+        "address": "",
+        "thankYou": "",
+        "help": "",
+        "unsubscribeSession": "",
+        "regards": ""
+      },
+      "doubleOptIn": {
+        "subject": "",
+        "title": "",
+        "bodyCopy": "",
+        "cta": "",
+        "closing": ""
+      },
+      "reset": {
+        "subject": "",
+        "title": "¿Olvidaste tu contraseña?",
+        "bodyCopy": "Relax, a todos nos pasa de vez en cuando. Solo tienes que hacer click en el botón de abajo y podrás crear una contraseña nueva. Si tú no solicitaste este cambio de contraseña, por favor, ignora este email.<br>Por razones de seguridad, este link expirará en 24 horas o en cuanto sea utilizado. ",
+        "cta": ""
+      },
+      "studyInvitation": {
+        "subject": "",
+        "title": "",
+        "bodyCopy": "",
+        "cta": "",
+        "studyID": "",
+        "closing": ""
+      },
+      "studyComplete": {
+        "subject": "",
+        "title": "",
+        "bodyCopy": ""
+      },
+      "paymentSent": {
+        "subject": "Tu pago fue enviado",
+        "title": "",
+        "bodyCopy": ""
+      },
+      "paymentConfirmation": {
+        "subject": "",
+        "title": "Hola {{user.name}}, PayPal acaba de confirmarnos que tu pago fue recibido",
+        "bodyCopy": ""
+      },
+      "certificationApproved": {
+        "subject": "¡Realizaste un estudio de práctica de 10!",
+        "title": "",
+        "bodyCopyOne": "",
+        "bodyCopyTwo": ""
+      },
+      "certificationRejected": {
+        "subject": "Tu estudio de práctica no fue aprobado",
+        "title": "Hola {{user.name}}, el estudio de práctica que nos enviaste no fue aprobado",
+        "bodyCopyOne": "",
+        "bodyCopyTwo": ""
+      },
+      "generic": {
+        "genericClosing": "",
+        "inlineContact": "",
+        "inlineHelp": "",
+        "gotQuestions": ""
+      },
+      "reEngagement": {
+        "subject": "",
+        "title": "",
+        "bodyCopy": "",
+        "cta": ""
+      },
+      "termination": {
+        "subject": "Tu cuenta fue eliminada",
+        "title": "Tu cuenta de IntelliZoom Panel fue eliminada",
+        "bodyCopy": "Hola {{user.name}},<br><br>Hemos eliminado tu cuenta y toda tu información personal de nuestra base de datos. (Este email es la última comunicación que recibirás de nosotros.)<br><br>Si no solicitaste la eliminación de tu cuenta, puede que su eliminación sea resultado de un largo periodo de inactividad o debido a un mal uso de nuestra plataforma, incumpliendo las <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br><br>Si crees que se trata de un error o quieres más información, consulta nuestra sección de <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a> o <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> directamente con nosotros."
+      },
+      "practiceStudyComplete": {
+        "subject": "",
+        "title": "",
+        "bodyCopy": ""
+      },
+      "PayPal": {
+        "paymentSent": {
+          "note": ""
         }
-    },
-    "sessionCancelledByModerator": {
-        "subject": "Tu sesión de investigación fue cancelada"
-    },
-    "sessionCancelledByParticipant": {
-        "subject": "Tu sesión de investigación fue cancelada"
+      },
+      "paypalToken": {
+        "title": "Tu cuenta de PayPal fue desconectada de IntelliZoom",
+        "description": "Sentimos traer malas noticias, pero tu cuenta de PayPal fue desconectada de IntelliZoom.<br /><br />Esto quiere decir que ya no podrás participar en nuestros estudios y también que no recibirás ningún pago pendiente por estudios completados recientemente.<br /><br />Para poder recibir tus pagos y seguir participando en nuestros estudios, visita nuestra sección Estudios y conecta tus cuentas de PayPal e IntelliZoom de nuevo.",
+        "cta": ""
+      },
+      "excludedParticipation": {
+        "subject": "Tu participación no fue aprobada",
+        "title": "Hola {{user.name}}, una de tus participaciones no fue aprobada",
+        "bodyCopy": "Sentimos informarte que tu participación en el estudio {{projectId}} no fue aprobada y por lo tanto no recibirás el incentivo del estudio. <br /><br /> Esto puede ser debido a una o más de las siguientes razones: <ul><li>Puede que no hayas pensado en voz alta como requiere un estudio TOL.</li><li>Puede que no hayas invertido el tiempo suficiente en las tareas y cuestionarios del estudio.</li><li>Puede que la calidad técnica de tu participación haya sido pobre o incompleta debido a uno o más de estos casos:<ul <li>Mala conexión a internet.</li><li>Mala calidad de micrófono o cámara.</li><li>Mala calidad en general de la participación debido a demasiadas ventanas, pestañas o aplicaciones abiertas al mismo tiempo en tu dispositivo.</li></ul></li></ul> Para evitar que esto vuelva a pasar en el futuro, te recomendamos que eches un vistazo a estos consejos de <a href=\"https://help.intellizoom.com/hc/es/categories/360000100658\">buenas prácticas</a> en nuestra página de Ayuda. <br /><br /> ¡No te desanimes! La próxima vez asegúrate de que tu dispositivo está listo para realizar el estudio y de dar tu opinión de la manera más clara posible."
+      },
+      "finishConfirmation": {
+        "subject": "",
+        "generic": {
+          "hi": "",
+          "oneMoreStep": "",
+          "selectedDay": "¡Muchas gracias por tu interés en esta sesión de {{sessionDuration}}-minutos! Elegiste participar en la siguiente hora y fecha:",
+          "dateAndTime": "",
+          "recommendations": "",
+          "confirm": "",
+          "alternativeLink": "",
+          "timezone": ""
+        },
+        "desktop": {
+          "hi": "",
+          "oneMoreStep": "",
+          "thankYouForInterest": "¡Muchas gracias por tu interés en esta sesión de {{sessionDuration}}-minutos! Elegiste participar en la siguiente hora y fecha:",
+          "dateAndTime": "",
+          "youWillNeed": "Para este estudio necesitarás: \n<ul>\n<li>Una computadora</li>\n<li>Última versión de <strong>Chrome</strong>, <strong>Firefox</strong> o <strong>Edge</strong></li>\n<li>Audífonos</li>\n<li>Videocámara</li>\n</ul>",
+          "recommendations": "",
+          "confirm": "",
+          "alternativeLink": ""
+        },
+        "mobile": {
+          "hi": "",
+          "oneMoreStep": "",
+          "thankYouForInterest": "¡Muchas gracias por tu interés en esta sesión de {{sessionDuration}}-minutos! Elegiste participar en la siguiente hora y fecha:",
+          "dateAndTime": "",
+          "youWillNeed": "Para este estudio necesitarás:\n<ul>\n<li>Dispositivo móvil (tablet o smartphone)</li>\n<li>Suficiente batería o estar conectado</li> \n<li>Audífonos</li>\n</ul>",
+          "recommendations": "",
+          "confirm": ""
+        }
+      },
+      "participationConfirmed": {
+        "subject": "",
+        "generic": {
+          "hi": "",
+          "participationConfirmed": "¡Tu participación fue confirmada!",
+          "scheduled": "",
+          "dateAndTime": "",
+          "recommendations": {
+            "youWillNeed": "Necesitarás la última versión de Chrome, Firefox o Edge si participas desde una computadora o un dispositivo móvil con suficiente carga para una sesión móvil.",
+            "environment": "",
+            "ics": "También adjuntamos un ICS en este correo para que puedas agregar este evento a tu calendario si lo deseas.",
+            "thatsIt": ""
+          },
+          "join": "",
+          "alternativeLink": "",
+          "note": ""
+        },
+        "desktop": {
+          "hi": "",
+          "participationConfirmed": "¡Tu participación fue confirmada!",
+          "scheduled": "",
+          "youWillNeed": "Para este estudio necesitarás: \n<ul>\n<li>Una computadora</li>\n<li>Última versión de <strong>Chrome</strong>, <strong>Firefox</strong> o <strong>Edge</strong></li>\n<li>Audífonos</li>\n<li>Videocámara</li>\n</ul>"
+        },
+        "mobile": {
+          "hi": "",
+          "participationConfirmed": "¡Tu participación fue confirmada!",
+          "scheduled": "",
+          "youWillNeed": "Para este estudio necesitarás:\n<ul>\n<li>Dispositivo móvil (tablet o smartphone)</li>\n<li>Suficiente batería o estar conectado</li> \n<li>Audífonos</li>\n</ul>"
+        }
+      },
+      "sessionCancelled": {
+        "subject": "Tu sesión de investigación fue cancelada",
+        "generic": {
+          "sessionHasBeenCancelled": "Tu sesión de investigación fue cancelada",
+          "sorry": "",
+          "seeYouAgain": "",
+          "hi": "",
+          "hope": ""
+        }
+      },
+      "sessionCancelledByModerator": {
+        "subject": "Tu sesión de investigación fue cancelada",
+        "generic": {
+          "hi": "",
+          "sessionHasBeenCancelled": "Tu sesión de investigación fue cancelada",
+          "requestedCancellation": "El moderador que iba a realizar la sesión de investigación canceló tu sesión.",
+          "sorry": "",
+          "hope": ""
+        },
+        "moderator": {
+          "scheduledFor": "",
+          "sessionHasBeenCancelled": "Tu sesión de investigación fue cancelada"
+        },
+        "participant": {
+          "scheduledFor": "",
+          "sessionHasBeenCancelled": "Tu sesión de investigación fue cancelada"
+        }
+      },
+      "sessionCancelledByParticipant": {
+        "subject": "Tu sesión de investigación fue cancelada",
+        "generic": {
+          "hi": "",
+          "sessionHasBeenCancelled": "Tu sesión de investigación fue cancelada",
+          "asRequested": "",
+          "hope": "",
+          "sorry": ""
+        },
+        "moderator": {
+          "scheduledFor": ""
+        },
+        "participant": {
+          "sessionHasBeenCancelled": "Tu sesión de investigación fue cancelada",
+          "scheduledFor": "Tal y como solicitaste, hemos cancelado la sesión con ID de estudio {{projectId}} en la que ibas a participar:"
+        }
+      },
+      "reminders": {
+        "generic": {
+          "hi": "",
+          "almostTime": "",
+          "reminder": "",
+          "recommendations": {
+            "youWillNeed": "Necesitarás la última versión de Chrome, Firefox o Edge si participas desde una computadora o un dispositivo móvil con suficiente batería para una sesión.",
+            "environment": "",
+            "ics": "",
+            "thatsIt": ""
+          },
+          "join": "",
+          "alternativeLink": "",
+          "note": ""
+        },
+        "subject": {
+          "24hbefore": "",
+          "30mbefore": ""
+        },
+        "desktop": {
+          "youWillNeed": "Para este estudio necesitarás: \n<ul>\n<li>Una computadora</li>\n<li>Última versión de <strong>Chrome</strong>, <strong>Firefox</strong> o <strong>Edge</strong></li>\n<li>Audífonos</li>\n<li>Videocámara</li>\n</ul>"
+        },
+        "mobile": {
+          "youWillNeed": "Para este estudio necesitarás:\n<ul>\n<li>Dispositivo móvil (tablet o smartphone)</li>\n<li>Suficiente batería o estar conectado</li> \n<li>Audífonos</li>\n</ul>"
+        }
+      },
+      "reschedule": {
+        "subject": "",
+        "generic": {
+          "hi": "",
+          "pleaseChoose": "",
+          "explanation": "El moderador que realizará tu sesión de investigación solicitó si puedes elegir una nueva hora para el estudio. <br> Estabas citado previamente para el:",
+          "dateAndTime": "",
+          "chooseNewTime": "",
+          "selectNoneOfDates": "",
+          "sorry": ""
+        }
+      },
+      "confirmationReschedule": {
+        "subject": "¡Tu sesión fue reprogramada!",
+        "generic": {
+          "hi": "",
+          "participationHasBeenrescheduled": "Tu sesión fue reprogramada",
+          "newDetails": ""
+        }
+      },
+      "icsParticipant": {
+        "summary": "",
+        "description": "",
+        "fileName": ""
+      }
     }
+  },
+  "sessionCancelledByModerator": {
+    "subject": "Tu sesión de investigación fue cancelada"
+  },
+  "sessionCancelledByParticipant": {
+    "subject": "Tu sesión de investigación fue cancelada"
+  }
 }
