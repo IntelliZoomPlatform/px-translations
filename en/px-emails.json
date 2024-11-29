@@ -257,9 +257,9 @@
         "fileName": "Moderated Research Session"
       },
       "panelistProblemReported": {
-        "subject": "Unpaid",
+        "subject": "Problem reported successfully",
         "title": "Hi {{user.name}},",
-        "bodyCopy": "Thank you for reporting a problem with this test: {{projectId}}. We appreciate you taking the time to do this. The company running this test has been notified of the issue you experienced, and you are now free to accept other tests from your dashboard. <br> <br> We apologize for the issue you experienced and hope your next test goes smoothly!"
+        "bodyCopy": "Thank you for reporting a problem with the test:{{projectId}}. While we can’t offer automatic compensation for an uncompleted test, we truly value the time you’ve invested in providing this information. <br> <br> We apologize for the issue you experienced and hope your next test goes smoothly!"
       }
     }
   },

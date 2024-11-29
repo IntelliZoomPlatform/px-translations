@@ -1,267 +1,267 @@
 {
-    "izPanel": {
-        "emails": {
-            "footer": {
-                "support": "",
-                "copyright": "",
-                "unsubscribe": "",
-                "termsOfService": "",
-                "privacyPolicy": "",
-                "address": "",
-                "thankYou": "",
-                "help": "",
-                "unsubscribeSession": "",
-                "regards": ""
-            },
-            "doubleOptIn": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": "",
-                "cta": "",
-                "closing": ""
-            },
-            "reset": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": "",
-                "cta": ""
-            },
-            "studyInvitation": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": "",
-                "cta": "",
-                "studyID": "",
-                "closing": ""
-            },
-            "studyComplete": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": ""
-            },
-            "paymentSent": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": ""
-            },
-            "paymentConfirmation": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": ""
-            },
-            "certificationApproved": {
-                "subject": "",
-                "title": "",
-                "bodyCopyOne": "",
-                "bodyCopyTwo": ""
-            },
-            "certificationRejected": {
-                "subject": "",
-                "title": "",
-                "bodyCopyOne": "",
-                "bodyCopyTwo": ""
-            },
-            "generic": {
-                "genericClosing": "",
-                "inlineContact": "",
-                "inlineHelp": "",
-                "gotQuestions": ""
-            },
-            "reEngagement": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": "",
-                "cta": ""
-            },
-            "termination": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": ""
-            },
-            "practiceStudyComplete": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": ""
-            },
-            "PayPal": {
-                "paymentSent": {
-                    "note": ""
-                }
-            },
-            "paypalToken": {
-                "title": "",
-                "description": "",
-                "cta": ""
-            },
-            "excludedParticipation": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": ""
-            },
-            "finishConfirmation": {
-                "subject": "",
-                "generic": {
-                    "hi": "",
-                    "oneMoreStep": "",
-                    "selectedDay": "",
-                    "dateAndTime": "",
-                    "recommendations": "",
-                    "confirm": "",
-                    "alternativeLink": "",
-                    "timezone": ""
-                },
-                "desktop": {
-                    "hi": "",
-                    "oneMoreStep": "",
-                    "thankYouForInterest": "",
-                    "dateAndTime": "",
-                    "youWillNeed": "",
-                    "recommendations": "",
-                    "confirm": "",
-                    "alternativeLink": ""
-                },
-                "mobile": {
-                    "hi": "",
-                    "oneMoreStep": "",
-                    "thankYouForInterest": "",
-                    "dateAndTime": "",
-                    "youWillNeed": "",
-                    "recommendations": "",
-                    "confirm": ""
-                }
-            },
-            "participationConfirmed": {
-                "subject": "",
-                "generic": {
-                    "hi": "",
-                    "participationConfirmed": "",
-                    "scheduled": "",
-                    "dateAndTime": "",
-                    "recommendations": {
-                        "youWillNeed": "",
-                        "environment": "",
-                        "ics": "",
-                        "thatsIt": ""
-                    },
-                    "join": "",
-                    "alternativeLink": "",
-                    "note": ""
-                },
-                "desktop": {
-                    "hi": "",
-                    "participationConfirmed": "",
-                    "scheduled": "",
-                    "youWillNeed": ""
-                },
-                "mobile": {
-                    "hi": "",
-                    "participationConfirmed": "",
-                    "scheduled": "",
-                    "youWillNeed": ""
-                }
-            },
-            "sessionCancelled": {
-                "subject": "",
-                "generic": {
-                    "sessionHasBeenCancelled": "",
-                    "sorry": "",
-                    "seeYouAgain": "",
-                    "hi": "",
-                    "hope": ""
-                }
-            },
-            "sessionCancelledByModerator": {
-                "subject": "",
-                "generic": {
-                    "hi": "",
-                    "sessionHasBeenCancelled": "",
-                    "requestedCancellation": "",
-                    "sorry": "",
-                    "hope": ""
-                },
-                "moderator": {
-                    "scheduledFor": "",
-                    "sessionHasBeenCancelled": ""
-                },
-                "participant": {
-                    "scheduledFor": "",
-                    "sessionHasBeenCancelled": ""
-                }
-            },
-            "sessionCancelledByParticipant": {
-                "subject": "",
-                "generic": {
-                    "hi": "",
-                    "sessionHasBeenCancelled": "",
-                    "asRequested": "",
-                    "hope": "",
-                    "sorry": ""
-                },
-                "moderator": {
-                    "scheduledFor": ""
-                },
-                "participant": {
-                    "sessionHasBeenCancelled": "",
-                    "scheduledFor": ""
-                }
-            },
-            "reminders": {
-                "generic": {
-                    "hi": "",
-                    "almostTime": "",
-                    "reminder": "",
-                    "recommendations": {
-                        "youWillNeed": "",
-                        "environment": "",
-                        "ics": "",
-                        "thatsIt": ""
-                    },
-                    "join": "",
-                    "alternativeLink": "",
-                    "note": ""
-                },
-                "subject": {
-                    "24hbefore": "",
-                    "30mbefore": ""
-                },
-                "desktop": {
-                    "youWillNeed": ""
-                },
-                "mobile": {
-                    "youWillNeed": ""
-                }
-            },
-            "reschedule": {
-                "subject": "",
-                "generic": {
-                    "hi": "",
-                    "pleaseChoose": "",
-                    "explanation": "",
-                    "dateAndTime": "",
-                    "chooseNewTime": "",
-                    "selectNoneOfDates": "",
-                    "sorry": ""
-                }
-            },
-            "confirmationReschedule": {
-                "subject": "",
-                "generic": {
-                    "hi": "",
-                    "participationHasBeenrescheduled": "",
-                    "newDetails": ""
-                }
-            },
-            "icsParticipant": {
-                "summary": "",
-                "description": "",
-                "fileName": ""
-            }
+  "izPanel": {
+    "emails": {
+      "footer": {
+        "support": "",
+        "copyright": "",
+        "unsubscribe": "",
+        "termsOfService": "",
+        "privacyPolicy": "",
+        "address": "",
+        "thankYou": "",
+        "help": "",
+        "unsubscribeSession": "",
+        "regards": ""
+      },
+      "doubleOptIn": {
+        "subject": "",
+        "title": "",
+        "bodyCopy": "",
+        "cta": "",
+        "closing": ""
+      },
+      "reset": {
+        "subject": "",
+        "title": "",
+        "bodyCopy": "",
+        "cta": ""
+      },
+      "studyInvitation": {
+        "subject": "",
+        "title": "",
+        "bodyCopy": "",
+        "cta": "",
+        "studyID": "",
+        "closing": ""
+      },
+      "studyComplete": {
+        "subject": "",
+        "title": "",
+        "bodyCopy": ""
+      },
+      "paymentSent": {
+        "subject": "",
+        "title": "",
+        "bodyCopy": ""
+      },
+      "paymentConfirmation": {
+        "subject": "",
+        "title": "",
+        "bodyCopy": ""
+      },
+      "certificationApproved": {
+        "subject": "",
+        "title": "",
+        "bodyCopyOne": "",
+        "bodyCopyTwo": ""
+      },
+      "certificationRejected": {
+        "subject": "",
+        "title": "",
+        "bodyCopyOne": "",
+        "bodyCopyTwo": ""
+      },
+      "generic": {
+        "genericClosing": "",
+        "inlineContact": "",
+        "inlineHelp": "",
+        "gotQuestions": ""
+      },
+      "reEngagement": {
+        "subject": "",
+        "title": "",
+        "bodyCopy": "",
+        "cta": ""
+      },
+      "termination": {
+        "subject": "",
+        "title": "",
+        "bodyCopy": ""
+      },
+      "practiceStudyComplete": {
+        "subject": "",
+        "title": "",
+        "bodyCopy": ""
+      },
+      "PayPal": {
+        "paymentSent": {
+          "note": ""
         }
-    },
-    "sessionCancelledByModerator": {
-        "subject": ""
-    },
-    "sessionCancelledByParticipant": {
-        "subject": ""
+      },
+      "paypalToken": {
+        "title": "",
+        "description": "",
+        "cta": ""
+      },
+      "excludedParticipation": {
+        "subject": "",
+        "title": "",
+        "bodyCopy": ""
+      },
+      "finishConfirmation": {
+        "subject": "",
+        "generic": {
+          "hi": "",
+          "oneMoreStep": "",
+          "selectedDay": "",
+          "dateAndTime": "",
+          "recommendations": "",
+          "confirm": "",
+          "alternativeLink": "",
+          "timezone": ""
+        },
+        "desktop": {
+          "hi": "",
+          "oneMoreStep": "",
+          "thankYouForInterest": "",
+          "dateAndTime": "",
+          "youWillNeed": "",
+          "recommendations": "",
+          "confirm": "",
+          "alternativeLink": ""
+        },
+        "mobile": {
+          "hi": "",
+          "oneMoreStep": "",
+          "thankYouForInterest": "",
+          "dateAndTime": "",
+          "youWillNeed": "",
+          "recommendations": "",
+          "confirm": ""
+        }
+      },
+      "participationConfirmed": {
+        "subject": "",
+        "generic": {
+          "hi": "",
+          "participationConfirmed": "",
+          "scheduled": "",
+          "dateAndTime": "",
+          "recommendations": {
+            "youWillNeed": "",
+            "environment": "",
+            "ics": "",
+            "thatsIt": ""
+          },
+          "join": "",
+          "alternativeLink": "",
+          "note": ""
+        },
+        "desktop": {
+          "hi": "",
+          "participationConfirmed": "",
+          "scheduled": "",
+          "youWillNeed": ""
+        },
+        "mobile": {
+          "hi": "",
+          "participationConfirmed": "",
+          "scheduled": "",
+          "youWillNeed": ""
+        }
+      },
+      "sessionCancelled": {
+        "subject": "",
+        "generic": {
+          "sessionHasBeenCancelled": "",
+          "sorry": "",
+          "seeYouAgain": "",
+          "hi": "",
+          "hope": ""
+        }
+      },
+      "sessionCancelledByModerator": {
+        "subject": "",
+        "generic": {
+          "hi": "",
+          "sessionHasBeenCancelled": "",
+          "requestedCancellation": "",
+          "sorry": "",
+          "hope": ""
+        },
+        "moderator": {
+          "scheduledFor": "",
+          "sessionHasBeenCancelled": ""
+        },
+        "participant": {
+          "scheduledFor": "",
+          "sessionHasBeenCancelled": ""
+        }
+      },
+      "sessionCancelledByParticipant": {
+        "subject": "",
+        "generic": {
+          "hi": "",
+          "sessionHasBeenCancelled": "",
+          "asRequested": "",
+          "hope": "",
+          "sorry": ""
+        },
+        "moderator": {
+          "scheduledFor": ""
+        },
+        "participant": {
+          "sessionHasBeenCancelled": "",
+          "scheduledFor": ""
+        }
+      },
+      "reminders": {
+        "generic": {
+          "hi": "",
+          "almostTime": "",
+          "reminder": "",
+          "recommendations": {
+            "youWillNeed": "",
+            "environment": "",
+            "ics": "",
+            "thatsIt": ""
+          },
+          "join": "",
+          "alternativeLink": "",
+          "note": ""
+        },
+        "subject": {
+          "24hbefore": "",
+          "30mbefore": ""
+        },
+        "desktop": {
+          "youWillNeed": ""
+        },
+        "mobile": {
+          "youWillNeed": ""
+        }
+      },
+      "reschedule": {
+        "subject": "",
+        "generic": {
+          "hi": "",
+          "pleaseChoose": "",
+          "explanation": "",
+          "dateAndTime": "",
+          "chooseNewTime": "",
+          "selectNoneOfDates": "",
+          "sorry": ""
+        }
+      },
+      "confirmationReschedule": {
+        "subject": "",
+        "generic": {
+          "hi": "",
+          "participationHasBeenrescheduled": "",
+          "newDetails": ""
+        }
+      },
+      "icsParticipant": {
+        "summary": "",
+        "description": "",
+        "fileName": ""
+      }
     }
+  },
+  "sessionCancelledByModerator": {
+    "subject": ""
+  },
+  "sessionCancelledByParticipant": {
+    "subject": ""
+  }
 }

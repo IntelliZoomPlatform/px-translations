@@ -1,267 +1,272 @@
 {
-    "izPanel": {
-        "emails": {
-            "footer": {
-                "support": "Besoin d’aide ?",
-                "copyright": "IntelliZoom Panel est exploité par UserZoom Technologies, Inc. © 2019-2022 Tous droits réservés. <br>1801 Broadway, Suite 720, Denver, CO 80202, États-Unis",
-                "unsubscribe": "Se désabonner de nos mails",
-                "termsOfService": "Conditions d'utilisation",
-                "privacyPolicy": "Politique de confidentialité",
-                "address": "IntelliZoom Panel est exploité par UserZoom Technologies, Inc. © 2019-2022 Tous droits réservés. <br>1801 Broadway, Suite 720, Denver, CO 80202, États-Unis",
-                "thankYou": "Merci, <br>L'équipe UserZoom",
-                "help": "Besoin d’aide ?",
-                "unsubscribeSession": "Si vous ne souhaitez plus recevoir de notifications concernant cette session, vous pouvez vous <a href='{{unsubscribeLink}}'>désabonner</a>.",
-                "regards": "Cordialement, <br> L'équipe UserZoom"
-            },
-            "doubleOptIn": {
-                "subject": "Bienvenue sur IntelliZoom Panel",
-                "title": "Bonjour {{user.name}}, <br> bienvenue sur IntelliZoom Panel",
-                "bodyCopy": "<strong>Cliquez sur le bouton ci-dessous pour activer votre compte.</strong><br>Pour des raisons de sécurité, ce lien expirera dans 24 heures et ne peut être utilisé qu'une seule fois.",
-                "cta": "Activer mon compte",
-                "closing": "Amusez-vous bien !<br>L'équipe IntelliZoom Panel"
-            },
-            "reset": {
-                "subject": "Demande de réinitialisation de votre mot de passe",
-                "title": "Vous avez oublié votre mot de passe ?",
-                "bodyCopy": "Pas de souci, cela arrive à tout le monde. Cliquez simplement sur le bouton ci-dessous pour définir un nouveau mot de passe pour votre compte. Si vous n'êtes pas à l'origine de cette demande, ignorez simplement ce message.<br>Pour des raisons de sécurité, ce lien expirera dans 24 heures et ne peut être utilisé qu'une seule fois.",
-                "cta": "Réinitialiser le mot de passe"
-            },
-            "studyInvitation": {
-                "subject": "Nouveau test disponible !",
-                "title": "Bonjour {{user.name}}, <br>un nouveau test est disponible pour vous !",
-                "bodyCopy": "Donnez votre avis maintenant et gagnez {{studyFee}}",
-                "cta": "Participer",
-                "studyID": "Identifiant du test pour votre référence : {{projectId}}",
-                "closing": "Amusez-vous bien !<br>L'équipe IntelliZoom Panel"
-            },
-            "studyComplete": {
-                "subject": "Merci pour votre participation !",
-                "title": "Merci de nous avoir partagé votre avis !",
-                "bodyCopy": "Vous recevrez votre récompense pour le test {{projectId}} via PayPal à la même adresse e-mail que celle utilisée pour vous inscrire sur IntelliZoom Panel. Ce processus peut prendre jusqu'à 14 jours. La récompense pour ce test est de {{studyFee}}."
-            },
-            "paymentSent": {
-                "subject": "Votre récompense a été envoyée",
-                "title": "Bonjour {{user.name}}, <br>vous recevrez votre récompense bientôt !",
-                "bodyCopy": "Nous avons transféré {{studyFee}} au compte PayPal suivant :<br>{{user.email}}<br><br>Cette récompense concerne le test : {{projectId}}"
-            },
-            "paymentConfirmation": {
-                "subject": "Vos gains sont disponibles !",
-                "title": "Bonjour {{user.name}}, PayPal vient de nous confirmer la bonne réception de vos gains",
-                "bodyCopy": "Vous devriez maintenant avoir {{studyFee}} de plus sur le compte PayPal :<br>{{user.email}}<br><br>Cette récompense concerne le test : {{projectId}}"
-            },
-            "certificationApproved": {
-                "subject": "Vous avez passé votre test d'entraînement avec succès !",
-                "title": "Bonjour {{user.name}}, vous avez fait un excellent travail dans votre test d'entraînement !",
-                "bodyCopyOne": "Vous vous exprimez avec clarté et savez partager vos pensées et vos idées. Vous êtes exactement le type de panéliste que nous espérions trouver !",
-                "bodyCopyTwo": "Vous pouvez maintenant recevoir des invitations à nos tests commentés à voix haute et nos tests de tri de cartes. Ces tests offrent généralement des gains plus importants. ;)"
-            },
-            "certificationRejected": {
-                "subject": "Votre test d'entraînement n'a pas été approuvé",
-                "title": "Bonjour {{user.name}}, le test d'entraînement que vous avez passé n’a pas été approuvé",
-                "bodyCopyOne": "Nous sommes désolés de vous informer que les résultats de votre test d'entraînement ne répondent pas à nos standards qualité pour les tests commentés à voix haute et les tests de tri de cartes.",
-                "bodyCopyTwo": "Si vous pensez qu'il s'agit d'une erreur, ou si vous souhaitez une seconde chance, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> et nous serons ravis de réactiver le test d'entraînement pour vous."
-            },
-            "generic": {
-                "genericClosing": "Cordialement,<br>L'équipe IntelliZoom Panel",
-                "inlineContact": "contactez-nous",
-                "inlineHelp": "Centre d'aide",
-                "gotQuestions": "Pour toute question, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> ou visitez notre <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
-            },
-            "reEngagement": {
-                "subject": "Modification de votre mot de passe",
-                "title": "Réinitialiser votre mot de passe",
-                "bodyCopy": "Bonjour {{user.name}} !<br>Cliquez sur le bouton ci-dessous pour définir un nouveau mot de passe pour votre compte.<br> Pour des raisons de sécurité, ce lien expirera dans 24 heures et ne peut être utilisé qu'une seule fois.",
-                "cta": "Réinitialiser le mot de passe"
-            },
-            "termination": {
-                "subject": "Votre compte a été supprimé",
-                "title": "Votre compte IntelliZoom Panel a été supprimé",
-                "bodyCopy": "Bonjour {{user.name}},<br><br>Nous avons supprimé votre compte IntelliZoom et vos informations de notre système. (Ce mail sera la dernière communication que vous recevrez de notre part.)<br><br>Si vous n'êtes pas à l'origine de cette demande, il se peut que cette suppression soit due à une longue période d'inactivité ou à une mauvaise utilisation de notre plateforme entraînant une violation de nos <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br><br>Si vous pensez qu'il s'agit d'une erreur, ou si vous souhaitez obtenir des informations complémentaires, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> ou visitez notre <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
-            },
-            "practiceStudyComplete": {
-                "subject": "Vous avez terminé le test d'entraînement !",
-                "title": "Merci d'avoir passé notre test d'entraînement !",
-                "bodyCopy": "Nous examinerons votre participation le plus vite possible et nous vous enverrons un mail pour vous faire part de notre décision.<br> Si votre participation est approuvée, nous pourrons vous inviter à des tests commentés à voix haute et des tests de tri de cartes.<br> Ces tests offrent généralement des gains plus importants. ;)"
-            },
-            "PayPal": {
-                "paymentSent": {
-                    "note": "Merci d'avoir participé au test {{projectId}}. À très bientôt sur IntelliZoom !"
-                }
-            },
-            "paypalToken": {
-                "title": "Votre compte PayPal a été dissocié d'IntelliZoom",
-                "description": "Nous sommes désolés de vous annoncer cette mauvaise nouvelle, mais vos comptes PayPayl et IntelliZoom ont été dissociés.<br /><br />Vous ne recevrez plus d'invitations à nos tests, et vous ne recevrez pas non plus les gains en attente pour les tests auxquels vous avez pu participer récemment.<br /><br />Pour continuer à participer à nos tests, ou pour recevoir vos gains en attente, allez dans votre tableau de bord et reconnectez vos comptes.",
-                "cta": "Aller au tableau de bord"
-            },
-            "excludedParticipation": {
-                "subject": "Votre participation n'a pas été approuvée",
-                "title": "Bonjour {{user.name}}, une de vos participations n'a pas été approuvée",
-                "bodyCopy": "Nous sommes désolés de vous informer que votre participation au test {{projectId}} n’a pas été approuvée et que vous ne recevrez pas de récompense pour ce test. <br /><br />Cette décision s'appuie sur un ou plusieurs des critères suivants : <ul><li>Vous n'avez pas suffisamment pensé à voix haute.</li><li>Vous n'avez pas consacré suffisamment de temps à l'exécution des tâches ou des questionnaires.</li><li>La qualité technique de votre participation était mauvaise ou incomplète à cause d'une : <ul><li>Mauvaise connexion internet.</li><li>Mauvaise qualité de votre micro ou de votre caméra.</li><li>Mauvaise qualité générale en raison d'un trop grand nombre de fenêtres, d'onglets ou d'applications ouverts simultanément sur votre appareil. </li></ul></li></ul>Pour éviter que cette situation ne se reproduise à l'avenir, nous vous invitons à consulter nos <a href=\"https://help.intellizoom.com/hc/en-us/categories/360000100658\">recommandations pour les testeurs</a> dans notre centre d'aide. <br /><br /> Ne vous découragez pas ! La prochaine fois, assurez-vous que votre appareil est prêt pour le test et faites de votre mieux pour fournir des commentaires de qualité."
-            },
-            "finishConfirmation": {
-                "subject": "ACTION REQUISE : Confirmez votre session",
-                "generic": {
-                    "hi": "Bonjour {{user.name}},",
-                    "oneMoreStep": "Une dernière étape... Confirmez votre session !",
-                    "selectedDay": "Merci d'avoir accepté de participer à cette session de {{sessionDuration}} minutes ! Votre session est prévue pour le :",
-                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
-                    "recommendations": "Assurez-vous d'utiliser le même appareil et la même connexion internet que ceux que vous utiliserez pour participer à la session. Nous vous recommandons l'utilisation d'un casque audio.",
-                    "confirm": "Confirmer la session",
-                    "alternativeLink": "Et au cas où le bouton ci-dessus ne fonctionnerait pas... voici le lien : {{confirmLink}}",
-                    "timezone": "{{timeZone}}"
-                },
-                "desktop": {
-                    "hi": "Bonjour {{user.name}},",
-                    "oneMoreStep": "Une dernière étape... Confirmez votre session !",
-                    "thankYouForInterest": "Merci d'avoir accepté de participer à cette session de {{sessionDuration}} minutes ! Votre session est prévue pour le :",
-                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
-                    "youWillNeed": "Pour ce test, vous aurez besoin de :\n<ul>\n<li>Un ordinateur</li>\n<li>La dernière version de <strong>Chrome</strong>, <strong>Firefox</strong> ou <strong>Edge</strong></li>\n<li>Des écouteurs</li>\n<li>Une webcam</li>\n</ul>",
-                    "recommendations": "Assurez-vous d'utiliser le même appareil et la même connexion internet que ceux que vous utiliserez pour participer à la session.",
-                    "confirm": "Confirmer la session ",
-                    "alternativeLink": "Et au cas où le bouton ci-dessus ne fonctionnerait pas... voici le lien : {{confirmLink}}"
-                },
-                "mobile": {
-                    "hi": "Bonjour {{user.name}},",
-                    "oneMoreStep": "Une dernière étape... Confirmez votre session !",
-                    "thankYouForInterest": "Merci d'avoir accepté de participer à cette session de {{sessionDuration}} minutes ! Votre session est prévue pour le :",
-                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
-                    "youWillNeed": "Pour ce test, vous aurez besoin de :\n<ul>\n<li>Un appareil mobile</li>\n<li>Une batterie suffisamment chargée ou de la possibilité de brancher votre appareil</li>\n<li>Des écouteurs</li>\n</ul>",
-                    "recommendations": "Assurez-vous d'utiliser le même appareil et la même connexion internet que ceux que vous utiliserez pour participer à la session.",
-                    "confirm": "Confirmer la session"
-                }
-            },
-            "participationConfirmed": {
-                "subject": "Session confirmée ! Votre place est réservée",
-                "generic": {
-                    "hi": "Bonjour {{user.name}},",
-                    "participationConfirmed": "Votre participation est confirmée !",
-                    "scheduled": "Votre session est prévue pour le :",
-                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
-                    "recommendations": {
-                        "youWillNeed": "Si vous participez depuis un ordinateur, vous aurez besoin de la dernière version de Chrome, Firefox ou Edge. Si vous participez depuis un appareil mobile, assurez-vous que votre appareil est suffisamment chargé.",
-                        "environment": "Assurez-vous d'être dans un environnement calme et bien éclairé, avec une excellente connexion internet. ",
-                        "ics": "Nous avons joint un ICS à ce mail pour que vous puissiez ajouter cet événement à votre calendrier.",
-                        "thatsIt": "Et voilà ! 3 minutes avant le début de votre session, il vous suffira de cliquer sur..."
-                    },
-                    "join": "Rejoindre la session",
-                    "alternativeLink": "Et au cas où le bouton ci-dessus ne fonctionnerait pas... voici le lien : {{sessionLink}}",
-                    "note": "Remarque : si vous avez un empêchement, merci d'<a href='{{entranceLink}}'>annuler</a> ou de <a href='{{entranceLink}}'> reprogrammer</a> votre participation dès que possible."
-                },
-                "desktop": {
-                    "hi": "Bonjour {{user.name}},",
-                    "participationConfirmed": "Votre participation est confirmée !",
-                    "scheduled": "Votre session est prévue pour le :",
-                    "youWillNeed": "Pour ce test, vous aurez besoin de :\n<ul>\n<li>Un ordinateur</li>\n<li>La dernière version de <strong>Chrome</strong>, <strong>Firefox</strong> ou <strong>Edge</strong></li>\n<li>Des écouteurs</li>\n<li>Une webcam</li>\n</ul>"
-                },
-                "mobile": {
-                    "hi": "Bonjour {{user.name}},",
-                    "participationConfirmed": "Votre participation est confirmée !",
-                    "scheduled": "Votre session est prévue pour le :",
-                    "youWillNeed": "Pour ce test, vous aurez besoin de :\n<ul>\n<li>Un appareil mobile</li>\n<li>Une batterie suffisamment chargée ou de la possibilité de brancher votre appareil</li>\n<li>Des écouteurs</li>\n</ul>"
-                }
-            },
-            "sessionCancelled": {
-                "subject": "Votre session a été annulée",
-                "generic": {
-                    "sessionHasBeenCancelled": "Votre session a été annulée",
-                    "sorry": "Nous nous excusons pour la gêne occasionnée.",
-                    "seeYouAgain": "Nous espérons vous revoir bientôt.",
-                    "hi": "Bonjour {{user.name}},",
-                    "hope": "Nous espérons vous revoir bientôt."
-                }
-            },
-            "sessionCancelledByModerator": {
-                "subject": "Votre session a été annulée",
-                "generic": {
-                    "hi": "Bonjour {{user.name}},",
-                    "sessionHasBeenCancelled": "Votre session a été annulée",
-                    "requestedCancellation": "Le modérateur de ce test a annulé votre session.",
-                    "sorry": "Nous nous excusons pour la gêne occasionnée.",
-                    "hope": "Nous espérons vous revoir bientôt."
-                },
-                "moderator": {
-                    "scheduledFor": "Suite à votre demande, nous avons bien annulé votre session pour l'étude {{projectName}}, qui devait se tenir le :",
-                    "sessionHasBeenCancelled": "Votre session a été annulée"
-                },
-                "participant": {
-                    "scheduledFor": "Le modérateur du test {{projectId}} a annulé votre session. Cette session était prévue pour le :",
-                    "sessionHasBeenCancelled": "Votre session a été annulée"
-                }
-            },
-            "sessionCancelledByParticipant": {
-                "subject": "Votre session a été annulée",
-                "generic": {
-                    "hi": "Bonjour {{user.name}},",
-                    "sessionHasBeenCancelled": "Votre session a bien été annulée",
-                    "asRequested": "Suite à votre demande, nous avons annulé votre participation à cette session de {{sessionDuration}} minutes.",
-                    "hope": "Nous espérons vous revoir bientôt.",
-                    "sorry": "Nous nous excusons pour la gêne occasionnée."
-                },
-                "moderator": {
-                    "scheduledFor": "Cette session pour l’étude {{projectName}} devait se tenir le :"
-                },
-                "participant": {
-                    "sessionHasBeenCancelled": "Votre session a été annulée",
-                    "scheduledFor": "Suite à votre demande, nous avons annulé votre session pour le test {{projectName}} prévue le :"
-                }
-            },
-            "reminders": {
-                "generic": {
-                    "hi": "Bonjour {{user.name}},",
-                    "almostTime": "C'est bientôt l'heure de votre session !",
-                    "reminder": "Petit rappel de votre prochaine session :",
-                    "recommendations": {
-                        "youWillNeed": "Si vous participez depuis un ordinateur, vous aurez besoin de la dernière version de Chrome, Firefox ou Edge. Si vous participez depuis un appareil mobile, assurez-vous que votre appareil est suffisamment chargé.",
-                        "environment": "Assurez-vous d'être dans un environnement calme et bien éclairé, avec une excellente connexion internet.␣",
-                        "ics": "Nous avons joint un ICS à ce mail pour que vous puissiez ajouter cet événement à votre calendrier.",
-                        "thatsIt": "Et voilà ! 3 minutes avant le début de votre session, il vous suffira de cliquer sur..."
-                    },
-                    "join": "Rejoindre la session",
-                    "alternativeLink": "Et au cas où le bouton ci-dessus ne fonctionnerait pas... voici le lien : {{sessionLink}}",
-                    "note": "Remarque : si vous avez un empêchement, merci d'<a href='{{entranceLink}}'>annuler</a> ou de <a href='{{entranceLink}}'> reprogrammer</a> votre participation dès que possible."
-                },
-                "subject": {
-                    "24hbefore": "Rappel : Vous avez une session demain",
-                    "30mbefore": "Rappel : Votre session commence dans 30 minutes !"
-                },
-                "desktop": {
-                    "youWillNeed": "Pour ce test, vous aurez besoin de :\n<ul>\n<li>Un ordinateur</li>\n<li>La dernière version de <strong>Chrome</strong>, <strong>Firefox</strong> ou <strong>Edge</strong></li>\n<li>Des écouteurs</li>\n<li>Une webcam</li>\n</ul>"
-                },
-                "mobile": {
-                    "youWillNeed": "Pour ce test, vous aurez besoin de :\n<ul>\n<li>Un appareil mobile</li>\n<li>Une batterie suffisamment chargée ou de la possibilité de brancher votre appareil</li>\n<li>Des écouteurs</li>\n</ul>"
-                }
-            },
-            "reschedule": {
-                "subject": "ACTION REQUISE : Reprogrammez votre session",
-                "generic": {
-                    "hi": "Bonjour {{user.name}},",
-                    "pleaseChoose": "Merci de choisir un autre horaire pour votre session",
-                    "explanation": "Le modérateur de ce test vous demande de choisir un nouveau moment pour votre session. <br> Votre session était initialement prévue pour le :",
-                    "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
-                    "chooseNewTime": "Choisir un nouvel horaire",
-                    "selectNoneOfDates": "Si aucun des créneaux proposés ne vous convient, sélectionnez « Aucune de ces dates ne me convient » pour annuler votre session.",
-                    "sorry": "Nous nous excusons pour la gêne occasionnée."
-                }
-            },
-            "confirmationReschedule": {
-                "subject": "Session reprogrammée !",
-                "generic": {
-                    "hi": "Bonjour {{user.name}},",
-                    "participationHasBeenrescheduled": "Votre session a été reprogrammée",
-                    "newDetails": "Voici les nouveaux détails de votre session :"
-                }
-            },
-            "icsParticipant": {
-                "summary": "Session modérée",
-                "description": "Rejoignez la session : <br> {{sessionLink}} <br> Si vous ne pouvez plus assister à la session à l'heure prévue, vous pouvez la reprogrammer ou l'annuler en suivant ce lien : <br> {{rescheduleLink}}",
-                "fileName": "Session modérée"
-            }
+  "izPanel": {
+    "emails": {
+      "footer": {
+        "support": "Besoin d’aide ?",
+        "copyright": "IntelliZoom Panel est exploité par UserZoom Technologies, Inc. © 2019-2022 Tous droits réservés. <br>1801 Broadway, Suite 720, Denver, CO 80202, États-Unis",
+        "unsubscribe": "Se désabonner de nos mails",
+        "termsOfService": "Conditions d'utilisation",
+        "privacyPolicy": "Politique de confidentialité",
+        "address": "IntelliZoom Panel est exploité par UserZoom Technologies, Inc. © 2019-2022 Tous droits réservés. <br>1801 Broadway, Suite 720, Denver, CO 80202, États-Unis",
+        "thankYou": "Merci, <br>L'équipe UserZoom",
+        "help": "Besoin d’aide ?",
+        "unsubscribeSession": "Si vous ne souhaitez plus recevoir de notifications concernant cette session, vous pouvez vous <a href='{{unsubscribeLink}}'>désabonner</a>.",
+        "regards": "Cordialement, <br> L'équipe UserZoom"
+      },
+      "doubleOptIn": {
+        "subject": "Bienvenue sur IntelliZoom Panel",
+        "title": "Bonjour {{user.name}}, <br> bienvenue sur IntelliZoom Panel",
+        "bodyCopy": "<strong>Cliquez sur le bouton ci-dessous pour activer votre compte.</strong><br>Pour des raisons de sécurité, ce lien expirera dans 24 heures et ne peut être utilisé qu'une seule fois.",
+        "cta": "Activer mon compte",
+        "closing": "Amusez-vous bien !<br>L'équipe IntelliZoom Panel"
+      },
+      "reset": {
+        "subject": "Demande de réinitialisation de votre mot de passe",
+        "title": "Vous avez oublié votre mot de passe ?",
+        "bodyCopy": "Pas de souci, cela arrive à tout le monde. Cliquez simplement sur le bouton ci-dessous pour définir un nouveau mot de passe pour votre compte. Si vous n'êtes pas à l'origine de cette demande, ignorez simplement ce message.<br>Pour des raisons de sécurité, ce lien expirera dans 24 heures et ne peut être utilisé qu'une seule fois.",
+        "cta": "Réinitialiser le mot de passe"
+      },
+      "studyInvitation": {
+        "subject": "Nouveau test disponible !",
+        "title": "Bonjour {{user.name}}, <br>un nouveau test est disponible pour vous !",
+        "bodyCopy": "Donnez votre avis maintenant et gagnez {{studyFee}}",
+        "cta": "Participer",
+        "studyID": "Identifiant du test pour votre référence : {{projectId}}",
+        "closing": "Amusez-vous bien !<br>L'équipe IntelliZoom Panel"
+      },
+      "studyComplete": {
+        "subject": "Merci pour votre participation !",
+        "title": "Merci de nous avoir partagé votre avis !",
+        "bodyCopy": "Vous recevrez votre récompense pour le test {{projectId}} via PayPal à la même adresse e-mail que celle utilisée pour vous inscrire sur IntelliZoom Panel. Ce processus peut prendre jusqu'à 14 jours. La récompense pour ce test est de {{studyFee}}."
+      },
+      "paymentSent": {
+        "subject": "Votre récompense a été envoyée",
+        "title": "Bonjour {{user.name}}, <br>vous recevrez votre récompense bientôt !",
+        "bodyCopy": "Nous avons transféré {{studyFee}} au compte PayPal suivant :<br>{{user.email}}<br><br>Cette récompense concerne le test : {{projectId}}"
+      },
+      "paymentConfirmation": {
+        "subject": "Vos gains sont disponibles !",
+        "title": "Bonjour {{user.name}}, PayPal vient de nous confirmer la bonne réception de vos gains",
+        "bodyCopy": "Vous devriez maintenant avoir {{studyFee}} de plus sur le compte PayPal :<br>{{user.email}}<br><br>Cette récompense concerne le test : {{projectId}}"
+      },
+      "certificationApproved": {
+        "subject": "Vous avez passé votre test d'entraînement avec succès !",
+        "title": "Bonjour {{user.name}}, vous avez fait un excellent travail dans votre test d'entraînement !",
+        "bodyCopyOne": "Vous vous exprimez avec clarté et savez partager vos pensées et vos idées. Vous êtes exactement le type de panéliste que nous espérions trouver !",
+        "bodyCopyTwo": "Vous pouvez maintenant recevoir des invitations à nos tests commentés à voix haute et nos tests de tri de cartes. Ces tests offrent généralement des gains plus importants. ;)"
+      },
+      "certificationRejected": {
+        "subject": "Votre test d'entraînement n'a pas été approuvé",
+        "title": "Bonjour {{user.name}}, le test d'entraînement que vous avez passé n’a pas été approuvé",
+        "bodyCopyOne": "Nous sommes désolés de vous informer que les résultats de votre test d'entraînement ne répondent pas à nos standards qualité pour les tests commentés à voix haute et les tests de tri de cartes.",
+        "bodyCopyTwo": "Si vous pensez qu'il s'agit d'une erreur, ou si vous souhaitez une seconde chance, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> et nous serons ravis de réactiver le test d'entraînement pour vous."
+      },
+      "generic": {
+        "genericClosing": "Cordialement,<br>L'équipe IntelliZoom Panel",
+        "inlineContact": "contactez-nous",
+        "inlineHelp": "Centre d'aide",
+        "gotQuestions": "Pour toute question, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> ou visitez notre <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
+      },
+      "reEngagement": {
+        "subject": "Modification de votre mot de passe",
+        "title": "Réinitialiser votre mot de passe",
+        "bodyCopy": "Bonjour {{user.name}} !<br>Cliquez sur le bouton ci-dessous pour définir un nouveau mot de passe pour votre compte.<br> Pour des raisons de sécurité, ce lien expirera dans 24 heures et ne peut être utilisé qu'une seule fois.",
+        "cta": "Réinitialiser le mot de passe"
+      },
+      "termination": {
+        "subject": "Votre compte a été supprimé",
+        "title": "Votre compte IntelliZoom Panel a été supprimé",
+        "bodyCopy": "Bonjour {{user.name}},<br><br>Nous avons supprimé votre compte IntelliZoom et vos informations de notre système. (Ce mail sera la dernière communication que vous recevrez de notre part.)<br><br>Si vous n'êtes pas à l'origine de cette demande, il se peut que cette suppression soit due à une longue période d'inactivité ou à une mauvaise utilisation de notre plateforme entraînant une violation de nos <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br><br>Si vous pensez qu'il s'agit d'une erreur, ou si vous souhaitez obtenir des informations complémentaires, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> ou visitez notre <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
+      },
+      "practiceStudyComplete": {
+        "subject": "Vous avez terminé le test d'entraînement !",
+        "title": "Merci d'avoir passé notre test d'entraînement !",
+        "bodyCopy": "Nous examinerons votre participation le plus vite possible et nous vous enverrons un mail pour vous faire part de notre décision.<br> Si votre participation est approuvée, nous pourrons vous inviter à des tests commentés à voix haute et des tests de tri de cartes.<br> Ces tests offrent généralement des gains plus importants. ;)"
+      },
+      "PayPal": {
+        "paymentSent": {
+          "note": "Merci d'avoir participé au test {{projectId}}. À très bientôt sur IntelliZoom !"
         }
-    },
-    "sessionCancelledByModerator": {
-        "subject": "Votre session a été annulée"
-    },
-    "sessionCancelledByParticipant": {
-        "subject": "Votre session a été annulée"
+      },
+      "paypalToken": {
+        "title": "Votre compte PayPal a été dissocié d'IntelliZoom",
+        "description": "Nous sommes désolés de vous annoncer cette mauvaise nouvelle, mais vos comptes PayPayl et IntelliZoom ont été dissociés.<br /><br />Vous ne recevrez plus d'invitations à nos tests, et vous ne recevrez pas non plus les gains en attente pour les tests auxquels vous avez pu participer récemment.<br /><br />Pour continuer à participer à nos tests, ou pour recevoir vos gains en attente, allez dans votre tableau de bord et reconnectez vos comptes.",
+        "cta": "Aller au tableau de bord"
+      },
+      "excludedParticipation": {
+        "subject": "Votre participation n'a pas été approuvée",
+        "title": "Bonjour {{user.name}}, une de vos participations n'a pas été approuvée",
+        "bodyCopy": "Nous sommes désolés de vous informer que votre participation au test {{projectId}} n’a pas été approuvée et que vous ne recevrez pas de récompense pour ce test. <br /><br />Cette décision s'appuie sur un ou plusieurs des critères suivants : <ul><li>Vous n'avez pas suffisamment pensé à voix haute.</li><li>Vous n'avez pas consacré suffisamment de temps à l'exécution des tâches ou des questionnaires.</li><li>La qualité technique de votre participation était mauvaise ou incomplète à cause d'une : <ul><li>Mauvaise connexion internet.</li><li>Mauvaise qualité de votre micro ou de votre caméra.</li><li>Mauvaise qualité générale en raison d'un trop grand nombre de fenêtres, d'onglets ou d'applications ouverts simultanément sur votre appareil. </li></ul></li></ul>Pour éviter que cette situation ne se reproduise à l'avenir, nous vous invitons à consulter nos <a href=\"https://help.intellizoom.com/hc/en-us/categories/360000100658\">recommandations pour les testeurs</a> dans notre centre d'aide. <br /><br /> Ne vous découragez pas ! La prochaine fois, assurez-vous que votre appareil est prêt pour le test et faites de votre mieux pour fournir des commentaires de qualité."
+      },
+      "finishConfirmation": {
+        "subject": "ACTION REQUISE : Confirmez votre session",
+        "generic": {
+          "hi": "Bonjour {{user.name}},",
+          "oneMoreStep": "Une dernière étape... Confirmez votre session !",
+          "selectedDay": "Merci d'avoir accepté de participer à cette session de {{sessionDuration}} minutes ! Votre session est prévue pour le :",
+          "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+          "recommendations": "Assurez-vous d'utiliser le même appareil et la même connexion internet que ceux que vous utiliserez pour participer à la session. Nous vous recommandons l'utilisation d'un casque audio.",
+          "confirm": "Confirmer la session",
+          "alternativeLink": "Et au cas où le bouton ci-dessus ne fonctionnerait pas... voici le lien : {{confirmLink}}",
+          "timezone": "{{timeZone}}"
+        },
+        "desktop": {
+          "hi": "Bonjour {{user.name}},",
+          "oneMoreStep": "Une dernière étape... Confirmez votre session !",
+          "thankYouForInterest": "Merci d'avoir accepté de participer à cette session de {{sessionDuration}} minutes ! Votre session est prévue pour le :",
+          "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+          "youWillNeed": "Pour ce test, vous aurez besoin de :\n<ul>\n<li>Un ordinateur</li>\n<li>La dernière version de <strong>Chrome</strong>, <strong>Firefox</strong> ou <strong>Edge</strong></li>\n<li>Des écouteurs</li>\n<li>Une webcam</li>\n</ul>",
+          "recommendations": "Assurez-vous d'utiliser le même appareil et la même connexion internet que ceux que vous utiliserez pour participer à la session.",
+          "confirm": "Confirmer la session ",
+          "alternativeLink": "Et au cas où le bouton ci-dessus ne fonctionnerait pas... voici le lien : {{confirmLink}}"
+        },
+        "mobile": {
+          "hi": "Bonjour {{user.name}},",
+          "oneMoreStep": "Une dernière étape... Confirmez votre session !",
+          "thankYouForInterest": "Merci d'avoir accepté de participer à cette session de {{sessionDuration}} minutes ! Votre session est prévue pour le :",
+          "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+          "youWillNeed": "Pour ce test, vous aurez besoin de :\n<ul>\n<li>Un appareil mobile</li>\n<li>Une batterie suffisamment chargée ou de la possibilité de brancher votre appareil</li>\n<li>Des écouteurs</li>\n</ul>",
+          "recommendations": "Assurez-vous d'utiliser le même appareil et la même connexion internet que ceux que vous utiliserez pour participer à la session.",
+          "confirm": "Confirmer la session"
+        }
+      },
+      "participationConfirmed": {
+        "subject": "Session confirmée ! Votre place est réservée",
+        "generic": {
+          "hi": "Bonjour {{user.name}},",
+          "participationConfirmed": "Votre participation est confirmée !",
+          "scheduled": "Votre session est prévue pour le :",
+          "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+          "recommendations": {
+            "youWillNeed": "Si vous participez depuis un ordinateur, vous aurez besoin de la dernière version de Chrome, Firefox ou Edge. Si vous participez depuis un appareil mobile, assurez-vous que votre appareil est suffisamment chargé.",
+            "environment": "Assurez-vous d'être dans un environnement calme et bien éclairé, avec une excellente connexion internet. ",
+            "ics": "Nous avons joint un ICS à ce mail pour que vous puissiez ajouter cet événement à votre calendrier.",
+            "thatsIt": "Et voilà ! 3 minutes avant le début de votre session, il vous suffira de cliquer sur..."
+          },
+          "join": "Rejoindre la session",
+          "alternativeLink": "Et au cas où le bouton ci-dessus ne fonctionnerait pas... voici le lien : {{sessionLink}}",
+          "note": "Remarque : si vous avez un empêchement, merci d'<a href='{{entranceLink}}'>annuler</a> ou de <a href='{{entranceLink}}'> reprogrammer</a> votre participation dès que possible."
+        },
+        "desktop": {
+          "hi": "Bonjour {{user.name}},",
+          "participationConfirmed": "Votre participation est confirmée !",
+          "scheduled": "Votre session est prévue pour le :",
+          "youWillNeed": "Pour ce test, vous aurez besoin de :\n<ul>\n<li>Un ordinateur</li>\n<li>La dernière version de <strong>Chrome</strong>, <strong>Firefox</strong> ou <strong>Edge</strong></li>\n<li>Des écouteurs</li>\n<li>Une webcam</li>\n</ul>"
+        },
+        "mobile": {
+          "hi": "Bonjour {{user.name}},",
+          "participationConfirmed": "Votre participation est confirmée !",
+          "scheduled": "Votre session est prévue pour le :",
+          "youWillNeed": "Pour ce test, vous aurez besoin de :\n<ul>\n<li>Un appareil mobile</li>\n<li>Une batterie suffisamment chargée ou de la possibilité de brancher votre appareil</li>\n<li>Des écouteurs</li>\n</ul>"
+        }
+      },
+      "sessionCancelled": {
+        "subject": "Votre session a été annulée",
+        "generic": {
+          "sessionHasBeenCancelled": "Votre session a été annulée",
+          "sorry": "Nous nous excusons pour la gêne occasionnée.",
+          "seeYouAgain": "Nous espérons vous revoir bientôt.",
+          "hi": "Bonjour {{user.name}},",
+          "hope": "Nous espérons vous revoir bientôt."
+        }
+      },
+      "sessionCancelledByModerator": {
+        "subject": "Votre session a été annulée",
+        "generic": {
+          "hi": "Bonjour {{user.name}},",
+          "sessionHasBeenCancelled": "Votre session a été annulée",
+          "requestedCancellation": "Le modérateur de ce test a annulé votre session.",
+          "sorry": "Nous nous excusons pour la gêne occasionnée.",
+          "hope": "Nous espérons vous revoir bientôt."
+        },
+        "moderator": {
+          "scheduledFor": "Suite à votre demande, nous avons bien annulé votre session pour l'étude {{projectName}}, qui devait se tenir le :",
+          "sessionHasBeenCancelled": "Votre session a été annulée"
+        },
+        "participant": {
+          "scheduledFor": "Le modérateur du test {{projectId}} a annulé votre session. Cette session était prévue pour le :",
+          "sessionHasBeenCancelled": "Votre session a été annulée"
+        }
+      },
+      "sessionCancelledByParticipant": {
+        "subject": "Votre session a été annulée",
+        "generic": {
+          "hi": "Bonjour {{user.name}},",
+          "sessionHasBeenCancelled": "Votre session a bien été annulée",
+          "asRequested": "Suite à votre demande, nous avons annulé votre participation à cette session de {{sessionDuration}} minutes.",
+          "hope": "Nous espérons vous revoir bientôt.",
+          "sorry": "Nous nous excusons pour la gêne occasionnée."
+        },
+        "moderator": {
+          "scheduledFor": "Cette session pour l’étude {{projectName}} devait se tenir le :"
+        },
+        "participant": {
+          "sessionHasBeenCancelled": "Votre session a été annulée",
+          "scheduledFor": "Suite à votre demande, nous avons annulé votre session pour le test {{projectName}} prévue le :"
+        }
+      },
+      "reminders": {
+        "generic": {
+          "hi": "Bonjour {{user.name}},",
+          "almostTime": "C'est bientôt l'heure de votre session !",
+          "reminder": "Petit rappel de votre prochaine session :",
+          "recommendations": {
+            "youWillNeed": "Si vous participez depuis un ordinateur, vous aurez besoin de la dernière version de Chrome, Firefox ou Edge. Si vous participez depuis un appareil mobile, assurez-vous que votre appareil est suffisamment chargé.",
+            "environment": "Assurez-vous d'être dans un environnement calme et bien éclairé, avec une excellente connexion internet.␣",
+            "ics": "Nous avons joint un ICS à ce mail pour que vous puissiez ajouter cet événement à votre calendrier.",
+            "thatsIt": "Et voilà ! 3 minutes avant le début de votre session, il vous suffira de cliquer sur..."
+          },
+          "join": "Rejoindre la session",
+          "alternativeLink": "Et au cas où le bouton ci-dessus ne fonctionnerait pas... voici le lien : {{sessionLink}}",
+          "note": "Remarque : si vous avez un empêchement, merci d'<a href='{{entranceLink}}'>annuler</a> ou de <a href='{{entranceLink}}'> reprogrammer</a> votre participation dès que possible."
+        },
+        "subject": {
+          "24hbefore": "Rappel : Vous avez une session demain",
+          "30mbefore": "Rappel : Votre session commence dans 30 minutes !"
+        },
+        "desktop": {
+          "youWillNeed": "Pour ce test, vous aurez besoin de :\n<ul>\n<li>Un ordinateur</li>\n<li>La dernière version de <strong>Chrome</strong>, <strong>Firefox</strong> ou <strong>Edge</strong></li>\n<li>Des écouteurs</li>\n<li>Une webcam</li>\n</ul>"
+        },
+        "mobile": {
+          "youWillNeed": "Pour ce test, vous aurez besoin de :\n<ul>\n<li>Un appareil mobile</li>\n<li>Une batterie suffisamment chargée ou de la possibilité de brancher votre appareil</li>\n<li>Des écouteurs</li>\n</ul>"
+        }
+      },
+      "reschedule": {
+        "subject": "ACTION REQUISE : Reprogrammez votre session",
+        "generic": {
+          "hi": "Bonjour {{user.name}},",
+          "pleaseChoose": "Merci de choisir un autre horaire pour votre session",
+          "explanation": "Le modérateur de ce test vous demande de choisir un nouveau moment pour votre session. <br> Votre session était initialement prévue pour le :",
+          "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+          "chooseNewTime": "Choisir un nouvel horaire",
+          "selectNoneOfDates": "Si aucun des créneaux proposés ne vous convient, sélectionnez « Aucune de ces dates ne me convient » pour annuler votre session.",
+          "sorry": "Nous nous excusons pour la gêne occasionnée."
+        }
+      },
+      "confirmationReschedule": {
+        "subject": "Session reprogrammée !",
+        "generic": {
+          "hi": "Bonjour {{user.name}},",
+          "participationHasBeenrescheduled": "Votre session a été reprogrammée",
+          "newDetails": "Voici les nouveaux détails de votre session :"
+        }
+      },
+      "icsParticipant": {
+        "summary": "Session modérée",
+        "description": "Rejoignez la session : <br> {{sessionLink}} <br> Si vous ne pouvez plus assister à la session à l'heure prévue, vous pouvez la reprogrammer ou l'annuler en suivant ce lien : <br> {{rescheduleLink}}",
+        "fileName": "Session modérée"
+      },
+      "panelistProblemReported": {
+        "subject": "Problème signalé avec succès",
+        "title": "Bonjour {{user.name}},",
+        "bodyCopy": "Nous vous remercions d'avoir signalé un problème concernant le test :{{projetId}}. Bien que nous ne puissions pas offrir de compensation automatique pour un test inachevé, nous apprécions vraiment le temps que vous avez investi en fournissant ces informations. <br> <br> Nous nous excusons pour le problème que vous avez rencontré et espérons que votre prochain test se déroulera sans problème !"
+      }
     }
+  },
+  "sessionCancelledByModerator": {
+    "subject": "Votre session a été annulée"
+  },
+  "sessionCancelledByParticipant": {
+    "subject": "Votre session a été annulée"
+  }
 }
