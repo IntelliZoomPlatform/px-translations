@@ -336,7 +336,11 @@
         },
         "panelistProfile": {
             "heading": "Panelist profile",
-            "panelistUnmodifiable": "Panelist info cannot be modified once it has been changed to '$t(px-panel-management:panelManagement.actions.{{status}})'."
+            "panelistUnmodifiable": "Panelist info cannot be modified once it has been changed to '$t(px-panel-management:panelManagement.actions.{{status}})'.",
+            "paypalIntegration": {
+                "verified": "Verified",
+                "status": "Status"
+            }
         },
         "panelistEditModal": {
             "title": "Edit panelist information"
