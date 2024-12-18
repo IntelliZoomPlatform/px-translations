@@ -1,87 +1,137 @@
 {
   "izPanel": {
     "emails": {
-      "footer": {
-        "support": "Hjälp!",
-        "copyright": "IntelliZoom Panel drivs av UserZoom Technologies, Inc. © 2019-2022 Alla rättigheter förbehållna. <br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
-        "unsubscribe": "Avsluta prenumerationen på våra e-postmeddelanden",
-        "termsOfService": "Tjänstevillkor",
-        "privacyPolicy": "Integritetspolicy",
-        "address": "IntelliZoom Panel drivs av UserZoom Technologies, Inc. © 2019-2022 Alla rättigheter förbehållna. <br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
-        "thankYou": "Tack, <br> UserZoom-teamet",
-        "help": "Hjälp!",
-        "unsubscribeSession": "Om du inte längre vill få meddelanden om den här forskningssessionen kan du <a href='{{unsubscribeLink}}'>säga upp prenumerationen</a>.",
-        "regards": "Vänliga hälsningar, <br> AnvändarZoom-teamet"
-      },
-      "doubleOptIn": {
-        "subject": "Välkommen till IntelliZoom Panel",
-        "title": "Hej {{user.name}},<br>välkommen till IntelliZoom Panel!",
-        "bodyCopy": "<strong>Klicka på knappen nedan för att aktivera ditt konto.</strong><br>Av säkerhetsskäl upphör den här länken att gälla inom 24 timmar eller när den har använts.",
-        "cta": "Aktivera konto",
-        "closing": "Ha så kul!<br>Panelteamet på IntelliZoom"
-      },
-      "reset": {
-        "subject": "Begäran om lösenordsåterställning",
-        "title": "Glömt ditt lösenord?",
-        "bodyCopy": "Det är okej, det gör vi alla då och då. Klicka bara på knappen nedan för att ange ett nytt lösenord och det är allt. Om du inte har begärt detta så ignorera det här e-postmeddelandet.<br>Av säkerhetsskäl upphör den här länken att gälla inom 24 timmar eller när den har använts.",
-        "cta": "Återställ lösenord"
-      },
-      "studyInvitation": {
-        "subject": "Det finns en ny studie tillgänglig för dig!",
-        "title": "Hej {{user.name}},<br>det finns en ny studie tillgänglig för dig!",
-        "bodyCopy": "Är du redo att ge din feedback och tjäna {{studyFee}}?",
-        "cta": "Delta!",
-        "studyID": "Studie-ID för din referens: {{projectId}}",
-        "closing": "Ha så kul!<br>Panelteamet på IntelliZoom"
-      },
-      "studyComplete": {
-        "subject": "Tack för att du delar med dig av dina tankar!",
-        "title": "Tack för att du delar med dig av dina tankar!",
-        "bodyCopy": "Vi behandlar din betalning för studien {{projectId}} via PayPal till samma e-postkonto som du använde när du registrerade dig på IntelliZoom Panel. Den här processen tar vanligtvis 14 dagar. Ersättningen för den här studien är {{studyFee}}."
-      },
-      "paymentSent": {
-        "subject": "Din betalning har skickats",
-        "title": "Hej {{user.name}},<br>din betalning har skickats!",
-        "bodyCopy": "Vi har skickat {{studyFee}} via PayPal till följande e-postadress:<br>{{user.email}}<br><br>Denna betalning avser studien: {{projectId}}"
-      },
-      "paymentConfirmation": {
-        "subject": "Din betalning har inkommit!",
-        "title": "Hej {{user.name}}, PayPal har precis bekräftat att din betalning har tagits emot",
-        "bodyCopy": "Du bör nu ha {{studyFee}} in på ditt PayPal-konto för:<br>{{user.email}}<br><br>Denna betalning hänvisar till studien: {{projectId}}"
-      },
       "certificationApproved": {
-        "subject": "Du klarade dig bra i din övningsstudie!",
-        "title": "Hej {{user.name}}, fantastiskt jobb med din övningsstudie!",
         "bodyCopyOne": "Vi ser att du tydligt kan formulera dina tankar och erfarenheter. Du är precis den typ av paneldeltagare vi hoppats på!",
-        "bodyCopyTwo": "Du kommer nu att få inbjudningar till Think Out Loud och Card Sort-studier också. Denna typ av studier är vanligtvis bättre betalda ;)"
+        "bodyCopyTwo": "Du kommer nu att få inbjudningar till Think Out Loud och Card Sort-studier också. Denna typ av studier är vanligtvis bättre betalda ;)",
+        "subject": "Du klarade dig bra i din övningsstudie!",
+        "title": "Hej {{user.name}}, fantastiskt jobb med din övningsstudie!"
       },
       "certificationRejected": {
-        "subject": "Din övningsstudie godkändes inte",
-        "title": "Hej {{user.name}}, övningsstudien som du skickade till oss godkändes inte",
         "bodyCopyOne": "Vi är ledsna att meddela dig att övningsstudien du skickade in inte uppfyllde de kvalitetskrav som vi kräver för en Think Out Loud- eller Card Sort-studie.",
-        "bodyCopyTwo": "Om du tror att detta är ett misstag eller om du vill ha en andra chans, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> så återaktiverar vi övningsstudien åt dig."
+        "bodyCopyTwo": "Om du tror att detta är ett misstag eller om du vill ha en andra chans, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> så återaktiverar vi övningsstudien åt dig.",
+        "subject": "Din övningsstudie godkändes inte",
+        "title": "Hej {{user.name}}, övningsstudien som du skickade till oss godkändes inte"
+      },
+      "confirmationReschedule": {
+        "generic": {
+          "hi": "Hej {{user.name}},",
+          "newDetails": "Detta är de nya uppgifterna om din session:",
+          "participationHasBeenrescheduled": "Ditt deltagande har bokats om"
+        },
+        "subject": "Din session har bokats om!"
+      },
+      "doubleOptIn": {
+        "bodyCopy": "<strong>Klicka på knappen nedan för att aktivera ditt konto.</strong><br>Av säkerhetsskäl upphör den här länken att gälla inom 24 timmar eller när den har använts.",
+        "closing": "Ha så kul!<br>Panelteamet på IntelliZoom",
+        "cta": "Aktivera konto",
+        "subject": "Välkommen till IntelliZoom Panel",
+        "title": "Hej {{user.name}},<br>välkommen till IntelliZoom Panel!"
+      },
+      "excludedParticipation": {
+        "bodyCopy": "Vi är ledsna att meddela dig att ditt deltagande i studien {{projectId}} inte har godkänts och du kommer inte att få studiens incitament. <br /><br />Detta kan vara ett resultat av ett eller flera av följande scenarier: <ul><li>Du kanske inte har tänkt högt, som krävs.</li><li>Du kanske inte har spenderat tillräckligt mycket tid för att utföra de nödvändiga uppgifterna eller med frågeformulären.</li><li>Den tekniska kvaliteten på ditt deltagande kan ha varit dålig eller ofullständig på grund av en eller flera av dessa orsaker: <ul><li>Dålig internetanslutning.</li> <li>Dålig mikrofon- eller kamerakvalitet.</li><li>Dålig kvalitet på grund av för många fönster, flikar eller appar som körs samtidigt på din enhet. </li></ul></li></ul>För att undvika att detta händer igen i framtiden, läs dessa <a href=\"https://help.intellizoom.com/hc/en-us/categories/360000100658\">rekommendationer om bästa praxis</a> i vårt hjälpcenter. <br /><br /> Bli inte avskräckt! Nästa gång, se till att din enhet är redo för studien och gör ditt bästa för att ge feedback av högsta kvalitet.",
+        "subject": "Ditt deltagande har inte godkänts",
+        "title": "Hej {{user.name}}, ett av dina deltaganden har inte godkänts"
+      },
+      "finishConfirmation": {
+        "desktop": {
+          "alternativeLink": "Och bara utifall att knappen ovan inte skulle fungera... här är länken: {{confirmLink}}",
+          "confirm": "Bekräfta session",
+          "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+          "hi": "Hej {{user.name}},",
+          "oneMoreStep": "Ett sista steg! Bekräfta din session",
+          "recommendations": "Se vänligen till att vara på samma enhet och WIFI-anslutning som du kommer att använda under sessionen. Vi rekommenderar att du använder ett headset.",
+          "thankYouForInterest": "Tack för ditt intresse för den här {{sessionDuration}}-minuterssessionen! Du har valt följande dag och tid att delta:",
+          "youWillNeed": "För den här studien behöver du:\n<ul>\n<li>Stationär dator</li>\n<li>Senaste versionen av <strong>Chrome</strong>, <strong>Firefox</strong> eller <strong>Edge</strong></li>\n<li>Hörlurar</li>\n<li>Webbkamera</li>\n</ul>"
+        },
+        "generic": {
+          "alternativeLink": "Och bara utifall att knappen ovan inte skulle fungera... här är länken: {{confirmLink}}",
+          "confirm": "Bekräfta session",
+          "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+          "hi": "Hej {{user.name}},",
+          "oneMoreStep": "Ett sista steg! Bekräfta din session",
+          "recommendations": "Se vänligen till att vara på samma enhet och WIFI-anslutning som du kommer att använda under sessionen. Vi rekommenderar att du använder ett headset.",
+          "selectedDay": "Tack för ditt intresse för den här {{sessionDuration}}-minuterssessionen! Du har valt följande dag och tid att delta:",
+          "timezone": "{{timeZone}}"
+        },
+        "mobile": {
+          "confirm": "Bekräfta session",
+          "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+          "hi": "Hej {{user.name}},",
+          "oneMoreStep": "Ett sista steg! Bekräfta din session",
+          "recommendations": "Se vänligen till att vara på samma enhet och WIFI-anslutning som du kommer att använda under sessionen. Vi rekommenderar att du använder ett headset.",
+          "thankYouForInterest": "Tack för ditt intresse för den här {{sessionDuration}}-minuterssessionen! Du har valt följande dag och tid att delta:",
+          "youWillNeed": "För den här studien behöver du:\n<ul>\n<li>Mobil enhet</li>\n<li>Tillräckligt med batteri eller inkopplad laddare</li>\n<li>Hörlurar</li>\n</ul>"
+        },
+        "subject": "ÅTGÄRD KRÄVS: bekräfta din session"
+      },
+      "footer": {
+        "address": "IntelliZoom Panel drivs av UserZoom Technologies, Inc. © 2019-2022 Alla rättigheter förbehållna. <br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
+        "copyright": "IntelliZoom Panel drivs av UserZoom Technologies, Inc. © 2019-2022 Alla rättigheter förbehållna. <br>1801 Broadway, Suite 720, Denver, CO 80202, USA",
+        "help": "Hjälp!",
+        "privacyPolicy": "Integritetspolicy",
+        "regards": "Vänliga hälsningar, <br> AnvändarZoom-teamet",
+        "support": "Hjälp!",
+        "termsOfService": "Tjänstevillkor",
+        "thankYou": "Tack, <br> UserZoom-teamet",
+        "unsubscribe": "Avsluta prenumerationen på våra e-postmeddelanden",
+        "unsubscribeSession": "Om du inte längre vill få meddelanden om den här forskningssessionen kan du <a href='{{unsubscribeLink}}'>säga upp prenumerationen</a>."
       },
       "generic": {
         "genericClosing": "Vänliga hälsningar,<br>panelteamet på IntelliZoom",
+        "gotQuestions": "Om du har ytterligare frågor, vänligen <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> eller besök vår <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp )</a>.",
         "inlineContact": "kontakta oss",
-        "inlineHelp": "Hjälpcenter",
-        "gotQuestions": "Om du har ytterligare frågor, vänligen <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> eller besök vår <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp )</a>."
+        "inlineHelp": "Hjälpcenter"
       },
-      "reEngagement": {
-        "subject": "Begäran om nytt lösenord",
-        "title": "Begäran om nytt lösenord",
-        "bodyCopy": "Hej {{user.name}}!<br>Klicka på knappen nedan för att ange ett nytt lösenord för ditt konto.<br>Av säkerhetsskäl upphör den här länken att gälla inom 24 timmar eller när den har använts.",
-        "cta": "Ange nytt lösenord"
+      "icsParticipant": {
+        "description": "Gå till sammanträdet: \n{{sessionLink}} \nKan du inte längre vara med på sammanträdet på den utsatta tiden kan du ändra schemat eller ställa in sammanträdet på följande länk:\n{{rescheduleLink}}",
+        "fileName": "Modererat researchmöte",
+        "summary": "Modererat researchmöte"
       },
-      "termination": {
-        "subject": "Ditt konto har raderats",
-        "title": "Ditt konto på IntelliZoom Panel har tagits bort",
-        "bodyCopy": "Hej {{user.name}},<br><br>Vi har tagit bort ditt konto och din information från vårt system. (Det här e-postmeddelandet är det sista meddelandet du kommer att få från oss.)<br><br>Om du inte har begärt detta kan det bero på en lång period av inaktivitet eller på grund av att vår plattform har missbrukats, som resulterar i en överträdelse av våra <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br><br>Om du tror att detta är ett misstag eller vill ha mer information, vänligen <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px -emails:izPanel.emails.generic.inlineContact)</a> eller besök vår <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
+      "panelistProblemReported": {
+        "bodyCopy": "Tack för din rapport om ett problem med testet:{{projectId}}. Vi kan inte erbjuda automatisk kompensation för ett oavslutat test men vi uppskattar verkligen tiden du har lagt ner på att tillhandahålla denna information. <br> <br> Vi ber om ursäkt för problemet som du stötte på och hoppas att nästa test löper problemfritt för dig!",
+        "subject": "Problemet har rapporterats",
+        "title": "Hej {{user.name}},"
       },
-      "practiceStudyComplete": {
-        "subject": "Tack för att du deltog i övningsstudien!",
-        "title": "Tack för att du deltog i övningsstudien!",
-        "bodyCopy": "Vi kommer att granska ditt deltagande så fort som möjligt och skickar ett e-postmeddelande med resultaten.<br>Om ditt deltagande godkänns kommer du att börja få inbjudningar till Think Out Loud- och Card Sort-studier.<br>Denna typ av studier är vanligtvis bättre betalda ;)"
+      "participationConfirmed": {
+        "desktop": {
+          "hi": "Hej {{user.name}},",
+          "participationConfirmed": "Ditt deltagande är bekräftat!",
+          "scheduled": "Du har schemalagts för följande dag och tid:",
+          "youWillNeed": "För den här studien behöver du:\n<ul>\n<li>Stationär dator</li>\n<li>Senaste versionen av <strong>Chrome</strong>, <strong>Firefox</strong> eller <strong>Edge</strong></li>\n<li>Hörlurar</li>\n<li>Webbkamera</li>\n</ul>"
+        },
+        "generic": {
+          "alternativeLink": "Och bara utifall att knappen ovan inte skulle fungera... här är länken: {{sessionLink}}",
+          "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+          "hi": "Hej {{user.name}},",
+          "join": "Anslut till session",
+          "note": "Observera: om du inte längre kan på den här tiden ber vi dig att <a href='{{entranceLink}}'>avboka</a> eller <a href='{{entranceLink}}'>boka om</a> ditt deltagande så snart som möjligt.",
+          "participationConfirmed": "Ditt deltagande är bekräftat!",
+          "recommendations": {
+            "environment": "Se till att du är i en tyst miljö med bra ljus och har en bra uppkoppling.",
+            "ics": "Bifogat i detta mejl finns även en ICS så att du kan lägga till den här händelsen till din kalender om du vill.",
+            "thatsIt": "Det var allt. 3 minuter före din session klickar du bara på...",
+            "youWillNeed": "Du behöver den senaste versionen av Chrome, Firefox eller Edge, om du deltar från en stationär dator, eller en mobil enhet med tillräcklig batteritid för en mobil session."
+          },
+          "scheduled": "Du har schemalagts för följande dag och tid:"
+        },
+        "mobile": {
+          "hi": "Hej {{user.name}},",
+          "participationConfirmed": "Ditt deltagande är bekräftat!",
+          "scheduled": "Du har schemalagts för följande dag och tid:",
+          "youWillNeed": "För den här studien behöver du:\n<ul>\n<li>Mobil enhet</li>\n<li>Tillräckligt med batteri eller inkopplad laddare</li>\n<li>Hörlurar</li>\n</ul>"
+        },
+        "subject": "Deltagande bekräftat! Din plats är bokad"
+      },
+      "paymentConfirmation": {
+        "bodyCopy": "Du bör nu ha {{studyFee}} in på ditt PayPal-konto för:<br>{{user.email}}<br><br>Denna betalning hänvisar till studien: {{projectId}}",
+        "subject": "Din betalning har inkommit!",
+        "title": "Hej {{user.name}}, PayPal har precis bekräftat att din betalning har tagits emot"
+      },
+      "paymentSent": {
+        "bodyCopy": "Vi har skickat {{studyFee}} via PayPal till följande e-postadress:<br>{{user.email}}<br><br>Denna betalning avser studien: {{projectId}}",
+        "subject": "Din betalning har skickats",
+        "title": "Hej {{user.name}},<br>din betalning har skickats!"
       },
       "PayPal": {
         "paymentSent": {
@@ -89,95 +139,81 @@
         }
       },
       "paypalToken": {
-        "title": "Ditt PayPal-konto har kopplats bort från IntelliZoom",
+        "cta": "Gå till instrumentpanelen",
         "description": "Vi är ledsna att vi kommer med de dåliga nyheterna, men ditt PayPal-konto har kopplats bort från IntelliZoom.<br /><br />Detta innebär att du inte längre kommer att få inbjudningar till betalda studier och att du inte heller kommer att få några innestående betalningar för studier du kanske nyligen har slutfört.<br /><br />Om du vill fortsätta att delta i våra betalda forskningsstudier eller för att få innestående betalningar, besök vår instrumentpanel och anslut dina konton igen.",
-        "cta": "Gå till instrumentpanelen"
+        "title": "Ditt PayPal-konto har kopplats bort från IntelliZoom"
       },
-      "excludedParticipation": {
-        "subject": "Ditt deltagande har inte godkänts",
-        "title": "Hej {{user.name}}, ett av dina deltaganden har inte godkänts",
-        "bodyCopy": "Vi är ledsna att meddela dig att ditt deltagande i studien {{projectId}} inte har godkänts och du kommer inte att få studiens incitament. <br /><br />Detta kan vara ett resultat av ett eller flera av följande scenarier: <ul><li>Du kanske inte har tänkt högt, som krävs.</li><li>Du kanske inte har spenderat tillräckligt mycket tid för att utföra de nödvändiga uppgifterna eller med frågeformulären.</li><li>Den tekniska kvaliteten på ditt deltagande kan ha varit dålig eller ofullständig på grund av en eller flera av dessa orsaker: <ul><li>Dålig internetanslutning.</li> <li>Dålig mikrofon- eller kamerakvalitet.</li><li>Dålig kvalitet på grund av för många fönster, flikar eller appar som körs samtidigt på din enhet. </li></ul></li></ul>För att undvika att detta händer igen i framtiden, läs dessa <a href=\"https://help.intellizoom.com/hc/en-us/categories/360000100658\">rekommendationer om bästa praxis</a> i vårt hjälpcenter. <br /><br /> Bli inte avskräckt! Nästa gång, se till att din enhet är redo för studien och gör ditt bästa för att ge feedback av högsta kvalitet."
+      "practiceStudyComplete": {
+        "bodyCopy": "Vi kommer att granska ditt deltagande så fort som möjligt och skickar ett e-postmeddelande med resultaten.<br>Om ditt deltagande godkänns kommer du att börja få inbjudningar till Think Out Loud- och Card Sort-studier.<br>Denna typ av studier är vanligtvis bättre betalda ;)",
+        "subject": "Tack för att du deltog i övningsstudien!",
+        "title": "Tack för att du deltog i övningsstudien!"
       },
-      "finishConfirmation": {
-        "subject": "ÅTGÄRD KRÄVS: bekräfta din session",
-        "generic": {
-          "hi": "Hej {{user.name}},",
-          "oneMoreStep": "Ett sista steg! Bekräfta din session",
-          "selectedDay": "Tack för ditt intresse för den här {{sessionDuration}}-minuterssessionen! Du har valt följande dag och tid att delta:",
-          "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
-          "recommendations": "Se vänligen till att vara på samma enhet och WIFI-anslutning som du kommer att använda under sessionen. Vi rekommenderar att du använder ett headset.",
-          "confirm": "Bekräfta session",
-          "alternativeLink": "Och bara utifall att knappen ovan inte skulle fungera... här är länken: {{confirmLink}}",
-          "timezone": "{{timeZone}}"
-        },
+      "reEngagement": {
+        "bodyCopy": "Hej {{user.name}}!<br>Klicka på knappen nedan för att ange ett nytt lösenord för ditt konto.<br>Av säkerhetsskäl upphör den här länken att gälla inom 24 timmar eller när den har använts.",
+        "cta": "Ange nytt lösenord",
+        "subject": "Begäran om nytt lösenord",
+        "title": "Begäran om nytt lösenord"
+      },
+      "reminders": {
         "desktop": {
-          "hi": "Hej {{user.name}},",
-          "oneMoreStep": "Ett sista steg! Bekräfta din session",
-          "thankYouForInterest": "Tack för ditt intresse för den här {{sessionDuration}}-minuterssessionen! Du har valt följande dag och tid att delta:",
-          "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
-          "youWillNeed": "För den här studien behöver du:\n<ul>\n<li>Stationär dator</li>\n<li>Senaste versionen av <strong>Chrome</strong>, <strong>Firefox</strong> eller <strong>Edge</strong></li>\n<li>Hörlurar</li>\n<li>Webbkamera</li>\n</ul>",
-          "recommendations": "Se vänligen till att vara på samma enhet och WIFI-anslutning som du kommer att använda under sessionen. Vi rekommenderar att du använder ett headset.",
-          "confirm": "Bekräfta session",
-          "alternativeLink": "Och bara utifall att knappen ovan inte skulle fungera... här är länken: {{confirmLink}}"
-        },
-        "mobile": {
-          "hi": "Hej {{user.name}},",
-          "oneMoreStep": "Ett sista steg! Bekräfta din session",
-          "thankYouForInterest": "Tack för ditt intresse för den här {{sessionDuration}}-minuterssessionen! Du har valt följande dag och tid att delta:",
-          "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
-          "youWillNeed": "För den här studien behöver du:\n<ul>\n<li>Mobil enhet</li>\n<li>Tillräckligt med batteri eller inkopplad laddare</li>\n<li>Hörlurar</li>\n</ul>",
-          "recommendations": "Se vänligen till att vara på samma enhet och WIFI-anslutning som du kommer att använda under sessionen. Vi rekommenderar att du använder ett headset.",
-          "confirm": "Bekräfta session"
-        }
-      },
-      "participationConfirmed": {
-        "subject": "Deltagande bekräftat! Din plats är bokad",
-        "generic": {
-          "hi": "Hej {{user.name}},",
-          "participationConfirmed": "Ditt deltagande är bekräftat!",
-          "scheduled": "Du har schemalagts för följande dag och tid:",
-          "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
-          "recommendations": {
-            "youWillNeed": "Du behöver den senaste versionen av Chrome, Firefox eller Edge, om du deltar från en stationär dator, eller en mobil enhet med tillräcklig batteritid för en mobil session.",
-            "environment": "Se till att du är i en tyst miljö med bra ljus och har en bra uppkoppling.",
-            "ics": "Bifogat i detta mejl finns även en ICS så att du kan lägga till den här händelsen till din kalender om du vill.",
-            "thatsIt": "Det var allt. 3 minuter före din session klickar du bara på..."
-          },
-          "join": "Anslut till session",
-          "alternativeLink": "Och bara utifall att knappen ovan inte skulle fungera... här är länken: {{sessionLink}}",
-          "note": "Observera: om du inte längre kan på den här tiden ber vi dig att <a href='{{entranceLink}}'>avboka</a> eller <a href='{{entranceLink}}'>boka om</a> ditt deltagande så snart som möjligt."
-        },
-        "desktop": {
-          "hi": "Hej {{user.name}},",
-          "participationConfirmed": "Ditt deltagande är bekräftat!",
-          "scheduled": "Du har schemalagts för följande dag och tid:",
           "youWillNeed": "För den här studien behöver du:\n<ul>\n<li>Stationär dator</li>\n<li>Senaste versionen av <strong>Chrome</strong>, <strong>Firefox</strong> eller <strong>Edge</strong></li>\n<li>Hörlurar</li>\n<li>Webbkamera</li>\n</ul>"
         },
-        "mobile": {
+        "generic": {
+          "almostTime": "Det är strax dags för din forskningssession!",
+          "alternativeLink": "Och bara utifall att knappen ovan inte skulle fungera... här är länken: {{sessionLink}}",
           "hi": "Hej {{user.name}},",
-          "participationConfirmed": "Ditt deltagande är bekräftat!",
-          "scheduled": "Du har schemalagts för följande dag och tid:",
+          "note": "Observera: om du inte längre kan på den här tiden ber vi dig att <a href='{{entranceLink}}'>avboka</a> eller <a href='{{entranceLink}}'>boka om</a> ditt deltagande så snart som möjligt.",
+          "recommendations": {
+            "environment": "Se till att du är i en tyst miljö med bra ljus och har en bra uppkoppling.",
+            "ics": "Bifogat i detta mejl finns även en ICS så att du kan lägga till den här händelsen till din kalender om du vill.",
+            "thatsIt": "Det var allt. 3 minuter före din session klickar du bara på...",
+            "youWillNeed": "Du behöver den senaste versionen av Chrome, Firefox eller Edge, om du deltar från en stationär dator, eller en mobil enhet med tillräcklig batteritid för en mobil session."
+          },
+          "reminder": "Detta är bara en vänlig påminnelse om din kommande forskningssession:"
+        },
+        "mobile": {
           "youWillNeed": "För den här studien behöver du:\n<ul>\n<li>Mobil enhet</li>\n<li>Tillräckligt med batteri eller inkopplad laddare</li>\n<li>Hörlurar</li>\n</ul>"
+        },
+        "subject": {
+          "24hbefore": "Påminnelse: Du har en forskningssession imorgon",
+          "30mbefore": "Påminnelse: Din forskningssession börjar om 30 minuter!"
         }
+      },
+      "reschedule": {
+        "generic": {
+          "chooseNewTime": "Välj en ny tid",
+          "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
+          "explanation": "Moderatorn som ska hålla i din forskningssession har bett dig välja en ny tid för den. <br> Den gamla tiden var:",
+          "hi": "Hej {{user.name}},",
+          "pleaseChoose": "Välj vänligen en ny tid för din forskningssession",
+          "selectNoneOfDates": "Om du inte kan delta på någon av dessa tider, välj \"Inget av dessa datum funkar för mig\" för att avboka din session.",
+          "sorry": "Vi beklagar eventuella olägenheter och bekymmer detta kan medföra för dig."
+        },
+        "subject": "ÅTGÄRD KRÄVS: Boka om din forskningssession"
+      },
+      "reset": {
+        "bodyCopy": "Det är okej, det gör vi alla då och då. Klicka bara på knappen nedan för att ange ett nytt lösenord och det är allt. Om du inte har begärt detta så ignorera det här e-postmeddelandet.<br>Av säkerhetsskäl upphör den här länken att gälla inom 24 timmar eller när den har använts.",
+        "cta": "Återställ lösenord",
+        "subject": "Begäran om lösenordsåterställning",
+        "title": "Glömt ditt lösenord?"
       },
       "sessionCancelled": {
-        "subject": "Din forskningssession har ställts in",
         "generic": {
-          "sessionHasBeenCancelled": "Din forskningssession har ställts in",
-          "sorry": "Vi beklagar eventuella olägenheter och bekymmer detta kan medföra för dig.",
-          "seeYouAgain": "Vi hoppas få se dig igen snart.",
           "hi": "Hej {{user.name}},",
-          "hope": "Vi hoppas vi ses snart igen."
-        }
+          "hope": "Vi hoppas vi ses snart igen.",
+          "seeYouAgain": "Vi hoppas få se dig igen snart.",
+          "sessionHasBeenCancelled": "Din forskningssession har ställts in",
+          "sorry": "Vi beklagar eventuella olägenheter och bekymmer detta kan medföra för dig."
+        },
+        "subject": "Din forskningssession har ställts in"
       },
       "sessionCancelledByModerator": {
-        "subject": "Din forskningssession har ställts in",
         "generic": {
           "hi": "Hej {{user.name}},",
-          "sessionHasBeenCancelled": "Din forskningssession har ställts in",
+          "hope": "Vi hoppas vi ses snart igen.",
           "requestedCancellation": "Moderatorn som skulle ha genomfört din forskningssession har ställt in sessionen.",
-          "sorry": "Vi beklagar eventuella olägenheter och bekymmer detta kan medföra för dig.",
-          "hope": "Vi hoppas vi ses snart igen."
+          "sessionHasBeenCancelled": "Din forskningssession har ställts in",
+          "sorry": "Vi beklagar eventuella olägenheter och bekymmer detta kan medföra för dig."
         },
         "moderator": {
           "scheduledFor": "På din begäran har vi ställt in mötet angående projektet {{projectName}} som du skulle ha varit ledare för:",
@@ -186,80 +222,43 @@
         "participant": {
           "scheduledFor": "Moderatorn som skulle leda ditt forskningsmöte i projektet {{projectId}} har ställt in. Mötet var inbokat följande tid och datum:",
           "sessionHasBeenCancelled": "Din forskningssession har ställts in"
-        }
+        },
+        "subject": "Din forskningssession har ställts in"
       },
       "sessionCancelledByParticipant": {
-        "subject": "Din forskningssession har ställts in",
         "generic": {
-          "hi": "Hej {{user.name}},",
-          "sessionHasBeenCancelled": "Din forskningssession har ställts in",
           "asRequested": "På din begäran har vi avbokat ditt deltagande i {{sessionDuration}}-minuters forskningssessionen.",
+          "hi": "Hej {{user.name}},",
           "hope": "Vi hoppas vi ses snart igen.",
+          "sessionHasBeenCancelled": "Din forskningssession har ställts in",
           "sorry": "Vi beklagar eventuella olägenheter och bekymmer detta kan medföra för dig."
         },
         "moderator": {
           "scheduledFor": "Mötet angående studien {{projectName}} var bokat till följande tid och datum:"
         },
         "participant": {
-          "sessionHasBeenCancelled": "Din forskningssession har ställts in",
-          "scheduledFor": "På din begäran har vi ställt in mötet angående projektet {{projectId}} som du skulle ha varit ledare för:"
-        }
-      },
-      "reminders": {
-        "generic": {
-          "hi": "Hej {{user.name}},",
-          "almostTime": "Det är strax dags för din forskningssession!",
-          "reminder": "Detta är bara en vänlig påminnelse om din kommande forskningssession:",
-          "recommendations": {
-            "youWillNeed": "Du behöver den senaste versionen av Chrome, Firefox eller Edge, om du deltar från en stationär dator, eller en mobil enhet med tillräcklig batteritid för en mobil session.",
-            "environment": "Se till att du är i en tyst miljö med bra ljus och har en bra uppkoppling.",
-            "ics": "Bifogat i detta mejl finns även en ICS så att du kan lägga till den här händelsen till din kalender om du vill.",
-            "thatsIt": "Det var allt. 3 minuter före din session klickar du bara på..."
-          },
-          "join": "Anslut till session",
-          "alternativeLink": "Och bara utifall att knappen ovan inte skulle fungera... här är länken: {{sessionLink}}",
-          "note": "Observera: om du inte längre kan på den här tiden ber vi dig att <a href='{{entranceLink}}'>avboka</a> eller <a href='{{entranceLink}}'>boka om</a> ditt deltagande så snart som möjligt."
+          "scheduledFor": "På din begäran har vi ställt in mötet angående projektet {{projectId}} som du skulle ha varit ledare för:",
+          "sessionHasBeenCancelled": "Din forskningssession har ställts in"
         },
-        "subject": {
-          "24hbefore": "Påminnelse: Du har en forskningssession imorgon",
-          "30mbefore": "Påminnelse: Din forskningssession börjar om 30 minuter!"
-        },
-        "desktop": {
-          "youWillNeed": "För den här studien behöver du:\n<ul>\n<li>Stationär dator</li>\n<li>Senaste versionen av <strong>Chrome</strong>, <strong>Firefox</strong> eller <strong>Edge</strong></li>\n<li>Hörlurar</li>\n<li>Webbkamera</li>\n</ul>"
-        },
-        "mobile": {
-          "youWillNeed": "För den här studien behöver du:\n<ul>\n<li>Mobil enhet</li>\n<li>Tillräckligt med batteri eller inkopplad laddare</li>\n<li>Hörlurar</li>\n</ul>"
-        }
+        "subject": "Din forskningssession har ställts in"
       },
-      "reschedule": {
-        "subject": "ÅTGÄRD KRÄVS: Boka om din forskningssession",
-        "generic": {
-          "hi": "Hej {{user.name}},",
-          "pleaseChoose": "Välj vänligen en ny tid för din forskningssession",
-          "explanation": "Moderatorn som ska hålla i din forskningssession har bett dig välja en ny tid för den. <br> Den gamla tiden var:",
-          "dateAndTime": "{{sessionDay}} <br> {{sessionDate}} <br> {{sessionPeriod}} <br>",
-          "chooseNewTime": "Välj en ny tid",
-          "selectNoneOfDates": "Om du inte kan delta på någon av dessa tider, välj \"Inget av dessa datum funkar för mig\" för att avboka din session.",
-          "sorry": "Vi beklagar eventuella olägenheter och bekymmer detta kan medföra för dig."
-        }
+      "studyComplete": {
+        "bodyCopy": "Vi behandlar din betalning för studien {{projectId}} via PayPal till samma e-postkonto som du använde när du registrerade dig på IntelliZoom Panel. Den här processen tar vanligtvis 14 dagar. Ersättningen för den här studien är {{studyFee}}.",
+        "subject": "Tack för att du delar med dig av dina tankar!",
+        "title": "Tack för att du delar med dig av dina tankar!"
       },
-      "confirmationReschedule": {
-        "subject": "Din session har bokats om!",
-        "generic": {
-          "hi": "Hej {{user.name}},",
-          "participationHasBeenrescheduled": "Ditt deltagande har bokats om",
-          "newDetails": "Detta är de nya uppgifterna om din session:"
-        }
+      "studyInvitation": {
+        "bodyCopy": "Är du redo att ge din feedback och tjäna {{studyFee}}?",
+        "closing": "Ha så kul!<br>Panelteamet på IntelliZoom",
+        "cta": "Delta!",
+        "studyID": "Studie-ID för din referens: {{projectId}}",
+        "subject": "Det finns en ny studie tillgänglig för dig!",
+        "title": "Hej {{user.name}},<br>det finns en ny studie tillgänglig för dig!"
       },
-      "icsParticipant": {
-        "summary": "Modererat researchmöte",
-        "description": "Gå till sammanträdet: \n{{sessionLink}} \nKan du inte längre vara med på sammanträdet på den utsatta tiden kan du ändra schemat eller ställa in sammanträdet på följande länk:\n{{rescheduleLink}}",
-        "fileName": "Modererat researchmöte"
-      },
-      "panelistProblemReported": {
-        "subject": "Problemet har rapporterats",
-        "title": "Hej {{user.name}},",
-        "bodyCopy": "Tack för din rapport om ett problem med testet:{{projectId}}. Vi kan inte erbjuda automatisk kompensation för ett oavslutat test men vi uppskattar verkligen tiden du har lagt ner på att tillhandahålla denna information. <br> <br> Vi ber om ursäkt för problemet som du stötte på och hoppas att nästa test löper problemfritt för dig!"
+      "termination": {
+        "bodyCopy": "Hej {{user.name}},<br><br>Vi har tagit bort ditt konto och din information från vårt system. (Det här e-postmeddelandet är det sista meddelandet du kommer att få från oss.)<br><br>Om du inte har begärt detta kan det bero på en lång period av inaktivitet eller på grund av att vår plattform har missbrukats, som resulterar i en överträdelse av våra <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br><br>Om du tror att detta är ett misstag eller vill ha mer information, vänligen <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px -emails:izPanel.emails.generic.inlineContact)</a> eller besök vår <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>.",
+        "subject": "Ditt konto har raderats",
+        "title": "Ditt konto på IntelliZoom Panel har tagits bort"
       }
     }
   },
@@ -268,5 +267,169 @@
   },
   "sessionCancelledByParticipant": {
     "subject": "Din forskningssession har ställts in"
+  },
+  "unified": {
+    "confirmation_email": {
+      "button": "Bekräfta session",
+      "date": "",
+      "first_body_text": "Tack för ditt intresse för den här {{sessionDuration}}-minuters Livekonversationen. Du har valt följande dag och tid för att delta:",
+      "second_body_text": "Vänligen bekräfta din session på samma enhet och med samma wifi-anslutning som du kommer att använda för att delta.",
+      "subject": "Åtgärd krävs: Bekräfta session",
+      "time": "",
+      "timezone": "{{(GMT + 01:00) centraleuropeisk tid}}",
+      "title": "Bekräfta din session"
+    },
+    "footer": {
+      "account_message": "Du får det här e-postmeddelandet eftersom ett konto har skapats hos UserTesting\nmed e-postadressen {{namn@exempel.com}}.",
+      "copyright": "©UserTesting {{2024}}, alla rättigheter reserverade.",
+      "manage_preferences": "{{Hantera e-postinställningar}}",
+      "privacy_policy": "Integritetspolicy",
+      "privacy_policy_link": "",
+      "support": "Support",
+      "support_link": "",
+      "terms_of_service": "Tjänstevillkor",
+      "terms_of_service_link": ""
+    },
+    "forgot_password_email": {
+      "body_text": "Vi har tagit emot en begäran om att återställa ditt lösenord. Tryck på knappen nedan för att skapa ett nytt.",
+      "button": "Återställ lösenord",
+      "button_microcopy": "Den här länken upphör att gälla om en timme",
+      "subject": "Åtgärd krävs: Återställ lösenord",
+      "title": "Återställ lösenord"
+    },
+    "generic": {
+      "greeting": "",
+      "join_button": "Anslut till session",
+      "reach_out_support": {
+        "support_center_link": "https://participant-support.usertesting.com/",
+        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+      },
+      "sign_off": "Tack, <br>\nUserTesting-teamet"
+    },
+    "panelist_removal_email": {
+      "first_body_text": "Vi har raderat ditt konto och din information från vårt system (detta e-postmeddelande är den sista kommunikationen du får från oss).",
+      "second_body_text": "Om du inte begärde detta kan det bero på en lång period av inaktivitet eller missbruk av vår plattform som resulterar i en överträdelse av {{användarvillkoren}}.",
+      "subject": "Ditt TestKonto har raderats",
+      "third_body_text": "Om du anser att detta är ett misstag eller vill ha ytterligare information, {{kontakta oss}} eller besök vårt {{supportcenter}}.",
+      "title": "TestKonto raderat"
+    },
+    "participant_not_paid_email": {
+      "advice": "Se till att din enhet är redo för testet nästa gång och gör ditt bästa för att ge feedback av högsta kvalitet.",
+      "best_practices": "För att undvika att detta händer igen i framtiden, läs igenom dessa {{rekommendationer om bästa praxis}} i vårt supportcenter.",
+      "body_text": "Vi är ledsna att meddela att ditt deltagande i testet {{projectID}} inte har godkänts och att du inte kommer att få belöningen för testet.",
+      "quality_list": {
+        "internet_connection": "Dålig internetanslutning.",
+        "microphone_camera": "Dålig mikrofon- eller kamerakvalitet.",
+        "overall_quality": "Dålig kvalitet överlag på grund av att för många fönster, flikar eller appar kördes samtidigt på din enhet.",
+        "title": "Den tekniska kvaliteten på ditt deltagande kan ha varit dålig eller ofullständig på grund av en eller flera av dessa orsaker:"
+      },
+      "scenario_list": {
+        "time": "Du kanske inte ägnade tillräckligt med tid åt att utföra de uppgifter eller fylla i de frågeformulär som krävs.",
+        "title": "Detta kan vara ett resultat av ett eller flera av följande scenarier:",
+        "tol": "Du kanske inte beskrev dina tankar så tydligt som det var tänkt."
+      },
+      "subject": "Ditt deltagande godkändes inte",
+      "title": "Deltagande ej godkänt"
+    },
+    "participant_study_invitation_email": {
+      "body_text": "Är du redo för att återkoppla? Var snabb, de här möjligheterna är öppna för andra deltagare!",
+      "button": "Gå till testet",
+      "study_id": "Studie-ID som referens: {{Studie-ID}}",
+      "subject": "Ny testmöjlighet för dig!",
+      "title": "Nytt test tillgängligt"
+    },
+    "paypal_integration_revoked_email": {
+      "body_text": "Vi noterade att ditt PayPal-konto har kopplats bort från TestKonto.\n\nOm du vill fortsätta att få inbjudningar, delta i betalda tester och ta emot eventuella väntande betalningar måste du gå till din TestKonto-hemsida och ansluta ditt PayPal-konto igen.",
+      "button": "UserTesting Hem",
+      "subject": "Åtgärd krävs: Anslut ditt PayPal-konto",
+      "title": "Anslut ditt PayPal till TestKonto"
+    },
+    "practice_study_complete_email": {
+      "first_body_text": "Vi kommer att gå igenom din övning – det här tar vanligtvis fyra dagar – sedan meddelar vi dig om den har godkänts. ",
+      "second_body_text": "Om din övning godkänns, blir du kvalificerad för att bjudas in till tester med högre belöningar.",
+      "subject": "Övningen har genomförts",
+      "title": "Tack för att du har gjort övningen!"
+    },
+    "qualification_attempt_approved_email": {
+      "button": "Se tillgängliga tester",
+      "first_body_text": "Grattis, vi har godkänt din övning! ",
+      "second_body_text": "Vi älskar hur tydligt du berättar om dina tankar och följer uppgifterna. Du är nu kvalificerad för att bjudas in till tester med högre belöningar.",
+      "subject": "Din övning har godkänts!",
+      "title": "Övningen har godkänts"
+    },
+    "qualification_attempt_rejected_email": {
+      "first_body_text": "Tyvärr har din övning inte godkänts. ",
+      "list": {
+        "distractions": "Störningar under övningen som påverkar videokvaliteten, till exempel för mycket bakgrundsljud ",
+        "incorrect": "Felaktiga eller ofullständiga svar",
+        "technical_issues": "Tekniska problem vid användandet av programvara för inspelning",
+        "title": "Några vanliga anledningar till att man inte blir godkänd är:",
+        "tol": "Att du inte uttalar dina tankar högt"
+      },
+      "second_body_text": "Om du tror att det här var ett misstag, eller om du vill göra om övningen, vänligen kontakta vårt {{supportteam}}.  ",
+      "subject": "Övningen har inte godkänts",
+      "title": "Övningen har inte godkänts"
+    },
+    "sign_up_email": {
+      "body_text": "Klicka bara på knappen nedan för att aktivera ditt UserTesting-konto.",
+      "button": "Aktivera konto",
+      "button_microcopy": "Den här länken upphör att gälla om 24 timmar",
+      "subject": "Åtgärd krävs: Aktivera konto",
+      "title": "Aktivera ditt konto"
+    },
+    "study_complete_email": {
+      "body_text": "Vi kommer att behandla din betalning för testet {{projekt-ID}} via PayPal till samma e-postadress som den som registrerats hos UserTesting. Den här processen tar vanligtvis 14 dagar. Belöningen för det här testet är {{studieavgift}}.",
+      "subject": "Testet är genomfört",
+      "title": "Tack för att du delar med dig av dina tankar!"
+    },
+    "test_details": {
+      "confidentiality_terms": "Sekretessvillkor",
+      "device_type": "",
+      "recording_permissions": "",
+      "reward_amount": "",
+      "session_requirements": {
+        "enough_battery": "Din mobila enhet har tillräckligt med batteri eller är ansluten till en laddare.",
+        "generic": "Du kommer att behöva den senaste versionen av Chrome, Firefox eller Edge om du deltar från en dator, eller en mobil enhet som har tillräckligt med batteri för en mobil session.",
+        "join_before": "Anslut 10 minuter före starttiden för att kontrollera video och ljud.",
+        "latest_version": "",
+        "quiet_environment": "Se till att du befinner dig i en väl upplyst, tyst miljö med en stark internetanslutning. Vi rekommenderar att du använder ett headset.",
+        "title": ""
+      },
+      "test_type": "",
+      "title": "Testuppgifter:"
+    },
+    "time_slot_canceled_email": {
+      "apology": "Vi beklagar de olägenheter och problem som detta kan ha orsakat.",
+      "body_text": {
+        "by_moderator": "Följande livekonversation (studie-ID {{projectId}}) har avbrutits av kunden på grund av att du körde din session:",
+        "by_participant": "På begäran har vi avbrutit ditt deltagande i följande {{sessionDuration}}-minuters livekonversation:",
+        "by_system": "Tyvärr har din livekonversation (studie-ID {{projectId}}) ställts in."
+      },
+      "see_you_again": "Vi hoppas vi ses snart igen.",
+      "subject": "Din livekonversation har avbrutits",
+      "title": "Sessionen avbruten"
+    },
+    "time_slot_confirmed_email": {
+      "body_text": "Din Livekonversation är schemalagd till följande dag och tid:",
+      "button": "",
+      "ics": {
+        "body_text": "Klicka på iCalendar-bilagan (ICS) i det här e-postmeddelandet om du vill lägga till det här eventet i din kalender.",
+        "title": "Lägg till i din kalender"
+      },
+      "note_cancel": "Obs: Om du inte längre kan hålla den här tiden, ber vi dig {{avboka}} eller {{omboka}} din session så snart som möjligt.",
+      "session_link": "Du kan kopiera och klistra in sessionslänken om du föredrar det: \n{{https://sourcing.userzoom.com/participant-flow/schedule/time-slot/e4824d35-7d03-49df-9fad-b8905774b033/enter-session}}",
+      "subject": "Din livekonversation är bekräftad",
+      "title": "Sessionen har bekräftats"
+    },
+    "time_slot_reminder_24h_email": {
+      "body_text": "Detta är bara en vänlig påminnelse om din kommande livekonversation:",
+      "subject": "Påminnelse: Du har en livekonversation i morgon",
+      "title": "I morgon: Livekonversation"
+    },
+    "time_slot_reminder_30m_email": {
+      "body_text": "Detta är bara en vänlig påminnelse om din kommande livekonversation:",
+      "subject": "Påminnelse: Din livekonversation börjar om 30 minuter!",
+      "title": "Startar snart: Livekonversation"
+    }
   }
 }
