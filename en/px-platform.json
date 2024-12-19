@@ -181,7 +181,12 @@
       "heroSection": {
         "title": "Your opinion matters.",
         "description": "Get paid to share your experiences and make an impact on products you love and care about.",
-        "cta": "Let's do this!"
+        "cta": "Let's do this!",
+        "alreadyRegistered": "Existing IntelliZoom panelist? [Log in as usual here](/login)",
+        "nowUserTesting": "IntelliZoom is now UserTesting",
+        "sameExperience": "Our name may have changed. But getting paid to share your experiences and make an impact on products you love, remains the same! ",
+        "existingPanelist": "Existing IntelliZoom panelist? [Log in as usual here](/login)",
+        "signUpWithUserTesting": "Sign up with UserTesting"
       },
       "featureBoxes": {
         "first": {

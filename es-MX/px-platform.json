@@ -181,7 +181,11 @@
       "heroSection": {
         "title": "Tu opinión cuenta.",
         "description": "Gana dinero por compartir tus experiencias e influye en los productos que más te importan y aprecias.",
-        "cta": "¡Regístrate!"
+        "cta": "¡Regístrate!",
+        "nowUserTesting": "IntelliZoom ahora es UserTesting",
+        "sameExperience": "Nuestro nombre puede haber cambiado, pero seguir ganando dinero por compartir tus experiencias y tener un impacto en los productos que amas, ¡sigue siendo lo mismo! ",
+        "existingPanelist": "¿Ya eres panelista de IntelliZoom? [Inicia sesión como siempre aquí](/login)",
+        "signUpWithUserTesting": "Regístrate en UserTesting"
       },
       "featureBoxes": {
         "first": {
