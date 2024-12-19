@@ -11,7 +11,7 @@ on:
 
 jobs:
   sync-panel-portal:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     env:
       GITHUB_TOKEN: ${{ secrets.SOURCING_GITHUB_TOKEN }}
     steps:
