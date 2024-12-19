@@ -181,7 +181,11 @@
       "heroSection": {
         "title": "Din mening betyder noget.",
         "description": "Bliv betalt for at dele dine oplevelser og få indflydelse på produkter, du elsker og holder af.",
-        "cta": "Lad os komme i gang!"
+        "cta": "Lad os komme i gang!",
+        "nowUserTesting": "IntelliZoom hedder nu UserTesting",
+        "sameExperience": "Vores navn har ændret sig. Men at blive betalt for at dele dine oplevelser og gøre en forskel for produkter du holder af, vil fortsat være det samme. ",
+        "existingPanelist": "Eksisterende IntelliZoom-paneldeltager? [Log ind her som sædvanligt](/login)",
+        "signUpWithUserTesting": "Tilmeld dig UserTesting"
       },
       "featureBoxes": {
         "first": {

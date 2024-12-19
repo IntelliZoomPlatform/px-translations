@@ -181,7 +181,11 @@
       "heroSection": {
         "title": "Je mening doet ertoe.",
         "description": "Krijg betaald om je ervaringen te delen en een invloed te hebben op producten waar je van houdt en waar je om geeft.",
-        "cta": "Laten we dit doen!"
+        "cta": "Laten we dit doen!",
+        "nowUserTesting": "IntelliZoom is nu UserTesting",
+        "sameExperience": "Onze naam is misschien veranderd. Maar betaald worden om je ervaringen te delen en impact te maken op producten waar je van houdt, blijft hetzelfde!",
+        "existingPanelist": "Bestaand IntelliZoom-panellid? [Log hier in zoals gewoonlijk](/login)",
+        "signUpWithUserTesting": "Meld je aan bij UserTesting"
       },
       "featureBoxes": {
         "first": {

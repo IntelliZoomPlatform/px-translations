@@ -181,7 +181,11 @@
       "heroSection": {
         "title": "Deine Meinung zählt.",
         "description": "Lass Dich bezahlen für das Teilen Deiner Erfahrungen mit Deinen Lieblingsprodukten.",
-        "cta": "Los geht's!"
+        "cta": "Los geht's!",
+        "nowUserTesting": "IntelliZoom ist jetzt UserTesting",
+        "sameExperience": "Unser Name hat sich zwar geändert. Aber dafür bezahlt zu werden, Ihre Erfahrungen zu teilen und einen Einfluss auf Produkte zu haben, die Sie lieben, bleibt gleich! ",
+        "existingPanelist": "Vorhandener IntelliZoom-Diskussionsteilnehmer? [Loggen Sie sich wie gewohnt hier ein](/login)",
+        "signUpWithUserTesting": "Bei UserTesting anmelden"
       },
       "featureBoxes": {
         "first": {
