@@ -383,9 +383,49 @@
       "title": "Bedankt voor het delen van je gedachten!"
     },
     "test_details": {
+      "browser": {
+        "chrome": ""
+      },
       "confidentiality_terms": "Vertrouwelijkheidsvoorwaarden",
-      "device_type": "",
-      "recording_permissions": "",
+      "device_type": {
+        "any_device": "Elk apparaat",
+        "computer": "Computer",
+        "desktop_any_tablet_Android_phone_Android": "Computer | Android-toestel ",
+        "desktop_any_tablet_Android_phone_any": "Computer | Android-toestel | iPhone",
+        "desktop_any_tablet_Android_phone_iOS": "Computer | Android-tablet | iPhone",
+        "desktop_any_tablet_Android_phone_none": "Computer | Android-tablet",
+        "desktop_any_tablet_any_phone_Android": "Computer | Android-toestel | iPad",
+        "desktop_any_tablet_any_phone_iOS": "Computer | iOS-toestel | Android-tablet",
+        "desktop_any_tablet_any_phone_none": "Computer | Tablet",
+        "desktop_any_tablet_iOS_phone_Android": "Computer | iPad | Android telefoon",
+        "desktop_any_tablet_iOS_phone_any": "Computer | iOS-toestel | Android telefoon",
+        "desktop_any_tablet_iOS_phone_iOS": "Computer | iOS-toestel",
+        "desktop_any_tablet_iOS_phone_none": "Computer | iPad",
+        "desktop_any_tablet_none_phone_Android": "Computer | Android telefoon",
+        "desktop_any_tablet_none_phone_any": "Computer | Mobiel",
+        "desktop_any_tablet_none_phone_iOS": "Computer | iPhone",
+        "desktop_none_tablet_Android_phone_Android": "Android-toestel",
+        "desktop_none_tablet_Android_phone_any": "Android-toestel | iPhone",
+        "desktop_none_tablet_Android_phone_iOS": "Android-tablet | iPhone",
+        "desktop_none_tablet_Android_phone_none": "Android-tablet",
+        "desktop_none_tablet_any_phone_Android": "Android-toestel | iPad",
+        "desktop_none_tablet_any_phone_any": "Tablet | Mobiel",
+        "desktop_none_tablet_any_phone_iOS": "iOS-toestel | Android-tablet",
+        "desktop_none_tablet_any_phone_none": "Tablet",
+        "desktop_none_tablet_iOS_phone_Android": "iPad | Android telefoon",
+        "desktop_none_tablet_iOS_phone_any": "iOS-toestel | Android telefoon",
+        "desktop_none_tablet_iOS_phone_iOS": "iOS-toestel",
+        "desktop_none_tablet_iOS_phone_none": "iPad",
+        "desktop_none_tablet_none_phone_Android": "Android telefoon",
+        "desktop_none_tablet_none_phone_iOS": "iPhone",
+        "mobile": "Mobiel"
+      },
+      "recording_permissions": {
+        "face": "Gezicht",
+        "not_recorded": "Niet opgenomen",
+        "screen": "Scherm",
+        "voice": "Stem"
+      },
       "reward_amount": "",
       "session_requirements": {
         "enough_battery": "Uw mobiele heeft genoeg accu of is verbonden met de oplader.",
@@ -395,7 +435,10 @@
         "quiet_environment": "Zorg ervoor dat u zich in een goed verlichte, rustige omgeving bevindt met een goede internetverbinding. We bevelen het gebruik van een headset aan.",
         "title": ""
       },
-      "test_type": "",
+      "test_type": {
+        "survey": "Enquête",
+        "task_based_test": "Taakgebaseerd"
+      },
       "title": "Testdetails:"
     },
     "time_slot_canceled_email": {

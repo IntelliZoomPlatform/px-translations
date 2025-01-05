@@ -383,9 +383,49 @@
       "title": "Tack för att du delar med dig av dina tankar!"
     },
     "test_details": {
+      "browser": {
+        "chrome": ""
+      },
       "confidentiality_terms": "Sekretessvillkor",
-      "device_type": "",
-      "recording_permissions": "",
+      "device_type": {
+        "any_device": "Valfri enhet",
+        "computer": "Dator",
+        "desktop_any_tablet_Android_phone_Android": "Dator | Androidenhet",
+        "desktop_any_tablet_Android_phone_any": "Dator | Androidenhet | iPhone",
+        "desktop_any_tablet_Android_phone_iOS": "Dator | Android surfplatta | iPhone",
+        "desktop_any_tablet_Android_phone_none": "Dator | Android surfplatta ",
+        "desktop_any_tablet_any_phone_Android": "Dator | Androidenhet | iPad",
+        "desktop_any_tablet_any_phone_iOS": "Dator | iOS-enhet | Android surfplatta",
+        "desktop_any_tablet_any_phone_none": "Dator | surfplatta",
+        "desktop_any_tablet_iOS_phone_Android": "Dator | iPad | Androidtelefon",
+        "desktop_any_tablet_iOS_phone_any": "Dator | iOS-enhet | Androidtelefon",
+        "desktop_any_tablet_iOS_phone_iOS": "Dator | iOS-enhet",
+        "desktop_any_tablet_iOS_phone_none": "Dator | iPad",
+        "desktop_any_tablet_none_phone_Android": "Dator | Androidtelefon",
+        "desktop_any_tablet_none_phone_any": "Dator | Mobil",
+        "desktop_any_tablet_none_phone_iOS": "Dator | iPhone",
+        "desktop_none_tablet_Android_phone_Android": "Androidenhet",
+        "desktop_none_tablet_Android_phone_any": "Androidenhet | iPhone",
+        "desktop_none_tablet_Android_phone_iOS": "Android surfplatta | iPhone",
+        "desktop_none_tablet_Android_phone_none": "Android surfplatta",
+        "desktop_none_tablet_any_phone_Android": "Androidenhet | iPad",
+        "desktop_none_tablet_any_phone_any": "Tablett | Mobil",
+        "desktop_none_tablet_any_phone_iOS": "iOS-enhet | Android surfplatta",
+        "desktop_none_tablet_any_phone_none": "surfplatta",
+        "desktop_none_tablet_iOS_phone_Android": "iPad | Androidtelefon",
+        "desktop_none_tablet_iOS_phone_any": "iOS-enhet | Androidtelefon",
+        "desktop_none_tablet_iOS_phone_iOS": "iOS-enhet",
+        "desktop_none_tablet_iOS_phone_none": "iPad",
+        "desktop_none_tablet_none_phone_Android": "Androidtelefon",
+        "desktop_none_tablet_none_phone_iOS": "iPhone",
+        "mobile": "Mobil"
+      },
+      "recording_permissions": {
+        "face": "Ansikte",
+        "not_recorded": "Spelas inte in",
+        "screen": "Skärm",
+        "voice": "röst"
+      },
       "reward_amount": "",
       "session_requirements": {
         "enough_battery": "Din mobila enhet har tillräckligt med batteri eller är ansluten till en laddare.",
@@ -395,7 +435,10 @@
         "quiet_environment": "Se till att du befinner dig i en väl upplyst, tyst miljö med en stark internetanslutning. Vi rekommenderar att du använder ett headset.",
         "title": ""
       },
-      "test_type": "",
+      "test_type": {
+        "survey": "Enkät",
+        "task_based_test": "Uppgiftsbaserad"
+      },
       "title": "Testuppgifter:"
     },
     "time_slot_canceled_email": {

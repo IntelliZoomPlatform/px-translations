@@ -383,9 +383,49 @@
       "title": "Thanks for sharing your thoughts!"
     },
     "test_details": {
+      "browser": {
+        "chrome": "Chrome"
+      },
       "confidentiality_terms": "Confidentiality terms",
-      "device_type": "{{DeviceType}}",
-      "recording_permissions": "{{RecordingPermissions}}",
+      "device_type": {
+        "any_device": "Any device",
+        "computer": "Computer",
+        "desktop_any_tablet_Android_phone_Android": "Computer | Android device",
+        "desktop_any_tablet_Android_phone_any": "Computer | Android device | iPhone",
+        "desktop_any_tablet_Android_phone_iOS": "Computer | Android tablet | iPhone ",
+        "desktop_any_tablet_Android_phone_none": "Computer | Android tablet",
+        "desktop_any_tablet_any_phone_Android": "Computer | Android device | iPad",
+        "desktop_any_tablet_any_phone_iOS": "Computer | iOS device | Android tablet",
+        "desktop_any_tablet_any_phone_none": "Computer | Tablet",
+        "desktop_any_tablet_iOS_phone_Android": "Computer | iPad | Android phone",
+        "desktop_any_tablet_iOS_phone_any": "Computer | iOS device | Android phone",
+        "desktop_any_tablet_iOS_phone_iOS": "Computer | iOS device",
+        "desktop_any_tablet_iOS_phone_none": "Computer | iPad",
+        "desktop_any_tablet_none_phone_Android": "Computer | Android phone",
+        "desktop_any_tablet_none_phone_any": "Computer | Mobile",
+        "desktop_any_tablet_none_phone_iOS": "Computer | iPhone",
+        "desktop_none_tablet_Android_phone_Android": "Android device",
+        "desktop_none_tablet_Android_phone_any": "Android device | iPhone",
+        "desktop_none_tablet_Android_phone_iOS": "Android tablet | iPhone",
+        "desktop_none_tablet_Android_phone_none": "Android tablet",
+        "desktop_none_tablet_any_phone_Android": "Android device | iPad",
+        "desktop_none_tablet_any_phone_any": "Tablet | Mobile",
+        "desktop_none_tablet_any_phone_iOS": "iOS device | Android tablet",
+        "desktop_none_tablet_any_phone_none": "Tablet",
+        "desktop_none_tablet_iOS_phone_Android": "iPad | Android phone",
+        "desktop_none_tablet_iOS_phone_any": "iOS device | Android phone",
+        "desktop_none_tablet_iOS_phone_iOS": "iOS device",
+        "desktop_none_tablet_iOS_phone_none": "iPad",
+        "desktop_none_tablet_none_phone_Android": "Android phone",
+        "desktop_none_tablet_none_phone_iOS": "iPhone",
+        "mobile": "Mobile"
+      },
+      "recording_permissions": {
+        "face": "Face",
+        "not_recorded": "Not recorded",
+        "screen": "Screen",
+        "voice": "Voice"
+      },
       "reward_amount": "Reward amount ${{8}}",
       "session_requirements": {
         "enough_battery": "Your mobile device has enough battery or is connected to a charger.",
@@ -395,7 +435,10 @@
         "quiet_environment": "Make sure you’re in a well-lit, quiet environment with a strong internet connection. We recommend the use of a headset.",
         "title": "Session requirements:"
       },
-      "test_type": "{{TestType}}",
+      "test_type": {
+        "survey": "Survey",
+        "task_based_test": "Task based"
+      },
       "title": "Test details:"
     },
     "time_slot_canceled_email": {

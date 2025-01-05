@@ -383,9 +383,49 @@
       "title": ""
     },
     "test_details": {
+      "browser": {
+        "chrome": ""
+      },
       "confidentiality_terms": "",
-      "device_type": "",
-      "recording_permissions": "",
+      "device_type": {
+        "any_device": "",
+        "computer": "",
+        "desktop_any_tablet_Android_phone_Android": "",
+        "desktop_any_tablet_Android_phone_any": "",
+        "desktop_any_tablet_Android_phone_iOS": "",
+        "desktop_any_tablet_Android_phone_none": "",
+        "desktop_any_tablet_any_phone_Android": "",
+        "desktop_any_tablet_any_phone_iOS": "",
+        "desktop_any_tablet_any_phone_none": "",
+        "desktop_any_tablet_iOS_phone_Android": "",
+        "desktop_any_tablet_iOS_phone_any": "",
+        "desktop_any_tablet_iOS_phone_iOS": "",
+        "desktop_any_tablet_iOS_phone_none": "",
+        "desktop_any_tablet_none_phone_Android": "",
+        "desktop_any_tablet_none_phone_any": "",
+        "desktop_any_tablet_none_phone_iOS": "",
+        "desktop_none_tablet_Android_phone_Android": "",
+        "desktop_none_tablet_Android_phone_any": "",
+        "desktop_none_tablet_Android_phone_iOS": "",
+        "desktop_none_tablet_Android_phone_none": "",
+        "desktop_none_tablet_any_phone_Android": "",
+        "desktop_none_tablet_any_phone_any": "",
+        "desktop_none_tablet_any_phone_iOS": "",
+        "desktop_none_tablet_any_phone_none": "",
+        "desktop_none_tablet_iOS_phone_Android": "",
+        "desktop_none_tablet_iOS_phone_any": "",
+        "desktop_none_tablet_iOS_phone_iOS": "",
+        "desktop_none_tablet_iOS_phone_none": "",
+        "desktop_none_tablet_none_phone_Android": "",
+        "desktop_none_tablet_none_phone_iOS": "",
+        "mobile": ""
+      },
+      "recording_permissions": {
+        "face": "",
+        "not_recorded": "",
+        "screen": "",
+        "voice": ""
+      },
       "reward_amount": "",
       "session_requirements": {
         "enough_battery": "",
@@ -395,7 +435,10 @@
         "quiet_environment": "",
         "title": ""
       },
-      "test_type": "",
+      "test_type": {
+        "survey": "",
+        "task_based_test": ""
+      },
       "title": ""
     },
     "time_slot_canceled_email": {

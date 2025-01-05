@@ -281,7 +281,7 @@
     },
     "footer": {
       "account_message": "Du har modtaget denne e-mail fordi en konto er blevet oprettet med UserTesting \nved hjælp af e-mailen: {{name@example.com}}",
-      "copyright": " ©UserTesting {{2024}}, alle rettigheder forbeholdes.",
+      "copyright": "©UserTesting {{2024}}, alle rettigheder forbeholdes.",
       "manage_preferences": "{{Administrer e-mailpræferencer}}",
       "privacy_policy": "Privatlivspolitik",
       "privacy_policy_link": "",
@@ -383,9 +383,49 @@
       "title": "Tak fordi du har delt dine tanker!"
     },
     "test_details": {
+      "browser": {
+        "chrome": ""
+      },
       "confidentiality_terms": "Fortrolighedsvilkår",
-      "device_type": "",
-      "recording_permissions": "",
+      "device_type": {
+        "any_device": "Enhver enhed",
+        "computer": "Computer",
+        "desktop_any_tablet_Android_phone_Android": "Computer | Android-enhed",
+        "desktop_any_tablet_Android_phone_any": "Computer | Android-enhed | iPhone",
+        "desktop_any_tablet_Android_phone_iOS": "Computer | Android tablet | iPhone",
+        "desktop_any_tablet_Android_phone_none": "Computer | Android tablet",
+        "desktop_any_tablet_any_phone_Android": "Computer | Android-enhed | iPad",
+        "desktop_any_tablet_any_phone_iOS": "Computer | iOS-enhed | Android tablet",
+        "desktop_any_tablet_any_phone_none": "Computer | Tablet",
+        "desktop_any_tablet_iOS_phone_Android": "Computer | iPad | Android telefon",
+        "desktop_any_tablet_iOS_phone_any": "Computer | iOS-enhed | Android telefon",
+        "desktop_any_tablet_iOS_phone_iOS": "Computer | iOS-enhed",
+        "desktop_any_tablet_iOS_phone_none": "Computer | iPad",
+        "desktop_any_tablet_none_phone_Android": "Computer | Android telefon",
+        "desktop_any_tablet_none_phone_any": "Computer | Mobil",
+        "desktop_any_tablet_none_phone_iOS": "Computer | iPhone",
+        "desktop_none_tablet_Android_phone_Android": "Android-enhed",
+        "desktop_none_tablet_Android_phone_any": "Android-enhed | iPhone",
+        "desktop_none_tablet_Android_phone_iOS": "Android tablet | iPhone",
+        "desktop_none_tablet_Android_phone_none": "Android tablet",
+        "desktop_none_tablet_any_phone_Android": "Android-enhed | iPad",
+        "desktop_none_tablet_any_phone_any": "Tablet | Mobil",
+        "desktop_none_tablet_any_phone_iOS": "iOS-enhed | Android tablet",
+        "desktop_none_tablet_any_phone_none": "Tablet",
+        "desktop_none_tablet_iOS_phone_Android": "iPad | Android telefon",
+        "desktop_none_tablet_iOS_phone_any": "iOS-enhed | Android telefon",
+        "desktop_none_tablet_iOS_phone_iOS": "iOS-enhed",
+        "desktop_none_tablet_iOS_phone_none": "iPad",
+        "desktop_none_tablet_none_phone_Android": "Android telefon",
+        "desktop_none_tablet_none_phone_iOS": "iPhone",
+        "mobile": "Mobil"
+      },
+      "recording_permissions": {
+        "face": "Ansigt",
+        "not_recorded": "Ikke optaget",
+        "screen": "Skærm",
+        "voice": "Stemme"
+      },
       "reward_amount": "",
       "session_requirements": {
         "enough_battery": "Din mobile enhed har nok batteri eller er tilsluttet en oplader.",
@@ -395,7 +435,10 @@
         "quiet_environment": "Sørg for, at du er i velbelyst og stille miljø med en god internetforbindelse. Vi anbefaler at bruge et headset.",
         "title": ""
       },
-      "test_type": "",
+      "test_type": {
+        "survey": "Undersøgelse",
+        "task_based_test": "Opgavebaseret"
+      },
       "title": "Testoplysninger:"
     },
     "time_slot_canceled_email": {

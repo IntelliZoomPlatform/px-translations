@@ -371,7 +371,7 @@
       "title": "Sesión de práctica no aprobada"
     },
     "sign_up_email": {
-      "body_text": "",
+      "body_text": "Simplemente haz clic en el botón situado más abajo para activar tu cuenta UserTesting",
       "button": "Activa tu cuenta",
       "button_microcopy": "Este enlace caduca en 24 horas",
       "subject": "Acción requerida: Activar cuenta",
@@ -383,9 +383,49 @@
       "title": "¡Gracias por darnos tu opinión!"
     },
     "test_details": {
+      "browser": {
+        "chrome": ""
+      },
       "confidentiality_terms": "Condiciones de confidencialidad",
-      "device_type": "",
-      "recording_permissions": "",
+      "device_type": {
+        "any_device": "Cualquier dispositivo",
+        "computer": "Ordenador",
+        "desktop_any_tablet_Android_phone_Android": "Ordenador | Dispositivo Android",
+        "desktop_any_tablet_Android_phone_any": "Ordenador | Dispositivo Android | iPhone",
+        "desktop_any_tablet_Android_phone_iOS": "Ordenador | tableta Android | iPhone",
+        "desktop_any_tablet_Android_phone_none": "Ordenador | tableta Android",
+        "desktop_any_tablet_any_phone_Android": "Ordenador | Dispositivo Android | iPad",
+        "desktop_any_tablet_any_phone_iOS": "Ordenador | Dispositivo iOS | tableta Android",
+        "desktop_any_tablet_any_phone_none": "Ordenador | Tablet",
+        "desktop_any_tablet_iOS_phone_Android": "Ordenador | iPad | teléfono Android",
+        "desktop_any_tablet_iOS_phone_any": "Ordenador | Dispositivo iOS | teléfono Android",
+        "desktop_any_tablet_iOS_phone_iOS": "Ordenador | Dispositivo iOS",
+        "desktop_any_tablet_iOS_phone_none": "Ordenador | iPad",
+        "desktop_any_tablet_none_phone_Android": "Ordenador | teléfono Android",
+        "desktop_any_tablet_none_phone_any": "Ordenador | Móvil",
+        "desktop_any_tablet_none_phone_iOS": "Ordenador | iPhone",
+        "desktop_none_tablet_Android_phone_Android": "Dispositivo Android",
+        "desktop_none_tablet_Android_phone_any": "Dispositivo Android | iPhone",
+        "desktop_none_tablet_Android_phone_iOS": "tableta Android | iPhone",
+        "desktop_none_tablet_Android_phone_none": "tableta Android",
+        "desktop_none_tablet_any_phone_Android": "Dispositivo Android | iPad",
+        "desktop_none_tablet_any_phone_any": "Tableta | Móvil",
+        "desktop_none_tablet_any_phone_iOS": "Dispositivo iOS | tableta Android",
+        "desktop_none_tablet_any_phone_none": "Tablet",
+        "desktop_none_tablet_iOS_phone_Android": "iPad | teléfono Android",
+        "desktop_none_tablet_iOS_phone_any": "Dispositivo iOS | teléfono Android",
+        "desktop_none_tablet_iOS_phone_iOS": "Dispositivo iOS",
+        "desktop_none_tablet_iOS_phone_none": "iPad",
+        "desktop_none_tablet_none_phone_Android": "teléfono Android",
+        "desktop_none_tablet_none_phone_iOS": "iPhone",
+        "mobile": "Móvil"
+      },
+      "recording_permissions": {
+        "face": "Cara",
+        "not_recorded": "No registrado",
+        "screen": "Pantalla",
+        "voice": "Voz"
+      },
       "reward_amount": "",
       "session_requirements": {
         "enough_battery": "Su dispositivo móvil tiene batería suficiente o está conectado a un cargador.",
@@ -395,7 +435,10 @@
         "quiet_environment": "Asegúrese de estar en un ambiente tranquilo, bien iluminado y con buena conexión a internet. Le recomendamos el uso de auriculares.",
         "title": ""
       },
-      "test_type": "",
+      "test_type": {
+        "survey": "Encuesta",
+        "task_based_test": "Basado en tareas"
+      },
       "title": "Detalles del test:"
     },
     "time_slot_canceled_email": {
@@ -417,7 +460,7 @@
         "title": "Añadir a tu calendario"
       },
       "note_cancel": "Nota: Si ya no puede estar a esta hora, {{cancele}} o {{reprograme}} su sesión lo antes posible.",
-      "session_link": "",
+      "session_link": "Si lo prefiere, puede copiar y pegar el enlace de la sesión: \n{{https://sourcing.userzoom.com/participant-flow/schedule/time-slot/e4824d35-7d03-49df-9fad-b8905774b033/enter-session}}",
       "subject": "Su Conversación en directo está confirmada",
       "title": "Sesión confirmada"
     },

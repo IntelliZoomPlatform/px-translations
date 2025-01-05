@@ -383,9 +383,49 @@
       "title": "Danke, dass Du uns Deine Meinung mitteilst"
     },
     "test_details": {
+      "browser": {
+        "chrome": ""
+      },
       "confidentiality_terms": "Vertraulichkeitsbedingungen",
-      "device_type": "",
-      "recording_permissions": "",
+      "device_type": {
+        "any_device": "Beliebiges Gerät",
+        "computer": "Computer",
+        "desktop_any_tablet_Android_phone_Android": "Computer | Android-Gerät ",
+        "desktop_any_tablet_Android_phone_any": "Computer | Android-Gerät | iPhone",
+        "desktop_any_tablet_Android_phone_iOS": "Computer | Android Tablet | iPhone",
+        "desktop_any_tablet_Android_phone_none": "Computer | Android Tablet",
+        "desktop_any_tablet_any_phone_Android": "Computer | Android-Gerät | iPad",
+        "desktop_any_tablet_any_phone_iOS": "Computer | iOS-Gerät | Android Tablet",
+        "desktop_any_tablet_any_phone_none": "Computer | Tablet",
+        "desktop_any_tablet_iOS_phone_Android": "Computer | iPad | Android Smartphone",
+        "desktop_any_tablet_iOS_phone_any": "Computer | iOS-Gerät | Android Smartphone",
+        "desktop_any_tablet_iOS_phone_iOS": "Computer | iOS-Gerät",
+        "desktop_any_tablet_iOS_phone_none": "Computer | iPad",
+        "desktop_any_tablet_none_phone_Android": "Computer | Android Smartphone",
+        "desktop_any_tablet_none_phone_any": "Computer | Mobilgerät",
+        "desktop_any_tablet_none_phone_iOS": "Computer | iPhone",
+        "desktop_none_tablet_Android_phone_Android": "Android-Gerät",
+        "desktop_none_tablet_Android_phone_any": "Android-Gerät | iPhone",
+        "desktop_none_tablet_Android_phone_iOS": "Android Tablet | iPhone",
+        "desktop_none_tablet_Android_phone_none": "Android Tablet",
+        "desktop_none_tablet_any_phone_Android": "Android-Gerät | iPad",
+        "desktop_none_tablet_any_phone_any": "Tablet | Mobile",
+        "desktop_none_tablet_any_phone_iOS": "iOS-Gerät | Android Tablet",
+        "desktop_none_tablet_any_phone_none": "Tablet",
+        "desktop_none_tablet_iOS_phone_Android": "iPad | Android Smartphone",
+        "desktop_none_tablet_iOS_phone_any": "iOS-Gerät | Android Smartphone",
+        "desktop_none_tablet_iOS_phone_iOS": "iOS-Gerät",
+        "desktop_none_tablet_iOS_phone_none": "iPad",
+        "desktop_none_tablet_none_phone_Android": "Android Smartphone",
+        "desktop_none_tablet_none_phone_iOS": "iPhone",
+        "mobile": "Mobilgerät"
+      },
+      "recording_permissions": {
+        "face": "Gesicht",
+        "not_recorded": "Nicht aufgezeichnet",
+        "screen": "Bildschirm",
+        "voice": "Stimme"
+      },
       "reward_amount": "",
       "session_requirements": {
         "enough_battery": "Ihr mobiles Gerät verfügt über einen ausreichenden Ladestand oder ist an ein Ladegerät angeschlossen.",
@@ -395,7 +435,10 @@
         "quiet_environment": "Achten Sie darauf, dass Sie sich in einer gut beleuchteten, ruhigen Umgebung mit einer stabilen Internetverbindung befinden. Wir empfehlen die Verwendung eines Headsets.",
         "title": ""
       },
-      "test_type": "",
+      "test_type": {
+        "survey": "Umfrage",
+        "task_based_test": "Aufgabenbasiert"
+      },
       "title": "Testdetails:"
     },
     "time_slot_canceled_email": {
