@@ -1,87 +1,137 @@
 {
   "izPanel": {
     "emails": {
-      "footer": {
-        "support": "",
-        "copyright": "",
-        "unsubscribe": "",
-        "termsOfService": "",
-        "privacyPolicy": "",
-        "address": "",
-        "thankYou": "",
-        "help": "",
-        "unsubscribeSession": "",
-        "regards": ""
-      },
-      "doubleOptIn": {
-        "subject": "",
-        "title": "",
-        "bodyCopy": "",
-        "cta": "",
-        "closing": ""
-      },
-      "reset": {
-        "subject": "",
-        "title": "",
-        "bodyCopy": "",
-        "cta": ""
-      },
-      "studyInvitation": {
-        "subject": "",
-        "title": "",
-        "bodyCopy": "",
-        "cta": "",
-        "studyID": "",
-        "closing": ""
-      },
-      "studyComplete": {
-        "subject": "",
-        "title": "",
-        "bodyCopy": ""
-      },
-      "paymentSent": {
-        "subject": "",
-        "title": "",
-        "bodyCopy": ""
-      },
-      "paymentConfirmation": {
-        "subject": "",
-        "title": "",
-        "bodyCopy": ""
-      },
       "certificationApproved": {
-        "subject": "",
-        "title": "",
         "bodyCopyOne": "",
-        "bodyCopyTwo": ""
+        "bodyCopyTwo": "",
+        "subject": "",
+        "title": ""
       },
       "certificationRejected": {
-        "subject": "",
-        "title": "",
         "bodyCopyOne": "",
-        "bodyCopyTwo": ""
+        "bodyCopyTwo": "",
+        "subject": "",
+        "title": ""
+      },
+      "confirmationReschedule": {
+        "generic": {
+          "hi": "",
+          "newDetails": "",
+          "participationHasBeenrescheduled": ""
+        },
+        "subject": ""
+      },
+      "doubleOptIn": {
+        "bodyCopy": "",
+        "closing": "",
+        "cta": "",
+        "subject": "",
+        "title": ""
+      },
+      "excludedParticipation": {
+        "bodyCopy": "",
+        "subject": "",
+        "title": ""
+      },
+      "finishConfirmation": {
+        "desktop": {
+          "alternativeLink": "",
+          "confirm": "",
+          "dateAndTime": "",
+          "hi": "",
+          "oneMoreStep": "",
+          "recommendations": "",
+          "thankYouForInterest": "",
+          "youWillNeed": ""
+        },
+        "generic": {
+          "alternativeLink": "",
+          "confirm": "",
+          "dateAndTime": "",
+          "hi": "",
+          "oneMoreStep": "",
+          "recommendations": "",
+          "selectedDay": "",
+          "timezone": ""
+        },
+        "mobile": {
+          "confirm": "",
+          "dateAndTime": "",
+          "hi": "",
+          "oneMoreStep": "",
+          "recommendations": "",
+          "thankYouForInterest": "",
+          "youWillNeed": ""
+        },
+        "subject": ""
+      },
+      "footer": {
+        "address": "",
+        "copyright": "",
+        "help": "",
+        "privacyPolicy": "",
+        "regards": "",
+        "support": "",
+        "termsOfService": "",
+        "thankYou": "",
+        "unsubscribe": "",
+        "unsubscribeSession": ""
       },
       "generic": {
         "genericClosing": "",
+        "gotQuestions": "",
         "inlineContact": "",
-        "inlineHelp": "",
-        "gotQuestions": ""
+        "inlineHelp": ""
       },
-      "reEngagement": {
-        "subject": "",
-        "title": "",
+      "icsParticipant": {
+        "description": "",
+        "fileName": "",
+        "summary": ""
+      },
+      "panelistProblemReported": {
         "bodyCopy": "",
-        "cta": ""
-      },
-      "termination": {
         "subject": "",
-        "title": "",
-        "bodyCopy": ""
+        "title": ""
       },
-      "practiceStudyComplete": {
+      "participationConfirmed": {
+        "desktop": {
+          "hi": "",
+          "participationConfirmed": "",
+          "scheduled": "",
+          "youWillNeed": ""
+        },
+        "generic": {
+          "alternativeLink": "",
+          "dateAndTime": "",
+          "hi": "",
+          "join": "",
+          "note": "",
+          "participationConfirmed": "",
+          "recommendations": {
+            "environment": "",
+            "ics": "",
+            "thatsIt": "",
+            "youWillNeed": ""
+          },
+          "scheduled": ""
+        },
+        "mobile": {
+          "hi": "",
+          "participationConfirmed": "",
+          "scheduled": "",
+          "youWillNeed": ""
+        },
+        "subject": ""
+      },
+      "paymentConfirmation": {
+        "bodyCopy": "",
         "subject": "",
-        "title": "",
-        "bodyCopy": ""
+        "title": ""
+      },
+      "paymentSent": {
+        "bodyCopy": "",
+        "subject": "",
+        "title": ""
       },
       "PayPal": {
         "paymentSent": {
@@ -89,172 +139,126 @@
         }
       },
       "paypalToken": {
-        "title": "",
+        "cta": "",
         "description": "",
-        "cta": ""
+        "title": ""
       },
-      "excludedParticipation": {
+      "practiceStudyComplete": {
+        "bodyCopy": "",
         "subject": "",
-        "title": "",
-        "bodyCopy": ""
+        "title": ""
       },
-      "finishConfirmation": {
+      "reEngagement": {
+        "bodyCopy": "",
+        "cta": "",
         "subject": "",
-        "generic": {
-          "hi": "",
-          "oneMoreStep": "",
-          "selectedDay": "",
-          "dateAndTime": "",
-          "recommendations": "",
-          "confirm": "",
-          "alternativeLink": "",
-          "timezone": ""
-        },
-        "desktop": {
-          "hi": "",
-          "oneMoreStep": "",
-          "thankYouForInterest": "",
-          "dateAndTime": "",
-          "youWillNeed": "",
-          "recommendations": "",
-          "confirm": "",
-          "alternativeLink": ""
-        },
-        "mobile": {
-          "hi": "",
-          "oneMoreStep": "",
-          "thankYouForInterest": "",
-          "dateAndTime": "",
-          "youWillNeed": "",
-          "recommendations": "",
-          "confirm": ""
-        }
-      },
-      "participationConfirmed": {
-        "subject": "",
-        "generic": {
-          "hi": "",
-          "participationConfirmed": "",
-          "scheduled": "",
-          "dateAndTime": "",
-          "recommendations": {
-            "youWillNeed": "",
-            "environment": "",
-            "ics": "",
-            "thatsIt": ""
-          },
-          "join": "",
-          "alternativeLink": "",
-          "note": ""
-        },
-        "desktop": {
-          "hi": "",
-          "participationConfirmed": "",
-          "scheduled": "",
-          "youWillNeed": ""
-        },
-        "mobile": {
-          "hi": "",
-          "participationConfirmed": "",
-          "scheduled": "",
-          "youWillNeed": ""
-        }
-      },
-      "sessionCancelled": {
-        "subject": "",
-        "generic": {
-          "sessionHasBeenCancelled": "",
-          "sorry": "",
-          "seeYouAgain": "",
-          "hi": "",
-          "hope": ""
-        }
-      },
-      "sessionCancelledByModerator": {
-        "subject": "",
-        "generic": {
-          "hi": "",
-          "sessionHasBeenCancelled": "",
-          "requestedCancellation": "",
-          "sorry": "",
-          "hope": ""
-        },
-        "moderator": {
-          "scheduledFor": "",
-          "sessionHasBeenCancelled": ""
-        },
-        "participant": {
-          "scheduledFor": "",
-          "sessionHasBeenCancelled": ""
-        }
-      },
-      "sessionCancelledByParticipant": {
-        "subject": "",
-        "generic": {
-          "hi": "",
-          "sessionHasBeenCancelled": "",
-          "asRequested": "",
-          "hope": "",
-          "sorry": ""
-        },
-        "moderator": {
-          "scheduledFor": ""
-        },
-        "participant": {
-          "sessionHasBeenCancelled": "",
-          "scheduledFor": ""
-        }
+        "title": ""
       },
       "reminders": {
+        "desktop": {
+          "youWillNeed": ""
+        },
         "generic": {
-          "hi": "",
           "almostTime": "",
-          "reminder": "",
+          "alternativeLink": "",
+          "hi": "",
+          "note": "",
           "recommendations": {
-            "youWillNeed": "",
             "environment": "",
             "ics": "",
-            "thatsIt": ""
+            "thatsIt": "",
+            "youWillNeed": ""
           },
-          "join": "",
-          "alternativeLink": "",
-          "note": ""
+          "reminder": ""
+        },
+        "mobile": {
+          "youWillNeed": ""
         },
         "subject": {
           "24hbefore": "",
           "30mbefore": ""
-        },
-        "desktop": {
-          "youWillNeed": ""
-        },
-        "mobile": {
-          "youWillNeed": ""
         }
       },
       "reschedule": {
-        "subject": "",
         "generic": {
+          "chooseNewTime": "",
+          "dateAndTime": "",
+          "explanation": "",
           "hi": "",
           "pleaseChoose": "",
-          "explanation": "",
-          "dateAndTime": "",
-          "chooseNewTime": "",
           "selectNoneOfDates": "",
           "sorry": ""
-        }
+        },
+        "subject": ""
       },
-      "confirmationReschedule": {
+      "reset": {
+        "bodyCopy": "",
+        "cta": "",
         "subject": "",
+        "title": ""
+      },
+      "sessionCancelled": {
         "generic": {
           "hi": "",
-          "participationHasBeenrescheduled": "",
-          "newDetails": ""
-        }
+          "hope": "",
+          "seeYouAgain": "",
+          "sessionHasBeenCancelled": "",
+          "sorry": ""
+        },
+        "subject": ""
       },
-      "icsParticipant": {
-        "summary": "",
-        "description": "",
-        "fileName": ""
+      "sessionCancelledByModerator": {
+        "generic": {
+          "hi": "",
+          "hope": "",
+          "requestedCancellation": "",
+          "sessionHasBeenCancelled": "",
+          "sorry": ""
+        },
+        "moderator": {
+          "scheduledFor": "",
+          "sessionHasBeenCancelled": ""
+        },
+        "participant": {
+          "scheduledFor": "",
+          "sessionHasBeenCancelled": ""
+        },
+        "subject": ""
+      },
+      "sessionCancelledByParticipant": {
+        "generic": {
+          "asRequested": "",
+          "hi": "",
+          "hope": "",
+          "sessionHasBeenCancelled": "",
+          "sorry": ""
+        },
+        "moderator": {
+          "scheduledFor": ""
+        },
+        "participant": {
+          "scheduledFor": "",
+          "sessionHasBeenCancelled": ""
+        },
+        "subject": ""
+      },
+      "studyComplete": {
+        "bodyCopy": "",
+        "subject": "",
+        "title": ""
+      },
+      "studyInvitation": {
+        "bodyCopy": "",
+        "closing": "",
+        "cta": "",
+        "studyID": "",
+        "subject": "",
+        "title": ""
+      },
+      "termination": {
+        "bodyCopy": "",
+        "subject": "",
+        "title": ""
       }
     }
   },
@@ -263,5 +267,212 @@
   },
   "sessionCancelledByParticipant": {
     "subject": ""
+  },
+  "unified": {
+    "confirmation_email": {
+      "button": "",
+      "date": "",
+      "first_body_text": "",
+      "second_body_text": "",
+      "subject": "",
+      "time": "",
+      "timezone": "",
+      "title": ""
+    },
+    "footer": {
+      "account_message": "",
+      "copyright": "",
+      "manage_preferences": "",
+      "privacy_policy": "",
+      "privacy_policy_link": "",
+      "support": "",
+      "support_link": "",
+      "terms_of_service": "",
+      "terms_of_service_link": ""
+    },
+    "forgot_password_email": {
+      "body_text": "",
+      "button": "",
+      "button_microcopy": "",
+      "subject": "",
+      "title": ""
+    },
+    "generic": {
+      "greeting": "",
+      "join_button": "",
+      "reach_out_support": {
+        "support_center_link": "",
+        "support_team_link": ""
+      },
+      "sign_off": ""
+    },
+    "panelist_removal_email": {
+      "first_body_text": "",
+      "second_body_text": "",
+      "subject": "",
+      "third_body_text": "",
+      "title": ""
+    },
+    "participant_not_paid_email": {
+      "advice": "",
+      "best_practices": "",
+      "body_text": "",
+      "quality_list": {
+        "internet_connection": "",
+        "microphone_camera": "",
+        "overall_quality": "",
+        "title": ""
+      },
+      "scenario_list": {
+        "time": "",
+        "title": "",
+        "tol": ""
+      },
+      "subject": "",
+      "title": ""
+    },
+    "participant_study_invitation_email": {
+      "body_text": "",
+      "button": "",
+      "study_id": "",
+      "subject": "",
+      "title": ""
+    },
+    "paypal_integration_revoked_email": {
+      "body_text": "",
+      "button": "",
+      "subject": "",
+      "title": ""
+    },
+    "practice_study_complete_email": {
+      "first_body_text": "",
+      "second_body_text": "",
+      "subject": "",
+      "title": ""
+    },
+    "qualification_attempt_approved_email": {
+      "button": "",
+      "first_body_text": "",
+      "second_body_text": "",
+      "subject": "",
+      "title": ""
+    },
+    "qualification_attempt_rejected_email": {
+      "first_body_text": "",
+      "list": {
+        "distractions": "",
+        "incorrect": "",
+        "technical_issues": "",
+        "title": "",
+        "tol": ""
+      },
+      "second_body_text": "",
+      "subject": "",
+      "title": ""
+    },
+    "sign_up_email": {
+      "body_text": "",
+      "button": "",
+      "button_microcopy": "",
+      "subject": "",
+      "title": ""
+    },
+    "study_complete_email": {
+      "body_text": "",
+      "subject": "",
+      "title": ""
+    },
+    "test_details": {
+      "browser": {
+        "chrome": ""
+      },
+      "confidentiality_terms": "",
+      "device_type": {
+        "any_device": "",
+        "computer": "",
+        "desktop_any_tablet_Android_phone_Android": "",
+        "desktop_any_tablet_Android_phone_any": "",
+        "desktop_any_tablet_Android_phone_iOS": "",
+        "desktop_any_tablet_Android_phone_none": "",
+        "desktop_any_tablet_any_phone_Android": "",
+        "desktop_any_tablet_any_phone_iOS": "",
+        "desktop_any_tablet_any_phone_none": "",
+        "desktop_any_tablet_iOS_phone_Android": "",
+        "desktop_any_tablet_iOS_phone_any": "",
+        "desktop_any_tablet_iOS_phone_iOS": "",
+        "desktop_any_tablet_iOS_phone_none": "",
+        "desktop_any_tablet_none_phone_Android": "",
+        "desktop_any_tablet_none_phone_any": "",
+        "desktop_any_tablet_none_phone_iOS": "",
+        "desktop_none_tablet_Android_phone_Android": "",
+        "desktop_none_tablet_Android_phone_any": "",
+        "desktop_none_tablet_Android_phone_iOS": "",
+        "desktop_none_tablet_Android_phone_none": "",
+        "desktop_none_tablet_any_phone_Android": "",
+        "desktop_none_tablet_any_phone_any": "",
+        "desktop_none_tablet_any_phone_iOS": "",
+        "desktop_none_tablet_any_phone_none": "",
+        "desktop_none_tablet_iOS_phone_Android": "",
+        "desktop_none_tablet_iOS_phone_any": "",
+        "desktop_none_tablet_iOS_phone_iOS": "",
+        "desktop_none_tablet_iOS_phone_none": "",
+        "desktop_none_tablet_none_phone_Android": "",
+        "desktop_none_tablet_none_phone_iOS": "",
+        "mobile": ""
+      },
+      "recording_permissions": {
+        "face": "",
+        "not_recorded": "",
+        "screen": "",
+        "voice": ""
+      },
+      "reward_amount": "",
+      "session_requirements": {
+        "enough_battery": "",
+        "generic": "",
+        "join_before": "",
+        "latest_version": "",
+        "quiet_environment": "",
+        "title": ""
+      },
+      "test_type": {
+        "survey": "",
+        "task_based_test": ""
+      },
+      "title": ""
+    },
+    "time_slot_canceled_email": {
+      "apology": "",
+      "body_text": {
+        "by_moderator": "",
+        "by_participant": "",
+        "by_system": ""
+      },
+      "see_you_again": "",
+      "subject": "",
+      "title": ""
+    },
+    "time_slot_confirmed_email": {
+      "body_text": "",
+      "button": "",
+      "ics": {
+        "body_text": "",
+        "title": ""
+      },
+      "note_cancel": "",
+      "session_link": "",
+      "subject": "",
+      "title": ""
+    },
+    "time_slot_reminder_24h_email": {
+      "body_text": "",
+      "subject": "",
+      "title": ""
+    },
+    "time_slot_reminder_30m_email": {
+      "body_text": "",
+      "subject": "",
+      "title": ""
+    }
   }
 }
