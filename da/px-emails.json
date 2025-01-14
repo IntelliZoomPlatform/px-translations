@@ -304,7 +304,7 @@
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
       },
-      "sign_off": "Tak <br>\nUserTesting-holdet"
+      "sign_off": "Tak <br>UserTesting-holdet"
     },
     "panelist_removal_email": {
       "first_body_text": "Vi har slettet din konto og dine oplysninger fra vores system (denne e-mail er den sidste kommunikation, du kommer til at modtage fra os).",
@@ -332,7 +332,7 @@
       "title": "Deltagelse ikke godkendt"
     },
     "participant_study_invitation_email": {
-      "body_text": "Klar til at dele din feedback? Vær hurtig, disse muligheder er åbne for andre deltagere!",
+      "body_text": "Klar til at dele din feedback og tjene {{studyFee}}? Vær hurtig, disse muligheder er åbne for andre deltagere!",
       "button": "Gå til test",
       "study_id": "Studie-ID til referencebrug: {{StudyUUID}}",
       "subject": "Nyt testmulighed til dig!",
@@ -426,7 +426,7 @@
         "screen": "Skærm",
         "voice": "Stemme"
       },
-      "reward_amount": "",
+      "reward_amount": "Belønning ${{8}}",
       "session_requirements": {
         "enough_battery": "Din mobile enhed har nok batteri eller er tilsluttet en oplader.",
         "generic": "Du skal bruge den seneste version af Chrome, Firefox eller Edge, hvis du deltager fra en computer, eller en mobilenhed med batteri nok til en mobil session.",
@@ -454,7 +454,7 @@
     },
     "time_slot_confirmed_email": {
       "body_text": "Din Live-samtale er planlagt til følgende dag og tidspunkt:",
-      "button": "",
+      "button": "Deltag i session",
       "ics": {
         "body_text": "Klik på iCalendar (ICS)-vedhæftningen i denne e-mail for at tilføje denne begivenhed til din kalender.",
         "title": "Tilføj til din kalender"
