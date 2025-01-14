@@ -280,9 +280,9 @@
       "title": "Bestätigen Sie Ihre Sitzung"
     },
     "footer": {
-      "account_message": "Sie haben diese E-Mail erhalten, weil ein Konto bei UserTesting unter Verwendung \ndieser E-Mail-Adresse erstellt wurde: {{name@beispiel.com}}",
-      "copyright": "©UserTesting {{2024}}, Alle Rechte vorbehalten.",
-      "manage_preferences": "{{E-Mail-Einstellungen verwalten}}",
+      "account_message": "Sie haben diese E-Mail erhalten, weil ein Konto bei UserTesting unter Verwendung \ndieser E-Mail-Adresse erstellt wurde: {{user.email}}",
+      "copyright": "©UserTesting {{currentYear}}, Alle Rechte vorbehalten.",
+      "manage_preferences": "E-Mail-Einstellungen verwalten",
       "privacy_policy": "Datenschutzerklärung",
       "privacy_policy_link": "",
       "support": "Support",

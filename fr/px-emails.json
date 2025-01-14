@@ -280,9 +280,9 @@
       "title": "Confirmez votre session"
     },
     "footer": {
-      "account_message": "Vous avez reçu ce mail, car un compte UserTesting a été créé\navec l'adresse e-mail : {{name@example.com}}",
-      "copyright": "©UserTesting {{2024}}, tous droits réservés.",
-      "manage_preferences": "{{Gérer les préférences de messagerie}}",
+      "account_message": "Vous avez reçu ce mail, car un compte UserTesting a été créé\navec l'adresse e-mail : {{user.email}}",
+      "copyright": "©UserTesting {{currentYear}}, tous droits réservés.",
+      "manage_preferences": "Gérer les préférences de messagerie",
       "privacy_policy": "Politique de confidentialité",
       "privacy_policy_link": "",
       "support": "Assistance",

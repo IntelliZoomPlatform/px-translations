@@ -280,9 +280,9 @@
       "title": "Bevestig uw sessie"
     },
     "footer": {
-      "account_message": "U ontvangt deze e-mail omdat er een account aangemaakt is bij UserTesting\nmet het e-mailadres: {{naam@voorbeeld.com}}",
-      "copyright": "©UserTesting {{2024}}, Alle rechten voorbehouden.",
-      "manage_preferences": "{{E-mailvoorkeuren beheren}}",
+      "account_message": "U ontvangt deze e-mail omdat er een account aangemaakt is bij UserTesting\nmet het e-mailadres: {{user.email}}",
+      "copyright": "©UserTesting {{currentYear}}, Alle rechten voorbehouden.",
+      "manage_preferences": "E-mailvoorkeuren beheren",
       "privacy_policy": "Privacybeleid",
       "privacy_policy_link": "",
       "support": "Ondersteuning",
