@@ -301,7 +301,7 @@
       "greeting": "Hey {{user.firstName}},",
       "join_button": "Join session",
       "reach_out_support": {
-        "text": "Need help? Reach out to our <a href='$t(px-emails:unified.generic.support_team_link)'>support team</a> or visit the <a href='$t(px-emails:unified.generic.support_center_link)'>Support Center</a>",
+        "text": "Need help? Reach out to our <a href='$t(px-emails:unified.generic.reach_out_support.support_team_link)'>support team</a> or visit the <a href='$t(px-emails:unified.generic.reach_out_support.support_center_link)'>Support Center</a>",
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
       },
