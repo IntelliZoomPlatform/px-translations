@@ -298,7 +298,7 @@
       "title": "Restablecer contraseña"
     },
     "generic": {
-      "greeting": "",
+      "greeting": "¡Hola, {{user.firstName}},",
       "join_button": "Entrar en la sesión",
       "reach_out_support": {
         "support_center_link": "https://participant-support.usertesting.com/",
@@ -316,7 +316,7 @@
     "participant_not_paid_email": {
       "advice": "La próxima vez, asegúrese de que su dispositivo está preparado para la prueba y haga todo lo posible para aportar comentarios de la mejor calidad.",
       "best_practices": "Para evitar que esto vuelva a suceder en el futuro, revise estas {{recomendaciones de mejores prácticas}} en nuestro Centro de asistencia.",
-      "body_text": "Sentimos informarle de que su participación en la prueba {{IDdelproyecto}} no ha sido aprobada y no recibirá la recompensa de la prueba.",
+      "body_text": "Sentimos informarle de que su participación en la prueba {{projectId}} no ha sido aprobada y no recibirá la recompensa de la prueba.",
       "quality_list": {
         "internet_connection": "Mala conexión a internet.",
         "microphone_camera": "Mala calidad del micrófono o de la cámara.",
@@ -378,13 +378,13 @@
       "title": "Activa tu cuenta"
     },
     "study_complete_email": {
-      "body_text": "Procesaremos tu pago por el test {{projectID}} a través de PayPal a la misma cuenta de correo electrónico registrada en UserTesting. Este proceso suele tardar 14 días. La recompensa por este test es {{studyFee}}.",
+      "body_text": "Procesaremos tu pago por el test {{projectId}} a través de PayPal a la misma cuenta de correo electrónico registrada en UserTesting. Este proceso suele tardar 14 días. La recompensa por este test es {{studyFee}}.",
       "subject": "Test completado",
       "title": "¡Gracias por darnos tu opinión!"
     },
     "test_details": {
       "browser": {
-        "chrome": ""
+        "chrome": "Chrome"
       },
       "confidentiality_terms": "Condiciones de confidencialidad",
       "device_type": {

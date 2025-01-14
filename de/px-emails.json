@@ -298,7 +298,7 @@
       "title": "Passwort zurücksetzen"
     },
     "generic": {
-      "greeting": "",
+      "greeting": "Hallo {{user.firstName}},",
       "join_button": "Session beitreten",
       "reach_out_support": {
         "support_center_link": "https://participant-support.usertesting.com/",
@@ -316,7 +316,7 @@
     "participant_not_paid_email": {
       "advice": "Bitte stellen Sie beim nächsten Mal sicher, dass Ihr Gerät für den Test bereit ist, und versuchen Sie, ein qualitativ hochwertiges Feedback zu geben.",
       "best_practices": "Bitte informieren Sie sich in unserem Hilfe-Center über unsere {{Best-Practice-Empfehlungen}}, um solche Mängel in Zukunft zu vermeiden.",
-      "body_text": "Leider müssen wir Ihnen mitteilen, dass Ihre Teilnahme am Test {{projectID}} nicht zugelassen wurde und Sie keine Testvergütung erhalten.",
+      "body_text": "Leider müssen wir Ihnen mitteilen, dass Ihre Teilnahme am Test {{projectId}} nicht zugelassen wurde und Sie keine Testvergütung erhalten.",
       "quality_list": {
         "internet_connection": "Ihre Internetverbindung könnte zu schlecht gewesen sein.",
         "microphone_camera": "Die Qualität Ihres Mikrofons oder Ihrer Kamera war nicht ausreichend.",
@@ -378,13 +378,13 @@
       "title": "Aktivieren Sie Ihr Konto"
     },
     "study_complete_email": {
-      "body_text": "Wir werden Ihre Zahlung für den Test {{projectID}} über PayPal an das gleiche E-Mail-Konto abwickeln, das bei UserTesting registriert ist. Dieser Vorgang dauert normalerweise 14 Tage. Die Belohnung für diesen Test ist {{studyFee}}.",
+      "body_text": "Wir werden Ihre Zahlung für den Test {{projectId}} über PayPal an das gleiche E-Mail-Konto abwickeln, das bei UserTesting registriert ist. Dieser Vorgang dauert normalerweise 14 Tage. Die Belohnung für diesen Test ist {{studyFee}}.",
       "subject": "Test abgeschlossen",
       "title": "Danke, dass Du uns Deine Meinung mitteilst"
     },
     "test_details": {
       "browser": {
-        "chrome": ""
+        "chrome": "Chrome"
       },
       "confidentiality_terms": "Vertraulichkeitsbedingungen",
       "device_type": {

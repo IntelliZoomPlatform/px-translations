@@ -298,7 +298,7 @@
       "title": "Reset password"
     },
     "generic": {
-      "greeting": "Hey {{FirstName}},",
+      "greeting": "Hey {{user.firstName}},",
       "join_button": "Join session",
       "reach_out_support": {
         "text": "Need help? Reach out to our <a href='$t(px-emails:izPanel.emails.unified.generic.support_team_link)'>support team</a> or visit the <a href='$t(px-emails:izPanel.emails.unified.generic.support_center_link)'>Support Center</a>",
@@ -317,7 +317,7 @@
     "participant_not_paid_email": {
       "advice": "Next time, make sure your device is ready for the test and do your best to provide top-quality feedback.",
       "best_practices": "To avoid this happening again in the future, please review these {{best practice recommendations}} in our Support Center.",
-      "body_text": "We’re sorry to inform you that your participation in the test {{projectID}} hasn’t been approved and you won’t receive the test’s reward.",
+      "body_text": "We’re sorry to inform you that your participation in the test {{projectId}} hasn’t been approved and you won’t receive the test’s reward.",
       "quality_list": {
         "internet_connection": "Poor internet connection.",
         "microphone_camera": "Poor microphone or camera quality.",
@@ -379,7 +379,7 @@
       "title": "Activate your account"
     },
     "study_complete_email": {
-      "body_text": "We’ll process your payment for test {{projectID}} via PayPal to the same email account registered with UserTesting. This process usually takes 14 days. The reward for this test is {{studyFee}}.",
+      "body_text": "We’ll process your payment for test {{projectId}} via PayPal to the same email account registered with UserTesting. This process usually takes 14 days. The reward for this test is {{studyFee}}.",
       "subject": "Test completed",
       "title": "Thanks for sharing your thoughts!"
     },
