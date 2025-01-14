@@ -304,7 +304,7 @@
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
       },
-      "sign_off": "Gracias, <br>\nEl equipo de UserTesting"
+      "sign_off": "Gracias, <br>El equipo de UserTesting"
     },
     "panelist_removal_email": {
       "first_body_text": "Hemos eliminado su cuenta y la información de nuestro sistema (este correo electrónico es la última comunicación que recibirá de nosotros).",
@@ -332,7 +332,7 @@
       "title": "Participación no aprobada"
     },
     "participant_study_invitation_email": {
-      "body_text": "¿Listo para compartir tu opinión? Date prisa, ¡estas oportunidades están abiertas a otros participantes!",
+      "body_text": "¿Listo para compartir tu opinión y ganar {{studyFee}}? Date prisa, ¡estas oportunidades están abiertas a otros participantes!",
       "button": "Ir al examen",
       "study_id": "ID del estudio para tu referencia: {{StudyUUID}}",
       "subject": "¡Nueva oportunidad de prueba para ti!",
@@ -426,7 +426,7 @@
         "screen": "Pantalla",
         "voice": "Voz"
       },
-      "reward_amount": "",
+      "reward_amount": "Recompensa ${{8}}",
       "session_requirements": {
         "enough_battery": "Su dispositivo móvil tiene batería suficiente o está conectado a un cargador.",
         "generic": "Necesitarás la última versión de Chrome, Firefox o Edge si participas desde un ordenador, o un dispositivo móvil con batería suficiente para una sesión móvil.",
@@ -454,7 +454,7 @@
     },
     "time_slot_confirmed_email": {
       "body_text": "Tu Conversación en Directo está programada para el día y hora siguientes:",
-      "button": "",
+      "button": "Unirse a la sesión",
       "ics": {
         "body_text": "Haz clic en el archivo adjunto iCalendar (ICS) de este correo electrónico para añadir este evento a tu calendario.",
         "title": "Añadir a tu calendario"

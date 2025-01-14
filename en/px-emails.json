@@ -308,7 +308,7 @@
         "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new",
         "support_team": "support team"
       },
-      "sign_off": "Thanks,\nThe UserTesting team"
+      "sign_off": "Thanks, <br>The UserTesting team"
     },
     "panelist_removal_email": {
       "first_body_text": "We have deleted your account and information from within our system (this email being the last communication you’ll receive from us).",

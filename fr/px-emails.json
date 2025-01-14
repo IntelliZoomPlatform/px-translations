@@ -304,7 +304,7 @@
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
       },
-      "sign_off": "Merci, <br>\nL'équipe UserTesting"
+      "sign_off": "Merci, <br>L'équipe UserTesting"
     },
     "panelist_removal_email": {
       "first_body_text": "Nous avons supprimé votre compte et vos informations au sein de notre système (cet e-mail étant la dernière communication que vous recevrez de notre part).",
@@ -332,7 +332,7 @@
       "title": "Participation non approuvée"
     },
     "participant_study_invitation_email": {
-      "body_text": "Prêt à partager votre avis ? Dépêchez-vous, d'autres participants pourraient accéder à ces opportunités avant vous !",
+      "body_text": "Prêt à partager votre avis et gagner {{studyFee}} ? Dépêchez-vous, d'autres participants pourraient accéder à ces opportunités avant vous !",
       "button": "Accéder au test",
       "study_id": "Identifiant d'étude pour référence : {{StudyUUID}}",
       "subject": "Nouvelle opportunité de test disponible !",
@@ -426,7 +426,7 @@
         "screen": "Écran",
         "voice": "Voix"
       },
-      "reward_amount": "",
+      "reward_amount": "Récompense ${{8}}",
       "session_requirements": {
         "enough_battery": "Votre appareil mobile dispose d'une batterie suffisante ou est connecté à un chargeur.",
         "generic": "Vous devrez utiliser la dernière version de Chrome, Firefox ou Edge pour participer au test depuis un ordinateur ou un appareil mobile ayant suffisamment d'autonomie de batterie pour assurer une session mobile.",
@@ -454,7 +454,7 @@
     },
     "time_slot_confirmed_email": {
       "body_text": "Votre Discussion en direct est prévue le jour et l'heure suivants :",
-      "button": "",
+      "button": "Rejoindre la session",
       "ics": {
         "body_text": "Cliquez sur la pièce jointe iCalendar (ICS) à ce mail pour ajouter cet événement à votre calendrier.",
         "title": "Ajouter à votre calendrier"

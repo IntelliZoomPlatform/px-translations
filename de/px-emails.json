@@ -304,7 +304,7 @@
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
       },
-      "sign_off": "Danke <br>\nDas Team von UserTesting"
+      "sign_off": "Danke <br>Das Team von UserTesting"
     },
     "panelist_removal_email": {
       "first_body_text": "wir haben Ihr Konto mitsamt Ihren Daten aus unserem System gelöscht (diese E-Mail ist die letzte, die Sie von uns erhalten).",
@@ -332,7 +332,7 @@
       "title": "Teilnahme nicht zugelassen"
     },
     "participant_study_invitation_email": {
-      "body_text": "Sind Sie bereit, Ihr Feedback mitzuteilen? Seien Sie schnell, diese Möglichkeiten stehen auch anderen Teilnehmern offen!",
+      "body_text": "Sind Sie bereit, Ihr Feedback mitzuteilen und {{studyFee}} zu verdienen? Seien Sie schnell, diese Möglichkeiten stehen auch anderen Teilnehmern offen!",
       "button": "Zum Test",
       "study_id": "Studien-ID als Referenz: {{StudyUUID}}",
       "subject": "Neue Testmöglichkeit für Sie!",
@@ -426,7 +426,7 @@
         "screen": "Bildschirm",
         "voice": "Stimme"
       },
-      "reward_amount": "",
+      "reward_amount": "Belohnung ${{8}}",
       "session_requirements": {
         "enough_battery": "Ihr mobiles Gerät verfügt über einen ausreichenden Ladestand oder ist an ein Ladegerät angeschlossen.",
         "generic": "Sie benötigen die aktuelle Version von Chrome, Firefox oder Edge, wenn Sie von einem Computer aus teilnehmen, oder ein Mobilgerät mit ausreichendem Akkustand für eine mobile Sitzung.",
@@ -454,7 +454,7 @@
     },
     "time_slot_confirmed_email": {
       "body_text": "Ihr Live-Gespräch ist für den folgenden Tag und die folgende Uhrzeit geplant:",
-      "button": "",
+      "button": "Sitzung beitreten",
       "ics": {
         "body_text": "Klicken Sie auf den iCalendar-Anhang (ICS) in dieser E-Mail, um diese Veranstaltung zu Ihrem Kalender hinzuzufügen.",
         "title": "Zu Ihrem Kalender hinzufügen"

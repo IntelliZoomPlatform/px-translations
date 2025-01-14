@@ -304,7 +304,7 @@
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
       },
-      "sign_off": "Bedankt, <br>\nHet UserTesting-team"
+      "sign_off": "Bedankt, <br>Het UserTesting-team"
     },
     "panelist_removal_email": {
       "first_body_text": "We hebben uw account en gegevens uit ons systeem verwijderd (deze e-mail is het laatste bericht dat u van ons ontvangt).",
@@ -332,7 +332,7 @@
       "title": "Deelname niet goedgekeurd"
     },
     "participant_study_invitation_email": {
-      "body_text": "Klaar om uw feedback te delen? Wees er snel bij, deze kansen staan ​​ook open voor andere deelnemers!",
+      "body_text": "Klaar om uw feedback te delen en {{studyFee}} te verdienen? Wees er snel bij, deze kansen staan ook open voor andere deelnemers!",
       "button": "Naar de test",
       "study_id": "Studie-ID voor uw referentie: {{StudieUUID}}",
       "subject": "Nieuwe test beschikbaar voor jou!",
@@ -426,7 +426,7 @@
         "screen": "Scherm",
         "voice": "Stem"
       },
-      "reward_amount": "",
+      "reward_amount": "Beloning ${{8}}",
       "session_requirements": {
         "enough_battery": "Uw mobiele heeft genoeg accu of is verbonden met de oplader.",
         "generic": "U hebt de nieuwste versie van Chrome, Firefox of Edge nodig als u deelneemt vanaf een computer, of een mobiel apparaat met voldoende batterijreserve voor een mobiele sessie.",
@@ -454,7 +454,7 @@
     },
     "time_slot_confirmed_email": {
       "body_text": "Uw livegesprek staat gepland voor de volgende dag en tijd:",
-      "button": "",
+      "button": "Deelnemen aan sessie",
       "ics": {
         "body_text": "Klik op de iCalendar (ICS)-bijlage in deze e-mail om deze gebeurtenis aan uw agenda toe te voegen.",
         "title": "Aan uw agenda toevoegen"
