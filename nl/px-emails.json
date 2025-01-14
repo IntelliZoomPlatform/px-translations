@@ -298,7 +298,7 @@
       "title": "Reset wachtwoord"
     },
     "generic": {
-      "greeting": "",
+      "greeting": "Hoi {{user.firstName}},",
       "join_button": "Deelnemen aan sessie",
       "reach_out_support": {
         "support_center_link": "https://participant-support.usertesting.com/",
@@ -316,7 +316,7 @@
     "participant_not_paid_email": {
       "advice": "Zorg er de volgende keer voor dat uw apparaat klaar is voor de test en doe uw best om feedback van topkwaliteit te leveren.",
       "best_practices": "Om ervoor te zorgen dat dit in de toekomst niet weer gebeurt: raadpleeg deze {{best practice recommendations}} in ons Support Center.",
-      "body_text": "We moeten u helaas meedelen dat uw deelname aan test {{projectID}} niet is goedgekeurd en u niet voor de beloning in aanmerking komt.",
+      "body_text": "We moeten u helaas meedelen dat uw deelname aan test {{projectId}} niet is goedgekeurd en u niet voor de beloning in aanmerking komt.",
       "quality_list": {
         "internet_connection": "Slechte internetverbinding",
         "microphone_camera": "Slechte kwaliteit van microfoon of camera.",
@@ -378,13 +378,13 @@
       "title": "Activeer uw account"
     },
     "study_complete_email": {
-      "body_text": "We verwerken uw betaling voor de  {{project-ID}}-test via PayPal naar hetzelfde e-mailadres dat  geregistreerd is bij UserTesting. Dit proces duurt normaal gesproken 14 dagen. De beloning voor deze test is {{studiekosten}}.",
+      "body_text": "We verwerken uw betaling voor de  {{projectId}}-test via PayPal naar hetzelfde e-mailadres dat  geregistreerd is bij UserTesting. Dit proces duurt normaal gesproken 14 dagen. De beloning voor deze test is {{studiekosten}}.",
       "subject": "Test voltooid",
       "title": "Bedankt voor het delen van je gedachten!"
     },
     "test_details": {
       "browser": {
-        "chrome": ""
+        "chrome": "Chrome"
       },
       "confidentiality_terms": "Vertrouwelijkheidsvoorwaarden",
       "device_type": {

@@ -298,7 +298,7 @@
       "title": "Nulstil adgangskode"
     },
     "generic": {
-      "greeting": "",
+      "greeting": "Hej {{user.firstName}},",
       "join_button": "Deltag i session",
       "reach_out_support": {
         "support_center_link": "https://participant-support.usertesting.com/",
@@ -308,15 +308,15 @@
     },
     "panelist_removal_email": {
       "first_body_text": "Vi har slettet din konto og dine oplysninger fra vores system (denne e-mail er den sidste kommunikation, du kommer til at modtage fra os).",
-      "second_body_text": "Hvis du ikke anmodede om dette, kan det skyldes en lang periode uden aktivitet, eller misbrug af vores platform, der resulterede i en overtrædelse af vores {{Terms of Service}}.",
+      "second_body_text": "Hvis du ikke anmodede om dette, kan det skyldes en lang periode uden aktivitet, eller misbrug af vores platform, der resulterede i en overtrædelse af vores {{tjenestevilkår}}.",
       "subject": "Din UserTesting-konto er blevet slettet",
-      "third_body_text": "Hvis du mener, at dette er en fejl, eller hvis du vil have flere oplysninger, bedes du {{contact us}} eller besøge vores {{Support Center}}.",
+      "third_body_text": "Hvis du mener, at dette er en fejl, eller hvis du vil have flere oplysninger, bedes du {{kontakte os}} eller besøge vores {{supportcenter}}.",
       "title": "UserTesting-konto slettet"
     },
     "participant_not_paid_email": {
       "advice": "Næste gang skal du sørge for, at din enhed er klar til testen, og at du gør dit bedste for at give feedback i topkvalitet.",
-      "best_practices": "For at undgå, at dette sker igen i fremtiden, bedes du gennemse disse {{best practice recommendations}} i vores supportcenter.",
-      "body_text": "Vi beklager at måtte informere dig om, at din deltagelse i testen {{projectID}} ikke er blevet godkendt, og at du ikke modtager belønning for testen.",
+      "best_practices": "For at undgå, at dette sker igen i fremtiden, bedes du gennemse disse {{best practice-anbefalinger}} i vores supportcenter.",
+      "body_text": "Vi beklager at måtte informere dig om, at din deltagelse i testen {{projectId}} ikke er blevet godkendt, og at du ikke modtager belønning for testen.",
       "quality_list": {
         "internet_connection": "Ringe internetforbindelse.",
         "microphone_camera": "Ringe mikrofon- eller kamerakvalitet.",
@@ -366,7 +366,7 @@
         "title": "Almindelige årsager til manglende godkendelse omfatter:",
         "tol": "At ikke sige hvad du tænker"
       },
-      "second_body_text": "Hvis du mener, at dette er en fejl eller gerne vil tage prøvesessionen igen, bedes du kontakte vores {{support team}}.  ",
+      "second_body_text": "Hvis du mener, at dette er en fejl eller gerne vil tage prøvesessionen igen, bedes du kontakte vores {{supportteam}}.  ",
       "subject": "Prøvesession ikke godkendt",
       "title": "Prøvesession ikke godkendt"
     },
@@ -378,13 +378,13 @@
       "title": "Aktiver din konto"
     },
     "study_complete_email": {
-      "body_text": "Vi behandler din betaling for testen {{projectID}} via PayPal til den samme e-mailkonto, som er registreret ved UserTesting. Denne proces tager normalt 14 dage. Belønningen for denne test er {{studyFee}}.",
+      "body_text": "Vi behandler din betaling for testen {{projectId}} via PayPal til den samme e-mailkonto, som er registreret ved UserTesting. Denne proces tager normalt 14 dage. Belønningen for denne test er {{studyFee}}.",
       "subject": "Test gennemført",
       "title": "Tak fordi du har delt dine tanker!"
     },
     "test_details": {
       "browser": {
-        "chrome": ""
+        "chrome": "Chrome"
       },
       "confidentiality_terms": "Fortrolighedsvilkår",
       "device_type": {
@@ -459,7 +459,7 @@
         "body_text": "Klik på iCalendar (ICS)-vedhæftningen i denne e-mail for at tilføje denne begivenhed til din kalender.",
         "title": "Tilføj til din kalender"
       },
-      "note_cancel": "Bemærk: Hvis du ikke længere kan nå det til dette tidspunkt, bedes du {{cancel}} eller {{reschedule}} din session hurtigst muligt.",
+      "note_cancel": "Bemærk: Hvis du ikke længere kan nå det til dette tidspunkt, bedes du {{annullere}} eller {{omplanlægge}} din session hurtigst muligt.",
       "session_link": "Du kan kopiere og indsætte sessionslinket, hvis du foretrækker det:\n{{https://sourcing.userzoom.com/participant-flow/schedule/time-slot/e4824d35-7d03-49df-9fad-b8905774b033/enter-session}}",
       "subject": "Din live-samtale er bekræftet",
       "title": "Session bekræftet"

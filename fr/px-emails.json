@@ -298,7 +298,7 @@
       "title": "Réinitialiser votre mot de passe"
     },
     "generic": {
-      "greeting": "",
+      "greeting": "Bonjour {{user.firstName}},",
       "join_button": "Rejoindre la session",
       "reach_out_support": {
         "support_center_link": "https://participant-support.usertesting.com/",
@@ -316,7 +316,7 @@
     "participant_not_paid_email": {
       "advice": "La prochaine fois, assurez-vous que votre appareil est prêt pour le test et faites de votre mieux pour fournir une opinion de qualité optimale.",
       "best_practices": "Pour éviter que cela ne se reproduise à l'avenir, veuillez consulter ces {{best practice recommendations}} dans notre centre d'assistance.",
-      "body_text": "Nous sommes désolés de vous informer que votre participation au test {{projectID}} n'a pas été approuvée et que vous ne recevrez pas la récompense du test.",
+      "body_text": "Nous sommes désolés de vous informer que votre participation au test {{projectId}} n'a pas été approuvée et que vous ne recevrez pas la récompense du test.",
       "quality_list": {
         "internet_connection": "Une mauvaise connexion à l'internet",
         "microphone_camera": "Une mauvaise qualité du microphone ou de la caméra.",
@@ -378,13 +378,13 @@
       "title": "Activez votre compte"
     },
     "study_complete_email": {
-      "body_text": "Votre paiement pour le test {{projectID}} sera traité via PayPal en utilisant le même compte de messagerie enregistré auprès de UserTesting. Ce processus nécessite généralement 14 jours d'attente. La récompense pour ce test est de {{studyFee}}.",
+      "body_text": "Votre paiement pour le test {{projectId}} sera traité via PayPal en utilisant le même compte de messagerie enregistré auprès de UserTesting. Ce processus nécessite généralement 14 jours d'attente. La récompense pour ce test est de {{studyFee}}.",
       "subject": "Test terminé",
       "title": "Merci de nous avoir partagé votre avis !"
     },
     "test_details": {
       "browser": {
-        "chrome": ""
+        "chrome": "Chrome"
       },
       "confidentiality_terms": "Charte de confidentialité",
       "device_type": {
