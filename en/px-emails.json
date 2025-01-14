@@ -301,9 +301,12 @@
       "greeting": "Hey {{user.firstName}},",
       "join_button": "Join session",
       "reach_out_support": {
-        "text": "Need help? Reach out to our <a href='$t(px-emails:unified.generic.reach_out_support.support_team_link)'>support team</a> or visit the <a href='$t(px-emails:unified.generic.reach_out_support.support_center_link)'>Support Center</a>",
+        "first_text": "Need help? Reach out to our",
+        "second_text": "or visit the",
         "support_center_link": "https://participant-support.usertesting.com/",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_center": "Support Center",
+        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new",
+        "support_team": "support team"
       },
       "sign_off": "Thanks,\nThe UserTesting team"
     },
@@ -333,7 +336,7 @@
       "title": "Participation not approved"
     },
     "participant_study_invitation_email": {
-      "body_text": "Ready to share your feedback? Be quick, these opportunities are open to other participants!",
+      "body_text": "Ready to share your feedback and earn {{studyFee}}? Be quick, these opportunities are open to other participants!",
       "button": "Go to test",
       "study_id": "Study ID for your reference: {{StudyUUID}}",
       "subject": "New test opportunity for you!",
@@ -427,12 +430,12 @@
         "screen": "Screen",
         "voice": "Voice"
       },
-      "reward_amount": "Reward amount ${{8}}",
+      "reward_amount": "Reward ${{8}}",
       "session_requirements": {
         "enough_battery": "Your mobile device has enough battery or is connected to a charger.",
         "generic": "You’ll need the latest version of Chrome, Firefox, or Edge if you’re participating from a computer, or a mobile device with enough battery for a mobile session.",
         "join_before": "Please join 10 minutes before the start time to check your video and audio.",
-        "latest_version": "Latest version of {{Browser}}, {{Browser}}, or {{Browser}}",
+        "latest_version": "{{Browser}}",
         "quiet_environment": "Make sure you’re in a well-lit, quiet environment with a strong internet connection. We recommend the use of a headset.",
         "title": "Session requirements:"
       },
