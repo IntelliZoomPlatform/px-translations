@@ -280,9 +280,9 @@
       "title": "Confirm your session"
     },
     "footer": {
-      "account_message": "You received this email because an account was created with UserTesting \nusing the email: {{name@example.com}}",
-      "copyright": "©UserTesting {{2024}}, All Rights Reserved.",
-      "manage_preferences": "{{Manage email preferences}}",
+      "account_message": "You received this email because an account was created with UserTesting \nusing the email: {{user.email}}",
+      "copyright": "©UserTesting {{currentYear}}, All Rights Reserved.",
+      "manage_preferences": "Manage email preferences",
       "privacy_policy": "Privacy Policy",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Support",
@@ -301,7 +301,7 @@
       "greeting": "Hey {{user.firstName}},",
       "join_button": "Join session",
       "reach_out_support": {
-        "text": "Need help? Reach out to our <a href='$t(px-emails:izPanel.emails.unified.generic.support_team_link)'>support team</a> or visit the <a href='$t(px-emails:izPanel.emails.unified.generic.support_center_link)'>Support Center</a>",
+        "text": "Need help? Reach out to our <a href='$t(px-emails:unified.generic.support_team_link)'>support team</a> or visit the <a href='$t(px-emails:unified.generic.support_center_link)'>Support Center</a>",
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
       },

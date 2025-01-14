@@ -280,9 +280,9 @@
       "title": "Bekräfta din session"
     },
     "footer": {
-      "account_message": "Du får det här e-postmeddelandet eftersom ett konto har skapats hos UserTesting\nmed e-postadressen {{namn@exempel.com}}.",
-      "copyright": "©UserTesting {{2024}}, alla rättigheter reserverade.",
-      "manage_preferences": "{{Hantera e-postinställningar}}",
+      "account_message": "Du får det här e-postmeddelandet eftersom ett konto har skapats hos UserTesting\nmed e-postadressen {{user.email}}.",
+      "copyright": "©UserTesting {{currentYear}}, alla rättigheter reserverade.",
+      "manage_preferences": "Hantera e-postinställningar",
       "privacy_policy": "Integritetspolicy",
       "privacy_policy_link": "",
       "support": "Support",

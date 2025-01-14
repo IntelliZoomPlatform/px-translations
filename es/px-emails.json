@@ -280,9 +280,9 @@
       "title": "Confirma tu sesión"
     },
     "footer": {
-      "account_message": "Has recibido este correo electrónico porque se ha creado una cuenta en UserTesting \nutilizando el correo electrónico {{name@example.com}}",
-      "copyright": "©UserTesting {{2024}}, Todos los derechos reservados.",
-      "manage_preferences": "{{Gestionar preferencias de correo electrónico}}",
+      "account_message": "Has recibido este correo electrónico porque se ha creado una cuenta en UserTesting \nutilizando el correo electrónico {{user.email}}",
+      "copyright": "©UserTesting {{currentYear}}, Todos los derechos reservados.",
+      "manage_preferences": "Gestionar preferencias de correo electrónico",
       "privacy_policy": "Política de Privacidad",
       "privacy_policy_link": "",
       "support": "Soporte",

@@ -280,9 +280,9 @@
       "title": "Bekræft din session"
     },
     "footer": {
-      "account_message": "Du har modtaget denne e-mail fordi en konto er blevet oprettet med UserTesting \nved hjælp af e-mailen: {{name@example.com}}",
-      "copyright": "©UserTesting {{2024}}, alle rettigheder forbeholdes.",
-      "manage_preferences": "{{Administrer e-mailpræferencer}}",
+      "account_message": "Du har modtaget denne e-mail fordi en konto er blevet oprettet med UserTesting \nved hjælp af e-mailen: {{user.email}}",
+      "copyright": " ©UserTesting {{currentYear}}, alle rettigheder forbeholdes.",
+      "manage_preferences": "Administrer e-mailpræferencer",
       "privacy_policy": "Privatlivspolitik",
       "privacy_policy_link": "",
       "support": "Support",
