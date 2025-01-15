@@ -301,8 +301,12 @@
       "greeting": "Hoi {{user.firstName}},",
       "join_button": "Deelnemen aan sessie",
       "reach_out_support": {
+        "first_text": "Hulp nodig? Neem contact op met ons",
+        "second_text": "of bezoek het ",
         "support_center_link": "https://participant-support.usertesting.com/",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_center": "Supportcentrum",
+        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new",
+        "support_team": "supportteam"
       },
       "sign_off": "Bedankt, <br>Het UserTesting-team"
     },
@@ -334,7 +338,7 @@
     "participant_study_invitation_email": {
       "body_text": "Klaar om uw feedback te delen en {{studyFee}} te verdienen? Wees er snel bij, deze kansen staan ook open voor andere deelnemers!",
       "button": "Naar de test",
-      "study_id": "Studie-ID voor uw referentie: {{StudieUUID}}",
+      "study_id": "Studie-ID voor uw referentie: {{projectId}}",
       "subject": "Nieuwe test beschikbaar voor jou!",
       "title": "Nieuwe test beschikbaar"
     },
@@ -439,7 +443,7 @@
         "survey": "Enquête",
         "task_based_test": "Taakgebaseerd"
       },
-      "title": "Testdetails:"
+      "title": "Voor deze test heb je nodig:"
     },
     "time_slot_canceled_email": {
       "apology": "Onze excuses voor het ongemak.",

@@ -338,7 +338,7 @@
     "participant_study_invitation_email": {
       "body_text": "Ready to share your feedback and earn {{studyFee}}? Be quick, these opportunities are open to other participants!",
       "button": "Go to test",
-      "study_id": "Study ID for your reference: {{StudyUUID}}",
+      "study_id": "Study ID for your reference: {{projectId}}",
       "subject": "New test opportunity for you!",
       "title": "New test available"
     },
@@ -443,7 +443,7 @@
         "survey": "Survey",
         "task_based_test": "Task based"
       },
-      "title": "Test details:"
+      "title": "For this test you will need:"
     },
     "time_slot_canceled_email": {
       "apology": "We’re sorry for the inconvenience and trouble this may have caused.",

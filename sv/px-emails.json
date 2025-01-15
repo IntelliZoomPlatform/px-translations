@@ -301,8 +301,12 @@
       "greeting": "Hej {{user.firstName}},",
       "join_button": "Anslut till session",
       "reach_out_support": {
+        "first_text": "Behöver du hjälp? Kontakta vårt",
+        "second_text": "eller besök",
         "support_center_link": "https://participant-support.usertesting.com/",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_center": "Supportcentret",
+        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new",
+        "support_team": "supportteam"
       },
       "sign_off": "Tack, <br>UserTesting-teamet"
     },
@@ -334,7 +338,7 @@
     "participant_study_invitation_email": {
       "body_text": "Är du redo för att återkoppla och tjäna {{studyFee}}? Var snabb, de här möjligheterna är öppna för andra deltagare!",
       "button": "Gå till testet",
-      "study_id": "Studie-ID som referens: {{Studie-ID}}",
+      "study_id": "Studie-ID som referens: {{projectId}}",
       "subject": "Ny testmöjlighet för dig!",
       "title": "Nytt test tillgängligt"
     },
@@ -439,7 +443,7 @@
         "survey": "Enkät",
         "task_based_test": "Uppgiftsbaserad"
       },
-      "title": "Testuppgifter:"
+      "title": "För det här testet behöver du:"
     },
     "time_slot_canceled_email": {
       "apology": "Vi beklagar de olägenheter och problem som detta kan ha orsakat.",
