@@ -441,6 +441,15 @@
       },
       "title": ""
     },
+    "time_slot_email": {
+      "button": "",
+      "ics": {
+        "body_text": "",
+        "title": ""
+      },
+      "note_cancel": "",
+      "session_link": ""
+    },
     "time_slot_canceled_email": {
       "apology": "",
       "body_text": {
@@ -454,13 +463,6 @@
     },
     "time_slot_confirmed_email": {
       "body_text": "",
-      "button": "",
-      "ics": {
-        "body_text": "",
-        "title": ""
-      },
-      "note_cancel": "",
-      "session_link": "",
       "subject": "",
       "title": ""
     },
