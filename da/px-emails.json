@@ -301,8 +301,12 @@
       "greeting": "Hej {{user.firstName}},",
       "join_button": "Deltag i session",
       "reach_out_support": {
+        "first_text": "Brug for hjælp? Tag kontakt til vores",
+        "second_text": "eller besøg",
         "support_center_link": "https://participant-support.usertesting.com/",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_center": "Centro de soporte",
+        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new",
+        "support_team": "supportteam"
       },
       "sign_off": "Tak <br>UserTesting-holdet"
     },
@@ -334,7 +338,7 @@
     "participant_study_invitation_email": {
       "body_text": "Klar til at dele din feedback og tjene {{studyFee}}? Vær hurtig, disse muligheder er åbne for andre deltagere!",
       "button": "Gå til test",
-      "study_id": "Studie-ID til referencebrug: {{StudyUUID}}",
+      "study_id": "Studie-ID til referencebrug: {{projectId}}",
       "subject": "Nyt testmulighed til dig!",
       "title": "Ny test tilgængelig"
     },
@@ -439,7 +443,16 @@
         "survey": "Undersøgelse",
         "task_based_test": "Opgavebaseret"
       },
-      "title": "Testoplysninger:"
+      "title": "Til denne test skal du bruge:"
+    },
+    "time_slot_email": {
+      "button": "Deltag i session",
+      "ics": {
+        "body_text": "Klik på iCalendar (ICS)-vedhæftningen i denne e-mail for at tilføje denne begivenhed til din kalender.",
+        "title": "Tilføj til din kalender"
+      },
+      "note_cancel": "<strong>Bemærk:</strong> Hvis du ikke længere kan nå det til dette tidspunkt, bedes du <a href='{{entranceLink}}'>annullere</a> eller <a href='{{entranceLink}}'>omplanlægge</a> din session hurtigst muligt.",
+      "session_link": "Du kan kopiere og indsætte sessionslinket, hvis du foretrækker det: <br>{{sessionLink}}"
     },
     "time_slot_canceled_email": {
       "apology": "Vi beklager ulejligheden og problemerne dette måtte have forårsaget.",
@@ -454,13 +467,6 @@
     },
     "time_slot_confirmed_email": {
       "body_text": "Din Live-samtale er planlagt til følgende dag og tidspunkt:",
-      "button": "Deltag i session",
-      "ics": {
-        "body_text": "Klik på iCalendar (ICS)-vedhæftningen i denne e-mail for at tilføje denne begivenhed til din kalender.",
-        "title": "Tilføj til din kalender"
-      },
-      "note_cancel": "Bemærk: Hvis du ikke længere kan nå det til dette tidspunkt, bedes du {{annullere}} eller {{omplanlægge}} din session hurtigst muligt.",
-      "session_link": "Du kan kopiere og indsætte sessionslinket, hvis du foretrækker det:\n{{https://sourcing.userzoom.com/participant-flow/schedule/time-slot/e4824d35-7d03-49df-9fad-b8905774b033/enter-session}}",
       "subject": "Din live-samtale er bekræftet",
       "title": "Session bekræftet"
     },

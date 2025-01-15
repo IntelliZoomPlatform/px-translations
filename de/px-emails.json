@@ -301,8 +301,12 @@
       "greeting": "Hallo {{user.firstName}},",
       "join_button": "Session beitreten",
       "reach_out_support": {
+        "first_text": "Sie benötigen Hilfe? Wenden Sie sich an unser ",
+        "second_text": "oder besuchen Sie das",
         "support_center_link": "https://participant-support.usertesting.com/",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_center": "Support-Center",
+        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new",
+        "support_team": "Support-Team"
       },
       "sign_off": "Danke <br>Das Team von UserTesting"
     },
@@ -334,7 +338,7 @@
     "participant_study_invitation_email": {
       "body_text": "Sind Sie bereit, Ihr Feedback mitzuteilen und {{studyFee}} zu verdienen? Seien Sie schnell, diese Möglichkeiten stehen auch anderen Teilnehmern offen!",
       "button": "Zum Test",
-      "study_id": "Studien-ID als Referenz: {{StudyUUID}}",
+      "study_id": "Studien-ID als Referenz: {{projectId}}",
       "subject": "Neue Testmöglichkeit für Sie!",
       "title": "Neuer Test verfügbar"
     },
@@ -439,7 +443,16 @@
         "survey": "Umfrage",
         "task_based_test": "Aufgabenbasiert"
       },
-      "title": "Testdetails:"
+      "title": "Für diesen Test benötigst du:"
+    },
+    "time_slot_email": {
+      "button": "Sitzung beitreten",
+      "ics": {
+        "body_text": "Klicken Sie auf den iCalendar-Anhang (ICS) in dieser E-Mail, um diese Veranstaltung zu Ihrem Kalender hinzuzufügen.",
+        "title": "Zu Ihrem Kalender hinzufügen"
+      },
+      "note_cancel": "<strong>Hinweis:</strong> Falls Sie diesen Termin nicht einhalten können, <a href='{{entranceLink}}'>stornieren</a> oder <a href='{{entranceLink}}'>verlegen</a> Sie Ihre Session bitte so bald wie möglich.",
+      "session_link": "Wenn Sie möchten, können Sie den Link zur Session auch kopieren und einfügen: <br>{{sessionLink}}"
     },
     "time_slot_canceled_email": {
       "apology": "Wir entschuldigen uns für die Unannehmlichkeiten und den dadurch möglicherweise entstandenen Aufwand.",
@@ -454,13 +467,6 @@
     },
     "time_slot_confirmed_email": {
       "body_text": "Ihr Live-Gespräch ist für den folgenden Tag und die folgende Uhrzeit geplant:",
-      "button": "Sitzung beitreten",
-      "ics": {
-        "body_text": "Klicken Sie auf den iCalendar-Anhang (ICS) in dieser E-Mail, um diese Veranstaltung zu Ihrem Kalender hinzuzufügen.",
-        "title": "Zu Ihrem Kalender hinzufügen"
-      },
-      "note_cancel": "Hinweis: Falls Sie diesen Termin nicht einhalten können, {{stornieren}} oder {{verlegen}} Sie Ihre Session bitte so bald wie möglich.",
-      "session_link": "Wenn Sie möchten, können Sie den Link zur Session auch kopieren und einfügen: \n{{https://sourcing.userzoom.com/participant-flow/schedule/time-slot/e4824d35-7d03-49df-9fad-b8905774b033/enter-session}}",
       "subject": "Ihre Live-Diskussion wurde bestätigt",
       "title": "Sitzung bestätigt"
     },

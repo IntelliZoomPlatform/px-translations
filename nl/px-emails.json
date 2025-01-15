@@ -301,8 +301,12 @@
       "greeting": "Hoi {{user.firstName}},",
       "join_button": "Deelnemen aan sessie",
       "reach_out_support": {
+        "first_text": "Hulp nodig? Neem contact op met ons",
+        "second_text": "of bezoek het ",
         "support_center_link": "https://participant-support.usertesting.com/",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_center": "Supportcentrum",
+        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new",
+        "support_team": "supportteam"
       },
       "sign_off": "Bedankt, <br>Het UserTesting-team"
     },
@@ -334,7 +338,7 @@
     "participant_study_invitation_email": {
       "body_text": "Klaar om uw feedback te delen en {{studyFee}} te verdienen? Wees er snel bij, deze kansen staan ook open voor andere deelnemers!",
       "button": "Naar de test",
-      "study_id": "Studie-ID voor uw referentie: {{StudieUUID}}",
+      "study_id": "Studie-ID voor uw referentie: {{projectId}}",
       "subject": "Nieuwe test beschikbaar voor jou!",
       "title": "Nieuwe test beschikbaar"
     },
@@ -439,7 +443,16 @@
         "survey": "Enquête",
         "task_based_test": "Taakgebaseerd"
       },
-      "title": "Testdetails:"
+      "title": "Voor deze test heb je nodig:"
+    },
+    "time_slot_email": {
+      "button": "Deelnemen aan sessie",
+      "ics": {
+        "body_text": "Klik op de iCalendar (ICS)-bijlage in deze e-mail om deze gebeurtenis aan uw agenda toe te voegen.",
+        "title": "Aan uw agenda toevoegen"
+      },
+      "note_cancel": "<strong>Let op:</strong> indien u niet meer kunt om deze tijd, <a href='{{entranceLink}}'>cancel</a> of <a href='{{entranceLink}}'>reschedule</a> uw sessie dan zo spoedig mogelijk.",
+      "session_link": "U kunt de link naar de sessie kopiëren en plakken indien u daar de voorkeur aan geeft: <br>{{sessionLink}}"
     },
     "time_slot_canceled_email": {
       "apology": "Onze excuses voor het ongemak.",
@@ -454,13 +467,6 @@
     },
     "time_slot_confirmed_email": {
       "body_text": "Uw livegesprek staat gepland voor de volgende dag en tijd:",
-      "button": "Deelnemen aan sessie",
-      "ics": {
-        "body_text": "Klik op de iCalendar (ICS)-bijlage in deze e-mail om deze gebeurtenis aan uw agenda toe te voegen.",
-        "title": "Aan uw agenda toevoegen"
-      },
-      "note_cancel": "Let op: indien u niet meer kunt om deze tijd, {{cancel}} of {{reschedule}} uw sessie dan zo spoedig mogelijk.",
-      "session_link": "U kunt de link naar de sessie kopiëren en plakken indien u daar de voorkeur aan geeft: \n{{https://sourcing.userzoom.com/participant-flow/schedule/time-slot/e4824d35-7d03-49df-9fad-b8905774b033/enter-session}}",
       "subject": "Uw Livegesprek is bevestigd",
       "title": "Sessie bevestigd"
     },

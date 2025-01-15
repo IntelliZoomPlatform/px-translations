@@ -301,8 +301,12 @@
       "greeting": "Hej {{user.firstName}},",
       "join_button": "Anslut till session",
       "reach_out_support": {
+        "first_text": "Behöver du hjälp? Kontakta vårt",
+        "second_text": "eller besök",
         "support_center_link": "https://participant-support.usertesting.com/",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_center": "Supportcentret",
+        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new",
+        "support_team": "supportteam"
       },
       "sign_off": "Tack, <br>UserTesting-teamet"
     },
@@ -334,7 +338,7 @@
     "participant_study_invitation_email": {
       "body_text": "Är du redo för att återkoppla och tjäna {{studyFee}}? Var snabb, de här möjligheterna är öppna för andra deltagare!",
       "button": "Gå till testet",
-      "study_id": "Studie-ID som referens: {{Studie-ID}}",
+      "study_id": "Studie-ID som referens: {{projectId}}",
       "subject": "Ny testmöjlighet för dig!",
       "title": "Nytt test tillgängligt"
     },
@@ -439,7 +443,16 @@
         "survey": "Enkät",
         "task_based_test": "Uppgiftsbaserad"
       },
-      "title": "Testuppgifter:"
+      "title": "För det här testet behöver du:"
+    },
+    "time_slot_email": {
+      "button": "Gå med i sessionen",
+      "ics": {
+        "body_text": "Klicka på iCalendar-bilagan (ICS) i det här e-postmeddelandet om du vill lägga till det här eventet i din kalender.",
+        "title": "Lägg till i din kalender"
+      },
+      "note_cancel": "<strong>Obs:</strong> Om du inte längre kan hålla den här tiden, ber vi dig <a href='{{entranceLink}}'>avboka</a> eller <a href='{{entranceLink}}'>omboka</a> din session så snart som möjligt.",
+      "session_link": "Du kan kopiera och klistra in sessionslänken om du föredrar det: <br>{{sessionLink}}"
     },
     "time_slot_canceled_email": {
       "apology": "Vi beklagar de olägenheter och problem som detta kan ha orsakat.",
@@ -454,13 +467,6 @@
     },
     "time_slot_confirmed_email": {
       "body_text": "Din Livekonversation är schemalagd till följande dag och tid:",
-      "button": "Gå med i sessionen",
-      "ics": {
-        "body_text": "Klicka på iCalendar-bilagan (ICS) i det här e-postmeddelandet om du vill lägga till det här eventet i din kalender.",
-        "title": "Lägg till i din kalender"
-      },
-      "note_cancel": "Obs: Om du inte längre kan hålla den här tiden, ber vi dig {{avboka}} eller {{omboka}} din session så snart som möjligt.",
-      "session_link": "Du kan kopiera och klistra in sessionslänken om du föredrar det: \n{{https://sourcing.userzoom.com/participant-flow/schedule/time-slot/e4824d35-7d03-49df-9fad-b8905774b033/enter-session}}",
       "subject": "Din livekonversation är bekräftad",
       "title": "Sessionen har bekräftats"
     },
