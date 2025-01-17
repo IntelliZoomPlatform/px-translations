@@ -457,9 +457,9 @@
     "time_slot_canceled_email": {
       "apology": "Wir entschuldigen uns für die Unannehmlichkeiten und den dadurch möglicherweise entstandenen Aufwand.",
       "body_text": {
-        "by_moderator": "Die folgende Live-Diskussion (Study-ID {{projectId}}) wurde vom Klienten, der die Session durchführen sollte, abgesagt:",
+        "by_moderator": "Die folgende Live-Diskussion (Studien-ID {{projectId}}) wurde vom Klienten, der die Session durchführen sollte, abgesagt:",
         "by_participant": "Wir haben Ihre Teilnahme an der folgenden {{sessionDuration}}-minütigen Live-Diskussion wie gewünscht abgesagt:",
-        "by_system": "Leider wurde Ihre Live-Diskussion (Study-ID {{projectId}}) abgesagt."
+        "by_system": "Leider wurde Ihre Live-Diskussion (Studien-ID {{projectId}}) abgesagt."
       },
       "see_you_again": "Wir hoffen dich bald wieder zu sehen.",
       "subject": "Ihre Live-Diskussion wurde abgesagt",

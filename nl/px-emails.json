@@ -267,7 +267,7 @@
     "confirmation_email": {
       "button": "Sessie bevestigen",
       "date": "",
-      "first_body_text": "Bedankt voor uw interesse in dit {{sessieduur}}-minuten-durende livegesprek. U hebt de volgende dag en tijd geselecteerd om deel te nemen:",
+      "first_body_text": "Bedankt voor uw interesse in dit {{sessionDuration}}-minuten-durende livegesprek. U hebt de volgende dag en tijd geselecteerd om deel te nemen:",
       "second_body_text": "Bevestig uw sessie op hetzelfde apparaat en met dezelfde wifi-verbinding die u gebruikt om deel te nemen.",
       "subject": "Actie vereist: Sessie bevestigen",
       "time": "",
@@ -312,14 +312,14 @@
     },
     "panelist_removal_email": {
       "first_body_text": "We hebben uw account en gegevens uit ons systeem verwijderd (deze e-mail is het laatste bericht dat u van ons ontvangt).",
-      "second_body_text": "Indien u dit niet heeft aangevraagd, kan dit zijn wegens een lange periode van inactiviteit of aan verkeerd gebruik van ons platform dat resulteert in een schending van onze {{Terms of Service}}.",
+      "second_body_text": "Indien u dit niet heeft aangevraagd, kan dit zijn wegens een lange periode van inactiviteit of aan verkeerd gebruik van ons platform dat resulteert in een schending van onze {{Servicevoorwaarden}}.",
       "subject": "Uw UserTesting-account is verwijderd",
-      "third_body_text": "Indien u denkt dat dit een fout is of meer gegevens wilt, {{contact us}} of bezoek ons {{Support Center}}.",
+      "third_body_text": "Indien u denkt dat dit een fout is of meer gegevens wilt, {{neem dan contact met ons op}} of bezoek ons {{Supportcentrum}}.",
       "title": "UserTesting-account verwijderd"
     },
     "participant_not_paid_email": {
       "advice": "Zorg er de volgende keer voor dat uw apparaat klaar is voor de test en doe uw best om feedback van topkwaliteit te leveren.",
-      "best_practices": "Om ervoor te zorgen dat dit in de toekomst niet weer gebeurt: raadpleeg deze {{best practice recommendations}} in ons Support Center.",
+      "best_practices": "Om ervoor te zorgen dat dit in de toekomst niet weer gebeurt: raadpleeg deze {{aanbevelingen best practice}} in ons Support Center.",
       "body_text": "We moeten u helaas meedelen dat uw deelname aan test {{projectId}} niet is goedgekeurd en u niet voor de beloning in aanmerking komt.",
       "quality_list": {
         "internet_connection": "Slechte internetverbinding",
@@ -382,7 +382,7 @@
       "title": "Activeer uw account"
     },
     "study_complete_email": {
-      "body_text": "We verwerken uw betaling voor de  {{projectId}}-test via PayPal naar hetzelfde e-mailadres dat  geregistreerd is bij UserTesting. Dit proces duurt normaal gesproken 14 dagen. De beloning voor deze test is {{studiekosten}}.",
+      "body_text": "We verwerken uw betaling voor de  {{projectId}}-test via PayPal naar hetzelfde e-mailadres dat  geregistreerd is bij UserTesting. Dit proces duurt normaal gesproken 14 dagen. De beloning voor deze test is {{studyFee}}.",
       "subject": "Test voltooid",
       "title": "Bedankt voor het delen van je gedachten!"
     },
@@ -451,15 +451,15 @@
         "body_text": "Klik op de iCalendar (ICS)-bijlage in deze e-mail om deze gebeurtenis aan uw agenda toe te voegen.",
         "title": "Aan uw agenda toevoegen"
       },
-      "note_cancel": "<strong>Let op:</strong> indien u niet meer kunt om deze tijd, <a href='{{entranceLink}}'>cancel</a> of <a href='{{entranceLink}}'>reschedule</a> uw sessie dan zo spoedig mogelijk.",
+      "note_cancel": "<strong>Let op:</strong> indien u niet meer kunt om deze tijd, <a href='{{entranceLink}}'>annuleer</a> of <a href='{{entranceLink}}'>verzet</a> uw sessie dan zo spoedig mogelijk.",
       "session_link": "U kunt de link naar de sessie kopiëren en plakken indien u daar de voorkeur aan geeft: <br>{{sessionLink}}"
     },
     "time_slot_canceled_email": {
       "apology": "Onze excuses voor het ongemak.",
       "body_text": {
-        "by_moderator": "Het volgende Livegesprek Conversation (study ID {{projectId}}) is door de cliënt geannuleerd vanwege het uitvoeren van uw sessie:",
+        "by_moderator": "Het volgende Livegesprek Conversation (Onderzoek-ID {{projectId}}) is door de cliënt geannuleerd vanwege het uitvoeren van uw sessie:",
         "by_participant": "Zoals gevraagd hebben we uw deelname aan het volgende {{sessionDuration}} minuten durende Livegesprek geannuleerd:",
-        "by_system": "Helaas is uw Livegesprek (study ID {{projectId}}) geannuleerd."
+        "by_system": "Helaas is uw Livegesprek (onderzoek-ID {{projectId}}) geannuleerd."
       },
       "see_you_again": "We hopen je spoedig weer te zien.",
       "subject": "Uw Livegesprek is geannuleerd",

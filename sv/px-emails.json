@@ -382,7 +382,7 @@
       "title": "Aktivera ditt konto"
     },
     "study_complete_email": {
-      "body_text": "Vi kommer att behandla din betalning för testet {{projectId}} via PayPal till samma e-postadress som den som registrerats hos UserTesting. Den här processen tar vanligtvis 14 dagar. Belöningen för det här testet är {{studieavgift}}.",
+      "body_text": "Vi kommer att behandla din betalning för testet {{projectId}} via PayPal till samma e-postadress som den som registrerats hos UserTesting. Den här processen tar vanligtvis 14 dagar. Belöningen för det här testet är {{studyFee}}.",
       "subject": "Testet är genomfört",
       "title": "Tack för att du delar med dig av dina tankar!"
     },
