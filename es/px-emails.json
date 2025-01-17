@@ -88,11 +88,6 @@
         "fileName": "Sesión de Investigación Moderada",
         "summary": "Sesión de investigación moderada"
       },
-      "panelistProblemReported": {
-        "bodyCopy": "Gracias por informar de un problema con la prueba: {{projectId}}. No podemos ofrecer una compensación automática para una prueba no completada; no obstante, valoramos de veras el tiempo que ha invertido en proporcionar esta información. <br> <br> ¡Pedimos disculpas por el problema que ha experimentado y esperamos que en su próxima prueba no haya complicaciones!",
-        "subject": "Se ha informado del problema correctamente",
-        "title": "Hola, {{user.name}}:"
-      },
       "participationConfirmed": {
         "desktop": {
           "hi": "Hola, {{user.name}}:",
@@ -309,6 +304,11 @@
         "support_team": "equipo de soporte"
       },
       "sign_off": "Gracias, <br>El equipo de UserTesting"
+    },
+    "panelist_problem_reported_email": {
+      "body_text": "Gracias por informar de un problema con la prueba: {{projectId}}. No podemos ofrecer una compensación automática para una prueba no completada; no obstante, valoramos de veras el tiempo que ha invertido en proporcionar esta información. <br> <br> ¡Pedimos disculpas por el problema que ha experimentado y esperamos que en su próxima prueba no haya complicaciones!",
+      "subject": "Se ha informado del problema correctamente",
+      "title": "Problema reportado"
     },
     "panelist_removal_email": {
       "first_body_text": "Hemos eliminado su cuenta y la información de nuestro sistema (este correo electrónico es la última comunicación que recibirá de nosotros).",

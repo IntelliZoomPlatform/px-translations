@@ -88,11 +88,6 @@
         "fileName": "Gemodereerde onderzoekssessie",
         "summary": "Gemodereerde onderzoekssessie"
       },
-      "panelistProblemReported": {
-        "bodyCopy": "Dank voor het melden van een probleem met de test:{{projectId}}. We kunnen geen automatische compensatie  bieden voor een onvoltooide test, maar we waarderen de tijd die je aan het verstrekken van deze informatie hebt besteed. <br> <br> Onze excuses voor het ongemak en we hopen dat je volgende test soepel verloopt!",
-        "subject": "Probleem succesvol gemeld",
-        "title": "Hallo {{user.name}},"
-      },
       "participationConfirmed": {
         "desktop": {
           "hi": "Hallo {{user.name}},",
@@ -309,6 +304,11 @@
         "support_team": "supportteam"
       },
       "sign_off": "Bedankt, <br>Het UserTesting-team"
+    },
+    "panelist_problem_reported_email": {
+      "body_text": "Dank voor het melden van een probleem met de test: {{projectId}}. We kunnen geen automatische compensatie  bieden voor een onvoltooide test, maar we waarderen de tijd die je aan het verstrekken van deze informatie hebt besteed. <br> <br> Onze excuses voor het ongemak en we hopen dat je volgende test soepel verloopt!",
+      "subject": "Probleem succesvol gemeld",
+      "title": "Probleem gemeld"
     },
     "panelist_removal_email": {
       "first_body_text": "We hebben uw account en gegevens uit ons systeem verwijderd (deze e-mail is het laatste bericht dat u van ons ontvangt).",

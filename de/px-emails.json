@@ -88,11 +88,6 @@
         "fileName": "Moderierte Forschungs-Session",
         "summary": "Moderierte Forschungs-Session"
       },
-      "panelistProblemReported": {
-        "bodyCopy": "danke, dass Sie ein Problem mit dem Test {{projectId}} gemeldet haben. Wir können Ihnen zwar keine automatische Vergütung für einen nicht abgeschlossenen Test anbieten, aber wissen es sehr zu schätzen, dass Sie sich die Zeit genommen haben, uns über den Sachverhalt zu informieren. <br> <br> Wir möchten uns für die Schwierigkeiten entschuldigen, die Ihnen entstanden sind, und hoffen, dass Ihr nächster Test reibungslos verläuft!",
-        "subject": "Problem erfolgreich gemeldet",
-        "title": "Hallo, {{user.name}},"
-      },
       "participationConfirmed": {
         "desktop": {
           "hi": "Hallo {{user.name}}!",
@@ -309,6 +304,11 @@
         "support_team": "Support-Team"
       },
       "sign_off": "Danke <br>Das Team von UserTesting"
+    },
+    "panelist_problem_reported_email": {
+      "body_text": "danke, dass Sie ein Problem mit dem Test {{projectId}} gemeldet haben. Wir können Ihnen zwar keine automatische Vergütung für einen nicht abgeschlossenen Test anbieten, aber wissen es sehr zu schätzen, dass Sie sich die Zeit genommen haben, uns über den Sachverhalt zu informieren. <br> <br> Wir möchten uns für die Schwierigkeiten entschuldigen, die Ihnen entstanden sind, und hoffen, dass Ihr nächster Test reibungslos verläuft!",
+      "subject": "Problem erfolgreich gemeldet",
+      "title": "Problem gemeldet"
     },
     "panelist_removal_email": {
       "first_body_text": "wir haben Ihr Konto mitsamt Ihren Daten aus unserem System gelöscht (diese E-Mail ist die letzte, die Sie von uns erhalten).",

@@ -88,11 +88,6 @@
         "fileName": "Moderated Research Session",
         "summary": "Moderated research session"
       },
-      "panelistProblemReported": {
-        "bodyCopy": "",
-        "subject": "",
-        "title": ""
-      },
       "participationConfirmed": {
         "desktop": {
           "hi": "Hi {{user.name}},",
@@ -305,6 +300,11 @@
         "support_team_link": ""
       },
       "sign_off": ""
+    },
+    "panelist_problem_reported_email": {
+      "body_text": "",
+      "subject": "",
+      "title": ""
     },
     "panelist_removal_email": {
       "first_body_text": "",

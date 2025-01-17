@@ -88,11 +88,6 @@
         "fileName": "Modereret forskningssession",
         "summary": "Modereret forskningssession"
       },
-      "panelistProblemReported": {
-        "bodyCopy": "Tak for at du rapporterede et problem med testen: {{projectId}}. Selvom vi ikke kan tilbyde automatisk kompensation for en test, der ikke er gennemført, sætter vi virkelig pris på den tid du har brugt på, at give os disse oplysninger. <br><br> Vi beklager problemet, du oplevede, og håber at din næste test går ubesværet!",
-        "subject": "Problemet rapporteret",
-        "title": "Hej {{user.name}}"
-      },
       "participationConfirmed": {
         "desktop": {
           "hi": "Hej {{user.name}},",
@@ -309,6 +304,11 @@
         "support_team": "supportteam"
       },
       "sign_off": "Tak <br>UserTesting-holdet"
+    },
+    "panelist_problem_reported_email": {
+      "body_text": "Tak for at du rapporterede et problem med testen: {{projectId}}. Selvom vi ikke kan tilbyde automatisk kompensation for en test, der ikke er gennemført, sætter vi virkelig pris på den tid du har brugt på, at give os disse oplysninger. <br><br> Vi beklager problemet, du oplevede, og håber at din næste test går ubesværet!",
+      "subject": "Problemet rapporteret",
+      "title": "Problemet rapporteret"
     },
     "panelist_removal_email": {
       "first_body_text": "Vi har slettet din konto og dine oplysninger fra vores system (denne e-mail er den sidste kommunikation, du kommer til at modtage fra os).",

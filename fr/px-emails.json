@@ -88,11 +88,6 @@
         "fileName": "Session modérée",
         "summary": "Session modérée"
       },
-      "panelistProblemReported": {
-        "bodyCopy": "Nous vous remercions d'avoir signalé un problème concernant le test :{{projetId}}. Bien que nous ne puissions pas offrir de compensation automatique pour un test inachevé, nous apprécions vraiment le temps que vous avez investi en fournissant ces informations. <br> <br> Nous nous excusons pour le problème que vous avez rencontré et espérons que votre prochain test se déroulera sans problème !",
-        "subject": "Problème signalé avec succès",
-        "title": "Bonjour {{user.name}},"
-      },
       "participationConfirmed": {
         "desktop": {
           "hi": "Bonjour {{user.name}},",
@@ -309,6 +304,11 @@
         "support_team": "équipe d'assistance"
       },
       "sign_off": "Merci, <br>L'équipe UserTesting"
+    },
+    "panelist_problem_reported_email": {
+      "body_text": "Nous vous remercions d'avoir signalé un problème concernant le test :{{projetId}}. Bien que nous ne puissions pas offrir de compensation automatique pour un test inachevé, nous apprécions vraiment le temps que vous avez investi en fournissant ces informations. <br> <br> Nous nous excusons pour le problème que vous avez rencontré et espérons que votre prochain test se déroulera sans problème !",
+      "subject": "Problème signalé avec succès",
+      "title": "Problème signalé"
     },
     "panelist_removal_email": {
       "first_body_text": "Nous avons supprimé votre compte et vos informations au sein de notre système (cet e-mail étant la dernière communication que vous recevrez de notre part).",

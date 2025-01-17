@@ -88,11 +88,6 @@
         "fileName": "Moderated Research Session",
         "summary": "Moderated research session"
       },
-      "panelistProblemReported": {
-        "bodyCopy": "Thank you for reporting a problem with the test:{{projectId}}. While we can’t offer automatic compensation for an uncompleted test, we truly value the time you’ve invested in providing this information. <br> <br> We apologize for the issue you experienced and hope your next test goes smoothly!",
-        "subject": "Problem reported successfully",
-        "title": "Hi {{user.name}},"
-      },
       "participationConfirmed": {
         "desktop": {
           "hi": "Hi {{user.name}},",
@@ -309,6 +304,11 @@
         "support_team": "support team"
       },
       "sign_off": "Thanks, <br>The UserTesting team"
+    },
+    "panelist_problem_reported_email": {
+      "body_text": "Thank you for reporting a problem with the test: {{projectId}}. While we can’t offer automatic compensation for an uncompleted test, we truly value the time you’ve invested in providing this information. <br> <br> We apologize for the issue you experienced and hope your next test goes smoothly!",
+      "subject": "Problem reported successfully",
+      "title": "Problem reported"
     },
     "panelist_removal_email": {
       "first_body_text": "We have deleted your account and information from within our system (this email being the last communication you’ll receive from us).",
