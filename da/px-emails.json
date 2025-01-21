@@ -266,12 +266,9 @@
   "unified": {
     "confirmation_email": {
       "button": "Bekræft session",
-      "date": "",
       "first_body_text": "Tak for din interesse for denne {{sessionDuration}} minutters Live-samtale. Du har valgt at deltage på følgende dag og tidspunkt:",
       "second_body_text": "Bekræft venligst din session på den samme enhed og Wi-Fi-forbindelse, som du bruger til at deltage med.",
       "subject": "Handling påkrævet: bekræft session",
-      "time": "",
-      "timezone": "{{(GMT + 01:00) europæisk standardtid}}",
       "title": "Bekræft din session"
     },
     "footer": {
@@ -279,11 +276,11 @@
       "copyright": " ©UserTesting {{currentYear}}, alle rettigheder forbeholdes.",
       "manage_preferences": "Administrer e-mailpræferencer",
       "privacy_policy": "Privatlivspolitik",
-      "privacy_policy_link": "",
+      "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Support",
-      "support_link": "",
+      "support_link": "https://participant-support.usertesting.com/hc/en-us",
       "terms_of_service": "Servicevilkår",
-      "terms_of_service_link": ""
+      "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
     "forgot_password_email": {
       "body_text": "Vi har modtaget en anmodning om at nulstille din adgangskode. Vælg knappen nedenfor for at oprette en ny.",
@@ -298,10 +295,10 @@
       "reach_out_support": {
         "first_text": "Brug for hjælp? Tag kontakt til vores",
         "second_text": "eller besøg",
-        "support_center_link": "https://participant-support.usertesting.com/",
         "support_center": "Supportcenter",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new",
-        "support_team": "supportteam"
+        "support_center_link": "https://participant-support.usertesting.com/",
+        "support_team": "supportteam",
+        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
       },
       "sign_off": "Tak <br>UserTesting-holdet"
     },
@@ -388,7 +385,11 @@
     },
     "test_details": {
       "browser": {
-        "chrome": "Chrome"
+        "chrome": "Chrome",
+        "edge": "Edge",
+        "explorer": "Explorer",
+        "firefox": "Firefox",
+        "safari": "Safari"
       },
       "confidentiality_terms": "Fortrolighedsvilkår",
       "device_type": {
@@ -435,7 +436,6 @@
         "enough_battery": "Din mobile enhed har nok batteri eller er tilsluttet en oplader.",
         "generic": "Du skal bruge den seneste version af Chrome, Firefox eller Edge, hvis du deltager fra en computer, eller en mobilenhed med batteri nok til en mobil session.",
         "join_before": "Du bedes tilslutte dig 10 minutter før starttidspunktet, for at du kan tjekke din video og lyd.",
-        "latest_version": "",
         "quiet_environment": "Sørg for, at du er i velbelyst og stille miljø med en god internetforbindelse. Vi anbefaler at bruge et headset.",
         "title": ""
       },
@@ -444,15 +444,6 @@
         "task_based_test": "Opgavebaseret"
       },
       "title": "Til denne test skal du bruge:"
-    },
-    "time_slot_email": {
-      "button": "Deltag i session",
-      "ics": {
-        "body_text": "Klik på iCalendar (ICS)-vedhæftningen i denne e-mail for at tilføje denne begivenhed til din kalender.",
-        "title": "Tilføj til din kalender"
-      },
-      "note_cancel": "<strong>Bemærk:</strong> Hvis du ikke længere kan nå det til dette tidspunkt, bedes du <a href='{{entranceLink}}'>annullere</a> eller <a href='{{entranceLink}}'>omplanlægge</a> din session hurtigst muligt.",
-      "session_link": "Du kan kopiere og indsætte sessionslinket, hvis du foretrækker det: <br>{{sessionLink}}"
     },
     "time_slot_canceled_email": {
       "apology": "Vi beklager ulejligheden og problemerne dette måtte have forårsaget.",
@@ -469,6 +460,15 @@
       "body_text": "Din Live-samtale er planlagt til følgende dag og tidspunkt:",
       "subject": "Din live-samtale er bekræftet",
       "title": "Session bekræftet"
+    },
+    "time_slot_email": {
+      "button": "Deltag i session",
+      "ics": {
+        "body_text": "Klik på iCalendar (ICS)-vedhæftningen i denne e-mail for at tilføje denne begivenhed til din kalender.",
+        "title": "Tilføj til din kalender"
+      },
+      "note_cancel": "<strong>Bemærk:</strong> Hvis du ikke længere kan nå det til dette tidspunkt, bedes du <a href='{{entranceLink}}'>annullere</a> eller <a href='{{entranceLink}}'>omplanlægge</a> din session hurtigst muligt.",
+      "session_link": "Du kan kopiere og indsætte sessionslinket, hvis du foretrækker det: <br>{{sessionLink}}"
     },
     "time_slot_reminder_24h_email": {
       "body_text": "Dette er blot en venlig påmindelse om, at du har en kommende live-samtale:",
