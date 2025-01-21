@@ -266,12 +266,9 @@
   "unified": {
     "confirmation_email": {
       "button": "Confirmar sesión",
-      "date": "",
       "first_body_text": "Gracias por tu interés en esta {{sessionDuration}} conversación en directo de un minuto. Has seleccionado el siguiente día y hora para participar:",
       "second_body_text": "Por favor, confirma tu sesión en el mismo dispositivo y conexión Wi-Fi que utilizarás para participar.",
       "subject": "Acción requerida: Confirmar sesión",
-      "time": "",
-      "timezone": "{{(GMT + 01:00) Hora estándar de Europa}}",
       "title": "Confirma tu sesión"
     },
     "footer": {
@@ -279,11 +276,11 @@
       "copyright": "©UserTesting {{currentYear}}, Todos los derechos reservados.",
       "manage_preferences": "Gestionar preferencias de correo electrónico",
       "privacy_policy": "Política de Privacidad",
-      "privacy_policy_link": "",
+      "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Soporte",
-      "support_link": "",
+      "support_link": "https://participant-support.usertesting.com/hc/en-us",
       "terms_of_service": "Condiciones del Servicio",
-      "terms_of_service_link": ""
+      "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
     "forgot_password_email": {
       "body_text": "Hemos recibido una solicitud para restablecer tu contraseña. Selecciona el botón de abajo para crear una nueva.",
@@ -298,10 +295,10 @@
       "reach_out_support": {
         "first_text": "¿Necesitas ayuda? Ponte en contacto con nuestro",
         "second_text": "o visita el",
-        "support_center_link": "https://participant-support.usertesting.com/",
         "support_center": "Centro de soporte",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new",
-        "support_team": "equipo de soporte"
+        "support_center_link": "https://participant-support.usertesting.com/",
+        "support_team": "equipo de soporte",
+        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
       },
       "sign_off": "Gracias, <br>El equipo de UserTesting"
     },
@@ -388,7 +385,11 @@
     },
     "test_details": {
       "browser": {
-        "chrome": "Chrome"
+        "chrome": "Chrome",
+        "edge": "Edge",
+        "explorer": "Explorer",
+        "firefox": "Firefox",
+        "safari": "Safari"
       },
       "confidentiality_terms": "Condiciones de confidencialidad",
       "device_type": {
@@ -415,7 +416,7 @@
         "desktop_none_tablet_any_phone_Android": "Dispositivo Android | iPad",
         "desktop_none_tablet_any_phone_any": "Tableta | Móvil",
         "desktop_none_tablet_any_phone_iOS": "Dispositivo iOS | tableta Android",
-        "desktop_none_tablet_any_phone_none": "Tablet",
+        "desktop_none_tablet_any_phone_none": "Tableta",
         "desktop_none_tablet_iOS_phone_Android": "iPad | teléfono Android",
         "desktop_none_tablet_iOS_phone_any": "Dispositivo iOS | teléfono Android",
         "desktop_none_tablet_iOS_phone_iOS": "Dispositivo iOS",
@@ -435,7 +436,6 @@
         "enough_battery": "Su dispositivo móvil tiene batería suficiente o está conectado a un cargador.",
         "generic": "Necesitarás la última versión de Chrome, Firefox o Edge si participas desde un ordenador, o un dispositivo móvil con batería suficiente para una sesión móvil.",
         "join_before": "Únase 10 minutos antes de la hora de inicio para comprobar el vídeo y el audio.",
-        "latest_version": "",
         "quiet_environment": "Asegúrese de estar en un ambiente tranquilo, bien iluminado y con buena conexión a internet. Le recomendamos el uso de auriculares.",
         "title": ""
       },
@@ -444,15 +444,6 @@
         "task_based_test": "Basado en tareas"
       },
       "title": "Para esta prueba necesitarás:"
-    },
-    "time_slot_email": {
-      "button": "Unirse a la sesión",
-      "ics": {
-        "body_text": "Haz clic en el archivo adjunto iCalendar (ICS) de este correo electrónico para añadir este evento a tu calendario.",
-        "title": "Añadir a tu calendario"
-      },
-      "note_cancel": "<strong>Nota:</strong> Si ya no puede estar a esta hora, <a href='{{entranceLink}}'>cancele</a> o <a href='{{entranceLink}}'>reprograme</a> su sesión lo antes posible.",
-      "session_link": "Si lo prefiere, puede copiar y pegar el enlace de la sesión: <br>{{sessionLink}}"
     },
     "time_slot_canceled_email": {
       "apology": "Sentimos las molestias que esto le haya podido causar.",
@@ -469,6 +460,15 @@
       "body_text": "Tu Conversación en Directo está programada para el día y hora siguientes:",
       "subject": "Su Conversación en directo está confirmada",
       "title": "Sesión confirmada"
+    },
+    "time_slot_email": {
+      "button": "Unirse a la sesión",
+      "ics": {
+        "body_text": "Haz clic en el archivo adjunto iCalendar (ICS) de este correo electrónico para añadir este evento a tu calendario.",
+        "title": "Añadir a tu calendario"
+      },
+      "note_cancel": "<strong>Nota:</strong> Si ya no puede estar a esta hora, <a href='{{entranceLink}}'>cancele</a> o <a href='{{entranceLink}}'>reprograme</a> su sesión lo antes posible.",
+      "session_link": "Si lo prefiere, puede copiar y pegar el enlace de la sesión: <br>{{sessionLink}}"
     },
     "time_slot_reminder_24h_email": {
       "body_text": "Esto es solo un recordatorio de su próxima Conversación en directo:",

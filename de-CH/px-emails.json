@@ -266,12 +266,9 @@
   "unified": {
     "confirmation_email": {
       "button": "",
-      "date": "",
       "first_body_text": "",
       "second_body_text": "",
       "subject": "",
-      "time": "",
-      "timezone": "",
       "title": ""
     },
     "footer": {
@@ -296,7 +293,11 @@
       "greeting": "",
       "join_button": "",
       "reach_out_support": {
+        "first_text": "",
+        "second_text": "",
+        "support_center": "",
         "support_center_link": "",
+        "support_team": "",
         "support_team_link": ""
       },
       "sign_off": ""
@@ -384,7 +385,11 @@
     },
     "test_details": {
       "browser": {
-        "chrome": ""
+        "chrome": "",
+        "edge": "",
+        "explorer": "",
+        "firefox": "",
+        "safari": ""
       },
       "confidentiality_terms": "",
       "device_type": {
@@ -431,7 +436,6 @@
         "enough_battery": "",
         "generic": "",
         "join_before": "",
-        "latest_version": "",
         "quiet_environment": "",
         "title": ""
       },
@@ -440,15 +444,6 @@
         "task_based_test": ""
       },
       "title": ""
-    },
-    "time_slot_email": {
-      "button": "",
-      "ics": {
-        "body_text": "",
-        "title": ""
-      },
-      "note_cancel": "",
-      "session_link": ""
     },
     "time_slot_canceled_email": {
       "apology": "",
@@ -465,6 +460,15 @@
       "body_text": "",
       "subject": "",
       "title": ""
+    },
+    "time_slot_email": {
+      "button": "",
+      "ics": {
+        "body_text": "",
+        "title": ""
+      },
+      "note_cancel": "",
+      "session_link": ""
     },
     "time_slot_reminder_24h_email": {
       "body_text": "",

@@ -266,12 +266,9 @@
   "unified": {
     "confirmation_email": {
       "button": "Confirm session",
-      "date": "{{Monday, June 12th}}",
       "first_body_text": "Thank you for your interest in this {{sessionDuration}} minute Live Conversation. You’ve selected the following day and time to participate:",
       "second_body_text": "Please confirm your session on the same device and Wi-Fi connection you'll use to participate.",
       "subject": "Action required: Confirm session",
-      "time": "{{10:00–11:00 AM}}",
-      "timezone": "{{(GMT + 01:00) Europe Standard time}}",
       "title": "Confirm your session"
     },
     "footer": {
@@ -298,10 +295,10 @@
       "reach_out_support": {
         "first_text": "Need help? Reach out to our",
         "second_text": "or visit the",
-        "support_center_link": "https://participant-support.usertesting.com/",
         "support_center": "Support Center",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new",
-        "support_team": "support team"
+        "support_center_link": "https://participant-support.usertesting.com/",
+        "support_team": "support team",
+        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
       },
       "sign_off": "Thanks, <br>The UserTesting team"
     },
@@ -388,7 +385,11 @@
     },
     "test_details": {
       "browser": {
-        "chrome": "Chrome"
+        "chrome": "Chrome",
+        "edge": "Edge",
+        "explorer": "Explorer",
+        "firefox": "Firefox",
+        "safari": "Safari"
       },
       "confidentiality_terms": "Confidentiality terms",
       "device_type": {
@@ -435,7 +436,6 @@
         "enough_battery": "Your mobile device has enough battery or is connected to a charger.",
         "generic": "You’ll need the latest version of Chrome, Firefox, or Edge if you’re participating from a computer, or a mobile device with enough battery for a mobile session.",
         "join_before": "Please join 10 minutes before the start time to check your video and audio.",
-        "latest_version": "{{Browser}}",
         "quiet_environment": "Make sure you’re in a well-lit, quiet environment with a strong internet connection. We recommend the use of a headset.",
         "title": "Session requirements:"
       },
@@ -444,15 +444,6 @@
         "task_based_test": "Task based"
       },
       "title": "For this test you will need:"
-    },
-    "time_slot_email": {
-      "button": "Join session",
-      "ics": {
-        "body_text": "Click the iCalendar (ICS) attachment in this email to add this event to your calendar.",
-        "title": "Add to your calendar"
-      },
-      "note_cancel": "<strong>Note:</strong> If you can no longer make this time, please <a href='{{entranceLink}}'>cancel</a> or <a href='{{entranceLink}}'>reschedule</a> your session as soon as possible.",
-      "session_link": "You can copy and paste the session link if you prefer: <br>{{sessionLink}}"
     },
     "time_slot_canceled_email": {
       "apology": "We’re sorry for the inconvenience and trouble this may have caused.",
@@ -469,6 +460,15 @@
       "body_text": "Your Live Conversation is scheduled for the following day and time:",
       "subject": "Your Live Conversation is confirmed",
       "title": "Session confirmed"
+    },
+    "time_slot_email": {
+      "button": "Join session",
+      "ics": {
+        "body_text": "Click the iCalendar (ICS) attachment in this email to add this event to your calendar.",
+        "title": "Add to your calendar"
+      },
+      "note_cancel": "<strong>Note:</strong> If you can no longer make this time, please <a href='{{entranceLink}}'>cancel</a> or <a href='{{entranceLink}}'>reschedule</a> your session as soon as possible.",
+      "session_link": "You can copy and paste the session link if you prefer: <br>{{sessionLink}}"
     },
     "time_slot_reminder_24h_email": {
       "body_text": "This is just a friendly reminder of your upcoming Live Conversation:",

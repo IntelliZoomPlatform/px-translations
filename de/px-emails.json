@@ -266,12 +266,9 @@
   "unified": {
     "confirmation_email": {
       "button": "Sitzung bestätigen",
-      "date": "",
       "first_body_text": "Vielen Dank für Ihr Interesse an diesem {{sessionDuration}}-minütigen Live-Gespräch. Sie haben den folgenden Tag und die folgende Uhrzeit für die Teilnahme ausgewählt:",
       "second_body_text": "Bitte bestätigen Sie Ihre Sitzung auf demselben Gerät und über dieselbe WLAN-Verbindung, die Sie für die Teilnahme verwenden werden.",
       "subject": "Handlung erforderlich: Sitzung bestätigen",
-      "time": "",
-      "timezone": "{{(GMT + 01:00) Europäische Standardzeit}}",
       "title": "Bestätigen Sie Ihre Sitzung"
     },
     "footer": {
@@ -279,11 +276,11 @@
       "copyright": "©UserTesting {{currentYear}}, Alle Rechte vorbehalten.",
       "manage_preferences": "E-Mail-Einstellungen verwalten",
       "privacy_policy": "Datenschutzerklärung",
-      "privacy_policy_link": "",
+      "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Support",
-      "support_link": "",
+      "support_link": "https://participant-support.usertesting.com/hc/en-us",
       "terms_of_service": "Nutzungsbedingungen",
-      "terms_of_service_link": ""
+      "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
     "forgot_password_email": {
       "body_text": "Wir haben eine Anfrage zum Zurücksetzen Ihres Passworts erhalten. Klicken Sie auf die Schaltfläche unten, um ein neues Passwort zu erstellen.",
@@ -298,10 +295,10 @@
       "reach_out_support": {
         "first_text": "Sie benötigen Hilfe? Wenden Sie sich an unser ",
         "second_text": "oder besuchen Sie das",
-        "support_center_link": "https://participant-support.usertesting.com/",
         "support_center": "Support-Center",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new",
-        "support_team": "Support-Team"
+        "support_center_link": "https://participant-support.usertesting.com/",
+        "support_team": "Support-Team",
+        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
       },
       "sign_off": "Danke <br>Das Team von UserTesting"
     },
@@ -388,7 +385,11 @@
     },
     "test_details": {
       "browser": {
-        "chrome": "Chrome"
+        "chrome": "Chrome",
+        "edge": "Edge",
+        "explorer": "Explorer",
+        "firefox": "Firefox",
+        "safari": "Safari"
       },
       "confidentiality_terms": "Vertraulichkeitsbedingungen",
       "device_type": {
@@ -435,7 +436,6 @@
         "enough_battery": "Ihr mobiles Gerät verfügt über einen ausreichenden Ladestand oder ist an ein Ladegerät angeschlossen.",
         "generic": "Sie benötigen die aktuelle Version von Chrome, Firefox oder Edge, wenn Sie von einem Computer aus teilnehmen, oder ein Mobilgerät mit ausreichendem Akkustand für eine mobile Sitzung.",
         "join_before": "Bitte treten Sie 10 Minuten vor dem geplanten Beginn bei, um noch Ihr Video- und Audiosignal prüfen zu können.",
-        "latest_version": "",
         "quiet_environment": "Achten Sie darauf, dass Sie sich in einer gut beleuchteten, ruhigen Umgebung mit einer stabilen Internetverbindung befinden. Wir empfehlen die Verwendung eines Headsets.",
         "title": ""
       },
@@ -444,15 +444,6 @@
         "task_based_test": "Aufgabenbasiert"
       },
       "title": "Für diesen Test benötigst du:"
-    },
-    "time_slot_email": {
-      "button": "Sitzung beitreten",
-      "ics": {
-        "body_text": "Klicken Sie auf den iCalendar-Anhang (ICS) in dieser E-Mail, um diese Veranstaltung zu Ihrem Kalender hinzuzufügen.",
-        "title": "Zu Ihrem Kalender hinzufügen"
-      },
-      "note_cancel": "<strong>Hinweis:</strong> Falls Sie diesen Termin nicht einhalten können, <a href='{{entranceLink}}'>stornieren</a> oder <a href='{{entranceLink}}'>verlegen</a> Sie Ihre Session bitte so bald wie möglich.",
-      "session_link": "Wenn Sie möchten, können Sie den Link zur Session auch kopieren und einfügen: <br>{{sessionLink}}"
     },
     "time_slot_canceled_email": {
       "apology": "Wir entschuldigen uns für die Unannehmlichkeiten und den dadurch möglicherweise entstandenen Aufwand.",
@@ -469,6 +460,15 @@
       "body_text": "Ihr Live-Gespräch ist für den folgenden Tag und die folgende Uhrzeit geplant:",
       "subject": "Ihre Live-Diskussion wurde bestätigt",
       "title": "Sitzung bestätigt"
+    },
+    "time_slot_email": {
+      "button": "Sitzung beitreten",
+      "ics": {
+        "body_text": "Klicken Sie auf den iCalendar-Anhang (ICS) in dieser E-Mail, um diese Veranstaltung zu Ihrem Kalender hinzuzufügen.",
+        "title": "Zu Ihrem Kalender hinzufügen"
+      },
+      "note_cancel": "<strong>Hinweis:</strong> Falls Sie diesen Termin nicht einhalten können, <a href='{{entranceLink}}'>stornieren</a> oder <a href='{{entranceLink}}'>verlegen</a> Sie Ihre Session bitte so bald wie möglich.",
+      "session_link": "Wenn Sie möchten, können Sie den Link zur Session auch kopieren und einfügen: <br>{{sessionLink}}"
     },
     "time_slot_reminder_24h_email": {
       "body_text": "Nur eine freundliche Erinnerung an Ihre bevorstehende Live-Diskussion:",
