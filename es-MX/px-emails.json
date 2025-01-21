@@ -265,130 +265,135 @@
   },
   "unified": {
     "confirmation_email": {
-      "button": "",
-      "date": "",
-      "first_body_text": "",
-      "second_body_text": "",
-      "subject": "",
-      "time": "",
-      "timezone": "",
-      "title": ""
+      "button": "Confirmar sesión",
+      "first_body_text": "Gracias por tu interés en esta {{sessionDuration}} conversación en directo de un minuto. Has seleccionado el siguiente día y hora para participar:",
+      "second_body_text": "Por favor, confirma tu sesión en el mismo dispositivo y conexión Wi-Fi que utilizarás para participar.",
+      "subject": "Acción requerida: Confirmar sesión",
+      "title": "Confirma tu sesión"
     },
     "footer": {
-      "account_message": "",
-      "copyright": "",
-      "manage_preferences": "",
-      "privacy_policy": "",
-      "privacy_policy_link": "",
-      "support": "",
-      "support_link": "",
-      "terms_of_service": "",
-      "terms_of_service_link": ""
+      "account_message": "Has recibido este correo electrónico porque se ha creado una cuenta en UserTesting \nutilizando el correo electrónico {{user.email}}",
+      "copyright": "©UserTesting {{currentYear}}, Todos los derechos reservados.",
+      "manage_preferences": "Gestionar preferencias de correo electrónico",
+      "privacy_policy": "Política de Privacidad",
+      "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
+      "support": "Soporte",
+      "support_link": "https://participant-support.usertesting.com/hc/en-us",
+      "terms_of_service": "Condiciones del Servicio",
+      "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
     "forgot_password_email": {
-      "body_text": "",
-      "button": "",
-      "button_microcopy": "",
-      "subject": "",
-      "title": ""
+      "body_text": "Hemos recibido una solicitud para restablecer tu contraseña. Selecciona el botón de abajo para crear una nueva.",
+      "button": "Restablecer contraseña",
+      "button_microcopy": "Este enlace caduca en 1 hora",
+      "subject": "Acción requerida: Restablecer contraseña",
+      "title": "Restablecer contraseña"
     },
     "generic": {
-      "greeting": "",
-      "join_button": "",
+      "greeting": "¡Hola, {{user.firstName}},",
+      "join_button": "Entrar en la sesión",
       "reach_out_support": {
-        "support_center_link": "",
-        "support_team_link": ""
+        "first_text": "¿Necesitas ayuda? Ponte en contacto con nuestro",
+        "second_text": "o visita el",
+        "support_center": "Centro de soporte",
+        "support_center_link": "https://participant-support.usertesting.com/",
+        "support_team": "equipo de soporte",
+        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
       },
-      "sign_off": ""
+      "sign_off": "Gracias, <br>El equipo de UserTesting"
     },
     "panelist_problem_reported_email": {
-      "body_text": "",
-      "subject": "",
-      "title": ""
+      "body_text": "Gracias por informar de un problema con la prueba: {{projectId}}. No podemos ofrecer una compensación automática para una prueba no completada; no obstante, valoramos de veras el tiempo que ha invertido en proporcionar esta información. <br> <br> ¡Pedimos disculpas por el problema que ha experimentado y esperamos que en su próxima prueba no haya complicaciones!",
+      "subject": "Se ha informado del problema correctamente",
+      "title": "Problema reportado"
     },
     "panelist_removal_email": {
-      "first_body_text": "",
-      "second_body_text": "",
-      "subject": "",
-      "third_body_text": "",
-      "title": ""
+      "first_body_text": "Hemos eliminado su cuenta y la información de nuestro sistema (este correo electrónico es la última comunicación que recibirá de nosotros).",
+      "second_body_text": "Si no lo ha solicitado, puede deberse a un largo período de inactividad o debido a un uso inadecuado de nuestra plataforma que haya supuesto una violación de nuestros {{Términos de servicio}}.",
+      "subject": "Su cuenta de User Testing ha sido eliminada",
+      "third_body_text": "Si cree que se trata de un error o desea más información, {{póngase en contacto con nosotros}} o visite nuestro {{Centro de asistencia}}.",
+      "title": "Cuenta UserTesting eliminada"
     },
     "participant_not_paid_email": {
-      "advice": "",
-      "best_practices": "",
-      "body_text": "",
+      "advice": "La próxima vez, asegúrese de que su dispositivo está preparado para la prueba y haga todo lo posible para aportar comentarios de la mejor calidad.",
+      "best_practices": "Para evitar que esto vuelva a suceder en el futuro, revise estas {{recomendaciones de mejores prácticas}} en nuestro Centro de asistencia.",
+      "body_text": "Sentimos informarle de que su participación en la prueba {{projectId}} no ha sido aprobada y no recibirá la recompensa de la prueba.",
       "quality_list": {
-        "internet_connection": "",
-        "microphone_camera": "",
-        "overall_quality": "",
-        "title": ""
+        "internet_connection": "Mala conexión a internet.",
+        "microphone_camera": "Mala calidad del micrófono o de la cámara.",
+        "overall_quality": "Mala calidad en general como resultado de demasiadas ventanas, pestañas o aplicaciones ejecutándose al mismo tiempo en su dispositivo.",
+        "title": "La calidad técnica de su participación puede haber sido deficiente o incompleta debido a una o varias de estas razones:"
       },
       "scenario_list": {
-        "time": "",
-        "title": "",
-        "tol": ""
+        "time": "Puede que no haya dedicado tiempo suficiente a hacer las tareas o cuestionarios requeridos.",
+        "title": "Esto podría ser el resultado de uno o más de los siguientes escenarios:",
+        "tol": "Puede que no haya pensado en voz alta como es requerido."
       },
-      "subject": "",
-      "title": ""
+      "subject": "Su participación no se ha aprobado",
+      "title": "Participación no aprobada"
     },
     "participant_study_invitation_email": {
-      "body_text": "",
-      "button": "",
-      "study_id": "",
-      "subject": "",
-      "title": ""
+      "body_text": "¿Listo para compartir tu opinión y ganar {{studyFee}}? Date prisa, ¡estas oportunidades están abiertas a otros participantes!",
+      "button": "Ir al examen",
+      "study_id": "ID del estudio para tu referencia: {{projectId}}",
+      "subject": "¡Nueva oportunidad de prueba para ti!",
+      "title": "Nuevo test disponible"
     },
     "paypal_integration_revoked_email": {
-      "body_text": "",
-      "button": "",
-      "subject": "",
-      "title": ""
+      "body_text": "Hemos detectado que su cuenta PayPal ha sido desconectada de UserTesting.\n\nPara seguir recibiendo invitaciones, participar en pruebas de pago y recibir cualquier pago pendiente, vaya a su página de inicio de UserTesting y conecte de nuevo su cuenta PayPal.",
+      "button": "UserTesting Inicio",
+      "subject": "Acción requerida: Conecte su cuenta de PayPal",
+      "title": "Conecte su PayPal a UserTesting"
     },
     "practice_study_complete_email": {
-      "first_body_text": "",
-      "second_body_text": "",
-      "subject": "",
-      "title": ""
+      "first_body_text": "Comprobaremos tu sesión de prácticas -normalmente tardamos 4 días- y te comunicaremos si ha sido aprobada.",
+      "second_body_text": "Si se aprueba tu sesión de práctica, podrás recibir invitaciones a pruebas con mayores recompensas.",
+      "subject": "Sesión de práctica completada",
+      "title": "¡Gracias por realizar la sesión de prácticas!"
     },
     "qualification_attempt_approved_email": {
-      "button": "",
-      "first_body_text": "",
-      "second_body_text": "",
-      "subject": "",
-      "title": ""
+      "button": "Comprobar pruebas disponibles",
+      "first_body_text": "Enhorabuena, ¡hemos aprobado tu sesión de práctica! ",
+      "second_body_text": "Nos encanta la claridad con la que compartes tus pensamientos y sigues las tareas. Ahora puedes recibir invitaciones para pruebas con recompensas más altas.",
+      "subject": "¡Tu sesión de práctica ha sido aprobada!",
+      "title": "Se ha informado del problema correctamente"
     },
     "qualification_attempt_rejected_email": {
-      "first_body_text": "",
+      "first_body_text": "Lo sentimos, tu sesión de práctica no ha sido aprobada. ",
       "list": {
-        "distractions": "",
-        "incorrect": "",
-        "technical_issues": "",
-        "title": "",
-        "tol": ""
+        "distractions": "Distracciones mientras realizas la sesión de práctica que afectan a la calidad del vídeo, como un ruido de fondo excesivo",
+        "incorrect": "Respuestas incorrectas o incompletas",
+        "technical_issues": "Problemas técnicos al utilizar el software de grabación",
+        "title": "Algunas razones comunes por las que no se aprueba son:",
+        "tol": "No expresar tus pensamientos en voz alta"
       },
-      "second_body_text": "",
-      "subject": "",
-      "title": ""
+      "second_body_text": "Si crees que se trata de un error, o quieres repetir la sesión de práctica, ponte en contacto con nuestro {{equipo de soporte}}.  ",
+      "subject": "Sesión de práctica no aprobada",
+      "title": "Sesión de práctica no aprobada"
     },
     "sign_up_email": {
-      "body_text": "",
-      "button": "",
-      "button_microcopy": "",
-      "subject": "",
-      "title": ""
+      "body_text": "Simplemente haz clic en el botón situado más abajo para activar tu cuenta UserTesting",
+      "button": "Activa tu cuenta",
+      "button_microcopy": "Este enlace caduca en 24 horas",
+      "subject": "Acción requerida: Activar cuenta",
+      "title": "Activa tu cuenta"
     },
     "study_complete_email": {
-      "body_text": "",
-      "subject": "",
-      "title": ""
+      "body_text": "Procesaremos tu pago por el test {{projectId}} a través de PayPal a la misma cuenta de correo electrónico registrada en UserTesting. Este proceso suele tardar 14 días. La recompensa por este test es {{studyFee}}.",
+      "subject": "Test completado",
+      "title": "¡Gracias por darnos tu opinión!"
     },
     "test_details": {
       "browser": {
-        "chrome": ""
+        "chrome": "Chrome",
+        "edge": "Edge",
+        "explorer": "Explorer",
+        "firefox": "Firefox",
+        "safari": "Safari"
       },
-      "confidentiality_terms": "",
+      "confidentiality_terms": "Condiciones de confidencialidad",
       "device_type": {
-        "any_device": "",
+        "any_device": "Cualquier dispositivo",
         "computer": "Computadora",
         "desktop_any_tablet_Android_phone_Android": "Computadora | Dispositivo Android",
         "desktop_any_tablet_Android_phone_any": "Computadora | Dispositivo Android | iPhone",
@@ -404,77 +409,76 @@
         "desktop_any_tablet_none_phone_Android": "Computadora | teléfono Android",
         "desktop_any_tablet_none_phone_any": "Computadora | Móvil",
         "desktop_any_tablet_none_phone_iOS": "Computadora | iPhone",
-        "desktop_none_tablet_Android_phone_Android": "",
-        "desktop_none_tablet_Android_phone_any": "",
-        "desktop_none_tablet_Android_phone_iOS": "",
-        "desktop_none_tablet_Android_phone_none": "",
-        "desktop_none_tablet_any_phone_Android": "",
-        "desktop_none_tablet_any_phone_any": "",
-        "desktop_none_tablet_any_phone_iOS": "",
-        "desktop_none_tablet_any_phone_none": "",
-        "desktop_none_tablet_iOS_phone_Android": "",
-        "desktop_none_tablet_iOS_phone_any": "",
-        "desktop_none_tablet_iOS_phone_iOS": "",
-        "desktop_none_tablet_iOS_phone_none": "",
-        "desktop_none_tablet_none_phone_Android": "",
+        "desktop_none_tablet_Android_phone_Android": "Dispositivo Android",
+        "desktop_none_tablet_Android_phone_any": "Dispositivo Android | iPhone",
+        "desktop_none_tablet_Android_phone_iOS": "tableta Android | iPhone",
+        "desktop_none_tablet_Android_phone_none": "Tableta Android",
+        "desktop_none_tablet_any_phone_Android": "Dispositivo Android | iPad",
+        "desktop_none_tablet_any_phone_any": "Tableta | Móvil",
+        "desktop_none_tablet_any_phone_iOS": "Dispositivo iOS | tableta Android",
+        "desktop_none_tablet_any_phone_none": "Tableta",
+        "desktop_none_tablet_iOS_phone_Android": "iPad | teléfono Android",
+        "desktop_none_tablet_iOS_phone_any": "Dispositivo iOS | teléfono Android",
+        "desktop_none_tablet_iOS_phone_iOS": "Dispositivo iOS",
+        "desktop_none_tablet_iOS_phone_none": "iPad",
+        "desktop_none_tablet_none_phone_Android": "teléfono Android",
         "desktop_none_tablet_none_phone_iOS": "iPhone",
-        "mobile": ""
+        "mobile": "Móvil"
       },
       "recording_permissions": {
-        "face": "",
-        "not_recorded": "",
-        "screen": "",
-        "voice": ""
+        "face": "Cara",
+        "not_recorded": "No registrado",
+        "screen": "Pantalla",
+        "voice": "Voz"
       },
       "reward_amount": "",
       "session_requirements": {
-        "enough_battery": "",
-        "generic": "",
-        "join_before": "",
-        "latest_version": "",
-        "quiet_environment": "",
+        "enough_battery": "Su dispositivo móvil tiene batería suficiente o está conectado a un cargador.",
+        "generic": "Necesitarás la última versión de Chrome, Firefox o Edge si participas desde un ordenador, o un dispositivo móvil con batería suficiente para una sesión móvil.",
+        "join_before": "Únase 10 minutos antes de la hora de inicio para comprobar el vídeo y el audio.",
+        "quiet_environment": "Asegúrese de estar en un ambiente tranquilo, bien iluminado y con buena conexión a internet. Le recomendamos el uso de auriculares.",
         "title": ""
       },
       "test_type": {
-        "survey": "",
-        "task_based_test": ""
+        "survey": "Encuesta",
+        "task_based_test": "Basado en tareas"
       },
-      "title": ""
-    },
-    "time_slot_email": {
-      "button": "",
-      "ics": {
-        "body_text": "",
-        "title": ""
-      },
-      "note_cancel": "",
-      "session_link": ""
+      "title": "Para esta prueba necesitarás:"
     },
     "time_slot_canceled_email": {
-      "apology": "",
+      "apology": "Sentimos las molestias que esto le haya podido causar.",
       "body_text": {
-        "by_moderator": "",
-        "by_participant": "",
-        "by_system": ""
+        "by_moderator": "La siguiente Conversación en directo (ID de estudio {{projectId}}) se ha cancelado por el cliente debido a la celebración de una sesión:",
+        "by_participant": "Tal y como lo ha solicitado, hemos cancelado su participación en la siguiente {{sessionDuration}} minuto(s) Conversación en directo:",
+        "by_system": "Lamentablemente, su Conversación en directo (ID de estudio {{projectId}}) ha sido cancelada."
       },
-      "see_you_again": "",
-      "subject": "",
-      "title": ""
+      "see_you_again": "Esperamos volver a verte pronto.",
+      "subject": "Su Conversación en directo ha sido cancelada",
+      "title": "Sesión cancelada"
     },
     "time_slot_confirmed_email": {
-      "body_text": "",
-      "subject": "",
-      "title": ""
+      "body_text": "Tu Conversación en Directo está programada para el día y hora siguientes:",
+      "subject": "Su Conversación en directo está confirmada",
+      "title": "Sesión confirmada"
+    },
+    "time_slot_email": {
+      "button": "Unirse a la sesión",
+      "ics": {
+        "body_text": "Haz clic en el archivo adjunto iCalendar (ICS) de este correo electrónico para añadir este evento a tu calendario.",
+        "title": "Añadir a tu calendario"
+      },
+      "note_cancel": "<strong>Nota:</strong> Si ya no puede estar a esta hora, <a href='{{entranceLink}}'>cancele</a> o <a href='{{entranceLink}}'>reprograme</a> su sesión lo antes posible.",
+      "session_link": "Si lo prefiere, puede copiar y pegar el enlace de la sesión: <br>{{sessionLink}}"
     },
     "time_slot_reminder_24h_email": {
-      "body_text": "",
-      "subject": "",
-      "title": ""
+      "body_text": "Esto es solo un recordatorio de su próxima Conversación en directo:",
+      "subject": "Recordatorio: Tiene una Conversación en directo mañana",
+      "title": "Mañana: Conversación en directo"
     },
     "time_slot_reminder_30m_email": {
-      "body_text": "",
-      "subject": "",
-      "title": ""
+      "body_text": "Esto es solo un recordatorio de su próxima Conversación en directo:",
+      "subject": "Recordatorio: ¡Su Conversación en directo comienza en 30 minutos!",
+      "title": "Comienza pronto: Conversación en directo"
     }
   }
 }
