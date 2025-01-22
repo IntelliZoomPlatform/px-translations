@@ -84,9 +84,9 @@
         "inlineHelp": "Hjälpcenter"
       },
       "icsParticipant": {
-        "description": "Gå till sammanträdet: \n{{sessionLink}} \nKan du inte längre vara med på sammanträdet på den utsatta tiden kan du ändra schemat eller ställa in sammanträdet på följande länk:\n{{rescheduleLink}}",
-        "fileName": "Modererat researchmöte",
-        "summary": "Modererat researchmöte"
+        "description": "Anslut till session: \n{{sessionLink}} \nKan du inte längre vara med på sammanträdet på den utsatta tiden kan du ändra schemat eller ställa in sammanträdet på följande länk:\n{{rescheduleLink}}",
+        "fileName": "Live-konversationssession",
+        "summary": "Live-konversationssession"
       },
       "participationConfirmed": {
         "desktop": {
@@ -437,7 +437,7 @@
         "generic": "Du kommer att behöva den senaste versionen av Chrome, Firefox eller Edge om du deltar från en dator, eller en mobil enhet som har tillräckligt med batteri för en mobil session.",
         "join_before": "Anslut 10 minuter före starttiden för att kontrollera video och ljud.",
         "quiet_environment": "Se till att du befinner dig i en väl upplyst, tyst miljö med en stark internetanslutning. Vi rekommenderar att du använder ett headset.",
-        "title": ""
+        "title": "Krav för sessionen:"
       },
       "test_type": {
         "survey": "Enkät",

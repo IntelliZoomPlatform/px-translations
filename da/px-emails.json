@@ -85,8 +85,8 @@
       },
       "icsParticipant": {
         "description": "Deltag i sessionen:\n{{sessionLink}}\nHvis du ikke længere kan deltage i sessionen på det planlagte tidspunkt, kan du omplanlægge eller annullere via følgende link:\n{{rescheduleLink}}",
-        "fileName": "Modereret forskningssession",
-        "summary": "Modereret forskningssession"
+        "fileName": "Live samtalesession",
+        "summary": "Live samtalesession"
       },
       "participationConfirmed": {
         "desktop": {
@@ -437,7 +437,7 @@
         "generic": "Du skal bruge den seneste version af Chrome, Firefox eller Edge, hvis du deltager fra en computer, eller en mobilenhed med batteri nok til en mobil session.",
         "join_before": "Du bedes tilslutte dig 10 minutter før starttidspunktet, for at du kan tjekke din video og lyd.",
         "quiet_environment": "Sørg for, at du er i velbelyst og stille miljø med en god internetforbindelse. Vi anbefaler at bruge et headset.",
-        "title": ""
+        "title": "Krav til sessionen:"
       },
       "test_type": {
         "survey": "Undersøgelse",

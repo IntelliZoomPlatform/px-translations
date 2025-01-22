@@ -85,8 +85,8 @@
       },
       "icsParticipant": {
         "description": "Rejoignez la session : <br> {{sessionLink}} <br> Si vous ne pouvez plus assister à la session à l'heure prévue, vous pouvez la reprogrammer ou l'annuler en suivant ce lien : <br> {{rescheduleLink}}",
-        "fileName": "Session modérée",
-        "summary": "Session modérée"
+        "fileName": "Séance de conversation en direct",
+        "summary": "Séance de conversation en direct"
       },
       "participationConfirmed": {
         "desktop": {
@@ -437,7 +437,7 @@
         "generic": "Vous devrez utiliser la dernière version de Chrome, Firefox ou Edge pour participer au test depuis un ordinateur ou un appareil mobile ayant suffisamment d'autonomie de batterie pour assurer une session mobile.",
         "join_before": "Veuillez vous présenter 10 minutes avant le début de la session pour vérifier votre vidéo et votre audio.",
         "quiet_environment": "Assurez-vous d'être dans un environnement bien éclairé, calme et doté d'une connexion internet solide. Nous vous recommandons d'utiliser un casque.",
-        "title": ""
+        "title": "Exigences de la session :"
       },
       "test_type": {
         "survey": "Sondage",
