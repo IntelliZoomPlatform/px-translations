@@ -85,8 +85,8 @@
       },
       "icsParticipant": {
         "description": "Enter the session:\n{{sessionLink}}\nIf you can no longer attend the session at the scheduled time you can reschedule or cancel it by following this link:\n{{rescheduleLink}}",
-        "fileName": "Moderated Research Session",
-        "summary": "Moderated research session"
+        "fileName": "Live Conversation session",
+        "summary": "Live Conversation session"
       },
       "participationConfirmed": {
         "desktop": {

@@ -84,9 +84,9 @@
         "inlineHelp": ""
       },
       "icsParticipant": {
-        "description": "",
-        "fileName": "",
-        "summary": ""
+        "description": "Entrar en la sesión:\n{{sessionLink}}\nEn caso que no puedas asistir a la sesión, puedes reprogramarla o cancelarla con el siguiente enlace: \n{{rescheduleLink}}",
+        "fileName": "Sesión de conversación en vivo",
+        "summary": "Sesión de conversación en vivo"
       },
       "participationConfirmed": {
         "desktop": {
@@ -334,10 +334,10 @@
     },
     "participant_study_invitation_email": {
       "body_text": "¿Listo para compartir tu opinión y ganar {{studyFee}}? Date prisa, ¡estas oportunidades están abiertas a otros participantes!",
-      "button": "Ir al examen",
+      "button": "Ir a la prueba",
       "study_id": "ID del estudio para tu referencia: {{projectId}}",
       "subject": "¡Nueva oportunidad de prueba para ti!",
-      "title": "Nuevo test disponible"
+      "title": "Nueva prueba disponible"
     },
     "paypal_integration_revoked_email": {
       "body_text": "Hemos detectado que su cuenta PayPal ha sido desconectada de UserTesting.\n\nPara seguir recibiendo invitaciones, participar en pruebas de pago y recibir cualquier pago pendiente, vaya a su página de inicio de UserTesting y conecte de nuevo su cuenta PayPal.",

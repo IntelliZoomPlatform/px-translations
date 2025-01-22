@@ -84,9 +84,9 @@
         "inlineHelp": "Help Center"
       },
       "icsParticipant": {
-        "description": "Trete der Session bei: \n{{sessionLink}} \nFalls du an dieser Session nicht mehr zur geplanten Zeit teilnehmen kannst, kannst du sie mit dem folgendem Link verschieben order absagen: \n{{rescheduleLink}}",
-        "fileName": "Moderierte Forschungs-Session",
-        "summary": "Moderierte Forschungs-Session"
+        "description": "Session beitreten: \n{{sessionLink}} \nFalls du an dieser Session nicht mehr zur geplanten Zeit teilnehmen kannst, kannst du sie mit dem folgendem Link verschieben order absagen: \n{{rescheduleLink}}",
+        "fileName": "Live-Gesprächssitzung",
+        "summary": "Live-Gesprächssitzung"
       },
       "participationConfirmed": {
         "desktop": {
@@ -437,7 +437,7 @@
         "generic": "Sie benötigen die aktuelle Version von Chrome, Firefox oder Edge, wenn Sie von einem Computer aus teilnehmen, oder ein Mobilgerät mit ausreichendem Akkustand für eine mobile Sitzung.",
         "join_before": "Bitte treten Sie 10 Minuten vor dem geplanten Beginn bei, um noch Ihr Video- und Audiosignal prüfen zu können.",
         "quiet_environment": "Achten Sie darauf, dass Sie sich in einer gut beleuchteten, ruhigen Umgebung mit einer stabilen Internetverbindung befinden. Wir empfehlen die Verwendung eines Headsets.",
-        "title": ""
+        "title": "Anforderungen an die Session:"
       },
       "test_type": {
         "survey": "Umfrage",
