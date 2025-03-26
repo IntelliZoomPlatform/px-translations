@@ -278,7 +278,7 @@
       "privacy_policy": "Integritetspolicy",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Support",
-      "support_link": "https://participant-support.usertesting.com/hc/en-us",
+      "support_link": "https://participant-support.usertesting.com/hc",
       "terms_of_service": "Tjänstevillkor",
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
@@ -298,7 +298,7 @@
         "support_center": "Supportcentret",
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team": "supportteam",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_team_link": "https://participant-support.usertesting.com/hc/requests/new"
       },
       "sign_off": "Tack, <br>UserTesting-teamet"
     },
@@ -479,6 +479,13 @@
       "body_text": "Detta är bara en vänlig påminnelse om din kommande livekonversation:",
       "subject": "Påminnelse: Din livekonversation börjar om 30 minuter!",
       "title": "Startar snart: Livekonversation"
+    },
+    "emails": {
+      "icsParticipant": {
+        "description": "Anslut till session: \n{{sessionLink}} \nKan du inte längre vara med på sammanträdet på den utsatta tiden kan du ändra schemat eller ställa in sammanträdet på följande länk:\n{{rescheduleLink}}",
+        "fileName": "Live-konversationssession",
+        "summary": "Live-konversationssession"
+      }
     }
   }
 }

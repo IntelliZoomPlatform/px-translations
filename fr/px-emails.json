@@ -276,11 +276,11 @@
       "copyright": "©UserTesting {{currentYear}}, tous droits réservés.",
       "manage_preferences": "Gérer les préférences de messagerie",
       "privacy_policy": "Politique de confidentialité",
-      "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
+      "privacy_policy_link": "https://www.usertesting.com/fr/privacy-center/privacy-policy",
       "support": "Assistance",
-      "support_link": "https://participant-support.usertesting.com/hc/en-us",
+      "support_link": "https://participant-support.usertesting.com/hc",
       "terms_of_service": "Conditions d'utilisation",
-      "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
+      "terms_of_service_link": "https://www.usertesting.com/fr/privacy-center/terms-of-service-contributor"
     },
     "forgot_password_email": {
       "body_text": "Nous avons reçu une demande de réinitialisation de votre mot de passe. Sélectionnez le bouton ci-dessous pour en créer un nouveau.",
@@ -298,7 +298,7 @@
         "support_center": "Centre d'assistance",
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team": "équipe d'assistance",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_team_link": "https://participant-support.usertesting.com/hc/requests/new"
       },
       "sign_off": "Merci, <br>L'équipe UserTesting"
     },
@@ -479,6 +479,13 @@
       "body_text": "Ceci n'est qu'un rappel amical de votre prochaine conversation en direct :",
       "subject": "Rappel : Votre conversation en direct commence dans 30 minutes !",
       "title": "Bientôt disponible : conversation en direct"
+    },
+    "emails": {
+      "icsParticipant": {
+        "description": "Rejoignez la session : <br> {{sessionLink}} <br> Si vous ne pouvez plus assister à la session à l'heure prévue, vous pouvez la reprogrammer ou l'annuler en suivant ce lien : <br> {{rescheduleLink}}",
+        "fileName": "Séance de conversation en direct",
+        "summary": "Séance de conversation en direct"
+      }
     }
   }
 }

@@ -278,7 +278,7 @@
       "privacy_policy": "Privatlivspolitik",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Support",
-      "support_link": "https://participant-support.usertesting.com/hc/en-us",
+      "support_link": "https://participant-support.usertesting.com/hc",
       "terms_of_service": "Servicevilkår",
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
@@ -298,7 +298,7 @@
         "support_center": "Supportcenter",
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team": "supportteam",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_team_link": "https://participant-support.usertesting.com/hc/requests/new"
       },
       "sign_off": "Tak <br>UserTesting-holdet"
     },
@@ -479,6 +479,13 @@
       "body_text": "Dette er blot en venlig påmindelse om, at du har en kommende live-samtale:",
       "subject": "Påmindelse: Din live-samtale starter om 30 minutter!",
       "title": "Starter snart: Live-samtale"
+    },
+    "emails": {
+      "icsParticipant": {
+        "description": "Deltag i sessionen:\n{{sessionLink}}\nHvis du ikke længere kan deltage i sessionen på det planlagte tidspunkt, kan du omplanlægge eller annullere via følgende link:\n{{rescheduleLink}}",
+        "fileName": "Live samtalesession",
+        "summary": "Live samtalesession"
+      }
     }
   }
 }

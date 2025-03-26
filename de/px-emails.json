@@ -276,11 +276,11 @@
       "copyright": "©UserTesting {{currentYear}}, Alle Rechte vorbehalten.",
       "manage_preferences": "E-Mail-Einstellungen verwalten",
       "privacy_policy": "Datenschutzerklärung",
-      "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
+      "privacy_policy_link": "https://www.usertesting.com/de/privacy-center/privacy-policy",
       "support": "Support",
-      "support_link": "https://participant-support.usertesting.com/hc/en-us",
+      "support_link": "https://participant-support.usertesting.com/hc",
       "terms_of_service": "Nutzungsbedingungen",
-      "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
+      "terms_of_service_link": "https://www.usertesting.com/de/privacy-center/terms-of-service-contributor"
     },
     "forgot_password_email": {
       "body_text": "Wir haben eine Anfrage zum Zurücksetzen Ihres Passworts erhalten. Klicken Sie auf die Schaltfläche unten, um ein neues Passwort zu erstellen.",
@@ -298,7 +298,7 @@
         "support_center": "Support-Center",
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team": "Support-Team",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_team_link": "https://participant-support.usertesting.com/hc/requests/new"
       },
       "sign_off": "Danke <br>Das Team von UserTesting"
     },
@@ -479,6 +479,13 @@
       "body_text": "Nur eine freundliche Erinnerung an Ihre bevorstehende Live-Diskussion:",
       "subject": "Erinnerung: Ihre Live-Diskussion beginnt in 30 Minuten!",
       "title": "Beginnt demnächst: Live-Diskussion"
+    },
+    "emails": {
+      "icsParticipant": {
+        "description": "Session beitreten: \n{{sessionLink}} \nFalls du an dieser Session nicht mehr zur geplanten Zeit teilnehmen kannst, kannst du sie mit dem folgendem Link verschieben order absagen: \n{{rescheduleLink}}",
+        "fileName": "Live-Gesprächssitzung",
+        "summary": "Live-Gesprächssitzung"
+      }
     }
   }
 }

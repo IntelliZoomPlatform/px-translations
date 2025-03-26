@@ -278,7 +278,7 @@
       "privacy_policy": "Privacybeleid",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Ondersteuning",
-      "support_link": "https://participant-support.usertesting.com/hc/en-us",
+      "support_link": "https://participant-support.usertesting.com/hc",
       "terms_of_service": "Servicevoorwaarden",
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
@@ -298,7 +298,7 @@
         "support_center": "Supportcentrum",
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team": "supportteam",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_team_link": "https://participant-support.usertesting.com/hc/requests/new"
       },
       "sign_off": "Bedankt, <br>Het UserTesting-team"
     },
@@ -479,6 +479,13 @@
       "body_text": "Dit is een vriendelijke herinnering aan uw komende Livegesprek:",
       "subject": "Reminder: uw Livegesprek begint over 30 minuten!",
       "title": "Begint spoedig: Livegesprek"
+    },
+    "emails": {
+      "icsParticipant": {
+        "description": "Deelnemen aan sessie: \n{{sessionLink}} \nAls u de sessie niet meer kunt bijwonen op de geplande tijd, kunt u deze opnieuw plannen of annuleren via deze link: \n{{recheduleLink}}",
+        "fileName": "Live gesprekssessie",
+        "summary": "Live gesprekssessie"
+      }
     }
   }
 }

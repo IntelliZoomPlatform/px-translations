@@ -278,7 +278,7 @@
       "privacy_policy": "Política de Privacidad",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Soporte",
-      "support_link": "https://participant-support.usertesting.com/hc/en-us",
+      "support_link": "https://participant-support.usertesting.com/hc",
       "terms_of_service": "Condiciones del Servicio",
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
@@ -298,7 +298,7 @@
         "support_center": "Centro de soporte",
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team": "equipo de soporte",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_team_link": "https://participant-support.usertesting.com/hc/requests/new"
       },
       "sign_off": "Gracias, <br>El equipo de UserTesting"
     },
@@ -479,6 +479,13 @@
       "body_text": "Esto es solo un recordatorio de su próxima Conversación en directo:",
       "subject": "Recordatorio: ¡Su Conversación en directo comienza en 30 minutos!",
       "title": "Comienza pronto: Conversación en directo"
+    },
+    "emails": {
+      "icsParticipant": {
+        "description": "Entrar en la sesión:\n{{sessionLink}}\nEn caso que no puedas asistir a la sesión, puedes reprogramarla o cancelarla con el siguiente enlace: \n{{rescheduleLink}}",
+        "fileName": "Sesión de conversación en vivo",
+        "summary": "Sesión de conversación en vivo"
+      }
     }
   }
 }

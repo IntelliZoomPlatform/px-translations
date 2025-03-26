@@ -376,7 +376,8 @@
       "button": "Activate account",
       "button_microcopy": "This link expires in 24 hours",
       "subject": "Action required: Activate account",
-      "title": "Activate your account"
+      "title": "Activate your account",
+      "greeting": "Hey there,"
     },
     "study_complete_email": {
       "body_text": "We’ll process your payment for test {{projectId}} via PayPal to the same email account registered with UserTesting. This process usually takes 14 days. The reward for this test is {{studyFee}}.",
@@ -479,6 +480,13 @@
       "body_text": "This is just a friendly reminder of your upcoming Live Conversation:",
       "subject": "Reminder: Your Live Conversation starts in 30 minutes!",
       "title": "Starting soon: Live Conversation"
+    },
+    "emails": {
+      "icsParticipant": {
+        "description": "Join session:\n{{sessionLink}}\nIf you can no longer attend the session at the scheduled time you can reschedule or cancel it by following this link:\n{{rescheduleLink}}",
+        "fileName": "Live Conversation session",
+        "summary": "Live Conversation session"
+      }
     }
   }
 }
