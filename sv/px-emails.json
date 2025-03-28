@@ -278,7 +278,7 @@
       "privacy_policy": "Integritetspolicy",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Support",
-      "support_link": "https://participant-support.usertesting.com/hc/en-us",
+      "support_link": "https://participant-support.usertesting.com/hc",
       "terms_of_service": "Tjänstevillkor",
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
@@ -298,7 +298,7 @@
         "support_center": "Supportcentret",
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team": "supportteam",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_team_link": "https://participant-support.usertesting.com/hc/requests/new"
       },
       "sign_off": "Tack, <br>UserTesting-teamet"
     },
@@ -309,14 +309,14 @@
     },
     "panelist_removal_email": {
       "first_body_text": "Vi har raderat ditt konto och din information från vårt system (detta e-postmeddelande är den sista kommunikationen du får från oss).",
-      "second_body_text": "Om du inte begärde detta kan det bero på en lång period av inaktivitet eller missbruk av vår plattform som resulterar i en överträdelse av {{användarvillkoren}}.",
+      "second_body_text": "Om du inte begärde detta kan det bero på en lång period av inaktivitet eller missbruk av vår plattform som resulterar i en överträdelse av <a href=\"https://www.usertesting.com/privacy-center/terms-of-service-contributor\">användarvillkoren</a>.",
       "subject": "Ditt TestKonto har raderats",
-      "third_body_text": "Om du anser att detta är ett misstag eller vill ha ytterligare information, {{kontakta oss}} eller besök vårt {{supportcenter}}.",
+      "third_body_text": "Om du anser att detta är ett misstag eller vill ha ytterligare information, <a href=\"https://participant-support.usertesting.com/hc/requests/new\">kontakta oss</a> eller besök vårt <a href=\"https://participant-support.usertesting.com/hc\">supportcenter</a>.",
       "title": "TestKonto raderat"
     },
     "participant_not_paid_email": {
       "advice": "Se till att din enhet är redo för testet nästa gång och gör ditt bästa för att ge feedback av högsta kvalitet.",
-      "best_practices": "För att undvika att detta händer igen i framtiden, läs igenom dessa {{rekommendationer om bästa praxis}} i vårt supportcenter.",
+      "best_practices": "För att undvika att detta händer igen i framtiden, läs igenom dessa <a href=\"https://participant-support.usertesting.com/hc/articles/37416051787795-Top-tips-for-a-successful-test\">rekommendationer om bästa praxis</a> i vårt supportcenter.",
       "body_text": "Vi är ledsna att meddela att ditt deltagande i testet {{projectId}} inte har godkänts och att du inte kommer att få belöningen för testet.",
       "quality_list": {
         "internet_connection": "Dålig internetanslutning.",
@@ -367,7 +367,7 @@
         "title": "Några vanliga anledningar till att man inte blir godkänd är:",
         "tol": "Att du inte uttalar dina tankar högt"
       },
-      "second_body_text": "Om du tror att det här var ett misstag, eller om du vill göra om övningen, vänligen kontakta vårt {{supportteam}}.  ",
+      "second_body_text": "Om du tror att det här var ett misstag, eller om du vill göra om övningen, vänligen kontakta vårt <a href=\"https://participant-support.usertesting.com/hc/requests/new\">supportteam</a>.",
       "subject": "Övningen har inte godkänts",
       "title": "Övningen har inte godkänts"
     },
@@ -479,6 +479,13 @@
       "body_text": "Detta är bara en vänlig påminnelse om din kommande livekonversation:",
       "subject": "Påminnelse: Din livekonversation börjar om 30 minuter!",
       "title": "Startar snart: Livekonversation"
+    },
+    "emails": {
+      "icsParticipant": {
+        "description": "Anslut till session: \n{{sessionLink}} \nKan du inte längre vara med på sammanträdet på den utsatta tiden kan du ändra schemat eller ställa in sammanträdet på följande länk:\n{{rescheduleLink}}",
+        "fileName": "Live-konversationssession",
+        "summary": "Live-konversationssession"
+      }
     }
   }
 }
