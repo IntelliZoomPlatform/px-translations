@@ -309,14 +309,14 @@
     },
     "panelist_removal_email": {
       "first_body_text": "We have deleted your account and information from within our system (this email being the last communication you’ll receive from us).",
-      "second_body_text": "If you did not request this, it may be due to a long period of inactivity or due to a misusage of our platform resulting in a violation of our {{Terms of Service}}.",
+      "second_body_text": "If you did not request this, it may be due to a long period of inactivity or due to a misusage of our platform resulting in a violation of our <a href=\"https://www.usertesting.com/privacy-center/terms-of-service-contributor\">Terms of Service</a>.",
       "subject": "Your UserTesting account has been deleted",
-      "third_body_text": "If you think this is a mistake or would like further information, please {{contact us}} or visit our {{Support Center}}.",
+      "third_body_text": "If you think this is a mistake or would like further information, please <a href=\"https://participant-support.usertesting.com/hc/requests/new\">contact us</a> or visit our <a href=\"https://participant-support.usertesting.com/hc/en-us\">Support Center</a>.\n\n",
       "title": "UserTesting account deleted"
     },
     "participant_not_paid_email": {
       "advice": "Next time, make sure your device is ready for the test and do your best to provide top-quality feedback.",
-      "best_practices": "To avoid this happening again in the future, please review these {{best practice recommendations}} in our Support Center.",
+      "best_practices": "To avoid this happening again in the future, please review these <a href=\"https://participant-support.usertesting.com/hc/en-us/articles/37416051787795-Top-tips-for-a-successful-test\">best practice recommendations</a> in our Support Center.",
       "body_text": "We’re sorry to inform you that your participation in the test {{projectId}} hasn’t been approved and you won’t receive the test’s reward.",
       "quality_list": {
         "internet_connection": "Poor internet connection.",
@@ -367,7 +367,7 @@
         "title": "Some common reasons for not being approved include:",
         "tol": "Not speaking your thoughts out loud"
       },
-      "second_body_text": "If you think this was a mistake, or would like to retake the practice session, please reach out to our {{support team}}.  ",
+      "second_body_text": "If you think this was a mistake, or would like to retake the practice session, please reach out to our <a href=\"https://participant-support.usertesting.com/hc/requests/new\">support team</a>.",
       "subject": "Practice session not approved",
       "title": "Practice session not approved"
     },
@@ -479,6 +479,13 @@
       "body_text": "This is just a friendly reminder of your upcoming Live Conversation:",
       "subject": "Reminder: Your Live Conversation starts in 30 minutes!",
       "title": "Starting soon: Live Conversation"
+    },
+    "emails": {
+      "icsParticipant": {
+        "description": "Join session:\n{{sessionLink}}\nIf you can no longer attend the session at the scheduled time you can reschedule or cancel it by following this link:\n{{rescheduleLink}}",
+        "fileName": "Live Conversation session",
+        "summary": "Live Conversation session"
+      }
     }
   }
 }

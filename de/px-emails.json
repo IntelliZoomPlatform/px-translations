@@ -276,11 +276,11 @@
       "copyright": "©UserTesting {{currentYear}}, Alle Rechte vorbehalten.",
       "manage_preferences": "E-Mail-Einstellungen verwalten",
       "privacy_policy": "Datenschutzerklärung",
-      "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
+      "privacy_policy_link": "https://www.usertesting.com/de/privacy-center/privacy-policy",
       "support": "Support",
-      "support_link": "https://participant-support.usertesting.com/hc/en-us",
+      "support_link": "https://participant-support.usertesting.com/hc",
       "terms_of_service": "Nutzungsbedingungen",
-      "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
+      "terms_of_service_link": "https://www.usertesting.com/de/privacy-center/terms-of-service-contributor"
     },
     "forgot_password_email": {
       "body_text": "Wir haben eine Anfrage zum Zurücksetzen Ihres Passworts erhalten. Klicken Sie auf die Schaltfläche unten, um ein neues Passwort zu erstellen.",
@@ -298,7 +298,7 @@
         "support_center": "Support-Center",
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team": "Support-Team",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_team_link": "https://participant-support.usertesting.com/hc/requests/new"
       },
       "sign_off": "Danke <br>Das Team von UserTesting"
     },
@@ -309,14 +309,14 @@
     },
     "panelist_removal_email": {
       "first_body_text": "wir haben Ihr Konto mitsamt Ihren Daten aus unserem System gelöscht (diese E-Mail ist die letzte, die Sie von uns erhalten).",
-      "second_body_text": "Falls Sie diese Aktion nicht angefordert haben, könnte dies daran liegen, dass Sie über einen längeren Zeitraum hinweg inaktiv waren oder unsere Plattform missbräuchlich genutzt und damit gegen unsere {{Nutzungsbedingungen}} verstoßen haben.",
+      "second_body_text": "Falls Sie diese Aktion nicht angefordert haben, könnte dies daran liegen, dass Sie über einen längeren Zeitraum hinweg inaktiv waren oder unsere Plattform missbräuchlich genutzt und damit gegen unsere <a href=\"https://www.usertesting.com/de/privacy-center/terms-of-service-contributor\">Nutzungsbedingungen</a> verstoßen haben.",
       "subject": "Ihr UserTesting-Konto wurde gelöscht",
-      "third_body_text": "Wenn dies Ihrer Meinung nach irrtümlich geschehen ist oder Sie weitere Informationen wünschen, bitte {{kontaktieren Sie uns}} oder besuchen Sie unser {{Hilfe-Center}}.",
+      "third_body_text": "Wenn dies Ihrer Meinung nach irrtümlich geschehen ist oder Sie weitere Informationen wünschen, bitte <a href=\"https://participant-support.usertesting.com/hc/requests/new\">kontaktieren Sie uns</a> oder besuchen Sie unser <a href=\"https://participant-support.usertesting.com/hc\">Hilfe-Center</a>.",
       "title": "UserTesting-Konto gelöscht"
     },
     "participant_not_paid_email": {
       "advice": "Bitte stellen Sie beim nächsten Mal sicher, dass Ihr Gerät für den Test bereit ist, und versuchen Sie, ein qualitativ hochwertiges Feedback zu geben.",
-      "best_practices": "Bitte informieren Sie sich in unserem Hilfe-Center über unsere {{Best-Practice-Empfehlungen}}, um solche Mängel in Zukunft zu vermeiden.",
+      "best_practices": "Bitte informieren Sie sich in unserem Hilfe-Center über unsere <a href=\"https://participant-support.usertesting.com/hc/articles/37416051787795-Top-tips-for-a-successful-test\">Best-Practice-Empfehlungen</a>, um solche Mängel in Zukunft zu vermeiden.",
       "body_text": "Leider müssen wir Ihnen mitteilen, dass Ihre Teilnahme am Test {{projectId}} nicht zugelassen wurde und Sie keine Testvergütung erhalten.",
       "quality_list": {
         "internet_connection": "Ihre Internetverbindung könnte zu schlecht gewesen sein.",
@@ -367,7 +367,7 @@
         "title": "Häufige Gründe für die Nichtgenehmigung sind:",
         "tol": "Gedanken werden nicht laut ausgesprochen"
       },
-      "second_body_text": "Wenn Sie glauben, dass dies ein Fehler war, oder Sie die Übung wiederholen möchten, wenden Sie sich bitte an unser {{Support-Team}}.  ",
+      "second_body_text": "Wenn Sie glauben, dass dies ein Fehler war, oder Sie die Übung wiederholen möchten, wenden Sie sich bitte an unser <a href=\"https://participant-support.usertesting.com/hc/requests/new\">Support-Team</a>.",
       "subject": "Übungseinheit nicht genehmigt",
       "title": "Übungseinheit nicht genehmigt"
     },
@@ -479,6 +479,13 @@
       "body_text": "Nur eine freundliche Erinnerung an Ihre bevorstehende Live-Diskussion:",
       "subject": "Erinnerung: Ihre Live-Diskussion beginnt in 30 Minuten!",
       "title": "Beginnt demnächst: Live-Diskussion"
+    },
+    "emails": {
+      "icsParticipant": {
+        "description": "Session beitreten: \n{{sessionLink}} \nFalls du an dieser Session nicht mehr zur geplanten Zeit teilnehmen kannst, kannst du sie mit dem folgendem Link verschieben order absagen: \n{{rescheduleLink}}",
+        "fileName": "Live-Gesprächssitzung",
+        "summary": "Live-Gesprächssitzung"
+      }
     }
   }
 }

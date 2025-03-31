@@ -278,7 +278,7 @@
       "privacy_policy": "Política de Privacidad",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Soporte",
-      "support_link": "https://participant-support.usertesting.com/hc/en-us",
+      "support_link": "https://participant-support.usertesting.com/hc",
       "terms_of_service": "Condiciones del Servicio",
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
@@ -298,7 +298,7 @@
         "support_center": "Centro de soporte",
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team": "equipo de soporte",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_team_link": "https://participant-support.usertesting.com/hc/requests/new"
       },
       "sign_off": "Gracias, <br>El equipo de UserTesting"
     },
@@ -309,14 +309,14 @@
     },
     "panelist_removal_email": {
       "first_body_text": "Hemos eliminado su cuenta y la información de nuestro sistema (este correo electrónico es la última comunicación que recibirá de nosotros).",
-      "second_body_text": "Si no lo ha solicitado, puede deberse a un largo período de inactividad o debido a un uso inadecuado de nuestra plataforma que haya supuesto una violación de nuestros {{Términos de servicio}}.",
+      "second_body_text": "Si no lo ha solicitado, puede deberse a un largo período de inactividad o debido a un uso inadecuado de nuestra plataforma que haya supuesto una violación de nuestros <a href=\"https://www.usertesting.com/privacy-center/terms-of-service-contributor\">Términos de servicio</a>.",
       "subject": "Su cuenta de User Testing ha sido eliminada",
-      "third_body_text": "Si cree que se trata de un error o desea más información, {{póngase en contacto con nosotros}} o visite nuestro {{Centro de asistencia}}.",
+      "third_body_text": "Si cree que se trata de un error o desea más información, <a href=\"https://participant-support.usertesting.com/hc/requests/new\">póngase en contacto con nosotros</a> o visite nuestro <a href=\"https://participant-support.usertesting.com/hc\">Centro de asistencia</a>.",
       "title": "Cuenta UserTesting eliminada"
     },
     "participant_not_paid_email": {
       "advice": "La próxima vez, asegúrese de que su dispositivo está preparado para la prueba y haga todo lo posible para aportar comentarios de la mejor calidad.",
-      "best_practices": "Para evitar que esto vuelva a suceder en el futuro, revise estas {{recomendaciones de mejores prácticas}} en nuestro Centro de asistencia.",
+      "best_practices": "Para evitar que esto vuelva a suceder en el futuro, revise estas <a href=\"https://participant-support.usertesting.com/hc/articles/37416051787795-Top-tips-for-a-successful-test\">recomendaciones de mejores prácticas</a> en nuestro Centro de asistencia.",
       "body_text": "Sentimos informarle de que su participación en la prueba {{projectId}} no ha sido aprobada y no recibirá la recompensa de la prueba.",
       "quality_list": {
         "internet_connection": "Mala conexión a internet.",
@@ -367,7 +367,7 @@
         "title": "Algunas razones comunes por las que no se aprueba son",
         "tol": "No expresar tus pensamientos en voz alta"
       },
-      "second_body_text": "Si crees que se trata de un error, o quieres repetir la sesión de práctica, ponte en contacto con nuestro {{equipo de soporte}}.  ",
+      "second_body_text": "Si crees que se trata de un error, o quieres repetir la sesión de práctica, ponte en contacto con nuestro <a href=\"https://participant-support.usertesting.com/hc/requests/new\">equipo de soporte</a>.",
       "subject": "Sesión de práctica no aprobada",
       "title": "Sesión de práctica no aprobada"
     },
@@ -479,6 +479,13 @@
       "body_text": "Esto es solo un recordatorio de su próxima Conversación en directo:",
       "subject": "Recordatorio: ¡Su Conversación en directo comienza en 30 minutos!",
       "title": "Comienza pronto: Conversación en directo"
+    },
+    "emails": {
+      "icsParticipant": {
+        "description": "Entrar en la sesión:\n{{sessionLink}}\nEn caso que no puedas asistir a la sesión, puedes reprogramarla o cancelarla con el siguiente enlace: \n{{rescheduleLink}}",
+        "fileName": "Sesión de conversación en vivo",
+        "summary": "Sesión de conversación en vivo"
+      }
     }
   }
 }
