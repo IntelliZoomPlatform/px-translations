@@ -309,14 +309,14 @@
     },
     "panelist_removal_email": {
       "first_body_text": "Vi har slettet din konto og dine oplysninger fra vores system (denne e-mail er den sidste kommunikation, du kommer til at modtage fra os).",
-      "second_body_text": "Hvis du ikke anmodede om dette, kan det skyldes en lang periode uden aktivitet, eller misbrug af vores platform, der resulterede i en overtrædelse af vores {{tjenestevilkår}}.",
+      "second_body_text": "Hvis du ikke anmodede om dette, kan det skyldes en lang periode uden aktivitet, eller misbrug af vores platform, der resulterede i en overtrædelse af vores <a href=\"https://www.usertesting.com/privacy-center/terms-of-service-contributor\">tjenestevilkår</a>.",
       "subject": "Din UserTesting-konto er blevet slettet",
-      "third_body_text": "Hvis du mener, at dette er en fejl, eller hvis du vil have flere oplysninger, bedes du {{kontakte os}} eller besøge vores {{supportcenter}}.",
+      "third_body_text": "Hvis du mener, at dette er en fejl, eller hvis du vil have flere oplysninger, bedes du <a href=\"https://participant-support.usertesting.com/hc/requests/new\">kontakte os</a> eller besøge vores <a href=\"https://participant-support.usertesting.com/hc\">supportcenter</a>.\n",
       "title": "UserTesting-konto slettet"
     },
     "participant_not_paid_email": {
       "advice": "Næste gang skal du sørge for, at din enhed er klar til testen, og at du gør dit bedste for at give feedback i topkvalitet.",
-      "best_practices": "For at undgå, at dette sker igen i fremtiden, bedes du gennemse disse {{best practice-anbefalinger}} i vores supportcenter.",
+      "best_practices": "For at undgå, at dette sker igen i fremtiden, bedes du gennemse disse <a href=\"https://participant-support.usertesting.com/hc/articles/37416051787795-Top-tips-for-a-successful-test\">best practice-anbefalinger</a> i vores supportcenter.",
       "body_text": "Vi beklager at måtte informere dig om, at din deltagelse i testen {{projectId}} ikke er blevet godkendt, og at du ikke modtager belønning for testen.",
       "quality_list": {
         "internet_connection": "Ringe internetforbindelse.",
@@ -367,7 +367,7 @@
         "title": "Almindelige årsager til manglende godkendelse omfatter:",
         "tol": "At ikke sige hvad du tænker"
       },
-      "second_body_text": "Hvis du mener, at dette er en fejl eller gerne vil tage prøvesessionen igen, bedes du kontakte vores {{supportteam}}.  ",
+      "second_body_text": "Hvis du mener, at dette er en fejl eller gerne vil tage prøvesessionen igen, bedes du kontakte vores <a href=\"https://participant-support.usertesting.com/hc/requests/new\">supportteam</a>.",
       "subject": "Prøvesession ikke godkendt",
       "title": "Prøvesession ikke godkendt"
     },

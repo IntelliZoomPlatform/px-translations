@@ -309,14 +309,14 @@
     },
     "panelist_removal_email": {
       "first_body_text": "We hebben uw account en gegevens uit ons systeem verwijderd (deze e-mail is het laatste bericht dat u van ons ontvangt).",
-      "second_body_text": "Indien u dit niet heeft aangevraagd, kan dit zijn wegens een lange periode van inactiviteit of aan verkeerd gebruik van ons platform dat resulteert in een schending van onze {{Servicevoorwaarden}}.",
+      "second_body_text": "Indien u dit niet heeft aangevraagd, kan dit zijn wegens een lange periode van inactiviteit of aan verkeerd gebruik van ons platform dat resulteert in een schending van onze <a href=\"https://www.usertesting.com/privacy-center/terms-of-service-contributor\">Servicevoorwaarden</a>.",
       "subject": "Uw UserTesting-account is verwijderd",
-      "third_body_text": "Indien u denkt dat dit een fout is of meer gegevens wilt, {{neem dan contact met ons op}} of bezoek ons {{Supportcentrum}}.",
+      "third_body_text": "Indien u denkt dat dit een fout is of meer gegevens wilt, <a href=\"https://participant-support.usertesting.com/hc/requests/new\">neem dan contact met ons op</a> of bezoek ons <a href=\"https://participant-support.usertesting.com/hc\">Supportcentrum</a>.",
       "title": "UserTesting-account verwijderd"
     },
     "participant_not_paid_email": {
       "advice": "Zorg er de volgende keer voor dat uw apparaat klaar is voor de test en doe uw best om feedback van topkwaliteit te leveren.",
-      "best_practices": "Om ervoor te zorgen dat dit in de toekomst niet weer gebeurt: raadpleeg deze {{aanbevelingen best practice}} in ons Support Center.",
+      "best_practices": "Om ervoor te zorgen dat dit in de toekomst niet weer gebeurt: raadpleeg deze <a href=\"https://participant-support.usertesting.com/hc/articles/37416051787795-Top-tips-for-a-successful-test\">aanbevelingen best practice</a> in ons Support Center.",
       "body_text": "We moeten u helaas meedelen dat uw deelname aan test {{projectId}} niet is goedgekeurd en u niet voor de beloning in aanmerking komt.",
       "quality_list": {
         "internet_connection": "Slechte internetverbinding",
@@ -367,7 +367,7 @@
         "title": "Enkele veelvoorkomende redenen waarom uw aanvraag niet  goedgekeurd is, zijn:",
         "tol": "Uw gedachten niet hardop uitspreken"
       },
-      "second_body_text": "Als u denkt dat dit een vergissing  is, of als u de oefensessie opnieuw wilt doen, neem dan contact op met ons {{supportteam}}.  ",
+      "second_body_text": "Als u denkt dat dit een vergissing  is, of als u de oefensessie opnieuw wilt doen, neem dan contact op met ons <a href=\"https://participant-support.usertesting.com/hc/requests/new\">supportteam</a>.",
       "subject": "Oefensessie afgekeurd",
       "title": "Oefensessie afgekeurd"
     },
