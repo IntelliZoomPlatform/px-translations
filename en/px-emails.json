@@ -376,7 +376,8 @@
       "button": "Activate account",
       "button_microcopy": "This link expires in 24 hours",
       "subject": "Action required: Activate account",
-      "title": "Activate your account"
+      "title": "Activate your account",
+      "greeting": "Hey there,"
     },
     "study_complete_email": {
       "body_text": "We’ll process your payment for test {{projectId}} via PayPal to the same email account registered with UserTesting. This process usually takes 14 days. The reward for this test is {{studyFee}}.",
