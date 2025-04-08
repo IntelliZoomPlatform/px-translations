@@ -376,7 +376,8 @@
       "button": "Konto aktivieren",
       "button_microcopy": "Dieser Link läuft in 24 Stunden ab",
       "subject": "Handlung erforderlich: Konto aktivieren",
-      "title": "Aktivieren Sie Ihr Konto"
+      "title": "Aktivieren Sie Ihr Konto",
+      "greeting": "Hallo,"
     },
     "study_complete_email": {
       "body_text": "Wir werden Ihre Zahlung für den Test {{projectId}} über PayPal an das gleiche E-Mail-Konto abwickeln, das bei UserTesting registriert ist. Dieser Vorgang dauert normalerweise 14 Tage. Die Belohnung für diesen Test ist {{studyFee}}.",

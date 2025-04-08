@@ -376,7 +376,8 @@
       "button": "Activer mon compte",
       "button_microcopy": "Ce lien expire dans 24 h",
       "subject": "Action requise : Activer le compte",
-      "title": "Activez votre compte"
+      "title": "Activez votre compte",
+      "greeting": "Bonjour, "
     },
     "study_complete_email": {
       "body_text": "Votre paiement pour le test {{projectId}} sera traité via PayPal en utilisant le même compte de messagerie enregistré auprès de UserTesting. Ce processus nécessite généralement 14 jours d'attente. La récompense pour ce test est de {{studyFee}}.",

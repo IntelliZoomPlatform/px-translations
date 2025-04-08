@@ -376,7 +376,8 @@
       "button": "Activeer account",
       "button_microcopy": "Deze link vervalt over 24 uur",
       "subject": "Actie vereist: Activeer account",
-      "title": "Activeer uw account"
+      "title": "Activeer uw account",
+      "greeting": "Hoi,"
     },
     "study_complete_email": {
       "body_text": "We verwerken uw betaling voor de  {{projectId}}-test via PayPal naar hetzelfde e-mailadres dat  geregistreerd is bij UserTesting. Dit proces duurt normaal gesproken 14 dagen. De beloning voor deze test is {{studyFee}}.",

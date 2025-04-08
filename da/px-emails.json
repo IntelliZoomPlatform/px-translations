@@ -376,7 +376,8 @@
       "button": "Aktivere konto",
       "button_microcopy": "Dette link udløber om 24 timer",
       "subject": "Handling påkrævet: aktiver konto",
-      "title": "Aktiver din konto"
+      "title": "Aktiver din konto",
+      "greeting": "Hejsa,"
     },
     "study_complete_email": {
       "body_text": "Vi behandler din betaling for testen {{projectId}} via PayPal til den samme e-mailkonto, som er registreret ved UserTesting. Denne proces tager normalt 14 dage. Belønningen for denne test er {{studyFee}}.",
