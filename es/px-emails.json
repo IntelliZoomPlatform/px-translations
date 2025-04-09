@@ -376,7 +376,8 @@
       "button": "Activa tu cuenta",
       "button_microcopy": "Este enlace caduca en 24 horas",
       "subject": "Acción requerida: Activar cuenta",
-      "title": "Activa tu cuenta"
+      "title": "Activa tu cuenta",
+      "greeting": "Hola,"
     },
     "study_complete_email": {
       "body_text": "Procesaremos tu pago por el test {{projectId}} a través de PayPal a la misma cuenta de correo electrónico registrada en UserTesting. Este proceso suele tardar 14 días. La recompensa por este test es {{studyFee}}.",
