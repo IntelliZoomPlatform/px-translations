@@ -285,7 +285,7 @@
     "forgot_password_email": {
       "body_text": "Wir haben eine Anfrage zum Zurücksetzen Ihres Passworts erhalten. Klicken Sie auf die Schaltfläche unten, um ein neues Passwort zu erstellen.",
       "button": "Passwort zurücksetzen",
-      "button_microcopy": "Dieser Link läuft in 1 Stunde ab",
+      "button_microcopy": "Dieser Link läuft in 1 Stunde ab und kann nur einmal genutzt werden",
       "subject": "Handlung erforderlich: Passwort zurücksetzen",
       "title": "Passwort zurücksetzen"
     },
@@ -340,10 +340,11 @@
       "title": "Neuer Test verfügbar"
     },
     "paypal_integration_revoked_email": {
-      "body_text": "uns ist aufgefallen, dass Ihr PayPal-Konto nicht länger mit UserTesting verbunden ist.\n\nUm weiterhin Einladungen zu erhalten, an bezahlten Tests teilzunehmen und ausstehende Zahlungen anzunehmen, rufen Sie bitte die Homepage von UserTesting auf und verbinden Sie Ihr PayPal-Konto dort erneut.",
       "button": "UserTesting Start",
       "subject": "Aktion erforderlich: PayPal-Konto verbinden",
-      "title": "Verbinden Sie Ihr PayPal-Konto mit UserTesting"
+      "title": "Verbinden Sie Ihr PayPal-Konto mit UserTesting",
+      "body_text_one": "uns ist aufgefallen, dass Ihr PayPal-Konto nicht länger mit UserTesting verbunden ist.",
+      "body_text_two": "Um weiterhin Einladungen zu erhalten, an bezahlten Tests teilzunehmen und ausstehende Zahlungen anzunehmen, rufen Sie bitte die Homepage von UserTesting auf und verbinden Sie Ihr PayPal-Konto dort erneut."
     },
     "practice_study_complete_email": {
       "first_body_text": "Wir prüfen Ihre Übungseinheit – dies dauert in der Regel 4 Tage – und teilen Ihnen dann mit, ob sie genehmigt wurde. ",

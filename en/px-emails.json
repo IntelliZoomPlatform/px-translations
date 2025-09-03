@@ -285,7 +285,7 @@
     "forgot_password_email": {
       "body_text": "We received a request to reset your password. Select the button below to create a new one.",
       "button": "Reset password",
-      "button_microcopy": "This link expires in 1 hour",
+      "button_microcopy": "This link expires in 1 hour and can only be used once",
       "subject": "Action required: Reset password",
       "title": "Reset password"
     },
@@ -340,10 +340,11 @@
       "title": "New test available"
     },
     "paypal_integration_revoked_email": {
-      "body_text": "We noticed your PayPal account has been disconnected from UserTesting.\n\nTo keep receiving invites, participate in paid tests, and receive any pending payments, go to your UserTesting Home page and connect your PayPal account again.",
       "button": "UserTesting Home",
       "subject": "Action required: Connect your PayPal account",
-      "title": "Connect your PayPal to UserTesting"
+      "title": "Connect your PayPal to UserTesting",
+      "body_text_one": "We noticed your PayPal account has been disconnected from UserTesting.",
+      "body_text_two": "To keep receiving invites, participate in paid tests, and receive any pending payments, go to your UserTesting Home page and connect your PayPal account again."
     },
     "practice_study_complete_email": {
       "first_body_text": "We’ll check through your practice session–this usually takes 4 days–then let you know if it’s been approved. ",

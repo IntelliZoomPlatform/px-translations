@@ -285,7 +285,7 @@
     "forgot_password_email": {
       "body_text": "Nous avons reçu une demande de réinitialisation de votre mot de passe. Sélectionnez le bouton ci-dessous pour en créer un nouveau.",
       "button": "Réinitialiser votre mot de passe",
-      "button_microcopy": "Ce lien expire dans 1 h",
+      "button_microcopy": "Ce lien expire dans 1 heure et ne peut être utilisé qu'une seule fois",
       "subject": "Action requise : Réinitialiser le mot de passe",
       "title": "Réinitialiser votre mot de passe"
     },
@@ -340,10 +340,11 @@
       "title": "Nouveau test disponible"
     },
     "paypal_integration_revoked_email": {
-      "body_text": "Nous avons remarqué que votre compte PayPal a été déconnecté de UserTesting.\n\nPour continuer à recevoir des invitations, participer à des tests payants et recevoir les paiements en attente, allez sur votre page d'accueil UserTesting et reconnectez votre compte PayPal.",
       "button": "UserTesting Accueil",
       "subject": "Action requise : connectez votre compte PayPal",
-      "title": "Connectez votre PayPal à UserTesting"
+      "title": "Connectez votre PayPal à UserTesting",
+      "body_text_one": "Nous avons remarqué que votre compte PayPal a été déconnecté de UserTesting.",
+      "body_text_two": "Pour continuer à recevoir des invitations, participer à des tests payants et recevoir les paiements en attente, allez sur votre page d'accueil UserTesting et reconnectez votre compte PayPal."
     },
     "practice_study_complete_email": {
       "first_body_text": "Nous vérifierons votre session d'essai, (cela devrait prendre 4 jours) et vous informerons ensuite de son approbation ou de son rejet. ",

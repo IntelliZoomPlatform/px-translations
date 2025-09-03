@@ -285,7 +285,7 @@
     "forgot_password_email": {
       "body_text": "Vi har tagit emot en begäran om att återställa ditt lösenord. Tryck på knappen nedan för att skapa ett nytt.",
       "button": "Återställ lösenord",
-      "button_microcopy": "Den här länken upphör att gälla om en timme",
+      "button_microcopy": "Länken upphör att gälla om 1 timme och kan endast användas en gång",
       "subject": "Åtgärd krävs: Återställ lösenord",
       "title": "Återställ lösenord"
     },
@@ -340,10 +340,11 @@
       "title": "Nytt test tillgängligt"
     },
     "paypal_integration_revoked_email": {
-      "body_text": "Vi noterade att ditt PayPal-konto har kopplats bort från TestKonto.\n\nOm du vill fortsätta att få inbjudningar, delta i betalda tester och ta emot eventuella väntande betalningar måste du gå till din TestKonto-hemsida och ansluta ditt PayPal-konto igen.",
       "button": "UserTesting Hem",
       "subject": "Åtgärd krävs: Anslut ditt PayPal-konto",
-      "title": "Anslut ditt PayPal till TestKonto"
+      "title": "Anslut ditt PayPal till TestKonto",
+      "body_text_one": "Vi noterade att ditt PayPal-konto har kopplats bort från TestKonto.",
+      "body_text_two": "Om du vill fortsätta att få inbjudningar, delta i betalda tester och ta emot eventuella väntande betalningar måste du gå till din TestKonto-hemsida och ansluta ditt PayPal-konto igen."
     },
     "practice_study_complete_email": {
       "first_body_text": "Vi kommer att gå igenom din övning – det här tar vanligtvis fyra dagar – sedan meddelar vi dig om den har godkänts. ",
