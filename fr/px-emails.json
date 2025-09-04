@@ -343,6 +343,7 @@
       "button": "UserTesting Accueil",
       "subject": "Action requise : connectez votre compte PayPal",
       "title": "Connectez votre PayPal à UserTesting",
+      "body_text": "Nous avons remarqué que votre compte PayPal a été déconnecté de UserTesting.\n\nPour continuer à recevoir des invitations, participer à des tests payants et recevoir les paiements en attente, allez sur votre page d'accueil UserTesting et reconnectez votre compte PayPal.",
       "body_text_one": "Nous avons remarqué que votre compte PayPal a été déconnecté de UserTesting.",
       "body_text_two": "Pour continuer à recevoir des invitations, participer à des tests payants et recevoir les paiements en attente, allez sur votre page d'accueil UserTesting et reconnectez votre compte PayPal."
     },

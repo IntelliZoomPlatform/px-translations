@@ -343,6 +343,7 @@
       "button": "UserTesting Start",
       "subject": "Handeling vereist: koppel uw PayPal-account",
       "title": "Koppel uw PayPal aan UserTesting",
+      "body_text": "Het is ons opgevallen dat uw PayPal-account is ontkoppeld van UserTesting.\n\nOm uitnodigingen te blijven ontvangen, aan betaalde tests deel te nemen en openstaande betalingen te ontvangen, gaat u naar uw UserTesting-thuispagina en koppelt u uw PayPal-account weer.",
       "body_text_one": "Het is ons opgevallen dat uw PayPal-account is ontkoppeld van UserTesting.",
       "body_text_two": "Om uitnodigingen te blijven ontvangen, aan betaalde tests deel te nemen en openstaande betalingen te ontvangen, gaat u naar uw UserTesting-thuispagina en koppelt u uw PayPal-account weer."
     },

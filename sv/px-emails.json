@@ -343,6 +343,7 @@
       "button": "UserTesting Hem",
       "subject": "Åtgärd krävs: Anslut ditt PayPal-konto",
       "title": "Anslut ditt PayPal till TestKonto",
+      "body_text": "Vi noterade att ditt PayPal-konto har kopplats bort från TestKonto.\n\nOm du vill fortsätta att få inbjudningar, delta i betalda tester och ta emot eventuella väntande betalningar måste du gå till din TestKonto-hemsida och ansluta ditt PayPal-konto igen.",
       "body_text_one": "Vi noterade att ditt PayPal-konto har kopplats bort från TestKonto.",
       "body_text_two": "Om du vill fortsätta att få inbjudningar, delta i betalda tester och ta emot eventuella väntande betalningar måste du gå till din TestKonto-hemsida och ansluta ditt PayPal-konto igen."
     },

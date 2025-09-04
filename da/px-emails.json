@@ -343,6 +343,7 @@
       "button": "UserTesting Hjem",
       "subject": "Handling påkrævet: Forbind din PayPal-konto",
       "title": "Forbind din PayPal til UserTesting",
+      "body_text": "Vi bemærkede, at din PayPal-konto er blevet afbrudt fra UserTesting.\n\nFor fortsat at modtage invitationer, deltage i betalte tests og modtage eventuelle afventende betalinger, skal du gå til UserTesting-forsiden og forbinde din PayPal-konto igen.",
       "body_text_one": "Vi bemærkede, at din PayPal-konto er blevet afbrudt fra UserTesting.",
       "body_text_two": "For fortsat at modtage invitationer, deltage i betalte tests og modtage eventuelle afventende betalinger, skal du gå til UserTesting-forsiden og forbinde din PayPal-konto igen."
     },
