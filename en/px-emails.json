@@ -340,7 +340,6 @@
       "title": "New test available"
     },
     "paypal_integration_revoked_email": {
-      "body_text": "We noticed your PayPal account has been disconnected from UserTesting.\n\nTo keep receiving invites, participate in paid tests, and receive any pending payments, go to your UserTesting Home page and connect your PayPal account again.",
       "body_text_one": "We noticed your PayPal account has been disconnected from UserTesting.",
       "body_text_two": "To keep receiving invites, participate in paid tests, and receive any pending payments, go to your UserTesting Home page and connect your PayPal account again.",
       "button": "UserTesting Home",
@@ -361,6 +360,7 @@
       "title": "Practice session approved"
     },
     "qualification_attempt_rejected_email": {
+      "button": "Retake practice session",
       "first_body_text": "We’re sorry, your practice session was not approved. ",
       "list": {
         "distractions": "Distractions whilst taking the practice session that impact video quality, such as excessive background noise ",
@@ -369,7 +369,7 @@
         "title": "Some common reasons for not being approved include:",
         "tol": "Not speaking your thoughts out loud"
       },
-      "second_body_text": "If you think this was a mistake, or would like to retake the practice session, please reach out to our <a href=\"https://participant-support.usertesting.com/hc/requests/new\">support team</a>.",
+      "second_body_text": "Read our <a href=\"https://participant-support.usertesting.com/hc/articles/45217722938131\">top tips article</a> and try again when you're ready.",
       "subject": "Practice session not approved",
       "title": "Practice session not approved"
     },
