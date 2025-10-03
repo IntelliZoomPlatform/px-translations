@@ -287,7 +287,8 @@
       "button": "Återställ lösenord",
       "button_microcopy": "Länken upphör att gälla om 1 timme och kan endast användas en gång",
       "subject": "Åtgärd krävs: Återställ lösenord",
-      "title": "Återställ lösenord"
+      "title": "Återställ lösenord",
+      "greeting": "Hej,"
     },
     "generic": {
       "greeting": "Hej {{user.firstName}},",
@@ -340,7 +341,6 @@
       "title": "Nytt test tillgängligt"
     },
     "paypal_integration_revoked_email": {
-      "body_text": "Vi noterade att ditt PayPal-konto har kopplats bort från TestKonto.\n\nOm du vill fortsätta att få inbjudningar, delta i betalda tester och ta emot eventuella väntande betalningar måste du gå till din TestKonto-hemsida och ansluta ditt PayPal-konto igen.",
       "body_text_one": "Vi noterade att ditt PayPal-konto har kopplats bort från TestKonto.",
       "body_text_two": "Om du vill fortsätta att få inbjudningar, delta i betalda tester och ta emot eventuella väntande betalningar måste du gå till din TestKonto-hemsida och ansluta ditt PayPal-konto igen.",
       "button": "UserTesting Hem",
@@ -369,9 +369,10 @@
         "title": "Några vanliga anledningar till att man inte blir godkänd är:",
         "tol": "Att du inte uttalar dina tankar högt"
       },
-      "second_body_text": "Om du tror att det här var ett misstag, eller om du vill göra om övningen, vänligen kontakta vårt <a href=\"https://participant-support.usertesting.com/hc/requests/new\">supportteam</a>.",
+      "second_body_text": "Läs vår <a href=\"https://participant-support.usertesting.com/hc/articles/45217722938131\">artikel med de bästa tipsen</a> och försök igen när du är redo.",
       "subject": "Övningen har inte godkänts",
-      "title": "Övningen har inte godkänts"
+      "title": "Övningen har inte godkänts",
+      "button": "Gör om övningssessionen"
     },
     "sign_up_email": {
       "body_text": "Klicka bara på knappen nedan för att aktivera ditt UserTesting-konto.",

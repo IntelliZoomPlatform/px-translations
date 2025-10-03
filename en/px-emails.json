@@ -287,7 +287,8 @@
       "button": "Reset password",
       "button_microcopy": "This link expires in 1 hour and can only be used once",
       "subject": "Action required: Reset password",
-      "title": "Reset password"
+      "title": "Reset password",
+      "greeting": "Hey there,"
     },
     "generic": {
       "greeting": "Hey {{user.firstName}},",
@@ -340,7 +341,6 @@
       "title": "New test available"
     },
     "paypal_integration_revoked_email": {
-      "body_text": "We noticed your PayPal account has been disconnected from UserTesting.\n\nTo keep receiving invites, participate in paid tests, and receive any pending payments, go to your UserTesting Home page and connect your PayPal account again.",
       "body_text_one": "We noticed your PayPal account has been disconnected from UserTesting.",
       "body_text_two": "To keep receiving invites, participate in paid tests, and receive any pending payments, go to your UserTesting Home page and connect your PayPal account again.",
       "button": "UserTesting Home",
@@ -369,9 +369,10 @@
         "title": "Some common reasons for not being approved include:",
         "tol": "Not speaking your thoughts out loud"
       },
-      "second_body_text": "If you think this was a mistake, or would like to retake the practice session, please reach out to our <a href=\"https://participant-support.usertesting.com/hc/requests/new\">support team</a>.",
+      "second_body_text": "Read our <a href=\"https://participant-support.usertesting.com/hc/articles/45217722938131\">top tips article</a> and try again when you're ready.",
       "subject": "Practice session not approved",
-      "title": "Practice session not approved"
+      "title": "Practice session not approved",
+      "button": "Retake practice session"
     },
     "sign_up_email": {
       "body_text": "Simply click the button below to activate your UserTesting account.",

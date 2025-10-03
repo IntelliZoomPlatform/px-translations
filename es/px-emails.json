@@ -287,7 +287,8 @@
       "button": "Restablecer contraseña",
       "button_microcopy": "Este enlace caduca dentro de una hora y solo puede usarse una vez.",
       "subject": "Acción requerida: Restablecer contraseña",
-      "title": "Restablecer contraseña"
+      "title": "Restablecer contraseña",
+      "greeting": "Hola,"
     },
     "generic": {
       "greeting": "¡Hola, {{user.firstName}},",
@@ -340,7 +341,6 @@
       "title": "Nueva prueba disponible"
     },
     "paypal_integration_revoked_email": {
-      "body_text": "Hemos detectado que su cuenta PayPal ha sido desconectada de UserTesting.\n\nPara seguir recibiendo invitaciones, participar en pruebas de pago y recibir cualquier pago pendiente, vaya a su página de inicio de UserTesting y conecte de nuevo su cuenta PayPal.",
       "body_text_one": "Hemos detectado que su cuenta PayPal ha sido desconectada de UserTesting.",
       "body_text_two": "Para seguir recibiendo invitaciones, participar en pruebas de pago y recibir cualquier pago pendiente, vaya a su página de inicio de UserTesting y conecte de nuevo su cuenta PayPal.",
       "button": "UserTesting Inicio",
@@ -369,9 +369,10 @@
         "title": "Algunas razones comunes por las que no se aprueba son",
         "tol": "No expresar tus pensamientos en voz alta"
       },
-      "second_body_text": "Si crees que se trata de un error, o quieres repetir la sesión de práctica, ponte en contacto con nuestro <a href=\"https://participant-support.usertesting.com/hc/requests/new\">equipo de soporte</a>.",
+      "second_body_text": "Lee nuestro <a href=\"https://participant-support.usertesting.com/hc/articles/45217722938131\">artículo de mejores consejos</a> e inténtalo de nuevo cuando estés listo.",
       "subject": "Sesión de práctica no aprobada",
-      "title": "Sesión de práctica no aprobada"
+      "title": "Sesión de práctica no aprobada",
+      "button": "Hacer de nuevo la sesión de práctica"
     },
     "sign_up_email": {
       "body_text": "Simplemente haz clic en el botón situado más abajo para activar tu cuenta UserTesting",
