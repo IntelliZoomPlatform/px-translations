@@ -370,9 +370,10 @@
         "title": "Some common reasons for not being approved include:",
         "tol": "Not speaking your thoughts out loud"
       },
-      "second_body_text": "If you think this was a mistake, or would like to retake the practice session, please reach out to our <a href=\"https://participant-support.usertesting.com/hc/requests/new\">support team</a>.",
+      "second_body_text": "Read our <a href=\"https://participant-support.usertesting.com/hc/articles/45217722938131\">top tips article</a> and try again when you're ready.",
       "subject": "Practice session not approved",
-      "title": "Practice session not approved"
+      "title": "Practice session not approved",
+      "button": "Retake practice session"
     },
     "sign_up_email": {
       "body_text": "Simply click the button below to activate your UserTesting account.",

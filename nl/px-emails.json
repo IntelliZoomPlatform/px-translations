@@ -370,9 +370,10 @@
         "title": "Enkele veelvoorkomende redenen waarom uw aanvraag niet  goedgekeurd is, zijn:",
         "tol": "Uw gedachten niet hardop uitspreken"
       },
-      "second_body_text": "Als u denkt dat dit een vergissing  is, of als u de oefensessie opnieuw wilt doen, neem dan contact op met ons <a href=\"https://participant-support.usertesting.com/hc/requests/new\">supportteam</a>.",
+      "second_body_text": "Lees ons <a href=\"https://participant-support.usertesting.com/hc/articles/45217722938131\">artikel met de beste tips</a> en probeer het opnieuw wanneer u zover bent.",
       "subject": "Oefensessie afgekeurd",
-      "title": "Oefensessie afgekeurd"
+      "title": "Oefensessie afgekeurd",
+      "button": "Oefensessie herhalen"
     },
     "sign_up_email": {
       "body_text": "Klik op onderstaande knop om uw UserTesting-account te activeren.",

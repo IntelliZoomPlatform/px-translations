@@ -370,9 +370,10 @@
         "title": "L'approbation est généralement refusée pour les raisons suivantes :",
         "tol": "Vous n'avez pas exprimé votre opinion à voix haute"
       },
-      "second_body_text": "Si vous pensez qu'il s'agit d'une erreur ou souhaitez reprendre la session d'essai, veuillez contacter notre <a href=\"https://participant-support.usertesting.com/hc/requests/new\">équipe d'assistance</a>.",
+      "second_body_text": "Consultez notre <a href=\"https://participant-support.usertesting.com/hc/articles/45217722938131\">article offrant les meilleurs conseils</a> et réessayez lorsque vous serez prêt(e).",
       "subject": "Session d'essai non approuvée",
-      "title": "Session d'essai non approuvée"
+      "title": "Session d'essai non approuvée",
+      "button": "Refaire la séance d'entraînement"
     },
     "sign_up_email": {
       "body_text": "Cliquez simplement sur le bouton ci-dessous pour activer votre compte UserTesting.",
