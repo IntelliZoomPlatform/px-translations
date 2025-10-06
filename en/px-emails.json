@@ -287,7 +287,8 @@
       "button": "Reset password",
       "button_microcopy": "This link expires in 1 hour and can only be used once",
       "subject": "Action required: Reset password",
-      "title": "Reset password"
+      "title": "Reset password",
+      "greeting": "Hey there,"
     },
     "generic": {
       "greeting": "Hey {{user.firstName}},",

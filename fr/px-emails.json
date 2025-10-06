@@ -287,7 +287,8 @@
       "button": "Réinitialiser votre mot de passe",
       "button_microcopy": "Ce lien expire dans 1 heure et ne peut être utilisé qu'une seule fois",
       "subject": "Action requise : Réinitialiser le mot de passe",
-      "title": "Réinitialiser votre mot de passe"
+      "title": "Réinitialiser votre mot de passe",
+      "greeting": "Bonjour, "
     },
     "generic": {
       "greeting": "Bonjour {{user.firstName}},",

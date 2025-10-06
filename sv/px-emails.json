@@ -287,7 +287,8 @@
       "button": "Återställ lösenord",
       "button_microcopy": "Länken upphör att gälla om 1 timme och kan endast användas en gång",
       "subject": "Åtgärd krävs: Återställ lösenord",
-      "title": "Återställ lösenord"
+      "title": "Återställ lösenord",
+      "greeting": "Hej,"
     },
     "generic": {
       "greeting": "Hej {{user.firstName}},",
