@@ -287,7 +287,8 @@
       "button": "Reset wachtwoord",
       "button_microcopy": "Deze link verloopt over één uur en kan maar één keer worden gebruikt",
       "subject": "Actie vereist: Wachtwoord resetten",
-      "title": "Reset wachtwoord"
+      "title": "Reset wachtwoord",
+      "greeting": "Hoi,"
     },
     "generic": {
       "greeting": "Hoi {{user.firstName}},",

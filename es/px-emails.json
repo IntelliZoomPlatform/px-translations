@@ -287,7 +287,8 @@
       "button": "Restablecer contraseña",
       "button_microcopy": "Este enlace caduca dentro de una hora y solo puede usarse una vez.",
       "subject": "Acción requerida: Restablecer contraseña",
-      "title": "Restablecer contraseña"
+      "title": "Restablecer contraseña",
+      "greeting": "Hola,"
     },
     "generic": {
       "greeting": "¡Hola, {{user.firstName}},",

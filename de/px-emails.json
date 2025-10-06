@@ -287,7 +287,8 @@
       "button": "Passwort zurücksetzen",
       "button_microcopy": "Dieser Link läuft in 1 Stunde ab und kann nur einmal genutzt werden",
       "subject": "Handlung erforderlich: Passwort zurücksetzen",
-      "title": "Passwort zurücksetzen"
+      "title": "Passwort zurücksetzen",
+      "greeting": "Hallo,"
     },
     "generic": {
       "greeting": "Hallo {{user.firstName}},",

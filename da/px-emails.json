@@ -287,7 +287,8 @@
       "button": "Nulstil adgangskode",
       "button_microcopy": "Dette link udløber om 1 time og kan kun bruges én gang",
       "subject": "Handling påkrævet: nulstil adgangskode",
-      "title": "Nulstil adgangskode"
+      "title": "Nulstil adgangskode",
+      "greeting": "Hejsa,"
     },
     "generic": {
       "greeting": "Hej {{user.firstName}},",
