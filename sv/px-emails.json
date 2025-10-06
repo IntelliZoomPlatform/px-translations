@@ -340,6 +340,7 @@
       "title": "Nytt test tillgängligt"
     },
     "paypal_integration_revoked_email": {
+      "body_text": "Vi noterade att ditt PayPal-konto har kopplats bort från TestKonto.\n\nOm du vill fortsätta att få inbjudningar, delta i betalda tester och ta emot eventuella väntande betalningar måste du gå till din TestKonto-hemsida och ansluta ditt PayPal-konto igen.",
       "body_text_one": "Vi noterade att ditt PayPal-konto har kopplats bort från TestKonto.",
       "body_text_two": "Om du vill fortsätta att få inbjudningar, delta i betalda tester och ta emot eventuella väntande betalningar måste du gå till din TestKonto-hemsida och ansluta ditt PayPal-konto igen.",
       "button": "UserTesting Hem",
@@ -360,7 +361,6 @@
       "title": "Övningen har godkänts"
     },
     "qualification_attempt_rejected_email": {
-      "button": "Gör om övningssessionen",
       "first_body_text": "Tyvärr har din övning inte godkänts. ",
       "list": {
         "distractions": "Störningar under övningen som påverkar videokvaliteten, till exempel för mycket bakgrundsljud ",
@@ -369,7 +369,7 @@
         "title": "Några vanliga anledningar till att man inte blir godkänd är:",
         "tol": "Att du inte uttalar dina tankar högt"
       },
-      "second_body_text": "Läs vår <a href=\"https://participant-support.usertesting.com/hc/articles/45217722938131\">artikel med de bästa tipsen</a> och försök igen när du är redo.",
+      "second_body_text": "Om du tror att det här var ett misstag, eller om du vill göra om övningen, vänligen kontakta vårt <a href=\"https://participant-support.usertesting.com/hc/requests/new\">supportteam</a>.",
       "subject": "Övningen har inte godkänts",
       "title": "Övningen har inte godkänts"
     },

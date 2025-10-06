@@ -340,6 +340,7 @@
       "title": "Nouveau test disponible"
     },
     "paypal_integration_revoked_email": {
+      "body_text": "Nous avons remarqué que votre compte PayPal a été déconnecté de UserTesting.\n\nPour continuer à recevoir des invitations, participer à des tests payants et recevoir les paiements en attente, allez sur votre page d'accueil UserTesting et reconnectez votre compte PayPal.",
       "body_text_one": "Nous avons remarqué que votre compte PayPal a été déconnecté de UserTesting.",
       "body_text_two": "Pour continuer à recevoir des invitations, participer à des tests payants et recevoir les paiements en attente, allez sur votre page d'accueil UserTesting et reconnectez votre compte PayPal.",
       "button": "UserTesting Accueil",
@@ -360,7 +361,6 @@
       "title": "Session d'essai approuvée"
     },
     "qualification_attempt_rejected_email": {
-      "button": "Refaire la séance d'entraînement",
       "first_body_text": "Nous sommes désolés, votre session d'essai n'a pas été approuvée. ",
       "list": {
         "distractions": "Des distractions pendant la session d'essai qui se répercutent sur la qualité de la vidéo, par exemple, des bruits de fond excessifs ",
@@ -369,7 +369,7 @@
         "title": "L'approbation est généralement refusée pour les raisons suivantes :",
         "tol": "Vous n'avez pas exprimé votre opinion à voix haute"
       },
-      "second_body_text": "Consultez notre <a href=\"https://participant-support.usertesting.com/hc/articles/45217722938131\">article offrant les meilleurs conseils</a> et réessayez lorsque vous serez prêt(e).",
+      "second_body_text": "Si vous pensez qu'il s'agit d'une erreur ou souhaitez reprendre la session d'essai, veuillez contacter notre <a href=\"https://participant-support.usertesting.com/hc/requests/new\">équipe d'assistance</a>.",
       "subject": "Session d'essai non approuvée",
       "title": "Session d'essai non approuvée"
     },
