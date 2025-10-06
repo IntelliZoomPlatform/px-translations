@@ -287,8 +287,7 @@
       "button": "Nulstil adgangskode",
       "button_microcopy": "Dette link udløber om 1 time og kan kun bruges én gang",
       "subject": "Handling påkrævet: nulstil adgangskode",
-      "title": "Nulstil adgangskode",
-      "greeting": "Hejsa,"
+      "title": "Nulstil adgangskode"
     },
     "generic": {
       "greeting": "Hej {{user.firstName}},",
@@ -341,6 +340,7 @@
       "title": "Ny test tilgængelig"
     },
     "paypal_integration_revoked_email": {
+      "body_text": "Vi bemærkede, at din PayPal-konto er blevet afbrudt fra UserTesting.\n\nFor fortsat at modtage invitationer, deltage i betalte tests og modtage eventuelle afventende betalinger, skal du gå til UserTesting-forsiden og forbinde din PayPal-konto igen.",
       "body_text_one": "Vi bemærkede, at din PayPal-konto er blevet afbrudt fra UserTesting.",
       "body_text_two": "For fortsat at modtage invitationer, deltage i betalte tests og modtage eventuelle afventende betalinger, skal du gå til UserTesting-forsiden og forbinde din PayPal-konto igen.",
       "button": "UserTesting Hjem",
@@ -369,10 +369,9 @@
         "title": "Almindelige årsager til manglende godkendelse omfatter:",
         "tol": "At ikke sige hvad du tænker"
       },
-      "second_body_text": "Læs vores <a href=\"https://participant-support.usertesting.com/hc/articles/45217722938131\">artikel med de bedste tips</a>, og prøv igen, når du er klar.",
+      "second_body_text": "Hvis du mener, at dette er en fejl eller gerne vil tage prøvesessionen igen, bedes du kontakte vores <a href=\"https://participant-support.usertesting.com/hc/requests/new\">supportteam</a>.",
       "subject": "Prøvesession ikke godkendt",
-      "title": "Prøvesession ikke godkendt",
-      "button": "Gentag træningssession"
+      "title": "Prøvesession ikke godkendt"
     },
     "sign_up_email": {
       "body_text": "Klik blot på knappen nedenfor for at aktivere din UserTesting-konto.",

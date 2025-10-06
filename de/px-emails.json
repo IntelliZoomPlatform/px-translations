@@ -287,8 +287,7 @@
       "button": "Passwort zurücksetzen",
       "button_microcopy": "Dieser Link läuft in 1 Stunde ab und kann nur einmal genutzt werden",
       "subject": "Handlung erforderlich: Passwort zurücksetzen",
-      "title": "Passwort zurücksetzen",
-      "greeting": "Hallo,"
+      "title": "Passwort zurücksetzen"
     },
     "generic": {
       "greeting": "Hallo {{user.firstName}},",
@@ -341,6 +340,7 @@
       "title": "Neuer Test verfügbar"
     },
     "paypal_integration_revoked_email": {
+      "body_text": "uns ist aufgefallen, dass Ihr PayPal-Konto nicht länger mit UserTesting verbunden ist.\n\nUm weiterhin Einladungen zu erhalten, an bezahlten Tests teilzunehmen und ausstehende Zahlungen anzunehmen, rufen Sie bitte die Homepage von UserTesting auf und verbinden Sie Ihr PayPal-Konto dort erneut.",
       "body_text_one": "uns ist aufgefallen, dass Ihr PayPal-Konto nicht länger mit UserTesting verbunden ist.",
       "body_text_two": "Um weiterhin Einladungen zu erhalten, an bezahlten Tests teilzunehmen und ausstehende Zahlungen anzunehmen, rufen Sie bitte die Homepage von UserTesting auf und verbinden Sie Ihr PayPal-Konto dort erneut.",
       "button": "UserTesting Start",
@@ -369,10 +369,9 @@
         "title": "Häufige Gründe für die Nichtgenehmigung sind:",
         "tol": "Gedanken werden nicht laut ausgesprochen"
       },
-      "second_body_text": "Lesen Sie unseren <a href=\"https://participant-support.usertesting.com/hc/articles/45217722938131\">Artikel mit den wichtigsten Tipps</a> und versuchen Sie es noch einmal, wenn Sie bereit sind.",
+      "second_body_text": "Wenn Sie glauben, dass dies ein Fehler war, oder Sie die Übung wiederholen möchten, wenden Sie sich bitte an unser <a href=\"https://participant-support.usertesting.com/hc/requests/new\">Support-Team</a>.",
       "subject": "Übungseinheit nicht genehmigt",
-      "title": "Übungseinheit nicht genehmigt",
-      "button": "Übungssitzung wiederholen"
+      "title": "Übungseinheit nicht genehmigt"
     },
     "sign_up_email": {
       "body_text": "Klicken Sie einfach auf die Schaltfläche unten, um Ihr UserTesting-Konto zu aktivieren.",

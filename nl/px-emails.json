@@ -287,8 +287,7 @@
       "button": "Reset wachtwoord",
       "button_microcopy": "Deze link verloopt over één uur en kan maar één keer worden gebruikt",
       "subject": "Actie vereist: Wachtwoord resetten",
-      "title": "Reset wachtwoord",
-      "greeting": "Hoi,"
+      "title": "Reset wachtwoord"
     },
     "generic": {
       "greeting": "Hoi {{user.firstName}},",
@@ -341,6 +340,7 @@
       "title": "Nieuwe test beschikbaar"
     },
     "paypal_integration_revoked_email": {
+      "body_text": "Het is ons opgevallen dat uw PayPal-account is ontkoppeld van UserTesting.\n\nOm uitnodigingen te blijven ontvangen, aan betaalde tests deel te nemen en openstaande betalingen te ontvangen, gaat u naar uw UserTesting-thuispagina en koppelt u uw PayPal-account weer.",
       "body_text_one": "Het is ons opgevallen dat uw PayPal-account is ontkoppeld van UserTesting.",
       "body_text_two": "Om uitnodigingen te blijven ontvangen, aan betaalde tests deel te nemen en openstaande betalingen te ontvangen, gaat u naar uw UserTesting-thuispagina en koppelt u uw PayPal-account weer.",
       "button": "UserTesting Start",
@@ -369,10 +369,9 @@
         "title": "Enkele veelvoorkomende redenen waarom uw aanvraag niet  goedgekeurd is, zijn:",
         "tol": "Uw gedachten niet hardop uitspreken"
       },
-      "second_body_text": "Lees ons <a href=\"https://participant-support.usertesting.com/hc/articles/45217722938131\">artikel met de beste tips</a> en probeer het opnieuw wanneer u zover bent.",
+      "second_body_text": "Als u denkt dat dit een vergissing  is, of als u de oefensessie opnieuw wilt doen, neem dan contact op met ons <a href=\"https://participant-support.usertesting.com/hc/requests/new\">supportteam</a>.",
       "subject": "Oefensessie afgekeurd",
-      "title": "Oefensessie afgekeurd",
-      "button": "Oefensessie herhalen"
+      "title": "Oefensessie afgekeurd"
     },
     "sign_up_email": {
       "body_text": "Klik op onderstaande knop om uw UserTesting-account te activeren.",
