@@ -369,9 +369,10 @@
         "title": "Häufige Gründe für die Nichtgenehmigung sind:",
         "tol": "Gedanken werden nicht laut ausgesprochen"
       },
-      "second_body_text": "Wenn Sie glauben, dass dies ein Fehler war, oder Sie die Übung wiederholen möchten, wenden Sie sich bitte an unser <a href=\"https://participant-support.usertesting.com/hc/requests/new\">Support-Team</a>.",
+      "second_body_text": "Lesen Sie unseren <a href=\"https://participant-support.usertesting.com/hc/articles/45217722938131\">Artikel mit den wichtigsten Tipps</a> und versuchen Sie es noch einmal, wenn Sie bereit sind.",
       "subject": "Übungseinheit nicht genehmigt",
-      "title": "Übungseinheit nicht genehmigt"
+      "title": "Übungseinheit nicht genehmigt",
+      "button": "Übungssitzung wiederholen"
     },
     "sign_up_email": {
       "body_text": "Klicken Sie einfach auf die Schaltfläche unten, um Ihr UserTesting-Konto zu aktivieren.",

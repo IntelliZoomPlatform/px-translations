@@ -369,9 +369,10 @@
         "title": "Almindelige årsager til manglende godkendelse omfatter:",
         "tol": "At ikke sige hvad du tænker"
       },
-      "second_body_text": "Hvis du mener, at dette er en fejl eller gerne vil tage prøvesessionen igen, bedes du kontakte vores <a href=\"https://participant-support.usertesting.com/hc/requests/new\">supportteam</a>.",
+      "second_body_text": "Læs vores <a href=\"https://participant-support.usertesting.com/hc/articles/45217722938131\">artikel med de bedste tips</a>, og prøv igen, når du er klar.",
       "subject": "Prøvesession ikke godkendt",
-      "title": "Prøvesession ikke godkendt"
+      "title": "Prøvesession ikke godkendt",
+      "button": "Gentag træningssession"
     },
     "sign_up_email": {
       "body_text": "Klik blot på knappen nedenfor for at aktivere din UserTesting-konto.",

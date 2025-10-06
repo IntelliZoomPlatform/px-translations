@@ -369,9 +369,10 @@
         "title": "Några vanliga anledningar till att man inte blir godkänd är:",
         "tol": "Att du inte uttalar dina tankar högt"
       },
-      "second_body_text": "Om du tror att det här var ett misstag, eller om du vill göra om övningen, vänligen kontakta vårt <a href=\"https://participant-support.usertesting.com/hc/requests/new\">supportteam</a>.",
+      "second_body_text": "Läs vår <a href=\"https://participant-support.usertesting.com/hc/articles/45217722938131\">artikel med de bästa tipsen</a> och försök igen när du är redo.",
       "subject": "Övningen har inte godkänts",
-      "title": "Övningen har inte godkänts"
+      "title": "Övningen har inte godkänts",
+      "button": "Gör om övningssessionen"
     },
     "sign_up_email": {
       "body_text": "Klicka bara på knappen nedan för att aktivera ditt UserTesting-konto.",
