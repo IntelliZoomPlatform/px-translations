@@ -362,7 +362,7 @@
       "title": "Övningen har godkänts"
     },
     "qualification_attempt_rejected_email": {
-      "first_body_text": "Tyvärr har din övning inte godkänts. ",
+      "first_body_text": "Din övningssession godkändes inte denna gång. Du kan göra om den när som helst från din instrumentpanel.",
       "list": {
         "distractions": "Störningar under övningen som påverkar videokvaliteten, till exempel för mycket bakgrundsljud ",
         "incorrect": "Felaktiga eller ofullständiga svar",

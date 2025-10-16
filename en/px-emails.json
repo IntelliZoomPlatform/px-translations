@@ -362,7 +362,7 @@
       "title": "Practice session approved"
     },
     "qualification_attempt_rejected_email": {
-      "first_body_text": "We’re sorry, your practice session was not approved. ",
+      "first_body_text": "Your practice session wasn’t approved this time. You can retake it anytime from your dashboard.",
       "list": {
         "distractions": "Distractions whilst taking the practice session that impact video quality, such as excessive background noise ",
         "incorrect": "Incorrect or incomplete answers",
