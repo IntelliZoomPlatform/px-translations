@@ -362,7 +362,7 @@
       "title": "Session d'essai approuvée"
     },
     "qualification_attempt_rejected_email": {
-      "first_body_text": "Nous sommes désolés, votre session d'essai n'a pas été approuvée. ",
+      "first_body_text": "Votre session d'entraînement n'a pas été approuvée cette fois-ci. Vous pouvez la repasser à tout moment depuis votre tableau de bord.",
       "list": {
         "distractions": "Des distractions pendant la session d'essai qui se répercutent sur la qualité de la vidéo, par exemple, des bruits de fond excessifs ",
         "incorrect": "Des réponses incorrectes ou incomplètes",

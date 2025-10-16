@@ -362,7 +362,7 @@
       "title": "Oefensessie goedgekeurd"
     },
     "qualification_attempt_rejected_email": {
-      "first_body_text": "Helaas is uw oefensessie niet goedgekeurd. ",
+      "first_body_text": "Je oefensessie is deze keer niet goedgekeurd. Je kunt het op elk moment opnieuw proberen via je dashboard.",
       "list": {
         "distractions": "Afleidingen tijdens de oefensessie die de videokwaliteit beïnvloeden, zoals overmatig achtergrondgeluid ",
         "incorrect": "Onjuiste of onvolledige antwoorden",

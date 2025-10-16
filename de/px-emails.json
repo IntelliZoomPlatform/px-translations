@@ -362,7 +362,7 @@
       "title": "Übungseinheit genehmigt"
     },
     "qualification_attempt_rejected_email": {
-      "first_body_text": "Leider wurde Ihre Übungseinheit nicht genehmigt. ",
+      "first_body_text": "Diesmal wurde die Übungssitzung nicht akzeptiert. Sie kann jederzeit über das Dashboard wiederholt werden.",
       "list": {
         "distractions": "Ablenkungen während der Aufnahme, die die Videoqualität beeinträchtigen, z. B. übermäßige Hintergrundgeräusche ",
         "incorrect": "Falsche oder unvollständige Antworten",

@@ -362,7 +362,7 @@
       "title": "Prøvesession godkendt"
     },
     "qualification_attempt_rejected_email": {
-      "first_body_text": "Vi beklager, din prøvesession blev ikke godkendt. ",
+      "first_body_text": "Din øvesession blev ikke godkendt denne gang. Du kan tage den igen når som helst via din oversigt.",
       "list": {
         "distractions": "Distraktioner under prøvesessionen, som påvirker videokvalitet, såsom tydelig baggrundsstøj ",
         "incorrect": "Forkerte eller ufuldstændige svar",

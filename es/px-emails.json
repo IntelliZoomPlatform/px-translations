@@ -362,7 +362,7 @@
       "title": "Sesión de prácticas aprobada"
     },
     "qualification_attempt_rejected_email": {
-      "first_body_text": "Lo sentimos, tu sesión de práctica no ha sido aprobada. ",
+      "first_body_text": "Tu sesión práctica no ha sido aprobada esta vez. Puedes volver a realizarla en cualquier momento desde el panel de control.",
       "list": {
         "distractions": "Distracciones mientras realizas la sesión de práctica que afectan a la calidad del vídeo, como un ruido de fondo excesivo ",
         "incorrect": "Respuestas incorrectas o incompletas",
