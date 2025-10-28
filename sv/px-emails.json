@@ -491,6 +491,14 @@
         "fileName": "Live-konversationssession",
         "summary": "Live-konversationssession"
       }
+    },
+    "verifiedFirstTest": {
+      "subject": "<strong>Möjlig åtgärd krävs:</strong> Det finns viktiga kommentarer om ditt slutförda test!",
+      "body": "Du har fått viktiga kommentarer om ditt slutförda test {{invitationId}} från {{sessionDate}}",
+      "title": "Viktiga kommentarer om ditt slutförda",
+      "whatSays": "<strong>Det här är vad vårt team hade att säga:</strong>",
+      "testLabel": "test",
+      "goodLuck": "Tack för att du är en UserTesting-deltagare, och lycka till på ditt nästa test!"
     }
   }
 }

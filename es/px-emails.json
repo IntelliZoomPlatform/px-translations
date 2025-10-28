@@ -491,6 +491,14 @@
         "fileName": "Sesión de conversación en vivo",
         "summary": "Sesión de conversación en vivo"
       }
+    },
+    "verifiedFirstTest": {
+      "subject": "<strong>Posible acción requerida:</strong> ¡hay comentarios importantes sobre tu prueba completada!",
+      "body": "Has recibido comentarios importantes sobre tu prueba completada {{invitationId}} del {{sessionDate}}",
+      "title": "Comentarios importantes sobre tu prueba completada",
+      "whatSays": "<strong>Esto es lo que nuestro equipo ha dicho:</strong>",
+      "testLabel": "test",
+      "goodLuck": "Gracias por participar en UserTesting y ¡mucha suerte en tu próxima prueba!"
     }
   }
 }

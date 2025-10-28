@@ -491,6 +491,14 @@
         "fileName": "Live Conversation session",
         "summary": "Live Conversation session"
       }
+    },
+    "verifiedFirstTest": {
+      "subject": "<strong>Possible action required:</strong> There are important comments on your completed test!",
+      "body": "You’ve received important comments on your completed test {{invitationId}} from {{sessionDate}}",
+      "title": "Important comments on your completed",
+      "whatSays": "<strong>Here’s what our team had to say:</strong>",
+      "testLabel": "test",
+      "goodLuck": "Thank you for being a UserTesting participant, and good luck on your next test!"
     }
   }
 }
