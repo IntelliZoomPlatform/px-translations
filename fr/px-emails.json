@@ -491,6 +491,14 @@
         "fileName": "Séance de conversation en direct",
         "summary": "Séance de conversation en direct"
       }
+    },
+    "verifiedFirstTest": {
+      "subject": "<strong>Action requise éventuelle :</strong> Des commentaires importants ont été formulés sur votre test terminé.",
+      "body": "Vous avez reçu des commentaires importants concernant votre test terminé {{invitationId}} du {{sessionDate}}",
+      "title": "Commentaires importants concernant votre test terminé",
+      "whatSays": "<strong>Voici ce que notre équipe avait à dire :</strong>",
+      "testLabel": "test",
+      "goodLuck": "Nous vous remercions d'avoir participé à UserTesting et vous souhaitons bonne chance pour votre prochain test."
     }
   }
 }

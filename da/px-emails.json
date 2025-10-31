@@ -491,6 +491,14 @@
         "fileName": "Live samtalesession",
         "summary": "Live samtalesession"
       }
+    },
+    "verifiedFirstTest": {
+      "subject": "<strong>Mulig handling påkrævet:</strong> Der er vigtige kommentarer på dine gennemførte tests!",
+      "body": "Du har modtaget vigtige kommentarer på din gennemførte test {{invitationId}} fra {{sessionDate}}",
+      "title": "Vigtige kommentarer på dine gennemførte",
+      "whatSays": "<strong>Vores team havde følgende at sige:</strong>",
+      "testLabel": "test",
+      "goodLuck": "Tak, fordi du er deltager hos UserTesting, og held og lykke med din næste test!"
     }
   }
 }
