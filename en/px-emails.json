@@ -438,10 +438,14 @@
       },
       "reward_amount": "Reward ${{8}}",
       "session_requirements": {
+        "desktop_session": "Your session requires that you join via <strong>Computer</strong> and will take place via Zoom, you can download the web app or join via your browser.",
         "enough_battery": "Your mobile device has enough battery or is connected to a charger.",
         "generic": "You’ll need the latest version of Chrome, Firefox, or Edge if you’re participating from a computer, or a mobile device with enough battery for a mobile session.",
+        "generic_session": "Your session will take place via Zoom. If you’re joining from a computer, you can download the web app or join via your browser. If you’re joining from a mobile device, you’ll need to download the Zoom app.",
         "join_before": "Please join 10 minutes before the start time to check your video and audio.",
+        "mobile_session": "Your session requires that you join via <strong>Mobile or Tablet</strong>. You’ll need to download the Zoom app onto your mobile before your session.",
         "quiet_environment": "Make sure you’re in a well-lit, quiet environment with a strong internet connection. We recommend the use of a headset.",
+        "session_starts": "Your session starts at the scheduled time. If you join more than 10 minutes later, you won't be able to participate or receive payment.",
         "title": "Session requirements:"
       },
       "test_type": {
@@ -473,6 +477,7 @@
         "title": "Add to your calendar"
       },
       "note_cancel": "<strong>Note:</strong> If you can no longer make this time, please <a href='{{entranceLink}}'>cancel</a> or <a href='{{entranceLink}}'>reschedule</a> your session as soon as possible.",
+      "note_session": "<strong>Note:</strong> If you need to <a href='{{entranceLink}}'>cancel</a> or <a href='{{entranceLink}}'>reschedule</a>, please do so at least 24 hours before the session starts. Frequent last-minute cancellations may lead to removal from our panel.",
       "session_link": "You can copy and paste the session link if you prefer: <br>{{sessionLink}}"
     },
     "time_slot_reminder_24h_email": {
@@ -499,6 +504,32 @@
       "whatSays": "<strong>Here’s what our team had to say:</strong>",
       "testLabel": "test",
       "goodLuck": "Thank you for being a UserTesting participant, and good luck on your next test!"
+    },
+    "utz_time_slot_confirmed_email": {
+      "body_text": "Your Live Conversation is booked for:",
+      "subject": "Your Live Conversation is confirmed",
+      "title": "Session confirmed"
+    },
+    "utz_time_slot_reminder_24h_email": {
+      "body_text": "This is just a friendly reminder of your upcoming Live Conversation:",
+      "subject": "Reminder: You have a Live Conversation tomorrow",
+      "title": "Tomorrow: Live Conversation"
+    },
+    "utz_time_slot_reminder_30m_email": {
+      "body_text": "This is just a friendly reminder of your upcoming Live Conversation:",
+      "subject": "Reminder: Your Live Conversation starts in 30 minutes!",
+      "title": "Starting soon: Live Conversation"
+    },
+    "utz_time_slot_canceled_email": {
+      "apology": "We’re sorry for the inconvenience and trouble this may have caused.",
+      "body_text": {
+        "by_moderator": "The following Live Conversation (study ID {{projectId}}) has been cancelled by the customer due to run your session:",
+        "by_participant": "As requested, we’ve cancelled your participation in the following {{sessionDuration}} minute Live Conversation:",
+        "by_system": "Unfortunately, your Live Conversation (study ID {{projectId}}) has been cancelled."
+      },
+      "see_you_again": "We hope to see you again soon.",
+      "subject": "Your Live Conversation has been cancelled",
+      "title": "Session cancelled"
     }
   }
 }
