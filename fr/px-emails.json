@@ -341,7 +341,6 @@
       "title": "Nouveau test disponible"
     },
     "paypal_integration_revoked_email": {
-      "body_text": "Nous avons remarqué que votre compte PayPal a été déconnecté de UserTesting.\n\nPour continuer à recevoir des invitations, participer à des tests payants et recevoir les paiements en attente, allez sur votre page d'accueil UserTesting et reconnectez votre compte PayPal.",
       "body_text_one": "Nous avons remarqué que votre compte PayPal a été déconnecté de UserTesting.",
       "body_text_two": "Pour continuer à recevoir des invitations, participer à des tests payants et recevoir les paiements en attente, allez sur votre page d'accueil UserTesting et reconnectez votre compte PayPal.",
       "button": "UserTesting Accueil",
@@ -499,6 +498,63 @@
       "whatSays": "<strong>Voici ce que notre équipe avait à dire :</strong>",
       "testLabel": "test",
       "goodLuck": "Nous vous remercions d'avoir participé à UserTesting et vous souhaitons bonne chance pour votre prochain test."
+    }
+  },
+  "utz_unified": {
+    "footer": {
+      "account_message": "Vous avez reçu ce mail, car un compte UserTesting a été créé\navec l'adresse e-mail : {{user.email}}",
+      "copyright": "©UserTesting {{currentYear}}, tous droits réservés.",
+      "manage_preferences": "Gérer les préférences de messagerie",
+      "privacy_policy": "Politique de confidentialité",
+      "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
+      "support": "Assistance",
+      "support_link": "https://participant-support.usertesting.com/hc",
+      "terms_of_service": "Conditions d'utilisation",
+      "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
+    },
+    "session_requirements": {
+      "desktop_session": "Votre séance nécessite que vous vous connectiez via un  <strong>ordinateur</strong> et se déroulera via Zoom. Vous pouvez télécharger l'application Web ou vous connecter via votre navigateur.",
+      "generic_session": "Votre séance se déroulera via Zoom. Si vous vous connectez depuis un ordinateur, vous pouvez télécharger l'application Web ou vous connecter via votre navigateur. Si vous vous connectez depuis un appareil mobile, vous devrez télécharger l'application Zoom.",
+      "join_before": "Veuillez vous présenter 10 minutes avant le début de la session pour vérifier votre vidéo et votre audio.",
+      "mobile_session": "Votre séance nécessite que vous vous connectiez via un <strong>téléphone portable ou une tablette</strong>. Vous devrez télécharger l'application Zoom sur votre téléphone portable avant votre séance.",
+      "quiet_environment": "Assurez-vous d'être dans un environnement bien éclairé, calme et doté d'une connexion internet solide. Nous vous recommandons d'utiliser un casque.",
+      "session_starts": "Votre séance commence à l'heure prévue. Si vous vous connectez plus de dix minutes après le début, vous ne pourrez pas participer ni recevoir de paiement.",
+      "title": "Exigences de la session :"
+    },
+    "time_slot_confirmed_email": {
+      "body_text": "Votre conversation en direct est réservée pour :",
+      "subject": "Votre conversation en direct est confirmée",
+      "title": "Session confirmée"
+    },
+    "time_slot_reminder_24h_email": {
+      "body_text": "Ceci n'est qu'un rappel amical de votre prochaine conversation en direct :",
+      "subject": "Rappel : Vous avez une conversation en direct demain",
+      "title": "Demain : conversation en direct"
+    },
+    "time_slot_reminder_30m_email": {
+      "body_text": "Ceci n'est qu'un rappel amical de votre prochaine conversation en direct :",
+      "subject": "Rappel : Votre conversation en direct commence dans 30 minutes !",
+      "title": "Bientôt disponible : conversation en direct"
+    },
+    "time_slot_canceled_email": {
+      "apology": "Nous sommes désolés pour les inconvénients et les problèmes que cela a pu causer.",
+      "body_text": {
+        "by_moderator": "La conversation en direct suivante (identifiant d'étude {{projectId}}) a été annulée par le client qui devait lancer votre séance :",
+        "by_participant": "Comme demandé, nous avons annulé votre participation à la conversation en direct de {{sessionDuration}} minutes suivante :",
+        "by_system": "Malheureusement, votre conversation en direct (identifiant d'étude {{projectId}}) a été annulée."
+      },
+      "see_you_again": "Nous espérons vous revoir bientôt.",
+      "subject": "Votre conversation en direct a été annulée",
+      "title": "Séance annulée"
+    },
+    "time_slot_email": {
+      "button": "Rejoindre la session",
+      "ics": {
+        "body_text": "Cliquez sur la pièce jointe iCalendar (ICS) à ce mail pour ajouter cet événement à votre calendrier.",
+        "title": "Ajouter à votre calendrier"
+      },
+      "note_session": "<strong>Remarque :</strong> si vous devez <a href='{{entranceLink}}'>annuler</a> ou <a href='{{entranceLink}}'>reprogrammer</a> la séance, veuillez le faire au moins 24 heures avant qu'elle ne commence. Des annulations fréquentes de dernière minute peuvent entraîner votre exclusion de notre panel.",
+      "session_link": "Vous pouvez copier et coller le lien de la séance si vous préférez : <br>{{sessionLink}}"
     }
   }
 }

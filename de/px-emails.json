@@ -341,7 +341,6 @@
       "title": "Neuer Test verfügbar"
     },
     "paypal_integration_revoked_email": {
-      "body_text": "uns ist aufgefallen, dass Ihr PayPal-Konto nicht länger mit UserTesting verbunden ist.\n\nUm weiterhin Einladungen zu erhalten, an bezahlten Tests teilzunehmen und ausstehende Zahlungen anzunehmen, rufen Sie bitte die Homepage von UserTesting auf und verbinden Sie Ihr PayPal-Konto dort erneut.",
       "body_text_one": "uns ist aufgefallen, dass Ihr PayPal-Konto nicht länger mit UserTesting verbunden ist.",
       "body_text_two": "Um weiterhin Einladungen zu erhalten, an bezahlten Tests teilzunehmen und ausstehende Zahlungen anzunehmen, rufen Sie bitte die Homepage von UserTesting auf und verbinden Sie Ihr PayPal-Konto dort erneut.",
       "button": "UserTesting Start",
@@ -499,6 +498,63 @@
       "whatSays": "<strong>Hier ist die Rückmeldung unseres Teams:</strong>",
       "testLabel": "Test",
       "goodLuck": "Vielen Dank, dass Sie an UserTesting teilnehmen. Wir wünschen Ihnen viel Erfolg für Ihren nächsten Test!"
+    }
+  },
+  "utz_unified": {
+    "footer": {
+      "account_message": "Sie haben diese E-Mail erhalten, weil ein Konto bei UserTesting unter Verwendung \ndieser E-Mail-Adresse erstellt wurde: {{user.email}}",
+      "copyright": "©UserTesting {{currentYear}}, Alle Rechte vorbehalten.",
+      "manage_preferences": "E-Mail-Einstellungen verwalten",
+      "privacy_policy": "Datenschutzerklärung",
+      "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
+      "support": "Support",
+      "support_link": "https://participant-support.usertesting.com/hc",
+      "terms_of_service": "Nutzungsbedingungen",
+      "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
+    },
+    "session_requirements": {
+      "desktop_session": "Für Ihre Sitzung ist die Teilnahme über einen <strong>Computer</strong> erforderlich. Die Sitzung findet über Zoom statt. Sie können die Web-App herunterladen oder über Ihren Browser teilnehmen.",
+      "generic_session": "Ihre Sitzung findet über Zoom statt. Wenn Sie über einen Computer teilnehmen, können Sie die Web-App herunterladen oder über Ihren Browser teilnehmen. Wenn Sie über ein Mobilgerät teilnehmen, müssen Sie die Zoom-App herunterladen.",
+      "join_before": "Bitte treten Sie 10 Minuten vor dem geplanten Beginn bei, um noch Ihr Video- und Audiosignal prüfen zu können.",
+      "mobile_session": "Alternativ können Sie über ein <strong>Mobilgerät oder Tablet</strong> teilnehmen. Laden Sie dazu bitte vor Ihrer Sitzung die Zoom-App auf Ihr Mobilgerät herunter.",
+      "quiet_environment": "Achten Sie darauf, dass Sie sich in einer gut beleuchteten, ruhigen Umgebung mit einer stabilen Internetverbindung befinden. Wir empfehlen die Verwendung eines Headsets.",
+      "session_starts": "Ihre Sitzung beginnt zum vereinbarten Zeitpunkt. Sollten Sie mehr als 10 Minuten später eintreffen, können Sie nicht teilnehmen und erhalten keine Vergütung.",
+      "title": "Anforderungen an die Session:"
+    },
+    "time_slot_confirmed_email": {
+      "body_text": "Ihr Live-Gespräch ist gebucht für:",
+      "subject": "Ihre Live-Diskussion wurde bestätigt",
+      "title": "Sitzung bestätigt"
+    },
+    "time_slot_reminder_24h_email": {
+      "body_text": "Nur eine freundliche Erinnerung an Ihre bevorstehende Live-Diskussion:",
+      "subject": "Erinnerung: Für morgen ist eine Live-Diskussion geplant",
+      "title": "Morgen: Live-Diskussion"
+    },
+    "time_slot_reminder_30m_email": {
+      "body_text": "Nur eine freundliche Erinnerung an Ihre bevorstehende Live-Diskussion:",
+      "subject": "Erinnerung: Ihre Live-Diskussion beginnt in 30 Minuten!",
+      "title": "Beginnt demnächst: Live-Diskussion"
+    },
+    "time_slot_canceled_email": {
+      "apology": "Wir entschuldigen uns für die Unannehmlichkeiten und den dadurch möglicherweise entstandenen Aufwand.",
+      "body_text": {
+        "by_moderator": "Die folgende Live-Diskussion (Studien-ID {{projectId}}) wurde vom Klienten, der die Session durchführen sollte, abgesagt:",
+        "by_participant": "Wir haben Ihre Teilnahme an der folgenden {{sessionDuration}}-minütigen Live-Diskussion wie gewünscht abgesagt:",
+        "by_system": "Leider wurde Ihre Live-Diskussion (Studien-ID {{projectId}}) abgesagt."
+      },
+      "see_you_again": "Wir hoffen dich bald wieder zu sehen.",
+      "subject": "Ihre Live-Diskussion wurde abgesagt",
+      "title": "Session abgesagt"
+    },
+    "time_slot_email": {
+      "button": "Sitzung beitreten",
+      "ics": {
+        "body_text": "Klicken Sie auf den iCalendar-Anhang (ICS) in dieser E-Mail, um diese Veranstaltung zu Ihrem Kalender hinzuzufügen.",
+        "title": "Zu Ihrem Kalender hinzufügen"
+      },
+      "note_session": "<strong>Hinweis:</strong> Sollten Sie Ihre Sitzung <a href='{{entranceLink}}'>absagen</a> oder <a href='{{entranceLink}}'>verschieben</a> müssen, tun Sie dies bitte mindestens 24 Stunden vor Beginn. Häufige kurzfristige Absagen können zum Ausschluss aus unserem Panel führen.",
+      "session_link": "Wenn Sie möchten, können Sie den Link zur Session auch kopieren und einfügen: <br>{{sessionLink}}"
     }
   }
 }
