@@ -514,14 +514,14 @@
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
     "session_requirements": {
-        "desktop_session": "Your session requires that you join via <strong>Computer</strong> and will take place via Zoom, you can download the web app or join via your browser.",
-        "generic_session": "Your session will take place via Zoom. If you’re joining from a computer, you can download the web app or join via your browser. If you’re joining from a mobile device, you’ll need to download the Zoom app.",
-        "join_before": "Please join 10 minutes before the start time to check your video and audio.",
-        "mobile_session": "Your session requires that you join via <strong>Mobile or Tablet</strong>. You’ll need to download the Zoom app onto your mobile before your session.",
-        "quiet_environment": "Make sure you’re in a well-lit, quiet environment with a strong internet connection. We recommend the use of a headset.",
-        "session_starts": "Your session starts at the scheduled time. If you join more than 10 minutes later, you won't be able to participate or receive payment.",
-        "title": "Session requirements:"
-      },
+      "desktop_session": "Your session requires that you join via <strong>Computer</strong> and will take place via Zoom, you can download the web app or join via your browser.",
+      "generic_session": "Your session will take place via Zoom. If you’re joining from a computer, you can download the web app or join via your browser. If you’re joining from a mobile device, you’ll need to download the Zoom app.",
+      "join_before": "Please join 10 minutes before the start time to check your video and audio.",
+      "mobile_session": "Your session requires that you join via <strong>Mobile or Tablet</strong>. You’ll need to download the Zoom app onto your mobile before your session.",
+      "quiet_environment": "Make sure you’re in a well-lit, quiet environment with a strong internet connection. We recommend the use of a headset.",
+      "session_starts": "Your session starts at the scheduled time. If you join more than 10 minutes later, you won't be able to participate or receive payment.",
+      "title": "Session requirements:"
+    },
     "time_slot_confirmed_email": {
       "body_text": "Your Live Conversation is booked for:",
       "subject": "Your Live Conversation is confirmed",
@@ -570,5 +570,5 @@
       },
       "sign_off": "Thanks, <br>The UserTesting team"
     }
-  }  
+  }
 }

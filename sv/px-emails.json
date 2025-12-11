@@ -341,7 +341,6 @@
       "title": "Nytt test tillgängligt"
     },
     "paypal_integration_revoked_email": {
-      "body_text": "Vi noterade att ditt PayPal-konto har kopplats bort från TestKonto.\n\nOm du vill fortsätta att få inbjudningar, delta i betalda tester och ta emot eventuella väntande betalningar måste du gå till din TestKonto-hemsida och ansluta ditt PayPal-konto igen.",
       "body_text_one": "Vi noterade att ditt PayPal-konto har kopplats bort från TestKonto.",
       "body_text_two": "Om du vill fortsätta att få inbjudningar, delta i betalda tester och ta emot eventuella väntande betalningar måste du gå till din TestKonto-hemsida och ansluta ditt PayPal-konto igen.",
       "button": "UserTesting Hem",
@@ -499,6 +498,63 @@
       "whatSays": "<strong>Det här är vad vårt team hade att säga:</strong>",
       "testLabel": "test",
       "goodLuck": "Tack för att du är en UserTesting-deltagare, och lycka till på ditt nästa test!"
+    }
+  },
+  "utz_unified": {
+    "footer": {
+      "account_message": "Du får det här e-postmeddelandet eftersom ett konto har skapats hos UserTesting\nmed e-postadressen {{user.email}}.",
+      "copyright": "©UserTesting {{currentYear}}, alla rättigheter reserverade.",
+      "manage_preferences": "Hantera e-postinställningar",
+      "privacy_policy": "Integritetspolicy",
+      "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
+      "support": "Support",
+      "support_link": "https://participant-support.usertesting.com/hc",
+      "terms_of_service": "Tjänstevillkor",
+      "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
+    },
+    "session_requirements": {
+      "desktop_session": "Din session kräver att du ansluter via <strong>dator</strong> och genomförs via Zoom. Du kan ladda ner webbappen eller ansluta via din webbläsare.",
+      "generic_session": "Din session genomförs via Zoom. Om du ansluter från en dator kan du ladda ned webbappen eller ansluta via din webbläsare. Om du ansluter från en mobil enhet måste du ladda ner Zoom-appen.",
+      "join_before": "Anslut 10 minuter före starttiden för att kontrollera video och ljud.",
+      "mobile_session": "Din session kräver att du ansluter via <strong>mobil eller surfplatta</strong>. Du måste ladda ner Zoom-appen till din mobila enhet innan sessionen.",
+      "quiet_environment": "Se till att du befinner dig i en väl upplyst, tyst miljö med en stark internetanslutning. Vi rekommenderar att du använder ett headset.",
+      "session_starts": "Din session startar vid den schemalagda tiden. Om du ansluter mer än 10 minuter för sent kan du inte delta eller få ersättning.",
+      "title": "Krav för sessionen:"
+    },
+    "time_slot_confirmed_email": {
+      "body_text": "Din Live-konversation är bokad till:",
+      "subject": "Din livekonversation är bekräftad",
+      "title": "Sessionen har bekräftats"
+    },
+    "time_slot_reminder_24h_email": {
+      "body_text": "Detta är bara en vänlig påminnelse om din kommande livekonversation:",
+      "subject": "Påminnelse: Du har en livekonversation i morgon",
+      "title": "I morgon: Livekonversation"
+    },
+    "time_slot_reminder_30m_email": {
+      "body_text": "Detta är bara en vänlig påminnelse om din kommande livekonversation:",
+      "subject": "Påminnelse: Din livekonversation börjar om 30 minuter!",
+      "title": "Startar snart: Livekonversation"
+    },
+    "time_slot_canceled_email": {
+      "apology": "Vi beklagar de olägenheter och problem som detta kan ha orsakat.",
+      "body_text": {
+        "by_moderator": "Följande livekonversation (studie-ID {{projectId}}) har avbrutits av kunden på grund av att du körde din session:",
+        "by_participant": "På begäran har vi avbrutit ditt deltagande i följande {{sessionDuration}}-minuters livekonversation:",
+        "by_system": "Tyvärr har din livekonversation (studie-ID {{projectId}}) ställts in."
+      },
+      "see_you_again": "Vi hoppas vi ses snart igen.",
+      "subject": "Din livekonversation har avbrutits",
+      "title": "Sessionen avbruten"
+    },
+    "time_slot_email": {
+      "button": "Gå med i sessionen",
+      "ics": {
+        "body_text": "Klicka på iCalendar-bilagan (ICS) i det här e-postmeddelandet om du vill lägga till det här eventet i din kalender.",
+        "title": "Lägg till i din kalender"
+      },
+      "note_session": "<strong>Observera:</strong> Om du behöver <a href='{{entranceLink}}'>avboka</a> eller <a href='{{entranceLink}}'>omboka</a>, gör detta minst 24 timmar innan sessionen startar. Frekventa sena avbokningar kan leda till att du tas bort från vår panel.",
+      "session_link": "Du kan kopiera och klistra in sessionslänken om du föredrar det: <br>{{sessionLink}}"
     }
   }
 }

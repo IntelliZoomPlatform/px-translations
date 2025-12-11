@@ -341,7 +341,6 @@
       "title": "Nieuwe test beschikbaar"
     },
     "paypal_integration_revoked_email": {
-      "body_text": "Het is ons opgevallen dat uw PayPal-account is ontkoppeld van UserTesting.\n\nOm uitnodigingen te blijven ontvangen, aan betaalde tests deel te nemen en openstaande betalingen te ontvangen, gaat u naar uw UserTesting-thuispagina en koppelt u uw PayPal-account weer.",
       "body_text_one": "Het is ons opgevallen dat uw PayPal-account is ontkoppeld van UserTesting.",
       "body_text_two": "Om uitnodigingen te blijven ontvangen, aan betaalde tests deel te nemen en openstaande betalingen te ontvangen, gaat u naar uw UserTesting-thuispagina en koppelt u uw PayPal-account weer.",
       "button": "UserTesting Start",
@@ -499,6 +498,63 @@
       "whatSays": "<strong>Dit was de reactie van ons team:</strong>",
       "testLabel": "test",
       "goodLuck": "Bedankt voor uw deelname aan UserTesting en veel succes met uw volgende test!"
+    }
+  },
+  "utz_unified": {
+    "footer": {
+      "account_message": "U ontvangt deze e-mail omdat er een account aangemaakt is bij UserTesting\nmet het e-mailadres: {{user.email}}",
+      "copyright": "©UserTesting {{currentYear}}, Alle rechten voorbehouden.",
+      "manage_preferences": "E-mailvoorkeuren beheren",
+      "privacy_policy": "Privacybeleid",
+      "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
+      "support": "Ondersteuning",
+      "support_link": "https://participant-support.usertesting.com/hc",
+      "terms_of_service": "Servicevoorwaarden",
+      "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
+    },
+    "session_requirements": {
+      "desktop_session": "Uw sessie vereist dat u deelneemt via een <strong>computer</strong> en wordt gehouden via Zoom. U kunt de webapp downloaden of deelnemen via uw browser.",
+      "generic_session": "Uw sessie vindt plaats via Zoom. Als u deelneemt vanaf een computer, kun u de webapp downloaden of deelnemen via uw browser. Indien u deelneemt vanaf een mobiel apparaat, moet u de Zoom-app downloaden.",
+      "join_before": "Log 10 minuten voor de starttijd in om uw video en audio te controleren.",
+      "mobile_session": "Uw sessie vereist dat u deelneemt via <strong>mobiel of tablet</strong>. U moet voor uw sessie de Zoom-app op uw mobiel downloaden.",
+      "quiet_environment": "Zorg ervoor dat u zich in een goed verlichte, rustige omgeving bevindt met een goede internetverbinding. We bevelen het gebruik van een headset aan.",
+      "session_starts": "Uw sessie start op de geplande tijd. Als u meer dan 10 minuten te laat bent, kunt u niet meer deelnemen en betaald krijgen.",
+      "title": "Sessie vereisten:"
+    },
+    "time_slot_confirmed_email": {
+      "body_text": "Uw Livegesprek staat geboekt voor:",
+      "subject": "Uw Livegesprek is bevestigd",
+      "title": "Sessie bevestigd"
+    },
+    "time_slot_reminder_24h_email": {
+      "body_text": "Dit is een vriendelijke herinnering aan uw komende Livegesprek:",
+      "subject": "Reminder: u heeft morgen een Livegesprek",
+      "title": "Morgen: Livegesprek"
+    },
+    "time_slot_reminder_30m_email": {
+      "body_text": "Dit is een vriendelijke herinnering aan uw komende Livegesprek:",
+      "subject": "Reminder: uw Livegesprek begint over 30 minuten!",
+      "title": "Begint spoedig: Livegesprek"
+    },
+    "time_slot_canceled_email": {
+      "apology": "Onze excuses voor het ongemak.",
+      "body_text": {
+        "by_moderator": "Het volgende Livegesprek Conversation (Onderzoek-ID {{projectId}}) is door de cliënt geannuleerd vanwege het uitvoeren van uw sessie:",
+        "by_participant": "Zoals gevraagd hebben we uw deelname aan het volgende {{sessionDuration}} minuten durende Livegesprek geannuleerd:",
+        "by_system": "Helaas is uw Livegesprek (onderzoek-ID {{projectId}}) geannuleerd."
+      },
+      "see_you_again": "We hopen je spoedig weer te zien.",
+      "subject": "Uw Livegesprek is geannuleerd",
+      "title": "Sessie geannuleerd"
+    },
+    "time_slot_email": {
+      "button": "Deelnemen aan sessie",
+      "ics": {
+        "body_text": "Klik op de iCalendar (ICS)-bijlage in deze e-mail om deze gebeurtenis aan uw agenda toe te voegen.",
+        "title": "Aan uw agenda toevoegen"
+      },
+      "note_session": "<strong>Let op:</strong> Als u de sessie moet<a href='{{entranceLink}}'>afzeggenl</a> <a href='{{entranceLink}}'>verzetten</a>, doe dat dan minstens 24 uur voor aanvang. Als u vaker op het laatste moment afzegt, kunt u uit ons panel worden verwijderd.",
+      "session_link": "U kunt de link naar de sessie kopiëren en plakken indien u daar de voorkeur aan geeft: <br>{{sessionLink}}"
     }
   }
 }

@@ -341,7 +341,6 @@
       "title": "Ny test tilgængelig"
     },
     "paypal_integration_revoked_email": {
-      "body_text": "Vi bemærkede, at din PayPal-konto er blevet afbrudt fra UserTesting.\n\nFor fortsat at modtage invitationer, deltage i betalte tests og modtage eventuelle afventende betalinger, skal du gå til UserTesting-forsiden og forbinde din PayPal-konto igen.",
       "body_text_one": "Vi bemærkede, at din PayPal-konto er blevet afbrudt fra UserTesting.",
       "body_text_two": "For fortsat at modtage invitationer, deltage i betalte tests og modtage eventuelle afventende betalinger, skal du gå til UserTesting-forsiden og forbinde din PayPal-konto igen.",
       "button": "UserTesting Hjem",
@@ -499,6 +498,63 @@
       "whatSays": "<strong>Vores team havde følgende at sige:</strong>",
       "testLabel": "test",
       "goodLuck": "Tak, fordi du er deltager hos UserTesting, og held og lykke med din næste test!"
+    }
+  },
+  "utz_unified": {
+    "footer": {
+      "account_message": "Du har modtaget denne e-mail fordi en konto er blevet oprettet med UserTesting \nved hjælp af e-mailen: {{user.email}}",
+      "copyright": "©UserTesting {{currentYear}}, alle rettigheder forbeholdes.",
+      "manage_preferences": "Administrer e-mailpræferencer",
+      "privacy_policy": "Privatlivspolitik",
+      "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
+      "support": "Support",
+      "support_link": "https://participant-support.usertesting.com/hc",
+      "terms_of_service": "Servicevilkår",
+      "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
+    },
+    "session_requirements": {
+      "desktop_session": "Din session kræver, at du deltager via <strong>computer</strong>, og den vil foregå via Zoom. Du kan downloade webappen eller deltage via din browser.",
+      "generic_session": "Din session vil foregå via Zoom. Hvis du deltager fra en computer, kan du downloade webappen eller deltage via din browser. Hvis du deltager fra en mobilenhed, skal du downloade Zoom-appen.",
+      "join_before": "Du bedes tilslutte dig 10 minutter før starttidspunktet, for at du kan tjekke din video og lyd.",
+      "mobile_session": "Din session kræver, at du deltager via <strong>mobil eller tablet</strong>. Du skal downloade Zoom-appen til din mobil inden din session.",
+      "quiet_environment": "Sørg for, at du er i velbelyst og stille miljø med en god internetforbindelse. Vi anbefaler at bruge et headset.",
+      "session_starts": "Din session starter på det planlagte tidspunkt. Hvis du logger på mere end 10 minutter senere, kan du ikke deltage eller modtage betaling.",
+      "title": "Krav til sessionen:"
+    },
+    "time_slot_confirmed_email": {
+      "body_text": "Din livesamtale er booket til:",
+      "subject": "Din live-samtale er bekræftet",
+      "title": "Session bekræftet"
+    },
+    "time_slot_reminder_24h_email": {
+      "body_text": "Dette er blot en venlig påmindelse om, at du har en kommende live-samtale:",
+      "subject": "Påmindelse: Du har en Live-samtale i morgen",
+      "title": "I morgen: Live-samtale"
+    },
+    "time_slot_reminder_30m_email": {
+      "body_text": "Dette er blot en venlig påmindelse om, at du har en kommende live-samtale:",
+      "subject": "Påmindelse: Din live-samtale starter om 30 minutter!",
+      "title": "Starter snart: Live-samtale"
+    },
+    "time_slot_canceled_email": {
+      "apology": "Vi beklager ulejligheden og problemerne dette måtte have forårsaget.",
+      "body_text": {
+        "by_moderator": "Følgende live-samtale (studie-id {{projectId}}) er blevet annulleret af kunden, der skulle have kørt din session:",
+        "by_participant": "Per din anmodning har vi annulleret din deltagelse i følgende {{sessionDuration}}-minutters live-samtale:",
+        "by_system": "Desværre er din live-samtale (studie-id {{projectId}}) blevet annulleret."
+      },
+      "see_you_again": "Vi håber at se dig igen snart.",
+      "subject": "Din live-samtale er blevet annulleret",
+      "title": "Session annulleret"
+    },
+    "time_slot_email": {
+      "button": "Deltag i session",
+      "ics": {
+        "body_text": "Klik på iCalendar (ICS)-vedhæftningen i denne e-mail for at tilføje denne begivenhed til din kalender.",
+        "title": "Tilføj til din kalender"
+      },
+      "note_session": "<strong>Bemærk:</strong> Hvis du har brug for at <a href='{{entranceLink}}'>aflyse</a> eller <a href='{{entranceLink}}'>ombooke</a>, bedes du gøre det mindst 24 timer før sessionen starter. Hyppige aflysninger i sidste øjeblik kan føre til fjernelse fra vores panel.",
+      "session_link": "Du kan kopiere og indsætte sessionslinket, hvis du foretrækker det: <br>{{sessionLink}}"
     }
   }
 }
