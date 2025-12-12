@@ -557,6 +557,12 @@
       "note_session": "<strong>Note:</strong> If you need to <a href='{{entranceLink}}'>cancel</a> or <a href='{{entranceLink}}'>reschedule</a>, please do so at least 24 hours before the session starts. Frequent last-minute cancellations may lead to removal from our panel.",
       "session_link": "You can copy and paste the session link if you prefer: <br>{{sessionLink}}"
     },
+    "time_slot_moderator_no_show_email": {
+      "body_text": "Unfortunately, the customer missed your Live Conversation (study ID {{campaignId}}) today <strong>{{sessionDate}}</strong>. We're sorry for any inconvenience this caused.<br><br>Since you joined and waited 10 minutes past the scheduled start time, you’ll still receive full payment for this session. You can track your payment status in <strong>Your tests > History</strong>.",
+      "subject": "The customer missed your Live Conversation",
+      "title": "The customer missed your session",
+      "button": "Go to Your tests"
+    },
     "generic": {
       "greeting": "Hey {{user.firstName}},",
       "join_button": "Join session",
