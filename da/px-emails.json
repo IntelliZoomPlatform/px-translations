@@ -484,6 +484,17 @@
       "subject": "Påmindelse: Din live-samtale starter om 30 minutter!",
       "title": "Starter snart: Live-samtale"
     },
+    "time_slot_moderator_no_show_email": {
+      "body_text": "Kunden gik desværre glip af din livesamtale (study ID {{projectId}}) i dag <strong>{{sessionDate}}</strong>. Vi beklager eventuelle ulemper, dette har forårsaget.<br><br>Da du deltog og ventede 10 minutter efter det planlagte starttidspunkt, vil du stadig modtage fuld betaling for denne session. Du kan spore din betalingsstatus i <strong>Dine tests > Historik</strong>.",
+      "subject": "Kunden gik glip af din livesamtale",
+      "title": "Kunden gik glip din session",
+      "button": "Gå til Dine test"
+    },
+    "time_slot_participant_no_show_email": {
+      "body_text": "Du var booket til en livesamtale (study ID {{projectId}}) i dag <strong>{{sessionDate}}</strong>. Vi har dog bemærket, at du ikke deltog, og du vil ikke blive betalt for denne session.<br><br>Vi ved, at der nogle gange kan opstå problemer. Hvis du ikke kan deltage, bedes du aflyse eller ombooke mindst 24 timer før din planlagte session. Dette giver en anden deltager mulighed for at tage din plads.",
+      "subject": "Du gik glip af din livesamtale",
+      "title": "Du gik glip af din session"
+    },
     "emails": {
       "icsParticipant": {
         "description": "Deltag i sessionen:\n{{sessionLink}}\nHvis du ikke længere kan deltage i sessionen på det planlagte tidspunkt, kan du omplanlægge eller annullere via følgende link:\n{{rescheduleLink}}",
@@ -555,6 +566,11 @@
       },
       "note_session": "<strong>Bemærk:</strong> Hvis du har brug for at <a href='{{entranceLink}}'>aflyse</a> eller <a href='{{entranceLink}}'>ombooke</a>, bedes du gøre det mindst 24 timer før sessionen starter. Hyppige aflysninger i sidste øjeblik kan føre til fjernelse fra vores panel.",
       "session_link": "Du kan kopiere og indsætte sessionslinket, hvis du foretrækker det: <br>{{sessionLink}}"
+    },
+    "time_slot_participant_no_show_email": {
+      "body_text": "Du var booket til en livesamtale (study ID {{campaignId}}) i dag <strong>{{sessionDate}}</strong>. Vi har dog bemærket, at du ikke deltog, og du vil ikke blive betalt for denne session.<br><br>Vi ved, at der nogle gange kan opstå problemer. Hvis du ikke kan deltage, bedes du aflyse eller ombooke mindst 24 timer før din planlagte session. Dette giver en anden deltager mulighed for at tage din plads.",
+      "subject": "Du gik glip af din livesamtale",
+      "title": "Du gik glip af din session"
     }
   }
 }

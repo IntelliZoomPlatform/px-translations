@@ -484,6 +484,17 @@
       "subject": "Påminnelse: Din livekonversation börjar om 30 minuter!",
       "title": "Startar snart: Livekonversation"
     },
+    "time_slot_moderator_no_show_email": {
+      "body_text": "Kunden missade tyvärr er direktkonversation (studie-ID {{projectId}}) idag <strong>{{sessionDate}}</strong>. Vi beklagar besväret detta kan ha orsakat.<br><br>Eftersom du anslöt och väntade 10 minuter efter den inbokade starttiden får du full betalning för sessionen. Du kan följa din betalningsstatus i <strong>Dina test > Historik</strong>.",
+      "subject": "Kunden missade er direktkonversation",
+      "title": "Kunden missade er session",
+      "button": "Gå till \"Dina test\""
+    },
+    "time_slot_participant_no_show_email": {
+      "body_text": "Du var inbokad på en direktkonversation (studie-ID {{projectId}}) idag <strong>{{sessionDate}}</strong>. Vi ser dock att du inte dök upp och kommer inte att betala dig för denna session.<br><br>Vi vet att saker kan komma emellan. Om du inte kan komma ber vi dig att avboka eller boka om minst 24 timmar före den schemalagda sessionen. På så sätt kan en annan deltagare ta din plats.",
+      "subject": "Du missade er direktkonversation",
+      "title": "Du missade er session"
+    },
     "emails": {
       "icsParticipant": {
         "description": "Anslut till session: \n{{sessionLink}} \nKan du inte längre vara med på sammanträdet på den utsatta tiden kan du ändra schemat eller ställa in sammanträdet på följande länk:\n{{rescheduleLink}}",
@@ -555,6 +566,11 @@
       },
       "note_session": "<strong>Observera:</strong> Om du behöver <a href='{{entranceLink}}'>avboka</a> eller <a href='{{entranceLink}}'>omboka</a>, gör detta minst 24 timmar innan sessionen startar. Frekventa sena avbokningar kan leda till att du tas bort från vår panel.",
       "session_link": "Du kan kopiera och klistra in sessionslänken om du föredrar det: <br>{{sessionLink}}"
+    },
+    "time_slot_participant_no_show_email": {
+      "body_text": "Du var inbokad på en direktkonversation (studie-ID {{projectId}}) idag <strong>{{sessionDate}}</strong>. Vi ser dock att du inte dök upp och kommer inte att betala dig för denna session.<br><br>Vi vet att saker kan komma emellan ibland. Om du inte kan komma ber vi dig att avboka eller boka om minst 24 timmar före den schemalagda sessionen. På så sätt kan en annan deltagare ta din plats.",
+      "subject": "Du missade er direktkonversation",
+      "title": "Du missade er session"
     }
   }
 }

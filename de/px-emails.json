@@ -484,6 +484,17 @@
       "subject": "Erinnerung: Ihre Live-Diskussion beginnt in 30 Minuten!",
       "title": "Beginnt demnächst: Live-Diskussion"
     },
+    "time_slot_moderator_no_show_email": {
+      "body_text": "Leider hat der Kunde Ihre heutige Live-Unterhaltung (Studien-ID {{projectId}}) verpasst <strong>{{sessionDate}}</strong>. Wir entschuldigen uns für etwaig dadurch entstandene Unannehmlichkeiten. <br><br>Da Sie anwesend waren und zehn Minuten über die geplante Startzeit hinaus gewartet haben, erhalten Sie trotzdem die komplette Entlohnung für diese Sitzung. Sie können den Status Ihrer Zahlung unter <strong>Ihre Tests > Verlauf</strong> nachverfolgen.",
+      "subject": "Der Kunde hat Ihre Live-Unterhaltung verpasst",
+      "title": "Der Kunde hat Ihre Sitzung verpasst",
+      "button": "Gehen Sie zu „Ihre Tests“"
+    },
+    "time_slot_participant_no_show_email": {
+      "body_text": "Für Sie war heute <strong>{{sessionDate}}</strong> eine Live-Unterhaltung angesetzt (Studien-ID {{projectId}}). Allerdings haben wir festgestellt, dass Sie nicht teilgenommen haben. Sie werden daher für diese Sitzung nicht entlohnt.<br><br>Wir verstehen, dass manchmal unvorhergesehene Umstände eintreten. Wenn Sie einen Termin nicht einhalten können, sagen Sie ihn bitte mindestens 24 Stunden vorher ab oder vereinbaren Sie einen neuen Termin. Das gibt anderen Teilnehmern die Möglichkeit, Ihren Platz einzunehmen.",
+      "subject": "Sie haben Ihre Live-Unterhaltung verpasst",
+      "title": "Sie haben Ihre Sitzung verpasst"
+    },
     "emails": {
       "icsParticipant": {
         "description": "Session beitreten: \n{{sessionLink}} \nFalls du an dieser Session nicht mehr zur geplanten Zeit teilnehmen kannst, kannst du sie mit dem folgendem Link verschieben order absagen: \n{{rescheduleLink}}",
@@ -555,6 +566,11 @@
       },
       "note_session": "<strong>Hinweis:</strong> Sollten Sie Ihre Sitzung <a href='{{entranceLink}}'>absagen</a> oder <a href='{{entranceLink}}'>verschieben</a> müssen, tun Sie dies bitte mindestens 24 Stunden vor Beginn. Häufige kurzfristige Absagen können zum Ausschluss aus unserem Panel führen.",
       "session_link": "Wenn Sie möchten, können Sie den Link zur Session auch kopieren und einfügen: <br>{{sessionLink}}"
+    },
+    "time_slot_participant_no_show_email": {
+      "body_text": "Für Sie war heute <strong>{{sessionDate}}</strong> eine Live-Unterhaltung angesetzt (Studien-ID {{projectId}}). Allerdings haben wir festgestellt, dass Sie nicht teilgenommen haben. Sie werden daher für diese Sitzung nicht entlohnt.<br><br>Wir verstehen, dass manchmal unvorhergesehene Umstände eintreten. Wenn Sie einen Termin nicht einhalten können, sagen Sie ihn bitte mindestens 24 Stunden vorher ab oder vereinbaren Sie einen neuen Termin. Das gibt anderen Teilnehmern die Möglichkeit, Ihren Platz einzunehmen.",
+      "subject": "Sie haben Ihre Live-Unterhaltung verpasst",
+      "title": "Sie haben Ihre Sitzung verpasst"
     }
   }
 }
