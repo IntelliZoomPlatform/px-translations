@@ -492,7 +492,7 @@
       "button": "Go to Your tests"
     },
     "time_slot_participant_no_show_email": {
-      "body_text": "You were scheduled for a Live Conversation (study ID {{projectId}}) today {{sessionDate}}. However, we noticed you didn’t attend and you will not be paid for this session.<br><br>We know that sometimes things come up. If you can’t make it, please cancel or reschedule at least 24 hours before your scheduled session. This enables another participant to take your spot.",
+      "body_text": "You were scheduled for a Live Conversation (study ID {{projectId}}) today <strong>{{sessionDate}}</strong>. However, we noticed you didn’t attend and you will not be paid for this session.<br><br>We know that sometimes things come up. If you can’t make it, please cancel or reschedule at least 24 hours before your scheduled session. This enables another participant to take your spot.",
       "subject": "You missed your Live Conversation",
       "title": "You missed your session"
     },
@@ -575,7 +575,7 @@
       "button": "Go to Your tests"
     },
     "time_slot_participant_no_show_email": {
-      "body_text": "You were scheduled for a Live Conversation (study ID {{campaignId}}) today {{sessionDate}}. However, we noticed you didn’t attend and you will not be paid for this session.<br><br>We know that sometimes things come up. If you can’t make it, please cancel or reschedule at least 24 hours before your scheduled session. This enables another participant to take your spot.",
+      "body_text": "You were scheduled for a Live Conversation (study ID {{campaignId}}) today <strong>{{sessionDate}}</strong>. However, we noticed you didn’t attend and you will not be paid for this session.<br><br>We know that sometimes things come up. If you can’t make it, please cancel or reschedule at least 24 hours before your scheduled session. This enables another participant to take your spot.",
       "subject": "You missed your Live Conversation",
       "title": "You missed your session"
     },

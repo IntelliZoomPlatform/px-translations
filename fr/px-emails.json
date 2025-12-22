@@ -484,6 +484,17 @@
       "subject": "Rappel : Votre conversation en direct commence dans 30 minutes !",
       "title": "Bientôt disponible : conversation en direct"
     },
+    "time_slot_moderator_no_show_email": {
+      "body_text": "Malheureusement, le client a manqué votre conversation en direct (ID d'étude {{projectId}}) aujourd'hui <strong>{{sessionDate}}</strong>. Nous sommes désolés pour ce désagrément.<br><br>Comme vous vous êtes connecté et avez attendu 10 minutes après l'heure de début prévue, vous recevrez néanmoins le paiement intégral pour cette session. Vous pouvez suivre l'état de votre paiement dans <strong>Vos tests > Historique</strong>.",
+      "subject": "Le client a manqué votre conversation en direct.",
+      "title": "Le client a manqué votre session.",
+      "button": "Accédez à Vos tests"
+    },
+    "time_slot_participant_no_show_email": {
+      "body_text": "Vous aviez rendez-vous pour une conversation en direct (ID d'étude {{projectId}}) aujourd'hui <strong>{{sessionDate}}</strong>. Cependant, nous avons remarqué que vous n'y avez pas participé et vous ne serez donc pas rémunéré pour cette session.<br><br>Nous savons que des imprévus sont parfois possibles. Si vous ne pouvez pas vous présenter, veuillez annuler ou repousser votre rendez-vous au moins 24 heures avant la session prévue. Cela permettra à un autre participant de prendre votre place.",
+      "subject": "Vous avez manqué votre conversation en direct.",
+      "title": "Vous avez manqué votre session."
+    },
     "emails": {
       "icsParticipant": {
         "description": "Rejoignez la session : <br> {{sessionLink}} <br> Si vous ne pouvez plus assister à la session à l'heure prévue, vous pouvez la reprogrammer ou l'annuler en suivant ce lien : <br> {{rescheduleLink}}",
@@ -555,6 +566,11 @@
       },
       "note_session": "<strong>Remarque :</strong> si vous devez <a href='{{entranceLink}}'>annuler</a> ou <a href='{{entranceLink}}'>reprogrammer</a> la séance, veuillez le faire au moins 24 heures avant qu'elle ne commence. Des annulations fréquentes de dernière minute peuvent entraîner votre exclusion de notre panel.",
       "session_link": "Vous pouvez copier et coller le lien de la séance si vous préférez : <br>{{sessionLink}}"
+    },
+    "time_slot_participant_no_show_email": {
+      "body_text": "Vous aviez rendez-vous pour une conversation en direct (ID d'étude {{campaignId}}) aujourd'hui <strong>{{sessionDate}}</strong>. Cependant, nous avons remarqué que vous n'y avez pas participé et vous ne serez donc pas rémunéré pour cette session.<br><br>Nous savons que des imprévus sont parfois possibles. Si vous ne pouvez pas vous présenter, veuillez annuler ou repousser votre rendez-vous au moins 24 heures avant la session prévue. Cela permettra à un autre participant de prendre votre place.",
+      "subject": "Vous avez manqué votre conversation en direct.",
+      "title": "Vous avez manqué votre session."
     }
   }
 }

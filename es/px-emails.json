@@ -484,6 +484,17 @@
       "subject": "Recordatorio: ¡Su Conversación en directo comienza en 30 minutos!",
       "title": "Comienza pronto: Conversación en directo"
     },
+    "time_slot_moderator_no_show_email": {
+      "body_text": "Lamentablemente, el cliente no ha asistido a su conversación en directo (ID del estudio {{projectId}}) hoy, <strong>{{sessionDate}}</strong>. Lamentamos las molestias ocasionadas.<br><br>Dado que se ha unido y esperado diez minutos después de la hora de inicio programada, aún recibirá el pago completo por esta sesión. Puede consultar el estado de su pago en <strong>Sus pruebas > Historial</strong>.",
+      "subject": "El cliente no ha asistido a su conversación en directo",
+      "title": "El cliente no ha asistido a su sesión",
+      "button": "Ir a Sus pruebas"
+    },
+    "time_slot_participant_no_show_email": {
+      "body_text": "Tenía programada una conversación en directo (ID del estudio {{projectId}}) hoy, <strong>{{sessionDate}}</strong>. Sin embargo, hemos observado que no ha asistido y no se le pagará por esta sesión.<br><br>Sabemos que a veces surgen imprevistos. Si no puede asistir, cancele o reprograme la sesión al menos 24 horas antes de la hora programada. De este modo, otro participante podrá ocupar su lugar.",
+      "subject": "No ha asistido a su conversación en directo",
+      "title": "No ha asistido a su sesión"
+    },
     "emails": {
       "icsParticipant": {
         "description": "Entrar en la sesión:\n{{sessionLink}}\nEn caso que no puedas asistir a la sesión, puedes reprogramarla o cancelarla con el siguiente enlace: \n{{rescheduleLink}}",
@@ -555,6 +566,11 @@
       },
       "note_session": "<strong>Nota:</strong> Si necesitas <a href='{{entranceLink}}'>cancelar</a> o <a href='{{entranceLink}}'>reprogramar</a> la sesión, hazlo al menos 24 horas antes de que comience la sesión. Las cancelaciones frecuentes de última hora pueden dar lugar a la eliminación de nuestro panel.",
       "session_link": "Si lo prefiere, puede copiar y pegar el enlace de la sesión: <br>{{sessionLink}}"
+    },
+    "time_slot_participant_no_show_email": {
+      "body_text": "Tenía programada una conversación en directo (ID del estudio {{campaignId}}) hoy, <strong>{{sessionDate}}</strong>. Sin embargo, hemos observado que no ha asistido y no se le pagará por esta sesión.<br><br>Sabemos que a veces surgen imprevistos. Si no puede asistir, cancele o reprograme la sesión al menos 24 horas antes de la hora programada. De este modo, otro participante podrá ocupar su lugar.",
+      "subject": "No ha asistido a su conversación en directo",
+      "title": "No ha asistido a su sesión"
     }
   }
 }

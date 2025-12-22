@@ -484,6 +484,17 @@
       "subject": "Reminder: uw Livegesprek begint over 30 minuten!",
       "title": "Begint spoedig: Livegesprek"
     },
+    "time_slot_moderator_no_show_email": {
+      "body_text": "Helaas heeft de klant vandaag <strong>{{sessionDate}}</strong> je live gesprek (studie-ID {{projectId}}) gemist. Onze excuses voor het ongemak.<br><br>Aangezien je je hebt aangemeld en 10 minuten na de geplande starttijd hebt gewacht, ontvang je toch de volledige betaling voor deze sessie. Je kunt de status van je betaling volgen in <strong>Jouw tests > Geschiedenis</strong>.",
+      "subject": "De klant heeft je live gesprek gemist",
+      "title": "De klant heeft je sessie gemist",
+      "button": "Ga naar je tests"
+    },
+    "time_slot_participant_no_show_email": {
+      "body_text": "J stond vandaag, <strong>{{sessionDate}}</strong>, ingepland voor een live gesprek (studie-ID {{projectId}}). We hebben echter gemerkt dat je niet aanwezig was en je zult voor deze sessie niet worden betaald.<br><br>We begrijpen dat er soms iets tussenkomt. Als je niet aanwezig kunt zijn, annuleer of verplaats je afspraak dan ten minste 24 uur voor aanvang van de geplande sessie. Zo kan een andere deelnemer je plaats innemen.",
+      "subject": "Je hebt je live gesprek gemist",
+      "title": "Je hebt je sessie gemist"
+    },
     "emails": {
       "icsParticipant": {
         "description": "Deelnemen aan sessie: \n{{sessionLink}} \nAls u de sessie niet meer kunt bijwonen op de geplande tijd, kunt u deze opnieuw plannen of annuleren via deze link: \n{{recheduleLink}}",
@@ -555,6 +566,11 @@
       },
       "note_session": "<strong>Let op:</strong> Als u de sessie moet<a href='{{entranceLink}}'>afzeggenl</a> <a href='{{entranceLink}}'>verzetten</a>, doe dat dan minstens 24 uur voor aanvang. Als u vaker op het laatste moment afzegt, kunt u uit ons panel worden verwijderd.",
       "session_link": "U kunt de link naar de sessie kopiëren en plakken indien u daar de voorkeur aan geeft: <br>{{sessionLink}}"
+    },
+    "time_slot_participant_no_show_email": {
+      "body_text": "Je stond vandaag, <strong>{{sessionDate}}</strong>, ingepland voor een live gesprek (studie-ID {{campaignId}}). We hebben echter gemerkt dat je niet aanwezig was en je zult voor deze sessie niet worden betaald.<br><br>We begrijpen dat er soms iets tussenkomt. Als je niet kunt komen, annuleer of verplaats je afspraak dan ten minste 24 uur voor aanvang van de geplande sessie. Zo kan een andere deelnemer je plaats innemen.",
+      "subject": "Je hebt je live gesprek gemist",
+      "title": "Je hebt je sessie gemist"
     }
   }
 }
