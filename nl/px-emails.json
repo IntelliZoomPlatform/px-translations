@@ -491,7 +491,7 @@
       "button": "Ga naar je tests"
     },
     "time_slot_participant_no_show_email": {
-      "body_text": "J stond vandaag, <strong>{{sessionDate}}</strong>, ingepland voor een live gesprek (studie-ID {{projectId}}). We hebben echter gemerkt dat je niet aanwezig was en je zult voor deze sessie niet worden betaald.<br><br>We begrijpen dat er soms iets tussenkomt. Als je niet aanwezig kunt zijn, annuleer of verplaats je afspraak dan ten minste 24 uur voor aanvang van de geplande sessie. Zo kan een andere deelnemer je plaats innemen.",
+      "body_text": "Je stond vandaag, <strong>{{sessionDate}}</strong>, ingepland voor een live gesprek (studie-ID {{projectId}}). We hebben echter gemerkt dat je niet aanwezig was en je zult voor deze sessie niet worden betaald.<br><br>We begrijpen dat er soms iets tussenkomt. Als je niet aanwezig kunt zijn, annuleer of verplaats je afspraak dan ten minste 24 uur voor aanvang van de geplande sessie. Zo kan een andere deelnemer je plaats innemen.",
       "subject": "Je hebt je live gesprek gemist",
       "title": "Je hebt je sessie gemist"
     },
