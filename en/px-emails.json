@@ -485,6 +485,17 @@
       "subject": "Reminder: Your Live Conversation starts in 30 minutes!",
       "title": "Starting soon: Live Conversation"
     },
+    "time_slot_moderator_no_show_email": {
+      "body_text": "Unfortunately, the customer missed your Live Conversation (study ID {{projectId}}) today <strong>{{sessionDate}}</strong>. We're sorry for any inconvenience this caused.<br><br>Since you joined and waited 10 minutes past the scheduled start time, you’ll still receive full payment for this session. You can track your payment status in <strong>Your tests > History</strong>.",
+      "subject": "The customer missed your Live Conversation",
+      "title": "The customer missed your session",
+      "button": "Go to Your tests"
+    },
+    "time_slot_participant_no_show_email": {
+      "body_text": "You were scheduled for a Live Conversation (study ID {{projectId}}) today {{sessionDate}}. However, we noticed you didn’t attend and you will not be paid for this session.<br><br>We know that sometimes things come up. If you can’t make it, please cancel or reschedule at least 24 hours before your scheduled session. This enables another participant to take your spot.",
+      "subject": "You missed your Live Conversation",
+      "title": "You missed your session"
+    },
     "emails": {
       "icsParticipant": {
         "description": "Join session:\n{{sessionLink}}\nIf you can no longer attend the session at the scheduled time you can reschedule or cancel it by following this link:\n{{rescheduleLink}}",
@@ -562,6 +573,11 @@
       "subject": "The customer missed your Live Conversation",
       "title": "The customer missed your session",
       "button": "Go to Your tests"
+    },
+    "time_slot_participant_no_show_email": {
+      "body_text": "You were scheduled for a Live Conversation (study ID {{campaignId}}) today {{sessionDate}}. However, we noticed you didn’t attend and you will not be paid for this session.<br><br>We know that sometimes things come up. If you can’t make it, please cancel or reschedule at least 24 hours before your scheduled session. This enables another participant to take your spot.",
+      "subject": "You missed your Live Conversation",
+      "title": "You missed your session"
     },
     "generic": {
       "greeting": "Hey {{user.firstName}},",
