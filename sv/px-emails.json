@@ -278,7 +278,7 @@
       "privacy_policy": "Integritetspolicy",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Support",
-      "support_link": "https://participant-support.usertesting.com/hc",
+      "support_link": "https://participant-support.usertesting.com",
       "terms_of_service": "Tjänstevillkor",
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
@@ -519,7 +519,7 @@
       "privacy_policy": "Integritetspolicy",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Support",
-      "support_link": "https://participant-support.usertesting.com/hc",
+      "support_link": "https://participant-support.usertesting.com",
       "terms_of_service": "Tjänstevillkor",
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
@@ -571,6 +571,19 @@
       "body_text": "Du var inbokad på en direktkonversation (studie-ID {{projectId}}) idag <strong>{{sessionDate}}</strong>. Vi ser dock att du inte dök upp och kommer inte att betala dig för denna session.<br><br>Vi vet att saker kan komma emellan ibland. Om du inte kan komma ber vi dig att avboka eller boka om minst 24 timmar före den schemalagda sessionen. På så sätt kan en annan deltagare ta din plats.",
       "subject": "Du missade er direktkonversation",
       "title": "Du missade er session"
+    },
+    "generic": {
+      "greeting": "Hej {{user.firstName}},",
+      "join_button": "Anslut till session",
+      "reach_out_support": {
+        "first_text": "Behöver du hjälp? Kontakta vårt",
+        "second_text": "eller besök",
+        "support_center": "Supportcentret",
+        "support_center_link": "https://participant-support.usertesting.com/",
+        "support_team": "supportteam",
+        "support_team_link": "https://participant-support.usertesting.com/hc/requests/new"
+      },
+      "sign_off": "Tack, <br>UserTesting-teamet"
     }
   }
 }

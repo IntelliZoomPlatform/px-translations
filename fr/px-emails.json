@@ -276,11 +276,11 @@
       "copyright": "©UserTesting {{currentYear}}, tous droits réservés.",
       "manage_preferences": "Gérer les préférences de messagerie",
       "privacy_policy": "Politique de confidentialité",
-      "privacy_policy_link": "https://www.usertesting.com/fr/privacy-center/privacy-policy",
+      "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Assistance",
-      "support_link": "https://participant-support.usertesting.com/hc",
+      "support_link": "https://participant-support.usertesting.com",
       "terms_of_service": "Conditions d'utilisation",
-      "terms_of_service_link": "https://www.usertesting.com/fr/privacy-center/terms-of-service-contributor"
+      "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
     "forgot_password_email": {
       "body_text": "Nous avons reçu une demande de réinitialisation de votre mot de passe. Sélectionnez le bouton ci-dessous pour en créer un nouveau.",
@@ -310,7 +310,7 @@
     },
     "panelist_removal_email": {
       "first_body_text": "Nous avons supprimé votre compte et vos informations au sein de notre système (cet e-mail étant la dernière communication que vous recevrez de notre part).",
-      "second_body_text": "Si vous ne l'avez pas demandé, cela peut être dû à une longue période d'inactivité ou à une mauvaise utilisation de notre plate-forme entraînant une violation de nos <a href=\"https://www.usertesting.com/fr/privacy-center/terms-of-service-contributor\">conditions d'utilisation</a>. ",
+      "second_body_text": "Si vous ne l'avez pas demandé, cela peut être dû à une longue période d'inactivité ou à une mauvaise utilisation de notre plate-forme entraînant une violation de nos <a href=\"https://www.usertesting.com/privacy-center/terms-of-service-contributor\">conditions d'utilisation</a>. ",
       "subject": "Votre compte UserTesting a été supprimé",
       "third_body_text": "Si vous pensez qu'il s'agit d'une erreur ou si vous souhaitez obtenir de plus amples informations, veuillez <a href=\"https://participant-support.usertesting.com/hc/requests/new\">nous contacter</a> ou visiter notre <a href=\"https://participant-support.usertesting.com/hc\">Centre d'assistance</a>.",
       "title": "Compte UserTesting supprimé"
@@ -519,7 +519,7 @@
       "privacy_policy": "Politique de confidentialité",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Assistance",
-      "support_link": "https://participant-support.usertesting.com/hc",
+      "support_link": "https://participant-support.usertesting.com",
       "terms_of_service": "Conditions d'utilisation",
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
@@ -571,6 +571,19 @@
       "body_text": "Vous aviez rendez-vous pour une conversation en direct (ID d'étude {{campaignId}}) aujourd'hui <strong>{{sessionDate}}</strong>. Cependant, nous avons remarqué que vous n'y avez pas participé et vous ne serez donc pas rémunéré pour cette session.<br><br>Nous savons que des imprévus sont parfois possibles. Si vous ne pouvez pas vous présenter, veuillez annuler ou repousser votre rendez-vous au moins 24 heures avant la session prévue. Cela permettra à un autre participant de prendre votre place.",
       "subject": "Vous avez manqué votre conversation en direct.",
       "title": "Vous avez manqué votre session."
+    },
+    "generic": {
+      "greeting": "Bonjour {{user.firstName}},",
+      "join_button": "Rejoindre la session",
+      "reach_out_support": {
+        "first_text": "Besoin d'aide ? Contactez notre",
+        "second_text": "ou visitez le",
+        "support_center": "Centre d'assistance",
+        "support_center_link": "https://participant-support.usertesting.com/",
+        "support_team": "équipe d'assistance",
+        "support_team_link": "https://participant-support.usertesting.com/hc/requests/new"
+      },
+      "sign_off": "Merci, <br>L'équipe UserTesting"
     }
   }
 }

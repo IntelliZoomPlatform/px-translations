@@ -278,7 +278,7 @@
       "privacy_policy": "Privacybeleid",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Ondersteuning",
-      "support_link": "https://participant-support.usertesting.com/hc",
+      "support_link": "https://participant-support.usertesting.com",
       "terms_of_service": "Servicevoorwaarden",
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
@@ -519,7 +519,7 @@
       "privacy_policy": "Privacybeleid",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Ondersteuning",
-      "support_link": "https://participant-support.usertesting.com/hc",
+      "support_link": "https://participant-support.usertesting.com",
       "terms_of_service": "Servicevoorwaarden",
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
@@ -571,6 +571,19 @@
       "body_text": "Je stond vandaag, <strong>{{sessionDate}}</strong>, ingepland voor een live gesprek (studie-ID {{campaignId}}). We hebben echter gemerkt dat je niet aanwezig was en je zult voor deze sessie niet worden betaald.<br><br>We begrijpen dat er soms iets tussenkomt. Als je niet kunt komen, annuleer of verplaats je afspraak dan ten minste 24 uur voor aanvang van de geplande sessie. Zo kan een andere deelnemer je plaats innemen.",
       "subject": "Je hebt je live gesprek gemist",
       "title": "Je hebt je sessie gemist"
+    },
+    "generic": {
+      "greeting": "Hoi {{user.firstName}},",
+      "join_button": "Deelnemen aan sessie",
+      "reach_out_support": {
+        "first_text": "Hulp nodig? Neem contact op met ons",
+        "second_text": "of bezoek het ",
+        "support_center": "Supportcentrum",
+        "support_center_link": "https://participant-support.usertesting.com/",
+        "support_team": "supportteam",
+        "support_team_link": "https://participant-support.usertesting.com/hc/requests/new"
+      },
+      "sign_off": "Bedankt, <br>Het UserTesting-team"
     }
   }
 }

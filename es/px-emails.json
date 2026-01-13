@@ -278,7 +278,7 @@
       "privacy_policy": "Política de Privacidad",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Soporte",
-      "support_link": "https://participant-support.usertesting.com/hc",
+      "support_link": "https://participant-support.usertesting.com",
       "terms_of_service": "Condiciones del Servicio",
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
@@ -519,7 +519,7 @@
       "privacy_policy": "Política de Privacidad",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Soporte",
-      "support_link": "https://participant-support.usertesting.com/hc",
+      "support_link": "https://participant-support.usertesting.com",
       "terms_of_service": "Condiciones del Servicio",
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
@@ -571,6 +571,19 @@
       "body_text": "Tenía programada una conversación en directo (ID del estudio {{campaignId}}) hoy, <strong>{{sessionDate}}</strong>. Sin embargo, hemos observado que no ha asistido y no se le pagará por esta sesión.<br><br>Sabemos que a veces surgen imprevistos. Si no puede asistir, cancele o reprograme la sesión al menos 24 horas antes de la hora programada. De este modo, otro participante podrá ocupar su lugar.",
       "subject": "No ha asistido a su conversación en directo",
       "title": "No ha asistido a su sesión"
+    },
+    "generic": {
+      "greeting": "Hola, {{user.firstName}},",
+      "join_button": "Entrar en la sesión",
+      "reach_out_support": {
+        "first_text": "¿Necesitas ayuda? Ponte en contacto con nuestro",
+        "second_text": "o visita el",
+        "support_center": "Centro de soporte",
+        "support_center_link": "https://participant-support.usertesting.com/",
+        "support_team": "equipo de soporte",
+        "support_team_link": "https://participant-support.usertesting.com/hc/requests/new"
+      },
+      "sign_off": "Gracias, <br>El equipo de UserTesting"
     }
   }
 }

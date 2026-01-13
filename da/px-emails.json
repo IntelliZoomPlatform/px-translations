@@ -278,7 +278,7 @@
       "privacy_policy": "Privatlivspolitik",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Support",
-      "support_link": "https://participant-support.usertesting.com/hc",
+      "support_link": "https://participant-support.usertesting.com",
       "terms_of_service": "Servicevilkår",
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
@@ -519,7 +519,7 @@
       "privacy_policy": "Privatlivspolitik",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Support",
-      "support_link": "https://participant-support.usertesting.com/hc",
+      "support_link": "https://participant-support.usertesting.com",
       "terms_of_service": "Servicevilkår",
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
@@ -571,6 +571,19 @@
       "body_text": "Du var booket til en livesamtale (study ID {{campaignId}}) i dag <strong>{{sessionDate}}</strong>. Vi har dog bemærket, at du ikke deltog, og du vil ikke blive betalt for denne session.<br><br>Vi ved, at der nogle gange kan opstå problemer. Hvis du ikke kan deltage, bedes du aflyse eller ombooke mindst 24 timer før din planlagte session. Dette giver en anden deltager mulighed for at tage din plads.",
       "subject": "Du gik glip af din livesamtale",
       "title": "Du gik glip af din session"
+    },
+    "generic": {
+      "greeting": "Hej {{user.firstName}},",
+      "join_button": "Deltag i session",
+      "reach_out_support": {
+        "first_text": "Brug for hjælp? Tag kontakt til vores",
+        "second_text": "eller besøg",
+        "support_center": "Supportcenter",
+        "support_center_link": "https://participant-support.usertesting.com/",
+        "support_team": "supportteam",
+        "support_team_link": "https://participant-support.usertesting.com/hc/requests/new"
+      },
+      "sign_off": "Tak <br>UserTesting-holdet"
     }
   }
 }
