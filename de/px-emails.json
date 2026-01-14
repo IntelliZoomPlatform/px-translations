@@ -276,11 +276,11 @@
       "copyright": "©UserTesting {{currentYear}}, Alle Rechte vorbehalten.",
       "manage_preferences": "E-Mail-Einstellungen verwalten",
       "privacy_policy": "Datenschutzerklärung",
-      "privacy_policy_link": "https://www.usertesting.com/de/privacy-center/privacy-policy",
+      "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Support",
-      "support_link": "https://participant-support.usertesting.com/hc",
+      "support_link": "https://participant-support.usertesting.com",
       "terms_of_service": "Nutzungsbedingungen",
-      "terms_of_service_link": "https://www.usertesting.com/de/privacy-center/terms-of-service-contributor"
+      "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
     "forgot_password_email": {
       "body_text": "Wir haben eine Anfrage zum Zurücksetzen Ihres Passworts erhalten. Klicken Sie auf die Schaltfläche unten, um ein neues Passwort zu erstellen.",
@@ -310,7 +310,7 @@
     },
     "panelist_removal_email": {
       "first_body_text": "wir haben Ihr Konto mitsamt Ihren Daten aus unserem System gelöscht (diese E-Mail ist die letzte, die Sie von uns erhalten).",
-      "second_body_text": "Falls Sie diese Aktion nicht angefordert haben, könnte dies daran liegen, dass Sie über einen längeren Zeitraum hinweg inaktiv waren oder unsere Plattform missbräuchlich genutzt und damit gegen unsere <a href=\"https://www.usertesting.com/de/privacy-center/terms-of-service-contributor\">Nutzungsbedingungen</a> verstoßen haben.",
+      "second_body_text": "Falls Sie diese Aktion nicht angefordert haben, könnte dies daran liegen, dass Sie über einen längeren Zeitraum hinweg inaktiv waren oder unsere Plattform missbräuchlich genutzt und damit gegen unsere <a href=\"https://www.usertesting.com/privacy-center/terms-of-service-contributor\">Nutzungsbedingungen</a> verstoßen haben.",
       "subject": "Ihr UserTesting-Konto wurde gelöscht",
       "third_body_text": "Wenn dies Ihrer Meinung nach irrtümlich geschehen ist oder Sie weitere Informationen wünschen, bitte <a href=\"https://participant-support.usertesting.com/hc/requests/new\">kontaktieren Sie uns</a> oder besuchen Sie unser <a href=\"https://participant-support.usertesting.com/hc\">Hilfe-Center</a>.",
       "title": "UserTesting-Konto gelöscht"
@@ -519,7 +519,7 @@
       "privacy_policy": "Datenschutzerklärung",
       "privacy_policy_link": "https://www.usertesting.com/privacy-center/privacy-policy",
       "support": "Support",
-      "support_link": "https://participant-support.usertesting.com/hc",
+      "support_link": "https://participant-support.usertesting.com",
       "terms_of_service": "Nutzungsbedingungen",
       "terms_of_service_link": "https://www.usertesting.com/privacy-center/terms-of-service-contributor"
     },
@@ -571,6 +571,19 @@
       "body_text": "Für Sie war heute <strong>{{sessionDate}}</strong> eine Live-Unterhaltung angesetzt (Studien-ID {{projectId}}). Allerdings haben wir festgestellt, dass Sie nicht teilgenommen haben. Sie werden daher für diese Sitzung nicht entlohnt.<br><br>Wir verstehen, dass manchmal unvorhergesehene Umstände eintreten. Wenn Sie einen Termin nicht einhalten können, sagen Sie ihn bitte mindestens 24 Stunden vorher ab oder vereinbaren Sie einen neuen Termin. Das gibt anderen Teilnehmern die Möglichkeit, Ihren Platz einzunehmen.",
       "subject": "Sie haben Ihre Live-Unterhaltung verpasst",
       "title": "Sie haben Ihre Sitzung verpasst"
+    },
+    "generic": {
+      "greeting": "Hallo {{user.firstName}},",
+      "join_button": "Sitzung beitreten",
+      "reach_out_support": {
+        "first_text": "Sie benötigen Hilfe? Wenden Sie sich an unser ",
+        "second_text": "oder besuchen Sie das",
+        "support_center": "Support-Center",
+        "support_center_link": "https://participant-support.usertesting.com/",
+        "support_team": "Support-Team",
+        "support_team_link": "https://participant-support.usertesting.com/hc/requests/new"
+      },
+      "sign_off": "Danke <br>Das Team von UserTesting"
     }
   }
 }
