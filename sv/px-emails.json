@@ -503,7 +503,7 @@
       }
     },
     "verifiedFirstTest": {
-      "subject": "<strong>Möjlig åtgärd krävs:</strong> Det finns viktiga kommentarer om ditt slutförda test!",
+      "subject": "Möjlig åtgärd krävs: Det finns viktiga kommentarer om ditt slutförda test!",
       "body": "Du har fått viktiga kommentarer om ditt slutförda test {{invitationId}} från {{sessionDate}}",
       "title": "Viktiga kommentarer om ditt genomförda test",
       "whatSays": "<strong>Det här är vad vårt team hade att säga:</strong>",
