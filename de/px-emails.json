@@ -505,7 +505,7 @@
     "verifiedFirstTest": {
       "subject": "<strong>Mögliche erforderliche Maßnahme:</strong> Es gibt wichtige Kommentare zu Ihrem abgeschlossenen Test!",
       "body": "Sie haben wichtige Kommentare zu Ihrem abgeschlossenen Test {{invitationId}} vom {{sessionDate}} erhalten",
-      "title": "Wichtige Kommentare zu Ihrem abgeschlossenen",
+      "title": "Wichtige Hinweise zu Ihrem ausgefüllten Test",
       "whatSays": "<strong>Hier ist die Rückmeldung unseres Teams:</strong>",
       "testLabel": "Test",
       "goodLuck": "Vielen Dank, dass Sie an UserTesting teilnehmen. Wir wünschen Ihnen viel Erfolg für Ihren nächsten Test!"
