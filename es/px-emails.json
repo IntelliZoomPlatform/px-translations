@@ -504,7 +504,7 @@
     },
     "verifiedFirstTest": {
       "subject": "Posible acción requerida: ¡Hay comentarios importantes sobre tu prueba completada!",
-      "body": "Has recibido comentarios importantes sobre tu prueba completada {{invitationId}} del {{sessionDate}}",
+      "body": "Has recibido comentarios importantes sobre tu prueba completada {{projectId}} del {{sessionDate}}",
       "title": "Comentarios importantes sobre tu prueba completada",
       "whatSays": "<strong>Esto es lo que nuestro equipo ha dicho:</strong>",
       "testLabel": "test",

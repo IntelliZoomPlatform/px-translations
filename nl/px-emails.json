@@ -504,7 +504,7 @@
     },
     "verifiedFirstTest": {
       "subject": "Mogelijke actie vereist: Er zijn belangrijke opmerkingen over uw voltooide test!",
-      "body": "U hebt belangrijke opmerkingen ontvangen over de test {{invitationId}} die u op {{sessionDate}} hebt voltooid",
+      "body": "U hebt belangrijke opmerkingen ontvangen over de test {{projectId}} die u op {{sessionDate}} hebt voltooid",
       "title": "Belangrijke opmerkingen over uw voltooide test",
       "whatSays": "<strong>Dit was de reactie van ons team:</strong>",
       "testLabel": "test",

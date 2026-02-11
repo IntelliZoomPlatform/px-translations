@@ -504,7 +504,7 @@
     },
     "verifiedFirstTest": {
       "subject": "Mulig handling påkrævet: Der er vigtige kommentarer på dine gennemførte tests!",
-      "body": "Du har modtaget vigtige kommentarer på din gennemførte test {{invitationId}} fra {{sessionDate}}",
+      "body": "Du har modtaget vigtige kommentarer på din gennemførte test {{projectId}} fra {{sessionDate}}",
       "title": "Vigtige kommentarer til din afsluttede test",
       "whatSays": "<strong>Vores team havde følgende at sige:</strong>",
       "testLabel": "test",
