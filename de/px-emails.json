@@ -503,7 +503,7 @@
       }
     },
     "verifiedFirstTest": {
-      "subject": "<strong>Mögliche erforderliche Maßnahme:</strong> Es gibt wichtige Kommentare zu Ihrem abgeschlossenen Test!",
+      "subject": "Mögliche erforderliche Maßnahme: Es gibt wichtige Kommentare zu Ihrem abgeschlossenen Test!",
       "body": "Sie haben wichtige Kommentare zu Ihrem abgeschlossenen Test {{invitationId}} vom {{sessionDate}} erhalten",
       "title": "Wichtige Hinweise zu Ihrem ausgefüllten Test",
       "whatSays": "<strong>Hier ist die Rückmeldung unseres Teams:</strong>",
