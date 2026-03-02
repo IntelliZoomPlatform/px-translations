@@ -254,6 +254,11 @@
         "bodyCopy": "Hello {{user.name}},<br><br>We have deleted your account and information from within our system. (This mail being the last communication you'll receive from us.)<br><br>If you did not request this, it may be due to a long period of inactivity or due to a misusage of our platform resulting in a violation of our <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br><br>If you think this is a mistake or would like further information, please <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> or visit our <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>.",
         "subject": "Your account has been deleted",
         "title": "Your IntelliZoom Panel account has been deleted"
+      },
+      "icsCancellation": {
+        "summary": "Live Conversation session cancelled",
+        "description": "This session has been cancelled.",
+        "fileName": "Live Conversation session cancelled"
       }
     }
   },
