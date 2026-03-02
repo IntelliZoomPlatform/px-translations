@@ -255,6 +255,11 @@
         "subject": "Your account has been deleted",
         "title": "Your IntelliZoom Panel account has been deleted"
       }
+    },
+    "icsCancellation": {
+      "summary": "Live Conversation session cancelled",
+      "description": "This session has been cancelled.",
+      "fileName": "Live Conversation session cancelled"
     }
   },
   "sessionCancelledByModerator": {
