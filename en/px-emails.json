@@ -306,7 +306,9 @@
         "support_team": "support team",
         "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
       },
-      "sign_off": "Thanks, <br>The UserTesting team"
+      "sign_off": "Thanks, <br>The UserTesting team",
+      "go_to_test": "Go to test",
+      "study_id": "Study ID for your reference: {{projectId}}"
     },
     "panelist_problem_reported_email": {
       "body_text": "Thank you for reporting a problem with the test: {{projectId}}. While we can’t offer automatic compensation for an uncompleted test, we truly value the time you’ve invested in providing this information. <br> <br> We apologize for the issue you experienced and hope your next test goes smoothly!",
@@ -344,6 +346,12 @@
       "study_id": "Study ID for your reference: {{projectId}}",
       "subject": "New test opportunity for you!",
       "title": "New test available"
+    },
+    "participant_study_invitation_specified_reminder_email": {
+      "body_text": "One of our customers loved your feedback and requested you again. This is a reminder to complete your new test and <b>earn {{studyFee}}</b>.",
+      "subject": "Reminder: Your {{studyFee}} test is still waiting",
+      "test_details": "Test details:",
+      "title": "Reminder: Your {{studyFee}} test is waiting..."
     },
     "paypal_integration_revoked_email": {
       "body_text": "We noticed your PayPal account has been disconnected from UserTesting.\n\nTo keep receiving invites, participate in paid tests, and receive any pending payments, go to your UserTesting Home page and connect your PayPal account again.",
