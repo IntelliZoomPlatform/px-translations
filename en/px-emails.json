@@ -350,6 +350,21 @@
       "subject": "Reminder: Your {{studyFee}} test is still waiting",
       "title": "Reminder: Your {{studyFee}} test is waiting..."
     },
+    "participant_study_invitation_specified_email": {
+      "body": "One of our customers loved your feedback and would like your input again. Earn <strong>{{studyFee}}</strong> when you complete this new test.",
+      "button": "Book session",
+      "helpful_resources": "Helpful resources",
+      "non_tol_practice_note": "You can take this test even if you haven`t completed the practice session.",
+      "resource_live_conversation": "Live Conversation: ",
+      "resource_live_conversation_link": "https://participant-support.usertesting.com/hc/en-us/articles/37483242557075-FAQ-Live-Conversations",
+      "resource_live_conversation_link_text": "FAQ",
+      "resource_task_based": "Task-based: ",
+      "resource_task_based_link": "https://participant-support.usertesting.com/hc/en-us/articles/41323390700947-Participant-guide-How-to-give-great-feedback",
+      "resource_task_based_link_text": "How to give great feedback",
+      "subject": "New {{studyFee}} test: A customer requested you",
+      "test_details": "Test details:",
+      "title": "A customer requested you again!"
+    },
     "paypal_integration_revoked_email": {
       "body_text": "We noticed your PayPal account has been disconnected from UserTesting.\n\nTo keep receiving invites, participate in paid tests, and receive any pending payments, go to your UserTesting Home page and connect your PayPal account again.",
       "body_text_one": "We noticed your PayPal account has been disconnected from UserTesting.",
@@ -456,7 +471,8 @@
       },
       "test_type": {
         "survey": "Survey",
-        "task_based_test": "Task based"
+        "task_based_test": "Task based",
+        "live_conversation": "Live conversation"
       },
       "title": "For this test you will need:"
     },
