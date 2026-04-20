@@ -306,9 +306,7 @@
         "support_team": "support team",
         "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
       },
-      "sign_off": "Thanks, <br>The UserTesting team",
-      "go_to_test": "Go to test",
-      "study_id": "Study ID for your reference: {{projectId}}"
+      "sign_off": "Thanks, <br>The UserTesting team"
     },
     "panelist_problem_reported_email": {
       "body_text": "Thank you for reporting a problem with the test: {{projectId}}. While we can’t offer automatic compensation for an uncompleted test, we truly value the time you’ve invested in providing this information. <br> <br> We apologize for the issue you experienced and hope your next test goes smoothly!",
