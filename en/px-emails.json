@@ -345,6 +345,11 @@
       "subject": "New test opportunity for you!",
       "title": "New test available"
     },
+    "participant_study_invitation_specified_reminder_email": {
+      "body_text": "One of our customers loved your feedback and requested you again. This is a reminder to complete your new test and <b>earn {{studyFee}}</b>.",
+      "subject": "Reminder: Your {{studyFee}} test is still waiting",
+      "title": "Reminder: Your {{studyFee}} test is waiting..."
+    },
     "participant_study_invitation_specified_email": {
       "body": "One of our customers loved your feedback and would like your input again. Earn <strong>{{studyFee}}</strong> when you complete this new test.",
       "button": "Book session",
