@@ -254,6 +254,11 @@
         "bodyCopy": "Hello {{user.name}},<br><br>We have deleted your account and information from within our system. (This mail being the last communication you'll receive from us.)<br><br>If you did not request this, it may be due to a long period of inactivity or due to a misusage of our platform resulting in a violation of our <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br><br>If you think this is a mistake or would like further information, please <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> or visit our <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>.",
         "subject": "Your account has been deleted",
         "title": "Your IntelliZoom Panel account has been deleted"
+      },
+      "icsCancellation": {
+        "summary": "Live Conversation session cancelled",
+        "description": "This session has been cancelled.",
+        "fileName": "Live Conversation session cancelled"
       }
     }
   },
@@ -339,6 +344,26 @@
       "study_id": "Study ID for your reference: {{projectId}}",
       "subject": "New test opportunity for you!",
       "title": "New test available"
+    },
+    "participant_study_invitation_specified_reminder_email": {
+      "body_text": "One of our customers loved your feedback and requested you again. This is a reminder to complete your new test and <b>earn {{studyFee}}</b>.",
+      "subject": "Reminder: Your {{studyFee}} test is still waiting",
+      "title": "Reminder: Your {{studyFee}} test is waiting..."
+    },
+    "participant_study_invitation_specified_email": {
+      "body": "One of our customers loved your feedback and would like your input again. Earn <strong>{{studyFee}}</strong> when you complete this new test.",
+      "button": "Book session",
+      "helpful_resources": "Helpful resources",
+      "non_tol_practice_note": "You can take this test even if you haven`t completed the practice session.",
+      "resource_live_conversation": "Live Conversation: ",
+      "resource_live_conversation_link": "https://participant-support.usertesting.com/hc/en-us/articles/37483242557075-FAQ-Live-Conversations",
+      "resource_live_conversation_link_text": "FAQ",
+      "resource_task_based": "Task-based: ",
+      "resource_task_based_link": "https://participant-support.usertesting.com/hc/en-us/articles/41323390700947-Participant-guide-How-to-give-great-feedback",
+      "resource_task_based_link_text": "How to give great feedback",
+      "subject": "New {{studyFee}} test: A customer requested you",
+      "test_details": "Test details:",
+      "title": "A customer requested you again!"
     },
     "paypal_integration_revoked_email": {
       "body_text": "We noticed your PayPal account has been disconnected from UserTesting.\n\nTo keep receiving invites, participate in paid tests, and receive any pending payments, go to your UserTesting Home page and connect your PayPal account again.",
@@ -446,7 +471,8 @@
       },
       "test_type": {
         "survey": "Survey",
-        "task_based_test": "Task based"
+        "task_based_test": "Task based",
+        "live_conversation": "Live conversation"
       },
       "title": "For this test you will need:"
     },
@@ -588,7 +614,7 @@
         "support_center": "Support Center",
         "support_center_link": "https://participant-support.usertesting.com/",
         "support_team": "support team",
-        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new"
+        "support_team_link": "https://participant-support.usertesting.com/hc/en-us/requests/new?ticket_form_id=3517900759246[…]pe&tf_37731729142547=unified_session_type_moderated"
       },
       "sign_off": "Thanks, <br>The UserTesting team"
     }
