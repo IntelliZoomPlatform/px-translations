@@ -251,6 +251,7 @@
         "chrome": "Chrome",
         "edge": "Edge",
         "explorer": "Explorer",
+        "explorer_11": "Internet Explorer 11",
         "firefox": "Firefox",
         "safari": "Safari"
       },
