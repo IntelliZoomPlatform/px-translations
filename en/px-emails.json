@@ -354,7 +354,7 @@
       "body": "One of our customers loved your feedback and would like your input again. Earn <strong>{{studyFee}}</strong> when you complete this new test.",
       "button": "Book session",
       "helpful_resources": "Helpful resources",
-      "non_tol_practice_note": "You can take this test even if you haven`t completed the practice session.",
+      "non_tol_practice_note": "You can take this test even if you haven't completed the practice session.",
       "resource_live_conversation": "Live Conversation: ",
       "resource_live_conversation_link": "https://participant-support.usertesting.com/hc/en-us/articles/37483242557075-FAQ-Live-Conversations",
       "resource_live_conversation_link_text": "FAQ",
@@ -473,7 +473,7 @@
       "test_type": {
         "survey": "Survey",
         "task_based_test": "Task based",
-        "live_conversation": "Live conversation"
+        "live_conversation": "Live Conversation"
       },
       "title": "For this test you will need:"
     },
@@ -532,7 +532,7 @@
     },
     "verifiedFirstTest": {
       "subject": "Possible action required: There are important comments on your completed test!",
-      "body": "You’ve received important comments on your completed test {{invitationId}} from {{sessionDate}}",
+      "body": "You’ve received important comments on your completed test {{projectId}} from {{sessionDate}}",
       "title": "Important comments on your completed test",
       "whatSays": "<strong>Here’s what our team had to say:</strong>",
       "testLabel": "test",
