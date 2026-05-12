@@ -254,6 +254,11 @@
         "bodyCopy": "Hallo {user.name}},<br><br>Wir haben Dein Konto und all Deine Information von unserem System gelöscht. (Das ist die letzte Nachricht, die Du von uns erhalten wirst).<br><br>Solltest Du das nicht gewünscht haben, kann es sein, dass dies entweder durch längere Inaktivität oder aber durch einen Verstoß gegen unsere <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a> ausgelöst wurde.<br><br>Sollte hier ein Fehler vorliegen oder möchtest Du mehr Information, bitte <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> oder werfe einen Blick in unser <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>.",
         "subject": "Dein Konto wurde gelöscht",
         "title": "Dein IntelliZoom Panel Konto wurde gelöscht"
+      },
+      "icsCancellation": {
+        "summary": "Live-Interview wurde abgesagt",
+        "description": "Diese Sitzung wurde abgesagt.",
+        "fileName": "Live-Interview wurde abgesagt"
       }
     }
   },
@@ -339,6 +344,26 @@
       "study_id": "Studien-ID als Referenz: {{projectId}}",
       "subject": "Neue Testmöglichkeit für Sie!",
       "title": "Neuer Test verfügbar"
+    },
+    "participant_study_invitation_specified_reminder_email": {
+      "body_text": "Einer unserer Kunden war von Ihrem Feedback begeistert und hat erneut um Ihre Meinung gebeten. Dies ist eine Erinnerung daran, den neuen Test abzuschließen und <b>{{studyFee}} zu verdienen</b>.",
+      "subject": "Erinnerung: Ihr Test ({{studyFee}}) wartet noch immer auf Sie",
+      "title": "Erinnerung: Ihr Test ({{studyFee}}) wartet noch immer ..."
+    },
+    "participant_study_invitation_specified_email": {
+      "body": "Einer unserer Kunden war von Ihrem Feedback begeistert und würde sich über Ihre nächste Meinung freuen. Wenn Sie diesen neuen Test abschließen, erhalten Sie <strong>{{studyFee}}</strong>.",
+      "button": "Sitzung buchen",
+      "helpful_resources": "Hilfreiche Ressourcen",
+      "non_tol_practice_note": "Sie können diesen Test auch durchführen, wenn Sie die Übungs-Sitzung nicht abgeschlossen haben.",
+      "resource_live_conversation": "Live-Interview: ",
+      "resource_live_conversation_link": "https://participant-support.usertesting.com/hc/en-us/articles/37483242557075-FAQ-Live-Conversations",
+      "resource_live_conversation_link_text": "FAQ",
+      "resource_task_based": "Aufgabenbasiert: ",
+      "resource_task_based_link": "https://participant-support.usertesting.com/hc/en-us/articles/41323390700947-Participant-guide-How-to-give-great-feedback",
+      "resource_task_based_link_text": "So geben Sie exzellentes Feedback",
+      "subject": "Neuer Test ({{studyFee}}): ein Kunde hat Ihre Meinung angefragt",
+      "test_details": "Testinformationen:",
+      "title": "Ein Kunde hat erneut um Ihre Meinung gebeten!"
     },
     "paypal_integration_revoked_email": {
       "body_text_one": "uns ist aufgefallen, dass Ihr PayPal-Konto nicht länger mit UserTesting verbunden ist.",
@@ -446,7 +471,8 @@
       },
       "test_type": {
         "survey": "Umfrage",
-        "task_based_test": "Aufgabenbasiert"
+        "task_based_test": "Aufgabenbasiert",
+        "live_conversation": "Live-Interview"
       },
       "title": "Für diesen Test benötigst du:"
     },
@@ -472,7 +498,7 @@
         "body_text": "Klicken Sie auf den iCalendar-Anhang (ICS) in dieser E-Mail, um diese Veranstaltung zu Ihrem Kalender hinzuzufügen.",
         "title": "Zu Ihrem Kalender hinzufügen"
       },
-      "note_cancel": "<strong>Hinweis:</strong> Falls Sie diesen Termin nicht einhalten können, <a href='{{entranceLink}}'>stornieren</a> oder <a href='{{entranceLink}}'>verlegen</a> Sie Ihre Session bitte so bald wie möglich.",
+      "note_cancel": "<strong>Hinweis:</strong> Falls Sie diesen Termin nicht einhalten können, <a href='{{rescheduleCancelLink}}'>stornieren</a> oder <a href='{{rescheduleCancelLink}}'>verlegen</a> Sie Ihre Session bitte so bald wie möglich.",
       "session_link": "Wenn Sie möchten, können Sie den Link zur Session auch kopieren und einfügen: <br>{{sessionLink}}"
     },
     "time_slot_reminder_24h_email": {
@@ -505,7 +531,7 @@
     },
     "verifiedFirstTest": {
       "subject": "Mögliche erforderliche Maßnahme: Es gibt wichtige Kommentare zu Ihrem abgeschlossenen Test!",
-      "body": "Sie haben wichtige Kommentare zu Ihrem abgeschlossenen Test {{invitationId}} vom {{sessionDate}} erhalten",
+      "body": "Sie haben wichtige Kommentare zu Ihrem abgeschlossenen Test {{projectId}} vom {{sessionDate}} erhalten",
       "title": "Wichtige Anmerkungen zu Ihrem abgeschlossenen Test",
       "whatSays": "<strong>Hier ist die Rückmeldung unseres Teams:</strong>",
       "testLabel": "Test",

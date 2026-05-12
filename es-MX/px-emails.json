@@ -329,7 +329,7 @@
         "body_text": "Haz clic en el archivo adjunto iCalendar (ICS) de este correo electrónico para añadir este evento a tu calendario.",
         "title": "Añadir a tu calendario"
       },
-      "note_cancel": "<strong>Nota:</strong> Si ya no puede estar a esta hora, <a href='{{entranceLink}}'>cancele</a> o <a href='{{entranceLink}}'>reprograme</a> su sesión lo antes posible.",
+      "note_cancel": "<strong>Nota:</strong> Si ya no puede estar a esta hora, <a href='{{rescheduleCancelLink}}'>cancele</a> o <a href='{{rescheduleCancelLink}}'>reprograme</a> su sesión lo antes posible.",
       "session_link": "Si lo prefiere, puede copiar y pegar el enlace de la sesión: <br>{{sessionLink}}"
     },
     "time_slot_reminder_24h_email": {
