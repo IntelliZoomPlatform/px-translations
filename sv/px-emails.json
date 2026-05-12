@@ -254,6 +254,11 @@
         "bodyCopy": "Hej {{user.name}},<br><br>Vi har tagit bort ditt konto och din information från vårt system. (Det här e-postmeddelandet är det sista meddelandet du kommer att få från oss.)<br><br>Om du inte har begärt detta kan det bero på en lång period av inaktivitet eller på grund av att vår plattform har missbrukats, som resulterar i en överträdelse av våra <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br><br>Om du tror att detta är ett misstag eller vill ha mer information, vänligen <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px -emails:izPanel.emails.generic.inlineContact)</a> eller besök vår <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>.",
         "subject": "Ditt konto har raderats",
         "title": "Ditt konto på IntelliZoom Panel har tagits bort"
+      },
+      "icsCancellation": {
+        "summary": "Livekonversationssession avbokad",
+        "description": "Denna session har avbokats.",
+        "fileName": "Livekonversationssession avbokad"
       }
     }
   },
@@ -339,6 +344,26 @@
       "study_id": "Studie-ID som referens: {{projectId}}",
       "subject": "Ny testmöjlighet för dig!",
       "title": "Nytt test tillgängligt"
+    },
+    "participant_study_invitation_specified_reminder_email": {
+      "body_text": "En av våra kunder älskade din feedback och har efterfrågat dig igen. Detta är en påminnelse om att genomföra det nya testet och <b>tjäna {{studyFee}}</b>.",
+      "subject": "Påminnelse: Ditt {{studyFee}}-test väntar fortfarande",
+      "title": "Påminnelse: Ditt {{studyFee}}-test väntar ..."
+    },
+    "participant_study_invitation_specified_email": {
+      "body": "En av våra kunder älskade din feedback och skulle vilja höra dina synpunkter igen. Tjäna <strong>{{studyFee}}</strong> när du genomför detta nya test.",
+      "button": "Boka session",
+      "helpful_resources": "Hjälpresurser",
+      "non_tol_practice_note": "Du kan göra det här testet även om du inte har genomfört övningssessionen.",
+      "resource_live_conversation": "Livekonversation: ",
+      "resource_live_conversation_link": "https://participant-support.usertesting.com/hc/en-us/articles/37483242557075-FAQ-Live-Conversations",
+      "resource_live_conversation_link_text": "Vanliga frågor",
+      "resource_task_based": "Uppgiftsbaserat: ",
+      "resource_task_based_link": "https://participant-support.usertesting.com/hc/en-us/articles/41323390700947-Participant-guide-How-to-give-great-feedback",
+      "resource_task_based_link_text": "Så ger du bra feedback",
+      "subject": "Nytt {{studyFee}}-test: en kund har efterfrågat dig",
+      "test_details": "Testinfo:",
+      "title": "En kund har efterfrågat dig igen!"
     },
     "paypal_integration_revoked_email": {
       "body_text_one": "Vi noterade att ditt PayPal-konto har kopplats bort från TestKonto.",
@@ -446,7 +471,8 @@
       },
       "test_type": {
         "survey": "Enkät",
-        "task_based_test": "Uppgiftsbaserad"
+        "task_based_test": "Uppgiftsbaserad",
+        "live_conversation": "Livekonversation"
       },
       "title": "För det här testet behöver du:"
     },
@@ -472,7 +498,7 @@
         "body_text": "Klicka på iCalendar-bilagan (ICS) i det här e-postmeddelandet om du vill lägga till det här eventet i din kalender.",
         "title": "Lägg till i din kalender"
       },
-      "note_cancel": "<strong>Obs:</strong> Om du inte längre kan hålla den här tiden, ber vi dig <a href='{{entranceLink}}'>avboka</a> eller <a href='{{entranceLink}}'>omboka</a> din session så snart som möjligt.",
+      "note_cancel": "<strong>Obs:</strong> Om du inte längre kan hålla den här tiden, ber vi dig <a href='{{rescheduleCancelLink}}'>avboka</a> eller <a href='{{rescheduleCancelLink}}'>omboka</a> din session så snart som möjligt.",
       "session_link": "Du kan kopiera och klistra in sessionslänken om du föredrar det: <br>{{sessionLink}}"
     },
     "time_slot_reminder_24h_email": {
@@ -505,7 +531,7 @@
     },
     "verifiedFirstTest": {
       "subject": "Möjlig åtgärd krävs: Det finns viktiga kommentarer om ditt slutförda test!",
-      "body": "Du har fått viktiga kommentarer om ditt slutförda test {{invitationId}} från {{sessionDate}}",
+      "body": "Du har fått viktiga kommentarer om ditt slutförda test {{projectId}} från {{sessionDate}}",
       "title": "Viktiga kommentarer om ditt genomförda test",
       "whatSays": "<strong>Det här är vad vårt team hade att säga:</strong>",
       "testLabel": "test",

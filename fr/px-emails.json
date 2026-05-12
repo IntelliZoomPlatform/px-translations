@@ -254,6 +254,11 @@
         "bodyCopy": "Bonjour {{user.name}},<br><br>Nous avons supprimé votre compte IntelliZoom et vos informations de notre système. (Ce mail sera la dernière communication que vous recevrez de notre part.)<br><br>Si vous n'êtes pas à l'origine de cette demande, il se peut que cette suppression soit due à une longue période d'inactivité ou à une mauvaise utilisation de notre plateforme entraînant une violation de nos <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br><br>Si vous pensez qu'il s'agit d'une erreur, ou si vous souhaitez obtenir des informations complémentaires, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> ou visitez notre <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>.",
         "subject": "Votre compte a été supprimé",
         "title": "Votre compte IntelliZoom Panel a été supprimé"
+      },
+      "icsCancellation": {
+        "summary": "La session de conversation en direct a été annulée",
+        "description": "Cette séance a été annulée.",
+        "fileName": "La session de conversation en direct a été annulée"
       }
     }
   },
@@ -339,6 +344,26 @@
       "study_id": "Identifiant d'étude pour référence : {{projectId}}",
       "subject": "Nouvelle opportunité de test disponible !",
       "title": "Nouveau test disponible"
+    },
+    "participant_study_invitation_specified_reminder_email": {
+      "body_text": "L'un de nos clients a beaucoup apprécié votre avis et a demandé à ce que vous interveniez à nouveau. Nous vous rappelons de passer votre nouveau test et de <b>gagner {{studyFee}}</b>.",
+      "subject": "Rappel : votre test {{studyFee}} est toujours en attente",
+      "title": "Rappel : votre test {{studyFee}} vous attend..."
+    },
+    "participant_study_invitation_specified_email": {
+      "body": "L'un de nos clients a beaucoup apprécié vos commentaires et souhaiterait à nouveau bénéficier de votre avis. Gagnez <strong>{{studyFee}}</strong> en passant ce nouveau test.",
+      "button": "Réserver une séance",
+      "helpful_resources": "Ressources utiles",
+      "non_tol_practice_note": "Vous pouvez passer ce test même si vous n'avez pas terminé la session d'entraînement.",
+      "resource_live_conversation": "Conversation en direct : ",
+      "resource_live_conversation_link": "https://participant-support.usertesting.com/hc/en-us/articles/37483242557075-FAQ-Live-Conversations",
+      "resource_live_conversation_link_text": "FAQ",
+      "resource_task_based": "Axé sur les tâches : ",
+      "resource_task_based_link": "https://participant-support.usertesting.com/hc/en-us/articles/41323390700947-Participant-guide-How-to-give-great-feedback",
+      "resource_task_based_link_text": "Comment donner un retour constructif",
+      "subject": "Nouveau test {{studyfee}} : un client vous a demandé",
+      "test_details": "Détails du test :",
+      "title": "Un client vous a de nouveau demandé !"
     },
     "paypal_integration_revoked_email": {
       "body_text_one": "Nous avons remarqué que votre compte PayPal a été déconnecté de UserTesting.",
@@ -446,7 +471,8 @@
       },
       "test_type": {
         "survey": "Sondage",
-        "task_based_test": "Tâches à réaliser"
+        "task_based_test": "Tâches à réaliser",
+        "live_conversation": "Conversation en direct"
       },
       "title": "Pour ce test, vous aurez besoin de :"
     },
@@ -472,7 +498,7 @@
         "body_text": "Cliquez sur la pièce jointe iCalendar (ICS) à ce mail pour ajouter cet événement à votre calendrier.",
         "title": "Ajouter à votre calendrier"
       },
-      "note_cancel": "<strong>Remarque:</strong> si vous ne pouvez plus respecter cette heure, veuillez <a href='{{entranceLink}}'>annuler</a> ou <a href='{{entranceLink}}'>reprogrammer</a> votre séance dès que possible.",
+      "note_cancel": "<strong>Remarque:</strong> si vous ne pouvez plus respecter cette heure, veuillez <a href='{{rescheduleCancelLink}}'>annuler</a> ou <a href='{{rescheduleCancelLink}}'>reprogrammer</a> votre séance dès que possible.",
       "session_link": "Vous pouvez copier et coller le lien de la séance si vous préférez : <br>{{sessionLink}}"
     },
     "time_slot_reminder_24h_email": {
@@ -504,10 +530,10 @@
       }
     },
     "verifiedFirstTest": {
-      "subject": "Action requise éventuelle : Des commentaires importants ont été formulés sur votre test terminé.",
-      "body": "Vous avez reçu des commentaires importants concernant votre test terminé {{invitationId}} du {{sessionDate}}",
+      "subject": "Action requise éventuelle: Des commentaires importants ont été formulés sur votre test terminé.",
+      "body": "Vous avez reçu des commentaires importants concernant votre test terminé {{projectId}} du {{sessionDate}}",
       "title": "Remarques importantes sur le test que vous avez complété",
-      "whatSays": "<strong>Voici ce que notre équipe avait à dire :</strong>",
+      "whatSays": "<strong>Voici ce que notre équipe avait à dire:</strong>",
       "testLabel": "test",
       "goodLuck": "Nous vous remercions d'avoir participé à UserTesting et vous souhaitons bonne chance pour votre prochain test."
     }

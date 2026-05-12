@@ -254,6 +254,11 @@
         "bodyCopy": "Hallo {{user.name}},<br><br>We hebben je account en informatie uit ons systeem verwijderd. (Deze e-mail is het laatste bericht dat je van ons zult ontvangen.)<br><br>Als je dit niet hebt aangevraagd kan het ten gevolge van een lange periode van inactiviteit zijn, of vanwege misbruik van ons platform, resulterend in een schending van onze <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br><br>Als je denkt dat dit een vergissing is of als je meer informatie wilt <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> of bezoek ons <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>.",
         "subject": "Je account is verwijderd",
         "title": "Je IntelliZoom Panel account is verwijderd"
+      },
+      "icsCancellation": {
+        "summary": "Live gesprekssessie geannuleerd",
+        "description": "Deze sessie is geannuleerd.",
+        "fileName": "Live gesprekssessie geannuleerd"
       }
     }
   },
@@ -339,6 +344,26 @@
       "study_id": "Studie-ID voor uw referentie: {{projectId}}",
       "subject": "Nieuwe test beschikbaar voor jou!",
       "title": "Nieuwe test beschikbaar"
+    },
+    "participant_study_invitation_specified_reminder_email": {
+      "body_text": "Een van onze klanten was erg enthousiast over je feedback en heeft je opnieuw gevraagd. Dit is een herinnering om je nieuwe test te voltooien en <b>{{studyFee}} te verdienen</b>.",
+      "subject": "Herinnering: je test van {{studyFee}} wacht nog op je",
+      "title": "Herinnering: je test van {{studyFee}} wacht op je"
+    },
+    "participant_study_invitation_specified_email": {
+      "body": "Een van onze klanten was erg blij met je feedback en zou graag nogmaals je input ontvangen. Verdien <strong>{{studyFee}}</strong> wanneer je deze nieuwe test voltooit.",
+      "button": "Sessie boeken",
+      "helpful_resources": "Nuttige bronnen",
+      "non_tol_practice_note": "Je kunt deze test maken, ook als je de oefensessie nog niet hebt afgerond.",
+      "resource_live_conversation": "Live gesprek: ",
+      "resource_live_conversation_link": "https://participant-support.usertesting.com/hc/en-us/articles/37483242557075-FAQ-Live-Conversations",
+      "resource_live_conversation_link_text": "Veelgestelde vragen",
+      "resource_task_based": "Op taakbasis: ",
+      "resource_task_based_link": "https://participant-support.usertesting.com/hc/en-us/articles/41323390700947-Participant-guide-How-to-give-great-feedback",
+      "resource_task_based_link_text": "Zo geef je geweldige feedback",
+      "subject": "Nieuwe test van {{studyFee}}: een klant heeft om je gevraagd",
+      "test_details": "Testgegevens:",
+      "title": "Een klant heeft opnieuw om je gevraagd!"
     },
     "paypal_integration_revoked_email": {
       "body_text_one": "Het is ons opgevallen dat uw PayPal-account is ontkoppeld van UserTesting.",
@@ -446,7 +471,8 @@
       },
       "test_type": {
         "survey": "Enquête",
-        "task_based_test": "Taakgebaseerd"
+        "task_based_test": "Taakgebaseerd",
+        "live_conversation": "Live gesprek"
       },
       "title": "Voor deze test heb je nodig:"
     },
@@ -472,7 +498,7 @@
         "body_text": "Klik op de iCalendar (ICS)-bijlage in deze e-mail om deze gebeurtenis aan uw agenda toe te voegen.",
         "title": "Aan uw agenda toevoegen"
       },
-      "note_cancel": "<strong>Let op:</strong> indien u niet meer kunt om deze tijd, <a href='{{entranceLink}}'>annuleer</a> of <a href='{{entranceLink}}'>verzet</a> uw sessie dan zo spoedig mogelijk.",
+      "note_cancel": "<strong>Let op:</strong> indien u niet meer kunt om deze tijd, <a href='{{rescheduleCancelLink}}'>annuleer</a> of <a href='{{rescheduleCancelLink}}'>verzet</a> uw sessie dan zo spoedig mogelijk.",
       "session_link": "U kunt de link naar de sessie kopiëren en plakken indien u daar de voorkeur aan geeft: <br>{{sessionLink}}"
     },
     "time_slot_reminder_24h_email": {
@@ -504,8 +530,8 @@
       }
     },
     "verifiedFirstTest": {
-      "subject": "Mogelijke actie vereist: er zijn belangrijke opmerkingen over uw voltooide test!",
-      "body": "U hebt belangrijke opmerkingen ontvangen over de test {{invitationId}} die u op {{sessionDate}} hebt voltooid",
+      "subject": "Mogelijke actie vereist: Er zijn belangrijke opmerkingen over uw voltooide test!",
+      "body": "U hebt belangrijke opmerkingen ontvangen over de test {{projectId}} die u op {{sessionDate}} hebt voltooid",
       "title": "Belangrijk commentaar op uw voltooide test",
       "whatSays": "<strong>Dit was de reactie van ons team:</strong>",
       "testLabel": "test",
