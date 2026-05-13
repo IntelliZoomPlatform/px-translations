@@ -591,7 +591,7 @@
         "body_text": "Klicken Sie auf den iCalendar-Anhang (ICS) in dieser E-Mail, um diese Veranstaltung zu Ihrem Kalender hinzuzufügen.",
         "title": "Zu Ihrem Kalender hinzufügen"
       },
-      "note_session": "<strong>Hinweis:</strong> Sollten Sie Ihre Sitzung <a href='{{entranceLink}}'>absagen</a> oder <a href='{{entranceLink}}'>verschieben</a> müssen, tun Sie dies bitte mindestens 24 Stunden vor Beginn. Häufige kurzfristige Absagen können zum Ausschluss aus unserem Panel führen.",
+      "note_session": "<strong>Hinweis:</strong> Sollten Sie Ihre Sitzung <a href='{{rescheduleCancelLink}}'>absagen</a> oder <a href='{{rescheduleCancelLink}}'>verschieben</a> müssen, tun Sie dies bitte mindestens 24 Stunden vor Beginn. Häufige kurzfristige Absagen können zum Ausschluss aus unserem Panel führen.",
       "session_link": "Wenn Sie möchten, können Sie den Link zur Session auch kopieren und einfügen: <br>{{sessionLink}}"
     },
     "time_slot_participant_no_show_email": {

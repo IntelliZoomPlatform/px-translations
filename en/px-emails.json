@@ -592,7 +592,7 @@
         "body_text": "Click the iCalendar (ICS) attachment in this email to add this event to your calendar.",
         "title": "Add to your calendar"
       },
-      "note_session": "<strong>Note:</strong> If you need to <a href='{{entranceLink}}'>cancel</a> or <a href='{{entranceLink}}'>reschedule</a>, please do so at least 24 hours before the session starts. Frequent last-minute cancellations may lead to removal from our panel.",
+      "note_session": "<strong>Note:</strong> If you need to <a href='{{rescheduleCancelLink}}'>cancel</a> or <a href='{{rescheduleCancelLink}}'>reschedule</a>, please do so at least 24 hours before the session starts. Frequent last-minute cancellations may lead to removal from our panel.",
       "session_link": "You can copy and paste the session link if you prefer: <br>{{sessionLink}}"
     },
     "time_slot_moderator_no_show_email": {

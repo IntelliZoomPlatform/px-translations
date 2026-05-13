@@ -591,7 +591,7 @@
         "body_text": "Klicka på iCalendar-bilagan (ICS) i det här e-postmeddelandet om du vill lägga till det här eventet i din kalender.",
         "title": "Lägg till i din kalender"
       },
-      "note_session": "<strong>Observera:</strong> Om du behöver <a href='{{entranceLink}}'>avboka</a> eller <a href='{{entranceLink}}'>omboka</a>, gör detta minst 24 timmar innan sessionen startar. Frekventa sena avbokningar kan leda till att du tas bort från vår panel.",
+      "note_session": "<strong>Observera:</strong> Om du behöver <a href='{{rescheduleCancelLink}}'>avboka</a> eller <a href='{{rescheduleCancelLink}}'>omboka</a>, gör detta minst 24 timmar innan sessionen startar. Frekventa sena avbokningar kan leda till att du tas bort från vår panel.",
       "session_link": "Du kan kopiera och klistra in sessionslänken om du föredrar det: <br>{{sessionLink}}"
     },
     "time_slot_participant_no_show_email": {

@@ -591,7 +591,7 @@
         "body_text": "Klik op de iCalendar (ICS)-bijlage in deze e-mail om deze gebeurtenis aan uw agenda toe te voegen.",
         "title": "Aan uw agenda toevoegen"
       },
-      "note_session": "<strong>Let op:</strong> Als u de sessie moet<a href='{{entranceLink}}'>afzeggenl</a> <a href='{{entranceLink}}'>verzetten</a>, doe dat dan minstens 24 uur voor aanvang. Als u vaker op het laatste moment afzegt, kunt u uit ons panel worden verwijderd.",
+      "note_session": "<strong>Let op:</strong> Als u de sessie moet<a href='{{rescheduleCancelLink}}'>afzeggenl</a> <a href='{{rescheduleCancelLink}}'>verzetten</a>, doe dat dan minstens 24 uur voor aanvang. Als u vaker op het laatste moment afzegt, kunt u uit ons panel worden verwijderd.",
       "session_link": "U kunt de link naar de sessie kopiëren en plakken indien u daar de voorkeur aan geeft: <br>{{sessionLink}}"
     },
     "time_slot_participant_no_show_email": {
