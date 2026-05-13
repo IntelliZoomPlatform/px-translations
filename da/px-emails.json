@@ -591,7 +591,7 @@
         "body_text": "Klik på iCalendar (ICS)-vedhæftningen i denne e-mail for at tilføje denne begivenhed til din kalender.",
         "title": "Tilføj til din kalender"
       },
-      "note_session": "<strong>Bemærk:</strong> Hvis du har brug for at <a href='{{entranceLink}}'>aflyse</a> eller <a href='{{entranceLink}}'>ombooke</a>, bedes du gøre det mindst 24 timer før sessionen starter. Hyppige aflysninger i sidste øjeblik kan føre til fjernelse fra vores panel.",
+      "note_session": "<strong>Bemærk:</strong> Hvis du har brug for at <a href='{{rescheduleCancelLink}}'>aflyse</a> eller <a href='{{rescheduleCancelLink}}'>ombooke</a>, bedes du gøre det mindst 24 timer før sessionen starter. Hyppige aflysninger i sidste øjeblik kan føre til fjernelse fra vores panel.",
       "session_link": "Du kan kopiere og indsætte sessionslinket, hvis du foretrækker det: <br>{{sessionLink}}"
     },
     "time_slot_participant_no_show_email": {

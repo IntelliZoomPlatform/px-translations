@@ -591,7 +591,7 @@
         "body_text": "Haz clic en el archivo adjunto iCalendar (ICS) de este correo electrónico para añadir este evento a tu calendario.",
         "title": "Añadir a tu calendario"
       },
-      "note_session": "<strong>Nota:</strong> Si necesitas <a href='{{entranceLink}}'>cancelar</a> o <a href='{{entranceLink}}'>reprogramar</a> la sesión, hazlo al menos 24 horas antes de que comience la sesión. Las cancelaciones frecuentes de última hora pueden dar lugar a la eliminación de nuestro panel.",
+      "note_session": "<strong>Nota:</strong> Si necesitas <a href='{{rescheduleCancelLink}}'>cancelar</a> o <a href='{{rescheduleCancelLink}}'>reprogramar</a> la sesión, hazlo al menos 24 horas antes de que comience la sesión. Las cancelaciones frecuentes de última hora pueden dar lugar a la eliminación de nuestro panel.",
       "session_link": "Si lo prefiere, puede copiar y pegar el enlace de la sesión: <br>{{sessionLink}}"
     },
     "time_slot_participant_no_show_email": {
