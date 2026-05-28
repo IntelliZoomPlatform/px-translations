@@ -586,6 +586,19 @@
       "subject": "Your Live Conversation has been cancelled",
       "title": "Session cancelled"
     },
+    "time_slot_reschedule_requested_email": {
+      "body_text": "The Customer has asked if you could choose a new time for your session. Your spot is reserved until you reschedule. If you don’t choose a new time, your spot will be released to another participant.",
+      "button": "Choose new time",
+      "original_session_cancelled": "Your original session has been automatically cancelled:",
+      "subject": "Action required: Reschedule your session",
+      "title": "Request to reschedule your session"
+    },
+    "time_slot_reschedule_cancelled_email": {
+      "body_text": "The customer has cancelled the request to reschedule your Live Conversation. You’ll no longer be able to book a new time.",
+      "context_text": "Customers sometimes need to cancel the request due to a change in their testing plans.",
+      "subject": "Request to reschedule cancelled",
+      "title": "Reschedule request cancelled"
+    },
     "time_slot_email": {
       "button": "Join session",
       "ics": {
