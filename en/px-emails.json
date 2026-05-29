@@ -575,6 +575,13 @@
       "subject": "Reminder: Your Live Conversation starts in 30 minutes!",
       "title": "Starting soon: Live Conversation"
     },
+    "time_slot_reminder_customer_reschedule_email": {
+      "body_text": "Just a reminder that the Customer has asked if you could choose a new time for your session. Your spot is still reserved, but will be released to another participant if you don’t choose a time.",
+      "button": "Choose new time",
+      "original_session_cancelled": "Your original session has been cancelled:",
+      "subject": "Reminder: Reschedule your session",
+      "title": "Reminder: Request to reschedule your session"
+    },
     "time_slot_canceled_email": {
       "apology": "We’re sorry for the inconvenience and trouble this may have caused.",
       "body_text": {
