@@ -607,7 +607,7 @@
       "title": "Reschedule request cancelled"
     },
     "time_slot_reschedule_successful_email": {
-      "bodyText": "Your new Live Conversation is booked for:",
+      "body_text": "Your new Live Conversation is booked for:",
       "subject": "Live Conversation reschedule confirmed",
       "title": "Rescheduled session confirmed"
     },
