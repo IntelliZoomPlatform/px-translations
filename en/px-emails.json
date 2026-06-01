@@ -606,6 +606,11 @@
       "subject": "Request to reschedule cancelled",
       "title": "Reschedule request cancelled"
     },
+    "time_slot_reschedule_successful_email": {
+      "bodyText": "Your new Live Conversation is booked for:",
+      "subject": "Live Conversation reschedule confirmed",
+      "title": "Rescheduled session confirmed"
+    },
     "time_slot_email": {
       "button": "Join session",
       "ics": {
