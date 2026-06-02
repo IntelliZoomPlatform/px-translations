@@ -574,6 +574,13 @@
       "subject": "Recordatorio: ¡Su Conversación en directo comienza en 30 minutos!",
       "title": "Comienza pronto: Conversación en directo"
     },
+    "time_slot_reminder_customer_reschedule_email": {
+      "body_text": "Recuerda que el Cliente quiere saber si podrías elegir una nueva hora para la sesión. El espacio sigue reservado, pero será liberado para otro participante si no eliges una hora.",
+      "button": "Elegir nueva hora",
+      "original_session_cancelled": "La sesión original se ha cancelado:",
+      "subject": "Recordatorio: cambia el horario de la sesión",
+      "title": "Recordatorio: Petición para cambiar el horario de la sesión"
+    },
     "time_slot_canceled_email": {
       "apology": "Sentimos las molestias que esto le haya podido causar.",
       "body_text": {
@@ -585,6 +592,19 @@
       "subject": "Su Conversación en directo ha sido cancelada",
       "title": "Sesión cancelada"
     },
+    "time_slot_reschedule_requested_email": {
+      "body_text": "El Cliente quiere saber si podrías elegir una nueva hora para la sesión. El espacio está reservado hasta que cambies el horario. Si no eliges una nueva hora, el espacio se liberará para otro participante.",
+      "button": "Elegir nueva hora",
+      "original_session_cancelled": "La sesión original se ha cancelado automáticamente:",
+      "subject": "Acción requerida: cambia el horario de la sesión",
+      "title": "Petición para cambiar el horario de la sesión"
+    },
+    "time_slot_reschedule_cancelled_email": {
+      "body_text": "El cliente ha cancelado la petición de cambio de horario para la Conversación en directo. Ya no podrás reservar una nueva hora.",
+      "context_text": "A veces los clientes tienen que cancelar la petición debido a cambios en sus planes de pruebas.",
+      "subject": "Petición para cambio de horario cancelada",
+      "title": "Petición de cambio de horario cancelada"
+    },
     "time_slot_email": {
       "button": "Unirse a la sesión",
       "ics": {
@@ -593,6 +613,12 @@
       },
       "note_session": "<strong>Nota:</strong> Si necesitas <a href='{{rescheduleCancelLink}}'>cancelar</a> o <a href='{{rescheduleCancelLink}}'>reprogramar</a> la sesión, hazlo al menos 24 horas antes de que comience la sesión. Las cancelaciones frecuentes de última hora pueden dar lugar a la eliminación de nuestro panel.",
       "session_link": "Si lo prefiere, puede copiar y pegar el enlace de la sesión: <br>{{sessionLink}}"
+    },
+    "time_slot_moderator_no_show_email": {
+      "body_text": "Desafortunadamente, el cliente se ha perdido la Conversación en directo (identificación de estudio {{identificacióndecampaña}}) de hoy <strong>{{fechadelasesión}}</strong>. Pedimos disculpas por las molestias que esto haya podido causarte. <br><br> Recibirás el pago completo por esta sesión puesto que te has unido y has esperado 10 minutos después de la hora programada de comienzo. Puedes comprobar el estado de tu pago en <strong> Tus pruebas> Historial</strong>.",
+      "subject": "El cliente se ha perdido la Conversación en directo",
+      "title": "El cliente se ha perdido la sesión",
+      "button": "Ir a Tus pruebas"
     },
     "time_slot_participant_no_show_email": {
       "body_text": "Tenía programada una conversación en directo (ID del estudio {{campaignId}}) hoy, <strong>{{sessionDate}}</strong>. Sin embargo, hemos observado que no ha asistido y no se le pagará por esta sesión.<br><br>Sabemos que a veces surgen imprevistos. Si no puede asistir, cancele o reprograme la sesión al menos 24 horas antes de la hora programada. De este modo, otro participante podrá ocupar su lugar.",

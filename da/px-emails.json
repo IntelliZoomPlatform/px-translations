@@ -574,6 +574,13 @@
       "subject": "Påmindelse: Din live-samtale starter om 30 minutter!",
       "title": "Starter snart: Live-samtale"
     },
+    "time_slot_reminder_customer_reschedule_email": {
+      "body_text": "Blot en påmindelse om, at kunden har spurgt, om du kan vælge et nyt tidspunk til din session. Din plads er stadig reserveret, men den vil blive frigivet til en anden deltager, hvis du ikke vælger et tidspunkt.",
+      "button": "Vælg nyt tidspunkt",
+      "original_session_cancelled": "Din oprindelige session er blevet annulleret:",
+      "subject": "Påmindelse: Omplanlæg din session",
+      "title": "Påmindelse: Anmodning om at omplanlægge din session"
+    },
     "time_slot_canceled_email": {
       "apology": "Vi beklager ulejligheden og problemerne dette måtte have forårsaget.",
       "body_text": {
@@ -585,6 +592,19 @@
       "subject": "Din live-samtale er blevet annulleret",
       "title": "Session annulleret"
     },
+    "time_slot_reschedule_requested_email": {
+      "body_text": "Kunden har spurgt, om du kan vælge et nyt tidspunkt til din session. Din plads vil være reserveret, indtil du omplanlægger. Hvis du ikke vælger et nyt tidspunkt, vil din plads blive frigivet til en anden deltager.",
+      "button": "Vælg nyt tidspunkt",
+      "original_session_cancelled": "Din oprindelige session er automatisk blevet annulleret:",
+      "subject": "Handling påkrævet: Omplanlæg din session",
+      "title": "Anmodning om at omplanlægge din session"
+    },
+    "time_slot_reschedule_cancelled_email": {
+      "body_text": "Kunden har annulleret anmodningen om at omplanlægge dit live-interview. Du vil ikke længere kunne booke en ny tid.",
+      "context_text": "Kunder er af og til nødt til at annullere anmodningen grundet ændringer i testplaner.",
+      "subject": "Anmodning om omplanlægning annulleret",
+      "title": "Anmodning om omplanlægning annulleret"
+    },
     "time_slot_email": {
       "button": "Deltag i session",
       "ics": {
@@ -593,6 +613,12 @@
       },
       "note_session": "<strong>Bemærk:</strong> Hvis du har brug for at <a href='{{rescheduleCancelLink}}'>aflyse</a> eller <a href='{{rescheduleCancelLink}}'>ombooke</a>, bedes du gøre det mindst 24 timer før sessionen starter. Hyppige aflysninger i sidste øjeblik kan føre til fjernelse fra vores panel.",
       "session_link": "Du kan kopiere og indsætte sessionslinket, hvis du foretrækker det: <br>{{sessionLink}}"
+    },
+    "time_slot_moderator_no_show_email": {
+      "body_text": "Desværre missede kunden dit live-interview (undersøgelses-id {{campaignId}}) i dag <strong>{{sessionDate}}</strong>. Vi beklager ulejligheden, dette måtte have forårsaget.<br><br>Eftersom du deltog og ventede 10 minutter efter det planlagte starttidspunkt, vil du stadig modtage fuld betaling for denne session. Du kan spore din betalingsstatus i <strong> Dine tests > Historik</strong>.",
+      "subject": "Kunden missede dit live-interview",
+      "title": "Kunden missede din session",
+      "button": "Gå til Dine tests"
     },
     "time_slot_participant_no_show_email": {
       "body_text": "Du var booket til en livesamtale (study ID {{campaignId}}) i dag <strong>{{sessionDate}}</strong>. Vi har dog bemærket, at du ikke deltog, og du vil ikke blive betalt for denne session.<br><br>Vi ved, at der nogle gange kan opstå problemer. Hvis du ikke kan deltage, bedes du aflyse eller ombooke mindst 24 timer før din planlagte session. Dette giver en anden deltager mulighed for at tage din plads.",

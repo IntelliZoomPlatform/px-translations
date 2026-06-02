@@ -574,6 +574,13 @@
       "subject": "Reminder: uw Livegesprek begint over 30 minuten!",
       "title": "Begint spoedig: Livegesprek"
     },
+    "time_slot_reminder_customer_reschedule_email": {
+      "body_text": "Ter herinnering: de klant heeft gevraagd of u een nieuwe tijd voor uw sessie kunt kiezen. Uw plek is nog steeds gereserveerd, maar wordt vrijgegeven aan een andere deelnemer:in als u geen tijd kiest.",
+      "button": "Kies een nieuwe tijd",
+      "original_session_cancelled": "Uw oorspronkelijke sessie is geannuleerd:",
+      "subject": "Herinnering: verzet uw sessie",
+      "title": "Herinnering: verzoek om uw sessie te verzetten"
+    },
     "time_slot_canceled_email": {
       "apology": "Onze excuses voor het ongemak.",
       "body_text": {
@@ -585,6 +592,19 @@
       "subject": "Uw Livegesprek is geannuleerd",
       "title": "Sessie geannuleerd"
     },
+    "time_slot_reschedule_requested_email": {
+      "body_text": "De klant heeft gevraagd of u een nieuwe tijd voor uw sessie kunt kiezen. Uw plek blijft gereserveerd totdat u de sessie verzet. Als u geen nieuwe tijd kiest, wordt uw plek vrijgegeven aan een andere deelnemer:in.",
+      "button": "Kies een nieuwe tijd",
+      "original_session_cancelled": "Uw oorspronkelijke sessie is automatisch geannuleerd:",
+      "subject": "Actie vereist: verzet uw sessie",
+      "title": "Verzoek om uw sessie te verzetten"
+    },
+    "time_slot_reschedule_cancelled_email": {
+      "body_text": "De klant heeft het verzoek om uw Live-Interview te verzetten geannuleerd. U kunt geen nieuwe tijd meer boeken.",
+      "context_text": "Klanten moeten het verzoek soms annuleren vanwege een wijziging in hun testplannen.",
+      "subject": "Verzoek om te verzetten geannuleerd",
+      "title": "Verzoek tot verzetten geannuleerd"
+    },
     "time_slot_email": {
       "button": "Deelnemen aan sessie",
       "ics": {
@@ -593,6 +613,12 @@
       },
       "note_session": "<strong>Let op:</strong> Als u de sessie moet<a href='{{rescheduleCancelLink}}'>afzeggenl</a> <a href='{{rescheduleCancelLink}}'>verzetten</a>, doe dat dan minstens 24 uur voor aanvang. Als u vaker op het laatste moment afzegt, kunt u uit ons panel worden verwijderd.",
       "session_link": "U kunt de link naar de sessie kopiëren en plakken indien u daar de voorkeur aan geeft: <br>{{sessionLink}}"
+    },
+    "time_slot_moderator_no_show_email": {
+      "body_text": "Helaas heeft de klant uw Live-Interview (studie-ID {{campaignId}}) vandaag op <strong>{{sessionDate}}</strong> gemist. Onze excuses voor het eventuele ongemak dat hierdoor is ontstaan.<br><br>Omdat u hebt deelgenomen en 10 minuten langer hebt gewacht dan de geplande starttijd, ontvangt u toch de volledige betaling voor deze sessie. U kunt de status van uw betaling volgen in <strong>Uw tests > Geschiedenis</strong>.",
+      "subject": "De klant heeft uw Live-Interview gemist",
+      "title": "De klant heeft uw sessie gemist",
+      "button": "Ga naar Uw tests"
     },
     "time_slot_participant_no_show_email": {
       "body_text": "Je stond vandaag, <strong>{{sessionDate}}</strong>, ingepland voor een live gesprek (studie-ID {{campaignId}}). We hebben echter gemerkt dat je niet aanwezig was en je zult voor deze sessie niet worden betaald.<br><br>We begrijpen dat er soms iets tussenkomt. Als je niet kunt komen, annuleer of verplaats je afspraak dan ten minste 24 uur voor aanvang van de geplande sessie. Zo kan een andere deelnemer je plaats innemen.",
