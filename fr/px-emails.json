@@ -361,7 +361,7 @@
       "resource_task_based": "Axé sur les tâches : ",
       "resource_task_based_link": "https://participant-support.usertesting.com/hc/en-us/articles/41323390700947-Participant-guide-How-to-give-great-feedback",
       "resource_task_based_link_text": "Comment donner un retour constructif",
-      "subject": "Nouveau test {{studyfee}} : un client vous a demandé",
+      "subject": "Nouveau test {{studyFee}} : un client vous a demandé",
       "test_details": "Détails du test :",
       "title": "Un client vous a de nouveau demandé !"
     },
@@ -574,6 +574,13 @@
       "subject": "Rappel : Votre conversation en direct commence dans 30 minutes !",
       "title": "Bientôt disponible : conversation en direct"
     },
+    "time_slot_reminder_customer_reschedule_email": {
+      "body_text": "Nous vous rappelons que le client vous a demandé de choisir un nouvel horaire pour votre session. Votre place est toujours réservée, mais elle sera attribuée à un autre participant si vous ne choisissez pas d'horaire.",
+      "button": "Choisissez un nouvel horaire",
+      "original_session_cancelled": "Votre session initiale a été annulée :",
+      "subject": "Rappel : reprogrammez votre session",
+      "title": "Rappel : demandez à reprogrammer votre session"
+    },
     "time_slot_canceled_email": {
       "apology": "Nous sommes désolés pour les inconvénients et les problèmes que cela a pu causer.",
       "body_text": {
@@ -585,6 +592,19 @@
       "subject": "Votre conversation en direct a été annulée",
       "title": "Séance annulée"
     },
+    "time_slot_reschedule_requested_email": {
+      "body_text": "Le client vous a demandé si vous pouviez choisir un nouvel horaire pour votre session. Votre place est réservée jusqu'à ce que vous fixiez une nouvelle date. Si vous ne choisissez pas de nouvel horaire, votre place sera attribuée à un autre participant.",
+      "button": "Choisissez un nouvel horaire",
+      "original_session_cancelled": "Votre session initiale a été automatiquement annulée :",
+      "subject": "Action requise : reprogrammez votre session",
+      "title": "Demande de reprogrammation de votre session"
+    },
+    "time_slot_reschedule_cancelled_email": {
+      "body_text": "Le client a annulé la demande de reprogrammation de votre conversation en direct. Vous ne pourrez plus réserver un nouveau créneau.",
+      "context_text": "Il arrive parfois que les clients doivent annuler leur demande en raison d'un changement dans leur planning de tests.",
+      "subject": "Demande de reprogrammation annulée",
+      "title": "Demande de reprogrammation annulée"
+    },
     "time_slot_email": {
       "button": "Rejoindre la session",
       "ics": {
@@ -593,6 +613,12 @@
       },
       "note_session": "<strong>Remarque :</strong> si vous devez <a href='{{rescheduleCancelLink}}'>annuler</a> ou <a href='{{rescheduleCancelLink}}'>reprogrammer</a> la séance, veuillez le faire au moins 24 heures avant qu'elle ne commence. Des annulations fréquentes de dernière minute peuvent entraîner votre exclusion de notre panel.",
       "session_link": "Vous pouvez copier et coller le lien de la séance si vous préférez : <br>{{sessionLink}}"
+    },
+    "time_slot_moderator_no_show_email": {
+      "body_text": "Malheureusement, le client n'a pas pu assister à votre conversation en direct (ID de projet {{campaignId}}) aujourd'hui <strong>{{sessionDate}}</strong>. Nous vous présentons nos excuses pour la gêne occasionnée.<br><br>Comme vous vous êtes connecté et avez attendu 10 minutes après l'heure de début prévue, vous recevrez tout de même le paiement intégral pour cette session. Vous pouvez suivre l'état de votre paiement dans <strong>Vos tests > Historique</strong>.",
+      "subject": "Le client n'a pas assisté à votre conversation en direct",
+      "title": "Le client n'a pas assisté à votre session",
+      "button": "Accéder à Vos tests"
     },
     "time_slot_participant_no_show_email": {
       "body_text": "Vous aviez rendez-vous pour une conversation en direct (ID d'étude {{campaignId}}) aujourd'hui <strong>{{sessionDate}}</strong>. Cependant, nous avons remarqué que vous n'y avez pas participé et vous ne serez donc pas rémunéré pour cette session.<br><br>Nous savons que des imprévus sont parfois possibles. Si vous ne pouvez pas vous présenter, veuillez annuler ou repousser votre rendez-vous au moins 24 heures avant la session prévue. Cela permettra à un autre participant de prendre votre place.",

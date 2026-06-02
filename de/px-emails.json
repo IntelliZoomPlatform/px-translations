@@ -574,6 +574,13 @@
       "subject": "Erinnerung: Ihre Live-Diskussion beginnt in 30 Minuten!",
       "title": "Beginnt demnächst: Live-Diskussion"
     },
+    "time_slot_reminder_customer_reschedule_email": {
+      "body_text": "Nur zur Erinnerung: Der Kunde hat gefragt, ob Sie einen neuen Termin für Ihre Sitzung wählen könnten. Ihr Platz ist weiterhin reserviert, wird jedoch an eine(n) andere(n) Teilnehmer:in vergeben, wenn Sie keinen Termin wählen.",
+      "button": "Neuen Termin wählen",
+      "original_session_cancelled": "Ihre ursprüngliche Sitzung wurde storniert:",
+      "subject": "Erinnerung: Verschieben Sie Ihre Sitzung",
+      "title": "Erinnerung: Bitte um Verschiebung Ihrer Sitzung"
+    },
     "time_slot_canceled_email": {
       "apology": "Wir entschuldigen uns für die Unannehmlichkeiten und den dadurch möglicherweise entstandenen Aufwand.",
       "body_text": {
@@ -585,6 +592,19 @@
       "subject": "Ihre Live-Diskussion wurde abgesagt",
       "title": "Session abgesagt"
     },
+    "time_slot_reschedule_requested_email": {
+      "body_text": "Der Kunde hat gefragt, ob Sie einen neuen Termin für Ihre Sitzung wählen könnten. Ihr Platz bleibt reserviert, bis Sie einen neuen Termin wählen. Wenn Sie keinen neuen Termin wählen, wird Ihr Platz an eine(n) andere(n) Teilnehmer:in vergeben.",
+      "button": "Neuen Termin wählen",
+      "original_session_cancelled": "Ihre ursprüngliche Sitzung wurde automatisch storniert:",
+      "subject": "Maßnahme erforderlich: Verschieben Sie Ihre Sitzung",
+      "title": "Bitte um Verschiebung Ihrer Sitzung"
+    },
+    "time_slot_reschedule_cancelled_email": {
+      "body_text": "Der Kunde hat die Bitte um Verschiebung Ihres Live-Interviews zurückgezogen. Sie können nun keinen neuen Termin mehr buchen.",
+      "context_text": "Kunden müssen gelegentlich die Anfrage aufgrund einer Änderung ihrer Testpläne stornieren.",
+      "subject": "Bitte um Terminverschiebung zurückgezogen",
+      "title": "Bitte um Terminverschiebung zurückgezogen"
+    },
     "time_slot_email": {
       "button": "Sitzung beitreten",
       "ics": {
@@ -593,6 +613,12 @@
       },
       "note_session": "<strong>Hinweis:</strong> Sollten Sie Ihre Sitzung <a href='{{rescheduleCancelLink}}'>absagen</a> oder <a href='{{rescheduleCancelLink}}'>verschieben</a> müssen, tun Sie dies bitte mindestens 24 Stunden vor Beginn. Häufige kurzfristige Absagen können zum Ausschluss aus unserem Panel führen.",
       "session_link": "Wenn Sie möchten, können Sie den Link zur Session auch kopieren und einfügen: <br>{{sessionLink}}"
+    },
+    "time_slot_moderator_no_show_email": {
+      "body_text": "Leider hat der Kunde Ihr Live-Interview (Studien-ID {{campaignId}}) heute, am <strong>{{sessionDate}}</strong>, versäumt. Wir bitten Sie für die Unannehmlichkeiten um Entschuldigung.<br><br>Da Sie sich angemeldet und 10 Minuten nach dem geplanten Beginn gewartet haben, erhalten Sie dennoch die volle Vergütung für diese Sitzung. Sie können Ihren Zahlungsstatus unter <strong>Ihre Tests > Verlauf</strong> einsehen.",
+      "subject": "Der Kunde hat Ihr Live-Interview versäumt",
+      "title": "Der Kunde hat Ihre Sitzung versäumt",
+      "button": "Zu ihren Tests"
     },
     "time_slot_participant_no_show_email": {
       "body_text": "Für Sie war heute <strong>{{sessionDate}}</strong> eine Live-Unterhaltung angesetzt (Studien-ID {{projectId}}). Allerdings haben wir festgestellt, dass Sie nicht teilgenommen haben. Sie werden daher für diese Sitzung nicht entlohnt.<br><br>Wir verstehen, dass manchmal unvorhergesehene Umstände eintreten. Wenn Sie einen Termin nicht einhalten können, sagen Sie ihn bitte mindestens 24 Stunden vorher ab oder vereinbaren Sie einen neuen Termin. Das gibt anderen Teilnehmern die Möglichkeit, Ihren Platz einzunehmen.",

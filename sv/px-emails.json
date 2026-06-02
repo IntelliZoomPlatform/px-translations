@@ -574,6 +574,13 @@
       "subject": "Påminnelse: Din livekonversation börjar om 30 minuter!",
       "title": "Startar snart: Livekonversation"
     },
+    "time_slot_reminder_customer_reschedule_email": {
+      "body_text": "Bara en påminnelse om att kunden har frågat om du kan välja en ny tid för din session. Din plats är fortfarande reserverad, men kommer att ges till en annan deltagare om du inte väljer en tid.",
+      "button": "Välj ny tid",
+      "original_session_cancelled": "Din ursprungliga session har avbokats:",
+      "subject": "Påminnelse: Boka om din session",
+      "title": "Påminnelse: Begäran om att boka om din session"
+    },
     "time_slot_canceled_email": {
       "apology": "Vi beklagar de olägenheter och problem som detta kan ha orsakat.",
       "body_text": {
@@ -585,6 +592,19 @@
       "subject": "Din livekonversation har avbrutits",
       "title": "Sessionen avbruten"
     },
+    "time_slot_reschedule_requested_email": {
+      "body_text": "Kunden har frågat om du kan välja en ny tid för din session. Din plats är reserverad tills du bokar om. Om du inte väljer en ny tid kommer din plats att ges till en annan deltagare.",
+      "button": "Välj ny tid",
+      "original_session_cancelled": "Din ursprungliga session har automatiskt avbokats:",
+      "subject": "Åtgärd krävs: Boka om din session",
+      "title": "Begäran om att boka om din session"
+    },
+    "time_slot_reschedule_cancelled_email": {
+      "body_text": "Kunden har avbrutit begäran om att boka om ditt livesamtal. Du kan inte längre boka en ny tid.",
+      "context_text": "Kunder behöver ibland avbryta begäran på grund av ändringar i sina testplaner.",
+      "subject": "Begäran om ombokning avbruten",
+      "title": "Begäran om ombokning avbruten"
+    },
     "time_slot_email": {
       "button": "Gå med i sessionen",
       "ics": {
@@ -593,6 +613,12 @@
       },
       "note_session": "<strong>Observera:</strong> Om du behöver <a href='{{rescheduleCancelLink}}'>avboka</a> eller <a href='{{rescheduleCancelLink}}'>omboka</a>, gör detta minst 24 timmar innan sessionen startar. Frekventa sena avbokningar kan leda till att du tas bort från vår panel.",
       "session_link": "Du kan kopiera och klistra in sessionslänken om du föredrar det: <br>{{sessionLink}}"
+    },
+    "time_slot_moderator_no_show_email": {
+      "body_text": "Tyvärr missade kunden ditt livesamtal (studie-ID {{campaignId}}) idag <strong>{{sessionDate}}</strong>. Vi ber om ursäkt för eventuella besvär detta orsakat.<br><br>Eftersom du anslöt och väntade i 10 minuter efter den schemalagda starttiden kommer du fortfarande att få full betalning för sessionen. Du kan spåra din betalningsstatus under <strong>Dina tester > Historik</strong>.",
+      "subject": "Kunden missade ditt livesamtal",
+      "title": "Kunden missade din session",
+      "button": "Gå till dina tester"
     },
     "time_slot_participant_no_show_email": {
       "body_text": "Du var inbokad på en direktkonversation (studie-ID {{projectId}}) idag <strong>{{sessionDate}}</strong>. Vi ser dock att du inte dök upp och kommer inte att betala dig för denna session.<br><br>Vi vet att saker kan komma emellan ibland. Om du inte kan komma ber vi dig att avboka eller boka om minst 24 timmar före den schemalagda sessionen. På så sätt kan en annan deltagare ta din plats.",
