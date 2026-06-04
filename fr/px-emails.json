@@ -345,6 +345,19 @@
       "subject": "Nouvelle opportunité de test disponible !",
       "title": "Nouveau test disponible"
     },
+    "participant_study_invitation_participant_list_email": {
+      "body": "Ce test {{studyFee}} est réservé à un groupe restreint de participants privilégiés. Inscrivez-vous vite !",
+      "button_book_session": "Réservez une session",
+      "button_take_test": "Accéder au test",
+      "subject": "Nouveau test {{studyFee}} : Vous avez été sélectionné(e) !",
+      "test_details": "Détails du test :",
+      "title": "Vous avez été sélectionné(e) !"
+    },
+    "participant_study_invitation_participant_list_reminder_email": {
+      "body_text": "Ce test {{studyFee}} est encore disponible pour un groupe restreint de participants privilégiés. Les places sont limitées.",
+      "subject": "Rappel : Test {{studyFee}} toujours disponible",
+      "title": "Rappel : Vous avez été sélectionné(e) !"
+    },
     "participant_study_invitation_specified_reminder_email": {
       "body_text": "L'un de nos clients a beaucoup apprécié votre avis et a demandé à ce que vous interveniez à nouveau. Nous vous rappelons de passer votre nouveau test et de <b>gagner {{studyFee}}</b>.",
       "subject": "Rappel : votre test {{studyFee}} est toujours en attente",

@@ -345,6 +345,19 @@
       "subject": "Ny testmöjlighet för dig!",
       "title": "Nytt test tillgängligt"
     },
+    "participant_study_invitation_participant_list_email": {
+      "body": "Detta {{studyFee}}-test är tillgängligt för en begränsad grupp favoritdeltagare. Boka en plats medan det fortfarande går!",
+      "button_book_session": "Boka en session",
+      "button_take_test": "Gå till test",
+      "subject": "Nytt {{studyFee}}-test: Du är utvald!",
+      "test_details": "Testdetaljer:",
+      "title": "Du är utvald!"
+    },
+    "participant_study_invitation_participant_list_reminder_email": {
+      "body_text": "Detta {{studyFee}}-test är fortfarande tillgängligt för ett begränsat antal favoritdeltagare. Platserna håller snabbt på att fyllas.",
+      "subject": "Påminnelse: {{studyFee}}-testet är fortfarande tillgängligt",
+      "title": "Påminnelse: Du är utvald!"
+    },
     "participant_study_invitation_specified_reminder_email": {
       "body_text": "En av våra kunder älskade din feedback och har efterfrågat dig igen. Detta är en påminnelse om att genomföra det nya testet och <b>tjäna {{studyFee}}</b>.",
       "subject": "Påminnelse: Ditt {{studyFee}}-test väntar fortfarande",

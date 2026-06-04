@@ -345,6 +345,19 @@
       "subject": "Nieuwe test beschikbaar voor jou!",
       "title": "Nieuwe test beschikbaar"
     },
+    "participant_study_invitation_participant_list_email": {
+      "body": "Deze {{studyFee}} test is beschikbaar voor een beperkt aantal geselecteerde deelnemers. Reserveer je plek nu het nog kan!",
+      "button_book_session": "Boek een sessie",
+      "button_take_test": "Ga naar test",
+      "subject": "Nieuwe {{studyFee}} test: Je bent geselecteerd!",
+      "test_details": "Details testen:",
+      "title": "Je bent geselecteerd!"
+    },
+    "participant_study_invitation_participant_list_reminder_email": {
+      "body_text": "Deze {{studyFee}} test is nog beschikbaar voor een beperkt aantal geselecteerde deelnemers. Plaatsen raken snel bezet.",
+      "subject": "Herinnering: {{studyFee}} test nog beschikbaar",
+      "title": "Herinnering: Je bent geselecteerd!"
+    },
     "participant_study_invitation_specified_reminder_email": {
       "body_text": "Een van onze klanten was erg enthousiast over je feedback en heeft je opnieuw gevraagd. Dit is een herinnering om je nieuwe test te voltooien en <b>{{studyFee}} te verdienen</b>.",
       "subject": "Herinnering: je test van {{studyFee}} wacht nog op je",
