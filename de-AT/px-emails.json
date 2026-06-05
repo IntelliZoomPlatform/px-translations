@@ -1,17 +1,1 @@
-{
-  "unified": {
-    "participant_study_invitation_participant_list_email": {
-      "body": "Dieser {{studyFee}}-Test ist für eine begrenzte Gruppe von als Favorit markierten Teilnehmenden verfügbar. Sichern Sie sich Ihren Platz, so lange er noch geöffnet ist.",
-      "button_book_session": "Sitzung buchen",
-      "button_take_test": "Zum Test",
-      "subject": "Neuer {{studyFee}}-Test: Sie wurden ausgewählt!",
-      "test_details": "Testinformationen:",
-      "title": "Sie wurden ausgewählt!"
-    },
-    "participant_study_invitation_participant_list_reminder_email": {
-      "body_text": "Dieser {{studyFee}}-Test ist für eine begrenzte Gruppe von als Favorit markierten Teilnehmenden verfügbar. Die Plätze sind bald vollständig belegt.",
-      "subject": "Erinnerung: {{studyFee}}-Test ist noch verfügbar",
-      "title": "Erinnerung: Sie wurden ausgewählt!"
-    }
-  }
-}
+{}
