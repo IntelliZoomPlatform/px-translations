@@ -345,6 +345,19 @@
       "subject": "New test opportunity for you!",
       "title": "New test available"
     },
+    "participant_study_invitation_participant_list_email": {
+      "body": "This {{studyFee}} test is available to a limited group of favorited participants. Grab your spot while it’s still open!",
+      "button_book_session": "Book a session",
+      "button_take_test": "Go to test",
+      "subject": "New {{studyFee}} test: You’ve been selected!",
+      "test_details": "Test details:",
+      "title": "You’ve been selected!"
+    },
+    "participant_study_invitation_participant_list_reminder_email": {
+      "body_text": "This {{studyFee}} test is still available to a limited group of favorited participants. Spots are filling fast.",
+      "subject": "Reminder: {{studyFee}} test still available",
+      "title": "Reminder: You’ve been selected!"
+    },
     "participant_study_invitation_specified_reminder_email": {
       "body_text": "One of our customers loved your feedback and requested you again. This is a reminder to complete your new test and <b>earn {{studyFee}}</b>.",
       "subject": "Reminder: Your {{studyFee}} test is still waiting",

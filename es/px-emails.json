@@ -345,6 +345,19 @@
       "subject": "¡Nueva oportunidad de prueba para ti!",
       "title": "Nueva prueba disponible"
     },
+    "participant_study_invitation_participant_list_email": {
+      "body": "Este test de {{studyFee}} está disponible para un grupo limitado de participantes preferentes. ¡Asegúrate un sitio mientras haya plazas!",
+      "button_book_session": "Reserva una sesión",
+      "button_take_test": "Ir al test",
+      "subject": "Test de {{studyFee}} nuevo: ¡estás entre los seleccionados!",
+      "test_details": "Detalles del test:",
+      "title": "¡Estás entre los seleccionados!"
+    },
+    "participant_study_invitation_participant_list_reminder_email": {
+      "body_text": "Este test de {{studyFee}} sigue disponible para un grupo limitado de participantes preferentes. Las plazas se acaban rápido.",
+      "subject": "Recordatorio: el test de {{studyFee}} sigue disponible",
+      "title": "Recordatorio: ¡estás entre los seleccionados!"
+    },
     "participant_study_invitation_specified_reminder_email": {
       "body_text": "A uno de nuestros clientes le han gustado tus comentarios y te ha solicitado de nuevo. Este es un recordatorio para que completes tu nueva prueba y <b>ganes {{studyFee}}</b>.",
       "subject": "Recordatorio: tu prueba de {{studyFee}} aún está pendiente",
