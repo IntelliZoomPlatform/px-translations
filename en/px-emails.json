@@ -376,7 +376,8 @@
       "resource_task_based_link_text": "How to give great feedback",
       "subject": "New {{studyFee}} test: A customer requested you",
       "test_details": "Test details:",
-      "title": "A customer requested you again!"
+      "title": "A customer requested you again!",
+      "about_this_test": "About this test:"
     },
     "paypal_integration_revoked_email": {
       "body_text": "We noticed your PayPal account has been disconnected from UserTesting.\n\nTo keep receiving invites, participate in paid tests, and receive any pending payments, go to your UserTesting Home page and connect your PayPal account again.",
