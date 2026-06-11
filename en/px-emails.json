@@ -343,7 +343,8 @@
       "button": "Go to test",
       "study_id": "Study ID for your reference: {{projectId}}",
       "subject": "New test opportunity for you!",
-      "title": "New test available"
+      "title": "New test available",
+      "about_this_test": "About this test:"
     },
     "participant_study_invitation_participant_list_email": {
       "body": "This {{studyFee}} test is available to a limited group of favorited participants. Grab your spot while it’s still open!",
