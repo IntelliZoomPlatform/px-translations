@@ -493,7 +493,7 @@
       "title": "For this test you will need:"
     },
     "time_slot_canceled_email": {
-      "apology": "We’re sorry for the inconvenience and trouble this may have caused.",
+      "apology": "We’re sorry for the inconvenience and trouble this may cause you.",
       "body_text": {
         "by_moderator": "The following Live Conversation (study ID {{projectId}}) has been cancelled by the customer due to run your session:",
         "by_participant": "As requested, we’ve cancelled your participation in the following {{sessionDuration}} minute Live Conversation:",
@@ -598,7 +598,7 @@
       "title": "Reminder: Request to reschedule your session"
     },
     "time_slot_canceled_email": {
-      "apology": "We’re sorry for the inconvenience and trouble this may have caused.",
+      "apology": "We’re sorry for the inconvenience and trouble this may cause you.",
       "body_text": {
         "by_moderator": "The following Live Conversation (study ID {{projectId}}) has been cancelled by the customer due to run your session:",
         "by_participant": "As requested, we’ve cancelled your participation in the following {{sessionDuration}} minute Live Conversation:",
@@ -611,7 +611,7 @@
     "time_slot_reschedule_requested_email": {
       "body_text": "The Customer has asked if you could choose a new time for your session. Your spot is reserved until you reschedule. If you don’t choose a new time, your spot will be released to another participant.",
       "button": "Choose new time",
-      "original_session_cancelled": "Your original session has been automatically cancelled:",
+      "original_session_cancelled": "Your original session has been cancelled:",
       "subject": "Action required: Reschedule your session",
       "title": "Request to reschedule your session"
     },
