@@ -343,7 +343,8 @@
       "button": "Ir a la prueba",
       "study_id": "ID del estudio para tu referencia: {{projectId}}",
       "subject": "¡Nueva oportunidad de prueba para ti!",
-      "title": "Nueva prueba disponible"
+      "title": "Nueva prueba disponible",
+      "about_this_test": "Sobre este test:"
     },
     "participant_study_invitation_participant_list_email": {
       "body": "Este test de {{studyFee}} está disponible para un grupo limitado de participantes preferentes. ¡Asegúrate un sitio mientras haya plazas!",
@@ -376,7 +377,8 @@
       "resource_task_based_link_text": "Cómo dar buenos comentarios",
       "subject": "Nueva prueba de {{studyFee}}: un cliente te ha solicitado",
       "test_details": "Información sobre la prueba:",
-      "title": "¡Un cliente te ha solicitado de nuevo!"
+      "title": "¡Un cliente te ha solicitado de nuevo!",
+      "about_this_test": "Sobre este test:"
     },
     "paypal_integration_revoked_email": {
       "body_text_one": "Hemos detectado que su cuenta PayPal ha sido desconectada de UserTesting.",
@@ -617,6 +619,11 @@
       "context_text": "A veces los clientes tienen que cancelar la petición debido a cambios en sus planes de pruebas.",
       "subject": "Petición para cambio de horario cancelada",
       "title": "Petición de cambio de horario cancelada"
+    },
+    "time_slot_reschedule_successful_email": {
+      "body_text": "Tu conversación en directo nueva está reservada para el:",
+      "subject": "Reprogramación de la conversación en directo confirmada",
+      "title": "Sesión reprogramada confirmada"
     },
     "time_slot_email": {
       "button": "Unirse a la sesión",

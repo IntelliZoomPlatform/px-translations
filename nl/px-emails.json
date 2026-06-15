@@ -343,7 +343,8 @@
       "button": "Naar de test",
       "study_id": "Studie-ID voor uw referentie: {{projectId}}",
       "subject": "Nieuwe test beschikbaar voor jou!",
-      "title": "Nieuwe test beschikbaar"
+      "title": "Nieuwe test beschikbaar",
+      "about_this_test": "Over deze test:"
     },
     "participant_study_invitation_participant_list_email": {
       "body": "Deze {{studyFee}} test is beschikbaar voor een beperkt aantal geselecteerde deelnemers. Reserveer je plek nu het nog kan!",
@@ -376,7 +377,8 @@
       "resource_task_based_link_text": "Zo geef je geweldige feedback",
       "subject": "Nieuwe test van {{studyFee}}: een klant heeft om je gevraagd",
       "test_details": "Testgegevens:",
-      "title": "Een klant heeft opnieuw om je gevraagd!"
+      "title": "Een klant heeft opnieuw om je gevraagd!",
+      "about_this_test": "Over deze test:"
     },
     "paypal_integration_revoked_email": {
       "body_text_one": "Het is ons opgevallen dat uw PayPal-account is ontkoppeld van UserTesting.",
@@ -617,6 +619,11 @@
       "context_text": "Klanten moeten het verzoek soms annuleren vanwege een wijziging in hun testplannen.",
       "subject": "Verzoek om te verzetten geannuleerd",
       "title": "Verzoek tot verzetten geannuleerd"
+    },
+    "time_slot_reschedule_successful_email": {
+      "body_text": "Je nieuwe Live-gesprek is gepland voor:",
+      "subject": "Verplaatsing van Live-gesprek bevestigd",
+      "title": "Verplaatste sessie bevestigd"
     },
     "time_slot_email": {
       "button": "Deelnemen aan sessie",

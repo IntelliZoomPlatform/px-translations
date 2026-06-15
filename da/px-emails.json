@@ -343,7 +343,8 @@
       "button": "Gå til test",
       "study_id": "Studie-ID til referencebrug: {{projectId}}",
       "subject": "Nyt testmulighed til dig!",
-      "title": "Ny test tilgængelig"
+      "title": "Ny test tilgængelig",
+      "about_this_test": "Om denne test:"
     },
     "participant_study_invitation_participant_list_email": {
       "body": "Denne {{studyFee}}-test er tilgængelig for en begrænset gruppe af udvalgte deltagere. Snup din plads, mens den stadig er åben!",
@@ -376,7 +377,8 @@
       "resource_task_based_link_text": "Hvordan giver man god feedback",
       "subject": "Ny {{studyFee}} test: En kunde anmodede dig om",
       "test_details": "Testdetaljer:",
-      "title": "En kunde anmodede dig igen!"
+      "title": "En kunde anmodede dig igen!",
+      "about_this_test": "Om denne test:"
     },
     "paypal_integration_revoked_email": {
       "body_text_one": "Vi bemærkede, at din PayPal-konto er blevet afbrudt fra UserTesting.",
@@ -617,6 +619,11 @@
       "context_text": "Kunder er af og til nødt til at annullere anmodningen grundet ændringer i testplaner.",
       "subject": "Anmodning om omplanlægning annulleret",
       "title": "Anmodning om omplanlægning annulleret"
+    },
+    "time_slot_reschedule_successful_email": {
+      "body_text": "Din nye livesamtale er booket til:",
+      "subject": "Omplanlægning af livesamtale bekræftet",
+      "title": "Omplanlagt session bekræftet"
     },
     "time_slot_email": {
       "button": "Deltag i session",
