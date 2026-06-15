@@ -591,7 +591,7 @@
       "title": "Starting soon: Live Conversation"
     },
     "time_slot_reminder_customer_reschedule_email": {
-      "body_text": "Just a reminder that the Customer has asked if you could choose a new time for your session. Your spot is still reserved, but will be released to another participant if you don’t choose a time.",
+      "body_text": "Your session was cancelled, but the customer still wants to reschedule with you. Your place is still being held, but will be released to another participant soon. Choose a new time now to keep your place and earn your incentive.",
       "button": "Choose new time",
       "original_session_cancelled": "Your original session has been cancelled:",
       "subject": "Reminder: Reschedule your session",
@@ -609,7 +609,7 @@
       "title": "Session cancelled"
     },
     "time_slot_reschedule_requested_email": {
-      "body_text": "The Customer has asked if you could choose a new time for your session. Your spot is reserved until you reschedule. If you don’t choose a new time, your spot will be released to another participant.",
+      "body_text": "Your session was cancelled, but the customer would like to reschedule with you. Choose a new time to keep your place and earn your incentive. If you do not reschedule, another participant will be invited.",
       "button": "Choose new time",
       "original_session_cancelled": "Your original session has been cancelled:",
       "subject": "Action required: Reschedule your session",
