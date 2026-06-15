@@ -343,7 +343,8 @@
       "button": "Zum Test",
       "study_id": "Studien-ID als Referenz: {{projectId}}",
       "subject": "Neue Testmöglichkeit für Sie!",
-      "title": "Neuer Test verfügbar"
+      "title": "Neuer Test verfügbar",
+      "about_this_test": "Informationen zu diesem Test:"
     },
     "participant_study_invitation_participant_list_email": {
       "body": "Dieser {{studyFee}} Test ist für eine begrenzte Gruppe an bevorzugten Teilnehmern verfügbar. Sichern Sie sich Ihren Platz, solange er zugänglich ist!",
@@ -376,7 +377,8 @@
       "resource_task_based_link_text": "So geben Sie exzellentes Feedback",
       "subject": "Neuer Test ({{studyFee}}): ein Kunde hat Ihre Meinung angefragt",
       "test_details": "Testinformationen:",
-      "title": "Ein Kunde hat erneut um Ihre Meinung gebeten!"
+      "title": "Ein Kunde hat erneut um Ihre Meinung gebeten!",
+      "about_this_test": "Informationen zu diesem Test:"
     },
     "paypal_integration_revoked_email": {
       "body_text_one": "uns ist aufgefallen, dass Ihr PayPal-Konto nicht länger mit UserTesting verbunden ist.",
@@ -617,6 +619,11 @@
       "context_text": "Kunden müssen gelegentlich die Anfrage aufgrund einer Änderung ihrer Testpläne stornieren.",
       "subject": "Bitte um Terminverschiebung zurückgezogen",
       "title": "Bitte um Terminverschiebung zurückgezogen"
+    },
+    "time_slot_reschedule_successful_email": {
+      "body_text": "Ihr neues Live-Interview ist gebucht für:",
+      "subject": "Neuansetzung des Live-Gesprächs bestätigt",
+      "title": "Neu angesetzte Sitzung bestätigt"
     },
     "time_slot_email": {
       "button": "Sitzung beitreten",

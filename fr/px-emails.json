@@ -343,7 +343,8 @@
       "button": "Accéder au test",
       "study_id": "Identifiant d'étude pour référence : {{projectId}}",
       "subject": "Nouvelle opportunité de test disponible !",
-      "title": "Nouveau test disponible"
+      "title": "Nouveau test disponible",
+      "about_this_test": "À propos de ce test :"
     },
     "participant_study_invitation_participant_list_email": {
       "body": "Ce test {{studyFee}} est réservé à un groupe restreint de participants privilégiés. Inscrivez-vous vite !",
@@ -376,7 +377,8 @@
       "resource_task_based_link_text": "Comment donner un retour constructif",
       "subject": "Nouveau test {{studyFee}} : un client vous a demandé",
       "test_details": "Détails du test :",
-      "title": "Un client vous a de nouveau demandé !"
+      "title": "Un client vous a de nouveau demandé !",
+      "about_this_test": "À propos de ce test :"
     },
     "paypal_integration_revoked_email": {
       "body_text_one": "Nous avons remarqué que votre compte PayPal a été déconnecté de UserTesting.",
@@ -617,6 +619,11 @@
       "context_text": "Il arrive parfois que les clients doivent annuler leur demande en raison d'un changement dans leur planning de tests.",
       "subject": "Demande de reprogrammation annulée",
       "title": "Demande de reprogrammation annulée"
+    },
+    "time_slot_reschedule_successful_email": {
+      "body_text": "Votre nouvelle conversation en direct est programmée pour :",
+      "subject": "Report de la conversation en direct confirmé",
+      "title": "Session reportée confirmée"
     },
     "time_slot_email": {
       "button": "Rejoindre la session",

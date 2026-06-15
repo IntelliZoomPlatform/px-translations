@@ -343,7 +343,8 @@
       "button": "Gå till testet",
       "study_id": "Studie-ID som referens: {{projectId}}",
       "subject": "Ny testmöjlighet för dig!",
-      "title": "Nytt test tillgängligt"
+      "title": "Nytt test tillgängligt",
+      "about_this_test": "Om detta test:"
     },
     "participant_study_invitation_participant_list_email": {
       "body": "Detta {{studyFee}}-test är tillgängligt för en begränsad grupp favoritdeltagare. Boka en plats medan det fortfarande går!",
@@ -376,7 +377,8 @@
       "resource_task_based_link_text": "Så ger du bra feedback",
       "subject": "Nytt {{studyFee}}-test: en kund har efterfrågat dig",
       "test_details": "Testinfo:",
-      "title": "En kund har efterfrågat dig igen!"
+      "title": "En kund har efterfrågat dig igen!",
+      "about_this_test": "Om detta test:"
     },
     "paypal_integration_revoked_email": {
       "body_text_one": "Vi noterade att ditt PayPal-konto har kopplats bort från TestKonto.",
@@ -617,6 +619,11 @@
       "context_text": "Kunder behöver ibland avbryta begäran på grund av ändringar i sina testplaner.",
       "subject": "Begäran om ombokning avbruten",
       "title": "Begäran om ombokning avbruten"
+    },
+    "time_slot_reschedule_successful_email": {
+      "body_text": "Den nya livekonversationen har bokats till:",
+      "subject": "Ombokning av livekonversationen har bekräftats",
+      "title": "Bekräftelse av ombokad session"
     },
     "time_slot_email": {
       "button": "Gå med i sessionen",
