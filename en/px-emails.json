@@ -308,6 +308,15 @@
       },
       "sign_off": "Thanks, <br>The UserTesting team"
     },
+    "panelist_new_message_email": {
+      "body_text": "You have a new message about test {{projectId}}.",
+      "button": "Reply to message",
+      "messaging_guidance": "read our messaging guidance",
+      "messaging_guidance_link": "#",
+      "note": "Note: Customers are not allowed to request your contact information or offer links to tests via message. These tests don’t appear on your dashboard and you won’t get paid.",
+      "subject": "You have a new message about test {{projectId}}",
+      "title": "New message"
+    },
     "panelist_problem_reported_email": {
       "body_text": "Thank you for reporting a problem with the test: {{projectId}}. While we can’t offer automatic compensation for an uncompleted test, we truly value the time you’ve invested in providing this information. <br> <br> We apologize for the issue you experienced and hope your next test goes smoothly!",
       "subject": "Problem reported successfully",
