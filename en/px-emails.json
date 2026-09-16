@@ -312,7 +312,7 @@
       "body_text": "You have a new message about test {{projectId}}.",
       "button": "Reply to message",
       "messaging_guidance": "read our messaging guidance",
-      "messaging_guidance_link": "#",
+      "messaging_guidance_link": "https://participant-support.usertesting.com/hc/articles/54848095821203",
       "note": "Note: Customers are not allowed to request your contact information or offer links to tests via message. These tests don’t appear on your dashboard and you won’t get paid.",
       "subject": "You have a new message about test {{projectId}}",
       "title": "New message"
