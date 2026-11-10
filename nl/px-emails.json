@@ -308,6 +308,13 @@
       },
       "sign_off": "Bedankt, <br>Het UserTesting-team"
     },
+    "panelist_inactivity_warning_email": {
+      "body_text": "We hebben gemerkt dat je al een tijdje niet actief bent geweest. Daarom sturen we je over 7 dagen geen testuitnodigingen meer.",
+      "body_text_secondary": "Wil je kansen blijven krijgen om beloningen te verdienen? Log gewoon in of reageer binnen de komende 7 dagen op een testuitnodiging, dan blijf je uitnodigingen ontvangen.",
+      "button": "Nu inloggen",
+      "subject": "Blijf testuitnodigingen ontvangen",
+      "title": "Blijf uitnodigingen voor testen krijgen"
+    },
     "panelist_problem_reported_email": {
       "body_text": "Dank voor het melden van een probleem met de test: {{projectId}}. We kunnen geen automatische compensatie  bieden voor een onvoltooide test, maar we waarderen de tijd die je aan het verstrekken van deze informatie hebt besteed. <br> <br> Onze excuses voor het ongemak en we hopen dat je volgende test soepel verloopt!",
       "subject": "Probleem succesvol gemeld",
@@ -319,6 +326,13 @@
       "subject": "Uw UserTesting-account is verwijderd",
       "third_body_text": "Indien u denkt dat dit een fout is of meer gegevens wilt, <a href=\"https://participant-support.usertesting.com/hc/requests/new\">neem dan contact met ons op</a> of bezoek ons <a href=\"https://participant-support.usertesting.com/hc\">Supportcentrum</a>.",
       "title": "UserTesting-account verwijderd"
+    },
+    "participant_low_activity_reminder_email": {
+      "body_text": "Klaar om weer te verdienen? Je hebt {{testsCount}} beschikbare testen, met de kans om tot {{totalEarnings}} te verdienen door je feedback te delen.",
+      "body_text_secondary": "Testen raken snel vol, dus log nu in om te ontdekken welke bij je passen.",
+      "button": "Passende testen vinden",
+      "subject": "Je kunt tot {{totalEarnings}} verdienen met testen",
+      "title": "Verdien tot {{totalEarnings}} met testen"
     },
     "participant_not_paid_email": {
       "advice": "Zorg er de volgende keer voor dat uw apparaat klaar is voor de test en doe uw best om feedback van topkwaliteit te leveren.",

@@ -308,6 +308,13 @@
       },
       "sign_off": "Danke <br>Das Team von UserTesting"
     },
+    "panelist_inactivity_warning_email": {
+      "body_text": "Uns ist aufgefallen, dass du schon eine Weile nicht aktiv warst. Daher senden wir dir in 7 Tagen keine Testeinladungen mehr.",
+      "body_text_secondary": "Möchtest du weiterhin Gelegenheiten erhalten, Prämien zu verdienen? Melde dich einfach an oder antworte innerhalb der nächsten 7 Tage auf eine Testeinladung, damit du weiterhin Einladungen erhältst.",
+      "button": "Jetzt anmelden",
+      "subject": "Weiterhin Testeinladungen erhalten",
+      "title": "Erhalte weiterhin Testeinladungen"
+    },
     "panelist_problem_reported_email": {
       "body_text": "danke, dass Sie ein Problem mit dem Test {{projectId}} gemeldet haben. Wir können Ihnen zwar keine automatische Vergütung für einen nicht abgeschlossenen Test anbieten, aber wissen es sehr zu schätzen, dass Sie sich die Zeit genommen haben, uns über den Sachverhalt zu informieren. <br> <br> Wir möchten uns für die Schwierigkeiten entschuldigen, die Ihnen entstanden sind, und hoffen, dass Ihr nächster Test reibungslos verläuft!",
       "subject": "Problem erfolgreich gemeldet",
@@ -319,6 +326,13 @@
       "subject": "Ihr UserTesting-Konto wurde gelöscht",
       "third_body_text": "Wenn dies Ihrer Meinung nach irrtümlich geschehen ist oder Sie weitere Informationen wünschen, bitte <a href=\"https://participant-support.usertesting.com/hc/requests/new\">kontaktieren Sie uns</a> oder besuchen Sie unser <a href=\"https://participant-support.usertesting.com/hc\">Hilfe-Center</a>.",
       "title": "UserTesting-Konto gelöscht"
+    },
+    "participant_low_activity_reminder_email": {
+      "body_text": "Bereit, wieder Geld zu verdienen? Du hast {{testsCount}} verfügbare Tests und die Möglichkeit, bis zu {{totalEarnings}} zu verdienen, indem du dein Feedback teilst.",
+      "body_text_secondary": "Tests sind oft schnell ausgebucht. Melde dich also jetzt an und finde heraus, welche zu dir passen.",
+      "button": "Passende Tests finden",
+      "subject": "Du könntest bis zu {{totalEarnings}} mit Tests verdienen",
+      "title": "Verdiene bis zu {{totalEarnings}} mit Tests"
     },
     "participant_not_paid_email": {
       "advice": "Bitte stellen Sie beim nächsten Mal sicher, dass Ihr Gerät für den Test bereit ist, und versuchen Sie, ein qualitativ hochwertiges Feedback zu geben.",

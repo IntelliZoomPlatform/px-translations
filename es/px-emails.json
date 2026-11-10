@@ -308,6 +308,13 @@
       },
       "sign_off": "Gracias, <br>El equipo de UserTesting"
     },
+    "panelist_inactivity_warning_email": {
+      "body_text": "Hemos notado que llevas un tiempo sin actividad, así que dejaremos de enviarte invitaciones a tests dentro de 7 días.",
+      "body_text_secondary": "¿Quieres seguir recibiendo oportunidades de ganar recompensas? Solo tienes que iniciar sesión o responder a una invitación a un test en los próximos 7 días para seguir recibiendo invitaciones.",
+      "button": "Iniciar sesión ahora",
+      "subject": "Sigue recibiendo invitaciones a tests",
+      "title": "Que no paren tus invitaciones a tests"
+    },
     "panelist_problem_reported_email": {
       "body_text": "Gracias por informar de un problema con la prueba: {{projectId}}. No podemos ofrecer una compensación automática para una prueba no completada; no obstante, valoramos de veras el tiempo que ha invertido en proporcionar esta información. <br> <br> ¡Pedimos disculpas por el problema que ha experimentado y esperamos que en su próxima prueba no haya complicaciones!",
       "subject": "Se ha informado del problema correctamente",
@@ -319,6 +326,13 @@
       "subject": "Su cuenta de User Testing ha sido eliminada",
       "third_body_text": "Si cree que se trata de un error o desea más información, <a href=\"https://participant-support.usertesting.com/hc/requests/new\">póngase en contacto con nosotros</a> o visite nuestro <a href=\"https://participant-support.usertesting.com/hc\">Centro de asistencia</a>.",
       "title": "Cuenta UserTesting eliminada"
+    },
+    "participant_low_activity_reminder_email": {
+      "body_text": "¿Te animas a volver a ganar dinero? Tienes {{testsCount}} tests disponibles, con oportunidades de ganar hasta {{totalEarnings}} compartiendo tu opinión.",
+      "body_text_secondary": "Los tests se completan rápido, así que inicia sesión ahora para descubrir cuáles encajan contigo.",
+      "button": "Buscar tests para ti",
+      "subject": "Podrías ganar hasta {{totalEarnings}} realizando tests",
+      "title": "Gana hasta {{totalEarnings}} realizando tests"
     },
     "participant_not_paid_email": {
       "advice": "La próxima vez, asegúrese de que su dispositivo está preparado para la prueba y haga todo lo posible para aportar comentarios de la mejor calidad.",
