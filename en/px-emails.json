@@ -308,6 +308,13 @@
       },
       "sign_off": "Thanks, <br>The UserTesting team"
     },
+    "panelist_inactivity_warning_email": {
+      "body_text": "We noticed you haven’t been active for a while, so we’ll stop sending you test invitations in 7 days.",
+      "body_text_secondary": "Want to keep receiving opportunities to earn rewards? Just log in or respond to a test invitation within the next 7 days to keep your invitations coming.",
+      "button": "Log in now",
+      "subject": "Keep receiving test invitations",
+      "title": "Keep your test invites coming"
+    },
     "panelist_new_message_email": {
       "body_text": "You have a new message about test {{projectId}}.",
       "button": "Reply to message",
@@ -328,6 +335,13 @@
       "subject": "Your UserTesting account has been deleted",
       "third_body_text": "If you think this is a mistake or would like further information, please <a href=\"https://participant-support.usertesting.com/hc/requests/new\">contact us</a> or visit our <a href=\"https://participant-support.usertesting.com/hc/en-us\">Support Center</a>.\n\n",
       "title": "UserTesting account deleted"
+    },
+    "participant_low_activity_reminder_email": {
+      "body_text": "Ready to start earning again? You have {{testsCount}} tests available, with opportunities to earn up to {{totalEarnings}} by sharing your feedback.",
+      "body_text_secondary": "Tests can fill up quickly, so log in now to find out which ones are a match for you.",
+      "button": "Find matching tests",
+      "subject": "You could earn up to {{totalEarnings}} taking tests",
+      "title": "Earn up to {{totalEarnings}} taking tests"
     },
     "participant_not_paid_email": {
       "advice": "Next time, make sure your device is ready for the test and do your best to provide top-quality feedback.",

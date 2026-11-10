@@ -308,6 +308,13 @@
       },
       "sign_off": "Merci, <br>L'équipe UserTesting"
     },
+    "panelist_inactivity_warning_email": {
+      "body_text": "Nous avons remarqué que tu n'as pas eu d'activité depuis un moment, nous cesserons donc de t'envoyer des invitations à des tests dans 7 jours.",
+      "body_text_secondary": "Tu veux continuer à recevoir des occasions de gagner des récompenses ? Il te suffit de te connecter ou de répondre à une invitation à un test dans les 7 prochains jours pour continuer à recevoir des invitations.",
+      "button": "Se connecter maintenant",
+      "subject": "Continuer à recevoir des invitations à des tests",
+      "title": "Continue à recevoir des invitations à des tests"
+    },
     "panelist_problem_reported_email": {
       "body_text": "Nous vous remercions d'avoir signalé un problème concernant le test :{{projetId}}. Bien que nous ne puissions pas offrir de compensation automatique pour un test inachevé, nous apprécions vraiment le temps que vous avez investi en fournissant ces informations. <br> <br> Nous nous excusons pour le problème que vous avez rencontré et espérons que votre prochain test se déroulera sans problème !",
       "subject": "Problème signalé avec succès",
@@ -319,6 +326,13 @@
       "subject": "Votre compte UserTesting a été supprimé",
       "third_body_text": "Si vous pensez qu'il s'agit d'une erreur ou si vous souhaitez obtenir de plus amples informations, veuillez <a href=\"https://participant-support.usertesting.com/hc/requests/new\">nous contacter</a> ou visiter notre <a href=\"https://participant-support.usertesting.com/hc\">Centre d'assistance</a>.",
       "title": "Compte UserTesting supprimé"
+    },
+    "participant_low_activity_reminder_email": {
+      "body_text": "Envie de recommencer à gagner de l'argent ? Tu as {{testsCount}} tests disponibles, avec la possibilité de gagner jusqu'à {{totalEarnings}} en partageant ton avis.",
+      "body_text_secondary": "Les places partent vite, alors connecte-toi dès maintenant pour découvrir les tests qui te correspondent.",
+      "button": "Trouver des tests adaptés",
+      "subject": "Tu pourrais gagner jusqu'à {{totalEarnings}} en participant à des tests",
+      "title": "Gagne jusqu'à {{totalEarnings}} en participant à des tests"
     },
     "participant_not_paid_email": {
       "advice": "La prochaine fois, assurez-vous que votre appareil est prêt pour le test et faites de votre mieux pour fournir une opinion de qualité optimale.",

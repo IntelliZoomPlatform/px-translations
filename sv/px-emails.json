@@ -308,6 +308,13 @@
       },
       "sign_off": "Tack, <br>UserTesting-teamet"
     },
+    "panelist_inactivity_warning_email": {
+      "body_text": "Vi har märkt att du inte har varit aktiv på ett tag, så vi slutar skicka testinbjudningar till dig om 7 dagar.",
+      "body_text_secondary": "Vill du fortsätta få möjligheter att tjäna belöningar? Logga bara in eller svara på en testinbjudan inom de närmaste 7 dagarna, så fortsätter inbjudningarna att komma.",
+      "button": "Logga in nu",
+      "subject": "Fortsätt få testinbjudningar",
+      "title": "Se till att testinbjudningarna fortsätter komma"
+    },
     "panelist_problem_reported_email": {
       "body_text": "Tack för din rapport om ett problem med testet: {{projectId}}. Vi kan inte erbjuda automatisk kompensation för ett oavslutat test men vi uppskattar verkligen tiden du har lagt ner på att tillhandahålla denna information. <br> <br> Vi ber om ursäkt för problemet som du stötte på och hoppas att nästa test löper problemfritt för dig!",
       "subject": "Problemet har rapporterats",
@@ -319,6 +326,13 @@
       "subject": "Ditt TestKonto har raderats",
       "third_body_text": "Om du anser att detta är ett misstag eller vill ha ytterligare information, <a href=\"https://participant-support.usertesting.com/hc/requests/new\">kontakta oss</a> eller besök vårt <a href=\"https://participant-support.usertesting.com/hc\">supportcenter</a>.",
       "title": "TestKonto raderat"
+    },
+    "participant_low_activity_reminder_email": {
+      "body_text": "Redo att börja tjäna pengar igen? Du har {{testsCount}} tillgängliga tester, med möjlighet att tjäna upp till {{totalEarnings}} genom att dela din feedback.",
+      "body_text_secondary": "Testerna fylls snabbt, så logga in nu för att se vilka som passar dig.",
+      "button": "Hitta passande tester",
+      "subject": "Du kan tjäna upp till {{totalEarnings}} på att göra tester",
+      "title": "Tjäna upp till {{totalEarnings}} på att göra tester"
     },
     "participant_not_paid_email": {
       "advice": "Se till att din enhet är redo för testet nästa gång och gör ditt bästa för att ge feedback av högsta kvalitet.",
